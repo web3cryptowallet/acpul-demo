@@ -20,6 +20,7 @@ r0:=k==0;
 
 _ @sys.llog;
 #llog.host(u0, 192,168,0,100, 8995);
+llog.host(u0, 192,168,8,101, 8995);
 llog.enable(u0, 1);
 
 draw(r0, 1001);
@@ -294,7 +295,7 @@ node.new.this.ex(r0, PAINT, 0);
 };
 
 PHOTONEO 7500;
-node.new.this.ex(r0, PHOTONEO, 0);
+#node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
 l0:=node.new.this.ex(r0, CLOCK, 0);
@@ -303,13 +304,15 @@ node.prop.x.s(u0, l0, 550);
 NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
 
-#neo.v2.tests 7990;
-node.new.this.ex(r0, 7990, 0);
+neo.v2.tests 7990;
+#node.new.this.ex(r0, neo.v2.tests, 0);
 
 _ @core.gl3d;
 #l0:=node.new.this.ex(r0, gl3d.test.main, 0);
 #node.prop.s.s(u0, l0, 0.4);
 
+merge.life 1100000;
+node.new.this.ex(r0, merge.life, 0);
 
 system.monitor {
  new.monitor {
