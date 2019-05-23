@@ -233,7 +233,7 @@ TEXTUREMAN.TEST 7200;
 #node.new.this.ex(r0, TEXTUREMAN.TEST, 0);
 
 IMGNODE 7040;
-node.new.this.ex(r0, IMGNODE, 0);
+#node.new.this.ex(r0, IMGNODE, 0);
 
 Арестович 788;
 #node.new.this.ex(r0, Арестович, 0);
@@ -305,7 +305,7 @@ NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
 
 neo.v2.tests 7990;
-#node.new.this.ex(r0, neo.v2.tests, 0);
+node.new.this.ex(r0, neo.v2.tests, 0);
 
 _ @core.gl3d;
 #l0:=node.new.this.ex(r0, gl3d.test.main, 0);
