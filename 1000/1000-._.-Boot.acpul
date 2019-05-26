@@ -305,15 +305,25 @@ node.prop.x.s(u0, l0, 550);
 NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
 
+
+
 neo.v2.tests 7990;
 node.new.this.ex(r0, neo.v2.tests, 0);
+
+
 
 _ @core.gl3d;
 #l0:=node.new.this.ex(r0, gl3d.test.main, 0);
 #node.prop.s.s(u0, l0, 0.4);
 
+
+
 merge.life 1100000;
 node.new.this.ex(r0, merge.life, 0);
+
+
+
+
 
 system.monitor {
  new.monitor {
