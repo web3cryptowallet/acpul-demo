@@ -319,14 +319,14 @@ _ @core.gl3d;
 
 
 merge.life 1100000;
-#node.new.this.ex(r0, merge.life, 0);
+node.new.this.ex(r0, merge.life, 0);
 
 # APPS [
 
 _ @sys.os;
 _ @os.apps;
 
-#node.new.this.ex(r0, os.apps.run, 0);
+node.new.this.ex(r0, os.apps.run, 0);
 
 # APPS ]
 
