@@ -363,7 +363,7 @@ system.monitor {
 };
 #system.monitor.init(0, 0);
 
-
+# OS/IDE [
 
 _ @sys.os;
 _ @os.main;
@@ -377,6 +377,8 @@ system.monitor.init(0, 940);
 if (r0) {
 # os.main.ide.new(r0, 0,525,1, 600,400);
 };
+
+# OS/IDE ]
 
 # keyboard [
 
