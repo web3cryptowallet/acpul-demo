@@ -214,12 +214,6 @@ if (r0) {
 #!node.new.this.ex(r0, 20000, 0);
 #!node.new.this.ex(r0, 11000, 0);
 
-# !!!
-#
-# LIVE CODING TRANSLATION COMMING SOON...
-#
-# !!!
-
 #s:=sin(t)*0.5+1;
 
 DOTA.MAIN 3202;
