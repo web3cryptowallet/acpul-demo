@@ -274,7 +274,7 @@ NOOBSMILE 10024000;
 
 HIPSTER.BANNER 10025000;
 l0:=node.new.this.ex(r0, HIPSTER.BANNER, 0);
-node.prop.x.s(r0, l0, 1000);
+node.prop.x.s(r0, l0, 100);
 
 
 
