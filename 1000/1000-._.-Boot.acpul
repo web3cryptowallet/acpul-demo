@@ -220,7 +220,7 @@ if (r0) {
 #
 # !!!
 
-s:=rnd(u0)*0.5+1;
+s:=sin(u0)*0.5+1;
 
 DOTA.MAIN 3202;
 #node.new.this.ex(r0, DOTA.MAIN, 0);
