@@ -273,7 +273,7 @@ NOOBSMILE 10024000;
 #node.new.this.ex(r0, NOOBSMILE, 0);
 
 HIPSTER.BANNER 10025000;
-#node.new.this.ex(r0, HIPSTER.BANNER, 0);
+node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
 
 
@@ -331,8 +331,6 @@ node.new.this.ex(r0, os.apps.run, 0);
 # APPS ]
 
 
-HIPSTER.BANNER 10025000;
-node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
 
 
