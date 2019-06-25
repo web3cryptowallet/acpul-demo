@@ -292,7 +292,7 @@ VG {
  PAINT 10160000;
  node.new.this.ex(r0, PAINT, 0);
 };
-
+VG;
 
 PHOTONEO 7500;
 #node.new.this.ex(r0, PHOTONEO, 0);
@@ -374,7 +374,7 @@ if (r0) {
 system.monitor.init(0, 940);
 
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+# os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
