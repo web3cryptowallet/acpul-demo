@@ -292,7 +292,6 @@ VG {
  PAINT 10160000;
  node.new.this.ex(r0, PAINT, 0);
 };
-VG;
 
 PHOTONEO 7500;
 #node.new.this.ex(r0, PHOTONEO, 0);
@@ -330,6 +329,7 @@ node.new.this.ex(r0, os.apps.run, 0);
 # APPS ]
 
 
+VG;
 
 
 
