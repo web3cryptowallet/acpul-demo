@@ -311,8 +311,8 @@ neo.v2.tests 7990;
 
 
 _ @core.gl3d;
-#l0:=node.new.this.ex(r0, gl3d.test.main, 0);
-#node.prop.s.s(u0, l0, 0.4);
+l0:=node.new.this.ex(r0, gl3d.test.main, 0);
+node.prop.s.s(u0, l0, 0.4);
 
 
 
@@ -376,7 +376,7 @@ if (r0) {
 system.monitor.init(0, 940);
 
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+# os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
