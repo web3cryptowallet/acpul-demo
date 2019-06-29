@@ -180,7 +180,7 @@ zoomA
 #zoom2;
 #zoom3;
 #zoom4;
- zoomA;
+#zoomA;
 
 zoomX
 {
