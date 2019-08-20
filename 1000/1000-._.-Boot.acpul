@@ -224,7 +224,7 @@ SHADER.TEST 37000;
 #node.new.this.ex(r0, SHADER.TEST, 0);
 
 COGX 6000;
-node.new.this.ex(r0, COGX, 0);
+#node.new.this.ex(r0, COGX, 0);
 
 FILTERS 7000;
 #node.new.this.ex(r0, FILTERS, 0);
@@ -298,7 +298,7 @@ PHOTONEO 7500;
 
 CLOCK 10170000;
 l0:=node.new.this.ex(r0, CLOCK, 0);
-node.prop.x.s(u0, l0, 550);
+#node.prop.x.s(u0, l0, 550);
 
 NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
