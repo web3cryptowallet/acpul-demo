@@ -332,7 +332,7 @@ node.new.this.ex(r0, os.apps.run, 0);
 #VG;
 
 BIRD 7340;
-#node.new.this.ex(r0, BIRD, 0);
+node.new.this.ex(r0, BIRD, 0);
 
 
 system.monitor {
