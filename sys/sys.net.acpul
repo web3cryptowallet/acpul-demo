@@ -60,9 +60,14 @@ net
  # connection ]
  # status [
 
+ srv {
+  net 0;
+  llog 1;
+ };
+
  get.status {
-  # type, mode, dma0:url, dma1:err
-  # type:
+  # srv, mode, dma0:url, dma1:err
+  # srv:
   #  0 - net
   #  1 - llog
   # mode:
