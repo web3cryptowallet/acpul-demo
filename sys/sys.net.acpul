@@ -65,12 +65,13 @@ net
   # type:
   #  0 - net
   #  1 - llog
-  # mode - 0 
-  #  returns:
-  #   0 - not connected
-  #   1 - connected
-  #   dma0 url
-  #   dma1 err
+  # mode:
+  #  0 - default 
+  #   returns:
+  #    0 - not connected
+  #    1 - connected
+  #    dma0 url
+  #    dma1 err
   io(u0, 19924, _0,_1,_2,_3);
  };
 
