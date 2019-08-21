@@ -61,15 +61,17 @@ net
  # status [
 
  get.status {
-  # type, dma0:url, dma1:err
+  # type, mode, dma0:url, dma1:err
+  # type:
   #  0 - net
   #  1 - llog
-  # returns:
-  #  0 - not connected
-  #  1 - connected
-  #  dma0 url
-  #  dma1 err
-  io(u0, 19924, _0,_1,_2,0);
+  # mode - 0 
+  #  returns:
+  #   0 - not connected
+  #   1 - connected
+  #   dma0 url
+  #   dma1 err
+  io(u0, 19924, _0,_1,_2,_3);
  };
 
  # status ]
