@@ -69,6 +69,7 @@ net
   #  1 - connected
   #  dma0 url
   #  dma1 err
+  io(u0, 19924, _0,0,0,0);
  };
 
  # status ]
