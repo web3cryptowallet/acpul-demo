@@ -61,12 +61,14 @@ net
  # status [
 
  get.status {
-  # type, dma0:url.out, dma1:err.out
+  # type, dma0:url, dma1:err
   #  0 - net
   #  1 - llog
   # returns:
   #  0 - not connected
   #  1 - connected
+  #  dma0 url
+  #  dma1 err
  };
 
  # status ]
