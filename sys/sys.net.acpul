@@ -66,7 +66,7 @@ net
  };
 
  get.status {
-  # srv, mode, dma0:url, dma1:err
+  # srv, mode, url:out, err:out
   # srv:
   #  0 - net
   #  1 - llog
@@ -75,8 +75,8 @@ net
   #   returns:
   #    0 - not connected
   #    1 - connected
-  #    dma0 url
-  #    dma1 err
+  #    url out
+  #    err out
   io(u0, 19924, _0,_1,_2,_3);
  };
 
