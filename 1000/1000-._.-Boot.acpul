@@ -201,7 +201,7 @@ new.Edit1
  node.new.this.object(r0, 1002, 0);
 
 if (r0) {
-# os.main.panel.new(l0, 0,925,1, 768,100);
+ os.main.panel.new(l0, 0,925,1, 768,100);
 };
 
 #new.Edit1();
