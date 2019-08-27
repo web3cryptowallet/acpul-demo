@@ -1,7 +1,7 @@
 ### 5500 monitor
 # p0 - mode: 0-mem 1-disk 2-battery
 
-r0:=0;#k==0;
+r0:=k==0;
 
 draw(r0, 5501);
 
