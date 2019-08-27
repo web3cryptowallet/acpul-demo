@@ -332,35 +332,6 @@ BIRD 7340;
 #node.new.this.ex(r0, BIRD, 0);
 
 
-system.monitor {
- new.monitor {
-  # t, x,y
-  monitor 5500;
-  l0:=node.new.this.ex(r0, monitor, _0);
-  node.prop.x.s(r0, l0, _1);
-  node.prop.y.s(r0, l0, _2);
-  node.prop.s.s(r0, l0, 0.5);
- };
-
- init {
-  # dx,dy
-  dx _0;
-  dy _1;
-  if (r0) {
-   new.monitor(0, 450+dx,10+dy);
-   new.monitor(1, 350+dx,10+dy);
-   new.monitor(2, 250+dx,10+dy);
-
-   monitor.sync.status 5510;
-   l0:=node.new.this.ex(r0, monitor.sync.status, _0);
-   node.prop.x.s(r0, l0, 180+dx);
-   node.prop.y.s(r0, l0, 35+dy);
-   node.prop.s.s(r0, l0, 0.5);
-  };
- };
-};
-#system.monitor.init(0, 0);
-
 # OS/IDE [
 
 _ @sys.os;
@@ -369,6 +340,9 @@ _ @os.main;
 if (r0) {
  os.main.panel.new(l0, 0,925,1, 768,100);
 };
+
+test.monitor.old 5590;
+_ @test.monitor.old;
 
 system.monitor.init(0, 850);
 
