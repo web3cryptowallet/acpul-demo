@@ -27,3 +27,11 @@ _ @sys.heap;
 
 heap.start;
 
+# old [
+
+#spr1 1;
+#node.new.this(r0, spr1, 1001, 0);
+#create(r0, -30000, -1, 100, 1001, 0);
+
+# old ]
+
