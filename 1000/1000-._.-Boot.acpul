@@ -410,33 +410,6 @@ cpu.debug.log.to.console(r0, 1);
 
 cpu.step(u0);
 
-#
-# TEST STACK
-#
-stack.a 60000;
-stack.size 10000;
-stack.head u15;
-stack.m u16;
-
-#watch(u2);
-#if(u2){watch(u2);};
-#if(r0, watch(2), 0);
-#stack.head l15;
-#stack.m l14;
-
-_ @sys.stack.base;
-
-#stack.start;
-
-#stack.test;
-#watch(stack.head);
-
-###
-
-_ @sys.heap;
-
-heap.start;
-
 #x:=500;
 #y:=500;
 
