@@ -291,7 +291,7 @@ VG {
 };
 
 PHOTONEO 7500;
-#node.new.this.ex(r0, PHOTONEO, 0);
+node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
 #l0:=node.new.this.ex(r0, CLOCK, 0);
@@ -304,7 +304,7 @@ NEBULA 11800;
 # NEO V2 [
 
 neo.v2.tests 7990;
-node.new.this.ex(r0, neo.v2.tests, 0);
+#node.new.this.ex(r0, neo.v2.tests, 0);
 
 # NEO V2 ]
 
