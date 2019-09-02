@@ -7,6 +7,9 @@ _ @1010;
 _ @sys.node;
 _ @sys.touch;
 _ @sys.net;
+_ @sys.cpu;
+
+cpu.init(r0);
  
 # NETWORKING [
 
@@ -385,9 +388,6 @@ TOUCH.DEBUG 1006;
 
 #watch(r0);
 
-_ @sys.cpu;
-
-cpu.init(r0);
 cpu.debug.errors.console(r0, 1);
 cpu.debug.errors.enabled(r0, 1);
 cpu.debug.log.to.xcode.console(r0, 1);
