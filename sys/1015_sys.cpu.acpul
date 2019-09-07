@@ -225,11 +225,11 @@ cpu.get.formula.name
 
 cpu.formulas.save
  # u0, a, b
- io(_0, 500439, _1, _2, 0, 0);
+ io(_0, 500442, _1, _2, 0, 0);
 
 cpu.reset
  # u0, a, b
- io(_0, 500439, _1, _2, 0, 0);
+ io(_0, 500443, _1, _2, 0, 0);
 
 # debugger [
 
