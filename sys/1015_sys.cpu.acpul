@@ -223,8 +223,13 @@ cpu.get.formula.name
  io(_0, 500439, _1, _2, _3, 0);
 
 
-cpu.formulas.save(u0, 0, 0);
-cpu.reset(u0, 0, 0);
+cpu.formulas.save
+ # u0, a, b
+ io(_0, 500439, _1, _2, 0, 0);
+
+cpu.reset
+ # u0, a, b
+ io(_0, 500439, _1, _2, 0, 0);
 
 # debugger [
 
