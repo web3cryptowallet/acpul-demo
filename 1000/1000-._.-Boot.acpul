@@ -298,8 +298,8 @@ PHOTONEO 7500;
 #node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
-#l0:=node.new.this.ex(r0, CLOCK, 0);
-#node.prop.x.s(u0, l0, 550);
+l0:=node.new.this.ex(r0, CLOCK, 0);
+node.prop.x.s(u0, l0, 550);
 
 NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
@@ -354,7 +354,7 @@ _ @test.monitor.old;
 system.monitor.init(0, 850);
 
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+# os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
