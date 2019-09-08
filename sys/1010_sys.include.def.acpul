@@ -92,3 +92,5 @@ dbg gdbg(u0, _0);
 sinc sin(_0)/_0;
 
 # math.future ]
+
+r+=1;
