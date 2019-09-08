@@ -344,7 +344,7 @@ _ @sys.os;
 _ @os.main;
 
 if (r0) {
- os.main.panel.new(l0, 0,925,1, 768,100);
+# os.main.panel.new(l0, 0,925,1, 768,100);
 };
 
 test.monitor.old 5590;
