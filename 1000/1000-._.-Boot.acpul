@@ -266,7 +266,7 @@ LIVECOMMENT 10018000;
 #VG;
 
 UNLIMITED.LIFE 70000;
-node.new.this.ex(r0, UNLIMITED.LIFE, 0);
+#node.new.this.ex(r0, UNLIMITED.LIFE, 0);
 
 NOOBMAN 10007000;
 #node.new.this.ex(r0, NOOBMAN, 0);
@@ -355,7 +355,7 @@ _ @test.monitor.old;
 system.monitor.init(0, 850);
 
 if (r0) {
-# os.main.ide.new(r0, 0,525,1, 600,400);
+ os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
