@@ -338,7 +338,7 @@ node.new.this.ex(r0, os.apps.run, 0);
 #VG;
 
 BIRD 7340;
-#node.new.this.ex(r0, BIRD, 0);
+node.new.this.ex(r0, BIRD, 0);
 
 # OS/IDE [
 
@@ -355,7 +355,7 @@ _ @test.monitor.old;
 system.monitor.init(0, 850);
 
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+# os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
