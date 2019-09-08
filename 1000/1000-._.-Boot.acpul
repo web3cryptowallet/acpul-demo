@@ -243,7 +243,7 @@ TESTS 5000;
 #node.new.this.ex(r0, TESTS, 0);
 
 EDITOR 8000;
-#node.new.this.ex(r0, EDITOR, 0);
+node.new.this.ex(r0, EDITOR, 0);
 
 BOT 7350;
 #node.new.this.ex(r0, BOT, 0);
@@ -298,8 +298,8 @@ PHOTONEO 7500;
 #node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
-l0:=node.new.this.ex(r0, CLOCK, 0);
-node.prop.x.s(u0, l0, 550);
+#l0:=node.new.this.ex(r0, CLOCK, 0);
+#node.prop.x.s(u0, l0, 550);
 
 NEBULA 11800;
 #node.new.this.ex(r0, NEBULA, 0);
