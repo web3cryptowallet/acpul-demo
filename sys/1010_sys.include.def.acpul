@@ -93,5 +93,4 @@ sinc sin(_0)/_0;
 
 # math.future ]
 
-r+=1;
-s:=0.5;
+r+=0.01;
