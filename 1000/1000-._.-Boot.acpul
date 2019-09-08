@@ -316,8 +316,8 @@ neo.v2.tests 7990;
 # WALLET [
 
 _ @core.gl3d;
-#l0:=node.new.this.ex(r0, gl3d.test.main, 0);
-#node.prop.s.s(u0, l0, 0.4);
+l0:=node.new.this.ex(r0, gl3d.test.main, 0);
+node.prop.s.s(u0, l0, 0.4);
 
 # WALLET ]
 
@@ -338,7 +338,7 @@ node.new.this.ex(r0, os.apps.run, 0);
 #VG;
 
 BIRD 7340;
-node.new.this.ex(r0, BIRD, 0);
+#node.new.this.ex(r0, BIRD, 0);
 
 # OS/IDE [
 
