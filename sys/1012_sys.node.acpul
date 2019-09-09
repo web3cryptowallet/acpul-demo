@@ -294,7 +294,9 @@ node {_;
   io(_0, 7228, _1, 0,0,0);
 
  get.boundig.box
-  # u0, nid -> x,y,w,h
+  # u0, nid, mode 
+  # mode 0: x,y,w,h
+  # mode 1: x0,y0,x1,y1 
   io(_0, 7229, _1, 0,0,0);
 
 # child.count
