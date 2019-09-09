@@ -299,7 +299,7 @@ node {_;
   # mode 1: x0,y0,x1,y1 
   io(_0, 7229, _1, 0,0,0);
 
- get.child.count
+ get.children.count
   # u0, nid -> count
   io(_0, 7230, _1, 0,0,0);
 
