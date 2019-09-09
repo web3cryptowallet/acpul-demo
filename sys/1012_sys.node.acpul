@@ -293,7 +293,7 @@ node {_;
   # u0, nid
   io(_0, 7228, _1, 0,0,0);
 
- get.boundig.box
+ get.bounding.box
   # u0, nid, mode 
   # nid==-1 - all children
   # mode 0: x,y,w,h
