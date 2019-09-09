@@ -293,6 +293,10 @@ node {_;
   # u0, nid
   io(_0, 7228, _1, 0,0,0);
 
+ get.boundig.box
+  # u0, nid -> x,y,w,h
+  io(_0, 7229, _1, 0,0,0);
+
 # child.count
 #  # u0, nid
 #  io(_0, 7214, _1, 0,0,0);
