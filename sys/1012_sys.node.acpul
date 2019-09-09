@@ -300,11 +300,11 @@ node {_;
   io(_0, 7229, _1, 0,0,0);
 
  get.child.count
-  # u0, nid
+  # u0, nid -> count
   io(_0, 7230, _1, 0,0,0);
 
  get.child.at
-  # u0, nid,i
+  # u0, nid,i -> nid
   io(_0, 7231, _1, _2, 0,0);
 
 # child.count
