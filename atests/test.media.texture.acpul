@@ -40,6 +40,7 @@ if (t > 10) {
  media.video.recorder.stop(recording, tex);
  recording:=0;
 };
+watch(t);
 
 _ @sys.node;
 
@@ -80,7 +81,7 @@ rr0 recording * rnd(u0)<0.5;
 TMT.PARTICLE 5402;
 #node.new.this.ex4(rr0, TMT.PARTICLE, 50,150,0,0);
 
-y:=-200;
+#y:=-200;
 t+=dt;
 
 k:=1;
