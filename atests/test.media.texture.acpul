@@ -45,7 +45,7 @@ if (t > 10) {
 
 if (recording==0) {
 };
- s-=s*0.1;
+ s-=s*0.01;
 
 _ @sys.node;
 
