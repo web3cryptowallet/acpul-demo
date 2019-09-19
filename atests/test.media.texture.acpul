@@ -115,8 +115,8 @@ _ @1100;
 _ @util.gl.std;
 _ @sys.display;
 
-w 100;
-h 100;
+#w 100;
+#h 100;
 
  gl.shader.use(70014,75082);
  gl.rect0(5, 0,0, w,h);
