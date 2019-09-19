@@ -106,8 +106,22 @@ form {
 };
 form;
 
+# DRAW TRI [
+
 _ @1010;
 _ @sys.node;
+_ @sys.obj;
+_ @1100;
+_ @util.gl.std;
+_ @sys.display;
+
+ gl.shader.use(70014,75082);
+ gl.rect0(5, 0,0, w,h);
+
+# DRAW TRI ]
+
+#_ @1010;
+#_ @sys.node;
 _ @sys.media;
 
 tex r8;
