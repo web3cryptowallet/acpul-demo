@@ -43,10 +43,6 @@ if (t > 10) {
 };
 #watch(t);
 
-if (recording==0) {
-};
- s-=s*0.01;
-
 _ @sys.node;
 
 n0 r6;
