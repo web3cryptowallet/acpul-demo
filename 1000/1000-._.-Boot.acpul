@@ -311,7 +311,6 @@ neo.v2.tests 7990;
 #node.new.this.ex(r0, neo.v2.tests, 0);
 
 # NEO V2 ]
-
 # WALLET [
 
 _ @core.gl3d;
@@ -319,22 +318,26 @@ _ @core.gl3d;
 #node.prop.s.s(u0, l0, 0.4);
 
 # WALLET ]
-
+# GAME MERGE.LIFE [
 
 merge.life 1100000;
 #node.new.this.ex(r0, merge.life, 0);
 
+# GAME MERGE.LIFE ]
 # APPS [
 
 _ @sys.os;
 _ @os.apps;
 
-node.new.this.ex(r0, os.apps.run, 0);
+#node.new.this.ex(r0, os.apps.run, 0);
 
 # APPS ]
+# VIDEO RECORD [
 
 test.media.texture 5400;
-l0:=node.new.this.ex(r0, test.media.texture, 0);
+#l0:=node.new.this.ex(r0, test.media.texture, 0);
+
+# VIDEO RECORD ]
 
 #VG;
 
