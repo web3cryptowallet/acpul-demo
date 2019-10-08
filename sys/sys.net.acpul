@@ -57,6 +57,18 @@ net
   port(_4);
  };
 
+ # url [
+
+ url.connect
+  # r0, url
+  io(_0, 19970, _1,0,0,0);
+
+ url.get
+  # r0 -> url
+  io(_0, 19971, 0,0,0,0);
+
+ # url ]
+
  # connection ]
  # status [
 
