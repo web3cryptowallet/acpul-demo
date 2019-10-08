@@ -57,6 +57,7 @@ net
   port(_4);
  };
 
+ # connection ]
  # url [
 
  url.connect
@@ -68,8 +69,6 @@ net
   io(_0, 19971, 0,0,0,0);
 
  # url ]
-
- # connection ]
  # status [
 
  srv {
