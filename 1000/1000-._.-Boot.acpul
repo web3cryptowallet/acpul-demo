@@ -1,3 +1,7 @@
+### 999 boot.strings
+
+S.acpu.server.url0 ws://192.168.8.100:8077;
+
 ### 1000  ._. Boot
 # test needCompile [
 a1001 @1001;
