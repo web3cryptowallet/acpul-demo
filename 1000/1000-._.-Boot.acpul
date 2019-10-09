@@ -31,22 +31,18 @@ if (r0) {
 
 # NETWORKING [
 
-url0 l12;
-url0:=S.acpu.server.url0;
-net.url.connect(r0, url0);
+#url0 l12;
+#url0:=S.acpu.server.url0;
+#net.url.connect(r0, url0);
 
-#net.host(192,168,0,100, 8077);
-#net.host(144,247,5,7, 8077);
+net.host(192,168,8,103, 8077);
 net.editor.update(1);
 net.reset.after.update(1, 1000);
 
 # NETWORKING ]
 
 _ @sys.llog;
-#llog.host(u0, 192,168,0,100, 8995);
-#llog.host(u0, 192,168,8,102, 8995);
-#llog.host(u0, 144,247,5,7, 8995);
-llog.host(u0, 192,168,8,100, 8995);
+llog.host(u0, 192,168,8,103, 8995);
 llog.enable(u0, 1);
 
 draw(r0, 1001);
