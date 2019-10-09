@@ -31,7 +31,8 @@ if (r0) {
 
 # NETWORKING [
 
-url0 S.acpu.server.url0;
+url0 l12;
+url0:=S.acpu.server.url0;
 net.url.connect(r0, url0);
 
 #net.host(192,168,0,100, 8077);
