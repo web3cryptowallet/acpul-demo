@@ -15,6 +15,8 @@ _ @sys.cpu;
 
 cpu.init(r0);
 
+r0:=k==0;
+
 # i18n [
 
 _ @1100;
@@ -29,21 +31,20 @@ if (r0) {
 
 # NETWORKING [
 
-#net.host(192,168,0,100, 8077);
-#net.host(144,247,5,7, 8077);
 url0:=S.acpu.server.url0;
 net.url.connect(r0, url0);
+#net.host(192,168,0,100, 8077);
+#net.host(144,247,5,7, 8077);
 net.editor.update(1);
 net.reset.after.update(1, 1000);
 
 # NETWORKING ]
 
-r0:=k==0;
-
 _ @sys.llog;
 #llog.host(u0, 192,168,0,100, 8995);
 #llog.host(u0, 192,168,8,102, 8995);
-llog.host(u0, 144,247,5,7, 8995);
+#llog.host(u0, 144,247,5,7, 8995);
+llog.host(u0, 192,168,8,100, 8995);
 llog.enable(u0, 1);
 
 draw(r0, 1001);
