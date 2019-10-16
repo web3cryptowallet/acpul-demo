@@ -35,7 +35,7 @@ if (r0) {
 #url0:=S.acpu.server.url0;
 #net.url.connect(r0, url0);
 
-net.host(192,168,8,102, 8077);
+net.host(192,168,8,103, 8077);
 net.editor.update(1);
 net.reset.after.update(1, 1000);
 
