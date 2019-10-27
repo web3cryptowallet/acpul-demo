@@ -351,10 +351,9 @@ node.new.this.ex(r0, os.apps.run, 0);
 # VIDEO RECORD [
 
 test.media.texture 5400;
-l0:=node.new.this.ex(r0, test.media.texture, 0);
+#l0:=node.new.this.ex(r0, test.media.texture, 0);
 
 # VIDEO RECORD ]
-
 
 #VG;
 
