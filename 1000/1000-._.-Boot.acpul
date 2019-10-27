@@ -337,7 +337,7 @@ _ @core.gl3d;
 # GAME MERGE.LIFE [
 
 merge.life 1100000;
-#node.new.this.ex(r0, merge.life, 0);
+node.new.this.ex(r0, merge.life, 0);
 
 # GAME MERGE.LIFE ]
 # APPS [
