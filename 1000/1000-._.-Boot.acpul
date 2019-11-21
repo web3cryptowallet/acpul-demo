@@ -341,9 +341,12 @@ neo.v2.tests 7990;
 # NEO V2 ]
 # WALLET [
 
-_ @core.gl3d;
-l0:=node.new.this.ex(r0, gl3d.test.main, 0);
-node.prop.s.s(u0, l0, 0.4);
+new.wallet {
+ _ @core.gl3d;
+ l0:=node.new.this.ex(r0, gl3d.test.main, 0);
+ node.prop.s.s(u0, l0, 0.4);
+};
+#new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
