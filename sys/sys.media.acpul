@@ -8,6 +8,8 @@ media.step
  # u0, dt
  io(_0, 500904, _1,0,0, 0);
 
+# FONT [
+
 #media.nvg.load.font
 # # u0, pool,id,i
 # io(_0, 500810, 0,0, 0,0);
@@ -50,7 +52,8 @@ media.ft.draw
  # u0, dma(p0,p1,p2)
  io(_0, 500903, _1,_2,_3, 0);
 
-
+# FONT ]
+# VIDEO RECORD [
 
 media.video.recorder.texture {
  # u0, videofile(pool,id), mode, width,height -> tex
@@ -66,7 +69,35 @@ media.video.recorder.stop
  # u0, tex
  io(_0, 500833, _1, 0,0,0);
 
-# input [
+media.video.recorder.set.duration
+ # u0, tex, duration
+ io(_0, 500834, _1, _2, 0,0);
+
+# VIDEO RECORD ]
+# TWITCH [
+
+media.twitch.attach.texture
+ # u0, tex
+ io(_0, 500850, _1, 0,0,0);
+
+media.twitch.set.url
+ # u0, url:string
+ io(_0, 500851, _1, 0,0,0);
+
+media.twitch.start
+ # u0
+ io(_0, 500852, 0,0,0,0);
+
+media.twitch.stop
+ # u0
+ io(_0, 500853, 0,0,0,0);
+
+media.twitch.set.param
+ # u0, param, value
+ io(_0, 500854, _1, _2, 0,0);
+
+# TWITCH ]
+# INPUT [
 
 media.input.pool 950;
 
@@ -89,4 +120,4 @@ media.input.get.display.keyboard.rect
  # u0
  io(_0, 500952, _1, 0,0,0);
 
-# input ]
+# INPUT ]
