@@ -390,7 +390,7 @@ _ @test.monitor.old;
 system.monitor.init(0, 850);
 
 if (r0) {
-# os.main.ide.new(r0, 0,525,1, 600,400);
+ os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 # OS/IDE ]
@@ -406,7 +406,7 @@ HEROLESSUS 10009000;
 #new.wallet;
 
 BOOTLOADER 8000000;
-node.new.this.ex(r0, BOOTLOADER, 0);
+#node.new.this.ex(r0, BOOTLOADER, 0);
 
 # keyboard ]
 
