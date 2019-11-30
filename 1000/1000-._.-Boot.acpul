@@ -385,6 +385,10 @@ _ @sys.os;
 _ @os.main;
 
 if (r0) {
+ os.main.ide.new(r0, 0,525,1, 600,400);
+};
+
+if (r0) {
  os.main.panel.new(l0, 0,925,1, 768,100);
 };
 
@@ -393,9 +397,6 @@ _ @test.monitor.old;
 
 system.monitor.init(0, 850);
 
-if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
-};
 
 
 
