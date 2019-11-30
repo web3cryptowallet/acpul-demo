@@ -399,6 +399,7 @@ system.monitor.init(0, 850);
 
 # livenotify [
 
+if (r0) {
  _ @1100;
  _ @util.livenotify;
 
@@ -409,6 +410,7 @@ system.monitor.init(0, 850);
  livenotify.log.v(0, S.print.MEGA.LVL80, cell0);
  livenotify.log.v(0, S.print.THE.BEST, cell0);
  livenotify.log.v(0, S.print.HEROLESSUS, cell0);
+};
 };
 
 # livenotify ]
