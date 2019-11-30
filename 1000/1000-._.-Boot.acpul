@@ -404,7 +404,7 @@ if (r0) {
  _ @util.livenotify;
 
 # notify0:=livenotify.log.v(0, S.print.cell0, cell0);
- livenotify.log.v(0, S.print.cell0, cell0);
+# livenotify.log.v(0, S.print.cell0, cell0);
  livenotify.log.v(0, S.print.HAPPY.BIRTHDAY, cell0);
  livenotify.log.v(0, S.print.SUPER.COOL, cell0);
  livenotify.log.v(0, S.print.MEGA.LVL80, cell0);
