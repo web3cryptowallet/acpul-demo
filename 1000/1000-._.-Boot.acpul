@@ -411,7 +411,6 @@ if (r0) {
  livenotify.log.v(0, S.print.THE.BEST, cell0);
  livenotify.log.v(0, S.print.HEROLESSUS, cell0);
 };
-};
 
 # livenotify ]
 
