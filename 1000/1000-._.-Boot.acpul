@@ -397,7 +397,21 @@ _ @test.monitor.old;
 
 system.monitor.init(0, 850);
 
+# livenotify [
 
+ _ @1100;
+ _ @util.livenotify;
+
+# notify0:=livenotify.log.v(0, S.print.cell0, cell0);
+ livenotify.log.v(0, S.print.cell0, cell0);
+ livenotify.log.v(0, S.print.HAPPY.BIRTHDAY, cell0);
+ livenotify.log.v(0, S.print.SUPER.COOL, cell0);
+ livenotify.log.v(0, S.print.MEGA.LVL80, cell0);
+ livenotify.log.v(0, S.print.THE.BEST, cell0);
+ livenotify.log.v(0, S.print.HEROLESSUS, cell0);
+};
+
+# livenotify ]
 
 
 # OS/IDE ]
