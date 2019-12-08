@@ -121,3 +121,46 @@ media.input.get.display.keyboard.rect
  io(_0, 500952, _1, 0,0,0);
 
 # INPUT ]
+# AUDIO [
+
+media.audio.setup
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.start
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.stop
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.create.sample
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.load.sample.buf
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.play.sample
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.sample.set.adsr
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.sample.set.length
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.sample.write
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+media.audio.sample.read
+ # u0
+ io(_0, 500960, 0, 0,0,0);
+
+# AUDIO ]
