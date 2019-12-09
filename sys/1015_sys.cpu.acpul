@@ -209,6 +209,7 @@ cpu.device.model {
 };
 
  
+cpu.get.device.type
  # u0 -> type, major, minor
  io(_0, 500437, 0,0,0,0);
 
