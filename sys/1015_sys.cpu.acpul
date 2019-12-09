@@ -196,7 +196,7 @@ cpu.device.model {
  ipad4 3;
  ipad.air 4;
  ipad.mini2 4;
- ipad.mini3 4;
+ ipad.mini3 4; 
  ipad.mini4 5;
  ipad.air2 5;
  ipad.pro 6;
@@ -208,7 +208,7 @@ cpu.device.model {
  ipod6 7;
 };
 
-cpu.get.device.type
+ 
  # u0 -> type, major, minor
  io(_0, 500437, 0,0,0,0);
 
@@ -317,6 +317,20 @@ debugger.get.object.links { # ???
 
 debugger.get.object.locations { # ???
  # u0, mode, obj, fid
+ debugger.cmd.param0(_0, 0,0,0);
+ debugger.cmd(_0, 10, _1, _2, _3);
+};
+
+debugger.get.errors {
+ # u0, type, fid
+ # type: 0/1 - formulas/shaders errors
+ debugger.cmd.param0(_0, 0,0,0);
+ debugger.cmd(_0, 10, _1, _2, _3);
+};
+
+debugger.get.ast {
+ # fid, mode
+ # type: 0 - default
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 10, _1, _2, _3);
 };
