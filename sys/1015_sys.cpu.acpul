@@ -231,7 +231,6 @@ cpu.formulas.save
 cpu.reset
  # u0, fid, b
  io(_0, 500443, _1, _2, 0, 0);
-u13:=1;
 
 # core ]
 # debugger [
