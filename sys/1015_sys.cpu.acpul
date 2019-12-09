@@ -329,10 +329,10 @@ debugger.get.errors {
 };
 
 debugger.get.ast {
- # u0, bid0, fid, mode
+ # u0, fid, mode
  # mode: 0 - default
  debugger.cmd.param0(_0, 0,0,0);
- debugger.cmd(_0, 13, _1, _2, _3);
+ debugger.cmd(_0, 13, _1, _2, 0);
 };
 
 # debugger ]
