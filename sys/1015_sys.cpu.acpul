@@ -322,14 +322,14 @@ debugger.get.object.locations { # ???
 };
 
 debugger.get.errors {
- # u0, type, id
+ # u0, bid0, type, id
  # type: 0/1 - formulas/shaders errors
  debugger.cmd.param0(_0, 0,0,0);
- debugger.cmd(_0, 10, _1, _2, 0);
+ debugger.cmd(_0, 10, _1, _2, _3);
 };
 
 debugger.get.ast {
- # fid, mode
+ # u0, bid0, fid, mode
  # mode: 0 - default
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 10, _1, _2, _3);
