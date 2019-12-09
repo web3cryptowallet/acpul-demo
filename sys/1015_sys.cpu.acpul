@@ -231,6 +231,7 @@ cpu.formulas.save
 cpu.reset
  # u0, fid, b
  io(_0, 500443, _1, _2, 0, 0);
+u13:=1;
 
 # core ]
 # debugger [
@@ -280,8 +281,6 @@ debugger.frame.get.operations.by.line.data
 debugger.frame.get.operations.by.line.data.text
  # u0, line, ops.out
  debugger.frame.get.operations.by.line(_0, 2, _1, _2);
-
-u13:=1;
 
 debugger.frame.get.cmd
  # u0, type, v0,v1,v2
