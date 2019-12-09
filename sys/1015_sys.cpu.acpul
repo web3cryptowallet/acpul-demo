@@ -325,7 +325,7 @@ debugger.get.errors {
  # u0, type, fid
  # type: 0/1 - formulas/shaders errors
  debugger.cmd.param0(_0, 0,0,0);
- debugger.cmd(_0, 10, _1, _2, _3);
+ debugger.cmd(_0, 10, _1, _2, 0);
 };
 
 debugger.get.ast {
