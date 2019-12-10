@@ -327,7 +327,9 @@ debugger.error.a {
   line 2;
   col 3;
  };           
- b1 {message 0;};
+ b1 {
+  message 0;
+ };
 };
 
 debugger.get.errors {
@@ -335,6 +337,26 @@ debugger.get.errors {
  # type: 0/1 - formulas/shaders errors
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 12, _1, _2, _3);
+};
+
+debugger.ast.node.a {
+ b0 {
+  type 0;
+  uid 1;
+  sign 2;
+  charPos 3;
+  col 4;
+  line 5;
+        buf0->putc(la->endCharPos);
+        buf0->putc(la->endCol);
+        buf0->putc(la->endLine);
+        buf0->putc(la->formulaId);
+        buf0->putc(la->kind);
+        buf0->putc(la->pos);
+ };
+ b1 {
+  child.nodes 0;
+ };
 };
 
 debugger.get.ast {
