@@ -347,12 +347,12 @@ debugger.ast.node.a {
   charPos 3;
   col 4;
   line 5;
-        buf0->putc(la->endCharPos);
-        buf0->putc(la->endCol);
-        buf0->putc(la->endLine);
-        buf0->putc(la->formulaId);
-        buf0->putc(la->kind);
-        buf0->putc(la->pos);
+  endCharPos 6;
+  endCol 7;
+  endLine 8;
+  formulaId 9;
+  kind 10;
+  pos 11;
  };
  b1 {
   child.nodes 0;
