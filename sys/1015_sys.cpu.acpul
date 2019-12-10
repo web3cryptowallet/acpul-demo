@@ -327,7 +327,7 @@ debugger.error.a {
   line 2;
   col 3;
  };           
- b1 message;
+ b1 {message 0;};
 };
 
 debugger.get.errors {
