@@ -320,8 +320,18 @@ debugger.get.object.locations { # ???
  debugger.cmd(_0, 10, _1, _2, _3);
 };
 
+debugger.error.a {
+ b0 {
+  fid 0;
+  number 1;
+  line 2;
+  col 3;
+ };           
+ b1 message;
+};
+
 debugger.get.errors {
- # u0, bid0, id, type
+ # u0, bid0, id, type -> error
  # type: 0/1 - formulas/shaders errors
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 12, _1, _2, _3);
