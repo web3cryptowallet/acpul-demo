@@ -308,19 +308,7 @@ node {_;
   # u0, nid,i -> nid
   io(_0, 7231, _1, _2, 0,0);
 
-# child.count
-#  # u0, nid
-#  io(_0, 7214, _1, 0,0,0);
-#
-# get.child.at
-#  # u0, index
-#  io(_0, 7214, _1, 0,0,0);
-
+ get.index
+  # u0, nid -> i
+  io(_0, 7232, _1, 0, 0,0);
 };
-
-#node.new(r0, node.p.parent, -1, 100, 1001, 0);
-#node.new.target(r0, 100, 1001, 0);
-#node.new.this(r0, 100, 1001, 0);
-
-#watch(node.p.target);
-#watch(node.d.query.object);
