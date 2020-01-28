@@ -1,4 +1,4 @@
-90800### 998 private.strings.ENCRYPTED
+### 998 private.strings.ENCRYPTED
 
 S.private = ENCRYPT(S, K);
 
