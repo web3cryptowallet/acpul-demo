@@ -231,7 +231,7 @@ zoomX
 #music 141-37:00
 
 zoom5 {
- s:=2; 
+ s:=1; 
 };
 zoom5;
 
