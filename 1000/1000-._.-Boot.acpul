@@ -13,7 +13,7 @@ S.acpu.server.url0 ws://192.168.8.100:8077;
 # test needCompile [
 a1001 @1001;
 # test needCompile ]
-qweqwe
+
 _ @1010;
 _ @sys.node;
 _ @sys.touch;
