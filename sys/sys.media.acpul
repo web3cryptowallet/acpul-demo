@@ -21,8 +21,6 @@ media.step
 #     <infoChars>
 # type: 0
 # [0] drawItem {
-#  ###0: texCoord(x,y)*4
-#  ###8: vertex(x,y)*4
 #. 0:texCoord0(x,y),vertex0(x,y)
 #. 4:texCoord1(x,y),vertex1(x,y)
 #. 8:texCoord2(x,y),vertex2(x,y)
@@ -33,7 +31,7 @@ media.step
 #  0: charCode
 #  1: texture
 #  2: position, length
-#  4: rect(minXY,maxXY)
+#  6: rect(minXY,maxXY)
 # }
 
 media.ft.mode {
