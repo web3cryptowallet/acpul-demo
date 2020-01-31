@@ -21,8 +21,12 @@ media.step
 #     <infoChars>
 # type: 0
 # [0] drawItem {
-#  0: texCoord(x,y)*4
-#  8: vertex(x,y)*4
+#  ###0: texCoord(x,y)*4
+#  ###8: vertex(x,y)*4
+#. 0:texCoord0(x,y),vertex0(x,y)
+#. 4:texCoord1(x,y),vertex1(x,y)
+#. 8:texCoord2(x,y),vertex2(x,y)
+#. 12:texCoord3(x,y),vertex3(x,y)
 #  16: _size_
 # }
 # [1] infoChar {
