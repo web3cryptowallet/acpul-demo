@@ -31,7 +31,7 @@ media.step
 #  0: charCode
 #  1: texture
 #  2: position, length
-#  6: rect(minXY,maxXY)
+#  4: rect(minXY,maxXY)
 # }
 
 media.ft.mode {
