@@ -298,7 +298,7 @@ node {_;
   # nid==-1 - all children
   # mode 0: -> x,y,w,h
   # mode 1: -> x0,y0,x1,y1 
-  io(_0, 7229, _1, 0,0,0);
+  io(_0, 7229, _1, _2, 0,0);
 
  get.children.count
   # u0, nid -> count
