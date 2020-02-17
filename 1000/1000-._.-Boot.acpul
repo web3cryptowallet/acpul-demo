@@ -409,7 +409,7 @@ if (r0) {
 # notify0:=livenotify.log.v(0, S.print.cell0, cell0);
 # livenotify.log.v(0, S.print.cell0, cell0);
  livenotify.log.v(0, Animation.CPU.v1, cell0);
- livenotify.log.v(0, DEVELOPER.CONSOLE, cell0);
+ livenotify.log.v(0, Developer.console, cell0);
 
 # livenotify.log.v(0, A.HAPPY.BIRTHDAY, cell0);
 # livenotify.log.v(0, A.SUPER.COOL, cell0);
