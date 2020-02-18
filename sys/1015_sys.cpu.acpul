@@ -368,7 +368,7 @@ debugger.ast.node.type cpu.source.attribute;
 debugger.get.ast {
  # u0, fid, mode -> tree ast.node
  # mode: 0 - default
- # 
+ # -> debugger.ast.node
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 13, _1, _2, 0);
 };
