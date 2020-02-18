@@ -335,10 +335,10 @@ debugger.error.a {
 debugger.get.errors {
  # u0, bid0, id, type -> error
  # type: 0/1 - formulas/shaders errors
- # error 0 - errors
+ # -> error 0 - errors
  #  [0] - fid, number, lne, col
  #  [1] - message
- # error 1 - shaders
+ # -> error 1 - shaders
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 12, _1, _2, _3);
 };
@@ -368,6 +368,7 @@ debugger.ast.node.type cpu.source.attribute;
 debugger.get.ast {
  # u0, fid, mode -> tree ast.node
  # mode: 0 - default
+ # 
  debugger.cmd.param0(_0, 0,0,0);
  debugger.cmd(_0, 13, _1, _2, 0);
 };
