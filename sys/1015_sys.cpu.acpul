@@ -359,6 +359,9 @@ debugger.ast.node.a {
   pos 11;
  };
  b1 {
+  val 0;
+ };
+ b2 {
   child.nodes 0;
  };
 };
