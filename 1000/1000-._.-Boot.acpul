@@ -469,7 +469,6 @@ cpu.debug.log.to.xcode.console(r0, 1);
 cpu.debug.log.to.console(r0, 1);
 
 cpu.step(u0);
-QQ;
 
 #x:=500;
 #y:=500;
