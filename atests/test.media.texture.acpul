@@ -144,6 +144,8 @@ tex r8;
 texflip r9;
 recording r5;
 
+watch(texflip);
+
 draw.boot {
  dma0 0;
  sharedobj.key(u0, dma0,1000);
