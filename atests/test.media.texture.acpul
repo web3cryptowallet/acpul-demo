@@ -151,6 +151,7 @@ draw.boot {
 # watch(l0);
 # node.ex.gl.node.set.draw.transform(u0, 0,0, 0, 0.5);
  node.ex.gl.node.draw(u0, l0);
+ node.ex.gl.node.draw(u0, node.ex.this.id(u0)-rnd(u0)*100);
 };
 
 record.frame {
