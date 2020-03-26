@@ -340,7 +340,7 @@ GAME.NEBULA 11800;
 # NEO V2 [
 
 neo.v2.tests 7990;
-node.new.this.ex(r0, neo.v2.tests, 0);
+#node.new.this.ex(r0, neo.v2.tests, 0);
 
 # NEO V2 ]
 # WALLET [
@@ -350,7 +350,7 @@ new.wallet {
  l0:=node.new.this.ex(r0, gl3d.test.main, 0);
  node.prop.s.s(u0, l0, 0.4);
 };
-#new.wallet;
+new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
