@@ -351,13 +351,13 @@ new.wallet {
  node.prop.s.s(u0, l0, 0.9);
 # node.prop.s.s(u0, l0, 0.4);
 };
-new.wallet;
+#new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
 
 merge.life 1100000;
-#node.new.this.ex(r0, merge.life, 0);
+node.new.this.ex(r0, merge.life, 0);
 
 # GAME MERGE.LIFE ]
 # APPS [
