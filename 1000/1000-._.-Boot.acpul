@@ -77,6 +77,8 @@ setup.shared.object {
 };
 setup.shared.object;
 
+watch(node.ex.this.id(u0));
+
 test.shrobj {
  sharedobj.key.new(r0, dma0,1);
  dma.set(r0, dma0,0, 88);
