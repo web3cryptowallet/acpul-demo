@@ -197,7 +197,6 @@ _ @sys.obj;
 if (recording) {
  record.frame;
 };
-record.frame;
 
 ### 5402 tmt.particle(x,y)
 
