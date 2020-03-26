@@ -144,8 +144,8 @@ tex r8;
 texflip r9;
 recording r5;
 
-watch(tex);
-watch(texflip);
+#watch(tex);
+#watch(texflip);
 
 draw.boot {
  dma0 0;
