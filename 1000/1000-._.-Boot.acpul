@@ -357,7 +357,10 @@ new.wallet {
 # GAME MERGE.LIFE [
 
 merge.life 1100000;
-#node.new.this.ex(r0, merge.life, 0);
+node.new.this.ex(r0, merge.life, 0);
+
+VG;
+
 
 # GAME MERGE.LIFE ]
 # APPS [
@@ -377,7 +380,7 @@ l0:=node.new.this.ex(r0, test.media.texture, 0);
 
 
 
-VG;
+#VG;
 
 BIRD 7340;
 #node.new.this.ex(r0, BIRD, 0);
