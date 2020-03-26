@@ -31,7 +31,7 @@ if (r0) {
  texflip:=node.ex.texture.create(u0, 768,1024);
  recording+=1;
 
- media.video.recorder.set.duration(u0, tex, 5); 
+ media.video.recorder.set.duration(u0, tex, 15); 
 
  media.twitch.attach.texture(u0, tex);
 
