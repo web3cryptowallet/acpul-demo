@@ -71,7 +71,7 @@ setup.shared.object {
  # share.boot.node.id [
  l0:=node.ex.this.id(r0);
  sharedobj.key.new(r0, dma0,1000);
- dma.set(r0, dma0,0, l0);
+ dma.set(r0, dma0,0, l0+22);
  dma.off(r0, dma0);
  # share.boot.node.id ]
 };
