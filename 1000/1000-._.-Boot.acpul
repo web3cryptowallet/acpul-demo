@@ -483,4 +483,5 @@ k:=1;
 
 #x:=100;
 
+watch(node.ex.this.id(u0));
 
