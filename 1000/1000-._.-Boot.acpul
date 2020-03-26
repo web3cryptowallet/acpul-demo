@@ -306,7 +306,7 @@ NOOBSMILE 10024000;
 #node.new.this.ex(r0, NOOBSMILE, 0);
 
 HIPSTER.BANNER 10025000;
-#node.new.this.ex(r0, HIPSTER.BANNER, 0);
+node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
 
 
@@ -357,7 +357,7 @@ new.wallet {
 # GAME MERGE.LIFE [
 
 merge.life 1100000;
-node.new.this.ex(r0, merge.life, 0);
+#node.new.this.ex(r0, merge.life, 0);
 
 #VG;
 
