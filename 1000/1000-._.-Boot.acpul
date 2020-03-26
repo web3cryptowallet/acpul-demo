@@ -364,7 +364,7 @@ merge.life 1100000;
 _ @sys.os;
 _ @os.apps;
 
-node.new.this.ex(r0, os.apps.run, 0);
+#node.new.this.ex(r0, os.apps.run, 0);
 
 # APPS ]
 # VIDEO RECORD [
@@ -389,7 +389,7 @@ _ @sys.os;
 _ @os.main;
 
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+# os.main.ide.new(r0, 0,525,1, 600,400);
 };
 
 if (r0) {
