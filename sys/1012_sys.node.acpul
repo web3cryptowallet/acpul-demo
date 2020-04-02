@@ -323,6 +323,6 @@ node {_;
   io(_0, 7233, 1, _1, _2, 0);
 
  transform.point
-  # u0, nid0, nid1, p0,p1
+  # u0, nid.to, nid.from, p0,p1
   io(_0, 7234, _1, _2, _3, _4);
 };
