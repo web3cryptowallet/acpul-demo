@@ -406,7 +406,7 @@ ide.toggle.console {
 };
 
 if (r0) {
- ide.toggle.console;
+# ide.toggle.console;
 };
 
 test.monitor.old 5590;
