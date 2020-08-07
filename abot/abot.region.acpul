@@ -179,7 +179,7 @@ rect(u0, 6, 0,0, 1024,768);
 
 r0:=k==0;
 
-#draw(r0, 1513);
+draw(r0, 1513);
 
 _ @1010;
 _ @sys.node;
@@ -215,10 +215,10 @@ shader.uniform.f1(u0, 1, 0.5+0.5*sin(l15*1));
 
 bw 1024;
 bh 768;
-#gl.rect(u0, +30,0, bw-60,bh);
+gl.rect(u0, +30,0, bw-60,bh);
 
-color(u0, rnd(u0),rnd(u0),rnd(u0),1);
-rect(u0, 6, 0,0,111,111);
+#color(u0, rnd(u0),rnd(u0),rnd(u0),1);
+#rect(u0, 6, 0,0,111,111);
 
 
 # ---- ---- ---- ---- [
