@@ -33,7 +33,7 @@ k:=1;
 
 _ @sys.display;
 
-vw 768*2; vh 1024;
+vw 768; vh 1024;
 
 l0:=display.orientation.get() - display.orientation.landscape;
 if (l0>0) {
