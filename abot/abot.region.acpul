@@ -97,10 +97,10 @@ if (r0) {
 
  region.query.window(r7, wnd.vlc, 0);
  f 0+(1024-60)/1024;
- region.view(0+30,0, 100*f,200);
+# region.view(0+30,0, 100*f,100);
  region.video(0,0, 1024,768);
  region.src(0,0, 1024,768);
- region.frame(0,0, 600,200);
+# region.frame(0,0, 600,200);
 
 # region.query.window(r7, ws, rn.xcode.console);
 # region.view(100*f+30,0, 200*f,100);
