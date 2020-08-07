@@ -179,7 +179,7 @@ rect(u0, 6, 0,0, 1024,768);
 
 r0:=k==0;
 
-draw(r0, 1513);
+#draw(r0, 1513);
 
 _ @1010;
 _ @sys.node;
@@ -207,7 +207,7 @@ gl node.ex.gl;
 shader node.ex.shader;
 
 _ @sys.abot;
-#abot.stream.render.texture(u0, 0, tex0);
+abot.stream.render.texture(u0, 0, tex0);
 
 shader.use(u0, 1514, 1515);
 shader.uniform.texture(u0, 0, tex0, 0);
