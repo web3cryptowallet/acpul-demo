@@ -98,8 +98,8 @@ if (r0)
  region.query.window(r7, ws, rn.xcode.panel.view);
  f 0+(1024-60)/1024;
  region.view(0+30,0, 100*f,100);
- region.video(0,0, 1000,1000);
- region.src(0,0, 100,100);
+ region.video(0,0, 1024,768);
+ region.src(0,0, 1024,768);
  region.frame(0,0, 600,100);
 
 # region.query.window(r7, ws, rn.xcode.console);
