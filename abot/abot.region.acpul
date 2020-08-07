@@ -95,7 +95,7 @@ if (r0)
  region.src(100+cos(t)*100,0, 100,100);
  region.frame(0,0, 600,100);
 
- region.query.window(r7, ws, 7);
+ region.query.window(r7, ws, 8);
  f 0+(1024-60)/1024;
  region.view(0+30,0, 100*f,100);
  region.video(0,0, 1024,768);
