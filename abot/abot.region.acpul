@@ -79,8 +79,7 @@ wnd.xcode.ipixel 2;
 wnd.vlc 3;
 
 
-if (r0)
-{
+if (r0) {
  r7:=if(r0, abot.regions.create(), r7);
 
  abot.regions.clear(r7);
