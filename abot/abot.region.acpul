@@ -15,7 +15,7 @@ y:=-vh/2;
 REGION.TEXTURE u20;
 
 REGION.VIDEO 1512;
-node.new.this.ex(r0, REGION.VIDEO, 0);
+#node.new.this.ex(r0, REGION.VIDEO, 0);
 
 k:=1;
 
