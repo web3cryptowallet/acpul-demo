@@ -103,7 +103,6 @@ if (r0) {
  region.frame(0,0, 600,200);
 
 
-
 # region.query.window(r7, ws, rn.xcode.console);
 # region.view(100*f+30,0, 200*f,100);
 # region.video(100,0, 200,100);
