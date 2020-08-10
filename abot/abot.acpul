@@ -120,7 +120,7 @@ shader node.ex.shader;
 
 _ @sys.abot;
 abot.stream.render.texture(u0, 0, tex0);
-watch(tex0);
+
 color(u0, 0.0,0.0,0,0.5);
 
 
