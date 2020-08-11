@@ -95,8 +95,8 @@ if (r0)
  r1:=node.ex.texture.create.fmt(r0, 1280/2,768/2, node.ex.texture.fmt.rgb565, 1);
 };
 
-s:=3;
-y:=-900;
+#s:=3;
+#y:=-900;
 
 k:=1;
 r:=180;
