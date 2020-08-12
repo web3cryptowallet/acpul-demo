@@ -27,7 +27,7 @@ PANEL 1550;
 node.new.this.ex(r0, PANEL, 0); # R
 node.new.this.ex(r0, PANEL, 1); # L
 
-#draw(r0, 1501);
+draw(r0, 1501);
 
 k:=1;
 
