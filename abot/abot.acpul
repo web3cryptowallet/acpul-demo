@@ -40,8 +40,8 @@ if (l0>0) {
  x:=vh/2;
  y:=vw/2;
  s:=1;
- w:=vh;
- h:=vw;
+ w:=vw;
+ h:=vh;
 };
 if (l0<=0) {
  x:=vw/2;
