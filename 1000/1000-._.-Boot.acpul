@@ -486,7 +486,6 @@ cpu.step(u0);
 
 # BOOT ]
 
-node.new.this.ex(r0, ACPU.STUDIO, 0);
 
 k:=1;
 
