@@ -449,7 +449,8 @@ HEROLESSUS 10009000;
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
 
-node.new.this.ex(r0, ACPU.STUDIO, 0);
+#node.new.this.ex(r0, ACPU.STUDIO, 0);
+node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
 # keyboard ]
 
@@ -472,7 +473,6 @@ TOUCH.DEBUG 1006;
 #node.new.this.ex(r0, TOUCH.DEBUG, 0);
 # touch debug should be lastest node ]
 
-node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
 
 #watch(r0);
