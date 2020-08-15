@@ -286,7 +286,7 @@ AWESOME.NOTES 10010000;
 #node.new.this.ex(r0, AWESOME.NOTES, 0);
 
 ACPU.STUDIO 10019000;
-node.new.this.ex(r0, ACPU.STUDIO, 0);
+#node.new.this.ex(r0, ACPU.STUDIO, 0);
 
 LIVECOMMENT 10018000;
 #node.new.this.ex(r0, LIVECOMMENT, 0);
@@ -485,6 +485,8 @@ cpu.step(u0);
 #s:=0.5;
 
 # BOOT ]
+
+node.new.this.ex(r0, ACPU.STUDIO, 0);
 
 k:=1;
 
