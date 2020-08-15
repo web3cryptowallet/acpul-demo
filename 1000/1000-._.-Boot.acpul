@@ -448,6 +448,9 @@ HEROLESSUS 10009000;
 
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
+
+node.new.this.ex(r0, LIVECOMMENT, 0);
+
 node.new.this.ex(r0, ACPU.STUDIO, 0);
 
 # keyboard ]
