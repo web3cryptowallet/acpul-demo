@@ -393,7 +393,7 @@ if (r0) {
 };
 
 if (r0) {
-# os.main.panel.new(l0, 0,925,1, 768,100);
+ os.main.panel.new(l0, 0,925,1, 768,100);
 };
 
 ide.toggle.console {
