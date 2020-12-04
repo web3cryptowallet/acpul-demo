@@ -1,6 +1,6 @@
 ### 5400 test.media.texture
 
-r0:=k==0;
+r0:=k==1;
 k+=1;
 
 draw(r0, 5401);
