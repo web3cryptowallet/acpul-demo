@@ -1,6 +1,7 @@
+### 0 PRESET
 
 # https://github.com/DavidGerva/LockTab-Sublime-Plugin
 
 UI.MODE u12;
 
-OPEN.IDE.STARTUP 1;
+OPEN.IDE.STARTUP 0;
