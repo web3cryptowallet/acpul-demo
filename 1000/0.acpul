@@ -2,3 +2,5 @@
 # https://github.com/DavidGerva/LockTab-Sublime-Plugin
 
 UI.MODE u12;
+
+OPEN.IDE.STARTUP 1;
