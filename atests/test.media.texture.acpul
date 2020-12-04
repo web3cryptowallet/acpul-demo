@@ -1,6 +1,7 @@
 ### 5400 test.media.texture
 
-r0:=k==0;
+r0:=k==2;
+k+=1;
 
 draw(r0, 5401);
 
@@ -97,7 +98,7 @@ TMT.PARTICLE 5402;
 #y:=-200;
 t+=dt;
 
-k:=1;
+#k:=1;
 
 
 ### 5401 test.media.texture.draw
