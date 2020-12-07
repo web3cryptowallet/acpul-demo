@@ -153,8 +153,10 @@ music.stop
  # r0
  io(_0, 500091, 0,0,0,0);
 
+music.set.track(r0, 0, 0, 0);
+
 #music.play(r0, 1, 0, 1);
-music.stop(r0);
+#music.stop(r0);
 
 # SOUND ]
 # INIT ]
