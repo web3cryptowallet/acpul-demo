@@ -133,11 +133,17 @@ syntax.highlight.init
 ide.setup(u0);
 syntax.highlight.init(u0);
 
+# SOUND [
+
 _ @sys.dsp;
 
 if (r0) {
  dsp.reset();
 };
+
+music.set.track
+ # r0, pool,uid,i
+ io(_0, 500093, _1,_2,_3,0);
 
 music.play
  # r0, melody, time, loop
@@ -150,6 +156,7 @@ music.stop
 #music.play(r0, 1, 0, 1);
 music.stop(r0);
 
+# SOUND ]
 # INIT ]
 
 # BOOT [
