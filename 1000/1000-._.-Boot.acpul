@@ -229,8 +229,8 @@ zoomA
 #zoom1;
 #zoom2;
 #zoom3;
-#zoom4;
-zoomA;
+zoom4;
+#zoomA;
 
 zoomX
 {
