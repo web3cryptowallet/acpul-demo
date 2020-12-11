@@ -399,7 +399,7 @@ _ @os.apps;
 
 apps0 l16;
 
-node.new.this.ex(apps0, os.apps.run, 0);
+#node.new.this.ex(apps0, os.apps.run, 0);
 
 # APPS ]
 # VIDEO RECORD [
