@@ -251,7 +251,7 @@ x:=0;y:=0;s:=1;
 #x:=300;y:=100;s:=0.2;r:=10;
 #music 141-37:00
 
-if (display.is.portrait) {
+if (display.is.landscape) {
  s:=0.5;
 };
 
