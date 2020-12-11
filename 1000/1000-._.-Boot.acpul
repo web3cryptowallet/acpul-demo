@@ -409,8 +409,10 @@ BIRD 7340;
 _ @sys.os;
 _ @os.main;
 
+ide0 l15;
+
 if (r0) {
- os.main.ide.new(r0, 0,525,1, 600,400);
+ os.main.ide.new(ide0, 0,525,1, 600,400);
 };
 
 if (r0) {
