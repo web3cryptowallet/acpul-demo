@@ -254,13 +254,13 @@ x:=0;y:=0;s:=1;
 if (display.is.portrait) {
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
- node.prop.y.s(u0, ide0, 1000);
 };
 if (display.is.landscape) {
 # x:=400;
 # s:=0.75;
  node.prop.s.s(u0, ide0, 0.75);
  node.prop.x.s(u0, ide0, 400);
+ node.prop.y.s(u0, ide0, -200);
 };
 
 new.Edit1
