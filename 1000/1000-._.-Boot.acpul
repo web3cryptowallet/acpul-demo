@@ -413,6 +413,7 @@ ide0 l15;
 
 if (r0) {
  os.main.ide.new(ide0, 0,525,1, 600,400);
+ node.s.s(u0, ide0,0.5);
 };
 
 if (r0) {
