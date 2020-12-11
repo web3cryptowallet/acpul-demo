@@ -260,7 +260,7 @@ if (display.is.landscape) {
 # s:=0.75;
  node.prop.s.s(u0, ide0, 0.75);
  node.prop.x.s(u0, ide0, 400);
- node.prop.y.s(u0, ide0, 500);
+ node.prop.y.s(u0, ide0, 400);
 };
 
 new.Edit1
