@@ -397,9 +397,9 @@ merge.life 1100000;
 _ @sys.os;
 _ @os.apps;
 
-apps0 l16;
+apps0 l11;
 
-#node.new.this.ex(apps0, os.apps.run, 0);
+node.new.this.ex(apps0, os.apps.run, 0);
 
 # APPS ]
 # VIDEO RECORD [
