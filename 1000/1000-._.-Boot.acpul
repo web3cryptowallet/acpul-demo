@@ -370,7 +370,7 @@ new.wallet {
  node.prop.s.s(u0, l0, 0.9);
 # node.prop.s.s(u0, l0, 0.4);
 };
-#new.wallet;
+new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
