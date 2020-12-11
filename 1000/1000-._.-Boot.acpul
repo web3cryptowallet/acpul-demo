@@ -251,10 +251,11 @@ x:=0;y:=0;s:=1;
 #x:=300;y:=100;s:=0.2;r:=10;
 #music 141-37:00
 
-#if (display.is.landscape) {
+if (display.is.landscape) {
 # x:=400;
 # s:=0.75;
-#};
+ node.prop.s.s(u0, ide0, 0.75);
+};
 
 new.Edit1
  node.new.this.object(r0, 1002, 0);
@@ -413,7 +414,6 @@ ide0 l15;
 
 if (r0) {
  os.main.ide.new(ide0, 0,525,1, 600,400);
- node.prop.s.s(u0, ide0, 0.75);
 };
 
 if (r0) {
