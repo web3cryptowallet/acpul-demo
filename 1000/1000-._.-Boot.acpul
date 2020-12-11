@@ -263,7 +263,7 @@ if (display.is.landscape) {
  node.prop.x.s(u0, ide0, 400);
  node.prop.y.s(u0, ide0, 400);
  node.prop.s.s(u0, panel0, 0.8);
- node.prop.x.s(u0, panel0, 400);
+ node.prop.x.s(u0, panel0, 900);
  node.prop.y.s(u0, panel0, 0);
 };
 
