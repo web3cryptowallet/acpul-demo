@@ -252,7 +252,7 @@ x:=0;y:=0;s:=1;
 #music 141-37:00
 
 if (display.is.landscape) {
- s:=0.5;
+ s:=0.75;
 };
 
 new.Edit1
