@@ -252,6 +252,7 @@ x:=0;y:=0;s:=1;
 #music 141-37:00
 
 if (display.is.landscape) {
+ x:=500;
  s:=0.75;
 };
 
