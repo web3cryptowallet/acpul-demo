@@ -49,6 +49,7 @@ display
 
  is.portrait orientation.get()<orientation.landscape;
  is.landscape orientation.get()>=orientation.landscape;
+ 
 
  size
   # display.id -> w,h
