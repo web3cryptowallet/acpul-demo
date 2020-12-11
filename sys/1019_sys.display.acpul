@@ -47,6 +47,9 @@ display
  };
  orientation.get io(u0, 500240, 0,0,0,0);
 
+ is.portrait orientation.get()<orientation.landscape;
+ is.landscape orientation.get()>=orientation.landscape;
+
  size
   # display.id -> w,h
   io(u0, 500250, _0,0,0,0);

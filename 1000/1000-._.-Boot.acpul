@@ -105,6 +105,8 @@ test.shrobj;
 
 # sharedobj ]
 
+# DISPLAY ORIENTATION [
+
 _ @1010;
 _ @sys.display;
 
@@ -122,8 +124,9 @@ if (l0<=0) {
 # s:=0.65;
 };
 
+# DISPLAY ORIENTATION ]
 # INIT [
-#
+
 ide.setup
  call(_0, -5, 0,0,0,0, 0,0,0,0);
 
@@ -248,6 +251,9 @@ x:=0;y:=0;s:=1;
 #x:=300;y:=100;s:=0.2;r:=10;
 #music 141-37:00
 
+if (display.is.portait) {
+ s:=0.5;
+};
 
 new.Edit1
  node.new.this.object(r0, 1002, 0);
