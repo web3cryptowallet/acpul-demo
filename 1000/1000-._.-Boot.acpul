@@ -264,7 +264,7 @@ if (display.is.landscape) {
  node.prop.y.s(u0, ide0, 400);
  node.prop.s.s(u0, panel0, 0.8);
  node.prop.x.s(u0, panel0, 0);
- node.prop.y.s(u0, panel0, 900);
+ node.prop.y.s(u0, panel0, 00);
 };
 
 new.Edit1
