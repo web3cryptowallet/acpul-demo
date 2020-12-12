@@ -159,7 +159,7 @@ music.stop
 #music.set.track(r0, 1, 2, 1);
 music.set.track(r0, 1, 2, 3);
 music.stop(r0);
-music.play(r0, -1, 0, 1);
+music.play(r0, -1, 100, 1);
 
 #music.play(r0, 1, 0, 1);
 #music.stop(r0);
