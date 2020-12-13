@@ -195,6 +195,7 @@ record.frame {
 
   media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
+ media.video.recorder.frame.ready(u0, tex0boot, dt);
  };
 };
 
@@ -207,8 +208,8 @@ _ @sys.sharedobj;
 _ @sys.obj;
 
 if (recording) {
-# record.frame;
- media.video.recorder.frame.ready(u0, tex0boot, dt);
+ record.frame;
+# media.video.recorder.frame.ready(u0, tex0boot, dt);
 };
 
 ### 5402 tmt.particle(x,y)
