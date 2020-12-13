@@ -75,6 +75,7 @@ if (display.is.portrait) {
 
 node.ex.child.draw.s(u0, 0);
 
+tex0boot:=tex0;
 
 # DISPLAY ORIENTATION ]
 
