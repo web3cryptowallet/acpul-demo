@@ -365,6 +365,8 @@ x:=0;y:=0;s:=1;
 #x:=300;y:=100;s:=0.2;r:=10;
 #music 141-37:00
 
+# UI ORIENTATION [
+
 if (display.is.portrait) {
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
@@ -376,9 +378,6 @@ if (display.is.portrait) {
  node.prop.y.s(u0, apps0, 0);
 };
 if (display.is.landscape) {
-# x:=400;
-# s:=0.75;
-# node.prop.s.s(u0, ide0, 1);
  node.prop.s.s(u0, ide0, 0.8);
  node.prop.x.s(u0, ide0, 400);
  node.prop.y.s(u0, ide0, 370);
@@ -387,8 +386,9 @@ if (display.is.landscape) {
  node.prop.y.s(u0, panel0, 690);
  node.prop.s.s(u0, apps0, 0.52);
  node.prop.y.s(u0, apps0, 260);
- 
 };
+
+# UI ORIENTATION ]
 
 new.Edit1
  node.new.this.object(r0, 1002, 0);
