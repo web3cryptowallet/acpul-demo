@@ -207,11 +207,11 @@ _ @sys.display;
 
 vw 768; vh 1024;
 
-if (display.is.landscape) {
+if (display.is.portrait) {
  w:=vh;
  h:=vw;
 };
-if (display.is.portrait) {
+if (display.is.landscape) {
  w:=vw;
  h:=vh;
 };
