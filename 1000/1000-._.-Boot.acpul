@@ -11,6 +11,14 @@ S.acpu.server.url0 ws://192.168.8.100:8077;
 
 ### 1000  ._. Boot
 
+
+
+### 1600 Boot.texture
+
+### 1601 Boot.texture.draw
+
+### 1610 Boot.main
+
 _ @0;
 
 
