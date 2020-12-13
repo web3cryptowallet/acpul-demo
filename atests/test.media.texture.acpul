@@ -198,6 +198,9 @@ record.frame {
  };
 };
 
+w l1;
+h l2;
+
 _ @1010;
 _ @sys.display;
 
