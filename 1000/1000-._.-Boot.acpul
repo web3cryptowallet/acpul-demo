@@ -65,6 +65,10 @@ if (display.is.portrait) {
  w:=vw;
  h:=vh;
 # s:=0.65;
+ tw w;
+ th h;
+ tex0h:=if(tex0h,tex0h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex0:=tex0h;
 };
 
 #node.ex.child.draw.s(r0, 0);
