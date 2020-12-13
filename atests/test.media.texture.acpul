@@ -214,7 +214,6 @@ if (display.is.portrait) {
 
 record.frame2 {
   node.ex.gl.fbo(u0, tex);
-
   node.ex.gl.clear(u0, 0,1,0,0);
 
   draw.texture {
