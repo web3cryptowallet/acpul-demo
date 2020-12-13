@@ -51,12 +51,12 @@ tex1h r2;
 
 vw 768; vh 1024;
 
-if (display.is.portrait) {
+if (display.is.landscape) {
  w:=vh;
  h:=vw;
 # s:=1;
 };
-if (display.is.landscape) {
+if (display.is.portrait) {
  w:=vw;
  h:=vh;
 # s:=0.65;
