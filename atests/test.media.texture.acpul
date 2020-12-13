@@ -201,7 +201,7 @@ record.frame {
 _ @1010;
 _ @sys.display;
 
-vw 768*2; vh 1024*2;
+vw 768; vh 1024;
 
 if (display.is.landscape) {
  w:=vh;
