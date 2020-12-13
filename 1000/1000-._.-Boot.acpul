@@ -48,6 +48,7 @@ _ @sys.display;
 
 tex0v r1;
 tex1h r2;
+tex0 r3;
 
 vw 768; vh 1024;
 
@@ -57,7 +58,8 @@ if (display.is.landscape) {
 # s:=0.5;
  tw w;
  th h;
- tex0v:=node.ex.texture.create.fmt(r0, tw,th, node.ex.texture.fmt.rgb565, 1);
+ tex0v:=if(tex0v,tex0v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex0:=tex0v;
 };
 if (display.is.portrait) {
  w:=vw;
