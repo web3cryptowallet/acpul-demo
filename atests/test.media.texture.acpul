@@ -158,6 +158,9 @@ draw.boot {
  node.ex.gl.node.draw(u0, l0);
 };
 
+tex0boot u14;
+texflip tex0boot;
+
 record.frame {
  l0:=node.ex.is.this.drawing(u0);
  if (l0 == 0) {
