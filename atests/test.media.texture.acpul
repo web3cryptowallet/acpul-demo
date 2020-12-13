@@ -198,8 +198,8 @@ record.frame {
 
 #  media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
- };
  media.video.recorder.frame.ready(u0, tex0boot, dt);
+ };
 };
 
 rr0 recording * (mod(t, 1)<0.5);
