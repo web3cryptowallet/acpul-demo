@@ -39,7 +39,7 @@ Boot.main 1610;
 
 node.new.this.ex(r0, Boot.main, 0);
 
-#draw(r0, 1601);
+draw(r0, 1601);
 
 # DISPLAY ORIENTATION [
 
@@ -71,7 +71,7 @@ if (display.is.portrait) {
  tex0:=tex1h;
 };
 
-#node.ex.child.draw.s(u0, 0);
+node.ex.child.draw.s(u0, 0);
 
 
 # DISPLAY ORIENTATION ]
