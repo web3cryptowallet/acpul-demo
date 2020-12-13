@@ -99,13 +99,15 @@ to.texture0 {
 
 gl.draw.texture.rect0 {
  # tex, x,y, w,h
+ tex0 _0; x _1; y _2; w _3; h _4;
+
  gl.shader.use(70014,70015);
  gl.shader.uniform.texture(0, tex0, 0);
 # gl.blend(u0, 1, 8);
- gl.rect0(5, 0,0, w,h);
+ gl.rect0(5, x,y, w,h);
 };
 
-gl.draw.texture.rect0;
+gl.draw.texture.rect0(tex0,0,0,w,h);
 
 
 ### 1610 Boot.main
