@@ -114,7 +114,7 @@ gl.draw.texture.rect0 {
  gl.rect0(5, x,y, w,h);
 };
 
-#gl.draw.texture.rect0(tex0,0,0,w,h);
+gl.draw.texture.rect0(tex0,0,0,w,h);
 
 
 ### 1610 Boot.main
