@@ -15,6 +15,7 @@ S.acpu.server.url0 ws://192.168.8.100:8077;
 #r0 r00;
 
 r0:=k==0;
+k:=1;
 
 _ @1010;
 _ @sys.node;
@@ -23,7 +24,6 @@ Boot.texture 1600;
 
 node.new.this.ex(r0, Boot.texture, 0);
 
-k:=1;
 
 ### 1600 Boot.texture
 
