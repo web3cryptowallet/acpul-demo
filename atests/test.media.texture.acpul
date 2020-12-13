@@ -204,7 +204,7 @@ h l2;
 _ @1010;
 _ @sys.display;
 
-vw 768; vh 1024*2;
+vw 768; vh 1024/2;
 
 if (display.is.landscape) {
  w:=vh;
