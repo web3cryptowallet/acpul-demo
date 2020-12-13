@@ -29,7 +29,21 @@ node.new.this.ex(r0, Boot.texture, 0);
 
 ### 1600 Boot.texture
 
+r0:=k==0;
+k:=1;
+
+_ @1010;
+_ @sys.node;
+
+Boot.main 1610;
+
+node.new.this.ex(r0, Boot.main, 0);
+
+draw(r0, 1601);
+
 ### 1601 Boot.texture.draw
+
+
 
 ### 1610 Boot.main
 
