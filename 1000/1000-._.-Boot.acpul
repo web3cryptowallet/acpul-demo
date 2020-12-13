@@ -56,7 +56,7 @@ if (display.is.landscape) {
  w:=vh;
  h:=vw;
 # s:=0.5;
- tw w/4;
+ tw w/16;
  th h/4;
  tex0v:=if(tex0v,tex0v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
  tex0:=tex0v;
