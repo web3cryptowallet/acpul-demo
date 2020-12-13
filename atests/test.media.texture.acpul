@@ -198,6 +198,20 @@ record.frame {
  };
 };
 
+_ @1010;
+_ @sys.display;
+
+vw 768; vh 1024;
+
+if (display.is.landscape) {
+ w:=vh;
+ h:=vw;
+};
+if (display.is.portrait) {
+ w:=vw;
+ h:=vh;
+};
+
 record.frame2 {
   node.ex.gl.fbo(u0, tex);
 
