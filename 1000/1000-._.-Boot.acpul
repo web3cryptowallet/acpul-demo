@@ -64,7 +64,7 @@ if (display.is.landscape) {
 if (display.is.portrait) {
  w:=vw;
  h:=vh;
-# s:=0.65;
+ s:=0.65;
  tw w/2;
  th h/2;
  tex0h:=if(tex0h,tex0h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
