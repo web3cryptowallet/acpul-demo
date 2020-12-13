@@ -98,7 +98,7 @@ gl.draw.texture.rect0 {
  gl.rect0(5, 0,0, w,h);
 };
 
-
+gl.draw.texture.rect0;
 
 
 ### 1610 Boot.main
