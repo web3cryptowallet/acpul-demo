@@ -54,7 +54,7 @@ vw 768; vh 1024;
 if (display.is.landscape) {
  w:=vh;
  h:=vw;
- s:=1;
+ s:=0.5;
 };
 if (display.is.portrait) {
  w:=vw;
