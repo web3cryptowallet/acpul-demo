@@ -46,6 +46,9 @@ draw(r0, 1601);
 _ @1010;
 _ @sys.display;
 
+tex0v r1;
+tex1h r2;
+
 vw 768; vh 1024;
 
 l0:=display.orientation.get() - display.orientation.landscape;         
@@ -57,7 +60,7 @@ if (l0>0) {
 if (l0<=0) {
  w:=vw;
  h:=vh;
-# s:=0.65;
+ s:=0.65;
 };
 
 # DISPLAY ORIENTATION ]
