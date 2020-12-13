@@ -368,7 +368,7 @@ x:=0;y:=0;s:=1;
 if (display.is.portrait) {
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
- node.prop.y.s(u0, ide0, 510);
+ node.prop.y.s(u0, ide0, 525);
 };
 if (display.is.landscape) {
 # x:=400;
