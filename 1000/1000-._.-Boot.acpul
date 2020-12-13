@@ -46,6 +46,8 @@ draw(r0, 1601);
 _ @1010;
 _ @sys.display;
 
+tex0boot u14;
+
 tex0v r1;
 tex1h r2;
 tex0 r3;
