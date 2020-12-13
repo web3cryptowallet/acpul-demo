@@ -71,7 +71,7 @@ if (display.is.portrait) {
  tex0:=tex1h;
 };
 
-#node.ex.child.draw.s(u0, 0);
+node.ex.child.draw.s(u0, 0);
 
 
 # DISPLAY ORIENTATION ]
