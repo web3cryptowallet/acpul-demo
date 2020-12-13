@@ -62,7 +62,6 @@ if (display.is.landscape) {
 # s:=0.65;
 };
 
-r+=1;
 
 # DISPLAY ORIENTATION ]
 
