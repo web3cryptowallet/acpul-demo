@@ -73,6 +73,25 @@ color(u0, 1,1,0,1);
 #color(u0, 1,0,0,1);
 rect(u0, 6, 0,0,w,h);
 
+_ @1010;
+_ @sys.node;
+_ @sys.display;
+_ @1100;
+_ @util.gl.std;
+_ @core.hud;
+
+tex0 r1;
+
+to.texture0 {
+ gl.fbo(tex0);
+ gl.clear(1,0,0.0,0);
+
+ node.ex.gl.child.draw(u0);
+
+ gl.fbo(-1);
+};
+
+
 ### 1610 Boot.main
 
 _ @0;
