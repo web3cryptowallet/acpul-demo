@@ -14,8 +14,6 @@ tex r8;
 texflip r9;
 recording r5;
 
-tex0boot u14;
-
 if (r0) {
  display.size(0);
  watch(o0);
@@ -38,8 +36,7 @@ if (r0) {
  media.video.recorder.set.duration(u0, tex, 5); 
 # media.video.recorder.set.duration(u0, tex, 120); 
 
-# media.twitch.attach.texture(u0, tex);
- media.twitch.attach.texture(u0, tex0boot);
+ media.twitch.attach.texture(u0, tex);
 
  media.twitch.set.url(u0, S.live1.twitch.tv);
 
@@ -175,7 +172,7 @@ record.frame {
 # node.ex.gl.clear(u0, rnd(u0),rnd(u0),rnd(u0),1);  
 
 #  form;
-  draw.boot;
+#  draw.boot;
 
 #  node.ex.gl.child.draw(u0);
 
@@ -196,9 +193,8 @@ record.frame {
 
   node.ex.gl.fbo(u0, -1);
 
-#  media.video.recorder.frame.ready(u0, tex, dt);
+  media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
- media.video.recorder.frame.ready(u0, tex0boot, dt);
  };
 };
 
@@ -212,7 +208,6 @@ _ @sys.obj;
 
 if (recording) {
  record.frame;
-# media.video.recorder.frame.ready(u0, tex0boot, dt);
 };
 
 ### 5402 tmt.particle(x,y)
