@@ -91,7 +91,7 @@ _ @1100;
 _ @util.gl.std;
 _ @core.hud;
 
-tex0 r1;
+tex0 r3;
 
 to.texture0 {
  gl.fbo(tex0);
