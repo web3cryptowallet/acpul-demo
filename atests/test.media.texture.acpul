@@ -14,6 +14,8 @@ tex r8;
 texflip r9;
 recording r5;
 
+tex0boot u14;
+
 if (r0) {
  display.size(0);
  watch(o0);
@@ -36,7 +38,8 @@ if (r0) {
  media.video.recorder.set.duration(u0, tex, 5); 
 # media.video.recorder.set.duration(u0, tex, 120); 
 
- media.twitch.attach.texture(u0, tex);
+# media.twitch.attach.texture(u0, tex);
+ media.twitch.attach.texture(u0, tex0boot);
 
  media.twitch.set.url(u0, S.live1.twitch.tv);
 
@@ -193,7 +196,7 @@ record.frame {
 
   node.ex.gl.fbo(u0, -1);
 
-  media.video.recorder.frame.ready(u0, tex, dt);
+#  media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
  };
  media.video.recorder.frame.ready(u0, tex0boot, dt);
