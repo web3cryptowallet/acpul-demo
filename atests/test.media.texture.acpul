@@ -196,7 +196,7 @@ record.frame {
 
   node.ex.gl.fbo(u0, -1);
 
-#  media.video.recorder.frame.ready(u0, tex, dt);
+  media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
  };
  media.video.recorder.frame.ready(u0, tex0boot, dt);
