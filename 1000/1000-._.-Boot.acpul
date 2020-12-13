@@ -102,7 +102,7 @@ to.texture0 {
  gl.fbo(-1);
 };
 
-to.texture0;
+#to.texture0;
 
 gl.draw.texture.rect0 {
  # tex, x,y, w,h
