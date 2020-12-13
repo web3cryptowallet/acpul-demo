@@ -645,7 +645,6 @@ cpu.debug.log.to.console(r0, 1);
 cpu.step(u0);
 
 # CPU STEP ]
-
 # VIDEO RECORD [
 
 test.media.texture 5400;
