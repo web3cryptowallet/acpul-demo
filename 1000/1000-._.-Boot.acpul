@@ -507,7 +507,7 @@ new.wallet {
  node.prop.s.s(u0, l0, 0.9);
 # node.prop.s.s(u0, l0, 0.4);
 };
-new.wallet;
+#new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
@@ -659,6 +659,7 @@ l0:=node.new.this.ex(r0, test.media.texture, 0);
 k:=1;
 
 #x:=100;
+new.wallet;
 
 #watch(node.ex.this.id(u0));
 
