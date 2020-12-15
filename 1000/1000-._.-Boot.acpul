@@ -659,7 +659,7 @@ l0:=node.new.this.ex(r0, test.media.texture, 0);
 k:=1;
 
 #x:=100;
-new.wallet;
+#new.wallet;
 
 #watch(node.ex.this.id(u0));
 
