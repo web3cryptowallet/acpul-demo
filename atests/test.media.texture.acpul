@@ -1,7 +1,6 @@
 ### 5400 test.media.texture
 
-r0:=k==5;
-k+=1;
+r0:=k==0;
 
 draw(r0, 5401);
 
@@ -28,20 +27,18 @@ if (r0) {
 # tex:=media.video.recorder.texture(r0, pool,id, 0, 800,150);
 # texflip:=node.ex.texture.create(u0, 768,1024);
  tex:=media.video.recorder.texture(r0, pool,id, 0, o0,o1);
-# tex:=media.video.recorder.texture(r0, pool,id, 0, o1,o0);
 # texflip:=node.ex.texture.create(u0, 768,1024);
-# texflip:=node.ex.texture.create(u0, 768,1024);
- texflip:=node.ex.texture.create(u0, 1024,768);
+ texflip:=node.ex.texture.create(u0, 768,1024);
  recording+=1;
 
- media.video.recorder.set.duration(u0, tex, 5); 
+ media.video.recorder.set.duration(u0, tex, 15); 
 # media.video.recorder.set.duration(u0, tex, 120); 
 
  media.twitch.attach.texture(u0, tex);
 
  media.twitch.set.url(u0, S.live1.twitch.tv);
 
-#  media.twitch.stop(u0);
+  media.twitch.stop(u0);
 # media.twitch.start(u0);
 };
 
@@ -100,7 +97,7 @@ TMT.PARTICLE 5402;
 #y:=-200;
 t+=dt;
 
-#k:=1;
+k:=1;
 
 
 ### 5401 test.media.texture.draw
@@ -160,9 +157,6 @@ draw.boot {
  node.ex.gl.node.draw(u0, l0);
 };
 
-#tex0boot u14;
-#texflip tex0boot;
-
 record.frame {
  l0:=node.ex.is.this.drawing(u0);
  if (l0 == 0) {
@@ -188,8 +182,7 @@ record.frame {
   shader.use(u0, vsh,fsh);
   shader.uniform.texture(u0, 0, texflip, 0);
 
-#  w 768; h 1024;
-  w 1024; h 768;
+  w 768; h 1024;
   node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
 
   node.ex.gl.fbo(u0, -1);
@@ -197,47 +190,6 @@ record.frame {
   media.video.recorder.frame.ready(u0, tex, dt);
 #  media.video.recorder.frame.ready(u0, texflip, dt);
  };
-};
-
-w l1;
-h l2;
-
-_ @1010;
-_ @sys.display;
-
-vw 768; vh 1024;
-
-if (display.is.landscape) {
- w:=vh;
- h:=vw;
-};
-if (display.is.portrait) {
- w:=vw;
- h:=vh;
-};
-
-tex0boot u14;
-
-record.frame2 {
-  node.ex.gl.fbo(u0, tex);
-  node.ex.gl.clear(u0, 0,1,0,0);
-
-  draw.texture {
-   shader node.ex.shader;
-   vsh 5404; fsh 5405;
-   shader.use(u0, vsh,fsh);
-   shader.uniform.texture(u0, 0, tex0boot, 0);
-
-#  w 768; h 1024;
-#  w 1024; h 768;
-   node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
-  };
-
-  draw.texture;
-
-  node.ex.gl.fbo(u0, -1);
-
-  media.video.recorder.frame.ready(u0, tex, dt);
 };
 
 rr0 recording * (mod(t, 1)<0.5);
@@ -249,7 +201,7 @@ _ @sys.sharedobj;
 _ @sys.obj;
 
 if (recording) {
- record.frame2;
+ record.frame;
 };
 
 ### 5402 tmt.particle(x,y)
@@ -273,7 +225,7 @@ if(r0){
 
 y+=1+dy;
 x+=dx;
-#s:=0.05;
+s:=0.05;
 t+=dt;
 k:=1;
 
