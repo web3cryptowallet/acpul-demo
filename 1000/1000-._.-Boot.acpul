@@ -274,8 +274,8 @@ music.stop
 music.set.track(r0, 1, 2, 5);
 #music.set.track(r0, 1, 2, 6);
 music.stop(r0);
-#music.play(r0, -1, 300, 1);
-music.play(r0, -1, 23*60, 1);
+music.play(r0, -1, 300, 1);
+#music.play(r0, -1, 23*60, 1);
 #music.play(r0, -1, 0, 1);
 #music.play(r0, -1, 70*60, 1);
 
