@@ -267,17 +267,17 @@ music.stop
  # r0
  io(_0, 500091, 0,0,0,0);
 
-#music.set.track(r0, 1, 2, 1);
+music.set.track(r0, 1, 2, 1);
 
 #music.set.track(r0, 1, 2, 3);
 #music.set.track(r0, 1, 2, 4);
 #music.set.track(r0, 1, 2, 5);
-music.set.track(r0, 1, 2, 6);
-#music.stop(r0);
+#music.set.track(r0, 1, 2, 6);
+music.stop(r0);
 #music.play(r0, -1, 300, 1);
 #music.play(r0, -1, 23*60, 1);
-#music.play(r0, -1, 0, 1);
-music.play(r0, -1, 70*60, 1);
+music.play(r0, -1, 0, 1);
+#music.play(r0, -1, 70*60, 1);
 
 #music.play(r0, 1, 0, 1);
 #music.stop(r0);
