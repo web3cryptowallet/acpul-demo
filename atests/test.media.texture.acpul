@@ -38,8 +38,8 @@ if (r0) {
 
  media.twitch.set.url(u0, S.live1.twitch.tv);
 
-#  media.twitch.stop(u0);
- media.twitch.start(u0);
+  media.twitch.stop(u0);
+# media.twitch.start(u0);
 };
 
 #if (t > 60*60) {
