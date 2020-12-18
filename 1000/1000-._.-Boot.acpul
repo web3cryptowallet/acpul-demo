@@ -459,7 +459,7 @@ LIVECOMMENT 10018000;
 #VG;
 
 UNLIMITED.LIFE 70000;
-node.new.this.ex(r0, UNLIMITED.LIFE, 0);
+#node.new.this.ex(r0, UNLIMITED.LIFE, 0);
 
 NOOBMAN 10007000;
 #node.new.this.ex(r0, NOOBMAN, 0);
@@ -489,7 +489,7 @@ VG {
 };
 
 PHOTONEO 7500;
-#node.new.this.ex(r0, PHOTONEO, 0);
+node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
 #l0:=node.new.this.ex(r0, CLOCK, 0);
