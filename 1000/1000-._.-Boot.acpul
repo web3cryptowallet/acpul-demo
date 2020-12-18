@@ -555,10 +555,10 @@ ide0 l15;
 panel0 l14;
 
 if (r0) {
- os.main.ide.new(ide0, 0,525,1, 600,400);
+ apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
+ os.main.ide.new(ide0, 0,525,1, 600,400);
 };
 
 if (r0) {
