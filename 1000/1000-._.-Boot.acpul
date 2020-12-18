@@ -51,6 +51,7 @@ tex0boot u14;
 tex0v r1;
 tex1h r2;
 tex0 r3;
+tex99 r4;
 
 vw 768; vh 1024;
 
@@ -75,7 +76,9 @@ if (display.is.portrait) {
 
 node.ex.child.draw.s(u0, 0);
 
-tex0boot:=tex0;
+tex0boot:=if(tex0boot==tex0,tex99,tex0);
+
+#tex0boot:=tex0;
 
 # DISPLAY ORIENTATION ]
 
