@@ -533,7 +533,7 @@ _ @os.apps;
 apps0 l11;
 
 if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
+# apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 # APPS ]
@@ -627,6 +627,9 @@ ABOT 1500;
 # node.new.this.ex(r0, ABOT, 0);
 u23:=u14;
 
+if (r0) {
+ apps0:=node.new.this.ex(r0, os.apps.run, 0);
+};
 
 _ @1010;
 _ @sys.llog;
