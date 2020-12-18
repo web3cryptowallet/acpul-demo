@@ -498,12 +498,12 @@ CLOCK 10170000;
 GAME.NEBULA 11800;
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 
-VG;
+#VG;
 
 # NEO V2 [
 
 neo.v2.tests 7990;
-#node.new.this.ex(r0, neo.v2.tests, 0);
+node.new.this.ex(r0, neo.v2.tests, 0);
 
 # NEO V2 ]
 # WALLET [
