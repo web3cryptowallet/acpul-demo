@@ -545,9 +545,6 @@ BIRD 7340;
 #node.new.this.ex(r0, BIRD, 0);
 
 
-if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
-};
 
 # OS/IDE [
 
@@ -563,6 +560,9 @@ if (r0) {
 
 if (r0) {
  os.main.panel.new(panel0, 0,925,1, 768,100);
+};
+if (r0) {
+ apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 ide.toggle.console {
