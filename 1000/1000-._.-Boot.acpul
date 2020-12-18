@@ -630,7 +630,7 @@ node.new.this.ex(r0, HIPSTER.BANNER, 0);
 # keyboard ]
 
 ABOT 1500;
-# node.new.this.ex(r0, ABOT, 0);
+ node.new.this.ex(r0, ABOT, 0);
 u23:=u14;
 
 _ @1010;
