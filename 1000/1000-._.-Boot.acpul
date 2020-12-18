@@ -616,6 +616,11 @@ HEROLESSUS 10009000;
 
 #new.wallet;
 
+if (r0) {
+ _ @os.apps;
+ apps0:=node.new.this.ex(r0, os.apps.run, 0);
+};
+
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
 
@@ -627,11 +632,6 @@ node.new.this.ex(r0, HIPSTER.BANNER, 0);
 ABOT 1500;
 # node.new.this.ex(r0, ABOT, 0);
 u23:=u14;
-
-if (r0) {
- _ @os.apps;
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
-};
 
 _ @1010;
 _ @sys.llog;
