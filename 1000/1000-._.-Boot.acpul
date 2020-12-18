@@ -529,6 +529,7 @@ merge.life 1100000;
 
 _ @sys.os;
 _ @os.apps;
+_ @sys.os;
 
 apps0 l11;
 
