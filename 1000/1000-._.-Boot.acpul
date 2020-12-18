@@ -520,7 +520,7 @@ new.wallet {
 # GAME MERGE.LIFE [
 
 merge.life 1100000;
-node.new.this.ex(r0, merge.life, 0);
+#node.new.this.ex(r0, merge.life, 0);
 
 #VG;
 
@@ -543,7 +543,7 @@ if (r0) {
 #VG;
 
 BIRD 7340;
-#node.new.this.ex(r0, BIRD, 0);
+node.new.this.ex(r0, BIRD, 0);
 
 
 
