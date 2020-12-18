@@ -548,10 +548,10 @@ BIRD 7340;
 
 # OS/IDE [
 
+_ @sys.os;
 if (r0) {
  apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
-_ @sys.os;
 _ @os.main;
 
 ide0 l15;
