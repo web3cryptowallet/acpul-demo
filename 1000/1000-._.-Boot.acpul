@@ -533,6 +533,7 @@ _ @os.apps;
 apps0 l11;
 
 if (r0) {
+ _ @os.apps;
  apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
