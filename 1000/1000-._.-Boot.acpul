@@ -630,7 +630,7 @@ BOOTLOADER 8000000;
 # keyboard ]
 
 ABOT 1500;
- node.new.this.ex(r0, ABOT, 0);
+# node.new.this.ex(r0, ABOT, 0);
 #u23:=u14;
 
 _ @1010;
