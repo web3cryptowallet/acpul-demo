@@ -259,18 +259,6 @@ if (r0) {
  dsp.reset();
 };
 
-music.set.track
- # r0, pool,uid,i
- io(_0, 500093, _1,_2,_3,0);
-
-music.play
- # r0, melody, time, loop
- io(_0, 500090, _1,_2,_3,0);
-
-music.stop
- # r0
- io(_0, 500091, 0,0,0,0);
-
 music.set.track(r0, 1, 2, 1);
 
 #music.set.track(r0, 1, 2, 3);
