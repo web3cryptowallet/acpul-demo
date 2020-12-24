@@ -522,7 +522,7 @@ apps0 l11;
 
 if (r0) {
  _ @os.apps;
-# apps0:=node.new.this.ex(r0, os.apps.run, 0);
+ apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 # APPS ]
@@ -606,7 +606,7 @@ HEROLESSUS 10009000;
 
 if (r0) {
  _ @os.apps;
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
+# apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 BOOTLOADER 8000000;
