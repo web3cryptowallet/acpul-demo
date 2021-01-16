@@ -31,6 +31,6 @@ _ @1010;
 
 color(u0, 1, 1, 0.9, 1);
 
-if (1+DEBUG.FRAMES) {
+if (DEBUG.FRAMES) {
  rect(u0, 6, 0,0,w,h);
 };
