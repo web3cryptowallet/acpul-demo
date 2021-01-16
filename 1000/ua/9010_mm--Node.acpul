@@ -6,7 +6,6 @@ draw(r0, 9811);
 dd @9011;
 if(r0,dd.fcolor.init,0); # init shared regs
 #r+=1*dx;
-x:=800;
 dx r7;
 dy r6;
 if(r0)
@@ -20,9 +19,9 @@ if(r0)
 #x+=dx*10;
 y+=dy*10;
 
-if(x<0){x:=0; dx:=-dx;};
+#if(x<0){x:=0; dx:=-dx;};
 if(y<-100){y:=-100; dy:=-dy;};
-if(x>768){x:=768; dx:=-dx;};
+#if(x>768){x:=768; dx:=-dx;};
 if(y>1124){y:=1124; dy:=-dy;};
 
 k:=1;
