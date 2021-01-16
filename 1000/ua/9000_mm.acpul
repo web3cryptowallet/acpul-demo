@@ -9,7 +9,7 @@ _ @sys.node;
 s:=0.2;
 s:=1;
 n:=if(r0, 0, n);
-while(n<100)
+while(n<50)
 {
  node.new.target.object(r0, 9010, 0);
  n+=1;
