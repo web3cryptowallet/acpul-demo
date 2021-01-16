@@ -9,7 +9,8 @@ if(r0,dd.fcolor.init,0); # init shared regs
 dx r7;
 dy r6;
 
-max.y 1024-500;
+min.y 100;
+max.y 1024+100;
 
 if(r0) {
  x:=rnd(r)*768;
@@ -22,7 +23,7 @@ if(r0) {
 y+=dy*10;
 
 #if(x<0){x:=0; dx:=-dx;};
-if(y<-100){y:=-100; dy:=-dy;};
+if(y<min.y){y:=min.y; dy:=-dy;};
 #if(x>768){x:=768; dx:=-dx;};
 if(y>max.y){y:=max.y; dy:=-dy;};
 
