@@ -6,7 +6,7 @@ draw(r0, 9811);
 dd @9011;
 if(r0,dd.fcolor.init,0); # init shared regs
 #r+=1*dx;
-
+x:=0;
 dx r7;
 dy r6;
 if(r0)
