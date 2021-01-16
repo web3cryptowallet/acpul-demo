@@ -4,12 +4,12 @@ r0:=k==0;
 draw(r0, 9811);
 
 dd @9011;
-if(r0,dd.fcolor.init,0); # init shared regs
+if(r0, dd.fcolor.init, 0); # init shared regs
+
 #r+=1*dx;
 dx r7;
 dy r6;
-if(r0)
-{
+if(r0) {
  x:=rnd(r)*768;
  y:=rnd(r)*1024;
  dx:=rnd(r)-0.5;
