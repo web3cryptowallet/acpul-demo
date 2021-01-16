@@ -10,11 +10,13 @@ SHOW.AVATARS0 0;
 
 
 
-# cpu A1 [
+# CPU A1 [
 
  dma0 0;
  dma1 1;
 
-# cpu A1 ]
+# CPU A1 ]
 
+# FUTURE AI OPTIMIZATIONS [
 
+# FUTURE AI OPTIMIZATIONS ]
