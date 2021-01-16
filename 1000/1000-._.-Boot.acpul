@@ -401,7 +401,8 @@ new.Edit1
 #!node.new.this.ex(r0, 20000, 0);
 #!node.new.this.ex(r0, 11000, 0);
 
-node.new.this.object(r0, 9000, 0);
+DEMO.UA 9000;
+node.new.this.object(r0, DEMO.UA, 0);
 
 #s:=sin(t)*0.5+1;
 
