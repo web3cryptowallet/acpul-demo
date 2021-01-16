@@ -10,7 +10,11 @@ SHOW.AVATARS0 0;
 
 
 
+# cpu A1 [
 
+ dma0 0;
+ dma1 1;
 
+# cpu A1 ]
 
 
