@@ -10,7 +10,7 @@ dx r7;
 dy r6;
 
 min.y 0;
-max.y 1024+100;
+max.y 1024;
 
 if(r0) {
  x:=rnd(r)*768;
