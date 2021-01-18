@@ -10,6 +10,8 @@ SHOW.AVATARS0 0;
 
 DEBUG.FRAMES 0;
 
+IDE.FID 9811;
+
 # CPU A1 [
 
  dma0 0;
