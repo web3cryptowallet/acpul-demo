@@ -20,8 +20,8 @@ IDE.FID 16610;
 
 #TRACK {POOL 7; ID 1; I 0; TIME 0;};
 
-TRACK.SET music.set.track(r0, 1, 2, 3);
-#TRACK.SET music.set.track(r0, 1, 2, 7);
+#TRACK.SET music.set.track(r0, 1, 2, 3);
+TRACK.SET music.set.track(r0, 1, 2, 7); # TERM
 #TRACK.STOP music.stop(r0);
 #TRACK.STOP 0;
 TRACK.PLAY music.play(r0, 1, 0, 1);
