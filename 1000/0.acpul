@@ -25,7 +25,7 @@ TRACK.SET music.set.track(r0, 1, 2, 3);
 #TRACK.SET music.set.track(r0, 1, 2, 7); # TERM
 TRACK.STOP music.stop(r0);
 #TRACK.STOP 0;
-#TRACK.PLAY music.play(r0, 1, 0, 1);
+TRACK.PLAY music.play(r0, 1, 0, 1);
 #TRACK.PLAY music.play(r0, 1, 360, 1);
 
 
