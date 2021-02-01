@@ -273,7 +273,9 @@ music.set.track(r0, 1, 2, 1);
 
 TRACK.SET;
 TRACK.STOP;
+if (t>50) {
 TRACK.PLAY;
+};
 
 #music.play(r0, 1, 0, 1);
 #music.stop(r0);
