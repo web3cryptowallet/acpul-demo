@@ -270,8 +270,8 @@ node {_;
  prop.w.g io(_0, 7214, _1, 6, 0,0);
  prop.h.s io(_0, 7214, _1, 7, 1,_2);
  prop.h.g io(_0, 7214, _1, 7, 0,0);
-# prop.visible.s io(_0, 7214, _1, 8, 1,_2);
-# prop.visible.g io(_0, 7214, _1, 8, 0,0);
+ prop.visible.s io(_0, 7214, _1, 8, 1,_2);
+ prop.visible.g io(_0, 7214, _1, 8, 0,0);
  value.s io(_0, 7214, _1, 10+_2, 1,_3);
  value.g io(_0, 7214, _1, 10+_2, 0,0);
 
