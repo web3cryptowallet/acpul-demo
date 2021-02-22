@@ -21,16 +21,16 @@ IDE.FID 16610;
 
 #TRACK {POOL 7; ID 1; I 0; TIME 0;};
 
-#TRACK.SET music.set.track(r0, 1, 2, 3);
+TRACK.SET music.set.track(r0, 1, 2, 3);
 #TRACK.SET music.set.track(r0, 1, 2, 1);
-TRACK.SET music.set.track(r0, 1, 2, 6);
+#TRACK.SET music.set.track(r0, 1, 2, 6);
 #TRACK.SET music.set.track(r0, 1, 2, 7); # TERM
 #TRACK.SET music.set.track(r0, 1, 2, 8); # TWIST
 #TRACK.SET music.set.track(r0, 1, 2, 11); # STARWARS
 #TRACK.STOP music.stop(r0);
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 #TRACK.PLAY music.play(r0, 1, 360, 1);
-TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
+#TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 
 # CPU A1 [
 
