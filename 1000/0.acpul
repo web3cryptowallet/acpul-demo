@@ -54,3 +54,12 @@ _ @os.basic.ui;
 
 _ @os.util2;
 
+#parent node.get.parent(u0, _0);
+
+#p.y node.prop.y.g(u0, parent(nid));
+
+#node.x node.prop.x.g(u0, _0);
+#node.y node.prop.y.g(u0, _0);
+#node.y(nid)
+
+#ui.value1(l11,0,0,1,w);
