@@ -42,3 +42,15 @@ TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 # FUTURE AI OPTIMIZATIONS [
 
 # FUTURE AI OPTIMIZATIONS ]
+
+### 4 INC.OS
+
+_ @1010;
+_ @1100;
+_ @sys.obj;
+_ @sys.os;
+_ @os.basic;
+_ @os.basic.ui;
+
+_ @os.util2;
+
