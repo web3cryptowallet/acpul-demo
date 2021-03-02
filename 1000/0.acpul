@@ -46,6 +46,7 @@ TRACK.STOP music.stop(r0);
 ### 4 INC.OS
 
 _ @1010;
+_ @sys.node;
 _ @1100;
 _ @sys.obj;
 _ @sys.os;
