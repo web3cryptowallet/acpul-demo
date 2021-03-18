@@ -663,6 +663,30 @@ test.media.texture 5400;
 
 # BOOT ]
 
+# EVENTS [
+
+boot.pool 420042;
+
+_ @1010;
+_ @sys.obj;
+_ @sys.os;
+_ @ul.ui;
+_ @os.util2;
+
+process.node.events {
+ process.event {
+  # ev, o0... - event
+  if (_0==boot.event.connect) {
+  };
+ };
+
+ tmp0 d58;
+ ui.event.process3(tmp0, boot.pool,0, process.event);
+};
+
+process.node.events;
+
+# EVENTS ]
 
 k:=1;
 
