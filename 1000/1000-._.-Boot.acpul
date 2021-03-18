@@ -693,7 +693,8 @@ process.node.events {
 
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
-
+  };
+  if (_0==boot.event.record.video.screen) {
 #   l0:=node.new.this.ex(u0, test.media.texture, 0);
 
   };
