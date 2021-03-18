@@ -691,7 +691,7 @@ process.node.events {
 
        _ @4;
     ui.value1(l10,100,110,0.5,ip0);
-    ui.value1(l12,200,110,0.5,ip1);
+    ui.value1(l12,170,110,0.5,ip1);
     ui.value1(l13,300,110,0.5,ip2);
     ui.value1(r8,400,110,0.5,ip3);
     ui.value1(r9,500,110,0.5,port);
