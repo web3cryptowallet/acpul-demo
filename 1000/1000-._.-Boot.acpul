@@ -161,10 +161,10 @@ if (r0) {
 #url0:=S.acpu.server.url0;
 #net.url.connect(r0, url0);
 
-if (r0) {
+#if (r0) {
  net.host(192,168,1,7, 8077);
  #net.host(144,247,5,7, 8077);
-};
+#};
 
 net.editor.update(1);
 net.reset.after.update(1, 1000);
@@ -690,7 +690,7 @@ process.node.events {
     port buffer.get(u0, peer0,2, 0);
     net.host(ip0,ip1,ip2,ip3, port);
    };
-   connect.peer;
+#   connect.peer;
 
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
