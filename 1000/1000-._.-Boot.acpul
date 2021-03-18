@@ -690,11 +690,11 @@ process.node.events {
     net.host(ip0,ip1,ip2,ip3, port);
 
        _ @4;
-    ui.value1(l10,110,110,0.5,port);
-    ui.value1(l12,110,110,0.5,port);
-    ui.value1(l13,110,110,0.5,port);
-    ui.value1(l15,110,110,0.5,port);
-    ui.value1(l15,110,110,0.5,port);
+    ui.value1(l10,100,110,0.5,ip0);
+    ui.value1(l12,150,110,0.5,ip1);
+    ui.value1(l13,200,110,0.5,ip2);
+    ui.value1(r8,250,110,0.5,ip3);
+    ui.value1(r9,300,110,0.5,port);
 
    };
    connect.peer;
