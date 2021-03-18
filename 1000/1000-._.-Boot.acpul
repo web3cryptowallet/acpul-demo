@@ -690,7 +690,7 @@ process.node.events {
 #    net.host(ip0,ip1,ip2,ip3, port);
 
        _ @4;
-    ui.value1(l10,100,110,0.5,peer0);
+    ui.value1(l10,100,110,0.5,ip0);
     ui.value1(l12,170,110,0.5,ip1);
     ui.value1(l13,240,110,0.5,ip2);
     ui.value1(r8,310,110,0.5,ip3);
