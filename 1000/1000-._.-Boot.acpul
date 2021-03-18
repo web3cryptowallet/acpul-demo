@@ -689,7 +689,7 @@ process.node.events {
     port buffer.get(u0, peer0,2, 0);
     net.host(ip0,ip1,ip2,ip3, port);
    };
-#   connect.peer;
+   connect.peer;
 
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
