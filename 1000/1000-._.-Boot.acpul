@@ -677,7 +677,7 @@ process.node.events {
  process.event {
   # ev, o0... - event
   if (_0==boot.event.connect) {
-   l0:=node.new.this.ex(r0, test.media.texture, 0);
+   l0:=node.new.this.ex(u0, test.media.texture, 0);
 
   };
  };
