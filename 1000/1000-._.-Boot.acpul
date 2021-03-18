@@ -177,7 +177,6 @@ llog.host(u0, 192,168,1,7, 8995);
 #llog.host(u0, 144,247,5,7, 8995);
 llog.enable(u0, 1);
 
-
 draw(r0, 1001);
 
 # sharedobj [
