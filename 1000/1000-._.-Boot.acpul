@@ -680,15 +680,16 @@ process.node.events {
 
    peer0 d7;
    peer0:=o0;
-   ip0 buffer.get(u0, peer0,3, 0);
-   ip1 buffer.get(u0, peer0,3, 1);
-   ip2 buffer.get(u0, peer0,3, 2);
-   ip3 buffer.get(u0, peer0,3, 3);
-   port buffer.get(u0, peer0,2, 0);
+   peer {
+    ip0 buffer.get(u0, peer0,3, 0);
+    ip1 buffer.get(u0, peer0,3, 1);
+    ip2 buffer.get(u0, peer0,3, 2);
+    ip3 buffer.get(u0, peer0,3, 3);
+    port buffer.get(u0, peer0,2, 0);
+   };
 
-   _ @4;
-   ui.value1(l12,110,110,0.5,port);
-
+#   _ @4;
+#   ui.value1(l12,110,110,0.5,port);
 
 #   l0:=node.new.this.ex(u0, test.media.texture, 0);
 
