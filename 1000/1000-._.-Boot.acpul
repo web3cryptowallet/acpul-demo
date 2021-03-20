@@ -708,6 +708,7 @@ process.node.events {
    _ @sys.os;
    _ @os.apps;
    apps0:=node.new.this.ex(u0, os.apps.run, 0);
+   node.z.to.back(u0, apps0, 0);
   };
  };
 
