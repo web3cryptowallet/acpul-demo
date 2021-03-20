@@ -614,7 +614,7 @@ HEROLESSUS 10009000;
 #new.wallet;
 
 if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
+# apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 BOOTLOADER 8000000;
