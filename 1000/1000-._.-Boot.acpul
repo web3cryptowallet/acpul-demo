@@ -613,10 +613,6 @@ HEROLESSUS 10009000;
 
 #new.wallet;
 
-if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
-};
-
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
 
@@ -708,9 +704,11 @@ process.node.events {
    node.new.this.ex(u0, BOOTLOADER, 0);
   };
 
-#  if (_0==boot.event.apps.run) {
-#   apps0:=node.new.this.ex(u0, os.apps.run, 0);
-#  };
+  if (_0==boot.event.apps.run) {
+   _ @sys.os;
+   _ @os.apps;
+   apps0:=node.new.this.ex(u0, os.apps.run, 0);
+  };
  };
 
  tmp0 d58;
