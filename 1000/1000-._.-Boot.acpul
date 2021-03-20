@@ -546,8 +546,8 @@ BIRD 7340;
 
 # OS/IDE [
 
-_ @sys.os;
 _ @os.apps;
+_ @sys.os;
 _ @os.main;
 
 ide0 l15;
