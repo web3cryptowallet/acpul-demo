@@ -531,7 +531,6 @@ _ @os.apps;
 apps0 l11;
 
 if (r0) {
- _ @os.apps;
  apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
@@ -615,7 +614,6 @@ HEROLESSUS 10009000;
 #new.wallet;
 
 if (r0) {
- _ @os.apps;
 # apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
@@ -708,6 +706,10 @@ process.node.events {
 
   if (_0==boot.event.open.bootloader) {
    node.new.this.ex(u0, BOOTLOADER, 0);
+  };
+
+  if (_0==boot.event.open.bootloader) {
+   apps0:=node.new.this.ex(r0, os.apps.run, 0);
   };
  };
 
