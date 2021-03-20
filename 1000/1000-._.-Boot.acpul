@@ -699,8 +699,14 @@ process.node.events {
    };
    connect.peer;
   };
+
   if (_0==boot.event.record.video.screen) {
    l0:=node.new.this.ex(u0, test.media.texture, 0);
+  };
+  if (_0==boot.event.record.video.stop) {
+  };
+
+  if (_0==boot.event.open.bootloader) {
   };
  };
 
