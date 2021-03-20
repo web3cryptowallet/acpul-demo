@@ -531,7 +531,7 @@ _ @os.apps;
 apps0 l11;
 
 if (r0) {
- apps0:=node.new.this.ex(r0, os.apps.run, 0);
+# apps0:=node.new.this.ex(r0, os.apps.run, 0);
 };
 
 # APPS ]
@@ -708,8 +708,8 @@ process.node.events {
    node.new.this.ex(u0, BOOTLOADER, 0);
   };
 
-  if (_0==boot.event.open.bootloader) {
-   apps0:=node.new.this.ex(r0, os.apps.run, 0);
+  if (_0==boot.event.apps.run) {
+   apps0:=node.new.this.ex(u0, os.apps.run, 0);
   };
  };
 
@@ -720,6 +720,7 @@ process.node.events {
 process.node.events;
 
 #events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
+events.push(r0, boot.pool,0, boot.event.apps.run, 0,0,0,0);
 
 # EVENTS ]
 
