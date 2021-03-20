@@ -547,6 +547,7 @@ BIRD 7340;
 # OS/IDE [
 
 _ @sys.os;
+_ @os.apps;
 _ @os.main;
 
 ide0 l15;
@@ -560,7 +561,6 @@ if (r0) {
  os.main.panel.new(panel0, 0,925,1, 768,100);
 };
 
-_ @os.apps;
 ide.toggle.console {
  ide.common 15510;
  _ @ide.common;
