@@ -741,7 +741,7 @@ _ @sys.obj;
 _ @sys.os;
 _ @os.basic;
 
-sn0 l8;
+sn0 l12;
 new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2., 1, 70014,28520); # 
 
 #   _ @4;
