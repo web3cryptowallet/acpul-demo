@@ -739,7 +739,10 @@ _ @os.util2;
 _ @sys.obj;
 
 _ @sys.os;
-_ @os.basic;new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2., 1, 70014,28520); # 
+_ @os.basic;
+
+sn0 l8;
+new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2., 1, 70014,28520); # 
 
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
