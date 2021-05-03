@@ -727,7 +727,19 @@ events.push(r0, boot.pool,0, boot.event.apps.run, 0,0,0,0);
 
 k:=1;
 
-new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2., 1, 70014,28520); # 
+_ @92000;
+
+_ @1010;
+_ @sys.node;
+_ @sys.os;
+_ @os.basic;
+_ @os.basic.ui;
+_ @os.util0;
+_ @os.util2;
+_ @sys.obj;
+
+_ @sys.os;
+_ @os.basic;new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2., 1, 70014,28520); # 
 
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
