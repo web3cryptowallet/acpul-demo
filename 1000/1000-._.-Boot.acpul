@@ -118,7 +118,7 @@ gl.draw.texture.rect0 {
  gl.shader.use(70014,70015);
  gl.shader.uniform.texture(0, tex0, 0);
 # gl.blend(u0, 1, 8);
- gl.rect0(5, x,y, w/2,h);
+ gl.rect0(5, x,y, w,h);
 };
 
 gl.draw.texture.rect0(tex0,0,0,w,h);
