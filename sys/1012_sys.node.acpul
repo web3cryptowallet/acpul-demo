@@ -129,19 +129,21 @@ node {_;
  # texture param [
 
  ex.texture.get.param
-  # u0, tex, p, v
+  # u0, tex, p -> v
   io(_0, 7224, _1, _2+1000, 0, 0);
 
  ex.texture.set.param
   # u0, tex, p, v
   io(_0, 7224, _1, _2, _3, 0);
-  
+
  ex.texture.aaa {filter.min 2;};
  ex.texture.p {
   filter.min 0;
   filter.mag 1;
   wrap.s 2;
   wrap.t 3;
+  x 1000;
+  y 1000+1;
  };
  ex.texture.v {
   filter.nearest 0;
