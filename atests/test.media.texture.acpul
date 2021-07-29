@@ -18,6 +18,9 @@ tex0boot1 u14;
 
 tex0src tex0boot0;
 
+tw node.texture.width(tex0src);
+th node.texture.height(tex0src);
+
 if (r0) {
  display.size(0);
  watch(o0);
@@ -33,8 +36,6 @@ if (r0) {
 # texflip:=node.ex.texture.create(u0, 768,1024);
 # tex:=media.video.recorder.texture(r0, pool,id, 0, o0,o1);
 
- tw node.texture.width(tex0src);
- th node.texture.height(tex0src);
  tex:=media.video.recorder.texture(r0, pool,id, 0, tw,th);
 
 # texflip:=node.ex.texture.create(u0, 768,1024);
@@ -108,6 +109,9 @@ TMT.PARTICLE 5402;
 t+=dt;
 
 k:=1;
+
+   _ @4;
+   ui.value1(l12,110,110,0.5,tw);
 
 
 ### 5401 test.media.texture.draw
