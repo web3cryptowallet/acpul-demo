@@ -18,8 +18,12 @@ tex0boot1 u14;
 
 tex0src tex0boot0;
 
-tw node.texture.width(tex0src)/2;
-th node.texture.height(tex0src)/2;
+tw node.texture.width(tex0src)*rec.scale;
+th node.texture.height(tex0src)*rec.scale;
+
+rec.scale r10;
+
+rec.scale:=1;
 
 if (r0) {
  display.size(0);
@@ -167,6 +171,8 @@ tex0src tex0boot0;
 
 texflip tex0src;
 
+rec.scale r10;
+
 #watch(tex);
 #watch(texflip);
 
@@ -211,8 +217,8 @@ record.frame {
   shader.uniform.texture(u0, 0, texflip, 0);
 
 #  w 768*2; h 1024*2;
-  w node.texture.width(tex0src)/2/2;
-  h node.texture.height(tex0src)/2/2;
+  w node.texture.width(tex0src)/2*rec.scale;
+  h node.texture.height(tex0src)/2/*rec.scale;
 
   node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
 
