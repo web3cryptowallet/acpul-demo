@@ -91,7 +91,7 @@ node.ex.child.draw.s(u0, 0);
 
 tex0boot1:=tex0boot0;
 
-tex0boot0:=tex1;
+tex0boot0:=tex0;
 
 # DISPLAY ORIENTATION ]
 
