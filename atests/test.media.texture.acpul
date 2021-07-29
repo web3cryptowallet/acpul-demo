@@ -21,10 +21,12 @@ tex0src tex0boot0;
 tw node.texture.width(tex0src);
 th node.texture.height(tex0src);
 
+
 if (r0) {
  display.size(0);
  watch(o0);
  watch(o1);
+l5:=tw;
 
  pool 5400;
  id 0;
@@ -111,7 +113,7 @@ t+=dt;
 k:=1;
 
    _ @4;
-   ui.value1(l12,110,150,0.5,tw);
+   ui.value1(l12,110,150,0.5,l5);
    ui.value1(l13,110,110,0.5,th);
 
 
