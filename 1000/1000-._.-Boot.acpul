@@ -786,9 +786,9 @@ if (r0) {
 #new.ui.shader.node(sn0, 000,0,4, 768/4,1024/4., 1, 70014,28520); # 
 };
 
-   _ @4;
+#   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
-   ui.value1(l12,110,110,0.5,bootnid);
+#   ui.value1(l12,110,110,0.5,bootnid);
 
 
 
