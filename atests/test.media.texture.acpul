@@ -202,7 +202,8 @@ record.frame {
 };
 
 record.frame1 {
- media.video.recorder.frame.ready(u0, tex0boot1, dt);
+# media.video.recorder.frame.ready(u0, tex0boot1, dt);
+ media.video.recorder.frame.ready(u0, tex0boot0, dt);
 };
 
 rr0 recording * (mod(t, 1)<0.5);
