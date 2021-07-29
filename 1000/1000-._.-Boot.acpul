@@ -95,7 +95,7 @@ tex0boot0:=tex0;
 
 _ @4;
 ui.value1(l12,110,110,1.5,display.orientation.get);
-ui.value1(l13,110,110,1.5,display.is.portrait);
+#ui.value1(l13,110,110,1.5,display.is.portrait);
 
 
 # DISPLAY ORIENTATION ]
