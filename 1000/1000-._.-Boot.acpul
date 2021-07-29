@@ -111,7 +111,7 @@ _ @util.gl.std;
 _ @core.hud;
 
 tex0 r3;
-tex1 r7;
+tex1.flip r7;
 
 to.texture0 {
  gl.fbo(tex0);
@@ -122,8 +122,8 @@ to.texture0 {
  gl.fbo(-1);
 };
 
-to.texture1 {
-  gl.fbo(tex1);
+to.texture1.flip {
+  gl.fbo(tex1.flip);
   gl.clear(0,1,0,0);
 a:=1;
   gl.shader.use(70014,70015);
@@ -146,8 +146,8 @@ gl.draw.texture.rect0 {
  gl.rect0(5, x,y, w,h);
 };
 
-to.texture1;
 to.texture0;
+to.texture1.flip;
 
 gl.draw.texture.rect0(tex0,0,0,w,h);
 
