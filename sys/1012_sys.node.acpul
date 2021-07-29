@@ -157,11 +157,11 @@ node {_;
 
  # texture api [
 
- texture.get.width
+ texture.width
   # tex0 -> x
   node.ex.texture.get.param(u0, _0, node.ex.texture.p.width);
 
- texture.get.height
+ texture.height
   # tex0 -> y
   node.ex.texture.get.param(u0, _0, node.ex.texture.p.height);
 
