@@ -149,7 +149,7 @@ node {_;
 
  ex.texture.get.param
   # u0, tex, p -> v
-  io(_0, 7224, _1, _2+1000, 0, 0);
+  io(_0, 7224, _1, _2, 0, 0);
 
  ex.texture.set.param
   # u0, tex, p, v
