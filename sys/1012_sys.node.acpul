@@ -130,12 +130,14 @@ node {_;
 
  ex.texture.aaa {filter.min 2;};
  ex.texture.p {
+  # setters
   filter.min 0;
   filter.mag 1;
   wrap.s 2;
   wrap.t 3;
-  x 1000;
-  y 1000+1;
+  # getters
+  width 1000;
+  height 1000+1;
  };
  ex.texture.v {
   filter.nearest 0;
@@ -155,13 +157,13 @@ node {_;
 
  # texture api [
 
- texture.get.x
+ texture.get.width
   # tex0 -> x
-  node.ex.texture.get.param(_0, node.ex.texture.p.x);
+  node.ex.texture.get.param(_0, node.ex.texture.p.width);
 
- texture.get.y
+ texture.get.height
   # tex0 -> y
-  node.ex.texture.get.param(_0, node.ex.texture.p.y);
+  node.ex.texture.get.param(_0, node.ex.texture.p.height);
 
  # texture api ]
 
