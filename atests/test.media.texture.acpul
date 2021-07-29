@@ -215,8 +215,8 @@ _ @sys.sharedobj;
 _ @sys.obj;
 
 if (recording) {
-# record.frame;
- record.frame1;
+ record.frame;
+# record.frame1;
 };
 
 ### 5402 tmt.particle(x,y)
