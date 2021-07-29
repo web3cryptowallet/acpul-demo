@@ -123,8 +123,8 @@ to.texture0 {
 };
 
 to.texture1 {
-  gl.fbo(u0, tex1);
-  gl.clear(u0, 0,1,0,0);
+  gl.fbo(tex1);
+  gl.clear(0,1,0,0);
 a:=1;
   gl.shader.use(70014,70015);
   gl.shader.uniform.texture(0, tex0, 0);
@@ -134,7 +134,7 @@ a:=1;
   gl.rect0(5, 0,0, w,h);
  node.ex.gl.child.draw(u0);
 
-  gl.fbo(u0, -1);
+  gl.fbo(-1);
 };
 
 gl.draw.texture.rect0 {
