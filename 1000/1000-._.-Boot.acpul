@@ -126,12 +126,12 @@ to.texture1 {
   gl.fbo(u0, tex1);
   gl.clear(u0, 0,1,0,0);
 
-  vsh 5404; fsh 5405;
-  gl.shader.use(u0, vsh,fsh);
-  gl.shader.uniform.texture(u0, 0, tex0, 0);
+  gl.shader.use(70014,70015);
+  gl.shader.uniform.texture(0, tex0, 0);
 
 #  w 768; h 1024;
-  node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
+#  node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
+  gl.rect0(5, 0,0, w,h);
 
   gl.fbo(u0, -1);
 };
