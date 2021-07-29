@@ -150,7 +150,7 @@ to.texture0;
 
 to.texture1;
 
-gl.draw.texture.rect0(tex0,0,0,w,h);
+gl.draw.texture.rect0(tex1,0,0,w,h);
 
 
 ### 1610 Boot.main
