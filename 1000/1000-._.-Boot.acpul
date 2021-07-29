@@ -149,7 +149,6 @@ gl.draw.texture.rect0 {
 to.texture1;
 to.texture0;
 
-
 gl.draw.texture.rect0(tex1,0,0,w,h);
 
 
