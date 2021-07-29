@@ -145,14 +145,6 @@ node {_;
   wrap.mirrored.repeat 4;
  };
 
- texture.get.x
-  # tex0 -> x
-  node.ex.texture.get.param(_0, node.ex.texture.p.x);
-
- texture.get.y
-  # tex0 -> y
-  node.ex.texture.get.param(_0, node.ex.texture.p.y);
-
  ex.texture.get.param
   # u0, tex, p -> v
   io(_0, 7224, _1, _2+1000, 0, 0);
@@ -160,6 +152,14 @@ node {_;
  ex.texture.set.param
   # u0, tex, p, v
   io(_0, 7224, _1, _2, _3, 0);
+
+ texture.get.x
+  # tex0 -> x
+  node.ex.texture.get.param(_0, node.ex.texture.p.x);
+
+ texture.get.y
+  # tex0 -> y
+  node.ex.texture.get.param(_0, node.ex.texture.p.y);
 
  # texture param ]
 
