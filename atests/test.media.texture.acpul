@@ -218,7 +218,7 @@ record.frame {
 
 #  w 768*2; h 1024*2;
   w node.texture.width(tex0src)/2*rec.scale;
-  h node.texture.height(tex0src)/2/*rec.scale;
+  h node.texture.height(tex0src)/2*rec.scale;
 
   node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
 
