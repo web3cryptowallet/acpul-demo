@@ -80,6 +80,8 @@ if (display.is.portrait) {
  th h;
  tex1h:=if(tex1h,tex1h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
  tex0:=tex1h;
+ tex3h:=if(tex3h,tex3h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex1:=tex3h;
 };
 
 node.ex.child.draw.s(u0, 0);
