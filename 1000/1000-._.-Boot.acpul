@@ -784,5 +784,10 @@ if (r0) {
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
 
+bootnid u29;
+
+   _ @4;
+   ui.value1(l12,110,110,0.5,bootnid);
+
 #new.wallet;
 
