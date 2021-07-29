@@ -51,7 +51,12 @@ tex0boot1 u14;
 
 tex0v r1;
 tex1h r2;
+tex2v1 r5;
+tex3h1 r6;
+
 tex0 r3;
+tex1 r7;
+
 tex99 r4;
 
 vw 768; vh 1024;
