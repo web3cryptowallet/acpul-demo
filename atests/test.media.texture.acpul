@@ -181,6 +181,7 @@ record.frame {
  if (l0 == 0) {
 
 #  to.texture0;
+  texflip:=tex0boot1;
 
   node.ex.gl.fbo(u0, tex);
 
