@@ -157,21 +157,30 @@ draw.boot {
  node.ex.gl.node.draw(u0, l0);
 };
 
-record.frame {
- l0:=node.ex.is.this.drawing(u0);
- if (l0 == 0) {
-  node.ex.gl.fbo(u0, texflip);
+tex0boot0 u13;
+tex0boot1 u14;
 
-  node.ex.gl.clear(u0, 0,0,0,0);
+
+record.frame {
+  to.texture0 {
+   node.ex.gl.fbo(u0, texflip);
+
+   node.ex.gl.clear(u0, 0,0,0,0);
 # node.ex.gl.clear(u0, 1,1,0,1);
 # node.ex.gl.clear(u0, rnd(u0),rnd(u0),rnd(u0),1);  
 
 #  form;
-  draw.boot;
-
+   draw.boot;
+ 
 #  node.ex.gl.child.draw(u0);
 
-  node.ex.gl.fbo(u0, -1);
+   node.ex.gl.fbo(u0, -1);
+  };
+
+ l0:=node.ex.is.this.drawing(u0);
+ if (l0 == 0) {
+
+  to.texture0;
 
   node.ex.gl.fbo(u0, tex);
 
