@@ -13,6 +13,11 @@ tex r8;
 texflip r9;
 recording r5;
 
+tex0boot0 u13;
+tex0boot1 u14;
+
+tex0src tex0boot0;
+
 if (r0) {
  display.size(0);
  watch(o0);
@@ -28,7 +33,6 @@ if (r0) {
 # texflip:=node.ex.texture.create(u0, 768,1024);
 # tex:=media.video.recorder.texture(r0, pool,id, 0, o0,o1);
 
- tex0src tex0boot0;
  tw node.texture.width(tex0src);
  th node.texture.height(tex0src);
  tex:=media.video.recorder.texture(r0, pool,id, 0, tw,th);
@@ -151,6 +155,11 @@ tex r8;
 texflip r9;
 recording r5;
 
+tex0boot0 u13;
+tex0boot1 u14;
+
+texflip tex0boot0;
+
 #watch(tex);
 #watch(texflip);
 
@@ -162,9 +171,6 @@ draw.boot {
 # node.ex.gl.node.set.draw.transform(u0, 0,0, 0, 0.5);
  node.ex.gl.node.draw(u0, l0);
 };
-
-tex0boot0 u13;
-tex0boot1 u14;
 
 
 record.frame {
@@ -187,8 +193,6 @@ record.frame {
  if (l0 == 0) {
 
 #  to.texture0;
-
-  texflip tex0boot0;
 
   node.ex.gl.fbo(u0, tex);
 
