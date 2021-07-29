@@ -111,8 +111,8 @@ t+=dt;
 k:=1;
 
    _ @4;
-   ui.value1(l12,110,110,0.5,tw);
-   ui.value1(l13,110,210,0.5,th);
+   ui.value1(l12,110,150,0.5,tw);
+   ui.value1(l13,110,110,0.5,th);
 
 
 ### 5401 test.media.texture.draw
