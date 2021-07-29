@@ -51,8 +51,8 @@ tex0boot1 u14;
 
 tex0v r1;
 tex1h r2;
-tex2v1 r5;
-tex3h1 r6;
+tex2v r5;
+tex3h r6;
 
 tex0 r3;
 tex1 r7;
@@ -69,6 +69,8 @@ if (display.is.landscape) {
  th h;
  tex0v:=if(tex0v,tex0v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
  tex0:=tex0v;
+ tex2v:=if(tex2v,tex2v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex1:=tex2v;
 };
 if (display.is.portrait) {
  w:=vw;
