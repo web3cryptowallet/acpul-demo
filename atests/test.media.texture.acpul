@@ -163,7 +163,9 @@ recording r5;
 tex0boot0 u13;
 tex0boot1 u14;
 
-texflip tex0boot0;
+tex0src tex0boot0;
+
+texflip tex0src;
 
 #watch(tex);
 #watch(texflip);
@@ -208,9 +210,9 @@ record.frame {
   shader.use(u0, vsh,fsh);
   shader.uniform.texture(u0, 0, texflip, 0);
 
-  w 768*2; h 1024*2;
-#  w node.texture.width(texflip);
-#  h node.texture.height(texflip);
+#  w 768*2; h 1024*2;
+  w node.texture.width(tex0src);
+  h node.texture.height(tex0src);
 
   node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
 
