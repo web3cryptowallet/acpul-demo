@@ -147,11 +147,11 @@ node {_;
 
  texture.get.x
   # tex0 -> x
-  node.ex.texture.get.param(_0, texture.p.x);
+  node.ex.texture.get.param(_0, node.ex.texture.p.x);
 
  texture.get.y
   # tex0 -> y
-  node.ex.texture.get.param(_0, texture.p.y);
+  node.ex.texture.get.param(_0, node.ex.texture.p.y);
 
  ex.texture.get.param
   # u0, tex, p -> v
