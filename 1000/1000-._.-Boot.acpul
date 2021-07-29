@@ -46,7 +46,8 @@ draw(r0, 1601);
 _ @1010;
 _ @sys.display;
 
-tex0boot u14;
+tex0boot0 u13;
+tex0boot1 u14;
 
 tex0v r1;
 tex1h r2;
@@ -79,7 +80,9 @@ node.ex.child.draw.s(u0, 0);
 #tex0boot:=if(tex0boot==tex0,tex99,tex0);
 #tex0boot:=tex99;
 
-tex0boot:=tex0;
+tex0boot1:=tex0boot0;
+
+tex0boot0:=tex0;
 
 # DISPLAY ORIENTATION ]
 
