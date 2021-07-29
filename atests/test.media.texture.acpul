@@ -180,7 +180,9 @@ record.frame {
  l0:=node.ex.is.this.drawing(u0);
  if (l0 == 0) {
 
-  to.texture0;
+#  to.texture0;
+
+  texflip tex0boot0;
 
   node.ex.gl.fbo(u0, tex);
 
@@ -201,10 +203,10 @@ record.frame {
  };
 };
 
-record.frame1 {
- media.video.recorder.frame.ready(u0, tex0boot1, dt);
+#record.frame1 {
+# media.video.recorder.frame.ready(u0, tex0boot1, dt);
 # media.video.recorder.frame.ready(u0, tex0boot0, dt);
-};
+#};
 
 rr0 recording * (mod(t, 1)<0.5);
 color(rr0, 0.9,0,0.2,0.9);
@@ -215,8 +217,7 @@ _ @sys.sharedobj;
 _ @sys.obj;
 
 if (recording) {
-# record.frame;
- record.frame1;
+ record.frame;
 };
 
 ### 5402 tmt.particle(x,y)
