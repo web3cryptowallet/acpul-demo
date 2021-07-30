@@ -759,7 +759,7 @@ process.node.events {
 process.node.events;
 
 events.push(r0, boot.pool,0, boot.event.apps.run, 0,0,0,0);
-#events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
+events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
 #events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
 #   apps0:=node.new.this.ex(r0, os.apps.run, 0);
 
