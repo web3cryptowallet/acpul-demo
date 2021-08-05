@@ -286,14 +286,18 @@ if (l0<=0) {
 # DISPLAY ORIENTATION ]
 # INIT [
 
+# old: ide/syntax [
+
 ide.setup
  call(_0, -5, 0,0,0,0, 0,0,0,0);
 
 syntax.highlight.init
  call(_0, -1, 0,0,0,0, 0,0,0,0);
 
-ide.setup(u0);
-syntax.highlight.init(u0);
+#ide.setup(u0);
+#syntax.highlight.init(u0);
+
+# old: ide/syntax ]
 
 # SOUND [
 
