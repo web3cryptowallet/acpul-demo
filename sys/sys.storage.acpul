@@ -92,3 +92,20 @@ storage.load.object {
 storage.delete.file
  # type, pool, id, i
  io(u0, 500518, _0,_1,_2,_3);
+
+# backups [
+
+storage.backup.list
+ # buf, location, filter -> list<(id,name)>
+ io(u0, 500550, _0, _1, _2, 0);
+
+storage.backup.restore
+ # name, mode
+ io(u0, 500551, _0,_1,0,0);
+
+storage.backup.make
+ # opts
+ io(u0, 500552, _0,0,0,0);
+
+# backups ]
+
