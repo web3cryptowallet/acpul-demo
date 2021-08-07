@@ -766,6 +766,9 @@ process.node.events {
    llog.b(build);
    llog.erase(u0, 0);
    llog.e();
+   llog.b(errors);
+   llog.erase(u0, 0);
+   llog.e();
 
    fly.box;
   };
