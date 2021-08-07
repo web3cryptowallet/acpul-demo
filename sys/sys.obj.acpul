@@ -94,7 +94,7 @@ buffer.dma
  # u0, dma, id,i
  it.dma(_0, _1, _2,_3);
 
-#buffer.str
+#buffer.str  see buffer.clone
 # # u0, id,i
 # obj_str(_0, _1,_2);
 
