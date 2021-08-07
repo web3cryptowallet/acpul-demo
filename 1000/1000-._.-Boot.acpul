@@ -755,11 +755,12 @@ process.node.events {
   if (_0==boot.event.restore) {
    peer0 d7;
    peer0:=o0;
-   
-   d8:=buffer.clone(u0, peer0,1);
+   name d8;
+
+   name:=buffer.clone(u0, peer0,1);
 #    ui.value1(l10,100,110,0.5,peer0);
 
-   # storage.backup.restore(backup.name,0);
+   storage.backup.restore(name,0);
 
    fly.box;
   };
