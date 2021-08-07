@@ -740,6 +740,11 @@ process.node.events {
    };
    connect.peer;
   };
+  if (_0==boot.event.restore) {
+   peer0 d7;
+   peer0:=o0;
+
+  };
 
   if (_0==boot.event.record.video.screen) {
    l0:=node.new.this.ex(u0, test.media.texture, 0);
