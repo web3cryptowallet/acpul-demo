@@ -760,7 +760,7 @@ process.node.events {
    name:=buffer.clone(u0, peer0,1);
 #    ui.value1(l10,100,110,0.5,peer0);
 
-   storage.backup.restore(name,0);
+#   storage.backup.restore(name,0);
 
    fly.box;
   };
