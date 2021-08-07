@@ -746,6 +746,8 @@ process.node.events {
     l0:=node.new.this.ex(u0, ml.fly.text, 0);
 #    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
 #    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
+    node.prop.x.s(u0, l0, 100);
+    node.prop.y.s(u0, l0, 100);
    };
    fly.box;
 
