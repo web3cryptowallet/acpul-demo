@@ -765,10 +765,11 @@ process.node.events {
 
    llog.b(build);
    llog.erase(u0, 0);
-   llog.pv(aaaa,1);
+   llog.pv(RESET,1);
    llog.e();
    llog.b(errors);
    llog.erase(u0, 0);
+   llog.pv(RESET,1);
    llog.e();
 
    fly.box;
