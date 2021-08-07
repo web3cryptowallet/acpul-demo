@@ -761,8 +761,6 @@ process.node.events {
    name:=buffer.clone(u0, peer0,1);
 #    ui.value1(l10,100,110,0.5,peer0);
 
-#   storage.backup.restore(name, 0);
-
    llog.b(build);
    llog.erase(u0, 0);
    llog.pv(RESET,1);
@@ -771,6 +769,8 @@ process.node.events {
    llog.erase(u0, 0);
    llog.pv(RESET,1);
    llog.e();
+
+   storage.backup.restore(name, 0);
 
    fly.box;
   };
