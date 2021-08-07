@@ -705,6 +705,16 @@ test.media.texture 5400;
 
 # BOOT ]
 
+fly.box {
+ _ @1100010;
+ _ @ml.box2d;
+ l0:=node.new.this.ex(u0, ml.fly.text, 0);
+#    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
+#    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
+ node.prop.x.s(u0, l0, 100);
+ node.prop.y.s(u0, l0, 100);
+};
+
 # EVENTS [
 
 boot.pool 420042;
@@ -740,17 +750,7 @@ process.node.events {
    };
    connect.peer;
 
-   fly.box {
-    _ @1100010;
-    _ @ml.box2d;
-    l0:=node.new.this.ex(u0, ml.fly.text, 0);
-#    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
-#    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
-    node.prop.x.s(u0, l0, 100);
-    node.prop.y.s(u0, l0, 100);
-   };
    fly.box;
-
   };
   if (_0==boot.event.restore) {
    peer0 d7;
@@ -760,6 +760,7 @@ process.node.events {
 
    # storage.backup.restore(backup.name,0);
 
+   fly.box;
   };
 
   if (_0==boot.event.record.video.screen) {
