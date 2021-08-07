@@ -724,6 +724,7 @@ _ @sys.obj;
 _ @sys.os;
 _ @ul.ui;
 _ @os.util2;
+_ @sys.storage;
 
 process.node.events {
  process.event {
