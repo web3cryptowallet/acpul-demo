@@ -743,7 +743,9 @@ process.node.events {
   if (_0==boot.event.restore) {
    peer0 d7;
    peer0:=o0;
-
+   
+   d8:=buffer.clone(u0, peer0,1);
+   
   };
 
   if (_0==boot.event.record.video.screen) {
