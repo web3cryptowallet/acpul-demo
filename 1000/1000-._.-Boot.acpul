@@ -761,14 +761,22 @@ process.node.events {
    name:=buffer.clone(u0, peer0,1);
 #    ui.value1(l10,100,110,0.5,peer0);
 
-   llog.b(build);
-   llog.erase(u0, 0);
-   llog.pv(RESET,1);
-   llog.e();
-   llog.b(errors);
-   llog.erase(u0, 0);
-   llog.pv(RESET,1);
-   llog.e();
+   # llog reset [
+
+   llog.reset {
+    llog.b(build);
+    llog.erase(u0, 0);
+    llog.pv(RESET,1);
+    llog.e();
+    llog.b(errors);
+    llog.erase(u0, 0);
+    llog.pv(RESET,1);
+    llog.e();
+   };
+
+   # llog reset ]
+
+   llog.reset;
 
    storage.backup.restore(name, 0);
 
