@@ -819,7 +819,7 @@ events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
 rec.nodes {
  _ @93000;
 
- new.node0(r0, nodes.group.rec, 600,0,0.5,500,500, 0,0,0,0);
+ new.node0(r0, nodes.group.rec, 700,100,0.5,500,500, 0,0,0,0);
 };
 
 if (r0) {
