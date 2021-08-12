@@ -21,7 +21,6 @@ IDE.FID 16610;
 
 #TRACK {POOL 7; ID 1; I 0; TIME 0;};
 
-TRACK.SET music.set.track(r0, 1, 2, 2);
 #TRACK.SET music.set.track(r0, 1, 2, 3);
 #TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
 #TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
@@ -32,7 +31,7 @@ TRACK.SET music.set.track(r0, 1, 2, 2);
 #TRACK.SET music.set.track(r0, 1, 2, 12); # EE EelkeKlein
 #TRACK.SET music.set.track(r0, 1, 2, 13);
 #TRACK.SET music.set.track(r0, 1, 2, 14);
-#TRACK.SET music.set.track(r0, 1, 2, 15);
+TRACK.SET music.set.track(r0, 1, 2, 15);
 #TRACK.SET music.set.track(r0, 1, 2, 17); # EE189
 
 TRACK.STOP music.stop(r0);
