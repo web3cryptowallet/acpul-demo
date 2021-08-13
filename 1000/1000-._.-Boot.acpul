@@ -9,6 +9,7 @@ BOOT.PANEL 0;
 BOOT.IDE 0;
 BOOT.APPS 0;
 BOOT.BOOTLOADER 0;
+BOOT.WALLET 1;
 
 # BOOT MODES ]
 
@@ -679,7 +680,9 @@ keyboard.hide.button 15822;
 HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
-new.wallet;
+if (BOOT.WALLET) {
+ new.wallet;
+};
 
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
