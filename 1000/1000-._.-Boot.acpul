@@ -1,5 +1,7 @@
 ### 997 boot.options
 
+OPEN.IDE.STARTUP 0;
+
 # BOOT MODES [
 
 BOOT.REC.NODES 1;
