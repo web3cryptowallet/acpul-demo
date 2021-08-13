@@ -304,6 +304,9 @@ if (l0<=0) {
 # DISPLAY ORIENTATION ]
 # INIT [
 
+BOOT.OPTIONS 997;
+_ @BOOT.OPTIONS;
+
 # old: ide/syntax [
 
 ide.setup
@@ -353,9 +356,6 @@ TRACK.PLAY;
 # INIT ]
 
 # BOOT [
-
-BOOT.OPTIONS 997;
-_ @BOOT.OPTIONS;
 
 touch.start();
 
