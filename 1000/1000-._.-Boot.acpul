@@ -44,6 +44,14 @@ node.new.this.ex(r0, Boot.main, 0);
 
 draw(r0, 1601);
 
+# BOOT MODES [
+
+BOOT.REC.NODES 1;
+BOOT.IDE 1;
+BOOT.PANEL 1;
+BOOT.APPS 1;
+
+# BOOT MODES ]
 # DISPLAY ORIENTATION [
 
 _ @1010;
@@ -823,7 +831,9 @@ rec.nodes {
 };
 
 if (r0) {
- rec.nodes;
+ if (BOOT.REC.NODES) {
+  rec.nodes;
+ };
 };
 
 
