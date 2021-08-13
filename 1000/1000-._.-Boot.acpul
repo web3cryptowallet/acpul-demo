@@ -348,7 +348,8 @@ TRACK.PLAY;
 
 # BOOT [
 
-
+BOOT.OPTIONS 997;
+_ @BOOT.OPTIONS;
 
 touch.start();
 
