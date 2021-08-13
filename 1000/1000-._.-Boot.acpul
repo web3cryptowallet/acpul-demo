@@ -614,7 +614,9 @@ if (r0) {
 };
 
 if (r0) {
-# os.main.panel.new(panel0, 0,925,1, 768,100);
+ if (BOOT.PANEL) {
+  os.main.panel.new(panel0, 0,925,1, 768,100);
+ };
 };
 
 ide.toggle.console {
