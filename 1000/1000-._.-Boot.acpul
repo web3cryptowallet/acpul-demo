@@ -12,7 +12,7 @@ BOOT.BOOTLOADER 1;
 BOOT.WALLET 0;
 
 # BOOT MODES ]
-#TRACK.STOP music.stop(r0);
+TRACK.STOP music.stop(r0);
 TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 
