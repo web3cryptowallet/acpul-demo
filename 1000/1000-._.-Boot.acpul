@@ -679,7 +679,7 @@ keyboard.hide.button 15822;
 HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
-#new.wallet;
+new.wallet;
 
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
