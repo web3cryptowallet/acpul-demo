@@ -572,7 +572,7 @@ neo.v2.tests 7990;
 new.wallet {
  _ @core.gl3d;
  l0:=node.new.this.ex(r0, gl3d.test.main, 0);
- node.prop.s.s(u0, l0, 0.9);
+# node.prop.s.s(u0, l0, 0.9);
 # node.prop.s.s(u0, l0, 0.4);
 };
 #new.wallet;
@@ -681,7 +681,7 @@ HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
 if (BOOT.WALLET) {
- new.wallet;
+# new.wallet;
 };
 
 BOOTLOADER 8000000;
