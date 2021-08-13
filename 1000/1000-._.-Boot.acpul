@@ -681,7 +681,7 @@ HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
 if (BOOT.WALLET) {
-# new.wallet;
+ new.wallet;
 };
 
 BOOTLOADER 8000000;
