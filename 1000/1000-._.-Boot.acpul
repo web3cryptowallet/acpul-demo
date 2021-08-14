@@ -866,7 +866,7 @@ if (r0) {
 # AVATARS DEMO [
 
 avatars {
- sn0 l1;
+ sn0 d0;
  new.ui.shader.node(sn0, 00,200,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
  if (SHOW.UFO) {
  new.ui.shader.node(sn0, 200,300,1, 768/2,512/2, 1, 70014,28391); # ufo1
