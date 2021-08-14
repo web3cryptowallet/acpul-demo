@@ -885,7 +885,10 @@ if (r0) {
  };
 };
 };
-#demo0;
+if (BOOT.DEMO0) {
+ demo0;
+};
+
 # AVATARS DEMO ]
 
 k:=1;
