@@ -864,7 +864,7 @@ if (r0) {
  };
 };
 
-# AVATARS DEMO [
+# SPACE AVATARS DEMO [
 
 demo0 {
 avatars {
@@ -890,7 +890,7 @@ if (BOOT.DEMO0) {
  demo0;
 };
 
-# AVATARS DEMO ]
+# SPACE AVATARS DEMO ]
 
 k:=1;
 
