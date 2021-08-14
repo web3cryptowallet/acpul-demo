@@ -876,8 +876,10 @@ avatars {
  };
 };
 
-if (SHOW.AVATARS1) {
- avatars;
+if (r0) {
+ if (SHOW.AVATARS1) {
+  avatars;
+ };
 };
 
 # AVATARS DEMO ]
