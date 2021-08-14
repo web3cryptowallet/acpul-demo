@@ -118,6 +118,10 @@ str.dma
  # u0, dma, id
  it.dma(_0, _1, _2, 0);
 
+str.parse.value
+ # mode, v, p0,p1
+ io(u0, 502100, _0, _1, _2,_3);
+
 # str ]
 # dma [
 
