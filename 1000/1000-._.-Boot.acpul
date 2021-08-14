@@ -877,6 +877,7 @@ avatars {
 };
 
 if (r0) {
+ sn0 d0;
  new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2, 1, 70014,28553); # sphere.mut53
  if (SHOW.AVATARS1) {
   avatars;
