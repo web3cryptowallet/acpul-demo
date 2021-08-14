@@ -15,7 +15,7 @@ BOOT.WALLET 0;
 TRACK.STOP music.stop(r0);
 TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
-TRACK.PLAY music.play(r0, 1, 360, 1);
+#TRACK.PLAY music.play(r0, 1, 360, 1);
 #TRACK.PLAY music.play(r0, 1, 360*1.79, 1);
 
 
