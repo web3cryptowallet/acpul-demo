@@ -881,7 +881,7 @@ avatars {
 if (r0) {
  sn0 d0;
  new.ui.shader.node(sn0, 00,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
-new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
 # new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2, 1, 70014,28553); # sphere.mut53
  new.ui.shader.node(sn0, 00,0,4, 768/4,1024/4, 1, 70014,28396); # stones.circle3d
  if (SHOW.AVATARS1) {
