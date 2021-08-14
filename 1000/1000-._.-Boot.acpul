@@ -875,7 +875,7 @@ avatars {
  };
 };
 
-if (SHOW.AVATARS0) {
+if (SHOW.AVATARS1) {
  avatars;
 };
 
