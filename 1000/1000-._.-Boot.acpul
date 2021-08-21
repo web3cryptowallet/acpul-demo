@@ -28,7 +28,7 @@ TRACK.STOP music.stop(r0);
 #TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
 TRACK.SET music.set.track(r0, 1, 2, 2); # 
 TRACK.PLAY music.play(r0, 1, 0, 1);
-TRACK.PLAY music.play(r0, 1, 600, 1);
+TRACK.PLAY music.play(r0, 1, 1000, 1);
 
 
 ### 998 private.strings.ENCRYPTED
