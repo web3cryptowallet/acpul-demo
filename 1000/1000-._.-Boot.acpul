@@ -5,10 +5,10 @@ OPEN.IDE.STARTUP 0;
 # BOOT MODES [
 
 BOOT.REC.NODES 1;
-BOOT.PANEL 0;
+BOOT.PANEL 1;
 BOOT.IDE 0;
 BOOT.APPS 0;
-BOOT.BOOTLOADER 1;
+BOOT.BOOTLOADER 0;
 BOOT.WALLET 0;
 BOOT.DEMO0 0;
 BOOT.GAME.NEBULA 0;
@@ -30,11 +30,11 @@ TRACK.STOP music.stop(r0);
 #TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
 #TRACK.PLAY music.play(r0, 1, 1100, 1);
 
-#TRACK.SET music.set.track(r0, 1, 2, 19); # Spirit
-#TRACK.PLAY music.play(r0, 1, 10*60, 1);
+TRACK.SET music.set.track(r0, 1, 2, 19); # Spirit
+TRACK.PLAY music.play(r0, 1, 10*60, 1);
 
-TRACK.SET music.set.track(r0, 1, 2, 18); # 
-TRACK.PLAY music.play(r0, 1, 0, 1);
+#TRACK.SET music.set.track(r0, 1, 2, 18); # Noc
+#TRACK.PLAY music.play(r0, 1, 0, 1);
 
 ### 998 private.strings.ENCRYPTED
 
