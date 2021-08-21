@@ -30,7 +30,7 @@ TRACK.STOP music.stop(r0);
 #TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
 #TRACK.PLAY music.play(r0, 1, 1100, 1);
 TRACK.SET music.set.track(r0, 1, 2, 19); # 
-TRACK.PLAY music.play(r0, 1, 11*60, 1);
+TRACK.PLAY music.play(r0, 1, 10*60, 1);
 
 
 ### 998 private.strings.ENCRYPTED
