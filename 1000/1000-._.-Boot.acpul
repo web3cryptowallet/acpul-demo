@@ -11,6 +11,7 @@ BOOT.APPS 0;
 BOOT.BOOTLOADER 0;
 BOOT.WALLET 0;
 BOOT.DEMO0 0;
+BOOT.GAME.NEBULA 1;
 
 # BOOT MODES ]
 
@@ -571,7 +572,7 @@ CLOCK 10170000;
 #node.prop.x.s(u0, l0, 550);
 
 GAME.NEBULA 11800;
-node.new.this.ex(r0, GAME.NEBULA, 0);
+node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 
 #VG;
 
