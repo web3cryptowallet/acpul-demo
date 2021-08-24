@@ -888,12 +888,12 @@ new.text.label1b
 # new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29015, 0);
  new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,2, 29000,29016, 0);
 
-# new.text.label1b(d0, 50,500,1, S.ua30, 45);
+ new.text.label1b(d0, 50,500,1, S.ua30, 45);
 # new.text.label1b(d0, 280,570,1, S.ua30a, 50);
 # new.text.label1b(d0, 280,510,1, S.ua30b, 50);
 # new.text.label1b(d0, 50,500,1, S.ua30c, 160);
- new.text.label1b(d0, 230,620,1, S.ua30a, 70);
- new.text.label1b(d0, 150-10,510,1, S.ua30b, 70);
+# new.text.label1b(d0, 230,620,1, S.ua30a, 70);
+# new.text.label1b(d0, 50,510,1, S.ua30b, 70);
  new.text.label1b(d0, 290,340,1, S.ua30c, 160);
 };
 
