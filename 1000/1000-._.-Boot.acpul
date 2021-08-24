@@ -882,7 +882,7 @@ new.text.label1b
  # hid, x,y,s, text, size
 # new.text.label(_0, _1,_2,_3, _4, _5, 0,0,0, shaders1.text0.vsh,29011, 0);
 # new.text.label(_0, _1,_2,_3, _4, _5, 1001,3,9, shaders1.text0.vsh,29011, 0);
- new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,28415, 0);
+ new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29011, 0);
 
  new.text.label1b(d0, 50,500,1, S.ua30, 45);
 };
