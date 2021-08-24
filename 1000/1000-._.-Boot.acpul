@@ -886,7 +886,7 @@ new.text.label1b
 
 # new.text.label1b(d0, 50,500,1, S.ua30, 45);
  new.text.label1b(d0, 280,580,1, S.ua30a, 70);
- new.text.label1b(d0, 280,500,1, S.ua30b, 60);
+ new.text.label1b(d0, 280,500,1, S.ua30b, 50);
  new.text.label1b(d0, 50,500,1, S.ua30c, 160);
 };
 
