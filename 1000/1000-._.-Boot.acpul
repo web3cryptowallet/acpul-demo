@@ -887,7 +887,7 @@ new.text.label1b
 # new.text.label1b(d0, 50,500,1, S.ua30, 45);
  new.text.label1b(d0, 240,600,1, S.ua30a, 70);
  new.text.label1b(d0, 50,500,1, S.ua30b, 70);
- new.text.label1b(d0, 50,450,1, S.ua30c, 60);
+ new.text.label1b(d0, 50,450,1, S.ua30c, 200);
 };
 
 # GALLACTIC AVATARS DEMO [
