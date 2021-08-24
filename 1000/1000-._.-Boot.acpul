@@ -878,11 +878,11 @@ if (r0) {
 
 if (r0) {
  new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
-#new.text.label1b
+new.text.label1b
  # hid, x,y,s, text, size
 # new.text.label(_0, _1,_2,_3, _4, _5, 0,0,0, shaders1.text0.vsh,29011, 0);
 # new.text.label(_0, _1,_2,_3, _4, _5, 1001,3,9, shaders1.text0.vsh,29011, 0);
-# new.text.label(_0, _1,_2,_3, _4, _5, 1001,1,1, shaders1.text0.vsh,29011, 0);
+ new.text.label(_0, _1,_2,_3, _4, _5, 1001,1,1, shaders1.text0.vsh,29011, 0);
 
 # new.text.label1b(d0, 20,0,1, txt0, 16);
 };
