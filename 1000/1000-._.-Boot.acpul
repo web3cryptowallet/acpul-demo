@@ -884,7 +884,7 @@ new.text.label1b
 # new.text.label(_0, _1,_2,_3, _4, _5, 1001,3,9, shaders1.text0.vsh,29011, 0);
  new.text.label(_0, _1,_2,_3, _4, _5, 1001,1,1, 29000,29011, 0);
 
- new.text.label1b(d0, 20,0,1, txt0, 16);
+ new.text.label1b(d0, 0,0,1, txt0, 160);
 };
 
 # GALLACTIC AVATARS DEMO [
