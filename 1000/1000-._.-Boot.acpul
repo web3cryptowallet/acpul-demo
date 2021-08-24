@@ -877,7 +877,7 @@ if (r0) {
 
 
 if (r0) {
-# new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
+ new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
 new.text.label1b
  # hid, x,y,s, text, size
 # new.text.label(_0, _1,_2,_3, _4, _5, 0,0,0, shaders1.text0.vsh,29011, 0);
