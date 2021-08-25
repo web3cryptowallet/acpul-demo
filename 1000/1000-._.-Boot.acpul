@@ -876,7 +876,9 @@ if (r0) {
 };
 
 
-if (r0) {
+# demo ua30 [
+
+if (0) {
  new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
 new.text.label1b
  # hid, x,y,s, text, size
@@ -897,6 +899,8 @@ new.text.label1b
  new.text.label1b(d0, 50,510,1, S.ua30b, 70);
  new.text.label1b(d0, 290,340,1, S.ua30c, 160);
 };
+
+# demo ua30 ]
 
 # GALLACTIC AVATARS DEMO [
 
