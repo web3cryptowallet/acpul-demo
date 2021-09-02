@@ -961,9 +961,9 @@ _ @4;
 #if (r0) {
 # uiv0:=0;
 #};
-#ui.value1(uiv0,110,110,0.5,port+t);
+ui.value1(uiv0,110,110,0.5,port+t);
 #   uiv0=if(r0,0,uiv0);
-#uiv0=uiv0;
+uiv0=uiv0;
 
 test0 {
  a 0;
