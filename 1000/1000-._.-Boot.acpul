@@ -974,6 +974,9 @@ test1 {
 };
 test2 {
  a new;
+ b clo;
+ c glob;
+ d static;
 };
 
 #   ui.value1(uiv0,110,110,0.5,port+t);
