@@ -974,7 +974,7 @@ test1 {
 };
 test2 {
  a new;
- b clo;
+ b $clo;
  c glob;
  d static;
 };
