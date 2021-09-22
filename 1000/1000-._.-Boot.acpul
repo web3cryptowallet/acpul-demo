@@ -868,7 +868,7 @@ if (BOOT.BOOTLOADER) {
 
 # bootloader front/back [
 
-# node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
+node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
 
 # bootloader front/back ]
 
