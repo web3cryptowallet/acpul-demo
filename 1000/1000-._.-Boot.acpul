@@ -891,7 +891,7 @@ if (r0) {
 
 # demo ua30 [
 
-if (1) {
+if (0) {
  new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
 new.text.label1b
  # hid, x,y,s, text, size
