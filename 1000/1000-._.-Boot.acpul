@@ -886,7 +886,7 @@ rec.nodes {
 
 if (r0) {
  if (BOOT.REC.NODES) {
-  rec.nodes;
+#  rec.nodes;
  };
 };
 
