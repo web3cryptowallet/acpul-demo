@@ -13,8 +13,8 @@ BOOT.WALLET 0;
 BOOT.DEMO0 0;
 BOOT.GAME.NEBULA 0;
 
-BOOT.BOOTLOADER.Z 0;
-#BOOT.BOOTLOADER.Z 100;
+#BOOT.BOOTLOADER.Z 0;
+BOOT.BOOTLOADER.Z 0-100;
 
 # BOOT MODES ]
 
@@ -868,7 +868,7 @@ if (BOOT.BOOTLOADER) {
 
 # bootloader front/back [
 
-node.prop.z.order.s(u0, bootloader0, -100);
+node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
 
 # bootloader front/back ]
 
