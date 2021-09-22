@@ -697,3 +697,295 @@ if (r0) {
 # OS/IDE ]
 # keyboard [
 
+
+
+keyboard.hide.button 15822;
+#node.new.this.ex4(r0, keyboard.hide.button,0,0,0,0);
+
+HEROLESSUS 10009000;
+# node.new.this.ex(r0, HEROLESSUS, 0);
+
+if (BOOT.WALLET) {
+ new.wallet;
+};
+
+BOOTLOADER 8000000;
+#node.new.this.ex(r0, BOOTLOADER, 0);
+
+#node.new.this.ex(r0, ACPU.STUDIO, 0);
+#node.new.this.ex(r0, HIPSTER.BANNER, 0);
+
+# keyboard ]
+
+ABOT 1500;
+# node.new.this.ex(r0, ABOT, 0);
+#u23:=u14;
+
+_ @1010;
+_ @sys.llog;
+
+llog.step(u0);
+ll0 r0;
+llog.begin(ll0, S.livelogging.main);
+llog.print(ll0, S.BOOT);
+llog.end(ll0);
+
+# touch debug should be lastest node [
+TOUCH.DEBUG 1006;
+#node.new.this.ex(r0, TOUCH.DEBUG, 0);
+# touch debug should be lastest node ]
+
+# CPU STEP [
+
+cpu.debug.errors.console(r0, 1);
+cpu.debug.errors.enabled(r0, 1);
+cpu.debug.log.to.xcode.console(r0, 1);
+cpu.debug.log.to.console(r0, 1);
+
+cpu.step(u0);
+
+# CPU STEP ]
+# VIDEO RECORD [
+
+test.media.texture 5400;
+#l0:=node.new.this.ex(r0, test.media.texture, 0);
+
+# VIDEO RECORD ]
+
+# BOOT ]
+
+fly.box {
+ _ @1100010;
+ _ @ml.box2d;
+ l0:=node.new.this.ex(u0, ml.fly.text, 0);
+#    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
+#    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
+ node.prop.x.s(u0, l0, 100);
+ node.prop.y.s(u0, l0, 100);
+};
+
+# EVENTS [
+
+#boot0 ::= 0;
+
+bootloader0 0;
+
+boot.pool 420042;
+
+_ @1010;
+_ @sys.obj;
+_ @sys.os;
+_ @ul.ui;
+_ @os.util2;
+_ @sys.storage;
+
+process.node.events {
+ process.event {
+  # ev, o0... - event
+  if (_0==boot.event.connect) {
+
+   peer0 d7;
+   peer0:=o0;
+   connect.peer {
+    ip0 buffer.get(u0, peer0,3, 0);
+    ip1 buffer.get(u0, peer0,3, 1);
+    ip2 buffer.get(u0, peer0,3, 2);
+    ip3 buffer.get(u0, peer0,3, 3);
+    port buffer.get(u0, peer0,2, 0);
+    net.host(ip0,ip1,ip2,ip3, port);
+
+#       _ @4;
+#    ui.value1(l10,100,110,0.5,ip0);
+#    ui.value1(l12,170,110,0.5,ip1);
+#    ui.value1(l13,240,110,0.5,ip2);
+#    ui.value1(r8,310,110,0.5,ip3);
+#    ui.value1(r9,380,110,0.5,port);
+
+   };
+   connect.peer;
+
+   fly.box;
+  };
+  if (_0==boot.event.restore) {
+   peer0 d7;
+   peer0:=o0;
+   name d8;
+
+   name:=buffer.clone(u0, peer0,1);
+#    ui.value1(l10,100,110,0.5,peer0);
+
+   # llog reset [
+
+   llog.reset {
+    llog.b(build);
+    llog.erase(u0, 0);
+    llog.pv(RESET,1);
+    llog.e();
+    llog.b(errors);
+    llog.erase(u0, 0);
+    llog.pv(RESET,1);
+    llog.e();
+   };
+
+   # llog reset ]
+
+   llog.reset;
+
+   storage.backup.restore(name, 0);
+
+   fly.box;
+  };
+
+  if (_0==boot.event.record.video.screen) {
+   l0:=node.new.this.ex(u0, test.media.texture, 0);
+  };
+  if (_0==boot.event.record.video.stop) {
+  };
+
+  if (_0==boot.event.open.bootloader) {
+   bootloader0:=node.new.this.ex(u0, BOOTLOADER, 0);
+  };
+
+  if (_0==boot.event.apps.run) {
+   _ @sys.os;
+   _ @os.apps;
+   apps0:=node.new.this.ex(u0, os.apps.run, 0);
+   node.z.to.back(u0, apps0, 0);
+  };
+ };
+
+ tmp0 d58;
+ ui.event.process3(tmp0, boot.pool,0, process.event);
+};
+
+process.node.events;
+process.node.events; # due bug / twice
+
+#events.push(r0, boot.pool,0, boot.event.apps.run, 0,0,0,0);
+if (BOOT.BOOTLOADER) {
+ events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
+};
+
+# bootloader front/back [
+
+node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
+
+# bootloader front/back ]
+
+#events.push(r0, boot.pool,0, boot.event.open.bootloader, 0,0,0,0);
+#   apps0:=node.new.this.ex(r0, os.apps.run, 0);
+#   node.new.this.ex(u0, BOOTLOADER, 0);
+
+# EVENTS ]
+
+rec.nodes {
+ _ @93000;
+
+ new.node0(r0, nodes.group.rec, 700,100,0.5,500,500, 0,0,0,0);
+};
+
+if (r0) {
+ if (BOOT.REC.NODES) {
+  rec.nodes;
+ };
+};
+
+
+# demo ua30 [
+
+if (0) {
+ new.ui.shader.node(d0, 000,0,2, 768/2,1024/2, 1, 70014,28556); # 
+new.text.label1b
+ # hid, x,y,s, text, size
+# new.text.label(_0, _1,_2,_3, _4, _5, 0,0,0, shaders1.text0.vsh,29011, 0);
+# new.text.label(_0, _1,_2,_3, _4, _5, 1001,3,9, shaders1.text0.vsh,29011, 0);
+# new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29012, 0);
+# new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29013, 0);
+# new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29014, 0);
+# new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29015, 0);
+ new.text.label(_0, _1,_2,_3, _4, _5, 1001,4,4, 29000,29016, 0);
+
+# new.text.label1b(d0, 50,500,1, S.ua30, 45);
+# new.text.label1b(d0, 50,500,1, S.ua30, 60);
+# new.text.label1b(d0, 280,570,1, S.ua30a, 50);
+# new.text.label1b(d0, 280,510,1, S.ua30b, 50);
+# new.text.label1b(d0, 50,500,1, S.ua30c, 160);
+ new.text.label1b(d0, 230,620,1, S.ua30a, 70);
+ new.text.label1b(d0, 50,510,1, S.ua30b, 70);
+ new.text.label1b(d0, 290,340,1, S.ua30c, 160);
+};
+
+# demo ua30 ]
+
+# GALLACTIC AVATARS DEMO [
+
+demo0 {
+avatars {
+ sn0 d0;
+ new.ui.shader.node(sn0, 00,200,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
+ if (SHOW.UFO) {
+ new.ui.shader.node(sn0, 200,300,1, 768/2,512/2, 1, 70014,28391); # ufo1
+ };
+ if (SHOW.WALLEE) {
+ new.ui.shader.node(sn0, 450,100,1, 768/2,1024/2, 1, 70014,28285); # wallee1
+ };
+};
+
+if (r0) {
+ sn0 d0;
+ new.ui.shader.node(sn0, 00,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
+# new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2, 1, 70014,28553); # sphere.mut53
+# new.ui.shader.node(sn0, 00,0,4, 768/4,1024/4, 1, 70014,28396); # stones.circle3d
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28415); # galaxy99(tex0)
+ if (SHOW.AVATARS1) {
+  avatars;
+ };
+};
+};
+if (BOOT.DEMO0) {
+ demo0;
+};
+
+# GALLACTIC AVATARS DEMO ]
+
+k:=1;
+
+_ @92000;
+
+_ @1010;
+_ @sys.node;
+_ @sys.os;
+_ @os.basic;
+_ @os.basic.ui;
+_ @os.util0;
+_ @os.util2;
+_ @sys.obj;
+
+_ @sys.os;
+_ @os.basic;
+
+if (r0) {
+#sn0 l12;
+#new.ui.shader.node(sn0, 000,0,4, 768/4,1024/4., 1, 70014,28520); # 
+};
+
+_ @4;
+#uiv0 0;
+#if (r0) {
+# uiv0:=0;
+#};
+#ui.value1(uiv0,110,110,0.5,port+t);
+#   uiv0=if(r0,0,uiv0);
+#uiv0=uiv0;
+
+#   ui.value1(uiv0,110,110,0.5,port+t);
+
+#   _ @4;
+#   ui.value1(l12,110,110,0.5,port);
+#   ui.value1(l12,110,110,0.5,bootnid);
+
+
+
+#new.wallet;
+
