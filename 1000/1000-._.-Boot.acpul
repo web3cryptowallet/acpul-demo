@@ -917,7 +917,6 @@ new.text.label1b
 
 # GALLACTIC AVATARS DEMO [
 
-demo0 {
 avatars {
  sn0 d0;
  new.ui.shader.node(sn0, 00,200,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
@@ -928,6 +927,8 @@ avatars {
  new.ui.shader.node(sn0, 450,100,1, 768/2,1024/2, 1, 70014,28285); # wallee1
  };
 };
+
+demo0 {
 
 if (r0) {
  sn0 d0;
