@@ -944,7 +944,6 @@ if (r0) {
 if (BOOT.DEMO0) {
  demo0;
 };
-  avatars;
 
 # GALLACTIC AVATARS DEMO ]
 
