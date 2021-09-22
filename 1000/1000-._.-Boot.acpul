@@ -837,20 +837,20 @@ process.node.events {
   };
 
   if (_0==boot.event.record.video.screen) {
-#   l0:=node.new.this.ex(u0, test.media.texture, 0);
+   l0:=node.new.this.ex(u0, test.media.texture, 0);
   };
   if (_0==boot.event.record.video.stop) {
   };
 
   if (_0==boot.event.open.bootloader) {
-#   bootloader0:=node.new.this.ex(u0, BOOTLOADER, 0);
+   bootloader0:=node.new.this.ex(u0, BOOTLOADER, 0);
   };
 
   if (_0==boot.event.apps.run) {
    _ @sys.os;
    _ @os.apps;
-   apps0:=node.new.this.ex(u0, os.apps.run, 0);
-   node.z.to.back(u0, apps0, 0);
+#   apps0:=node.new.this.ex(u0, os.apps.run, 0);
+#   node.z.to.back(u0, apps0, 0);
   };
  };
 
