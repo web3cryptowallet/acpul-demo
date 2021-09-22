@@ -72,7 +72,7 @@ Boot.texture 1600;
 node.new.this.ex(r0, Boot.texture, 0);
 
 
-### 16009 Boot.texture
+### 1600 Boot.texture
 
 r0:=k==0;
 k:=1;
