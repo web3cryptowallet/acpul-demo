@@ -72,6 +72,13 @@ k:=1;
 _ @1010;
 _ @sys.node;
 
+Boot.texture 1600;
+
+node.new.this.ex(r0, Boot.texture, 0);
+
+##
+##
+
 _ @4;
 #ui.value1(l11,0,220+140,0.5,key0);
 #ui.value1(l12,0,220+120,0.5,keyflags0);
