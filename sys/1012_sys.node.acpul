@@ -346,4 +346,8 @@ node {_;
  transform.point
   # u0, nid.to, nid.from, p0,p1
   io(_0, 7234, _1, _2, _3, _4);
+
+ step
+  # r0, nid, process.children
+  io(_0, 7235, _1, _2, 0,0);
 };
