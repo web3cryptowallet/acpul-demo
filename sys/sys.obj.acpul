@@ -91,7 +91,7 @@ buffer.add
 
 buffer.insert
  # u0, id,i, itemmax, itemoverhead
- obj_it_cmd(_0, 444, _1,_2, _3, _4, 0,0);
+ obj_it_cmd(_0, 222, _1,_2, _3, _4, 0,0);
 
 buffer.remove
  # u0, id,i
