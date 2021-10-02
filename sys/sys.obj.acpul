@@ -87,9 +87,18 @@ buffer.new
 buffer.add
  # u0, id, itemmax, itemoverhead
  buffer_add(_0, _1, _2, _3);
+
+buffer.insert
+ # u0, id,i, itemmax, itemoverhead
+ obj_it_cmd(_0, 444, _1,_2, _3, _4, 0,0);
+
 buffer.remove
- # u0, id, i0,i1 - NOT IMPL, see CpuObject.h
- buffer_remove(_0, _1, _2,_3); 
+ # u0, id,i
+ obj_it_cmd(_0, 444, _1,_2, 0,0,0,0);
+
+#buffer.remove
+# # u0, id, i0,i1 - NOT IMPL, see CpuObject.h
+# buffer_remove(_0, _1, _2,_3); 
 buffer.dma 
  # u0, dma, id,i
  it.dma(_0, _1, _2,_3);
