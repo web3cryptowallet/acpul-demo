@@ -84,6 +84,7 @@ it.dump
 buffer.new
  # u0, itemmax, itemoverhead
  obj_new(_0, 4, _1, _2, 0,0);
+
 buffer.add
  # u0, id, itemmax, itemoverhead
  buffer_add(_0, _1, _2, _3);
