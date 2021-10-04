@@ -218,8 +218,8 @@ cpu.get.device.type
 cpu.get.formulas.list
  # u0, type, buf -> buf[0]={fid*n}
  #  type 
- #   0 - formulas
- #   1 - shaders
+ #   0 - all formulas
+ #   1 - all shaders
  io(_0, 500438, _1, _2, 0,0);
 
 cpu.get.formula.name
