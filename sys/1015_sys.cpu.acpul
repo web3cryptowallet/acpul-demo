@@ -217,15 +217,15 @@ cpu.get.device.type
 # nodes [
 
 cpu.get.nodes
- # u0, mode, nid -> tree
+ # u0, tid, mode, nid -> tree
  #  nid -1 - start root
  #  nid >0 - select node
- io(_0, 500444, _1, _2, 0,0);
+ io(_0, 500444, _1, _2, _3, 0);
 
 cpu.get.node
- # u0, mode, nid -> node.info
+ # u0, tid, mode, nid -> node.info
  #  mode 0 - textures
- io(_0, 500445, _1, _2, 0,0);
+ io(_0, 500445, _1, _2, _3, 0);
 
 # nodes ]
 # formulas [
