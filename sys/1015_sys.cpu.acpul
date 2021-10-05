@@ -230,11 +230,13 @@ cpu.get.formula.name
 
 cpu.get.nodes
  # u0, mode, nid -> tree
- #  nid -1 - root
+ #  nid -1 - start root
  #  nid >0 - select node
  io(_0, 500444, _1, _2, 0,0);
-#define AC_IO_CORE_GET_NODES                AC_IO_CORE+44
-#define AC_IO_CORE_GET_NODE                 AC_IO_CORE+45
+
+cpu.get.node
+ # u0, mode, nid -> tree
+ io(_0, 500445, _1, _2, 0,0);
 
 # nodes ]
 # core [
