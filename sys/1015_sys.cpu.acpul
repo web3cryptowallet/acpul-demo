@@ -228,7 +228,7 @@ cpu.get.node
  io(_0, 500445, _1, _2, 0,0);
 
 # nodes ]
-# core [
+# formulas [
 
 cpu.get.formulas.list
  # u0, type, buf -> buf[0]={fid*n}
@@ -244,6 +244,9 @@ cpu.get.formula.name
 cpu.formulas.save
  # u0, a, b
  io(_0, 500442, _1, _2, 0, 0);
+
+# formulas ]
+# core [
 
 cpu.reset
  # u0, fid, b
