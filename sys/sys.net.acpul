@@ -158,7 +158,7 @@ net.snippet
 # snippet scan [
 net.snippet.scan {
  _ @1010;
- _ @sys.event;
+ _ @sys.events;
  if (r0) {
   net.scan.local.server();
  };
