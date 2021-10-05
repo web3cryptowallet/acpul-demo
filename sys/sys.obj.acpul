@@ -108,6 +108,14 @@ buffer.dma
 # # u0, id,i
 # obj_str(_0, _1,_2);
 
+buffer.size
+ # u0, buffer,i -> size
+ buffer_size(__); 
+
+buffer.count
+ # u0, buffer -> count
+ obj.count(__);
+
 buffer.get buffer_get(__); # u0, buffer,i, offset
 buffer.get2 buffer_get2(__);
 buffer.get4 buffer_get4(__);
@@ -117,9 +125,7 @@ buffer.set2 buffer_set2(__);
 buffer.set4 buffer_set4(__);
 buffer.set8 buffer_set8(__);
 
-buffer.size buffer_size(__); # u0, buffer,i
-
-buffer.count obj.count(__); # u0, buffer
+buffer.append buffer.set(_0, _1,_2,buffer.size(_0, _1,_2), _3);
 
 # buffer ]
 # str [
