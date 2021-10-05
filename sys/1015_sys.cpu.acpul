@@ -214,18 +214,6 @@ cpu.get.device.type
  io(_0, 500437, 0,0,0,0);
 
 # ide [
-
-cpu.get.formulas.list
- # u0, type, buf -> buf[0]={fid*n}
- #  type 
- #   0 - all formulas
- #   1 - all shaders
- io(_0, 500438, _1, _2, 0,0);
-
-cpu.get.formula.name
- # u0, type, fid, buf -> buf[0]=name
- io(_0, 500439, _1, _2, _3, 0);
-
 # nodes [
 
 cpu.get.nodes
@@ -241,6 +229,17 @@ cpu.get.node
 
 # nodes ]
 # core [
+
+cpu.get.formulas.list
+ # u0, type, buf -> buf[0]={fid*n}
+ #  type 
+ #   0 - all formulas
+ #   1 - all shaders
+ io(_0, 500438, _1, _2, 0,0);
+
+cpu.get.formula.name
+ # u0, type, fid, buf -> buf[0]=name
+ io(_0, 500439, _1, _2, _3, 0);
 
 cpu.formulas.save
  # u0, a, b
