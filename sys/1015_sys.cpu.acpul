@@ -226,6 +226,17 @@ cpu.get.formula.name
  # u0, type, fid, buf -> buf[0]=name
  io(_0, 500439, _1, _2, _3, 0);
 
+# nodes [
+
+cpu.get.nodes
+ # u0, mode, nid -> tree
+ #  nid -1 - root
+ #  nid >0 - select node
+ io(_0, 500444, _1, _2, 0,0);
+#define AC_IO_CORE_GET_NODES                AC_IO_CORE+44
+#define AC_IO_CORE_GET_NODE                 AC_IO_CORE+45
+
+# nodes ]
 # core [
 
 cpu.formulas.save
