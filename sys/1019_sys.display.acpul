@@ -60,11 +60,26 @@ display
   io(u0, 500251, _0,0,0,0);
 };
 
-display.scaled.size {
+# diplay scalled
+# w,h
+
+display.scalled.size {
  # w,h
  w _0; h _1;
  s=1/display.scale(0);
  display.size(0);
  w:=o0*s;
  h:=o1*s;
+};
+
+device.is.slow0 {
+ slow=0;
+ cpu.get.device.type(u0);
+ if (o0==cpu.device.type.ipad) {
+  slow:=o1<cpu.device.model.ipad.air;
+ };
+ if (o0==cpu.device.type.iphone) {
+  slow:=o1<cpu.device.model.iphone5s;
+ };
+ slow;
 };
