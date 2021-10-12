@@ -59,3 +59,12 @@ display
   # display.id -> s
   io(u0, 500251, _0,0,0,0);
 };
+
+display.scaled.size {
+ # w,h
+ w _0; h _1;
+ s=1/display.scale(0);
+ display.size(0);
+ w:=o0*s;
+ h:=o1*s;
+};
