@@ -60,9 +60,10 @@ display
   io(u0, 500251, _0,0,0,0);
 };
 
-# diplay scalled
-# w,h
-
+#
+# diplay scalled size
+# -> w,h
+#
 display.scalled.size {
  # w,h
  w _0; h _1;
@@ -72,6 +73,10 @@ display.scalled.size {
  h:=o1*s;
 };
 
+#
+# diplay is slow for iphone or ipad
+# -> slow
+#
 device.is.slow0 {
  slow=0;
  cpu.get.device.type(u0);
