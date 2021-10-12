@@ -200,7 +200,7 @@ cpu.device.model {
  ipad.mini4 5;
  ipad.air2 5;
  ipad.pro 6;
- ipad.pro2018 8;
+ ipad.pro2018small 8;
 
  ipod 1;
  ipod2 2;
