@@ -189,6 +189,7 @@ cpu.device.model {
  iphone.se 8;
  iphone7 9;
  iphone7.plus 9;
+ iphone8 10;
 
  ipad1 1;
  ipad.mini 2;
