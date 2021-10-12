@@ -84,8 +84,8 @@ device.is.slow0 {
   slow:=o1<cpu.device.model.ipad.air;
  };
  if (o0==cpu.device.type.iphone) {
-  slow:=o1<cpu.device.model.iphone5s;
+#  slow:=o1<cpu.device.model.iphone5s;
+  slow:=o1<cpu.device.model.iphone7;
  };
- slow=1;
  slow;
 };
