@@ -85,7 +85,7 @@ device.is.slow0 {
  };
  if (o0==cpu.device.type.iphone) {
 #  slow:=o1<cpu.device.model.iphone5s;
-  slow:=o1<==cpu.device.model.iphone7;
+  slow:=o1<=cpu.device.model.iphone7;
  };
  slow;
 };
