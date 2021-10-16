@@ -219,7 +219,7 @@ if (r0) {
  livenotify.log.v(0, Animation.CPU.v1, cell0);
 
 };
-
+l0:=1;
 
 ### 1610 Boot.main
 
