@@ -210,6 +210,14 @@ to.texture1.flip;
 
 gl.draw.texture.rect0(tex0,0,0,w,h);
 
+_ @1100;
+_ @util.livenotify;
+
+if (r0) {
+# notify0:=livenotify.log.v(0, S.print.cell0, cell0);
+# livenotify.log.v(0, S.print.cell0, cell0);
+ livenotify.log.v(0, Animation.CPU.v1, cell0);
+};
 
 ### 1610 Boot.main
 
