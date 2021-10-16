@@ -225,7 +225,6 @@ if (r0) {
 
 _ @0;
 
-
 # test needCompile [
 a1001 @1001;
 # test needCompile ]
