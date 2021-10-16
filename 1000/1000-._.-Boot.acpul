@@ -94,7 +94,7 @@ Boot.main 1610;
 
 node.new.this.ex(r0, Boot.main, 0);
 
-draw(r0, 1601);
+#draw(r0, 1601);
 
 # DISPLAY ORIENTATION [
 
