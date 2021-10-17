@@ -225,7 +225,6 @@ l0:=1;
 
 ### 1610 Boot.main
 
-
 _ @0;
 
 # test needCompile [
