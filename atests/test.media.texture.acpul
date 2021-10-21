@@ -1,5 +1,8 @@
 ### 5400 test.media.texture
 
+_ @0;
+_ @BOOT.OPTIONS;
+
 r0:=k==0;
 
 draw(r0, 5401);
@@ -25,6 +28,8 @@ rec.scale r10;
 
 rec.scale:=1;
 
+nseconds VIDEO.REC.SECONDS;
+
 if (r0) {
  display.size(0);
  watch(o0);
@@ -46,7 +51,8 @@ if (r0) {
  texflip:=node.ex.texture.create(u0, 768,1024);
  recording+=1;
 
- media.video.recorder.set.duration(u0, tex, 15); 
+
+ media.video.recorder.set.duration(u0, tex, nseconds); 
 # media.video.recorder.set.duration(u0, tex, 120); 
 
  media.twitch.attach.texture(u0, tex);
@@ -57,6 +63,7 @@ if (r0) {
 # media.twitch.start(u0);
 };
 
+is.end if (STREAM.TWITCH, nseconds, 10000 *300);
 #if (t > 60*60) {
 
 if (t > 10000 *300) {

@@ -42,8 +42,20 @@ TRACK.STOP music.stop(r0);
 #TRACK.PLAY music.play(r0, 1, 26.8*60, 1); # EE
 TRACK.PLAY music.play(r0, 1, 60*46+20, 1); # EE
 
+# VIDEO REC/STREAM [
+
+VIDEO.REC.SECONDS 15;
+STREAM.TWITCH 0;
+
+# VIDEO REC/STREAM ]
+# MODULES ]
+
+BOOT.OPTIONS 997;
+
+# MODULES ]
 
 # CPU A1 [
+
 
  dma0 0;
  dma1 1;
@@ -53,6 +65,9 @@ TRACK.PLAY music.play(r0, 1, 60*46+20, 1); # EE
 # FUTURE AI OPTIMIZATIONS [
 
 # FUTURE AI OPTIMIZATIONS ]
+
+
+
 
 ### 4 INC.OS
 
