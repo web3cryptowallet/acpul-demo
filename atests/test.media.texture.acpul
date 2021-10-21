@@ -64,9 +64,10 @@ if (r0) {
 };
 
 is.end if (STREAM.TWITCH, nseconds, 10000 *300);
+if (is.end) {
 #if (t > 60*60) {
 
-if (t > 10000 *300) {
+#if (t > 10000 *300) {
 #if (t > 60) {
 #if (t > 1) { 
 #if (t > 10) {
