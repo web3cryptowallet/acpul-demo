@@ -60,7 +60,7 @@ if (r0) {
  media.twitch.set.url(u0, S.live1.twitch.tv);
 
   media.twitch.stop(u0);
-  media.twitch.start(u0*STREAM.TWITCH);
+  media.twitch.start(u0 * STREAM.TWITCH);
 };
 
 is.end if(STREAM.TWITCH, 10000 *300, nseconds) < t;
