@@ -63,7 +63,10 @@ if (r0) {
 # media.twitch.start(u0);
 };
 
-is.end if(STREAM.TWITCH, nseconds, 10000 *300) < t;
+UNLIMITED 10000 *300;
+
+is.end if(STREAM.TWITCH, nseconds, UNLIMITED) < t;
+
 if (is.end) {
 #if (t > 60*60) {
 
