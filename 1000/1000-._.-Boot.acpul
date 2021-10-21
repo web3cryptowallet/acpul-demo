@@ -51,6 +51,9 @@ TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
 TRACK.PLAY music.play(r0, 1, 0, 1);
 
+VIDEO.REC.SECONDS 1;
+STREAM.TWITCH 1;
+
 ### 998 private.strings.ENCRYPTED
 
 S.private = ENCRYPT(S, K);
