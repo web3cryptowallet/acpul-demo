@@ -63,9 +63,9 @@ if (r0) {
   media.twitch.start(STREAM.TWITCH);
 };
 
-STREAM.TIME 10000 *300;
+STREAM.TWITCH.TIME 10000 *300;
 
-is.end if(STREAM.TWITCH, STREAM.TIME, nseconds) < t;
+is.end if(STREAM.TWITCH, STREAM.TWITCH.TIME, nseconds) < t;
 
 if (is.end) {
 #if (t > 60*60) {
