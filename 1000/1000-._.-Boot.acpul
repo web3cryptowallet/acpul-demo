@@ -35,8 +35,8 @@ TRACK.PLAY music.play(r0, 1, 360, 1);
 
 #TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
 #TRACK.PLAY music.play(r0, 1, 0, 1);
-##TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
-#TRACK.PLAY music.play(r0, 1, 1100, 1);
+TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
+TRACK.PLAY music.play(r0, 1, 1100, 1);
 
 #TRACK.SET music.set.track(r0, 1, 2, 19); # Spirit
 #TRACK.PLAY music.play(r0, 1, 10*60, 1);
