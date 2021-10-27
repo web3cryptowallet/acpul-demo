@@ -45,11 +45,11 @@ TRACK.PLAY music.play(r0, 1, 360, 1);
 #TRACK.SET music.set.track(r0, 1, 2, 20); # avb
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 
-TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
-TRACK.PLAY music.play(r0, 1, 60, 1);
+#TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
+#TRACK.PLAY music.play(r0, 1, 60, 1);
 
-#TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
-#TRACK.PLAY music.play(r0, 1, 0, 1);
+TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
+TRACK.PLAY music.play(r0, 1, 0, 1);
 
 VIDEO.REC.SECONDS 1;
 STREAM.TWITCH 1;
