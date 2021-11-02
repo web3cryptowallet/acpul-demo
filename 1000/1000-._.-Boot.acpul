@@ -23,7 +23,7 @@ SHOW.AVATARS1 0; # 1 - demo, 2 - boot
 SHOW.UFO 1;
 SHOW.WALLEE 1;
 
-#TRACK.STOP music.stop(r0);
+TRACK.STOP music.stop(r0);
 TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 #TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 TRACK.PLAY music.play(r0, 1, 360, 1);
@@ -51,6 +51,8 @@ TRACK.PLAY music.play(r0, 1, 360, 1);
 #TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 
+TRACK.SET music.set.track(r0, 1, 2, 24); # 
+TRACK.PLAY music.play(r0, 1, 0, 1);
 
 VIDEO.REC.SECONDS 1;
 STREAM.TWITCH 1;
