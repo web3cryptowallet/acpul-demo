@@ -54,8 +54,8 @@ TRACK.PLAY music.play(r0, 1, 360, 1);
 TRACK.SET music.set.track(r0, 1, 2, 24); # 
 TRACK.PLAY music.play(r0, 1, 0, 1);
 
-VIDEO.REC.SECONDS 1;
-STREAM.TWITCH 1;
+VIDEO.REC.SECONDS 15;
+STREAM.TWITCH 0;
 
 ### 998 private.strings.ENCRYPTED
 
