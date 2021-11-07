@@ -57,7 +57,7 @@ TRACK.SET music.set.track(r0, 1, 2, 26); # Space3
 TRACK.PLAY music.play(r0, 1, 0, 1);
 
 VIDEO.REC.SECONDS 15;
-STREAM.TWITCH 0;
+STREAM.TWITCH 1;
 
 ### 998 private.strings.ENCRYPTED
 
