@@ -45,7 +45,7 @@ storage.image.save.texture {
 };
 
 storage.image.load.texture
- # pool,id,i
+ # pool,id,i -> tex
  io(u0, 500511, _0,_1,_2,0);
 
 
