@@ -62,7 +62,7 @@ TRACK.PLAY music.play(r0, 1, 0, 1);
 
 
 VIDEO.REC.SECONDS 15;
-STREAM.TWITCH 1;
+STREAM.TWITCH 0;
 
 ### 998 private.strings.ENCRYPTED
 
