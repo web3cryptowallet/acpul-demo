@@ -164,7 +164,7 @@ w 200;
 h 200;
 
  gl.shader.use(70014,75083);
- gl.rect0(5, 0,0, w,h);
+# gl.rect0(5, 0,0, w,h);
 
 # DRAW TRI ]
 
