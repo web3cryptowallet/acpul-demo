@@ -199,7 +199,7 @@ tex1.flip r7;
 
 to.texture0 {
  gl.fbo(tex0);
- gl.clear(0,1,0.0,0);
+ gl.clear(0,0,0.0,0);
 
  node.ex.gl.child.draw(u0);
 
