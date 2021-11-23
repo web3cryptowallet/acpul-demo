@@ -137,7 +137,7 @@ vw 768; vh 1024;
 #display.scalled.size(vh,vw);
  display.size(0);
  vw:=o0;
- vh:=o1*0.5;
+ vh:=o1*0.6;
 #vw:=1000;
 #vh:=o1;
 #vh:=768;
