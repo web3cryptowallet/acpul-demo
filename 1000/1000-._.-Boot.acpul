@@ -144,8 +144,10 @@ vw 768; vh 1024;
 s:=0.5;
 
 if (display.is.landscape) {
- w:=vh;
- h:=vw;
+ w:=vw;
+ h:=vh;
+# w:=vh;
+# h:=vw;
 # s:=0.5;
  tw w;
  th h;
