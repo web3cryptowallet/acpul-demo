@@ -140,7 +140,7 @@ display.scalled.size(vw,vh);
 #vw:=1000;
 # vh:=o1;
 #vh:=o1;
-vh:=1768;
+vh:=768;
 
 if (display.is.landscape) {
  w:=vh;
