@@ -132,7 +132,7 @@ tex1 r7;
 
 tex99 r4;
 
-vw 1768; vh 1024;
+vw 768; vh 1024;
 #_ @sys.display;
 display.scalled.size(vw,vh);
 # display.size(0);
