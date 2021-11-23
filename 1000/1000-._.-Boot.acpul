@@ -135,6 +135,9 @@ tex99 r4;
 vw 768; vh 1024;
 _ @sys.display;
 display.scalled.size(vh,vw);
+ display.size(0);
+ vw:=o0*s;
+ vh:=o1*s;
 
 if (display.is.landscape) {
  w:=vh;
