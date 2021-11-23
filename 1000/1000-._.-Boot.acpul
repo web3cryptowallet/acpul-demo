@@ -136,8 +136,8 @@ vw 768; vh 1024;
 _ @sys.display;
 display.scalled.size(vh,vw);
  display.size(0);
- vw:=o0*s;
- vh:=o1*s;
+ vw:=o0;
+ vh:=o1;
 
 if (display.is.landscape) {
  w:=vh;
