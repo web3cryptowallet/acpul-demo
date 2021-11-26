@@ -620,6 +620,7 @@ VG {
  paint0=node.new.this.ex(r0, core.vg.node.test3, 0);
 
  node.set.xy(u0, paint0, 100,100);
+ node.set.s(u0, paint0, 0.5);
 
  SNAKE 10150000;
  #node.new.this.ex(r0, SNAKE, 0); 
