@@ -623,7 +623,7 @@ VG {
 # node.set.s(u0, paint0, 0.25);
 
  SNAKE 10150000;
- #node.new.this.ex(r0, SNAKE, 0); 
+ node.new.this.ex(r0, SNAKE, 0); 
 
  PAINT 10160001;
  node.new.this.ex(r0, PAINT, 0);
