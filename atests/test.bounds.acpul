@@ -7,7 +7,7 @@ draw(r0, 5561);
 
 _ @4;
 
-node.new.this.ex(r0, test.bounds, 0);
+node.new.this.ex(r0, test.collection2, 0);
 
 
 
