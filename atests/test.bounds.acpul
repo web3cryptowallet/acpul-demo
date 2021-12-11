@@ -3,5 +3,8 @@
 
 test.collection2 9219;
 
+draw(r0, 5561);
 
 ### 5561 test.bounds.draw
+
+rect(u0, 6, 0,0,178,291);
