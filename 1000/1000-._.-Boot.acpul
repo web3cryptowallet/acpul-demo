@@ -1019,8 +1019,8 @@ if (r0) {
 
 # GALLACTIC AVATARS DEMO ]
 
-#_ @5000;
 if (r0) {
+ _ @5000;
  new.node0(r0, test.bounds, 0,0,1,500,500, 0,0,0,0);
 };
 
