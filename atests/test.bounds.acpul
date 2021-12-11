@@ -7,4 +7,5 @@ draw(r0, 5561);
 
 ### 5561 test.bounds.draw
 
+color(u0, 1,1,1,1);
 rect(u0, 6, 0,0,178,291);
