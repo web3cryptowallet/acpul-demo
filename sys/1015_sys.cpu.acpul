@@ -249,8 +249,9 @@ cpu.get.nodes.main
  _0:=cpu.get.nodes(u0, _0, 0, -1);
 
 cpu.get.node
- # u0, tid, mode, nid -> node.info
- #  mode 0 - textures
+ # u0, bid, mode, nid -> node.info
+ #  mode 0 
+ #   textures
  io(_0, 500445, _1, _2, _3, 0);
 
 # nodes ]
