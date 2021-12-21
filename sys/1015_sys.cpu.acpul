@@ -238,6 +238,10 @@ device.is.slow0 {
 # ide [
 # nodes [
 
+cpu.get.nodes.main
+ # nodes
+ _0:=cpu.get.nodes(u0, _0, 0, -1);
+
 cpu.get.nodes
  # u0, tid, mode, nid -> tree
  #  nid -1 - start root
