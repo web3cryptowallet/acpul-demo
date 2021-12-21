@@ -239,7 +239,7 @@ device.is.slow0 {
 # nodes [
 
 cpu.get.nodes
- # u0, tid, mode, nid -> tree
+ # u0, tid, mode, nid -> tree, count
  #  nid -1 - start root
  #  nid >0 - select node
  io(_0, 500444, _1, _2, _3, 0);
