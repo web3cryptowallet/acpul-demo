@@ -250,8 +250,9 @@ cpu.get.nodes.main
 
 cpu.get.node
  # u0, bid, mode, nid -> node.info
- #  mode 0 
- #   textures
+ #  mode 0
+ #   [0] fid,cpu,mem,lines
+ #   [1] textures
  io(_0, 500445, _1, _2, _3, 0);
 
 # nodes ]
