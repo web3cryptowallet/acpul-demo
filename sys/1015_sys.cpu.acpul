@@ -243,6 +243,7 @@ cpu.get.nodes
  #  nid -1 - start root
  #  nid >0 - select node
  #  tree.item
+ #   type, nid, 8,8,8,8, child[] #
  io(_0, 500444, _1, _2, _3, 0);
 
 cpu.get.nodes.main
