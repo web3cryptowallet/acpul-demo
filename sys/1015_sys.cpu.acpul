@@ -248,7 +248,6 @@ cpu.get.nodes.main
  # nodes
  _0:=cpu.get.nodes(u0, _0, 0, -1);
 
-
 cpu.get.node
  # u0, tid, mode, nid -> node.info
  #  mode 0 - textures
