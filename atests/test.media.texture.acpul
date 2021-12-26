@@ -19,7 +19,7 @@ recording r5;
 tex0boot0 u13;
 tex0boot1 u14;
 
-tex0src tex0boot0;
+tex0src tex0boot1;
 
 tw node.texture.width(tex0src)*rec.scale;
 th node.texture.height(tex0src)*rec.scale;
