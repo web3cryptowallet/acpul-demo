@@ -179,7 +179,8 @@ recording r5;
 tex0boot0 u13;
 tex0boot1 u14;
 
-tex0src tex0boot0;
+#tex0src tex0boot0;
+tex0src tex0boot1;
 
 texflip tex0src;
 
