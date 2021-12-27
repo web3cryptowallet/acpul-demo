@@ -178,7 +178,6 @@ _ @4;
 #ui.value1(l13,110,110,1.5,display.is.portrait);
 
 # DISPLAY ORIENTATION ]
-s:=1;
 
 ### 1601 Boot.texture.draw
 
@@ -286,6 +285,7 @@ if (r0) {
 
 # i18n ]
 
+s:=1;
 # NETWORKING [
 
 #url0 l12;
