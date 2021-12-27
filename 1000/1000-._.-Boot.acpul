@@ -526,7 +526,7 @@ if (display.is.portrait) {
  node.prop.y.s(u0, ide0, 525);
  node.prop.s.s(u0, panel0, 1);
  node.prop.x.s(u0, panel0, 0);
- node.prop.y.s(u0, panel0, 935);
+ node.prop.y.s(u0, panel0, 955);
  node.prop.s.s(u0, apps0, 1);
  node.prop.y.s(u0, apps0, 0);
 };
