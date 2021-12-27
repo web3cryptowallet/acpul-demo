@@ -1,0 +1,44 @@
+### boot.sharedobj
+
+# sharedobj [
+
+_ @sys.sharedobj;
+_ @sys.obj;
+
+dma0 0;
+sharedobj.init(r0, dma0);
+
+setup.shared.object {
+ # share.boot.node.id [
+ l0:=node.ex.this.id(r0);
+ sharedobj.key.new(r0, dma0,1000);
+ dma.set(r0, dma0,0, l0);
+ dma.off(r0, dma0);
+ # share.boot.node.id ]
+};
+setup.shared.object;
+
+#watch(node.ex.this.id(u0));
+
+test.shrobj {
+ sharedobj.key.new(r0, dma0,1);
+ dma.set(r0, dma0,0, 88);
+ sharedobj.key(r0, dma0,0);
+ l0:=dma.get(r0, dma0,0);
+ sharedobj.key(r0, dma0,1);
+ l1:=dma.get(r0, dma0,0);
+ sharedobj.key(r0, dma0,1000);
+ l2:=dma.get(r0, dma0,0);
+ dma.off(r0, dma0);
+ 
+ llog.begin(r0, S.boot.sharedobj);
+ llog.erase(r0);
+ llog.printv(r0, S.i0, l0);
+ llog.printv(r0, S.i1, l1);
+ llog.printv(r0, S.i1000, l2);
+ llog.end(r0);
+};
+test.shrobj;
+
+# sharedobj ]
+
