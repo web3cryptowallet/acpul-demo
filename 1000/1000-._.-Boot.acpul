@@ -160,6 +160,8 @@ llog.enable(u0, 1);
 
 #draw(r0, 1001);
 
+_ @boot.sharedobj;
+
 # DISPLAY ORIENTATION [
 
 _ @1010;
