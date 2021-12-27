@@ -541,7 +541,7 @@ if (display.is.landscape) {
  node.prop.y.s(u0, apps0, 260);
 };
 
-s:=2;
+s:=1;
 # UI ORIENTATION ]
 
 new.Edit1
