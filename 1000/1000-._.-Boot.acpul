@@ -232,12 +232,12 @@ gl.draw.texture.rect0 {
  gl.rect0(5, x,y, w,h);
 };
 
+s:=2;
 to.texture0;
 to.texture1.flip;
 
 gl.draw.texture.rect0(tex0,0,0,w,h);
 
-s:=2;
 _ @1100;
 _ @util.livenotify;
 
