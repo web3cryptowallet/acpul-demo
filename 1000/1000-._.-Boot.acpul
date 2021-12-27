@@ -112,6 +112,7 @@ draw(nextturn==2, 1601);
 nextturn+=1;
 
 
+s:=2;
 
 # DISPLAY ORIENTATION [
 
@@ -250,7 +251,7 @@ if (r0) {
 
 #color(u0, 1,0,0,1);
 #rect(u0, 6, 0,0,w,h);
-s:=2;
+
 l0:=1;
 
 ### 1610 Boot.main
