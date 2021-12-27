@@ -93,7 +93,7 @@ Boot.texture 1600;
 node.new.this.ex(r0, Boot.texture, 0);
 
 
-#s:=1.08;
+s:=1.08;
 
 
 ### 1600 Boot.texture
@@ -541,6 +541,7 @@ if (display.is.landscape) {
  node.prop.y.s(u0, apps0, 260);
 };
 
+s:=1;
 # UI ORIENTATION ]
 
 new.Edit1
