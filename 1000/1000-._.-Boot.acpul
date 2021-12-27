@@ -285,7 +285,7 @@ if (r0) {
 
 # i18n ]
 
-s:=1;
+s:=2;
 # NETWORKING [
 
 #url0 l12;
