@@ -1,0 +1,154 @@
+### 1600 Boot.texture
+
+_ @1010;
+_ @sys.node;
+
+Boot.main 1610;
+
+node.new.this.ex(r0, Boot.main, 0);
+
+nextturn 0;
+#draw(r0, 1601);
+draw(nextturn==2, 1601);
+nextturn+=1;
+
+
+# DISPLAY ORIENTATION [
+
+_ @1010;
+_ @sys.display;
+
+tex0boot0 u13;
+tex0boot1 u14;
+
+tex0v r1;
+tex1h r2;
+tex2v r5;
+tex3h r6;
+
+tex0 r3;
+tex1 r7;
+
+tex99 r4;
+
+vw 768; vh 1024;
+#_ @sys.display;
+#display.scalled.size(vh,vw);
+ display.size(0);
+ vw:=o0/2;
+ vh:=o1/2;
+#vw:=1000;
+#vh:=o1;
+#vh:=768;
+#s:=0.5;
+
+if (display.is.landscape) {
+ w:=vw;
+ h:=vh;
+# w:=vh;
+# h:=vw;
+# s:=0.5;
+ tw w;
+ th h;
+ tex0v:=if(tex0v,tex0v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex0:=tex0v;
+ tex2v:=if(tex2v,tex2v,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex1:=tex2v;
+};
+if (display.is.portrait) {
+ w:=vw;
+ h:=vh;
+# s:=0.65;
+ tw w;
+ th h;
+ tex1h:=if(tex1h,tex1h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex0:=tex1h;
+ tex3h:=if(tex3h,tex3h,node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb565, 1));
+ tex1:=tex3h;
+};
+
+node.ex.child.draw.s(u0, 0);
+
+#tex0boot:=if(tex0boot==tex0,tex99,tex0);
+#tex0boot:=tex99;
+
+tex0boot1:=tex1;
+tex0boot0:=tex0;
+
+_ @4;
+#ui.value1(l12,110,110,1.5,display.orientation.get);
+#ui.value1(l13,110,110,1.5,display.is.portrait);
+
+# DISPLAY ORIENTATION ]
+
+### 1601 Boot.texture.draw
+
+#color(u0, 0,0,0.2,1);
+#color(u0, 1,1,0,1);
+#color(u0, 0,0.5,0,1);
+#color(u0, 1,0,0,1);
+#rect(u0, 6, 0,0,w,h);
+
+_ @1010;
+_ @sys.node;
+_ @sys.display;
+_ @1100;
+_ @util.gl.std;
+_ @core.hud;
+
+tex0 r3;
+tex1.flip r7;
+
+to.texture0 {
+ gl.fbo(tex0);
+ gl.clear(0,0,0.0,0);
+
+ node.ex.gl.child.draw(u0);
+
+ gl.fbo(-1);
+};
+
+to.texture1.flip {
+  gl.fbo(tex1.flip);
+  gl.clear(0,1,0,0);
+a:=1;
+  gl.shader.use(70014,70015);
+  gl.shader.uniform.texture(0, tex0, 0);
+
+#  w 768; h 1024;
+#  node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
+  gl.rect0(5, 0,h, w,-h);
+
+  gl.fbo(-1);
+};
+
+gl.draw.texture.rect0 {
+ # tex, x,y, w,h
+ tex0 _0; x _1; y _2; w _3; h _4;
+
+ gl.shader.use(70014,70015);
+ gl.shader.uniform.texture(0, tex0, 0);
+# gl.blend(u0, 1, 8);
+ gl.rect0(5, x,y, w,h);
+};
+
+to.texture0;
+to.texture1.flip;
+
+gl.draw.texture.rect0(tex0,0,0,w,h);
+
+_ @1100;
+_ @util.livenotify;
+
+if (r0) {
+# notify0:=livenotify.log.v(0, S.print.cell0, cell0);
+# livenotify.log.v(0, S.print.cell0, cell0);
+ livenotify.log.v(0, Animation.CPU.v1, cell0);
+
+};
+
+#color(u0, 1,0,0,1);
+#rect(u0, 6, 0,0,w,h);
+
+l0:=1;
+
