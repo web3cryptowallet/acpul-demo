@@ -682,7 +682,7 @@ if (r0) {
 # APPS ]
 
 
-#VG;
+VG;
 
 BIRD 7340;
 #node.new.this.ex(r0, BIRD, 0);
@@ -699,7 +699,7 @@ panel0 l14;
 
 if (r0) {
  if (BOOT.IDE) {
-#  os.main.ide.new(ide0, 0,525,1, 600,400);
+  os.main.ide.new(ide0, 0,525,1, 600,400);
  };
 };
 
