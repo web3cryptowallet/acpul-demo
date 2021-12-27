@@ -732,7 +732,7 @@ if (r0) {
 
 test.monitor.old 5590;
 _ @test.monitor.old;
-s:=2;
+
 #system.monitor.init(0, 850);
 
 # livenotify [
