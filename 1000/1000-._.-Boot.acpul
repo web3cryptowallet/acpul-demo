@@ -521,7 +521,7 @@ x:=0;y:=0;s:=1;
 # UI ORIENTATION [
 
 if (display.is.portrait) {
- node.prop.s.s(u0, ide0, 1);
+ node.prop.s.s(u0, ide0, 11);
  node.prop.x.s(u0, ide0, 0);
  node.prop.y.s(u0, ide0, 525);
  node.prop.s.s(u0, panel0, 1);
