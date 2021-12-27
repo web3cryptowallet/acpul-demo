@@ -285,7 +285,6 @@ if (r0) {
 
 # i18n ]
 
-s:=2;
 # NETWORKING [
 
 #url0 l12;
@@ -542,6 +541,7 @@ if (display.is.landscape) {
  node.prop.y.s(u0, apps0, 260);
 };
 
+s:=2;
 # UI ORIENTATION ]
 
 new.Edit1
