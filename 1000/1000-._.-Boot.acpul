@@ -305,7 +305,7 @@ zoomA
 #zoom2;
 #zoom3;
 #zoom4;
-#zoomA;
+zoomA;
 
 zoomX
 {
@@ -315,7 +315,7 @@ zoomX
  x:=150;
 };
 
-zoomX;
+#zoomX;
 #x:=0;y:=0;s:=1;
 #x:=-100*6;y:=-700*3;s:=4;
 
