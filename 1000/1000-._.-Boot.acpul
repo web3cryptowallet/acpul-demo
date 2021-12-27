@@ -178,6 +178,7 @@ _ @4;
 #ui.value1(l12,110,110,1.5,display.orientation.get);
 #ui.value1(l13,110,110,1.5,display.is.portrait);
 
+s:=2;
 
 # DISPLAY ORIENTATION ]
 
@@ -189,7 +190,6 @@ _ @4;
 #color(u0, 1,0,0,1);
 #rect(u0, 6, 0,0,w,h);
 
-s:=2;
 _ @1010;
 _ @sys.node;
 _ @sys.display;
