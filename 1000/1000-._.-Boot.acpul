@@ -93,6 +93,8 @@ Boot.texture 1600;
 node.new.this.ex(r0, Boot.texture, 0);
 
 
+s:=1;
+
 
 ### 1600 Boot.texture
 
