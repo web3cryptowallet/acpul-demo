@@ -189,6 +189,7 @@ _ @4;
 #color(u0, 1,0,0,1);
 #rect(u0, 6, 0,0,w,h);
 
+s:=2;
 _ @1010;
 _ @sys.node;
 _ @sys.display;
@@ -232,7 +233,6 @@ gl.draw.texture.rect0 {
  gl.rect0(5, x,y, w,h);
 };
 
-s:=2;
 to.texture0;
 to.texture1.flip;
 
