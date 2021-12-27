@@ -112,8 +112,6 @@ draw(nextturn==2, 1601);
 nextturn+=1;
 
 
-s:=2;
-
 # DISPLAY ORIENTATION [
 
 _ @1010;
@@ -173,6 +171,7 @@ node.ex.child.draw.s(u0, 0);
 #tex0boot:=if(tex0boot==tex0,tex99,tex0);
 #tex0boot:=tex99;
 
+s:=2;
 tex0boot1:=tex1;
 tex0boot0:=tex0;
 
