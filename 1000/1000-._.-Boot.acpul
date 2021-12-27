@@ -709,7 +709,7 @@ if (BOOT.IDE) {
 
 if (r0) {
  if (BOOT.PANEL) {
-  #os.main.panel.new(panel0, 0,925,1, 768,100);
+  os.main.panel.new(panel0, 0,925,1, 768,100);
  };
 };
 
