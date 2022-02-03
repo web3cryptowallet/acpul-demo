@@ -758,9 +758,9 @@ rec.nodes {
 };
 
 if (r0) {
- #if (BOOT.REC.NODES) {
+ if (BOOT.REC.NODES) {
   rec.nodes;
- #};
+ };
 };
 
 
