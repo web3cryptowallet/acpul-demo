@@ -466,7 +466,7 @@ new.wallet {
 # node.prop.s.s(u0, l0, 0.4);
  node.prop.s.s(u0, l0, 2);
  node.prop.x.s(u0, l0, -w/2);
- node.prop.x.s(u0, l0, -500);
+ node.prop.y.s(u0, l0, -500);
 };
 #new.wallet;
 
