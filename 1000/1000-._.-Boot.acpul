@@ -754,7 +754,13 @@ node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
 rec.nodes {
  _ @93000;
 
- new.node0(r0, nodes.group.rec, 970,100,0.5,500,500, 0,0,0,0);
+ pos.landscape {x 970; y 100;};
+ pos.portrait {x 670; y 100;};
+
+ pos0 pos.landscape;
+ pos1 pos.portrait;
+
+ new.node0(r0, nodes.group.rec, pos0.x,pos0.y,0.5,500,500, 0,0,0,0);
 };
 
 if (r0) {
