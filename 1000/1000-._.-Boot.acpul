@@ -758,7 +758,7 @@ rec.nodes {
  pos.portrait {x 670; y 100;};
 
  pos0 pos.landscape;
- pos1\0 pos.portrait;
+ pos1 pos.portrait;
 
  new.node0(r0, nodes.group.rec, pos0.x,pos0.y,0.5,500,500, 0,0,0,0);
 };
