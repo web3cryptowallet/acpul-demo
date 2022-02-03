@@ -464,6 +464,7 @@ new.wallet {
  l0:=node.new.this.ex(r0, gl3d.test.main, 0);
 # node.prop.s.s(u0, l0, 0.9);
 # node.prop.s.s(u0, l0, 0.4);
+ node.prop.s.s(u0, l0, 2);
 };
 #new.wallet;
 
