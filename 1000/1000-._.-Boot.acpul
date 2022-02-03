@@ -750,6 +750,7 @@ node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
 #   node.new.this.ex(u0, BOOTLOADER, 0);
 
 # EVENTS ]
+# VIDEO REC [
 
 rec.nodes {
  _ @93000;
@@ -769,6 +770,7 @@ if (r0) {
  };
 };
 
+# VIDEO REC ]
 
 # demo ua30 [
 
