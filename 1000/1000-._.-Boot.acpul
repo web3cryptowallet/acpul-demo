@@ -759,7 +759,7 @@ rec.nodes {
  _ @93000;
 
  pos.landscape {x 970; y 100;};
- pos.portrait {x 670; y 100;};
+ pos.portrait {x 690; y 100;};
 
  pos0 pos.landscape;
  pos1 pos.portrait;
