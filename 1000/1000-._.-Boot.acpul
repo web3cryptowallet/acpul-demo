@@ -176,7 +176,6 @@ vw 768; vh 1024;
 #vh:=o1;
 display.scalled.size(vw,vh);
 
-
 l0:=display.orientation.get() - display.orientation.landscape;         
 if (l0>0) {
  w:=vh;
