@@ -531,6 +531,8 @@ os.metrics {
  ide.portrait {
   x 0;
   y panel.portrait.y-ide.h;
+  w ide.w;
+  h ide.h;
  };
 };
 
