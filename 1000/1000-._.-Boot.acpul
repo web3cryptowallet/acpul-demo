@@ -526,7 +526,7 @@ os.metrics {
   x 0;
   y 0;
   w portrait.w;
-  h 500;
+  h 400;
  };
  ide.portrait {
   x 0;
