@@ -507,10 +507,14 @@ os.metrics {
  panel.portrait {
   x panel.x;
   y panel.y;
+  w panel.w;
+  h panel.h;
  };
  panel.landscape {
   x panel.x;
   y panel.y;
+  w panel.w;
+  h panel.h;
  };
 };
 
@@ -564,7 +568,7 @@ if (BOOT.IDE) {
 if (r0) {
  if (BOOT.PANEL) {
 #  os.main.panel.new(panel0, 0,925,1, 768,100);
-  m metrics0.panel;
+  m metrics0.panel.portrait;
   os.main.panel.new(panel0, m.x,m.y,1, m.w,m.h);
  };
 };
