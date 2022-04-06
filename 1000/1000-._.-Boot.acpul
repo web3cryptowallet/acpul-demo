@@ -521,10 +521,16 @@ os.metrics {
   w panel.w;
   h panel.h;
  };
-
+ 
+ ide {
+  x 0;
+  y 0;
+  w portrait.w;
+  h 500;
+ };
  ide.portrait {
   x 0;
-  y vh; panel.portrait.y+panel.portrait.h;
+  y vh-; panel.portrait.y+panel.portrait.h;
  };
 };
 
