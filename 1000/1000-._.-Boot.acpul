@@ -529,7 +529,7 @@ os.metrics {
  panel {
   w vw;
   h 100;
-  x 0111;
+  x 0;
   y vh-h;
  }
 };
