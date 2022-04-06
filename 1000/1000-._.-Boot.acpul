@@ -493,16 +493,21 @@ os.metrics {
  _ @sys.display;
 
  vw 768; vh 1024;
+ portrait.w 768;
+ portrait.h 1024;
 
  step {
   display.scalled.size(vw,vh);
+  portrait.w:=min(vw,vh);
+  portrait.h:=max(vw,vh);
  };
 
+
  panel {
-  w vw;
+  w portrait.w;
   h 100;
   x 0;
-  y vh-h;
+  y portrait.h-h;
  };
  panel.portrait {
   x panel.x;
