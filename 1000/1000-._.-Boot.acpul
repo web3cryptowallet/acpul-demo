@@ -534,6 +534,12 @@ os.metrics {
   w ide.w;
   h ide.h;
  };
+ ide.landscape {
+  x 0;
+  y panel.portrait.y-ide.h;
+  w ide.w;
+  h ide.h;
+ };
 };
 
 os.metrics.step;
