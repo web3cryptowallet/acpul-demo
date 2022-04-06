@@ -530,7 +530,7 @@ os.metrics {
  };
  ide.portrait {
   x 0;
-  y panel.portrait.y-panel.portrait.h-ide.h;
+  y panel.portrait.y-ide.h;
  };
 };
 
