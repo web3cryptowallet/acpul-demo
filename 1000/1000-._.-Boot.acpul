@@ -516,7 +516,7 @@ os.metrics {
   h panel.h;
  };
  panel.landscape {
-  x vw-portrait.w+100;
+  x vw-portrait.w;
   y panel.y;
   w panel.w;
   h panel.h;
