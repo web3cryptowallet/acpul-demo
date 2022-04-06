@@ -554,23 +554,16 @@ if (display.is.portrait) {
  m metrics0;
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
-# node.prop.y.s(u0, ide0, 500+0*m.ide.portrait.y);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
  node.prop.s.s(u0, panel0, 1);
- node.prop.x.s(u0, panel0, metrics0.panel.portrait.x);
- node.prop.y.s(u0, panel0, metrics0.panel.portrait.y);
+ node.prop.x.s(u0, panel0, m.panel.portrait.x);
+ node.prop.y.s(u0, panel0, m.panel.portrait.y);
  node.prop.s.s(u0, apps0, 1);
  node.prop.y.s(u0, apps0, 0);
 };
 if (display.is.landscape) {
  m metrics0;
- #node.prop.s.s(u0, ide0, 0.8);
-# node.prop.x.s(u0, ide0, 410);
-# node.prop.y.s(u0, ide0, 370);
  node.prop.s.s(u0, ide0, m.ide.landscape.s);
-# node.prop.x.s(u0, ide0, 440);
-# node.prop.y.s(u0, ide0, 370);
-# node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
  node.prop.y.s(u0, ide0, m.ide.landscape.y);
  
@@ -578,7 +571,6 @@ if (display.is.landscape) {
  node.prop.s.s(u0, panel0, 1);
  node.prop.x.s(u0, panel0, metrics0.panel.landscape.x); 
  node.prop.y.s(u0, panel0, metrics0.panel.landscape.y);
-# node.prop.w.s(u0, panel0, 190);
 
  node.prop.s.s(u0, apps0, 0.533);
  node.prop.y.s(u0, apps0, 260);
