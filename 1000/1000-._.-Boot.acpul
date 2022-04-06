@@ -541,7 +541,6 @@ os.metrics {
   w ide.w;
   h ide.h;
  };
-
 };
 
 os.metrics.step;
