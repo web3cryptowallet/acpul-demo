@@ -518,16 +518,18 @@ panel0 l14;
 # METRICS [
 
 os.metrics {
+ _ @sys.display;
+
  vw 768; vh 1024;
+
  step {
-#_ @sys.display;
-
-
-#display.size;
-#vw:=o0;
-#vh:=o1;
-display.scalled.size(vw,vh);
+  display.scalled.size(vw,vh);
  };
+
+ panel {
+  w vw;
+  h 100;
+ }
 };
 
 os.metrics.step;
@@ -549,7 +551,7 @@ if (BOOT.IDE) {
 if (r0) {
  if (BOOT.PANEL) {
 #  os.main.panel.new(panel0, 0,925,1, 768,100);
-  os.main.panel.new(panel0, 0,925,1, metrics0.vw,100);
+  os.main.panel.new(panel0, 0,925,1, metrics0.panel.w,100);
  };
 };
 
