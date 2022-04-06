@@ -531,7 +531,15 @@ os.metrics {
   h 100;
   x 0;
   y vh-h;
- }
+ };
+ panel.portrait {
+  x panel.x;
+  y panel.y;
+ };
+ panel.landscape {
+  x panel.x;
+  y panel.y;
+ };
 };
 
 os.metrics.step;
