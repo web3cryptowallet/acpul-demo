@@ -521,6 +521,11 @@ os.metrics {
   w panel.w;
   h panel.h;
  };
+
+ ide.portrait {
+  x 0;
+  y panel.portrait.y+panel.portrait.h;
+ };
 };
 
 os.metrics.step;
@@ -531,9 +536,10 @@ metrics0 os.metrics;
 # UI ORIENTATION [
 
 if (display.is.portrait) {
+ m metrics0;
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
- node.prop.y.s(u0, ide0, 225);
+ node.prop.y.s(u0, ide0, m.ide.portrait.y);
  node.prop.s.s(u0, panel0, 1);
  node.prop.x.s(u0, panel0, metrics0.panel.portrait.x);
  node.prop.y.s(u0, panel0, metrics0.panel.portrait.y);
