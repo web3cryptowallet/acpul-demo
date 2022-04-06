@@ -524,7 +524,7 @@ os.metrics {
 
  ide.portrait {
   x 0;
-  y vy; panel.portrait.y+panel.portrait.h;
+  y vh; panel.portrait.y+panel.portrait.h;
  };
 };
 
