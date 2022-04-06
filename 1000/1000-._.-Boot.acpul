@@ -571,7 +571,7 @@ if (display.is.landscape) {
 # node.prop.y.s(u0, ide0, 370);
  node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
- node.prop.y.s(u0, ide0, 370);
+ node.prop.y.s(u0, ide0, m.ide.landscape.y);
  
 # node.prop.s.s(u0, panel0, 0.8);
  node.prop.s.s(u0, panel0, 1);
