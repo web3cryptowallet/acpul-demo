@@ -535,7 +535,7 @@ os.metrics {
   h ide.h;
  };
  ide.landscape {
-  x panel.landscape;
+  x panel.landscape.x;
   y panel.portrait.y-ide.h;
   w ide.w;
   h ide.h;
