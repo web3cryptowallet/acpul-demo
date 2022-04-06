@@ -573,7 +573,7 @@ if (display.is.landscape) {
  node.prop.y.s(u0, panel0, metrics0.panel.landscape.y);
 
  node.prop.s.s(u0, apps0, 0.5);
- node.prop.y.s(u0, apps0, 330);
+ node.prop.y.s(u0, apps0, 320);
 # node.prop.s.s(u0, apps0, 0.533);
 # node.prop.y.s(u0, apps0, 260);
 };
