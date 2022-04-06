@@ -541,6 +541,8 @@ os.metrics {
   w ide.w;
   h ide.h;
  };
+
+ portrait {ide ide.portrait;};
 };
 
 os.metrics.step;
