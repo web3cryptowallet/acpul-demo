@@ -517,7 +517,7 @@ os.metrics {
  };
  panel.landscape {
   x vw-portrait.w;
-  y panel.y;
+  y landscape.h-h;
   w panel.w;
   h panel.h;
  };
