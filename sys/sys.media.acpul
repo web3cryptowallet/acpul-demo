@@ -177,11 +177,11 @@ media.video.options
  io(_0, 500971, _0,_1, 0,0);
 
 media.video.play
- # u0
+ # u0, uid
  io(_0, 500971, 0,0,0,0);
 
 media.video.stop
- # u0
+ # u0, uid
  io(_0, 500971, 0,0,0,0);
 
 # VIDEO ]
