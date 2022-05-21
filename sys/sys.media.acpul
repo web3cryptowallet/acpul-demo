@@ -166,3 +166,22 @@ media.audio.sample.read
  io(_0, 500960, 0, 0,0,0);
 
 # AUDIO ]
+# VIDEO [
+
+media.video.select
+ # u0, pool,id,i
+ io(_0, 500970, _0,_1,_2, 0);
+
+media.video.options
+ # u0, offset, loop
+ io(_0, 500971, _0,_1, 0,0);
+
+media.video.play
+ # u0
+ io(_0, 500971, 0,0,0,0);
+
+media.video.stop
+ # u0
+ io(_0, 500971, 0,0,0,0);
+
+# VIDEO ]
