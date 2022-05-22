@@ -177,15 +177,15 @@ media.video.options
  io(_0, 500971, _0,_1, 0,0);
 
 media.video.play
- # u0, uid
+ # u0, vid
  io(_0, 500972, 0,0,0,0);
 
 media.video.stop
- # u0, uid
+ # u0, vid
  io(_0, 500973, 0,0,0,0);
 
 media.video.render.texture
- # u0, uid
+ # u0, vid, tex 
  io(_0, 500974, 0,0,0,0);
 
 # VIDEO ]
