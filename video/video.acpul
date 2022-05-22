@@ -1,0 +1,111 @@
+### main.video
+
+r0:=k==0;
+k:=1;
+
+_ @1010;
+_ @sys.node;
+_ @sys.media;
+
+tex0 r1;
+
+if (r0) {
+ media.video.select(u0, 0,0,0);
+ media.video.options(u0, 0,0);
+ media.video.play(u0, vid);
+ media.video.stop(u0, vid);
+
+ media.video.render.texture(u0, vid, tex0);
+
+ tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
+};
+
+draw(r0, 1621);
+
+
+### 1621 main.video.draw
+
+_ @1010;
+_ @sys.node;
+_ @sys.media;
+
+tex0 r1;
+gl node.ex.gl;
+shader node.ex.shader;
+
+media.video.render.texture(u0, 0, tex0);
+
+color(u0, 0.0,0.0,0,0.5);
+
+#ABOT.TEXTURE u23;
+#u23:=tex0;
+
+shader.use(u0, 1504, 1505);
+shader.uniform.texture(u0, 0, tex0, 0);
+shader.uniform.f1(u0, 1, 0.5+0.5*sin(l15*1));
+
+#_ @sys.display;
+
+#bw 1024;
+#bh 768;
+#l0:=display.orientation.get() - display.orientation.landscape;
+#l0:=(l0>0);
+
+#gl.rect(u0, -bw/2+30*l0,-bh/2, bw-60*l0,bh);
+
+#watch((l0>0));
+#if (l0>0) {
+#gl.rect(u0, -bw/2+30,-bh/2, bw-60,bh);
+#};
+#if (l0<=0) {
+#gl.rect(u0, -bh/2+30,-bw/2, bh-60,bw);
+#};
+
+bw 1024;
+bh 768;
+gl.rect(u0, -bw/2+30,-bh/2, bw-60,bh);
+#gl.rect(u0, -bw/2+30-1000,-bh/2, 3*bw-60,3*bh);
+#gl.rect(u0, 0,0, 1024+200*sin(t),768);
+#gl.rect(u0, -700,-200, 1024,768);
+#gl.rect(u0, 0,0, 1024,768);
+
+#rect(u0, 6, 0,0, 1024,768);
+
+### 1600:S video.vsh
+
+attribute vec4 a_position;
+attribute vec2 a_texCoord;
+
+varying mediump vec2 v_texCoord;
+varying mediump vec4 v_p;
+
+void main()
+{
+   gl_Position = CC_MVPMatrix * a_position+vec4(sin(a_position.x*0.05)*0.0,0.0,0.0,0.0);
+
+   v_texCoord = a_texCoord;
+   v_p = gl_Position;
+}
+
+### 1601:S video.fsh
+
+#ifdef GL_ES
+precision lowp float;
+#endif
+
+varying vec2 v_texCoord;
+
+uniform sampler2D p0;
+
+void main() 
+{
+//  gl_FragColor = texture2D(p0, v_texCoord);
+  gl_FragColor = texture2D(p0, vec2(1.-v_texCoord.x, v_texCoord.y));
+
+//  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
+}
+
+
+
+
+
