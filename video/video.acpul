@@ -134,7 +134,7 @@ new.video {
  node.prop.y.s(u0, vid0, 00);
 };
 
-#draw(r0, 1691);
+draw(r0, 1691);
 
 if (r0) {
 # new.video(5400, 0, 1);
@@ -143,4 +143,5 @@ if (r0) {
 
 ### 1691 test.main.video.draw
 
-rect(u0, 6, 0,0,500,500);
+#rect(u0, 6, 0,0,500,500);
+0;
