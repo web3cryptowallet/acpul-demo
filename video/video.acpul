@@ -130,8 +130,8 @@ new.video {
  vid0=node.new.this.ex4(u0, main.video, _0,_1,_2);
 #    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
 #    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
- node.prop.x.s(u0, vid0, 100);
- node.prop.y.s(u0, vid0, 100);
+# node.prop.x.s(u0, vid0, 100);
+# node.prop.y.s(u0, vid0, 100);
 };
 
 draw(r0, 1691);
