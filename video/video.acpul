@@ -30,7 +30,7 @@ draw(r0, 1621);
 
 media.video.render.texture(u0, vid, tex0);
 
-x+=1;
+#x+=1;
 
 ### 1621 main.video.draw
 
