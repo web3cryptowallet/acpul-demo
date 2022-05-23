@@ -17,12 +17,13 @@ tex0 r1;
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
- media.video.play(u0, vid);
- media.video.stop(u0, vid);
+# media.video.play(u0, vid);
+# media.video.stop(u0, vid);
 
- media.video.render.texture(u0, vid, tex0);
 
  tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
+
+# media.video.render.texture(u0, vid, tex0);
 };
 
 draw(r0, 1621);
