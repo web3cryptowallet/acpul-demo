@@ -30,7 +30,7 @@ if (r0) {
 draw(r0, 1621);
 
 r2+=1;
-if (r2>10) {
+if (r2>1) {
  r2:=0;
  media.video.render.texture(u0a, vid, tex0);
 };
