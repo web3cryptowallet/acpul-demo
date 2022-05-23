@@ -47,7 +47,7 @@ tex0 r1;
 gl node.ex.gl;
 shader node.ex.shader;
 
-media.video.render.texture(u0, 0, tex0);
+#media.video.render.texture(u0, 0, tex0);
 
 color(u0, 0.0,0.0,0,0.5);
 
