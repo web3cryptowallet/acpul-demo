@@ -21,9 +21,9 @@ if (r0) {
 # media.video.stop(u0, vid);
 
 
- tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
+# tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
-# tex0:=node.ex.texture.create.fmt(r0, 320/2,240/2, node.ex.texture.fmt.rgb565, 1);
+ tex0:=node.ex.texture.create.fmt(r0, 320/2,240/2, node.ex.texture.fmt.rgb565, 1);
 
 };
 
@@ -136,8 +136,8 @@ new.video {
 draw(r0, 1691);
 
 if (r0) {
- new.video(5400, 0, 1);
-# new.video(5500, 0, 1);
+# new.video(5400, 0, 1);
+ new.video(5500, 0, 1);
 };
 
 ### 1691 test.main.video.draw
