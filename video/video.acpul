@@ -23,11 +23,11 @@ if (r0) {
 
  tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
 
-# media.video.render.texture(u0, vid, tex0);
 };
 
 draw(r0, 1621);
 
+media.video.render.texture(u0, vid, tex0);
 
 ### 1621 main.video.draw
 
