@@ -17,7 +17,7 @@ tex0 r1;
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
-# media.video.play(u0, vid);
+ media.video.play(u0, vid);
 # media.video.stop(u0, vid);
 
 
