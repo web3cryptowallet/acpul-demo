@@ -121,3 +121,9 @@ new.video {
  node.prop.y.s(u0, vid0, 100);
 };
 
+draw(r0, 1691);
+
+
+### 1691 test.main.video.draw
+
+rect(u0, 6, 0,0,500,500);
