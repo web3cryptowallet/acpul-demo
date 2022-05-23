@@ -29,9 +29,11 @@ if (r0) {
 
 draw(r0, 1621);
 
-u0a=if(u0a,0,1);
-media.video.render.texture(u0a, vid, tex0);
-
+r2+=1;
+if (r2>10) {
+ r2:=0;
+ media.video.render.texture(u0a, vid, tex0);
+};
 
 #x+=1;
 
