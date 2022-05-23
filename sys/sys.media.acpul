@@ -186,6 +186,6 @@ media.video.stop
 
 media.video.render.texture
  # u0, vid, tex 
- io(_0, 500974, 0,0,0,0);
+ io(_0, 500974, _1,_2, 0,0);
 
 # VIDEO ]
