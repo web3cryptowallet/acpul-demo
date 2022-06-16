@@ -12,6 +12,7 @@
 events.pool.hwkeyboard 900;
 
 events.pool.cpu 505;
+events.pool.boot 420042;
 
 events.step 
  io(u0, 500700, 0,0, 0,0);
