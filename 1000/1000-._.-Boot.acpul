@@ -730,7 +730,7 @@ kbd0 0;
 
 node.prop.visible.toggle 
 # u0, nid
- s(_0,_1, if(g(_0,_1),0,1));
+ s(_0,_1, if(g(_0,_1),1,1));
 
 display.keyboard.toggle {
  if (kbd0) {
