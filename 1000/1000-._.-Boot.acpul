@@ -735,7 +735,6 @@ node.prop.visible.toggle
 display.keyboard.toggle {
  if (kbd0) {
   node.prop.visible.toggle(u0, kbd0);
-#  node.prop.visible.toggle(u0, kbd0);
  };
  if (kbd0==0) {
   kbd0:=node.new.this.ex4(u0, ide.keyboard, 0,0,0,0);
@@ -743,16 +742,10 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
-# node.prop.z.order.s(u0, kbd0, 1000000);
  node.z.to.front(u0, kbd0, 0);
 };
 
-#qqq 0;
-#qqq+=1;
-#if (qqq>2) {
-#qqq-=2;
-display.keyboard.toggle;
-#};
+#display.keyboard.toggle;
 
 if (r0) {
 #  kbd0:=node.new.this.ex4(u0, ide.keyboard, 0,0,0,0);
