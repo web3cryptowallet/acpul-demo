@@ -744,7 +744,7 @@ display.keyboard.toggle {
 display.keyboard.update {
  node.prop.z.s(u0, kbd0, -100);
 
-}
+};
 
 #display.keyboard.toggle;
 
