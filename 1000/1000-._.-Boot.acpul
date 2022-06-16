@@ -741,7 +741,7 @@ display.keyboard.toggle {
  };
 };
 
-display.keyboard.toggle;
+#display.keyboard.toggle;
 
 # KEYBOARD ]
 
