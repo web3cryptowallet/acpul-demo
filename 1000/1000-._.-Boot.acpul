@@ -737,8 +737,8 @@ display.keyboard.toggle {
   kbd0:=node.new.this.ex4(u0, ide.keyboard, 0,0,0,0);
  };
  if (kbd0) {
-  node.prop.visible.toggle(u0, kbd0);
-  node.prop.visible.toggle(u0, kbd0);
+#  node.prop.visible.toggle(u0, kbd0);
+#  node.prop.visible.toggle(u0, kbd0);
  };
 };
 
