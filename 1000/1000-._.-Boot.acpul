@@ -739,6 +739,8 @@ display.keyboard.toggle {
  };
 };
 
+display.keyboard.toggle;
+
 # KEYBOARD ]
 
 # EVENTS [
