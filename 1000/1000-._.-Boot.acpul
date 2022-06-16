@@ -751,7 +751,7 @@ display.keyboard.update {
 #qqq+=1;
 #if (qqq>2) {
 #qqq-=2;
-display.keyboard.toggle;
+#display.keyboard.toggle;
 #};
 
 if (r0) {
