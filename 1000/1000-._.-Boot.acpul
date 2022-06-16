@@ -724,6 +724,8 @@ fly.box {
 
 # KEYBOARD [
 
+_ @ide.common;
+
 kbd0 0;
 
 node.prop.visible.toggle 
