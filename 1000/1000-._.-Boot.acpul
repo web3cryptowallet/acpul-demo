@@ -810,6 +810,8 @@ process.node.events {
    apps0:=node.new.this.ex(u0, os.apps.run, 0);
    node.z.to.back(u0, apps0, 0);
   };
+  if (_0==boot.event.toggle.keyboard) {
+  };
  };
 
  tmp0 d58;
