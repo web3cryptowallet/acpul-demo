@@ -742,7 +742,7 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
- node.prop.z.s(u0, kbd0, -100);
+ node.prop.z.s(u0, kbd0, 1000);
 };
 
 #display.keyboard.toggle;
