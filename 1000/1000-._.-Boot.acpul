@@ -754,7 +754,6 @@ if (r0) {
 display.keyboard.update;
 
 # KEYBOARD ]
-
 # EVENTS [
 
 #boot0 ::= 0;
