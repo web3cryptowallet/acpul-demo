@@ -473,3 +473,34 @@ json.encode
  io(u0, 500521, _0, _1, 0,0);
 
 # json ]
+
+### sys.obj.volatile
+
+volatile {
+ get {
+  # uid : object -> object
+
+ };
+ get4 {
+  # id0,id1,id2,id3 -> object
+ };
+ # get4(codeline
+
+ dbg.codeline 
+  # -> code line
+  0;
+
+ dbg.fid
+  # -> fid
+  0;
+
+ dbg.node.key
+  # node,key -> nkid
+  #  node like thread
+  #  key loke key
+  0;
+ dbg.node.key4
+  # node,key0,key1,key2,key3 -> nkid
+
+  0;
+};
