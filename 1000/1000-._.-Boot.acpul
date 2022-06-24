@@ -62,8 +62,8 @@ TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
 #TRACK.SET music.set.track(r0, 1, 2, 27); # megablast
 #TRACK.SET music.set.track(r0, 1, 2, 29); # fantastica
 
-#TRACK.SET music.set.track(r0, 1, 2, 30); # 
-TRACK.SET music.set.track(r0, 1, 2, 31); #  
+TRACK.SET music.set.track(r0, 1, 2, 30); # 
+#TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
 
 TRACK.PLAY music.play(r0, 1, 0, 1); 
 
