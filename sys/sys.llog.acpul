@@ -116,8 +116,10 @@ livelog2 {
    #   16 - "." dot splitter
    #  2 - select child with index (v0)
    # path:
-   #  "/" - start
-   #  "abc" - relative
+   #  "/abc" - start "abc"
+   #  "abc" - relative "$P/abc"
+   #  "/a/b" - start "a/b"
+   #  "a.b" - relative "a.b"
    io(_0, a+1, _1, _1, _2, _3);
 
   push
