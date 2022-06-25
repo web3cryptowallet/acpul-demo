@@ -88,7 +88,7 @@ livelog2 {
 
  put
   # u0, lid, path, msg, replace
-  # path - obj:str|buf|dma
+  # path obj:str|buf|dma
   # path -1 - selected path
   io(_0, a+1, _1, 0,0,0);
 
@@ -101,6 +101,11 @@ livelog2 {
 
  get
   # u0, lid, path -> msg
+  io(_0, a+3, _1, 0,0,0);
+
+ get.children
+  # u0, lid, path, buf, mode -> list.buf
+  # mode 0 - 
   io(_0, a+3, _1, 0,0,0);
 
  erase
@@ -138,9 +143,6 @@ livelog2 {
     # u0, lid, buf -> path.buf
    io(_0, a+8, _1, 0,0,0);
 
-  get.children
-   # u0, lid, buf -> list.buf
-   io(_0, a+3, _1, 0,0,0);
  };
 
  begin path.push(__);
