@@ -83,11 +83,17 @@ livelog2 {
  new
   # u0 -> lid 
   0;
- put 
-  # u0, path, msg
+
+ put
+  # u0, path, msg, replace
   1;
+
  get
   # u0, path -> msg
+  1;
+
+ erase
+  # u0, path
   1;
 
  begin
