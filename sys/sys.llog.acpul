@@ -76,3 +76,10 @@ llog livelog;
 #llog.pv2(value.is.one, v2);
 
 # livelogging ]
+
+### sys.llog2
+
+livelog { _;
+ new 0;
+  
+};
