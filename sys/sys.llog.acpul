@@ -79,7 +79,14 @@ llog livelog;
 
 ### sys.llog2
 
-livelog { _;
- new 0;
-  
+livelog2 {
+ new
+  # -> lid 
+  0;
+ put 
+  # path, msg
+  1;
+ get
+  # path -> msg
+  1;
 };
