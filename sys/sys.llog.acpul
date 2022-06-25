@@ -111,6 +111,9 @@ livelog2 {
    # mode:
    #  0 - start
    #  1 - relative
+   #  16: flag
+   #   0  - "/" spitter
+   #   16 - "." dot splitter
    # path:
    #
    io(_0, a+1, _1, _1, _2, _3);
