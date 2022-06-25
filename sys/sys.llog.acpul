@@ -110,6 +110,10 @@ livelog2 {
   # u0, lid
   io(_0, a+1, 0,0,0,0);
 
+ select
+  # u0, lid, path
+
+
  path {
 
  };
