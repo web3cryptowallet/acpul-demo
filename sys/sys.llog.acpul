@@ -107,6 +107,7 @@ livelog2 {
   # u0, lid, path, buf, mode -> list.buf
   # mode 0 - names only
   # mode 1 - full path
+  # mode 2 - recursive names only
   io(_0, a+3, _1, 0,0,0);
 
  erase
