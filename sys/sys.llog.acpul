@@ -80,6 +80,8 @@ llog livelog;
 ### sys.llog2
 
 livelog2 {
+ a 0;
+
  new
   # u0 -> lid 
   0;
@@ -103,16 +105,19 @@ livelog2 {
   # u0, lid, path
   1;
 
- begin
-  # u0, lid, str
-  io(_0, a+0, _1,0,0,0);
- end
-  # u0, lid
-  io(_0, a+1, 0,0,0,0);
-
  select
   # u0, lid, path
+  io(_0, a+1, _1, 0,0,0);
 
+ push
+  # u0, lid, str
+  io(_0, a+0, _1, _2, 0,0);
+ pop
+  # u0, lid
+  io(_0, a+1, _1, 0,0,0);
+
+ begin push(__);
+ end pop(__);
 
  path {
 
