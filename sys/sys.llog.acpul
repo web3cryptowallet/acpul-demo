@@ -85,29 +85,29 @@ livelog2 {
   0;
 
  put
-  # u0, path, msg, replace
+  # u0, lid, path, msg, replace
   1;
 
  log
-  # u0, path, msg
+  # u0, lid, path, msg
   put(_0, _1, _2, 0);
  replace
-  # u0, path, msg
+  # u0, lid, path, msg
   put(_0, _1, _2, 1);
 
  get
-  # u0, path -> msg
+  # u0, lid, path -> msg
   1;
 
  erase
-  # u0, path
+  # u0, lid, path
   1;
 
  begin
-  # u0, str
+  # u0, lid, str
   io(_0, a+0, _1,0,0,0);
  end
-  # u0
+  # u0, lid
   io(_0, a+1, 0,0,0,0);
 
  path {
