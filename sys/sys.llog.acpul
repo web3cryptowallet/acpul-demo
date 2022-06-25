@@ -101,7 +101,7 @@ livelog2 {
 
  get
   # u0, lid, path -> msg
-  io(_0, a+3, _1, 0,0,0);
+  io(_0, a+2, _1, 0,0,0);
 
  get.children
   # u0, lid, path, buf, mode -> list.buf
