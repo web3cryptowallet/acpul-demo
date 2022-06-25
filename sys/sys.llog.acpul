@@ -105,7 +105,8 @@ livelog2 {
 
  get.children
   # u0, lid, path, buf, mode -> list.buf
-  # mode 0 - 
+  # mode 0 - names only
+  # mode 1 - full path
   io(_0, a+3, _1, 0,0,0);
 
  erase
