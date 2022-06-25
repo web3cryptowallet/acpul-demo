@@ -105,21 +105,20 @@ livelog2 {
   # u0, lid, path
   1;
 
- select
-  # u0, lid, path
-  io(_0, a+1, _1, 0,0,0);
-
- push
-  # u0, lid, str
-  io(_0, a+0, _1, _2, 0,0);
- pop
-  # u0, lid
-  io(_0, a+1, _1, 0,0,0);
-
- begin push(__);
- end pop(__);
-
  path {
+   select
+    # u0, lid, path
+    io(_0, a+1, _1, 0,0,0);
 
+   push
+    # u0, lid, str
+    io(_0, a+0, _1, _2, 0,0);
+   pop
+    # u0, lid
+    io(_0, a+1, _1, 0,0,0);
  };
+
+ begin path.push(__);
+ end path.pop(__);
+
 };
