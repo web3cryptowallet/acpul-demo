@@ -108,16 +108,16 @@ livelog2 {
  path {
   select
    # u0, lid, mode, path, v0
-   # mode: 16 2 1
+   # mode: 8 2 1
    #  1: flag mode
    #   0 - start or path
    #   1 - relative
    #  2: flag child
    #   0 - select node
    #   1 - select child with index (v0)
-   #  16: flag splitter
+   #  8: flag splitter
    #   0  - "/" spitter
-   #   16 - "." dot splitter
+   #   8 - "." dot splitter
    # path:
    #  "/abc" - start "abc"
    #  "abc" - relative "$P/abc"
