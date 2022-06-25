@@ -133,7 +133,7 @@ livelog2 {
    io(_0, a+7, _1, 0,0,0);
 
   get
-    # u0, lid, buf -> buf
+    # u0, lid, buf -> path.buf
    io(_0, a+8, _1, 0,0,0);
  };
 
