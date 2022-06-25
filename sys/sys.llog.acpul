@@ -81,12 +81,19 @@ llog livelog;
 
 livelog2 {
  new
-  # -> lid 
+  # u0 -> lid 
   0;
  put 
-  # path, msg
+  # u0, path, msg
   1;
  get
-  # path -> msg
+  # u0, path -> msg
   1;
+
+ begin
+  # u0, str
+  io(_0, a+0, _1,0,0,0);
+ end
+  # u0
+  io(_0, a+1, 0,0,0,0);
 };
