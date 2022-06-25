@@ -107,8 +107,13 @@ livelog2 {
 
  path {
   select
-   # u0, lid, path, mode
-   io(_0, a+1, _1, _1, _2, 0);
+   # u0, lid, mode, path, v0
+   # mode:
+   #  0 - start
+   #  1 - relative
+   # path:
+   #
+   io(_0, a+1, _1, _1, _2, _3);
 
   push
    # u0, lid, str
