@@ -109,8 +109,9 @@ livelog2 {
   select
    # u0, lid, mode, path, v0
    # mode: 16 2 1
-   #  0 - start or path
-   #  1 - relative
+   #  1: flag mode
+   #   0 - start or path
+   #   1 - relative
    #  2: flag child
    #   0 - select node
    #   1 - select child with index (v0)
