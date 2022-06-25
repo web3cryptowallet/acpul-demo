@@ -115,7 +115,8 @@ livelog2 {
    #   0  - "/" spitter
    #   16 - "." dot splitter
    # path:
-   #
+   #  "/" - start
+   #  "abc" - relative
    io(_0, a+1, _1, _1, _2, _3);
 
   push
