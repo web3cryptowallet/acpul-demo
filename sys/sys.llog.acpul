@@ -114,6 +114,7 @@ livelog2 {
    #  16: flag splitter
    #   0  - "/" spitter
    #   16 - "." dot splitter
+   #  2 - select child
    # path:
    #  "/" - start
    #  "abc" - relative
