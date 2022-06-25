@@ -103,6 +103,10 @@ livelog2 {
   # u0, lid, path -> msg
   io(_0, a+3, _1, 0,0,0);
 
+ get.children
+  # u0, lid, path, buf -> buf
+  io(_0, a+3, _1, 0,0,0);
+
  erase
   # u0, lid, path
   io(_0, a+4, _1, 0,0,0);
