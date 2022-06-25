@@ -84,11 +84,11 @@ livelog2 {
 
  new
   # u0 -> lid 
-  0;
+  io(_0, a+0, _1, 0,0,0);
 
  put
   # u0, lid, path, msg, replace
-  1;
+  io(_0, a+1, _1, 0,0,0);
 
  log
   # u0, lid, path, msg
@@ -99,11 +99,11 @@ livelog2 {
 
  get
   # u0, lid, path -> msg
-  1;
+  io(_0, a+3, _1, 0,0,0);
 
  erase
   # u0, lid, path
-  1;
+  io(_0, a+4, _1, 0,0,0);
 
  path {
   select
@@ -123,14 +123,18 @@ livelog2 {
    #  "abc" - relative "$P/abc"
    #  "/a/b" - start "a/b"
    #  "a.b" - relative "a.b"
-   io(_0, a+1, _1, _1, _2, _3);
+   io(_0, a+5, _1, _1, _2, _3);
 
   push
    # u0, lid, str
-   io(_0, a+0, _1, _2, 0,0);
+   io(_0, a+6, _1, _2, 0,0);
   pop
    # u0, lid
-   io(_0, a+1, _1, 0,0,0);
+   io(_0, a+7, _1, 0,0,0);
+
+   get
+    # u0, lid, buf -> buf
+   io(_0, a+8, _1, 0,0,0);
  };
 
  begin path.push(__);
