@@ -132,7 +132,7 @@ livelog2 {
    # u0, lid
    io(_0, a+7, _1, 0,0,0);
 
-   get
+  get
     # u0, lid, buf -> buf
    io(_0, a+8, _1, 0,0,0);
  };
