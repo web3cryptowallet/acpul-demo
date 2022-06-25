@@ -109,7 +109,7 @@ livelog2 {
   select
    # u0, lid, mode, path, v0
    # mode:
-   #  0 - start
+   #  0 - start or path
    #  1 - relative
    #  16: flag splitter
    #   0  - "/" spitter
