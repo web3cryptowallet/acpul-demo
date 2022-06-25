@@ -111,7 +111,7 @@ livelog2 {
    # mode:
    #  0 - start
    #  1 - relative
-   #  16: flag
+   #  16: flag splitter
    #   0  - "/" spitter
    #   16 - "." dot splitter
    # path:
