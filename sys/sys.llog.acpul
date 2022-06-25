@@ -108,7 +108,7 @@ livelog2 {
  path {
   select
    # u0, lid, mode, path, v0
-   # mode: 8 2 1
+   # mode: flags 8 2 1
    #  1: flag mode
    #   0 - start or path
    #   1 - relative
