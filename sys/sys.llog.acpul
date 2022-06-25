@@ -88,6 +88,8 @@ livelog2 {
 
  put
   # u0, lid, path, msg, replace
+  # path - obj:str|buf|dma
+  # path -1 - selected path
   io(_0, a+1, _1, 0,0,0);
 
  log
