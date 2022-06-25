@@ -106,16 +106,16 @@ livelog2 {
   1;
 
  path {
-   select
-    # u0, lid, path
-    io(_0, a+1, _1, 0,0,0);
+  select
+   # u0, lid, path, mode
+   io(_0, a+1, _1, _1, _2, 0);
 
-   push
-    # u0, lid, str
-    io(_0, a+0, _1, _2, 0,0);
-   pop
-    # u0, lid
-    io(_0, a+1, _1, 0,0,0);
+  push
+   # u0, lid, str
+   io(_0, a+0, _1, _2, 0,0);
+  pop
+   # u0, lid
+   io(_0, a+1, _1, 0,0,0);
  };
 
  begin path.push(__);
