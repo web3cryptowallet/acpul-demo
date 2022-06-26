@@ -150,4 +150,8 @@ livelog2 {
  begin path.push(__);
  end path.pop(__);
 
+ events.on
+  # u0, on
+  io(_0, a+9, _1, 0,0,0);
+
 };
