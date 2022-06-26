@@ -160,6 +160,9 @@ livelog2 {
   # u0, on
   io(_0, a+9, _1, 0,0,0);
 
+ # EXT
 
+ printv
+  0;
 
 };
