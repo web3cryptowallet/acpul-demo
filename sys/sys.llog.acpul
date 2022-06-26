@@ -114,6 +114,8 @@ livelog2 {
   # u0, lid, path
   io(_0, a+4, _1, 0,0,0);
 
+ # PATH
+
  path {
   select
    # u0, lid, mode, path, v0
@@ -147,11 +149,17 @@ livelog2 {
 
  };
 
+ # NAV
+
  begin path.push(__);
  end path.pop(__);
+
+ # EVENTS
 
  events.on
   # u0, on
   io(_0, a+9, _1, 0,0,0);
+
+
 
 };
