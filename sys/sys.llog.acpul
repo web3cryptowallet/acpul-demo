@@ -157,8 +157,8 @@ livelog2 {
  # EVENTS
 
  events.on
-  # u0, on
-  io(_0, a+9, _1, 0,0,0);
+  # u0, lid, on
+  io(_0, a+9, _1, _2, 0,0);
 
  # EXT
 
