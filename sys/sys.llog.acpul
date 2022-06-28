@@ -163,7 +163,7 @@ livelog2 {
  # EXT
 
  printv
-  # u0, lid, fmt, v
-  io(_0, a+10, _1, _2, _3, 0);
+  # u0, lid, path, fmt, v
+  io(_0, a+10, _1, _2, _3,_4);
 
 };
