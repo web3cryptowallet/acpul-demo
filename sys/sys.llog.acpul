@@ -77,7 +77,7 @@ llog livelog;
 
 # livelogging ]
 
-### sys.llog2
+### sys.livelog2
 
 livelog2 {
  a 0;
