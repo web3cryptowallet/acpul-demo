@@ -80,7 +80,7 @@ llog livelog;
 ### sys.livelog2
 
 livelog2 {
- a 0;
+ a 502200;
 
  new
   # u0 -> lid 
