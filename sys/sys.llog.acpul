@@ -171,3 +171,6 @@ livelog2 {
   io(_0, a+10, _1, _2, _3,_4);
 
 };
+
+llog2 livelog2;
+
