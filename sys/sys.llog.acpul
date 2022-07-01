@@ -121,6 +121,8 @@ livelog2 {
  # PATH
 
  path {
+  ROOT 0-2;
+  
   select
    # u0, lid, mode, path, v0
    # mode: flags 8 2 1
