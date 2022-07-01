@@ -121,6 +121,7 @@ livelog2 {
  # PATH
 
  path {
+  cursor 0-1;
   root 0-2;
 
   select
