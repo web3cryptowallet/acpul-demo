@@ -83,7 +83,7 @@ livelog2 {
  a 502200;
 
  new
-  # u0 -> lid 
+  # u0, mode -> lid 
   io(_0, a+0, _1, 0,0,0);
 
  put
