@@ -84,6 +84,10 @@ livelog2 {
 
  new
   # u0, mode -> lid 
+  # mode:
+  #  0 - "/" & "." splitter
+  #  1 - "/" splitter
+  #  2 - "." splitter
   io(_0, a+0, _1, 0,0,0);
 
  put
