@@ -110,10 +110,10 @@ livelog2 {
 
  get.children
   # u0, lid, path|node, buf, mode -> list.buf
-  # mode 0 - names only
-  # mode 1 - full path
-  # mode 2 - recursive full path only
-  # mode 3 - nodes list
+  # mode 0 - nodes list
+  # mode 1 - names only
+  # mode 2 - full path
+  # mode 3 - recursive full path only
   io(_0, a+3, _1, _2, _3, _4);
 
  erase
