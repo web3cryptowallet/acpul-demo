@@ -168,6 +168,8 @@ livelog2 {
 
  # NAV
 
+ root path.root;
+
  begin path.push(__);
  end path.pop(__);
 
