@@ -120,7 +120,7 @@ livelog2 {
   io(_0, a+3, _1, _2, _3, _4);
 
  erase
-  # u0, lid, path
+  # u0, lid, path|node
   io(_0, a+4, _1, 0,0,0);
 
  # PATH
