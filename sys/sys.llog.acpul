@@ -107,7 +107,8 @@ livelog2 {
   # u0, lid, path, 0 -> msg
   # u0, lid, path, 1 -> node
   # u0, lid, node, 0 -> name
-  # u0, lid, node, 1 -> msg
+  # u0, lid, node, 1 -> path
+  # u0, lid, node, 2 -> msg
   io(_0, a+2, _1, _2, _3, 0);
 
  get.children
