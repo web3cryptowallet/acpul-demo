@@ -110,10 +110,11 @@ livelog2 {
   io(_0, a+2, _1, 0,0,0);
 
  get.children
-  # u0, lid, path, buf, mode -> list.buf
+  # u0, lid, path|node, buf, mode -> list.buf
   # mode 0 - names only
   # mode 1 - full path
   # mode 2 - recursive full path only
+  # mode 3 - nodes list
   io(_0, a+3, _1, _2, _3, _4);
 
  erase
