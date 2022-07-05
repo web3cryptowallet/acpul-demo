@@ -98,10 +98,10 @@ livelog2 {
 
  log
   # u0, lid, path, msg
-  put(_0, _1, _2, 0);
+  put(_0, _1, _2, _3, 0);
  replace
   # u0, lid, path, msg
-  put(_0, _1, _2, 1);
+  put(_0, _1, _2, _3, 1);
 
  get
   # u0, lid, path|node, buf, mode:0 -> node
