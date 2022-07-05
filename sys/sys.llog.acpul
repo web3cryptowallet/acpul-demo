@@ -104,8 +104,8 @@ livelog2 {
   put(_0, _1, _2, 1);
 
  get
-  # u0, lid, path, 0 -> msg
-  # u0, lid, path, 1 -> node
+  # u0, lid, path, 0 -> node
+  # u0, lid, path, 1 -> msg
   # u0, lid, node, 0 -> name
   # u0, lid, node, 1 -> path
   # u0, lid, node, 2 -> msg
