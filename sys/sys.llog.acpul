@@ -105,16 +105,21 @@ livelog2 {
 
  get
   # u0, lid, path|node, buf, mode:0 -> node
-  # u0, lid, path|node, buf, mode:1 -> buf:name,msg
+  # u0, lid, path|node, buf, mode:1 -> buf:name
+  # u0, lid, path|node, buf, mode:2 -> buf:msg
   io(_0, a+2, _1, _2, _3, _4);
 
  get.node
   # u0, lid, path -> node
   get(_0, _1, _2, 0, 0);
 
- get.info
-  # u0, lid, path|node, buf -> buf:name,msg
+ get.name
+  # u0, lid, path|node, buf -> buf:name
   get(_0, _1, _2, _3, 1);
+
+ get.msg
+  # u0, lid, path|node, buf -> buf:msg
+  get(_0, _1, _2, _3, 2);
 
  get.children
   # u0, lid, path|node, buf, mode -> list.buf
