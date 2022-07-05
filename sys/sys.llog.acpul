@@ -132,7 +132,7 @@ livelog2 {
 
  path {
   cursor 0-1;
-  root 0-2;
+  root 0-2345;
 
   select
    # u0, lid, mode, path, v0
