@@ -82,6 +82,8 @@ llog livelog;
 livelog2 {
  a 502200;
 
+ core 0-42;
+
  new
   # u0, mode -> lid 
   # mode:
