@@ -138,19 +138,19 @@ livelog2 {
  # ATTRIBUTE
 
  set.attribute
-  # u0, lid, path|node, v, mode:0 -> 0
-  # u0, lid, path|node, bid, mode:1 -> 0
+  # u0, lid, path|node, attr, v, mode:0 -> 0
+  # u0, lid, path|node, attr, bid, mode:1 -> 0
   io(_0, a+11, _1, _2, _3, _4);
 
  get.attribute
-  # u0, lid, path|node, 0, mode:0 -> v
-  # u0, lid, path|node, bid, mode:1 -> bid
+  # u0, lid, path|node, attr, 0, mode:0 -> v
+  # u0, lid, path|node, attr, bid, mode:1 -> bid
   io(_0, a+12, _1, _2, _3, _4);
 
- set.attribute.v set.attribute(_0,_1,_2,0);
- set.attribute.buf set.attribute(_0,_1,_2,1);
- get.attribute.v get.attribute(_0,_1,_2,0);
- get.attribute.buf get.attribute(_0,_1,_2,1);
+ set.attribute.v set.attribute(_0,_1,_2,_3,0);
+ set.attribute.buf set.attribute(_0,_1,_2,_3,1);
+ get.attribute.v get.attribute(_0,_1,_2,_3,0);
+ get.attribute.buf get.attribute(_0,_1,_2,_3,1);
 
  # PATH
 
