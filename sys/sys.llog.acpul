@@ -203,6 +203,11 @@ livelog2 {
   # u0, lid, on
   io(_0, a+9, _1, _2, 0,0);
 
+ 
+ step
+  # u0
+  io(_0, a+13, 0, 0, 0,0);
+
  # EXT
 
  printv
