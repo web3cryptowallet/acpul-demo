@@ -192,3 +192,23 @@ net.snippet.scan {
   # o0-1 type, port
 #  name l2;
 #  name:=net.node.prop(nid,2);
+
+### 1040 sys.http
+
+www.pool 80000;
+
+http.req
+ # jobj
+ #  host '';
+ #  path '';
+ #  method '';
+ #  params [];
+ #  headers [];
+ #  body '';
+ io(u0, 500530, _0, 0, 0,0);
+
+http.req.json
+ # : http.req
+ io(u0, 500530, _0, 1, 0,0);
+
+http.event.res 1;
