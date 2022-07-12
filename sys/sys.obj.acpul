@@ -383,6 +383,8 @@ jobj.new
  # u0
  obj_new(u0, 7, 0, 0, 0,0);
 
+jobj.this 0-928901;
+
 #jobj.count
 # # o
 # obj.count(u0, _0);
