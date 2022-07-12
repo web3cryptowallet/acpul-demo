@@ -410,7 +410,7 @@ jobj.buf.g
  # o, key, buf -> buf,o0=err
  #  str|blob -> buf
  #  v -> print buf
- jobj_get(u0, 4, _0, _1, _2 0);
+ jobj_get(u0, 4, _0, _1, _2, 0);
 
 jobj.buf.dma
  # jo, key, dma
