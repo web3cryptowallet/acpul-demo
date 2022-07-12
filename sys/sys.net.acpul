@@ -193,6 +193,8 @@ net.snippet.scan {
 #  name l2;
 #  name:=net.node.prop(nid,2);
 
+_ @sys.http;
+
 ### 1040 sys.http
 
 www.pool 80000;
