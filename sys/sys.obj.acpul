@@ -407,7 +407,7 @@ jobj.buf.s
  # jo, key, buf
  jobj_set(u0, 1, _0, _1, _2, 1);
 jobj.buf.g
- # o, key, buf -> buf,o0=err
+ # jo, key, buf -> buf,o0=err
  #  str|blob -> buf
  #  v -> print buf
  jobj_get(u0, 4, _0, _1, _2, 0);
