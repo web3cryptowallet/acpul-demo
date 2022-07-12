@@ -2,6 +2,8 @@
 
 # net [
 
+_ @sys.http;
+
 net.e.pool 501;
 net.e { _;
  node.found 1;
@@ -192,8 +194,6 @@ net.snippet.scan {
   # o0-1 type, port
 #  name l2;
 #  name:=net.node.prop(nid,2);
-
-_ @sys.http;
 
 ### 1040 sys.http
 
