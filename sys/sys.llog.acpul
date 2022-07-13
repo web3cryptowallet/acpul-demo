@@ -199,6 +199,8 @@ livelog2 {
 
  # EVENTS
 
+ pool 888;
+
  events.on
   # u0, lid, on
   io(_0, a+9, _1, _2, 0,0);
