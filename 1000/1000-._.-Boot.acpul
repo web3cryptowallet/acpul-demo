@@ -691,6 +691,7 @@ llog.end(ll0);
 
 _ @sys.livelog2;
 llog2.step(u0);
+l11;
 
 # touch debug should be lastest node [
 TOUCH.DEBUG 1006;
