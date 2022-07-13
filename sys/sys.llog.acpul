@@ -207,7 +207,7 @@ livelog2 {
   erase 2;
   add.node 3;
   remove.node 4;
-  update.node 4;
+  update.node 5;
  };
 
  events.on
