@@ -201,6 +201,15 @@ livelog2 {
 
  pool 888;
 
+ ev {
+  put 0;
+  replace 1;
+  erase 2;
+  add.node 3;
+  remove.node 4;
+  update.node 4;
+ };
+
  events.on
   # u0, lid, on
   io(_0, a+9, _1, _2, 0,0);
