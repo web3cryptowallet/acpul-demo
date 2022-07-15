@@ -162,7 +162,7 @@ livelog2 {
 
  set.splitter
   # u0, lid, (slash:0|dot:1)
-  set.attribute.v(_0, _1, root, attributes.spitter, _2, 0,0,0);
+  set.attribute.v(_0, _1, llog2.root, attributes.spitter, _2, 0,0,0);
 
  # PATH
 
