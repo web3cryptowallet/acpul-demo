@@ -190,6 +190,7 @@ livelog2 {
  # NAV
 
  root path.root;
+ cursor path.cursor;
 
  begin path.push(__);
  end path.pop(__);
