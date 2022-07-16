@@ -138,7 +138,6 @@ new.video {
 draw(r0, 1691);
 
 if (r0) {
-
  new.video(5400, 0, 1);
 # new.video(5500, 0, 1);
 # new.video(5500, 0, 2);
