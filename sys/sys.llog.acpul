@@ -140,6 +140,7 @@ livelog2 {
  set.attribute {
   # u0, lid, path|node, attr, mode:0, v, 0,0,0 -> 0
   # u0, lid, path|node, attr, mode:1, obj, 0,0,0 -> 0
+  # u0, lid, path|node, attr, mode:2, key, v, 0,0 -> 0
   io(_0, a+14, _5, _6, _7, _8);
   io(_0, a+11, _1, _2, _3, _4);
  };
@@ -147,15 +148,30 @@ livelog2 {
  get.attribute {
   # u0, lid, path|node, attr, mode:0, 0, 0,0,0,0 -> v
   # u0, lid, path|node, attr, mode:1, 0, 0,0,0,0 -> obj
+  # u0, lid, path|node, attr, mode:2, key, 0,0,0,0 -> v
   io(_0, a+14, _5, _6, _7, _8);
   io(_0, a+12, _1, _2, _3, _4);
  };
 
- set.attribute.v set.attribute(_0, _1,_2,_3,0, _4, 0,0,0);
- set.attribute.obj set.attribute(_0, _1,_2,_3,1, _4, 0,0,0);
- get.attribute.v get.attribute(_0, _1,_2,_3,0, 0,0,0,0);
- get.attribute.obj get.attribute(_0, _1,_2,_3,1, 0,0,0,0);
-
+ set.attribute.v 
+  # u0, lid, path|node, attr, v -> 0
+  set.attribute(_0, _1,_2,_3,0, _4, 0,0,0);
+ set.attribute.obj
+  # u0, lid, path|node, attr, obj -> 0
+  set.attribute(_0, _1,_2,_3,1, _4, 0,0,0);
+ set.attribute.map.v
+  # u0, lid, path|node, attr, key, v -> 0
+  set.attribute(_0, _1,_2,_3,2, _4, _5,0,0);
+ get.attribute.v
+  # u0, lid, path|node, attr -> v
+  get.attribute(_0, _1,_2,_3,0, 0,0,0,0);
+ get.attribute.obj
+  # u0, lid, path|node, attr -> obj
+  get.attribute(_0, _1,_2,_3,1, 0,0,0,0);
+ get.attribute.map.v
+  # u0, lid, path|node, attr, key -> v
+  get.attribute(_0, _1,_2,_3,2, _4,0,0,0);
+ 
  attributes {
   spitter 0-4;
  };
