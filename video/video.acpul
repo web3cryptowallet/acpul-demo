@@ -144,6 +144,9 @@ if (r0) {
 # new.video(5500, 0, 4);
 };
 
+s:=0.5;
+
+
 ### 1691 test.main.video.draw
 
 #rect(u0, 6, 0,0,500,500);
