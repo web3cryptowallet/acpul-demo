@@ -216,5 +216,5 @@ touch.ev.process.multi;
 
 ### 1691 test.main.video.draw
 
-rect(u0, 6, 0,0,500,500);
+rect(u0, 6, 0,0,w,h);
 0;
