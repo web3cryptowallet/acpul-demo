@@ -69,7 +69,7 @@ TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
 
 #TRACK.SET music.set.track(r0, 1, 2, 32); # 
 
-#TRACK.PLAY music.play(r0, 1, 0, 1); 
+TRACK.PLAY music.play(r0, 1, 0, 1); 
 
 VIDEO.REC.SECONDS 15;
 STREAM.TWITCH 0;
