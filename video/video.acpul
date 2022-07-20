@@ -158,7 +158,7 @@ clicked r1;
 dx.max 5;
 dy.max 5;
 
-pressed 0;
+pressed r2;
 
 touch.id 0;
 touch.b0 0;
@@ -217,5 +217,9 @@ h:=500;
 
 ### 1691 test.main.video.draw
 
+pressed r2;
+if (pressed,
+  color(u0, 1,1,0,1),
+  color(u0, 0,0,0.5,0.5));
 rect(u0, 6, 0,0,w,h);
 0;
