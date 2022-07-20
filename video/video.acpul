@@ -144,7 +144,71 @@ if (r0) {
 # new.video(5500, 0, 4);
 };
 
-s:=0.5;
+# TOUCH [
+
+_ @sys.os;
+_ @os.util2;
+
+_ @sys.touch;
+_ @sys.events;
+
+x0 0; y0 0;
+xs 0; ys 0; 
+clicked r1;
+dx.max 5;
+dy.max 5;
+
+pressed 0;
+
+touch.id 0;
+touch.b0 0;
+
+touch.ev {
+ began {
+  # x,y, gx,gy
+
+  x0:=_2;
+  y0:=_3;
+  xs:=x0;
+  ys:=y0;
+
+  pressed:=1;
+  clicked:=1;
+ };
+ moved {
+  # x,y, gx,gy
+
+  event0(ui.event.touch.move, nid,0, _2-x0,_3-y0);
+  xp = x0;
+  yp = y0;
+
+  x0:=_2;
+  y0:=_3;
+
+  # check clicked
+  if (abs(y0-ys)>dy.max) {
+   clicked:=0;
+  };
+ };
+ ended {
+  # x,y, gx,gy
+
+  pressed:=0;
+
+  if (clicked) {
+  };
+ };
+};
+#  CREATURE0.SMILE 70802;
+#  node.new.this.ex4(r0+(rnd(u0)<0.001), CREATURE0.SMILE, 1*rnd(u0),1*rnd(u0)+200, 0,0);
+
+touch.rect2.lock(touch.id, 0,0,w,h);
+
+_ @sys.touch.ev.process.once;
+touch.b0:=1;
+touch.ev.process.multi;
+
+# TOUCH ]
 
 
 ### 1691 test.main.video.draw
