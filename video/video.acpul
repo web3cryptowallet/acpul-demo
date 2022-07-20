@@ -184,8 +184,6 @@ touch.ev {
   x0:=_2-x0;
   y0:=_3-y0;
 
-  x+=
-
   # check clicked
   if (abs(y0-ys)>dy.max) {
    clicked:=0;
