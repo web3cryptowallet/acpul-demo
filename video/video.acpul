@@ -203,7 +203,7 @@ touch.ev {
 #  CREATURE0.SMILE 70802;
 #  node.new.this.ex4(r0+(rnd(u0)<0.001), CREATURE0.SMILE, 1*rnd(u0),1*rnd(u0)+200, 0,0);
 
-touch.rect2.lock(touch.id, 0,0,w,h);
+touch.rect2(touch.id, 0,0,w,h);
 
 _ @sys.touch.ev.process.once;
 touch.b0:=1;
