@@ -28,7 +28,7 @@ if (r0) {
 
 };
 
-draw(r0, 1621);
+#draw(r0, 1621);
 
 u0a=if(u0a,0,1);
 media.video.render.texture(u0a, vid, tex0);
