@@ -209,7 +209,7 @@ touch.ev {
   yp = y0;
 
   # check clicked
-  if (abs(y0-ys)>dy.max) {
+  if ((abs(y0-ys)>dy.max)+(abs(x0-xs)>dx.max)) {
    x:=_2-x0;
    y:=_3-y0;
    clicked:=0;
