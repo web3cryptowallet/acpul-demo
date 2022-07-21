@@ -210,8 +210,8 @@ touch.ev {
 
   # check clicked
   if ((abs(_3-ys)>dy.max)+(abs(_2-xs)>dx.max)) {
-   x:=_2-xs;
-   y:=_3-ys;
+   x+=_2-x0;
+   y+=_3-y0;
    clicked:=0;
   };
  };
