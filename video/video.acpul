@@ -91,6 +91,8 @@ bh 768/2;
 tex.w r2; 
 tex.h r3;
 
+bw tex.w;
+
 gl.rect(u0, bw,bh, -bw,-bh);
 #gl.rect(u0, -bw/2+30,-bh/2, bw-60,-bh);
 #gl.rect(u0, -bw/2+30-1000,-bh/2, 3*bw-60,3*bh);
