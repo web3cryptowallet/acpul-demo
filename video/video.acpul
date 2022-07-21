@@ -215,6 +215,9 @@ touch.ev {
   if (abs(y0-ys)>dy.max) {
    clicked:=0;
   };
+  if (abs(y0-ys)>dy.max) {
+   x:=x0;
+  };
  };
  ended {
   # x,y, gx,gy
