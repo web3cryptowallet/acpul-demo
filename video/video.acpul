@@ -167,8 +167,8 @@ if (r0) {
 # new.video(5500, 0, 4);
 };
 
-w:=node.prop.w.g(u0, vid0)+1;
-h:=node.prop.h.g(u0, vid0)+1;
+w:=node.prop.w.g(u0, vid0)+2;
+h:=node.prop.h.g(u0, vid0)+2;
 
 
 # TOUCH [
