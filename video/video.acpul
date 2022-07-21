@@ -26,7 +26,8 @@ if (r0) {
 
 #tex.w := 320/2; tex.h := 240/2;
 #tex.w := 640/2; tex.h := 266/2;
-tex.w := 640/2; tex.h := 360/2;
+#tex.w := 640/2; tex.h := 360/2;
+tex.w := 640; tex.h := 360;
 #640x360
 
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
