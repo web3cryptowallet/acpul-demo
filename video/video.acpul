@@ -283,7 +283,7 @@ void main()
 // gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(7.))/10.;
 
 #define tex0 p0
- vec2 p = -v_texCoord;
+ vec2 p = v_texCoord;
 
  vec4 sum = vec4(1.);
  float blurSize = 0.00001;///640..;
