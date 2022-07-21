@@ -14,13 +14,17 @@ _ @sys.media;
 
 tex0 r1;
 
-tw 320/2; th 240/2;
+tex.w r2; 
+tex.h r3;
+
 
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
+
+tex.w 320/2; tex.h 240/2;
 
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
@@ -31,7 +35,7 @@ if (r0) {
 
 };
 
-w:=tw*4/1.5;
+w:=tw*4;
 h:=th*4;
 
 draw(r0, 1621);
@@ -79,8 +83,10 @@ shader.uniform.f1(u0, 1, 0.5+0.5*sin(l15*1));
 #gl.rect(u0, -bh/2+30,-bw/2, bh-60,bw);
 #};
 
-bw 1024/2;
-bh 768/2;
+#bw 1024/2;
+#bh 768/2;
+bw w;
+bh h;
 gl.rect(u0, bw,bh, -bw,-bh);
 #gl.rect(u0, -bw/2+30,-bh/2, bw-60,-bh);
 #gl.rect(u0, -bw/2+30-1000,-bh/2, 3*bw-60,3*bh);
