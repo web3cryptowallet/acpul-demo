@@ -86,14 +86,14 @@ shader.uniform.f1(u0, 1, 0.5+0.5*sin(l15*1));
 
 bw 1024/2;
 bh 768/2;
-#bw r2;
-#bh h;
+bw w;
+bh h;
 
 tex.w r2; 
 tex.h r3;
 
-bw tex.w;
-bh tex.h;
+#bw tex.w;
+#bh tex.h;
 
 
 gl.rect(u0, bw,bh, -bw,-bh);
