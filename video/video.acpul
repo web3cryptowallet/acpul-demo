@@ -191,6 +191,8 @@ pressed r2;
 touch.id 0;
 touch.b0 0;
 
+moving 0;
+
 touch.ev {
  began {
   # x,y, gx,gy
@@ -216,13 +218,14 @@ touch.ev {
    x0:=_2;
    y0:=_3;
    clicked:=0;
-   node.z.to.front(u0, nid,0);
+   moving:=1;
   };
  };
  ended {
   # x,y, gx,gy
 
   pressed:=0;
+  moving:=0;
 
   if (clicked) {
    s/=2;
@@ -234,6 +237,10 @@ touch.ev {
 };
 #  CREATURE0.SMILE 70802;
 #  node.new.this.ex4(r0+(rnd(u0)<0.001), CREATURE0.SMILE, 1*rnd(u0),1*rnd(u0)+200, 0,0);
+
+if (moving) {
+ node.z.to.front(u0, nid,0);
+};
 
 touch.rect2.lock(touch.id, 0,0,w,h);
 
