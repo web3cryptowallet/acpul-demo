@@ -8,9 +8,6 @@ i p2;
 r0:=k==0;
 k:=1;
 
-w:=500;
-h:=500;
-
 _ @1010;
 _ @sys.node;
 _ @sys.media;
@@ -23,13 +20,19 @@ if (r0) {
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
 
+ tw 320/2; th 240/2;
 
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
  tex0:=node.ex.texture.create.fmt(r0, 320/2,240/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 640/2,266/2, node.ex.texture.fmt.rgb565, 1);
 
+ tex0:=node.ex.texture.create.fmt(r0, tw,th, node.ex.texture.fmt.rgb565, 1);
+
 };
+
+w:=tw;
+h:=th;
 
 draw(r0, 1621);
 
