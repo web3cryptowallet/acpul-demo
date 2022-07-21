@@ -277,7 +277,7 @@ void main()
 
 //  gl_FragColor.rg *= 1.2;
 
- gl_FragColor.rgb += gl_FragColor.rgb*gl_FragColor.rgb*0.5;
+ gl_FragColor.rgb += gl_FragColor.rgb*gl_FragColor.rgb;
 // gl_FragColor *= 1.5;
 
 
