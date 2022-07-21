@@ -286,7 +286,7 @@ void main()
  vec2 p = v_texCoord;
 
  vec4 sum = vec4(1.);
- float blurSize = 1.;///640.;
+ float blurSize = 1./640.;
    sum += texture2D(tex0, p - 4.0 * blurSize) * 0.05;
 
 #if 1
@@ -302,7 +302,7 @@ void main()
 
  gl_FragColor.rgb += pow(gl_FragColor.rgb+sum.rgb/1.,vec3(7.))/20.;
 // gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(7.))/20.;
- gl_FragColor.rgb = sum.rgb/2.;
+// gl_FragColor.rgb = sum.rgb/2.;
 // gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(7.))/10.*sum.rgb/4.;
 
 //  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
