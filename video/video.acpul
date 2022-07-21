@@ -280,7 +280,7 @@ void main()
 // gl_FragColor.rgb += gl_FragColor.rgb*gl_FragColor.rgb;
 // gl_FragColor *= 1.5;
 
- gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(10.))/10.;
+ gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(10.))/20.;
 
 
 //  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
