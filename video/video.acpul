@@ -14,13 +14,13 @@ _ @sys.media;
 
 tex0 r1;
 
+tw 320/2; th 240/2;
+
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
-
- tw 320/2; th 240/2;
 
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
