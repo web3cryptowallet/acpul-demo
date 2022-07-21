@@ -282,6 +282,20 @@ void main()
 
  gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(7.))/10.;
 
+#define tex0 p0
+ vec2 p = v_texCoord;
+
+ vec3 sum = vec3(0.);
+   sum += texture2D(tex0, p - 4.0 * blurSize) * 0.05;
+   sum += texture2D(tex0, p - 3.0 * blurSize) * 0.09;
+   sum += texture2D(tex0, p - 2.0 * blurSize) * 0.12;
+   sum += texture2D(tex0, p - 1.0 * blurSize) * 0.15;
+   sum += texture2D(tex0, p                ) * 0.16;
+   sum += texture2D(tex0, p + 1.0 * blurSize) * 0.15;
+   sum += texture2D(tex0, p + 2.0 * blurSize) * 0.12;
+   sum += texture2D(tex0, p + 3.0 * blurSize) * 0.09;
+   sum += texture2D(tex0, p + 4.0 * blurSize) * 0.05;
+
 
 //  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
 }
