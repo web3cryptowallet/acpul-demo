@@ -182,8 +182,8 @@ _ @sys.events;
 x0 0; y0 0;
 xs 0; ys 0; 
 clicked r1;
-dx.max 5;
-dy.max 5;
+dx.max 25;
+dy.max 25;
 
 pressed r2;
 
