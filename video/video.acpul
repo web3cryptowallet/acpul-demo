@@ -216,6 +216,7 @@ touch.ev {
    x0:=_2;
    y0:=_3;
    clicked:=0;
+   node.z.to.front(u0, nid,0);
   };
  };
  ended {
