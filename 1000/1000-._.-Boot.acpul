@@ -754,7 +754,7 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
- node.z.to.front(u0, kbd0, 0);
+# node.z.to.front(u0, kbd0, 0);
 };
 
 #display.keyboard.toggle;
