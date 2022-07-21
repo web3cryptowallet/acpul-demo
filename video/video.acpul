@@ -63,7 +63,8 @@ color(u0, 0.0,0.0,0,0.5);
 #ABOT.TEXTURE u23;
 #u23:=tex0;
 
-shader.use(u0, 1504, 1505);
+shader.use(u0, 1504, 1692);
+
 shader.uniform.texture(u0, 0, tex0, 0);
 shader.uniform.f1(u0, 1, 0.5+0.5*sin(l15*1));
 
@@ -253,3 +254,28 @@ if (pressed,
   color(u0, 0,0,0.5,0.5));
 rect(u0, 6, -1,-1,w,h);
 0;
+
+
+
+### 1692:S video.fsh
+
+//#ifdef GL_ES
+//precision lowp float;
+//#endif
+
+varying vec2 v_texCoord;
+
+uniform sampler2D p0;
+
+void main() 
+{
+//  gl_FragColor = texture2D(p0, v_texCoord);
+  gl_FragColor = texture2D(p0, vec2(1.-v_texCoord.x, v_texCoord.y));
+
+//  gl_FragColor = pow(gl_FragColor+gl_FragColor,2);
+  gl_FragColor *= 1.5;// pow(gl_FragColor+gl_FragColor,2);
+
+  gl_FragColor.rg *= 1.2;
+
+//  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
+}
