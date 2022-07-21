@@ -89,8 +89,8 @@ bh 768/2;
 bw w;
 bh h;
 
-tex.w r2; 
-tex.h r3;
+#tex.w r2; 
+#tex.h r3;
 
 #bw tex.w;
 #bh tex.h;
