@@ -35,8 +35,8 @@ tex.w 320/2; tex.h 240/2;
 
 };
 
-w:=tw*4;
-h:=th*4;
+w:=tex.w*4;
+h:=tex.h*4;
 
 draw(r0, 1621);
 
