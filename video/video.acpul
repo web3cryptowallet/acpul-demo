@@ -36,7 +36,7 @@ tex.h := 240/2;
 
 };
 
-w:=tex.w*2*2;
+w:=tex.w*2;
 h:=tex.h*2;
 
 draw(r0, 1621);
@@ -168,7 +168,7 @@ if (r0) {
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
-h:=node.prop.w.g(u0, vid0)+2;
+h:=node.prop.h.g(u0, vid0)+2;
 
 
 # TOUCH [
