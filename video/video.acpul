@@ -164,8 +164,8 @@ draw(r0, 1691);
 if (r0) {
 # new.video(5400, 0, 1);
 # new.video(5500, 0, 1);
- new.video(5500, 0, 2);
-# new.video(5500, 0, 4);
+# new.video(5500, 0, 2);
+ new.video(5500, 0, 4);
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
@@ -285,8 +285,8 @@ void main()
 // gl_FragColor.rgb += pow(gl_FragColor.rgb+vec3(1.),vec3(7.))/10.;
 
 #define tex0 p0
-// vec2 p = v_texCoord;
- vec2 p = vec2(1.-v_texCoord.x, v_texCoord.y);
+ vec2 p = v_texCoord;
+// vec2 p = vec2(1.-v_texCoord.x, v_texCoord.y);
 
  vec4 sum = vec4(1.);
  float blurSize = 1./640.*2.;
