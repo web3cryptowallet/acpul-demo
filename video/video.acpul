@@ -346,7 +346,7 @@ void main()
    sum += texture2D(tex0, p + 4.0 * blurSize) * 0.05;
 #endif
 
- gl_FragColor.rgb *= col3(gl_FragColor.r*0.1);
+ gl_FragColor.rgb *= col3(gl_FragColor.r*0.1)*0.1;
 // gl_FragColor.rgb *= col3(gl_FragColor.r*0.1);
 
  gl_FragColor.rgb += pow(gl_FragColor.rgb+sum.rgb/.8,vec3(7.))/1500.;
