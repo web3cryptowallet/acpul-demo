@@ -289,7 +289,7 @@ void main()
 // vec2 p = vec2(1.-v_texCoord.x, v_texCoord.y)
 
  vec4 sum = vec4(1.);
- float blurSize = 10./640.;
+ float blurSize = 1./640./2.;
    sum += texture2D(tex0, p - 4.0 * blurSize) * 0.05;
 
 #if 1
