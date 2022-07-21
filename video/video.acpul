@@ -196,6 +196,7 @@ touch.ev {
 
   if (clicked) {
    s/=2;
+   s:=if(s<=0.25,2,s);
 
   };
  };
