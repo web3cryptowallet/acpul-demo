@@ -126,9 +126,11 @@ _ @4;
 
 main.video 1620;
 
+vid0 0;
+
 new.video {
  # pool,id,i
- vid0=node.new.this.ex4(u0, main.video, _0,_1,_2);
+ vid0:=node.new.this.ex4(u0, main.video, _0,_1,_2);
 #    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
 #    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
  node.prop.x.s(u0, vid0, 00);
@@ -143,6 +145,10 @@ if (r0) {
 # new.video(5500, 0, 2);
 # new.video(5500, 0, 4);
 };
+
+w:=node.prop.w.g(u0, vid0)+2;
+h:=node.prop.w.g(u0, vid0)+2;
+
 
 # TOUCH [
 
@@ -210,8 +216,8 @@ _ @sys.touch.ev.process.once;
 touch.b0:=1;
 touch.ev.process.multi;
 
-w:=500;
-h:=500;
+#w:=500;
+#h:=500;
 
 # TOUCH ]
 
