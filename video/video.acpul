@@ -277,7 +277,7 @@ void main()
 
 //  gl_FragColor.rg *= 1.2;
 
- gl_FragColor.rgb += gl_FragColor.rgb*2.;
+ gl_FragColor.rgb += gl_FragColor.rgb*1.5;
 
 //  gl_FragColor = vec4(1.0,0.5,1.0,0.5);
 }
