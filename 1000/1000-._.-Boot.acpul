@@ -760,7 +760,6 @@ display.keyboard.update {
 #display.keyboard.toggle;
 
 if (r0) {
-#  kbd0:=node.new.this.ex4(u0, ide.keyboard, 0,0,0,0);
  if (SHOW.KEYBOARD==1) {
   events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 0,0,0,0);
  };
