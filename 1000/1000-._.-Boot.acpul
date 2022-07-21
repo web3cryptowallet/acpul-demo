@@ -66,7 +66,7 @@ TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 #TRACK.SET music.set.track(r0, 1, 2, 30); # 
 #TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
 
-TRACK.SET music.set.track(r0, 1, 2, 32); # 
+TRACK.SET music.set.track(r0, 1, 2, 32); # Moby
 
 TRACK.PLAY music.play(r0, 1, 0, 1); 
 #TRACK.STOP 0;
