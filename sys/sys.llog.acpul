@@ -85,11 +85,7 @@ livelog2 {
  core 0-42;
 
  new
-  # u0, mode -> lid 
-  # mode:
-  #  0 - "/" & "." splitter
-  #  1 - "/" splitter
-  #  2 - "." splitter
+  # u0, name -> lid 
   io(_0, a+0, _1, 0,0,0);
 
  put
