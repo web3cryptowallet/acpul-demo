@@ -14,6 +14,7 @@ BOOT.BOOTLOADER 0;
 BOOT.WALLET 0;
 BOOT.DEMO0 0;
 BOOT.GAME.NEBULA 0;
+BOOT.TOUCH.DEBUG 1;
 
 #BOOT.BOOTLOADER.Z 0;
 BOOT.BOOTLOADER.Z 0-100;
@@ -700,8 +701,10 @@ llog2.step(u0);
 l11;
 
 # touch debug should be lastest node [
-TOUCH.DEBUG 1006;
-node.new.this.ex(r0, TOUCH.DEBUG, 0);
+if (BOOT.TOUCH.DEBUG) {
+ TOUCH.DEBUG 1006;
+ node.new.this.ex(r0, TOUCH.DEBUG, 0);
+};
 # touch debug should be lastest node ]
 
 # CPU STEP [
