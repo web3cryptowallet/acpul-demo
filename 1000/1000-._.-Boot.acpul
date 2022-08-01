@@ -701,9 +701,10 @@ llog2.step(u0);
 l11;
 
 # touch debug should be lastest node [
+touchnid0 0;
 if (BOOT.TOUCH.DEBUG) {
  TOUCH.DEBUG 1006;
- node.new.this.ex(r0, TOUCH.DEBUG, 0);
+ touchnid0:=node.new.this.ex(r0, TOUCH.DEBUG, 0);
 };
 # touch debug should be lastest node ]
 
@@ -1028,5 +1029,9 @@ _ @4;
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
  node.z.to.front(u0, panel0,0);
+};
+
+if (touchnid0) {
+ node.z.to.front(u0, touchnid0,0);
 };
 
