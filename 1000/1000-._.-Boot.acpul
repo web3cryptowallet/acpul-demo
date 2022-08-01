@@ -1032,6 +1032,7 @@ if (BOOT.PANEL.TOP*BOOT.PANEL) {
 };
 
 if (touchnid0) {
- node.z.to.front(u0, touchnid0,0);
+# node.z.to.front(u0, touchnid0,0);
+ node.prop.z.order.s(r0, touchnid0, -10000);
 };
 
