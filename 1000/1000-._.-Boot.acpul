@@ -783,7 +783,7 @@ if (r0) {
 };
 toggle.hackernews {
  show {
-  new.hackernews.view(hn0, 450,-380,500,500);
+  new.hackernews.view(hn0, w-500,0,500,500);
  };
  hide {
   node.prop.lt.s(u0, hn0, 0.001);
