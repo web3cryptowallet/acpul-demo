@@ -774,6 +774,7 @@ if (r0) {
 display.keyboard.update;
 
 # KEYBOARD ]
+# HACKERNEWS [
 
 _ @hackernews;
 
@@ -793,6 +794,15 @@ toggle.hackernews {
  if (hn0, hide, show);
 };
 
+# HACKERNEWS ]
+# UI MOVE.UI [
+
+
+toggle.move.ui {
+ 
+};
+
+# UI MOVE.UI ]
 # EVENTS [
 
 #boot0 ::= 0;
@@ -886,6 +896,9 @@ process.node.events {
   };
   if (_0==boot.event.toggle.hn) {
    toggle.hackernews;
+  };
+  if (_0==boot.event.move.ui) {
+   toggle.move.ui;
   };
  };
 
