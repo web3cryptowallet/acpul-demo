@@ -774,6 +774,25 @@ if (r0) {
 display.keyboard.update;
 
 # KEYBOARD ]
+
+_ @hackernews;
+
+hn0 0;
+
+if (r0) {
+};
+toggle.hackernews {
+ show {
+  new.hackernews.view(hn0, 450,-380,500,500);
+ };
+ hide {
+  node.prop.lt.s(u0, hn0, 0.001);
+  hn0:=0;
+ };
+
+ if (hn0, hide, show);
+};
+
 # EVENTS [
 
 #boot0 ::= 0;
@@ -864,6 +883,9 @@ process.node.events {
   };
   if (_0==boot.event.toggle.keyboard) {
    display.keyboard.toggle;
+  };
+  if (_0==boot.event.toggle.hn) {
+   toggle.hackernews;
   };
  };
 
