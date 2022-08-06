@@ -799,8 +799,8 @@ toggle.hackernews {
 
 
 toggle.move.ui {
- move:=llog2.get.attribute.v(u0, livelog2.data,A.UI.move.layout, Move);
- llog2.set.attribute.v(u0, livelog2.data,A.UI.move.layout, Move, if(move,0,1));
+ moving=llog2.get.attribute.v(u0, livelog2.data,A.UI.move.layout, Move);
+ llog2.set.attribute.v(u0, livelog2.data,A.UI.move.layout, Move, if(moving,0,1));
 };
 
 # UI MOVE.UI ]
