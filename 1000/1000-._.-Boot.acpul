@@ -796,15 +796,18 @@ toggle.hackernews {
 # LLOG CORE [
 
 llog2core0 0;
+llog2data0 0;
 
 toggle.llog2core {
  show {
-#  new.hackernews.view(hn0, w-500,0,500,500);
-  new.llog.test.view(llog2core0, 0,0,500,500);
+  new.livelog.view(llog2core0, 0,0,1, 500,500, livelog2.core);
+  new.livelog.view(llog2data0, 0,0,1, 500,500, livelog2.data);
  };
  hide {
   node.prop.lt.s(u0, llog2core0, 0.001);
   llog2core0:=0;
+  node.prop.lt.s(u0, llog2data0, 0.001);
+  llog2data0:=0;
  };
 
  if (llog2core0, hide, show);
@@ -818,7 +821,7 @@ toggle.move.ui {
  moving=llog2.get.attribute.v(u0, livelog2.data,A.UI.move.layout, Move);
  llog2.set.attribute.v(u0, livelog2.data,A.UI.move.layout, Move, if(moving,0,1));
  toggle.llog2core;
- toggle.hackernews;
+# toggle.hackernews;
 };
 
 # UI MOVE.UI ]
