@@ -801,7 +801,7 @@ llog2data0 0;
 toggle.llog2core {
  show {
   new.livelog.view(llog2core0, 0,0,1, 500,500, livelog2.core);
-  new.livelog.view(llog2data0, 0,0,1, 500,500, livelog2.data);
+  new.livelog.view(llog2data0, 500,0,1, 500,500, livelog2.data);
  };
  hide {
   node.prop.lt.s(u0, llog2core0, 0.001);
