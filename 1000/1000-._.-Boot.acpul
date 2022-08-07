@@ -817,7 +817,7 @@ toggle.llog2core {
 toggle.move.ui {
  moving=llog2.get.attribute.v(u0, livelog2.data,A.UI.move.layout, Move);
  llog2.set.attribute.v(u0, livelog2.data,A.UI.move.layout, Move, if(moving,0,1));
- toggle.llog2core
+ toggle.llog2core;
 };
 
 # UI MOVE.UI ]
