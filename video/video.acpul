@@ -219,12 +219,14 @@ touch.ev {
 
   # check clicked
   if ((abs(_3-ys)>dy.max)+(abs(_2-xs)>dx.max)) {
+   clicked:=0;
+   moving:=1;
+  };
+  if (moving) {
    x+=_2-x0;
    y+=_3-y0;
    x0:=_2;
    y0:=_3;
-   clicked:=0;
-   moving:=1;
   };
  };
  ended {
