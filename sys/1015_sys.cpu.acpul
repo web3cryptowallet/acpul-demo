@@ -140,6 +140,14 @@ cpu.get.formula.info.source
  # u0, fid, buffer -> buffer
  io(_0, 500434, _1, _2, 0,0);
 
+cpu.set.code
+ # u0, fid, code, mode
+ # mode:
+ #  0 - formula
+ #  1 - shader
+ io(_0, 500446, _1, _2, _3, 0);
+
+
 cpu.get.formula.info.text.matrix.attribute
  # u0, fid, line,col, aid -> v
  io(_0, 500435, _1, _2,_3, _4);
