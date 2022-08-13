@@ -120,7 +120,7 @@ src r1;
 load.formula {
  # fid  
  fid _0;
- src:=cpu.get.formula.info.source(u0, fid, src);
+ src:=cpu.get.formula.info.source(u0, fid, src, 16);
 # llog.printv(u0, S.formula.info.fid, fid);
 # llog.printo(u0, S.formula.info.src, 0, src,-1);
 };
