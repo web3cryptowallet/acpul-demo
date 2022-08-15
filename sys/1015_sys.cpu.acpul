@@ -141,7 +141,7 @@ cpu.get.formula.info.source
  io(_0, 500434, _1, _2, _3,   0);
 
 cpu.set.code
- # u0, id, code, mode
+ # u0, fid, code, mode
  # mode:
  #  0 - formula
  #  1 - shader
