@@ -11,6 +11,7 @@ _ @1010;
 _ @sys.media;
 _ @sys.node;
 _ @sys.display;
+ _ @sys.cpu;
 
 tex r8;
 texflip r9;
@@ -51,7 +52,6 @@ if (r0) {
  texflip:=node.ex.texture.create(u0, 768,1024);
  recording+=1;
 
- _ @sys.cpu;
  cpu.frame.dt(u0, 0.01);
 
  media.video.recorder.set.duration(u0, tex, nseconds); 
