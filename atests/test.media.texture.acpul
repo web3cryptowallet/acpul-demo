@@ -52,7 +52,7 @@ if (r0) {
  texflip:=node.ex.texture.create(u0, 768,1024);
  recording+=1;
 
- cpu.frame.dt(u0, 1/200);
+ cpu.frame.dt(u0, 1/120);
 
  media.video.recorder.set.duration(u0, tex, nseconds); 
 # media.video.recorder.set.duration(u0, tex, 120); 
