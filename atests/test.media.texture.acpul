@@ -52,7 +52,7 @@ if (r0) {
  recording+=1;
 
  _ @sys.cpu;
- cpu.frame.dt(u0, 0.01);
+ #cpu.frame.dt(u0, 0.01);
 
  media.video.recorder.set.duration(u0, tex, nseconds); 
 # media.video.recorder.set.duration(u0, tex, 120); 
