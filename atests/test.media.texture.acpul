@@ -70,7 +70,7 @@ STREAM.TWITCH.TIME 10000 *300;
 is.end if(STREAM.TWITCH, STREAM.TWITCH.TIME, nseconds) < t;
 
 if (is.end) {
- cpu.frame.dt(u0, -1);
+// cpu.frame.dt(u0, -1);
 
 #if (t > 60*60) {
 
