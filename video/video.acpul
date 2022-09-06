@@ -27,7 +27,7 @@ if (r0) {
 #tex.w := 320/2; tex.h := 240/2;
 #tex.w := 640/2; tex.h := 266/2;
 #tex.w := 640/2; tex.h := 360/2;
-tex.w := 1920/1; tex.h := 1080/1;
+tex.w := 1920/2; tex.h := 1080/2;
 #tex.w := 640; tex.h := 368;
 #640x360
 
@@ -172,7 +172,7 @@ if (r0) {
 # new.video(5500, 0, 4);
 # new.video(5500, 0, 6);
 # new.video(5500, 0, 7);
- new.video(5500, 0, 11);
+ new.video(5500, 0, 1);
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
