@@ -766,6 +766,7 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
+ kbd0 _0;
  node.z.to.front(u0, kbd0, 0);
 };
 
