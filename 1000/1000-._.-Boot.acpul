@@ -753,6 +753,7 @@ node.prop.visible.toggle
  s(_0,_1, if(g(_0,_1),0,1));
 
 display.keyboard.toggle {
+ # kbd
  kbd0 _0;
  if (kbd0) {
   node.prop.visible.toggle(u0, kbd0);
@@ -766,6 +767,7 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
+ # kbd
  kbd0 _0;
  node.z.to.front(u0, kbd0, 0);
 };
