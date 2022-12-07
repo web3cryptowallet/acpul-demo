@@ -760,7 +760,7 @@ display.keyboard.toggle {
   node.set.process.children(u0, kbd0, visible);
  };
  if (kbd0==0) {
-   kbd0:=node.new.this.ex4(u0, ide.keyboard, 0,0,0,0);
+   kbd0:=node.new.this.ex4(u0, os.keyboard, 0,0,0,0);
  };
 };
 
