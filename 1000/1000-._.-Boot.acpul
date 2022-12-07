@@ -518,7 +518,7 @@ os.metrics {
 
  step {
   display.scalled.size(vw,vh);
-  portrait.w:=min(vw*2,vh);
+  portrait.w:=min(vw/2,vh);
   portrait.h:=max(vw,vh);
  };
 
