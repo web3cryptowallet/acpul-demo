@@ -191,9 +191,9 @@ _ @sys.display;
 
 vw 768; vh 1024;
 
-#display.size;
-#vw:=o0;
-#vh:=o1;
+display.size;
+vw:=o0;
+vh:=o1;
 display.scalled.size(vw,vh);
 
 l0:=display.orientation.get() - display.orientation.landscape;         
