@@ -767,12 +767,20 @@ display.keyboard.toggle {
 };
 
 display.keyboard.update {
- # kbd
+ # kbd, mode
  kbd0 _0;
+ mode _1;
  node.z.to.front(u0, kbd0, 0);
 
+ kw node.prop.w.g(u0, kbd0);
+ kh node.prop.h.g(u0, kbd0);
+
  if (mode == 0) {
-  pos.x = screen.size
+  pos.x = metrics0.vw - kw;
+  pos.y = metrics0.vh / 2 - kh;
+
+  node.prop.x.s(u0, kbd0, pos.x);
+  node.prop.y.s(u0, kbd0, pos.y);
  };
 };
 
@@ -784,7 +792,7 @@ if (r0) {
 # };
 };
 
-display.keyboard.update(kbd0);
+display.keyboard.update(kbd0, 0);
 
 # KEYBOARD ]
 # HACKERNEWS [
