@@ -754,8 +754,9 @@ node.prop.visible.toggle
  s(_0,_1, if(g(_0,_1),0,1));
 
 display.keyboard.toggle {
- # kbd
+ # kbd, type
  kbd0 _0;
+ type0 _1;
  if (kbd0) {
   node.prop.visible.toggle(u0, kbd0);
   visible=node.prop.visible.g(u0, kbd0);
@@ -763,7 +764,7 @@ display.keyboard.toggle {
   node.set.process.children(u0, kbd0, visible);
  };
  if (kbd0==0) {
-   kbd0:=node.new.this.ex4(u0, os.keyboard, 0,0,0,0);
+   kbd0:=node.new.this.ex4(u0, os.keyboard, type0, 0,0,0);
  };
 };
 
