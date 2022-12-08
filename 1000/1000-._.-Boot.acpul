@@ -746,7 +746,8 @@ fly.box {
 
 _ @ide.common;
 
-kbd0 0;
+kbd0.awsd 0;
+kbd1.text 0;
 
 node.prop.visible.toggle 
 # u0, nid
@@ -799,7 +800,8 @@ if (r0) {
 # };
 };
 
-display.keyboard.update(kbd0, 1);
+display.keyboard.update(kbd0.awsd, 0);
+display.keyboard.update(kbd1.text, 1);
 
 # KEYBOARD ]
 # HACKERNEWS [
