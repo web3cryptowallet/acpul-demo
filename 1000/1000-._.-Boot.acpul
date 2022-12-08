@@ -798,16 +798,16 @@ display.keyboard.update {
 
 if (r0) {
   display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
-# if (SHOW.KEYBOARD==1) {
+ if (SHOW.KEYBOARD==1) {
   events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 0,0,0,0);
-# };
+ };
 };
 
 display.keyboard.update(kbd0.awsd, 0);
 display.keyboard.update(kbd1.text, 1);
 
 keyboard.switch {
- display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
+# display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
  display.keyboard.toggle(kbd1.text, keyboard.type.text);
 };
 
