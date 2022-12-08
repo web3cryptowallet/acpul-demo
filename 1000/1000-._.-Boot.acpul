@@ -784,7 +784,7 @@ display.keyboard.update {
  };
  if (mode == 1) {
   pos.x = (metrics0.vw - kw) / 2;
-  pos.y = kh;
+  pos.y = 0;
 
   node.prop.x.s(u0, kbd0, pos.x);
   node.prop.y.s(u0, kbd0, pos.y);
