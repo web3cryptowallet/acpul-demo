@@ -745,6 +745,7 @@ fly.box {
 # KEYBOARD [
 
 _ @ide.common;
+_ @keyboard.common;
 
 kbd0.awsd 0;
 kbd1.text 0;
@@ -805,8 +806,8 @@ display.keyboard.update(kbd0.awsd, 0);
 display.keyboard.update(kbd1.text, 1);
 
 keyboard.switch {
- display.keyboard.toggle(kbd0.awsd);
- display.keyboard.toggle(kbd1.text);
+ display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
+ display.keyboard.toggle(kbd1.text, keyboard.type.text);
 };
 
 # KEYBOARD ]
