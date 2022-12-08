@@ -799,7 +799,7 @@ if (r0) {
 # };
 };
 
-display.keyboard.update(kbd0, 0);
+display.keyboard.update(kbd0, 1);
 
 # KEYBOARD ]
 # HACKERNEWS [
