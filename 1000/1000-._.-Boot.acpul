@@ -782,6 +782,13 @@ display.keyboard.update {
   node.prop.x.s(u0, kbd0, pos.x);
   node.prop.y.s(u0, kbd0, pos.y);
  };
+ if (mode == 1) {
+  pos.x = (metrics0.vw - kw) / 2;
+  pos.y = metrics0.vh - kh;
+
+  node.prop.x.s(u0, kbd0, pos.x);
+  node.prop.y.s(u0, kbd0, pos.y);
+ };
 };
 
 #display.keyboard.toggle;
