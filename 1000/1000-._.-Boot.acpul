@@ -797,6 +797,7 @@ display.keyboard.update {
 #display.keyboard.toggle;
 
 if (r0) {
+  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
 # if (SHOW.KEYBOARD==1) {
   events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 0,0,0,0);
 # };
