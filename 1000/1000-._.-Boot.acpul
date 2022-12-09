@@ -758,15 +758,21 @@ display.keyboard.toggle {
  # kbd, type, mode
  kbd0 _0;
  type0 _1;
- if (kbd0) {
-  node.prop.visible.toggle(u0, kbd0);
-  visible=node.prop.visible.g(u0, kbd0);
-  node.set.running(u0, kbd0, visible);
-  node.set.process.children(u0, kbd0, visible);
- };
+ mode _2;
  if (kbd0==0) {
-   kbd0:=node.new.this.ex4(u0, os.keyboard, type0, 0,0,0);
+  kbd0:=node.new.this.ex4(u0, os.keyboard, type0, 0,0,0);
+  node.prop.visible.s(u0, 0);
  };
+
+ if (mode == -1) {
+  node.prop.visible.toggle(u0, kbd0);
+ };
+ if (mode >= 0) {
+  node.prop.visible.s(u0, if(mode,1,0));
+ }
+ visible=node.prop.visible.g(u0, kbd0);
+ node.set.running(u0, kbd0, visible);
+ node.set.process.children(u0, kbd0, visible);
 };
 
 display.keyboard.update {
