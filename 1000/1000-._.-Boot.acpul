@@ -116,7 +116,7 @@ _ device.screen;
 
 emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 
-emulate.dispaly(iphone8.w, iphone8.h, iphone8.scale*0+3, display.orientation.portrait);
+emulate.dispaly(iphone8.w, iphone8.h, iphone8.scale*0+2, display.orientation.portrait);
 #emulate.dispaly(iphone8.h, iphone8.w, iphone8.scale, display.orientation.landscape);
 
 # EMULATE DEVICE ]
