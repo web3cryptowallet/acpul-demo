@@ -102,6 +102,16 @@ r0:=0;
 
 _ @1010;
 _ @sys.node;
+_ @sys.cpu;
+_ @sys.display;
+
+iphone8.screen {w 750; h 1334; scale 2;};
+iphone8.plus.screen {w 1080; h 1920; scale 3;};
+
+emulate.device(cpu.device.type, cpu.device.model.iphone8, 0);
+
+emulate.dispaly()
+
 
 Boot.texture 1600;
 
