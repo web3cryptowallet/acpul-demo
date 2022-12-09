@@ -764,9 +764,9 @@ display.keyboard.toggle {
   node.prop.visible.s(u0, 0);
  };
 
-# if (mode == -1) {
+ if (mode == -1) {
   node.prop.visible.toggle(u0, kbd0);
-# };
+ };
 # if (mode >= 0) {
 #  node.prop.visible.s(u0, if(mode,1,0));
 # };
