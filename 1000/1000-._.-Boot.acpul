@@ -815,6 +815,7 @@ display.keyboard.update(kbd1.text, 1);
 
 keyboard.switch {
  # mode, kbd
+ # mode: -1 - toggle, 0 - off, 1 - on
  # kbd: 0 - default, 1 - awsd, 2 - texxt
  mode _0;
  kbd _1;
