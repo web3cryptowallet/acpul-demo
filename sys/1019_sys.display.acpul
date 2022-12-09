@@ -80,7 +80,7 @@ emulate.device
  io(u0, 500252, _0,_1, _2, 0);
 
 emulate.dispaly 
- # w,h, scale
- io(u0, 500253, _0,_1, _2, 0);
+ # w,h, scale, orientation
+ io(u0, 500253, _0,_1, _2, _3);
 
 # DEVICE EMULATOR ]
