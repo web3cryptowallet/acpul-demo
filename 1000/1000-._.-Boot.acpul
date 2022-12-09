@@ -816,7 +816,6 @@ keyboard.switch {
  # mode, kbd
  mode _0;
  kbd _1;
- mode 1;
 # display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
  display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
 };
