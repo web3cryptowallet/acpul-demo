@@ -823,7 +823,7 @@ keyboard.switch {
   display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
  };
  if (kbd == 1) {
-  display.keyboard.toggle(kbd1.awsd, keyboard.type.awsd, mode);
+  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, mode);
  };
  if (kbd == 2) {
   display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
