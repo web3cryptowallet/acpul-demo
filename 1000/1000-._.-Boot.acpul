@@ -755,7 +755,7 @@ node.prop.visible.toggle
  s(_0,_1, if(g(_0,_1),0,1));
 
 display.keyboard.toggle {
- # kbd, type
+ # kbd, type, mode
  kbd0 _0;
  type0 _1;
  if (kbd0) {
@@ -799,7 +799,7 @@ display.keyboard.update {
 if (r0) {
   display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
  if (SHOW.KEYBOARD==1) {
-  events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 0,0,0,0);
+  events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 1,0,0,0);
  };
 };
 
@@ -807,8 +807,11 @@ display.keyboard.update(kbd0.awsd, 0);
 display.keyboard.update(kbd1.text, 1);
 
 keyboard.switch {
+ # mode, kbd
+ mode _0;
+ kbd _1;
 # display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
- display.keyboard.toggle(kbd1.text, keyboard.type.text);
+ display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
 };
 
 # KEYBOARD ]
@@ -952,7 +955,11 @@ process.node.events {
    node.z.to.back(u0, apps0, 0);
   };
   if (_0==boot.event.toggle.keyboard) {
-   keyboard.switch;
+   # mode, kbd
+   #  mode: -1 - toggle, 0 - off, 1 - on
+   mode = o0;
+   kbd = o1;
+   keyboard.switch(mode, kbd);
   };
   if (_0==boot.event.toggle.hn) {
    toggle.hackernews;
