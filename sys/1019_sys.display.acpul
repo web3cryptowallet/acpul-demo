@@ -73,3 +73,14 @@ display.scalled.size {
  h:=o1*s;
 };
 
+# DEVICE EMULATOR [
+
+emulate.device
+ # type, major, minor
+ io(u0, 500252, _0,_1, _2, 0);
+
+emulate.dispaly 
+ # w,h, scale
+ io(u0, 500253, _0,_1, _2, 0);
+
+# DEVICE EMULATOR ]
