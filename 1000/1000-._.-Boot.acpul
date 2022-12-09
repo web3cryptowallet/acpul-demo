@@ -114,7 +114,7 @@ device.screen {
 
 _ device.screen;
 
-emulate.device(cpu.device.type, cpu.device.model.iphone8, 0);
+emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 
 emulate.dispaly(iphone8.w, iphone8.h, iphone8.scale);
 
