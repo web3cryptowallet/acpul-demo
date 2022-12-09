@@ -761,7 +761,7 @@ display.keyboard.toggle {
  mode _2;
  if (kbd0==0) {
   kbd0:=node.new.this.ex4(u0, os.keyboard, type0, 0,0,0);
-  node.prop.visible.s(u0, 0);
+  node.prop.visible.s(u0, kbd0, 0);
  };
 
 # if (mode == -1) {
