@@ -764,12 +764,12 @@ display.keyboard.toggle {
   node.prop.visible.s(u0, kbd0, 0);
  };
 
-# if (mode == -1) {
-#  node.prop.visible.toggle(u0, kbd0);
-# };
-# if (mode >= 0) {
-#  node.prop.visible.s(u0, if(mode,1,0));
-# };
+ if (mode == -1) {
+  node.prop.visible.toggle(u0, kbd0);
+ };
+ if (mode >= 0) {
+  node.prop.visible.s(u0, if(mode,1,0));
+ };
  visible=node.prop.visible.g(u0, kbd0);
  node.set.running(u0, kbd0, visible);
  node.set.process.children(u0, kbd0, visible);
