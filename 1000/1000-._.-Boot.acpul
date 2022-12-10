@@ -167,7 +167,7 @@ iphone iphone7.plus;
 #iphone iphone10.xs;
 #iphone iphone10.xs.max;
 t+=dt;
-emulate.dispaly(iphone.w+sin(t)*10, iphone.h, iphone.scale, display.orientation.portrait);
+emulate.dispaly(iphone.w+sin(t)*100, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 s:=1;
 #s:=0.7;
