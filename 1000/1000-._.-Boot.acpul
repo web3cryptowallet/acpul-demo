@@ -144,7 +144,7 @@ _ device.screen;
 emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 
 iphone iphone7;
-iphone iphone7.plus;
+#iphone iphone7.plus;
 
 #iphone iphone8;
 #iphone iphone14;
