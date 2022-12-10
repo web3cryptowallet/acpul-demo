@@ -155,9 +155,10 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 #iphone iphone12.mini;
 #iphone iphone12.pro;
 #iphone iphone12.pro.max;
-iphone iphone11;
+#iphone iphone11;
 #iphone iphone11.pro;
 #iphone iphone11.pro.max;
+iphone iphone.x;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
