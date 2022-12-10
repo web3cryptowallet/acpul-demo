@@ -162,7 +162,7 @@ s:=0.7;
 
 Boot.texture 1600;
 
-#node.new.this.ex(r0, Boot.texture, 0);
+node.new.this.ex(r0, Boot.texture, 0);
 
 w:=iphone.w;
 h:=iphone.h;
