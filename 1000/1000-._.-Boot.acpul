@@ -110,7 +110,9 @@ _ @sys.display;
 device.screen {
  iphone8 {w 750; h 1334; scale 2;};
  iphone8.plus {w 1080; h 1920; scale 3;};
+ iphone14. {w 1170; h 2532; scale 3;};
  iphone14.plus {w 1284; h 2778; scale 3;};
+ iphone14.pro {w 1179; h 2556; scale 3;};
  iphone14.pro.max {w 1290; h 2796; scale 3;};
 };
 
