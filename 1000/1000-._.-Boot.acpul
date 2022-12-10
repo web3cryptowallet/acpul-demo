@@ -165,7 +165,7 @@ Boot.texture 1600;
 node.new.this.ex(r0, Boot.texture, 0);
 
 w:=iphone.w;
-h:=iphone.h*iphone.scale;
+h:=iphone.h/iphone.scale;
 draw(r0, 900);
 #s:=1.08;
 
