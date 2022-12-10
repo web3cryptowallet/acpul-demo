@@ -111,6 +111,15 @@ device.screen {
  iphone8 {w 750; h 1334; scale 2;};
  iphone8.plus {w 1080; h 1920; scale 3;};
 
+ iphone11 {w 828; h 1792; scale 2;};
+ iphone11.pro {w 1125; h 2436; scale 2;};
+ iphone11.pro.max {w 1242; h 2688; scale 2;};
+
+ iphone12 {w 1170; h 2532; scale 3;};
+ iphone12.mini {w 1080; h 2340; scale 3;};
+ iphone12.pro {w 1170; h 2532; scale 3;};
+ iphone12.pro.max {w 1284; h 2778; scale 3;};
+
  iphone13 {w 1170; h 2532; scale 3;};
  iphone13.mini {w 1080; h 2340; scale 3;};
  iphone13.pro {w 1170; h 2532; scale 3;};
