@@ -122,6 +122,7 @@ iphone iphone8;
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone8.h, iphone8.w, iphone8.scale, display.orientation.landscape);
 
+
 # EMULATE DEVICE ]
 
 Boot.texture 1600;
