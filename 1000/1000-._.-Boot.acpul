@@ -108,6 +108,9 @@ _ @sys.display;
 # EMULATE DEVICE [
 
 device.screen {
+ iphone7 {w 750; h 1334; scale 2;};
+ iphone7.plus {w 1080; h 1920; scale 3;};
+
  iphone8 {w 750; h 1334; scale 2;};
  iphone8.plus {w 1080; h 1920; scale 3;};
 
@@ -140,6 +143,8 @@ _ device.screen;
 
 emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 
+iphone iphone7;
+
 #iphone iphone8;
 #iphone iphone14;
 #iphone iphone14.plus;
@@ -157,9 +162,9 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 #iphone iphone11.pro;
 #iphone iphone11.pro.max;
 #iphone iphone10.x;
-iphone iphone10.xr;
-iphone iphone10.xs;
-iphone iphone10.xs.max;
+#iphone iphone10.xr;
+#iphone iphone10.xs;
+#iphone iphone10.xs.max;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
