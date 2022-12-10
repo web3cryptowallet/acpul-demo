@@ -161,7 +161,7 @@ iphone iphone11.pro.max;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone8.h, iphone8.w, iphone8.scale, display.orientation.landscape);
-s:=0.7;
+s:=0.17;
 
 # EMULATE DEVICE ]
 
