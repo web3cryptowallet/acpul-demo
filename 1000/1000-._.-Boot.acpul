@@ -159,7 +159,7 @@ iphone iphone11;
 #iphone iphone11.pro;
 #iphone iphone11.pro.max;
 
-#emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
+emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 s:=0.5;
 
