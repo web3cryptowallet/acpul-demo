@@ -164,7 +164,7 @@ iphone iphone8;
 iphone iphone11.pro.max;
 #iphone iphone10;
 #iphone iphone10.xr;
-iphone iphone10.xs;
+#iphone iphone10.xs;
 #iphone iphone10.xs.max;
 
 
@@ -185,7 +185,7 @@ if(iphone.h > h1) {
 };
 
 #s:=h1/(iphone.h*iphone.scale);
-#s:=h1/iphone.h;
+s:=h1/iphone.h;
 
 #s:=if(iphone.scale==2,0.5,s);
 
