@@ -165,7 +165,7 @@ iphone iphone11.pro.max;
 #iphone iphone10;
 #iphone iphone10.xr;
 #iphone iphone10.xs;
-iphone iphone10.xs.max;
+#iphone iphone10.xs.max;
 
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
@@ -184,8 +184,8 @@ if(iphone.h > h1) {
  s:=0.35;
 };
 
-#s:=h1/(iphone.h*iphone.scale);
-s:=h1/iphone.h;
+s:=h1/(iphone.h*iphone.scale);
+#s:=h1/iphone.h;
 
 #s:=if(iphone.scale==2,0.5,s);
 
