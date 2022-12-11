@@ -174,7 +174,7 @@ emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 _ @sys.display;
 #display.scaled.size();
 display.size();
-h1=o0/3*2;#*display.scale;
+h1=o0/2*3;#*display.scale;
 
 #s:=1;
 s:=0.7;
