@@ -604,7 +604,7 @@ os.metrics {
  };
 
 
-step;
+
 
  panel {
   w portrait.w;
