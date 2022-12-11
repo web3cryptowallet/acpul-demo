@@ -164,7 +164,7 @@ iphone iphone7;
 #iphone iphone11.pro.max;
 #iphone iphone10.x;
 #iphone iphone10.xr;
-iphone iphone10.xs;
+#iphone iphone10.xs;
 #siphone iphone10.xs.max;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
