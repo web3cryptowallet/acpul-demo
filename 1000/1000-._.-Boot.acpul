@@ -594,7 +594,7 @@ os.metrics {
  _ @sys.display;
 
  vw 768; vh 1024;
- portrait.w 768;
+ portrait.w 768*2;
  portrait.h 1024;
 
  step {
