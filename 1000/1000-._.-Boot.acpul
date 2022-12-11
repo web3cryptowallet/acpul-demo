@@ -604,6 +604,8 @@ os.metrics {
  };
 
 
+step;
+
  panel {
   w portrait.w;
   h 100;
