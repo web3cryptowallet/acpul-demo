@@ -650,9 +650,6 @@ os.metrics.step;
 
 metrics0 os.metrics;
 
-#_ @4;
-#ee0 0;ui.value1(ee0,0,0,0.5,metrics0.vw);
-#ee0 0;ui.value1(ee0,0,50,0.5,metrics0.vh);
 
 # METRICS ]
 # UI ORIENTATION [
@@ -1242,3 +1239,7 @@ if (touchnid0) {
 # node.prop.z.order.s(r0, touchnid0, 100000);
 };
 
+
+_ @4;
+ee0 0;ui.value1(ee0,0,0,0.5,metrics0.vw);
+ee0 0;ui.value1(ee0,0,50,0.5,metrics0.vh);
