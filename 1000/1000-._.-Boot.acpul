@@ -172,8 +172,8 @@ emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
 _ @sys.display;
-#display.scaled.size();
-display.size();
+display.scaled.size();
+#display.size();
 h1=o0;
 
 #s:=1;
@@ -184,8 +184,8 @@ if(iphone.h > h1) {
  s:=0.35;
 };
 
-s:=h1/(iphone.h*iphone.scale);
-#s:=h1/iphone.h;
+#s:=h1/(iphone.h*iphone.scale);
+s:=h1/iphone.h;
 
 #s:=if(iphone.scale==2,0.5,s);
 
