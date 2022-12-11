@@ -184,8 +184,8 @@ if(iphone.h > h1) {
  s:=0.35;
 };
 
-#s:=h1/(iphone.h*iphone.scale);
-s:=h1/iphone.h;
+s:=h1/(iphone.h*iphone.scale);
+#s:=h1/iphone.h;
 
 #s:=if(iphone.scale==2,0.5,s);
 
