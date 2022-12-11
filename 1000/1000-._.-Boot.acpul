@@ -151,7 +151,7 @@ iphone iphone7.plus;
 #iphone iphone14.plus;
 #iphone iphone14.pro;
 #iphone iphone14.pro.max;
-iphone iphone13;
+#iphone iphone13;
 #iphone iphone13.mini;
 #iphone iphone13.pro;
 #iphone iphone13.pro.max;
@@ -172,8 +172,9 @@ emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 
 #s:=1;
 #s:=0.7;
-s:=0.5;
+#s:=0.5;
 #s:=0.3;
+s:=if(iphone.scale==2,0.5,s);
 
 #s:=if(iphone.h>)
 
