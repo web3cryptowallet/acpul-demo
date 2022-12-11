@@ -174,7 +174,10 @@ emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 s:=0.7;
 #s:=0.5;
 #s:=0.3;
-s:=if(iphone.scale==2,0.5,s);
+if(iphone.scale==2) {
+ s:=0.5;
+};
+#s:=if(iphone.scale==2,0.5,s);
 
 #s:=if(iphone.h>)
 
