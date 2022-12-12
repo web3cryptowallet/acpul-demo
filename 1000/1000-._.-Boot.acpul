@@ -146,9 +146,9 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 iphone iphone7;
 #iphone iphone7.plus;
 
-iphone iphone8;
+#iphone iphone8;
 #iphone iphone14;
-#iphone iphone14.plus;
+iphone iphone14.plus;
 #iphone iphone14.pro;
 #iphone iphone14.pro.max;
 #iphone iphone13;
