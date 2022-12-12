@@ -139,10 +139,10 @@ device.screen {
  iphone14.pro.max {w 1290; h 2796; scale 3;};
 
  ipad.pro3.s12 {w 2048; h 2732; scale 2;}; # 12.9
- ipad.pro3.s11 {w 10.5; h 2224; scale 2;}; # 11
+ ipad.pro3.s11 {w 1668; h 2224; scale 2;}; # 11
    
  ipad.pro2.s12 {w 2048; h 2732; scale 2;}; # 12.9
- ipad.pro2.s10 {w 10.5; h 2224; scale 2;}; # 10.5
+ ipad.pro2.s10 {w 1668; h 2224; scale 2;}; # 10.5
 };
 
 emulation {
