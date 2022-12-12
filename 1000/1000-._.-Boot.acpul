@@ -137,7 +137,11 @@ device.screen {
  iphone14.plus {w 1284; h 2778; scale 3;};
  iphone14.pro {w 1179; h 2556; scale 3;};
  iphone14.pro.max {w 1290; h 2796; scale 3;};
+
+ ipad 
 };
+
+emulation {
 
 _ device.screen;
 
@@ -168,7 +172,6 @@ iphone iphone7;
 #iphone iphone10.xs.max;
 
 
-emulation {
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
