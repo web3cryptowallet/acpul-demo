@@ -149,7 +149,7 @@ emulation {
 _ device.screen;
 
 emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
-emulate.device(cpu.device.type.ipad, cpu.device.model.ipad.pro, 0);
+#emulate.device(cpu.device.type.ipad, cpu.device.model.ipad.pro, 0);
 
 iphone iphone7;
 #iphone iphone7.plus;
@@ -175,7 +175,7 @@ iphone iphone7;
 #iphone iphone10.xs;
 #iphone iphone10.xs.max;
 
-iphone ipad.pro2.s10;
+#iphone ipad.pro2.s10;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
