@@ -156,8 +156,8 @@ iphone iphone7;
 
 #iphone iphone8;
 #iphone iphone14;
-iphone iphone14.plus;
-#iphone iphone14.pro;
+#iphone iphone14.plus;
+iphone iphone14.pro;
 #iphone iphone14.pro.max;
 #iphone iphone13;
 #iphone iphone13.mini;
