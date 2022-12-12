@@ -200,7 +200,7 @@ s:=h1/iphone.h-0.1;
 t+=dt;
 
 };
-emulation;
+#emulation;
 
 
 # EMULATE DEVICE ]
