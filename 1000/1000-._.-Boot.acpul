@@ -144,7 +144,7 @@ _ device.screen;
 emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 
 iphone iphone7;
-iphone iphone7.plus;
+#iphone iphone7.plus;
 
 #iphone iphone8;
 #iphone iphone14;
@@ -168,8 +168,8 @@ iphone iphone7.plus;
 #iphone iphone10.xs.max;
 
 
-#emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
-emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
+emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
+#emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
 _ @sys.display;
 #display.scaled.size();
