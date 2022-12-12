@@ -168,6 +168,7 @@ iphone iphone7;
 #iphone iphone10.xs.max;
 
 
+emulation {
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
@@ -187,12 +188,13 @@ if(iphone.h > h1) {
 #s:=h1/(iphone.h*iphone.scale);
 s:=h1/iphone.h-0.1;
 
-#s:=if(iphone.scale==2,0.5,s);
-
-#s:=if(iphone.h>)
+#s:=if(iphone.scale==2,0.5,s); # crash exprtk
 
 t+=dt;
-#emulate.dispaly(iphone.w+sin(t)*400, iphone.h, iphone.scale, display.orientation.portrait);
+
+};
+emulation;
+
 
 # EMULATE DEVICE ]
 
