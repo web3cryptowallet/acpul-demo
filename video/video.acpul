@@ -175,7 +175,7 @@ if (r0) {
 # new.video(5500, 0, 7);
 # new.video(5500, 0, 23); # low
 # new.video(5500, 0, 21); # high
- new.video(5500, 1, 1); # high
+ new.video(5500, 1, 2); # high
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
