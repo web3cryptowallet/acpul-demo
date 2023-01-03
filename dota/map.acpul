@@ -16,7 +16,7 @@ heroes obj.players.heroes;
 
 team obj.teams.green;
 
-nodenew node.new.this.ex8;
+nodenew node.new.this.ex8(__);
 
 l1:=OBJECT;
 l2:=r0;
