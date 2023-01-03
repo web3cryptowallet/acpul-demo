@@ -17,8 +17,6 @@
 # 3234,3235 *Unit::Complex
 # 3236,3237 - Crystal.Effect
 
-r0:=k==0;
-
 draw(r0, 3203);
 
 _ @3200;
@@ -61,7 +59,6 @@ box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
 
 # PHYSICS ]
 
-k:=1;
 
 ### 3203 Dota::Main.draw
 
