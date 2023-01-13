@@ -2,7 +2,7 @@
 
 # https://github.com/DavidGerva/LockTab-Sublime-Plugin
 
-UI.MODE -; #if(rnd(r10+125345)>0.5,1,0); #u12;
+UI.MODE 0; #if(rnd(r10+125345)>0.5,1,0); #u12;
 
 SHOW.AVATARS0 0;
 
