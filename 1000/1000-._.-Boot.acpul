@@ -68,8 +68,8 @@ TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 #TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
 
 #TRACK.SET music.set.track(r0, 1, 2, 32); # Moby
-#TRACK.SET music.set.track(r0, 1, 2, 36); # 
-TRACK.SET music.set.track(r0, 1, 2, 33); # 
+TRACK.SET music.set.track(r0, 1, 2, 36); # 
+#TRACK.SET music.set.track(r0, 1, 2, 33); # 
 
 TRACK.PLAY music.play(r0, 1, 0, 1); 
 #TRACK.STOP 0;
