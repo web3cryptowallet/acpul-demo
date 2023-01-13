@@ -50,12 +50,12 @@ TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 #TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
 #TRACK.PLAY music.play(r0, 1, 60, 1);
 
-#TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
+TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 
 #TRACK.SET music.set.track(r0, 1, 2, 24); # Space1
 #TRACK.SET music.set.track(r0, 1, 2, 25); # Space2
-TRACK.SET music.set.track(r0, 1, 2, 26); # Space3
+#TRACK.SET music.set.track(r0, 1, 2, 26); # Space3
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 
 #TRACK.SET music.set.track(r0, 1, 3, 43); # serious sam
