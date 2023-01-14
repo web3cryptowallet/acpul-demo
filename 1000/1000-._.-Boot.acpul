@@ -73,7 +73,6 @@ TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
 
 TRACK.PLAY music.play(r0, 1, 0, 1); 
 #TRACK.STOP 0;
-
 VIDEO.REC.SECONDS 15;
 #VIDEO.REC.SECONDS 30;
 STREAM.TWITCH 0;
