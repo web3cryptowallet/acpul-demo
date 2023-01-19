@@ -659,6 +659,7 @@ os.metrics {
   h 400;
  };
  ide.portrait {
+  s 0.8;
   x 0;
   y panel.portrait.y-ide.h;
   w ide.w;
