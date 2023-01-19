@@ -659,9 +659,10 @@ os.metrics {
   h 400;
  };
  ide.portrait {
-  s 0.97;
+#  s 0.97;
+#  y panel.portrait.y-ide.h + ((1 - s) * ide.h);
   x 0;
-  y panel.portrait.y-ide.h + ((1 - s) * ide.h);
+  y panel.portrait.y-ide.h;
   w ide.w;
   h ide.h;
  };
