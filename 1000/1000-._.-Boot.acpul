@@ -684,7 +684,7 @@ metrics0 os.metrics;
 
 if (display.is.portrait) {
  m metrics0;
- node.prop.s.s(u0, ide0, 0.5);
+ node.prop.s.s(u0, ide0, 1);
  node.prop.x.s(u0, ide0, 0);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
  node.prop.s.s(u0, panel0, 1);
