@@ -919,12 +919,10 @@ display.keyboard.update {
 #display.keyboard.toggle;
 
 if (r0) {
- if (SHOW.KEYBOARD) {
 #  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, 1);
   events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 1,1,0,0);
  if (SHOW.KEYBOARD==1) {
   events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 1,0,0,0);
- };
  };
 };
 
