@@ -85,11 +85,11 @@ point.now.x r5;
 point.now.y r6;
 pressed r7;
 
-point.now.update
-# x,y
-{
+point.now.update {
+ # x,y
+
 # a l1;
- b l2;
+# b l2;
  c l3;
  aa l4;
  bb l5;
@@ -97,7 +97,7 @@ point.now.update
  ob l7;
 
  a = _0-point.start.x;
- b:=_1-point.start.y;
+ b = _1-point.start.y;
  
  a:=if(a==0,if(b==0,0.01,a),a); # prevent nan
 
