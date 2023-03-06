@@ -119,6 +119,7 @@ radius 100;
 };
 
 # touch.ev [
+
 touch.ev {
  began {
   # x, y
@@ -140,8 +141,8 @@ touch.ev {
   pressed:=0;
  };
 };
-# touch.ev ]
 
+# touch.ev ]
 # touch process [
 
 fullscreen.width 768;
