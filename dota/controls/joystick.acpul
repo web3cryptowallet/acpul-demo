@@ -191,6 +191,8 @@ psize1(1);
 color(u0, 0.5, 0.3, 0.0, 0.5);
 rect(u0, 2, px,py, w,h);
 
+rect(u0, 6, 0,0,100,100);
+
 if (p.pressed)
 {
  circle(u0, 6, px+p.point.start.x, py+p.point.start.y, p.radius, 0, 30, 0);
