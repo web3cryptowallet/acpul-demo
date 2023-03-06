@@ -14,9 +14,8 @@ _ @sys.touch;
 _ @3200;
 
 # sys.memclear [
-memclear
+memclear {
 # b0, a:o,size
-{
  _0:=0;
  while(_0<_3)
  {
