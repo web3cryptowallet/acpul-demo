@@ -121,7 +121,7 @@ radius 100;
 # touch.ev [
 touch.ev {
  began {
- # x, y
+  # x, y
   point.start.x:=_0; #if(_0<x, x, _0);
   point.start.y:=_1; #if(_1<y, y, _1);
 #  point.now.x:=_0;
@@ -130,13 +130,13 @@ touch.ev {
   pressed:=1;
  };
  moved {
- # x, y
+  # x, y
 #  point.now.x:=_0;
 #  point.now.y:=_1;
   point.now.update(_0, _1);
  };
  ended {
- # x, y
+  # x, y
   pressed:=0;
  };
 };
