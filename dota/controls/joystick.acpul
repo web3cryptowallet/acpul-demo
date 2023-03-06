@@ -167,8 +167,8 @@ q
  d if(pressed, fullscreen.height, h);
 };
 
-touch.id r1;
-touch.b0 r2;
+touch.id 0;
+touch.b0 0;
 touch.rect(touch.id, q.a,q.b,q.c,q.d);
 _ @sys.touch.ev.process.once;
 touch.b0:=1;
