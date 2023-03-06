@@ -17,8 +17,7 @@ _ @3200;
 memclear {
 # b0, a:o,size
  _0:=0;
- while(_0<_3)
- {
+ while(_0<_3) {
   set(u0, _1, _2+_0, 0);
   _0+=1;
  };
@@ -32,18 +31,15 @@ context.d.a gnet.mem.wr.a;
 # context -> gnet.mem.wr ]
 
 
-context.def.controls 
-{
+context.def.controls {
  # 2 bytes reserved for simulate test
  i 2;
- dir 
- {
+ dir {
   x i+0;
   y i+1;
  };
 };
-context
-{
+context {
  _;
  dd context.def;
  S {set(u0, d.a,_0, _1);};
@@ -57,12 +53,10 @@ context
 
 # controls [
 
-if (gnet.wr)
-{
+if (gnet.wr) {
  memclear(l0, gnet.mem.wr.a,0, gnet.mem.wr.size);
  
- if (pressed)
- {
+ if (pressed) {
   direction.vector.set(dir.x, dir.y);
  };
 };
@@ -71,8 +65,7 @@ if (gnet.wr)
 dir.x l10;
 dir.y l11;
 
-direction.vector.set
-{
+direction.vector.set {
  dir.x:=_0;
  dir.y:=_1;
  context.dir.x.set(_0);
