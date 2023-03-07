@@ -2,9 +2,25 @@
 
 hero.bobann 3242;
 
+hero.weapon.mage 3260;
+
+### 3260 hero.weapon.mage
+
+draw(r0, 3243);
+
+s:=0.15;
+
+t+=dt;
+
+### 3261 hero.weapon.mage.draw
+
+
+
 ### 3242 hero.bobann
 
 draw(r0, 3243);
+
+node.new.this.ex(r0, hero.weapon.mage, 0);
 
 s:=0.15;
 
