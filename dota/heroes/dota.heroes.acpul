@@ -175,7 +175,7 @@ head.x 0;
 head.y y0+100;
 
 body.x 0;
-body.y 20;
+body.y y0+20;
 
 body(body.x,body.y);
 head(head.x,head.y+sin(t*2)*5);
