@@ -17,6 +17,9 @@
 # 3234,3235 *Unit::Complex
 # 3236,3237 - Crystal.Effect
 
+# 3240 - heroes
+# 3242 - hero bobann
+
 
 draw(r0, 3203);
 
