@@ -19,7 +19,7 @@ head {
  color(u0, 1,0.4,0,1);
  rect(u0, 6, x,y,q*100,q*70);
 
- eyes(x,y+q*60);
+ eyes(x,y+q*50);
 
  mouth(x,y);
 };
