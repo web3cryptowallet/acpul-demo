@@ -12,15 +12,12 @@ t+=dt;
 
 ### 3261 hero.weapon.mage.draw
 
+# body
+
 color(u0, 1,0.8,0.3,1);
 rect(u0, 6, 0,0,10,100);
 
-color(u0, 1,1,0,1);
-circle(u0, 6, 5,90, 15, 0, 10, 0);
-
-t1 t*2;
-color(u0, sin(t1*0.5)*0.5+0.5,sin(t1*0.3+0.5)*0.5+0.5,sin(t1*0.2+0.1)*0.5+1,1);
-circle(u0, 6, 5,90, 10+2*sin(t1), 0, 10, 0);
+# tail
 
 x 5;
 y 100;
@@ -29,6 +26,15 @@ h 50;
 color(u0, 1,0.5,0,1);
 triangle(u0, 6, x,y, x+w/2,y+h/3, x,y+h);
 triangle(u0, 6, x,y, x-w/2,y+h/3, x,y+h);
+
+# circle
+
+color(u0, 1,1,0,1);
+circle(u0, 6, 5,90, 15, 0, 10, 0);
+
+t1 t*2;
+color(u0, sin(t1*0.5)*0.5+0.5,sin(t1*0.3+0.5)*0.5+0.5,sin(t1*0.2+0.1)*0.5+1,1);
+circle(u0, 6, 5,90, 10+2*sin(t1), 0, 10, 0);
 
 
 #rect(u0, 6, 0,0,10,100);
