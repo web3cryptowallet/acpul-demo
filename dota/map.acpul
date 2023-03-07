@@ -34,7 +34,7 @@ nodenew(r0, OBJECT, ot.unit, 90,50, team, ost.player, 2,heroes.santa,0);
 nodenew(r0, OBJECT, ot.unit, 50,30, team, ost.player, 3,heroes.angel,0);
 nodenew(r0, OBJECT, ot.unit, 70,30, team, ost.player, 4,heroes.cat,0);
 
-#node.new.this.ex4(r0, OBJECT, ot.unit, 120,200, obj.teams.sys);
+node.new.this.ex4(r0, OBJECT, ot.unit, 120,200, obj.teams.sys);
 
 s:=2;
 
