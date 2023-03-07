@@ -59,7 +59,7 @@ if (r0) {
 
 node.prop.x.s(u0, wp0,80);
 node.prop.y.s(u0, wp0,150);
-node.prop.r.s(u0, wp0,10+sin(t)*50);
+node.prop.r.s(u0, wp0,10+sin(t)*5);
 
 s:=0.15;
 
