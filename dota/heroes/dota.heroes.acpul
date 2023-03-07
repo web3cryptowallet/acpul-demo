@@ -6,6 +6,8 @@ hero.bobann 3242;
 
 draw(r0, 3243);
 
+s:=0.2;
+
 t+=dt;
 
 ### 3243 hero.bobann.draw
