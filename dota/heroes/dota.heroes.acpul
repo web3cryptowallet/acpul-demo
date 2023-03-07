@@ -58,7 +58,7 @@ if (r0) {
 };
 
 node.prop.x.s(u0, wp0,10);
-node.prop.y.s(u0, wp0,100);
+node.prop.y.s(u0, wp0,150);
 
 s:=0.15;
 
