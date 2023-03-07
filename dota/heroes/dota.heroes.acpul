@@ -20,7 +20,7 @@ head {
 };
 
 eyes {
- color(u0, 1,1,0,1);
+ color(u0, 1,6,0,1);
  
  y0 q*60;
 
