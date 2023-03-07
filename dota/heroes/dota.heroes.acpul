@@ -27,6 +27,7 @@ y 100;
 w 10;
 h 50;
 triangle(u0, 6, x,y, x+w/2,y+h/3, x,y+h);
+triangle(u0, 6, x,y, x-w/2,y+h/3, x,y+h);
 
 
 #rect(u0, 6, 0,0,10,100);
