@@ -27,29 +27,26 @@
 
 
 # types [
-types
-{
+types {
  map 0;
  unit 1;
  shot 2;
  joystick 3;
 };
-teams
-{
+
+teams {
  sys 0;
  green 1;
  blue 2;
 };
-subtypes
-{
+
+subtypes {
  none 0;
  bot 1;
  player 2;
 };
-bots
-{
- types
- {
+bots {
+ types {
   robot 0;
   tower 1;
   homebase 2;
@@ -57,10 +54,8 @@ bots
   homehealth 4;
  };
 };
-players
-{
- heroes
- {
+players {
+ heroes {
   debug 0;
   cat 1;
   santa 2;
