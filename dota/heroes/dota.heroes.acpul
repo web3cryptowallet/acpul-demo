@@ -132,7 +132,6 @@ hand.r {
 };
 
 leg.r {
-  hand.r {
  # x,y
  x _0; y _1;
  
