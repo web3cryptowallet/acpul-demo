@@ -51,7 +51,13 @@ draw(r0, 3243);
 _ @sys.node;
 _ @dota.heroes;
 
-node.new.this.ex(r0, hero.weapon.mage, 0);
+wp0 0;
+
+if (r0) {
+ wp0:=node.new.this.ex(r0, hero.weapon.mage, 0);
+};
+
+node.prop.x.s(u0, wp0,0);
 
 s:=0.15;
 
