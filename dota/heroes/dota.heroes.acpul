@@ -75,7 +75,7 @@ head {
  x0 100;
  point4(u0, 6, x0,y0, x0,y0+h0, x0-w0,y0+h0-10, x0-w0,y0-10);
 
-hair(head.x,head.y+head.h);
+hair(0,0+head.h);
 };
 
 mouth {
