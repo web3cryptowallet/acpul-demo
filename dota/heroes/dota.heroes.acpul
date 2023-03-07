@@ -42,7 +42,7 @@ hair {
  h 50;
  triangle(u0, 6, x,y, x+w/2,y+h, x+w,y+h/3);
  triangle(u0, 6, x,y, x+w/2-10,y+h/2, x+w-20,y+h/4);
- triangle(u0, 6, x,y, x+w/25,y+h*1.7, x+w-8,y+h/4);
+ triangle(u0, 6, x,y, x+w/2,y+h*1.7, x+w-8,y+h/4);
 
 };
 
