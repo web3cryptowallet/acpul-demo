@@ -15,7 +15,7 @@ t+=dt;
 ### 3261 hero.weapon.mage.draw
 
 color(u0, 1,0.4,0,1);
-rect(u0, 6, x,y,100,70);
+rect(u0, 6, 0,0,100,70);
 
 ### 3242 hero.bobann
 
