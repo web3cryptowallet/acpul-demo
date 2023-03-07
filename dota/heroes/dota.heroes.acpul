@@ -19,7 +19,6 @@ rect(u0, 6, 0,0,100,70);
 
 draw(r0, 3243);
 
-
 _ @sys.node;
 _ @dota.heroes;
 
