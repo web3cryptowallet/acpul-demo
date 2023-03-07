@@ -21,7 +21,7 @@ head {
 
  eyes(x,y+q*50);
 
- mouth(x+q*50,y+q*10);
+ mouth(x+q*50,y+q*30);
 };
 
 mouth {
