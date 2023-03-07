@@ -27,9 +27,11 @@ if (r0) { #hack!
   node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
  };
  if (subtype==ost.player) {
-#  node.new.this.ex(r0, UNIT.ROBOT, player.id);
+  a = rnd(u0)<0.5;
+  b = 1-a;
+  node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
 
-  node.new.this.ex(r0, hero.bobann, player.id);
+  node.new.this.ex(r0*b, hero.bobann, player.id);
  };
 
 };
