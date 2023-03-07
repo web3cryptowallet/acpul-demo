@@ -35,12 +35,13 @@ mouth {
 # y2 y0+0;
 # triangle(u0, 6, x0,y0, x1,y1, x2,y2);
  w0 40;
+ h0 50;
  x0 x-w0/2;
  y0 y;
  color(u0, 1,0,0,1);
- triangle(u0, 6, x0,y0, x0+w0/2,y0+8, x0+w0,y0);
+ triangle(u0, 6, x0,y0, x0+w0/2,y0+h0, x0+w0,y0);
  color(u0, 1,0.2,0,1);
- triangle(u0, 6, x0,y0, x0+w0/2,y0-8, x0+w0,y0);
+ triangle(u0, 6, x0,y0, x0+w0/2,y0-h0, x0+w0,y0);
 };
 
 eyes {
