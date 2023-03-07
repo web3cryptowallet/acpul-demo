@@ -149,3 +149,4 @@ body(body.x,body.y);
 head(head.x,head.y+sin(t*2)*5);
 
 hand.l(body.x,body.y+50);
+hand.r(body.x,body.y+40);
