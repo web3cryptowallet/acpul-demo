@@ -50,6 +50,6 @@ hand.r {
 };
 
 head.x 0;
-head.y 100
+head.y 100;
 
 head(head.x,head.y);
