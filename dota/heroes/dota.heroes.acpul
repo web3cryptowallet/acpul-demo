@@ -32,6 +32,22 @@ t+=dt;
 q 1;
 
 
+hair {
+ # x,y
+ x _0; y _1;
+
+ x0 x;
+ y0 y;
+ w0 10;
+ triangle(u0, 6, x0,y0, x0+w0/2,y0+h0, x0+w0,y0);
+
+};
+
+hat {
+  
+};
+
+
 head {
  # x,y
  x _0; y _1;
@@ -58,6 +74,8 @@ head {
  point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0-10, x0+w0,y0-10);
  x0 100;
  point4(u0, 6, x0,y0, x0,y0+h0, x0-w0,y0+h0-10, x0-w0,y0-10);
+
+hair(head.x,head.y+head.h);
 };
 
 mouth {
@@ -186,21 +204,6 @@ leg.l {
  rect(u0, 6, x0+50, y0, w0,q*h0*0.2);
 };
 
-hair {
- # x,y
- x _0; y _1;
-
- x0 x;
- y0 y;
- w0 10;
- triangle(u0, 6, x0,y0, x0+w0/2,y0+h0, x0+w0,y0);
-
-};
-
-hat {
-  
-};
-
 y00 120;
 
 head.x 0;
@@ -219,4 +222,3 @@ hand.r(body.x,body.y+60);
 leg.l(body.x+sin(t*5)*3,body.y-cos(t*5)*3+3);
 leg.r(body.x+sin(t*5)*0.5,body.y-cos(t*5+pi/2)*3+3);
 
-hair(head.x,head.y+head.h);
