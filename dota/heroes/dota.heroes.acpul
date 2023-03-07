@@ -88,18 +88,41 @@ eyes {
 };
 
 body {
- 
+ # x,y
+ x _0; y _1;
+
+ x0 x;
+ y0 y;
+ color(u0, 1,1,0,1);
+ rect(u0, 6, x0+q*20,y0, q*20,q*10);
+
 };
 
 hand.l {
+ # x,y
+ x _0; y _1;
  
 };
 
 hand.r {
+ # x,y
+ x _0; y _1;
  
+};
+
+leg.r {
+  
+};
+
+leg.l {
+  
 };
 
 head.x 0;
 head.y 100;
 
+body.x 0;
+body.y 50;
+
 head(head.x,head.y);
+body(body.x,body.y);
