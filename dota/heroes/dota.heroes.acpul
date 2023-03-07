@@ -40,7 +40,6 @@ mouth {
  triangle(u0, 6, x0,y0, x0+10,y0+8, x0+20,y0);
  color(u0, 1,0.2,0,1);
  triangle(u0, 6, x0,y0, x0+10,y0-8, x0+20,y0);
-
 };
 
 eyes {
