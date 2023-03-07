@@ -26,7 +26,7 @@ x 5;
 y 100;
 w 20;
 h 50;
-color(u0, 1,1,0,1);
+color(u0, 0.5,1,0,1);
 triangle(u0, 6, x,y, x+w/2,y+h/3, x,y+h);
 triangle(u0, 6, x,y, x-w/2,y+h/3, x,y+h);
 
