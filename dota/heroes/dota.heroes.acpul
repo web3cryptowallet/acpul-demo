@@ -62,6 +62,7 @@ node.prop.y.s(u0, wp0,160);
 node.prop.r.s(u0, wp0,10+sin(t)*5);
 
 #s:=0.15;
+s:=0.5;
 
 t+=dt;
 
