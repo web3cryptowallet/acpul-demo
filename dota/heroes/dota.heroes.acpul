@@ -146,4 +146,4 @@ body.y 20;
 body(body.x,body.y);
 head(head.x,head.y+sin(t*2)*5);
 
-hand.l(body.x,body.y+40);
+hand.l(body.x,body.y+60);
