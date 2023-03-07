@@ -4,3 +4,22 @@ draw(r0, 3243);
 
 ### 3243 hero.bobann.draw
 
+q 1;
+
+head {
+ rect(u0, 6, 0,0,q*100,q*100);
+};
+
+body {
+ 
+};
+
+hand.l {
+ 
+};
+
+hand.r {
+ 
+};
+
+head;
