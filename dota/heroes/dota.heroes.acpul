@@ -53,10 +53,12 @@ mouth {
 # triangle(u0, 6, x0,y0, x1,y1, x2,y2);
 
  w0 40;
- h0 20;
+ 
+ w1 40; 
+ h1 20;
 
  color(u0, 1,1,0.5,1);
- rect(u0, 6, x-w0/2,y-h0/2, w0*2,h0*2);
+ rect(u0, 6, x-w1/2,y-h1/2, w1,h1*2);
 
  h0 8+sin(t*100);
  x0 x-w0/2;
