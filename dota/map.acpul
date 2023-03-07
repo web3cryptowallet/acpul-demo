@@ -45,7 +45,7 @@ cr0:=node.new.this.ex(r0, eth.wallet.crystal, 0);
 
 
 #s:=2;
-s:=3;
+#s:=3;
 
 ### 3225 Map.draw
 
