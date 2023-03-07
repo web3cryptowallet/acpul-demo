@@ -28,7 +28,7 @@ head {
  
  w0 30;
  h0 30;
- x0 x+50;
+ x0 x;
  y0 y+50;
  point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0, x,y);
 };
