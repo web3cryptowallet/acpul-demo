@@ -19,7 +19,7 @@ if (r0) {
 # wallet0:=node.new.this.ex(r0, eth.wallet.eth, 0); 
  wallet0:=node.new.this.ex4(r0, eth.wallet.crystal, 0, 1, 0,0); 
  node.prop.s.s(u0, wallet0,0.1);
- node.prop.y.s(u0, wallet0,130);
+ node.prop.y.s(u0, wallet0,128);
  node.prop.x.s(u0, wallet0,5);
 };
 
