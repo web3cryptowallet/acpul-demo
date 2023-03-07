@@ -45,7 +45,11 @@ eth @100000;
 
 #node.new.this.ex(r0, 100000, 0); 
 
-node.new.this.ex(r0, eth.wallet.eth, 0); 
+wallet0 0;
+if (r0) {
+ wallet0:=node.new.this.ex(r0, eth.wallet.eth, 0); 
+ node.prop.s.s(u0, wallet0,0.2);
+};
 
 #s:=2;
 #s:=3;
