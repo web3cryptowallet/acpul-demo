@@ -1,10 +1,13 @@
 ### 3234 Unit::Complex
+# unit.type
 
 r0:=k==0;
 
 draw(r0, 3235);
 
-r7:=p0;
+utype r7;
+
+utype:=p0;
 #watch(p0);
 s:=0.2;
 t+=dt;
@@ -16,12 +19,14 @@ bt obj.bots.types;
 _ @1010;
 _ @sys.node;
 
-if (r7==bt.homehealth) {
+if (utype==bt.homehealth) {
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
   node.new.this.ex(u0, Crystal.Pulses, 0);
  };
 };
+
+if (utype)
 
 k:=1;
 
@@ -33,21 +38,21 @@ OBJECT 3220;
 obj @OBJECT;
 bt obj.bots.types;
 
-if (r7==bt.tower) {
+if (utype==bt.tower) {
  b(1,0,3,3);
  b(0,3,1,1);
  b(2,3,1,1);
  b(4,3,1,1);
 };
 
-if (r7==bt.homebase) {
+if (utype==bt.homebase) {
  b(-1,0,7,3);
  b(0,3,1,1);
  b(2,3,1,1);
  b(4,3,1,1);
 };
 
-if (r7==bt.shop) {
+if (utype==bt.shop) {
  l0:=0;
 
  _ @1010;
@@ -57,7 +62,7 @@ if (r7==bt.shop) {
  node.ex.gl.rect(u0, -40,77, 200,400);
 };
 
-if (r7==bt.homehealth) {
+if (utype==bt.homehealth) {
  a 1;
  x 40;
  y 70;
