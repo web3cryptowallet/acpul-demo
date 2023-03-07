@@ -164,4 +164,4 @@ hand.l(body.x,body.y+50);
 hand.r(body.x,body.y+60);
 
 leg.l(body.x,body.y);
-leg.r(body.x,body.y);
+leg.r(body.x,body.y+20);
