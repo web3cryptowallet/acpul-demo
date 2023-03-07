@@ -134,7 +134,7 @@ hand.r {
  rect(u0, 6, x0+q*50+w0/2, y0, w0,q*h0);
  w1 5;
  h1 15;
- rect(u0, 6, x0+50+w0+10, y0-h1+sin(t*5)*2, w1,h1);
+ rect(u0, 6, x0+50+w0+10, y0-h1+sin(t*5)*2+2, w1,h1);
 };
 
 leg.r {
