@@ -38,6 +38,8 @@ OBJECT 3220;
 obj @OBJECT;
 bt obj.bots.types;
 
+utype r7;
+
 if (utype==bt.tower) {
  b(1,0,3,3);
  b(0,3,1,1);
