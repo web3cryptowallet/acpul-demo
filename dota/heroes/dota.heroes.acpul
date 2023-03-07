@@ -52,7 +52,7 @@ mouth {
 # y2 y0+0;
 # triangle(u0, 6, x0,y0, x1,y1, x2,y2);
 
- w0 40;
+ w0 20;
  
  w1 40; 
  h1 20;
