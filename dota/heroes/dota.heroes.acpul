@@ -30,7 +30,7 @@ head {
  h0 20;
  x0 x;
  y0 y+50;
- point4(u0, 6, x0,y0, x0,y0+h0-10, x0+w0,y0+h0, x+w0,y0-10);
+ point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0-10, x+w0,y0-10);
 };
 
 mouth {
