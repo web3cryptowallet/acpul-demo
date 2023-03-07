@@ -8,8 +8,6 @@ hero.weapon.mage 3260;
 
 draw(r0, 3261);
 
-#s:=0.15;
-
 t+=dt;
 
 ### 3261 hero.weapon.mage.draw
