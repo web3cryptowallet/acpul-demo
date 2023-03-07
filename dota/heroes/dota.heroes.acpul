@@ -21,7 +21,7 @@ draw(r0, 3243);
 
 node.new.this.ex(r0, hero.weapon.mage, 0);
 
-s:=0.15;
+#s:=0.15;
 
 t+=dt;
 
