@@ -110,7 +110,10 @@ hand.l {
 
  color(u0, 1,0.4,0,1);
  rect(u0, 6, x0+q*50-w0/2, y0+60, w0,q*h0);
- 
+  
+ x0 x;
+ y0 y;
+
 };
 
 hand.r {
