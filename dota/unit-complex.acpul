@@ -1,8 +1,6 @@
 ### 3234 Unit::Complex
 # unit.type
 
-r0:=k==0;
-
 draw(r0, 3235);
 
 utype r7;
@@ -26,9 +24,9 @@ if (utype==bt.homehealth) {
  };
 };
 
-if (utype)
-
-k:=1;
+if (utype) {
+  
+};
 
 ### 3235 Unit::Complex.draw
 
