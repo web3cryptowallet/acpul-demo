@@ -40,11 +40,12 @@ _ @dota.heroes;
 
 node.new.this.ex4(r0, hero.bobann, 0,0,0,0);
 
-#eth @100000;
+eth @100000;
 #node.new.this.ex(r0, eth.wallet.crystal, 0); 
 
-node.new.this.ex(r0, 100000, 0); 
+#node.new.this.ex(r0, 100000, 0); 
 
+node.new.this.ex(r0, eth.wallet.eth, 0); 
 
 #s:=2;
 #s:=3;
