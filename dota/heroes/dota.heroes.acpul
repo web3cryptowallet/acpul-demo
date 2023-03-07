@@ -128,5 +128,5 @@ head.y 100;
 body.x 0;
 body.y 50;
 
-head(head.x,head.y+sin(t*2)*5);
 body(body.x,body.y);
+head(head.x,head.y+sin(t*2)*5);
