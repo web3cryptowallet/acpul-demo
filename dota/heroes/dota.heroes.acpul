@@ -19,6 +19,7 @@ rect(u0, 6, 0,0,100,70);
 
 draw(r0, 3243);
 
+_ @dota.heroes;
 node.new.this.ex(r0, hero.weapon.mage, 0);
 
 s:=0.15;
