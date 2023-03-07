@@ -23,7 +23,7 @@ head {
 
  mouth(x+q*50,y+q*20);
 
- color(u0, 0.5,0,1,1);
+ color(u0, 1,0,1,1);
 # rect(u0, 6, x,y,q*100,q*70);
  
  w0 30;
