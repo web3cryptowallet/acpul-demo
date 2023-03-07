@@ -117,6 +117,9 @@ hand.r {
  # x,y
  x _0; y _1;
  
+
+ color(u0, 1,0.4,0,1);
+ rect(u0, 6, x0+q*50-w0/2, y0+60, w0,q*h0);
 };
 
 leg.r {
@@ -136,6 +139,4 @@ body.y 20;
 body(body.x,body.y);
 head(head.x,head.y+sin(t*2)*5);
 
-hand.l {
-  
-};
+hand.l(body.x,body.y+40)
