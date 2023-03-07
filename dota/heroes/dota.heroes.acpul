@@ -205,6 +205,7 @@ y00 120;
 
 head.x 0;
 head.y y00+100;
+head.h 10;
 
 body.x 0;
 body.y y00+20;
@@ -218,4 +219,4 @@ hand.r(body.x,body.y+60);
 leg.l(body.x+sin(t*5)*3,body.y-cos(t*5)*3+3);
 leg.r(body.x+sin(t*5)*0.5,body.y-cos(t*5+pi/2)*3+3);
 
-hair(head.x,head.y+100);
+hair(head.x,head.y+head.h);
