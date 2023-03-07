@@ -205,7 +205,7 @@ y00 120;
 
 head.x 0;
 head.y y00+100;
-head.h 10;
+head.h 50;
 
 body.x 0;
 body.y y00+20;
