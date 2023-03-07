@@ -25,7 +25,7 @@ circle(u0, 6, 5,90, 10+2*sin(t1), 0, 10, 0);
 x 0;
 y 100;
 w 10;
-h 10;
+h 50;
 triangle(u0, 6, x,y, x+w/2,y+h, x+w,y+h/3);
 
 
