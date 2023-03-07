@@ -6,7 +6,7 @@ hero.bobann 3242;
 
 draw(r0, 3243);
 
-s:=0.2;
+s:=0.15;
 
 t+=dt;
 
