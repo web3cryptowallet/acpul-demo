@@ -169,13 +169,13 @@ leg.l {
  rect(u0, 6, x0+50, y0, w0,q*h0*0.2);
 };
 
-y0 50;
+y00 50;
 
 head.x 0;
 head.y y0+100;
 
 body.x 0;
-body.y y0+20;
+body.y y00+20;
 
 body(body.x,body.y);
 head(head.x,head.y+sin(t*2)*5);
