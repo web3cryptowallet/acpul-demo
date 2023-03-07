@@ -21,7 +21,7 @@ head {
 
  eyes(x,y);
 
- mouth
+ mouth(x,y);
 };
 
 eyes {
