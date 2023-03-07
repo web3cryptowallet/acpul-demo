@@ -6,7 +6,7 @@ hero.weapon.mage 3260;
 
 ### 3260 hero.weapon.mage
 
-draw(r0, 3243);
+draw(r0, 3261);
 
 s:=0.15;
 
