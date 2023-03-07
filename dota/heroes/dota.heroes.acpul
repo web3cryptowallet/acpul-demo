@@ -175,5 +175,6 @@ head(head.x,head.y+sin(t*2)*5);
 hand.l(body.x,body.y+50);
 hand.r(body.x,body.y+60);
 
-leg.l(body.x,body.y);
+leg.l(body.x+sin(t),body.y);
 leg.r(body.x,body.y);
+
