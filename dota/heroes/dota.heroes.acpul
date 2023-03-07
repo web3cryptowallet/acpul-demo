@@ -57,7 +57,7 @@ if (r0) {
  wp0:=node.new.this.ex(r0, hero.weapon.mage, 0);
 };
 
-node.prop.x.s(u0, wp0,80);
+node.prop.x.s(u0, wp0,85);
 node.prop.y.s(u0, wp0,160);
 node.prop.r.s(u0, wp0,10+sin(t)*5);
 
