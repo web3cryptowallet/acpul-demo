@@ -147,7 +147,7 @@ leg.r {
  h0 5;
 
  color(u0, 1,0.4,10,1);
- rect(u0, 6, x0+q*50+w0/2, y0, w0,q*h0);
+ rect(u0, 6, x0+50+w0/2, y0, w0,q*h0);
 };
 
 leg.l {
