@@ -176,7 +176,7 @@ i l2;
 i:=0;
 max l0;
 max:=net.nodes.count(u0);
-while(i<max+1) {
+while(i<max+10) {
 # cx+=get(u0, gnet.mem.rd.a, offs(i)+0);
 # cy+=get(u0, gnet.mem.rd.a, offs(i)+1);
  cx:=get(u0, gnet.mem.rd.a, offs(i)+0);
