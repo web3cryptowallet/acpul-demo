@@ -148,7 +148,6 @@ set2(u0, gnet.mem.wr.a, 0, gnet.id*50*sin(gt), 0);
 _ @1010;
 _ @sys.net;
 
-l0:=net.is.connected(u0);
 connected = net.is.connected(u0);
 
 color(u0, 1,1,0,0);
