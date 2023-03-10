@@ -99,13 +99,13 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,400,90,1, Connected, connected);
 gnet.wr:=0;
 if (this.turn.sended==0)
 {
- if (glt>net.t.send) 
- {
+# if (glt>net.t.send) 
+# {
   this.turn.sended:=1;
   net.send.mem(u0, 0, gnet.mem.wr.a);
   gnet.wr:=1;
 #  l0 88777;watch(l0); #
- };
+# };
 };
 
 # send ]
