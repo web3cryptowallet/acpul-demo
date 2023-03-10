@@ -92,7 +92,7 @@ newmem(gnet.mem.rd);
 # send [
 
 _ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,100,0,1, This.turn.sended, this.turn.sended);
+lbl0 0; val0 0; ui.value4(lbl0,val0,500,0,1, This.turn.sended, this.turn.sended);
 
 gnet.wr:=0;
 if (this.turn.sended==0)
