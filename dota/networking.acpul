@@ -1,6 +1,6 @@
 ### 3290 Networking
 # r0, r1
-   
+    
 r0:=k==0;
 
 draw(r0, 3291);
