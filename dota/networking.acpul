@@ -149,6 +149,7 @@ _ @1010;
 _ @sys.net;
 
 l0:=net.is.connected(u0);
+connected = net.is.connected(u0);
 
 color(u0, 1,1,0,0);
 rect(u0, 2, 0,0,64+8,32-8);
@@ -166,7 +167,7 @@ if(r7, color(u0, 1,1,0,1), color(u0, 1,0,0,1));
 rect(u0, 6, 8+16*2,8,8,8);
 
 if(l0, color(u0, 0,1,0,1), color(u0, 1+0.5*sin(t*pi*5),0,0,1));
-rect(u0, 6, 8+16*3,8,8,8);
+#rect(u0, 6, 8+16*3,8,8,8);
 
 # simulate wr draw [
 
