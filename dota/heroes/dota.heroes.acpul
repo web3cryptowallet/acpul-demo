@@ -14,7 +14,7 @@ draw(r0, 19301);
 
 ### 19301 hero.minion.warrior.draw
 
-
+rect(u0),
 
 ### 19310 hero.minion.mage
 
