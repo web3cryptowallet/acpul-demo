@@ -11,6 +11,7 @@ hero.minion.captain 19320;
 ### 19300 hero.minion.guard
 
 draw(r0, 19301);
+t+=1;
 
 ### 19301 hero.minion.guard.draw
 
