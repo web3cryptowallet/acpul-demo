@@ -43,6 +43,8 @@ if (r0) { #hack!
 
 smile0 0;
 
+node.prop.x.s(u0, smile0, 20);
+node.prop.y.s(u0, smile0, 70);
 node.prop.s.s(u0, smile0, 0.2+0.1*sin(t*0.1));
 #node.prop.s.s(u0, smile0, 0.2);
 
