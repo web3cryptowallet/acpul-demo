@@ -19,7 +19,7 @@
 
 # 3240 - heroes
 # 3242 - hero bobann
-
+# 3260 - hero weapon
 
 gnet.wr u3;
 gnet.rd u4;
