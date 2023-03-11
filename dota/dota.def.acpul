@@ -21,6 +21,11 @@
 # 3242 - hero bobann
 # 3260 - hero weapon
 
+# EXTRA SIZE
+# 19000 - 19xxx
+
+
+
 gnet.wr u3;
 gnet.rd u4;
 
