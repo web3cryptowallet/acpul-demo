@@ -3,3 +3,6 @@
 draw(r0, 19101);
 
 ### 19101 DOTA::camera.draw
+
+color(u0, 1,1,0,1);
+rect(u0, 6, 0,0,w,h);
