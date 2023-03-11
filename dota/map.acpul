@@ -28,7 +28,7 @@ nodenew(r0, OBJECT, ot.unit, 50,200, team, ost.bot, obt.tower,0,0);
 nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
 nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 
-minion.cx 50;
+minion.cx 40;
 minion.cy 1;
 
 nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
