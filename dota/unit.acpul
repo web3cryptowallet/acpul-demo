@@ -34,11 +34,14 @@ if (r0) { #hack!
   node.new.this.ex(r0*b, hero.bobann, player.id);
  };
 
-  CREATURE0.SMILE 70802;
-  CREATURE0.SMILE1 70804;
+
+};
+
+if (r0) {
+ CREATURE0.SMILE 70802;
+ CREATURE0.SMILE1 70804;
 # smile0 = node.new.this.ex4(r0, 10007100, 0,0,0,0);
  smile0 := node.new.this.ex4(r0, CREATURE0.SMILE1, 0,0,0,0);
-
 };
 
 smile0 0;
