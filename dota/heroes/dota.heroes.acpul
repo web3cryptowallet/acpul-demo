@@ -12,7 +12,7 @@ hero.minion.captain 19320;
 
 draw(r0, 19301);
 
-x+=1;
+y+=1;
 
 t+=1;
 
