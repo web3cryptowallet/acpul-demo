@@ -53,6 +53,10 @@ bots {
   homebase 2;
   shop 3;
   homehealth 4;
+
+  minion.mage 5;
+  minion.guard 6;
+  minion.captain 8;
  };
 };
 players {
