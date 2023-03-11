@@ -12,3 +12,11 @@ color(u0, 1,1,0,1);
 rect(u0, 6, 0,0,w,h);
 
 #circle(u0, 6, px+p.point.start.x, py+p.point.start.y, p.radius, 0, 30, 0);
+
+### 19104 DOTA::camera.view
+
+color(u0, 1,1,0,1);
+rect(u0, 6, 0,0,w,h);
+
+
+### 19105 DOTA::camera.view.draw
