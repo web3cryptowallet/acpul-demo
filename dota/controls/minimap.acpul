@@ -4,5 +4,7 @@ draw(r0, 19201);
 
 ### 19201 DOTA::minimap.draw
 
-
+color(u0, 0,0.5,0,1);
+rect(u0, 6, 0,0,w,h);
+rect(u0, 2, 0,0,w,h);
 
