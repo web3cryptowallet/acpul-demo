@@ -26,6 +26,10 @@
 # 19100 - camera
 # 19200 - minimap
 
+dota {
+  camera 19100;
+  minimap 19100;
+};
 
 gnet.wr u3;
 gnet.rd u4;
