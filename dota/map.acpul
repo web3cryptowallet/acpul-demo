@@ -29,7 +29,7 @@ nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
 nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 
 minion.cx 30;
-minion.cy 1;
+minion.cy 30;
 
 nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
