@@ -1,5 +1,26 @@
 ### 3200 dota.def.acpul
 
+# 3200-3300 DOTA
+# 3200      DEF
+# 3202,3203 Main
+# 3290,3291 Networking
+
+# 3220,3221 Game Object
+# 3224,3225 Map
+# 3230,3231 Unit (Player|Bot(Robot|Tower|Base)) Id
+# 3250,3251 Shot
+
+# 3260,3261 Skill Button
+# 3270,3271 Joystick
+
+# 3232,3233 *Unit::Robot
+# 3234,3235 *Unit::Complex
+# 3236,3237 - Crystal.Effect
+
+# 3240 - heroes
+# 3242 - hero bobann
+
+
 gnet.wr u3;
 gnet.rd u4;
 
