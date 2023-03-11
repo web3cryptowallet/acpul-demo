@@ -56,7 +56,7 @@ bots {
 
   minion.mage 5;
   minion.guard 6;
-  minion.captain 8;
+  minion.captain 7;
  };
 };
 players {
