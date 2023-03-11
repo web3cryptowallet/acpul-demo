@@ -29,7 +29,7 @@ point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0+10, x0+w0,y0+10);
 #point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0+10, x0+w0,y0+10);
 
 color(u0, 1,1,1,1);
-rect(u0, 6, 50,50, 10, 30);
+rect(u0, 6, 40,50, 10, 30);
 
 ### 19310 hero.minion.mage
 
