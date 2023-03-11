@@ -24,7 +24,7 @@
 # EXTRA SIZE
 # 19000 - 19xxx
 # 19100 - camera
-# 19100 - minimap
+# 19200 - minimap
 
 
 gnet.wr u3;
