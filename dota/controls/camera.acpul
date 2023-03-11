@@ -1,1 +1,5 @@
 ### 19100 DOTA::camera
+
+draw(r0, 19101)
+
+### 19101 DOTA::camera.draw
