@@ -1,0 +1,220 @@
+### 3242 hero.bobann
+
+draw(r0, 3243);
+
+_ @sys.node;
+_ @dota.heroes;
+
+wp0 0;
+
+if (r0) {
+ wp0:=node.new.this.ex(r0, hero.weapon.mage, 0);
+};
+
+node.prop.x.s(u0, wp0,85);
+node.prop.y.s(u0, wp0,160);
+node.prop.r.s(u0, wp0,10+sin(t)*5);
+
+s:=0.15;
+#s:=0.5;
+
+t+=dt;
+
+### 3243 hero.bobann.draw
+
+q 1;
+
+
+hair {
+ # x,y
+ x0 _0; y0 _1;
+
+ x x0+50;
+ y y0;
+ w 10;
+ h 50;
+ triangle(u0, 6, x,y, x+w/2,y+h, x+w,y+h/3);
+ triangle(u0, 6, x,y, x+w/2-10,y+h/2, x+w-20,y+h/4);
+ triangle(u0, 6, x,y, x+w/2-15,y+h*1.4, x+w-8,y+h/4);
+
+};
+
+hat {
+  
+};
+
+
+head {
+ # x,y
+ x _0; y _1;
+ color(u0, 1,0.4,0,1);
+ rect(u0, 6, x,y,q*100,q*70);
+
+ eyes(x,y+q*50);
+
+ mouth(x+q*50,y+q*20);
+
+ color(u0, 0,0.5,1,1);
+# rect(u0, 6, x,y,q*100,q*70);
+ 
+ w0 30;
+ h0 10;
+ x0 x;
+ y0 y+50;
+ point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0-10, x0+w0,y0-10);
+ x0 100;
+ point4(u0, 6, x0,y0, x0,y0+h0, x0-w0,y0+h0-10, x0-w0,y0-10);
+ x0 x;
+ h0 7;
+ y0 y+38;
+ point4(u0, 6, x0,y0, x0,y0+h0, x0+w0,y0+h0-10, x0+w0,y0-10);
+ x0 100;
+ point4(u0, 6, x0,y0, x0,y0+h0, x0-w0,y0+h0-10, x0-w0,y0-10);
+
+ hair(x,y+head.h);
+};
+
+mouth {
+ # x,y
+ x _0; y _1;
+# x0 x;
+# y0 y;
+# x1 x0+10;
+# y1 y0+10;
+# x2 x0+20;
+# y2 y0+0;
+# triangle(u0, 6, x0,y0, x1,y1, x2,y2);
+
+ w1 40; 
+ h1 20;
+
+ color(u0, 1,1,0.5,1);
+ rect(u0, 6, x-w1/2,y-h1/2, w1,h1*1.5);
+
+ w0 20;
+ 
+ h0 8+sin(t*10)*2;
+ x0 x-w0/2;
+ y0 y;
+ color(u0, 1,0,0,1);
+ triangle(u0, 6, x0,y0, x0+w0/2,y0+h0, x0+w0,y0);
+ color(u0, 1,0.2,0,1);
+ triangle(u0, 6, x0,y0, x0+w0/2,y0-h0, x0+w0,y0);
+};
+
+eyes {
+ # x,y
+ x _0; y _1;
+
+ color(u0, 1,1,0,1);
+ 
+ y0 y;
+
+ rect(u0, 6, q*20,y0, q*20,q*10);
+ rect(u0, 6, 100-q*20*2,y0, q*20,q*10);
+# circle(u0, 6, q*20,q*70,q*20,q*10);
+
+ t1 t*10;
+ color(u0, sin(t1*0.5)*0.5+0.5,sin(t1*0.3+0.5)*0.5+0.5,sin(t1*0.2+0.1)*0.5+1,1);
+ circle(u0, 6, q*20+10,y0+5, 5, 0, 10, 0);
+ circle(u0, 6, 100-2*q*20+10,y0+5, 5, 0, 10, 0);
+};
+
+body {
+ # x,y
+ x _0; y _1;
+
+ x0 x;
+ y0 y;
+ w0 12;
+ h0 30;
+ color(u0, 1,0.4,0,1);
+ rect(u0, 6, x0+50-w0/2, y0+60, w0,h0);
+ h1 40;
+ rect(u0, 6, x0+50-w0/2+w0, y0+30, w0,h1);
+ h1 30;
+ rect(u0, 6, x0+50-w0/2, y0+10, w0,h1);
+
+};
+
+hand.l {
+ # x,y
+ x _0; y _1;
+
+ x0 x;
+ y0 y;
+ w0 30;
+ h0 5;
+
+ color(u0, 1,0.5,0,1);
+ rect(u0, 6, x0+50-w0+10, y0, w0,h0);
+ w1 5;
+ h1 10;
+ rect(u0, 6, x0+50-w0+10, y0+sin(t*5)*1+1, w1,h1);
+
+};
+
+hand.r {
+ # x,y
+ x _0; y _1;
+ 
+ x0 x;
+ y0 y;
+ w0 30;
+ h0 5;
+
+ color(u0, 1,0.5,0,1);
+ rect(u0, 6, x0+q*50+w0/2, y0, w0,q*h0);
+ w1 5;
+ h1 15;
+ rect(u0, 6, x0+50+w0+10, y0-h1+sin(t*5)*2+2, w1,h1);
+};
+
+leg.r {
+ # x,y
+ x _0; y _1;
+ 
+ x0 x;
+ y0 y;
+ w0 10;
+ h0 15;
+
+ color(u0, 1,0.5,0,1);
+ rect(u0, 6, x0+50-w0-5, y0, w0,h0);
+ color(u0, 0.7,1,0,1);
+ rect(u0, 6, x0+50-w0-5, y0, w0,h0*0.2);
+};
+
+leg.l {
+ # x,y
+ x _0; y _1;
+ 
+ x0 x;
+ y0 y;
+ w0 15;
+ h0 10;
+
+ color(u0, 1,0.5,0,1);
+ rect(u0, 6, x0+50, y0, w0,q*h0);
+ color(u0, 0.7,1,0,1);
+ rect(u0, 6, x0+50, y0, w0,q*h0*0.2);
+};
+
+y00 120;
+
+head.x 0;
+head.y y00+100;
+head.h 70;
+
+body.x 0;
+body.y y00+20;
+
+body(body.x,body.y);
+head(head.x,head.y+sin(t*2)*5);
+
+hand.l(body.x,body.y+50);
+hand.r(body.x,body.y+60);
+
+leg.l(body.x+sin(t*5)*3,body.y-cos(t*5)*3+3);
+leg.r(body.x+sin(t*5)*0.5,body.y-cos(t*5+pi/2)*3+3);
+
