@@ -7,3 +7,16 @@ hero.weapon.mage 3260;
 hero.minion.warrior 19300;
 hero.minion.mage 19310;
 hero.minion.captain 19320;
+
+### 19300 hero.minion.warrior
+
+### 19301 hero.minion.warrior.draw
+
+### 19310 hero.minion.mage
+
+### 19311 hero.minion.mage.draw
+
+### 19320 hero.minion.captain
+
+### 19321 hero.minion.captain.draw
+
