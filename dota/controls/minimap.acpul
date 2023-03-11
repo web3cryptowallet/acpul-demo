@@ -6,7 +6,7 @@ w:=100;
 h:=100;
 
 _ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,2, MINIMAP, x);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, MINIMAP, x);
 
 ### 19201 DOTA::minimap.draw
 
