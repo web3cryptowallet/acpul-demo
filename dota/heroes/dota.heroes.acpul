@@ -14,7 +14,7 @@ draw(r0, 19301);
 
 ### 19301 hero.minion.guard.draw
 
-color(u0, 6, 1,1,0,1);
+color(u0, 6, 1,0,0,1);
 rect(u0, 6, 0,0, 20, 100);
 
 ### 19310 hero.minion.mage
