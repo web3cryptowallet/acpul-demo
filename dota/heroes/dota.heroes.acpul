@@ -4,3 +4,6 @@ hero.bobann 3242;
 
 hero.weapon.mage 3260;
 
+hero.minion.warrior 19300;
+hero.minion.mage 19310;
+hero.minion.captain 19320;
