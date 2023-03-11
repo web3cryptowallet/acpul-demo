@@ -2,7 +2,7 @@
 
 # - camera icon graphics
 # - camera frame
-# - 
+# - camera view
 
 draw(r0, 19101);
 
