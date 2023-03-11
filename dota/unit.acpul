@@ -34,8 +34,9 @@ if (r0) { #hack!
   node.new.this.ex(r0*b, hero.bobann, player.id);
  };
 
-node.new.this.ex4(r0, 10007100, 0,0,0,0);
-
+ smile0 = node.new.this.ex4(r0, 10007100, 0,0,0,0);
+ node.prop.s.s(u0, smile0, 0.2);
+ 
 };
 
 
