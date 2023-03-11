@@ -28,7 +28,7 @@
 
 dota {
   camera 19100;
-  minimap 19100;
+  minimap 19200;
 };
 
 gnet.wr u3;
