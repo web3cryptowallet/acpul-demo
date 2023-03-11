@@ -10,7 +10,11 @@ hero.minion.captain 19320;
 
 ### 19300 hero.minion.warrior
 
+draw(r0, 19301);
+
 ### 19301 hero.minion.warrior.draw
+
+
 
 ### 19310 hero.minion.mage
 
