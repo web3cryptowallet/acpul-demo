@@ -1,7 +1,8 @@
 ### 19200 DOTA::minimap
 
-
+draw(r0, 19201);
 
 ### 19201 DOTA::minimap.draw
+
 
 
