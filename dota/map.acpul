@@ -35,10 +35,10 @@ nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guar
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.captain,0,0);
 
-r2:=if(r2<10,r2+=1,0);
-if (r2==0) {
- nodenew(u0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
-};
+#r2:=if(r2<10,r2+=1,0);
+#if (r2==0) {
+# nodenew(u0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
+#};
 
 nodenew(r0, OBJECT, ot.unit, 50,50, team, ost.player, 0,heroes.debug,0);
 nodenew(r0, OBJECT, ot.unit, 70,50, team, ost.player, 1,heroes.cat,0);
