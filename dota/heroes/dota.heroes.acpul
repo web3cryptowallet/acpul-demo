@@ -8,13 +8,14 @@ hero.minion.warrior 19300;
 hero.minion.mage 19310;
 hero.minion.captain 19320;
 
-### 19300 hero.minion.warrior
+### 19300 hero.minion.guard
 
 draw(r0, 19301);
 
-### 19301 hero.minion.warrior.draw
+### 19301 hero.minion.guard.draw
 
-rect(u0),
+color(u0, 6, 1,0,0,1);
+rect(u0, 6, 0,0, 100, 20);
 
 ### 19310 hero.minion.mage
 
