@@ -26,15 +26,15 @@ this.turn.halted r6;
 this.turn.received r7;
 this.turn.sended r5;
 
-if(net.is.setup.event(u0))
-{
+#if(net.is.setup.event(u0))
+#{
  gnet.id:=net.get.index(u0);
  gt:=0;
  glt:=0;
  this.turn.sended:=0;
  this.turn.received:=0;
  this.turn.halted:=0;
-};
+#};
 
 net.t.max 0.1;
 net.t.send 0.03;
