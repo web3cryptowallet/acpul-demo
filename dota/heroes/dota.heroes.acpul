@@ -104,7 +104,7 @@ triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
 
 # staff
 
-color(u0, 1,0,0.5,1);
+color(u0, 0.8,0,1,1);
 
 
 x 20;
