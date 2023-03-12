@@ -97,9 +97,9 @@ roty {
 
 point4r {
  x0 _0; y0 _1;
- x1 _0; y1 _1;
- x2 _0; y2 _1;
- x3 _0; y3 _1;
+ x1 _2; y1 _3;
+ x2 _4; y2 _4;
+ x3 _6; y3 _5;
  ax rotx(x0,y0,r);
  ay roty(x0,y0,r);
  bx rotx(x1,y1,r);
