@@ -82,7 +82,7 @@ x 0;
 y 0;
 w 50;
 h 50;
-r t;
+r t1;
 
 point4(u0, 6, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w),y+h);
 
