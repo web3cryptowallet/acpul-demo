@@ -31,8 +31,8 @@ nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 minion.cx 30;
 minion.cy 80;
 
-nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
-#nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
+#nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
+nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.captain,0,0);
 
 r2:=if(r2<60*5,r2+1,0);
