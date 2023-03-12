@@ -120,7 +120,7 @@ point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
 
 color.rand(u0, 1);
-x w;
+x 40;
 y 0;
 cx rotx(x,y,r);
 cy roty(x,y,r);
