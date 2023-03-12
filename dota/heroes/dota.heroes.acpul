@@ -81,7 +81,7 @@ color(u0, 1,1,0.5,0.5);
 circle1(u0, 6, x,50, 10, 20);
 
 color(u0, 1,0,0,0.5);
-circle1(u0, 6, x+5,50, 10, 5);
+circle1(u0, 6, x+5,50, 10, 10);
 
 color(u0, 0,0,1,1);
 y 50;
@@ -158,7 +158,7 @@ point4r {
 
 
 circle1 
- # u0, mode, x,y, segs, radius 
+ # u0, mode, x,y, radius, segs 
  circle(_0, _1, _2,_3, _4, 0, _5, 0);
 
 # DRAW EXTRA ]
