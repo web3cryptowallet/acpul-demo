@@ -104,7 +104,9 @@ point4v2 { # grouped/typed
  a.y
 };
 
-point4v3
+point4v3 {
+  
+};
 
 #point4xxx {
 # (a{x,y} b{x,y} c{x,y}, d{x,y})
