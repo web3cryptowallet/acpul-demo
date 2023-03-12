@@ -87,7 +87,7 @@ circle1(u0, 6, 0,50, 10, 20);
 color(u0, 0,0,0.5,1);
 x 0;
 y 50;
-h 22;
+h 23;
 w 20;
 triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
 
