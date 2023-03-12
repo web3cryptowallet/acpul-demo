@@ -117,7 +117,6 @@ r t1*0.1*10;
 
 point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, pi/4);
 
-color.rand color(_0, rnd(u0),rnd(u0),rnd(u0), _1);
 
 color.rand(u0, 1);
 circle1(u0, 6, x+5,50+3, 3, 10);
@@ -174,7 +173,7 @@ circle1
  # u0, mode, x,y, radius, segs 
  circle(_0, _1, _2,_3, _4, 0, _5, 0);
 
-#color.rnd color(_0, rnd(u0),rnd(u0),rnd(u0), _1);
+color.rand color(_0, rnd(u0),rnd(u0),rnd(u0), _1);
 
 # DRAW EXTRA ]
 
