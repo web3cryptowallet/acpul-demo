@@ -112,7 +112,7 @@ y 10-h/2;
 w 50;
 h 5;
 #r t1*0.1*10;
-r pi/2*0.4+sin(t1);
+r pi/2*0.4+sin(t1)*0.1;
 
 #point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
