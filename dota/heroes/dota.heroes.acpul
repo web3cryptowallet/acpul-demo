@@ -86,6 +86,7 @@ w 50;
 h 20;
 r t1*0.1;
 
+_ @draw.extra;
 
 point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
@@ -111,7 +112,7 @@ roty {
 
 # MATH EXTRA ]
 
-### gl.extra
+### draw.extra
 
 # DRAW EXTRA [
 
