@@ -172,7 +172,7 @@ circle1
  # u0, mode, x,y, radius, segs 
  circle(_0, _1, _2,_3, _4, 0, _5, 0);
 
-color.rnd color(_0, rnd(u0),rnd(u0),rnd(u0), _1);
+#color.rnd color(_0, rnd(u0),rnd(u0),rnd(u0), _1);
 
 # DRAW EXTRA ]
 
