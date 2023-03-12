@@ -93,22 +93,22 @@ point4xxx(u0, 6, x,y, x1,y1, x2,y2, x3,y3); # CASE.A
 point4xxx(u0, 6, a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}); # CASE.B
 
 
-point4v0 { # unnamed - CASE.A, CASE.B
+point4v0 { # unnamed - CASE.A + CASE.B/ungroup
  x _0;..
 };
 
-point4v0 { # named - CASE.A, CASE.B
+point4v0 { # named - CASE.A + CASE.B/ungroup
  x,y, x1,x2..
 };
 
-point4v2 { # grouped/typed - CASE.B
+point4v2 { # grouped/typed + CASE.B
  a.x;
  a.y;
 };
 
-point4xxx(u0, 6, points:{a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}}); # CASE.B
+point4xxx(u0, 6, points:{a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}}); # CASE.C
 
-point4v3 {
+point4v3 { # CASE.C
  points.a.x;
 };
 
