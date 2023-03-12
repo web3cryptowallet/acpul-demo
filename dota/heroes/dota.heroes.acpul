@@ -89,6 +89,15 @@ point4(u0, 6, x,y, x,y+h*sin(r), x+w*cos(r),y0, x0+w0,y0+10);
 # new format:
 point4xxx(u0, 6, a:{x,y}, b:{x,y+h*sin(r)}, c:{x+w*cos(r),y0}, d:{x0+w0,y0+10});
 
+point4v1 {
+ x,y, x1,x2..
+};
+
+point4v2 {
+ a.x
+ a.y
+};
+
 #point4xxx {
 # (a{x,y} b{x,y} c{x,y}, d{x,y})
 #  
