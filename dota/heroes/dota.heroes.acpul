@@ -115,7 +115,7 @@ r t1*0.1*10;
 
 #point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
-point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, pi/2*0.3);
+point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, pi/2*0.4);
 
 
 color.rand(u0, 1);
