@@ -34,14 +34,17 @@ minion.cy 80;
 minion0.cx minion.cx;
 minion0.cy minion.cy;
 
-nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
-nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
+minion1.cx minion.cx+10;
+minion1.cy minion.cy+10;
+
+nodenew(r0, OBJECT, ot.unit, minion0.cx,minion0.cy, team, ost.bot, obt.minion.guard,0,0);
+nodenew(r0, OBJECT, ot.unit, minion1.cx,minion1.cy, team, ost.bot, obt.minion.mage,0,0);
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.captain,0,0);
 
 r2:=if(r2<60*5,r2+1,0);
 if (r2==0) {
-# nodenew(u0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.guard,0,0);
-# nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.mage,0,0);
+ nodenew(r0, OBJECT, ot.unit, minion0.cx,minion0.cy, team, ost.bot, obt.minion.guard,0,0);
+ nodenew(r0, OBJECT, ot.unit, minion1.cx,minion1.cy, team, ost.bot, obt.minion.mage,0,0);
 };
 
 nodenew(r0, OBJECT, ot.unit, 50,50, team, ost.player, 0,heroes.debug,0);
