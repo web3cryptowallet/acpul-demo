@@ -145,8 +145,8 @@ point4r {
 
 
 circle1 
- # u0, x,y, segs, radius 
- circle(_0, _1,_2, _3, 0, _4, 0);
+ # u0, mode, x,y, segs, radius 
+ circle(_0, _1, _2,_3, 0, _4, 0);
 
 # DRAW EXTRA ]
 
