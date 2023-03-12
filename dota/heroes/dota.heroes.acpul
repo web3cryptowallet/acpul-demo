@@ -66,6 +66,8 @@ t1 t*0.1;
 x0 0;
 y0 10;
 
+color(u0, 0,0,1,1);
+rect(u0, 6, x0,y0, 20, 45);
 
 ### 19320 hero.minion.captain
 
