@@ -84,9 +84,6 @@ color(u0, 0,0,1,1);
 
 triangle(u0, 6, x,y, x+w,y, x+w/2,y+h);
 
-#color(u0, 0,0,0.5,0.5);
-
-
 # head
 
 x 0+sin(t1);
@@ -106,6 +103,9 @@ triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
 triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
 
 # staff
+
+color(u0, 0,0,0.5,0.5);
+
 
 
 x 0;
