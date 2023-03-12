@@ -87,10 +87,12 @@ h 20;
 r t1*0.1;
 
 rotx {
+ # x,y, r -> x
  x _0; y _1; r _2;
  x * cos(r) - y * sin(r);
 };
 roty {
+ # x,y, r -> y
  x _0; y _1; r _2;
  x * sin(r) + y * cos(r);
 };
