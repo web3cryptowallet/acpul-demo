@@ -83,7 +83,7 @@ color(u0, 0,0,0.5,0.5);
 x 0;
 y 0;
 w 50;
-h 50;
+h 20;
 r t1*0.1;
 
 point4(u0, 2, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
