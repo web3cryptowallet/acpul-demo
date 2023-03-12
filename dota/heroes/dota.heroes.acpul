@@ -51,7 +51,7 @@ rect(u0, 6, x0,y0, 10, 50);
 
 ### 19310 hero.minion.mage
 
-draw(r0, 19301);
+draw(r0, 19311);
 
 lt:=10;
 #y+=1;
