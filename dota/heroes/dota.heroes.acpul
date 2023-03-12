@@ -63,11 +63,11 @@ t+=1;
 
 t1 t*0.1;
 
-x0 0;
-y0 10;
+x 0;
+y 10;
 
 color(u0, 0,0,1,1);
-rect(u0, 6, x0,y0, 20, 45);
+rect(u0, 6, x,y, 20, 45);
 
 # head
 # circle
@@ -76,7 +76,18 @@ rect(u0, 6, x0,y0, 20, 45);
 # body
 # triangle
 
-# 
+# staff
+
+x 0;
+y 30+sin(t/10);
+w 50;
+h 15;
+r 0;
+
+point4(u0, 6, x,y, x,y+h*sin(r), x+w*cos(r),y0, x0+w0,y0+10);
+
+# new format:
+point4(u0, 6, a{x,y}, b{x,y+h*sin(r)}, c{x+w*cos(r),y0}, d{x0+w0,y0+10});
 
 ### 19320 hero.minion.captain
 
