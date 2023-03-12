@@ -30,6 +30,10 @@ if (utype==bt.minion.guard) {
   node.new.this.ex(r0, hero.minion.guard, 0);
 };
 
+if (utype==bt.minion.mage) {
+  node.new.this.ex(r0, hero.minion.mage, 0);
+};
+
 ### 3235 Unit::Complex.draw
 
 b rect(u0, 6, _0*32-42,_1*32+70, _2*32,_3*32);
