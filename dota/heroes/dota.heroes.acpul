@@ -84,7 +84,7 @@ w 50;
 h 50;
 r t1*0.1;
 
-point4(u0, 1, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
+point4(u0, 0, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
 
 ### Function params group/type
 
