@@ -86,7 +86,29 @@ w 50;
 h 20;
 r t1*0.1;
 
-point4(u0, 3, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
+rotx {
+ x _0; y _1; r _2;
+ x * cos(r) - y * sin(r);
+};
+roty {
+ x _0; y _1; r _2;
+ x * sin(r) + y * cos(r);
+};
+
+ax = rotx(x,y,r);
+ay = roty(x,y,r);
+bx = rotx(x+w,y,r);
+by = roty(x+w,y,r);
+cx = rotx(x+w,y+h,r);
+cy = roty(x+w,y+h,r);
+dx = rotx(x,y+h,r);
+dy = roty(x,y+h,r);
+
+point4(u0, 3, ax,ay, bx,by, cx,cy, dx,dy);
+#point4(u0, 3, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
+
+#    point.x = x * Math.cos(angle) - y * Math.sin(angle);
+#    point.y = x * Math.sin(angle) + y * Math.cos(angle);
 
 ### Function params group/type
 
