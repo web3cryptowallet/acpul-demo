@@ -67,7 +67,7 @@ x 0;
 y 10;
 
 color(u0, 0,0,1,1);
-rect(u0, 6, x,y, 20, 45);
+#rect(u0, 6, x,y, 20, 45);
 
 # head
 # circle
