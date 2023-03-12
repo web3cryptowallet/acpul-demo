@@ -102,14 +102,14 @@ point4v0 { # named - CASE.A, CASE.B
 };
 
 point4v2 { # grouped/typed - CASE.B
- a.x
- a.y
+ a.x;
+ a.y;
 };
 
 point4xxx(u0, 6, point4:{a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}}); # CASE.B
 
 point4v3 {
-  point.a.x
+  point.a.x;
 };
 
 #point4xxx {
