@@ -72,7 +72,7 @@ node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
 
 #s:=2;
-#s:=3;
+s:=3;
 #s:=10;
 #y:=-600;
 #x:=-200;
