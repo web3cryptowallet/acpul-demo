@@ -81,6 +81,10 @@ _ @draw.extra;
 
 # staff
 
+circle1 
+ # u0, mode, x,y, segs, radius 
+ circle(_0, _1, _2,_3, _4, 0, _5, 0);
+
 color(u0, 1,1,0.5,0.5);
 circle1(u0, 5, 0,80, 0, 20);
 
