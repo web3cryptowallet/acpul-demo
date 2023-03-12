@@ -86,23 +86,27 @@ r 0;
 
 point4(u0, 6, x,y, x,y+h*sin(r), x+w*cos(r),y0, x0+w0,y0+10);
 
+### Function params group/type
+
 # new format:
-point4xxx(u0, 6, x,y, x1,y1, x2,y2, x3,y3);
-point4xxx(u0, 6, a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3});
+point4xxx(u0, 6, x,y, x1,y1, x2,y2, x3,y3); # CASE.A
+point4xxx(u0, 6, a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}); # CASE.B
 
 
-point4v0 { # unnamed
+point4v0 { # unnamed - CASE.A, CASE.B
  x _0;..
 };
 
-point4v0 { # named
+point4v0 { # named - CASE.A, CASE.B
  x,y, x1,x2..
 };
 
-point4v2 { # grouped/typed
+point4v2 { # grouped/typed - CASE.B
  a.x
  a.y
 };
+
+point4xxx(u0, 6, a:{x,y}, b:{x1,y1}, c:{x2,y2}, d:{x3,y3}); # CASE.B
 
 point4v3 {
   
