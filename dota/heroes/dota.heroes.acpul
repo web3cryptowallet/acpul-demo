@@ -96,14 +96,18 @@ roty {
 };
 
 point4r {
- ax rotx(x,y,r);
- ay roty(x,y,r);
- bx rotx(x+w,y,r);
- by roty(x+w,y,r);
- cx rotx(x+w,y+h,r);
- cy roty(x+w,y+h,r);
- dx rotx(x,y+h,r);
- dy roty(x,y+h,r);
+ x0 _0; y0 _1;
+ x1 _0; y1 _1;
+ x2 _0; y2 _1;
+ x3 _0; y3 _1;
+ ax rotx(x0,y0,r);
+ ay roty(x0,y0,r);
+ bx rotx(x1,y1,r);
+ by roty(x1,y1,r);
+ cx rotx(x2,y2,r);
+ cy roty(x2,y2,r);
+ dx rotx(x3,y3,r);
+ dy roty(x3,y3,r);
 
  point4(u0, 3, ax,ay, bx,by, cx,cy, dx,dy);
 };
