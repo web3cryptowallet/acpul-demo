@@ -111,7 +111,7 @@ x 0;
 y 0;
 w 50;
 h 20;
-r t1*0.1;
+r t1*0.1*10;
 
 point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
