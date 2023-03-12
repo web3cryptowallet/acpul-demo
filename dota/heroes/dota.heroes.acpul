@@ -75,11 +75,12 @@ _ @draw.extra;
 
 # head
 
+x 0+sin(t);
+
 color(u0, 1,1,0.5,0.5);
-circle1(u0, 6, 0,50, 10, 20);
+circle1(u0, 6, x,50, 10, 20);
 
 color(u0, 0,0,1,1);
-x 0+sin(t);
 y 50;
 h 23;
 w 20;
