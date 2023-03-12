@@ -105,7 +105,7 @@ triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
 # staff
 
 color(u0, 1,0.5,0.5,1);
-
+_ @draw.extra;
 
 x 0;
 y 0;
