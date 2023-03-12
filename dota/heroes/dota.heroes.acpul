@@ -122,7 +122,7 @@ point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 color.rand(u0, 1);
 x1 x;
 x x1+w;
-y 0;
+y 10;
 cx rotx(x,y,r);
 cy roty(x,y,r);
 circle1(u0, 6, cx,cy, 5, 10);
