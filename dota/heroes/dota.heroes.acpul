@@ -120,6 +120,9 @@ point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
 
 color.rand(u0, 1);
+x w;
+y 0;
+cx rotx(x,y);
 circle1(u0, 6, cx,cy, 5, 10);
 
 #point4(u0, 3, x,y, x,(y + h*sin(r)), (x + w*cos(r)),y, (x + w*sin(r)),(y + h*cos(r)));
