@@ -86,7 +86,7 @@ triangle(u0, 6, x,y, x+w,y, x+w/2,y+h);
 
 # head
 
-x 0+sin(t1);
+x 15+sin(t1);
 
 color(u0, 1,1,0.5,0.5);
 circle1(u0, 6, x,50, 10, 20);
