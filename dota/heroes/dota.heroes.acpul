@@ -75,6 +75,37 @@ _ @draw.extra;
 # body
 # triangle
 
+x 0;
+y 0;
+w 30;
+h 50;
+
+color(u0, 0,0,1,1);
+
+triangle(u0, 6, x,y, x+w,y, x+w/2,y+h);
+
+# head
+
+x 0+sin(t1);
+
+color(u0, 1,1,0.5,0.5);
+circle1(u0, 6, x,50, 10, 20);
+
+color(u0, 0,0,1,0.5);
+circle1(u0, 6, x+5,50+3, 3, 10);
+
+color(u0, 0,0,1,1);
+y 50;
+h 23;
+w 20;
+triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
+
+triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
+
+# staff
+
+color(u0, 1,0.5,0.5,1);
+
 
 x 0;
 y 0;
