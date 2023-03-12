@@ -89,7 +89,7 @@ x 0;
 y 50;
 h 23;
 w 20;
-triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y);
+triangle(u0, 6, x,y-h/2, x,y+h/2, x-w,y-10);
 
 
 color(u0, 0,0,0.5,0.5);
