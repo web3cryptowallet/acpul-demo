@@ -66,6 +66,9 @@ t1 t*0.1;
 x 0;
 y 10;
 
+_ @draw.extra;
+
+
 #color(u0, 0,0,1,1);
 #rect(u0, 6, x,y, 20, 45);
 
@@ -89,8 +92,6 @@ y 0;
 w 50;
 h 20;
 r t1*0.1;
-
-_ @draw.extra;
 
 point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
