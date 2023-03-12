@@ -142,6 +142,11 @@ point4r {
  point4(_0, _1, ax,ay, bx,by, cx,cy, dx,dy);
 };
 
+
+circle1 
+ # u0, x,y, segs, radius 
+ circle(_0, _1,_2, _3, 0, _4, 0);
+
 # DRAW EXTRA ]
 
 
