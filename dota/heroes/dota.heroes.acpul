@@ -164,9 +164,9 @@ point4r {
 };
 
 
-#circle1 
+circle1 
  # u0, mode, x,y, radius, segs 
-# circle(_0, _1, _2,_3, _4, 0, _5, 0);
+ circle(_0, _1, _2,_3, _4, 0, _5, 0);
 
 # DRAW EXTRA ]
 
