@@ -34,7 +34,7 @@ minion.cy 80;
 minion0.cx minion.cx;
 minion0.cy minion.cy;
 
-minion1.cx minion.cx+10;
+minion1.cx minion.cx+5;
 minion1.cy minion.cy+10;
 
 nodenew(r0, OBJECT, ot.unit, minion0.cx,minion0.cy, team, ost.bot, obt.minion.guard,0,0);
