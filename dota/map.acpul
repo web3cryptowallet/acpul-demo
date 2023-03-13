@@ -74,9 +74,9 @@ node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 #_ @1100;
 #_ @util.gl.std;
 #_ @sys.llog;
-#_ @sys.os;
+_ @sys.os;
 _ @os.basic;
-#_ @os.basic.ui;
+_ @os.basic.ui;
 
 #28719 # ocean.bubbles1
 
