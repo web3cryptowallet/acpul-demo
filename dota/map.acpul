@@ -18,6 +18,10 @@ team obj.teams.green;
 
 nodenew node.new.this.ex8(__);
 
+if (r0) {
+ new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28597); # hex
+};
+
 l1:=OBJECT;
 l2:=r0;
 
