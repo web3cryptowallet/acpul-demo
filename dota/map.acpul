@@ -30,6 +30,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28711); # pioneer.smile 
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28700); # for.portal
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28514); # core
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28500); # effect2
