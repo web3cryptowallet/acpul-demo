@@ -18,6 +18,8 @@ team obj.teams.green;
 
 nodenew node.new.this.ex8(__);
 
+sn0 0;
+
 if (r0) {
  new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28597); # hex
 };
@@ -84,7 +86,6 @@ _ @os.basic.ui;
 
 #28719 # ocean.bubbles1
 
-sn0 0;
 
 if (r0) {
  # boss.ufo
