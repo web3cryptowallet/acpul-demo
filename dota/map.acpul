@@ -71,7 +71,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28561); # bg
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28573); # bg
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28575);
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28576);
 };
 
 l1:=OBJECT;
