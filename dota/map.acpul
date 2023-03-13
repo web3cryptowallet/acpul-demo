@@ -100,7 +100,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28585); # gold
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28583); # 
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28575); # 
-# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28571); # 
+ new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28571); # 
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28597); # hex
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28598); # hex2
 
