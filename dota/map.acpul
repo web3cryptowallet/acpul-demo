@@ -37,7 +37,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,1, w/1,h/1, 1, 70014,107216); #  p2p.net1
 # new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28719); # ocean.bubbles1 X!
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28699); 
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28698); 
 };
 
 l1:=OBJECT;
