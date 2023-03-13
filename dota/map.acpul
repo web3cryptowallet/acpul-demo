@@ -83,7 +83,7 @@ _ @os.basic.ui;
 sn0 0;
 
 if (r0) {
- new.ui.shader.node(sn0, 0,0,1, 768/2,512/2, 1, 70014,28391); # ufo1
+ new.ui.shader.node(sn0, 0,0,0.2, 768/2,512/2, 1, 70014,28391); # ufo1
 
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,107216); #  p2p.net1
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28596); # grid
