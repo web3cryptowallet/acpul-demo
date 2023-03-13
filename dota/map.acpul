@@ -65,7 +65,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28556); # salute
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28557);
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28558);
 };
 
 l1:=OBJECT;
