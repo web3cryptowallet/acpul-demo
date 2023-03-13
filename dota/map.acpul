@@ -63,7 +63,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28546); # hexgrid
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28549);
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28550);
 };
 
 l1:=OBJECT;
