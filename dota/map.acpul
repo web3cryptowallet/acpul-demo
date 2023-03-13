@@ -75,7 +75,7 @@ node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 sn0 0;
 
 if (r0) {
- new.ui.shader.node(sn0, 0,0,1, 768/2,512/2, 1, 70014,28391); # ufo1
+ new.ui.shader.node(sn0, 0,0,1, 768/2,512/2, 1, 70014,28719); # ufo1
 };
 
 #s:=2;
