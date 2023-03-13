@@ -37,6 +37,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28506); # eff3
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28517); # eff5
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); # eff6
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
@@ -48,7 +49,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,1, w/1,h/1, 1, 70014,107216); #  p2p.net1
 # new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28719); # ocean.bubbles1 X!
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); 
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28523); 
 };
 
 l1:=OBJECT;
