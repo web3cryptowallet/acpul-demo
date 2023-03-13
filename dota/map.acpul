@@ -120,4 +120,4 @@ color(u0, 0,0.7,0.2,1);
 #psize1(1);
 #rect(u0, 6, 0,0,400,200);
 #
-#box2d.world.draw(u0, b2d.world);
+box2d.world.draw(u0, b2d.world);
