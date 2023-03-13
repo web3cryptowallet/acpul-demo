@@ -40,6 +40,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28517); # eff5
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); # eff6
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28523); # eff7
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28570); # eff8
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
@@ -69,7 +70,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28558); # bg
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28561); # bg
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28570);
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28571);
 };
 
 l1:=OBJECT;
