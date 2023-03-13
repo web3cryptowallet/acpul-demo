@@ -31,7 +31,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28700); # for.portal
 
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
 
 # new.ui.shader.node(sn0, 0,0,1, w/2,h/2, 1, 70014,28597); # hex
 # new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28596); # grid
@@ -39,7 +39,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,1, w/1,h/1, 1, 70014,107216); #  p2p.net1
 # new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28719); # ocean.bubbles1 X!
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); 
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28591); 
 };
 
 l1:=OBJECT;
