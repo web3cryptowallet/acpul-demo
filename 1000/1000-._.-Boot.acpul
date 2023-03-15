@@ -252,7 +252,7 @@ _ @1100;
 if (r0) {
  _ @util.i18n;
 
- i18n.clear();
+ i18n.reset();
 
  i18n.init();
 # i18n.init(999);
