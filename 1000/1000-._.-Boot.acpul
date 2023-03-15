@@ -391,12 +391,12 @@ _ @sys.media;
 media.init(r0);
 media.step(u0, dt);
 
-_ @1100;
-_ @util.i18n;
+#_ @1100;
+#_ @util.i18n;
 
-if (r0) {
- i18n.init();
-};
+#if (r0) {
+# i18n.init();
+#};
 
 t+=dt;
 
