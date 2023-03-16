@@ -139,6 +139,13 @@ str.parse.value
  io(u0, 502100, _0, _1, _2,_3);
 
 # str ]
+# lib.future [
+
+obj.search 
+ # u0, mode, data, prompt -> res
+ io(_0,  502101, _1, _2, _3);
+
+# lib.future ]
 # dma [
 
 dma.size
@@ -477,6 +484,8 @@ json.encode
  io(u0, 500521, _0, _1, 0,0);
 
 # json ]
+
+
 
 ### sys.obj.volatile
 
