@@ -93,6 +93,14 @@ sinc sin(_0)/_0;
 
 # math.future ]
 
+# lib.future [
+
+search 
+ # u0, mode, data, prompt -> res
+ io(_0,  _1, _2, _3);
+
+# lib.future ]
+
 #r+=0.01;
 #r+=0.1;
 #r+=sin(r);
