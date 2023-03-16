@@ -83,6 +83,7 @@ if (r0) {
  new.ui.shader.node(sn0, 0,-100,0.5, w*2,200, 1, 70014,28728); # dota.border.fans
 
  new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28729); # fireball.bio
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28730); # fireball.bio
 };
 
 l1:=OBJECT;
