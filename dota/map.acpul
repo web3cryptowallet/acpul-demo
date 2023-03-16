@@ -85,7 +85,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28729); # fireball.bio
  #new.ui.shader.node(sn0, 0,0,0.5, 100,100, 1, 70014,28730); # fireball2
  new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28731); # bg.fract
- new.ui.shader.node(sn0, 0,0,0.5, 200,200, 1, 70014,28732); # 
+ new.ui.shader.node(sn0, 20,0,0.5, 200,200, 1, 70014,28732); # 
 };
 
 l1:=OBJECT;
