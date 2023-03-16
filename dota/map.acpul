@@ -70,9 +70,9 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28558); # bg
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28561); # bg
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28573); # bg
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28583); # bg
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28583); # bg
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28720); # water1
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28720); # water1
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28721); # water2
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28722); # forest72
 };
