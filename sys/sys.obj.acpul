@@ -142,8 +142,8 @@ str.parse.value
 # lib.future [
 
 obj.search 
- # u0, mode, data, prompt -> res
- io(_0,  502101, _1, _2, _3);
+ # u0, mode, data, prompt, p0 -> res
+ io(_0,  502101, _1, _2, _3, _4);
 
 # lib.future ]
 # dma [
