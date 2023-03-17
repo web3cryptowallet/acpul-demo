@@ -31,7 +31,7 @@ coin {
  x _0;
  y _1;
  color(u0, 1,1,0,1);
- circle1(u0, 6, x,y, 10, 20);
+ circle1(u0, 6, x,y, 1, 20);
 };
 
 i=0;while(i<20) {
