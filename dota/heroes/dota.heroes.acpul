@@ -159,7 +159,7 @@ golden.pot {
  rect(u0, 6, x,y, w, 10);
 
  color(u0, 1,1,0.0,1);
- rect(u0, 6, x,y, w, 1);
+ rect(u0, 6, x,y+1, w, 1);
 };
 
 x 0-3;
