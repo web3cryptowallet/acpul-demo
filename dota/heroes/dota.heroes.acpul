@@ -84,7 +84,7 @@ head {
 
  h0 8;
  color(u0, 0.1,0.5,1,1);
- rect(u0, 6, x+4,y, 20-8, h0);
+# rect(u0, 6, x+4,y, 20-8, h0);
 
  hat(x,y+h0,w,h);
 
