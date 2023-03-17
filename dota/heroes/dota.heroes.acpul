@@ -54,6 +54,7 @@ eye {
 mouth {
  # x,y
  x _0; y _1;
+ w _2; h _3;
 # x0 x;
 # y0 y;
 # x1 x0+10;
@@ -94,7 +95,7 @@ head {
  color(u0, 0,1,1,1);
  circle(u0, 3, x+w/2, y+5, 5, 20, 15, 0);
 
- mouth(x,y);
+ mouth(x,y,w,h);
 };
 
 head;
