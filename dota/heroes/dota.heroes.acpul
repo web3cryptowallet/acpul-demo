@@ -165,7 +165,7 @@ w 13;
 
 golden.pot(x,y,w,h);
 
-y 15;
+y 20;
 
 
 coin {
