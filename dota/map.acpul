@@ -148,6 +148,8 @@ if (r0) {
 node.prop.x.s(u0, hero0, 40);
 node.prop.y.s(u0, hero0, 0+sin(t)*10);
 
+t+=dt;
+
 _ @3200;
 
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
