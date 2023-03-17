@@ -156,7 +156,7 @@ golden.pot {
  rect(u0, 6, x,y, 12, 8);
 };
 
-x 10;
+x -5;
 
 golden.pot(x,y,w,h);
 
