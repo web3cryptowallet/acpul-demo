@@ -166,7 +166,7 @@ golden.pot {
  rect(u0, 6, x+w0/2,y+5, w0, 1);
  rect(u0, 6, x+w0/2,y+1, 1, 2);
  rect(u0, 6, x+w0/2+w0-1,y+3, 1, 2);
- rect(u0, 6, x+w/2-0.5,y, 1, 7);
+ rect(u0, 6, x+w/2-2,y, 1, 7);
 # rect(u0, 6, x+w/2+1,y, 1, 7);
 };
 
