@@ -184,7 +184,7 @@ i=0;while(i<20) {
  x0 = x+rnd(u0)*w0;
  y0 = y+rnd(u0)*h0;
  x0 = x+sin(i)*w0;
- y0 = y+sin(i+t)*h0;
+ y0 = y+sin(i+t*0.1)*h0;
  coin(x0,y0);
  i+=1;
 };
