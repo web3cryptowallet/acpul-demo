@@ -160,10 +160,11 @@ golden.pot {
 };
 
 x 0-3;
-y 12;
+y 15;
 w 13;
 
 golden.pot(x,y,w,h);
+
 
 coin {
  x _0;
