@@ -37,6 +37,7 @@ coin {
 i=0;while(i<20) {
  rnd()
  coin(x0,y0);
+ i+=1;
 };
 
 ### 19300 hero.minion.guard
