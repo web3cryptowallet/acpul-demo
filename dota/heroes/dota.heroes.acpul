@@ -100,6 +100,19 @@ body {
  rect(u0, 6, x,y, 20, 20);
 };
 
+leg.l {
+ x _0; y _1; w _2; h _3;
+
+ color(u0, 0,0.9,0,1);
+ rect(u0, 6, x,y, 5, 10);
+};
+
+leg.r {
+ x _0; y _1; w _2; h _3;
+
+ color(u0, 0,0.9,0,1);
+ rect(u0, 6, x-2,y, 5, 10);
+};
 
 x 0;
 y 30;
@@ -118,15 +131,6 @@ y 0;
 leg.l(x,y,w,h);
 leg.r(x,y,w,h);
 
-leg.l {
- x _0; y _1; w _2; h _3;
-
- color(u0, 0,0.9,0,1);
- rect(u0, 6, x,y, 5, 10);
-};
-
-leg.r {
-};
 
 
 coin {
