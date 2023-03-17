@@ -24,9 +24,6 @@ _ @draw.extra;
 x 0;
 y 0;
 
-color(u0, 0,0.9,0,1);
-rect(u0, 6, x,y, 20, 45);
-
 hat {
  x _0; y _1;
  w _2; h _3;
@@ -99,6 +96,16 @@ head {
 };
 
 head;
+
+body {
+ x 0;
+ y 50;
+ w 20;
+ h 50;
+
+ color(u0, 0,0.9,0,1);
+ rect(u0, 6, x,y, 20, 45);
+}
 
 coin {
  x _0;
