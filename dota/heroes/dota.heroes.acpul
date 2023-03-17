@@ -106,9 +106,9 @@ y 40;
 w 20;
 h 50;
 
-y 10;
-
 head(x,y,w,h);
+
+y 10;
 
 body(x,y,w,h);
 
