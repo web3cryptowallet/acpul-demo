@@ -66,6 +66,7 @@ head {
  h1 6;
  eye(x,y+h1,w,h);
 
+ psize(u0, 1);
  color(u0, 0,1,1,1);
  circle(u0, 3, x+w/2, y+5, 5, 20, 10, 0);
 
