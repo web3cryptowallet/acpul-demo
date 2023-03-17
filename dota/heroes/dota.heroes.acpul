@@ -13,9 +13,12 @@ hero.leprechaun 19330;
 
 ### 19330 hero.leprechaun
 
+draw(r0, 19301);
 
+t+=1;
 
 ### 19331 hero.leprechaun.draw
+
 
 
 ### 19300 hero.minion.guard
