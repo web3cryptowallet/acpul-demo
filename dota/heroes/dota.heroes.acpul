@@ -112,7 +112,7 @@ y 10;
 
 body(x,y,w,h);
 
-x 0;
+x 10;
 y 0;
 
 leg.l(x,y,w,h);
