@@ -41,11 +41,12 @@ hat {
 };
 
 eye {
- x _0;
- y _1;
+ x _0; y _1;
+ w _2; h _3;
 
  color(u0, 1,1,0,1);
  circle1(u0, 6, x+7,y, 1, 20);
+ circle1(u0, 6, x+w-7*2,y, 1, 20);
 
 };
 
@@ -62,7 +63,7 @@ head {
  hat(x,y+h0,w,h);
 
  h1 7;
- eye(x,y+h1);
+ eye(x,y+h1,w,h);
 };
 
 head;
