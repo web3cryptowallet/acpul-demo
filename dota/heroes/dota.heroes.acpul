@@ -8,6 +8,8 @@ hero.minion.guard 19300;
 hero.minion.mage 19310;
 hero.minion.captain 19320;
 
+hero.leprechaun 19330;
+
 ### 19300 hero.minion.guard
 
 draw(r0, 19301);
