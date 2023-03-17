@@ -19,12 +19,23 @@ t+=1;
 
 ### 19331 hero.leprechaun.draw
 
+_ @draw.extra;
+
 x 0;
 y 0;
 
 color(u0, 0,0,0,1);
 rect(u0, 6, x,y, 20, 45);
 
+coin {
+ x _0;
+ y _1;
+ color(u0, 1,1,0,1);
+ circle1(u0, 6, x,y, 10, 20);
+};
+
+
+coin(x0,y0);
 
 ### 19300 hero.minion.guard
 
