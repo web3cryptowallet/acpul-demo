@@ -24,7 +24,7 @@ _ @draw.extra;
 x 0;
 y 0;
 
-color(u0, 0,1,0,1);
+color(u0, 0,0.5,0,1);
 rect(u0, 6, x,y, 20, 45);
 
 
