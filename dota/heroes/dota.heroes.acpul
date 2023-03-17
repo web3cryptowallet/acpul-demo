@@ -13,7 +13,7 @@ hero.leprechaun 19330;
 
 ### 19330 hero.leprechaun
 
-draw(r0, 19301);
+draw(r0, 19331);
 
 t+=1;
 
