@@ -88,7 +88,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 50,0,0.5, 200,200, 1, 70014,28732); # 
 # new.ui.shader.node(sn0, 0,-20,1, 200,200, 1, 70014,28732); # fireball3
 # new.ui.shader.node(sn0, 0,0,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
- new.ui.shader.node(sn0, 0,0,0.5/2, 100,100, 1, 70014,28734); # 
+ new.ui.shader.node(sn0, 0,0,0.5/2, 100,100, 1, 70014,28734); # eye34
 };
 
 l1:=OBJECT;
