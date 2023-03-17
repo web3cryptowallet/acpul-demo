@@ -99,7 +99,7 @@ head {
  color(u0, 0,1,1,1);
  circle(u0, 3, x+w/2, y+5, 5, 20, 15, 0);
 
- mouth(x+q*50,y+q*20);
+ mouth(x,y);
 };
 
 head;
