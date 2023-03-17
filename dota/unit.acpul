@@ -1,7 +1,5 @@
 ### 3230 Unit
 
-r0:=k==0;
-
 draw(r0, 3231);
 
 _ @1010;
@@ -71,8 +69,6 @@ node.prop.r.s(u0, smile0, t*10);
 #smile;
 
 t+=1;
-
-k:=1;
 
 ### 3231 Unit.draw
 
