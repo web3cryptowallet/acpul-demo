@@ -107,6 +107,9 @@ body {
  rect(u0, 6, x,y, 20, 45);
 }
 
+body;
+
+
 coin {
  x _0;
  y _1;
