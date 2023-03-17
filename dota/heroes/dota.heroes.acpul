@@ -10,6 +10,14 @@ hero.minion.captain 19320;
 
 hero.leprechaun 19330;
 
+
+### 19330 hero.leprechaun
+
+
+
+### 19331 hero.leprechaun.draw
+
+
 ### 19300 hero.minion.guard
 
 draw(r0, 19301);
