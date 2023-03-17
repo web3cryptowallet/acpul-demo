@@ -153,7 +153,7 @@ hand.r(x,y,w,h);
 golden.pot {
    x _0; y _1; w _2; h _3;
 
- color(u0, 0.5,0.2,0.8,1);
+ color(u0, 0.5,0.2,0.0,1);
  rect(u0, 6, x,y, 12, 8);
 };
 
