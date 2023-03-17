@@ -35,7 +35,7 @@ coin {
 };
 
 w0 10;
-h0 10;
+h0 5;
 
 i=0;while(i<20) {
  x0 x+rnd(u0)*w0;
