@@ -35,8 +35,9 @@ coin {
 };
 
 i=0;while(i<20) {
-# rnd()
-# coin(x0,y0);
+ x0 x+rnd(u0);
+ y0 y+rnd(u0);
+ coin(x0,y0);
  i+=1;
 };
 
