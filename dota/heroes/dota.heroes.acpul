@@ -74,10 +74,7 @@ mouth {
 
 
 head {
- x 0;
- y 40;
- w 20;
- h 50;
+ x _0; y _1; w _2; h _3;
 
  h0 8;
  color(u0, 0.1,0.5,1,1);
@@ -95,7 +92,6 @@ head {
  mouth(x,y,w,h);
 };
 
-head;
 
 body {
  x _0; y _1; w _2; h _3;
@@ -104,10 +100,15 @@ body {
  rect(u0, 6, x,y, 20, 20);
 };
 
+
 x 0;
-y 10;
+y 40;
 w 20;
 h 50;
+
+y 10;
+
+head(x,y,w,h);
 
 body(x,y,w,h);
 
