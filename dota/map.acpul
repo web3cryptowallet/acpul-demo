@@ -147,7 +147,7 @@ if (r0) {
 
 node.prop.x.s(u0, hero0, 20);
 #node.prop.x.s(u0, hero0, 40);
-node.prop.y.s(u0, hero0, 0);
+node.prop.y.s(u0, hero0, 10);
 
 t+=dt;
 
