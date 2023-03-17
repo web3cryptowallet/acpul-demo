@@ -67,7 +67,7 @@ head {
  eye(x,y+h1,w,h);
 
  color(u0, 0,1,1,1);
- circle(u0, 3, x+w/2, y, 5, 20, 10, 0);
+ circle(u0, 3, x+w/2, y+10, 5, 20, 10, 0);
 
  mouth(x+q*50,y+q*20);
 };
