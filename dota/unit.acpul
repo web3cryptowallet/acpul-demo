@@ -34,7 +34,10 @@ if (r0) { #hack!
  if (subtype==ost.player) {
   a = rnd(u0)<0.5;
   b = 1-a;
+  c = 
   node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
+
+  node.new.this.ex(r0*b, hero.bobann, player.id);
 
   node.new.this.ex(r0*b, hero.bobann, player.id);
 
