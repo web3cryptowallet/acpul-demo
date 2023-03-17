@@ -171,7 +171,8 @@ y 21;
 coin {
  x _0;
  y _1;
- color(u0, 1,0.9,0.1,1);
+ col 0;
+ color(u0, 1,0.9+sin(col),0.1,1);
  circle1(u0, 6, x,y, 1, 20);
  color(u0, 1,1,0,1);
  circle1(u0, 3, x,y, 1, 20);
@@ -185,7 +186,7 @@ i=0;while(i<20) {
  y0 = y+rnd(u0)*h0;
  x0 = x+(0.5+0.5*sin(i*10))*w0;
  y0 = y+(0.5+0.5*sin(i+t*0.1))*h0;
- coin(x0,y0);
+ coin(x0,y0,i);
  i+=1;
 };
 
