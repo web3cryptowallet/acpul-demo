@@ -141,6 +141,7 @@ body(x,y,w,h);
 
 
 hand.l(x,y,w,h);
+hand.r(x,y,w,h);
 
 coin {
  x _0;
