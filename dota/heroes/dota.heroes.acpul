@@ -46,7 +46,7 @@ eye {
 
  color(u0, 1,1,0,1);
  circle1(u0, 6, x+7,y, 1, 20);
- circle1(u0, 6, x+w-7*2,y, 1, 20);
+ circle1(u0, 6, x+w,y, 1, 20);
 
 };
 
