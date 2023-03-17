@@ -19,6 +19,8 @@ t+=1;
 
 ### 19331 hero.leprechaun.draw
 
+color(u0, 0,0,0,1);
+rect(u0, 6, x0,y0, 20, 45);
 
 
 ### 19300 hero.minion.guard
