@@ -34,8 +34,10 @@ coin {
  circle1(u0, 6, x,y, 10, 20);
 };
 
-
-coin(x0,y0);
+i=0;while(i<20) {
+ rnd()
+ coin(x0,y0);
+};
 
 ### 19300 hero.minion.guard
 
