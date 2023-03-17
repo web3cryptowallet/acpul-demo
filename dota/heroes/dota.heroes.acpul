@@ -114,6 +114,7 @@ h 50;
 body(x,y,w,h);
 
 leg.l(x,y,w,h);
+leg.r(x,y,w,h);
 
 leg.l {
   
