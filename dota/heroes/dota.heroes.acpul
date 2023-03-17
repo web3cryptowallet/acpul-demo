@@ -68,7 +68,7 @@ mouth {
  w0 5;
  
  h0 8+sin(t*1)*2;
- x0 x-w0/2;
+ x0 x+w0/2;
  y0 y;
  color(u0, 0,1,0,1);
  triangle(u0, 6, x0,y0, x0+w0/2,y0-h0, x0+w0,y0);
