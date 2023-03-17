@@ -27,6 +27,13 @@ y 0;
 color(u0, 0,0.9,0,1);
 rect(u0, 6, x,y, 20, 45);
 
+heat {
+ color(u0, 0,0.9,0,1);
+ rect(u0, 6, x,y, 20, 45);
+  
+};
+
+heat;
 
 
 coin {
