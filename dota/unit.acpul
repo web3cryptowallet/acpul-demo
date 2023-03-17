@@ -39,7 +39,7 @@ if (r0) { #hack!
   node.new.this.ex(r0*b, hero.bobann, player.id);
 
   sn0 0;
-  new.ui.shader.node(sn0, 0-20,10,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
+  new.ui.shader.node(sn0, 0-15,10,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
 
  };
 
