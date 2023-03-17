@@ -36,7 +36,7 @@ hat {
  color(u0, 0,1,0,1);
  rect(u0, 6, x,y, w, 3);
  color(u0, 1,1,0,1);
- rect(u0, 6, x,y+5, w, 1);
+ rect(u0, 6, x,y+3, w, 1);
   
 };
 
