@@ -32,6 +32,9 @@ if (r0) { #hack!
   node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
 
   node.new.this.ex(r0*b, hero.bobann, player.id);
+
+  new.ui.shader.node(sn0, 0,0,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
+
  };
 
 
