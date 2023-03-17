@@ -35,6 +35,15 @@ heat {
 
 heat;
 
+head {
+ x 0;
+ y 50;
+ color(u0, 0,0.9,0,1);
+ rect(u0, 6, x,y, 20, 45);
+  
+};
+
+head;
 
 coin {
  x _0;
