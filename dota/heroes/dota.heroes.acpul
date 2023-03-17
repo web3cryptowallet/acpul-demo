@@ -62,7 +62,7 @@ head {
 
  hat(x,y+h0,w,h);
 
- h1 7;
+ h1 8;
  eye(x,y+h1,w,h);
 };
 
