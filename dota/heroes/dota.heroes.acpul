@@ -104,7 +104,7 @@ leg.l {
  x _0; y _1; w _2; h _3;
 
  color(u0, 0.0,0.8,0,1);
- rect(u0, 6, x+2,y+sin(t), 5, 10);
+ rect(u0, 6, x+2,y+sin(t), 5, 20);
 };
 
 leg.r {
