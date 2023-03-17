@@ -161,7 +161,7 @@ golden.pot {
 
 x 0-3;
 y 12;
-w 13;
+w 17;
 
 golden.pot(x,y,w,h);
 
