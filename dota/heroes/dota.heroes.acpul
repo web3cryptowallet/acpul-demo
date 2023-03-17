@@ -44,7 +44,7 @@ eye {
  x _0; y _1;
  w _2; h _3;
 
- psize(u0, 10);
+ psize(u0, 2);
  color(u0, 0,1,1,1);
  circle1(u0, 2, x+7,y, 1, 20);
  circle1(u0, 2, x+w-7,y, 1, 20);
