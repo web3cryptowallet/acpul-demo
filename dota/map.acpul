@@ -182,7 +182,7 @@ if (r0) {
  x0 0; y0 0; w0 1000; h0 1000;
 
 tex0boot1 u14;
-tex0src  0;tex0boot1;
+tex0src  tex0boot1;
 
  imgvw0 0;
  Image @nodes.image;
