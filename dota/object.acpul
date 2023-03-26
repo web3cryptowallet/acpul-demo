@@ -151,10 +151,8 @@ context {
 };
 # context ]
 
-if (type==types.unit)
-{
- if (subtype==subtypes.player)
- {
+if (type==types.unit) {
+ if (subtype==subtypes.player) {
 # watch(player.id);
 # watch(get(u0, gnet.mem.wr.a, 2));
   x+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*30;
@@ -173,8 +171,7 @@ body0 l10;
 shape0 l11;
 fixture0 l12;
 
-if (type==types.unit)
-{
+if (type==types.unit) {
 if (r0) {
 
  bb.def0(u0, box2d.dynamic, x,y, 0);
@@ -197,8 +194,7 @@ box2d.body.get.position(u0, body0);
 #y:=o1;
 
 
- if (subtype==subtypes.player)
- {
+ if (subtype==subtypes.player) {
   vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*3000*10;
   vy get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*3000*10;
   box2d.body.set.linear.velocity(u0, body0, vx,vy);
