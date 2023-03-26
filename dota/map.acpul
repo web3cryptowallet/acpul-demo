@@ -191,8 +191,8 @@ tex0src  tex0boot1;
 
  texview0 0;
  Image @nodes.image;
- texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.texture, tex0src, 0,0);
-# texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, image.mode.file, 12000,0,1);
+# texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.texture, tex0src, 0,0);
+ texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, image.mode.file, 12000,0,1);
 };
 
 #s:=2;
