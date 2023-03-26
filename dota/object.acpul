@@ -73,14 +73,15 @@ players {
 
 r0:=k==0;
 
-draw(r0, 3221);
-
-type p0;
 if (r0)
 {
  x:=p1;
  y:=p2;
 };
+
+draw(r0, 3221);
+
+type p0;
 team p3;
 subtype p4;
 player.id p5;
