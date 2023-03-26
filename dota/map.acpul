@@ -203,7 +203,7 @@ create.asset {
   node.prop.visible.s(u0, pin0, 0);
  }; 
 
- texview0:=new.node0a(u0, nodes.image, 180,30,1,50,50, Image.mode.file, 42000,0,2); # skill
+ texview0:=new.node0a(u0, nodes.image, 80,30,1,50,50, Image.mode.file, 42000,0,2); # skill
  texview0:=new.node0a(u0, nodes.image, 250-20+2,30,1,50,50, Image.mode.file, 42000,0,3); # skill
  texview0:=new.node0a(u0, nodes.image, 300-20+2*2,30,1,50,50, Image.mode.file, 42000,0,4); # skill
  texview0:=new.node0a(u0, nodes.image, 350-20+2*3,30,1,50,50, Image.mode.file, 42000,0,5); # skill
