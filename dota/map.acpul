@@ -208,7 +208,7 @@ create.asset {
  texview0:=new.node0a(u0, nodes.image, 250,50,1,50,50, Image.mode.file, 42000,0,3);
  texview0:=new.node0a(u0, nodes.image, 300,50,1,50,50, Image.mode.file, 42000,0,4);
  texview0:=new.node0a(u0, nodes.image, 350,50,1,50,50, Image.mode.file, 42000,0,5);
- texview0:=new.node0a(u0, nodes.image, 330,-50,1,100,100, Image.mode.file, 42000,0,6);
+ texview0:=new.node0a(u0, nodes.image, 330,-30,1,100,100, Image.mode.file, 42000,0,6);
 };
 
 #s:=2;
