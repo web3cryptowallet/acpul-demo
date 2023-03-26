@@ -196,7 +196,7 @@ create.asset {
 # texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.file, 11000,0,1);
 # texview0:=new.node0(u0, nodes.image, 200,0,1,400,200, Image.mode.file, 42000,0,1);
 # texview0:=new.node0(u0, nodes.image, 200,0,1,400,200, Image.mode.file, 42000,0,1);
- texview0:=new.node0(u0, nodes.image, 200,100,1,100,50, Image.mode.file, 42000,0,2);
+ texview0:=new.node0(u0, nodes.image, 200,100,1,100,100, Image.mode.file, 42000,0,2);
 };
 
 #s:=2;
