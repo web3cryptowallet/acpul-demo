@@ -179,6 +179,10 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28597); # hex
 # new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28598); # hex2
 
+};
+
+create.asset {
+ _ @93000;
  x0 0; y0 0; w0 1000; h0 1000;
 
 tex0boot1 u14;
@@ -187,7 +191,6 @@ tex0src  tex0boot1;
  imgvw0 0;
  Image @nodes.image;
  imgvw0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.texture, tex0src, 0,0);
-
 };
 
 #s:=2;
