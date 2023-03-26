@@ -181,6 +181,9 @@ if (r0) {
 
  x0 0; y0 0; w0 100; h0 100;
 
+tex0boot1 u14;
+tex0src tex0boot1;
+
  imgvw0 0;
  Image @nodes.image;
  imgvw0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.texture, tex0src, 0,0);
