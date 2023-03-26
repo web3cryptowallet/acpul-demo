@@ -186,7 +186,7 @@ create.asset {
  _ @93000;
  x0 0; y0 0; w0 300; h0 200;
 
-tex0boot1 u13;
+tex0boot1 u14;
 tex0src  tex0boot1;
 
  texview0 0;
