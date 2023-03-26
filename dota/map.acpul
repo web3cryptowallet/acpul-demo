@@ -187,7 +187,7 @@ create.asset {
  x0 0; y0 0; w0 300; h0 200;
 
 tex0boot1 u14;
-tex0src  tex0boot1;
+tex0src  0;tex0boot1;
 
  imgvw0 0;
  Image @nodes.image;
