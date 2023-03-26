@@ -103,7 +103,7 @@ if (r0) {
 # if (type==types.shot) { node.new.this.ex(r0, SHOT, 0);};
  if (type==types.joystick) { node.new.this.ex(r0, JOYSTICK, 0);};
 };
-s:=4;
+#s:=4;
 
 
 # unit code (split later) [
