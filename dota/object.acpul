@@ -71,12 +71,12 @@ players {
 
 # types ]
 
-r0:=k==0;
+x0 p1;
+y0 p2;
 
-if (r0)
-{
- x:=p1;
- y:=p2;
+if (r0) {
+ x:=x0;
+ y:=y0;
 };
 
 draw(r0, 3221);
