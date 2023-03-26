@@ -203,7 +203,6 @@ box2d.body.get.position(u0, body0);
 };
 
 # CREATE BODY ]
-
 # alloc self context [
 
 context.d.a r5;
