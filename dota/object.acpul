@@ -97,14 +97,13 @@ MAP 3224;
 UNIT 3230;
 JOYSTICK 3270;
 
-if (r0)
-{
+if (r0) {
  if (type==types.map) { node.new.this.ex(r0, MAP, 0);};
  if (type==types.unit) { node.new.this.ex4(r0, UNIT, subtype, player.id, 0,0);};
 # if (type==types.shot) { node.new.this.ex(r0, SHOT, 0);};
  if (type==types.joystick) { node.new.this.ex(r0, JOYSTICK, 0);};
 };
-#s:=4;
+s:=4;
 
 
 # unit code (split later) [
