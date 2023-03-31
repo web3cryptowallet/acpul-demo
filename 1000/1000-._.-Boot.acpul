@@ -752,7 +752,7 @@ if (BOOT.PANEL.TOP*BOOT.PANEL) {
 ide.toggle.console {
  ide.common 15510;
  _ @ide.common;
- 
+
  if (OPEN.IDE.STARTUP==0) {
   events.push(u0, ide.pool,0, ev.ide.event.open.console, 0, 0,0,0);
  };
