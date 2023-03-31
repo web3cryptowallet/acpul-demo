@@ -527,6 +527,10 @@ volatile {
   0;
 };
 
+volatile.delete
+ # u0, key
+ set(_0, _1, 0);
+
 volatile.buffer {
  # u0, key, bid, max, overhead
  u0 _0; key _1; oid _2;
@@ -541,7 +545,14 @@ volatile.buffer {
  };
 };
 
-volatile.delete
- # u0, key
- set(_0, _1, 0);
-
+volatile.num {
+ # u0, key, bid, value
+ u0 _0;
+ key _1;
+ bid _2;
+ value _3;
+ volatile.buffer(u0, key, bid, 1,1);
+ v=buffer.get(u0, bid,0,0);
+ buffer.set(u0, bid,0,0, value);
+ v;
+};
