@@ -553,6 +553,6 @@ volatile.num {
  value _3;
  volatile.buffer(u0, key, bid, 1,1);
  v=buffer.get(u0, bid,0,0);
- buffer.set(u0, bid,0,0, value*0);
+ buffer.set(u0, bid,0,0, value*0+6);
  v;
 };
