@@ -491,19 +491,20 @@ json.encode
 
 volatile {
  get
-  # uid : object -> object
-  io(u0, 502120, _0, 0, 0,0);
+  # u0, uid : object -> object
+  io(_0, 502120, _1, 0, 0,0);
  get4
-  # id0,id1,id2,id3 -> object
-  io(u0, 502121, _0, _1, _2, _3);
+  # u0, id0,id1,id2,id3 -> object
+  io(_0, 502121, _1, _2, _3, _4);
 
  set
-  # uid : object, object
-  io(u0, 502122, _0, _1, 0,0);
- set4
-  # id0,id1,id2,id3, object
-  io(u0, 502123, _4, 0, 0, 0);
-  io(u0, 502124, _0, _1, _2, _3);
+  # u0, uid : object, object
+  io(_0, 502122, _1, _2, 0,0);
+ set4 {
+  # u0, id0,id1,id2,id3, object
+  io(_0, 502123, _5, 0, 0, 0);
+  io(_0, 502124, _1, _2, _3, _4);
+ };
 
  # get4(codeline
 
