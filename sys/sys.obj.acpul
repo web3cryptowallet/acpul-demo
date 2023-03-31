@@ -526,3 +526,22 @@ volatile {
 
   0;
 };
+
+volatile.buffer {
+ # u0, key, bid, max, overhead
+ u0 _0; key _1; oid _2;
+ max _3; overhead _4;
+ 
+ if (oid==0) {
+  oid:=volatile.get(u0, key);
+  if (oid<0) {
+   oid:=buffer.new(u0, max,overhead);
+   volatile.set(u0, key, oid);
+  };
+ };
+};
+
+volatile.delete
+ # u0, key
+ set(_0, _1, 0);
+
