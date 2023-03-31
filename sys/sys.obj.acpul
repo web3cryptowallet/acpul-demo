@@ -490,13 +490,21 @@ json.encode
 ### sys.obj.volatile
 
 volatile {
- get {
+ get
   # uid : object -> object
-
- };
- get4 {
+  io(u0, 502120, _0, 0, 0,0);
+ get4
   # id0,id1,id2,id3 -> object
- };
+  io(u0, 502121, _0, _1, _2, _3);
+
+ set
+  # uid : object, object
+  io(u0, 502122, _0, _1, 0,0);
+ set4
+  # id0,id1,id2,id3, object
+  io(u0, 502123, _4, 0, 0, 0);
+  io(u0, 502124, _0, _1, _2, _3);
+
  # get4(codeline
 
  dbg.codeline 
