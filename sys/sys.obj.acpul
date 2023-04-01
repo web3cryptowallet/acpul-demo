@@ -554,7 +554,7 @@ volatile.num {
 
  bid0 = bid;
  volatile.buffer(u0, key, bid, 1,1);
- v = if(bid0==0, buffer.get(u0, bid,0,0), value);
+# v = if(bid0==0, buffer.get(u0, bid,0,0), value);
  buffer.set(u0, bid,0,0, value);
  v;
 };
