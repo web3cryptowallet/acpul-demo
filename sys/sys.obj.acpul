@@ -562,5 +562,5 @@ volatile.num {
   buffer.set(u0, bid,0,0, value);
   v:=value;
  };
- v;
+ v-1;
 };
