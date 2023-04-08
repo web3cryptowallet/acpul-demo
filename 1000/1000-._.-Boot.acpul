@@ -1270,7 +1270,7 @@ _ @4;
 
 
 
-new.wallet;
+#new.wallet;
 
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
