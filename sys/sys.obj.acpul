@@ -547,10 +547,7 @@ volatile.buffer {
 
 volatile.num {
  # u0, key, bid, value
- u0 _0;
- key _1;
- bid _2;
- value _3;
+ u0 _0; key _1; bid _2; value _3;
 
  bid0 = bid;
  volatile.buffer(u0, key, bid, 1,1);
