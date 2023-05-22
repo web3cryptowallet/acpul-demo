@@ -564,7 +564,7 @@ volatile.num {
 
 volatile.buffer4 {
  # u0, k0,k1,k2,k4, bid, max, overhead
- u0 _0; k0 _1; k1 _2, k2 _3; k3 _4; oid _5;
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; oid _5;
  max _6; overhead _7;
  
  if (oid==0) {
@@ -578,7 +578,7 @@ volatile.buffer4 {
 
 volatile.num4 {
  # u0, k0,k1,k2,k4, bid, value
- u0 _0; k0 _1; k1 _2, k2 _3; k3 _4; bid _5; value _6;
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5; value _6;
 
  bid0 = bid;
  volatile.buffer4(u0, k0,k1,k2,k3, bid, 1,1);
