@@ -564,3 +564,18 @@ volatile.num {
  };
  v;
 };
+
+volatile.buffer4 {
+ # u0, k0,k1,k2,k4, bid, max, overhead
+ u0 _0; k0 _1; k1 _2, k2 _3; k3 _4; oid _5;
+ max _6; overhead _7;
+ 
+ if (oid==0) {
+  oid:=volatile.get4(u0, k0,k1,k2,k3);
+  if (oid<0) {
+   oid:=buffer.new(u0, max,overhead);
+   volatile.set4(u0, k0,k1,k2,k3, oid);
+  };
+ };
+};
+
