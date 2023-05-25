@@ -571,8 +571,8 @@ volatile.num.get {
 };
 
 volatile.num.get {
- # u0, key, bid, value
- u0 _0; key _1; bid _2; value _3;
+ # u0, key, bid
+ u0 _0; key _1; bid _2;
 
  volatile.buffer(u0, key, bid, 1,1);
  buffer.set(u0, bid,0,0, value);
@@ -611,7 +611,7 @@ volatile.num4 {
 
 volatile.num4.get {
  # u0, k0,k1,k2,k4, bid
- u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5; value _6;
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5;
 
  bid0 = bid;
  volatile.buffer4(u0, k0,k1,k2,k3, bid, 1,1);
