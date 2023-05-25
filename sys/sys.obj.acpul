@@ -570,6 +570,14 @@ volatile.num.get {
  buffer.get(u0, bid,0,0);
 };
 
+volatile.num.get {
+ # u0, key, bid, value
+ u0 _0; key _1; bid _2; value _3;
+
+ volatile.buffer(u0, key, bid, 1,1);
+ buffer.set(u0, bid,0,0, value);
+};
+
 volatile.buffer4 {
  # u0, k0,k1,k2,k4, bid, max, overhead
  u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; oid _5;
