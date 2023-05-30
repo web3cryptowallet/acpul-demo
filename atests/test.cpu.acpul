@@ -74,8 +74,8 @@ random.buf {
   buffer.set(u0,buf0,i*100,rnd(u0));
   i+=1;
  };
- buf0;
  total+=sz/1000;
+ buf0;
 };
 test.run {
  buf0test:=random.buf;
