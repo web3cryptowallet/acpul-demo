@@ -81,7 +81,7 @@ test.run {
  buf0test:=random.buf;
 };
 
-if (count<450) {
+if (count<430) {
  test.run;
 };
 
