@@ -75,7 +75,7 @@ test.profile.global {
 test.cpu 5550;
 #l0:=node.new.this.ex(r0, test.cpu, 0);
 
-test.memory 5551;
+test.memory 5552;
 
 test.bounds 5560;
 l0:=node.new.this.ex(r0, test.bounds, 0);
