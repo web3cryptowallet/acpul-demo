@@ -58,9 +58,12 @@ draw(r0, 5553);
 count 0;
 count+=1;
 
+total 0;
+
 _ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, focus, focusid);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1.5, Memory.test, count);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,30,1.5, alloc.size, total);
 
 random.buf {
  sz 100000;
@@ -70,6 +73,7 @@ random.buf {
   i+=1;
  };
  buf0;
+ total+=sz;
 };
 test.run {
  random.buf;
