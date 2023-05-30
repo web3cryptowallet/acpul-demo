@@ -64,7 +64,7 @@ _ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, focus, focusid);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1.5, Memory.test, count);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,30,1.5, alloc.size.K, total);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,30,1.5, Buf0.test, buf0test);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,30,1.5, Buf.test, buf0test);
 
 
 random.buf {
