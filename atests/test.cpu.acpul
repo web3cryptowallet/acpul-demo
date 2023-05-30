@@ -55,6 +55,13 @@ heap.start;
 
 draw(r0, 5553);
 
+_ @4;
+#lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, focus, focusid);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, Text0, text0);
+
+w:=300;
+h:=200;
+
 ### 5553 test.memory.draw
 
-rect(u0, 6, 0,0,1000,1000);
+rect(u0, 6, 0,0,w,h);
