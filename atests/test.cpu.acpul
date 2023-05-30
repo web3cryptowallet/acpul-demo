@@ -51,3 +51,10 @@ heap.start;
 
 # old ]
 
+### 5552 test.memory
+
+draw(r0, 5553);
+
+### 5553 test.memory.draw
+
+rect(u0, 6,0,0,1000,1000);
