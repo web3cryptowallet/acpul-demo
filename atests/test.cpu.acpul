@@ -55,14 +55,14 @@ heap.start;
 
 draw(r0, 5553);
 
-count 0;
+count 10;
 
 
 _ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, focus, focusid);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1.5, Memory.test, count);
 
-test.run {
+random.buf {
  sz 100000;
  buf0:=buffer.new(u0, sz,sz);
  i=0;while(i<sz) {
@@ -70,6 +70,10 @@ test.run {
   i+=1;
  };
 };
+test.run {
+ random.buf;
+};
+
 test.run;
 
 w:=400;
