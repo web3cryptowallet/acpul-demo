@@ -73,7 +73,7 @@ random.buf {
   i+=1;
  };
  buf0;
- total+=sz/1024;
+ total+=sz/1000;
 };
 test.run {
  random.buf;
