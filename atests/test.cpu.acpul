@@ -64,4 +64,6 @@ h:=200;
 
 ### 5553 test.memory.draw
 
+color(u0, 0,0.2,0,1);
 rect(u0, 6, 0,0,w,h);
+
