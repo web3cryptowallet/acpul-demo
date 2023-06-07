@@ -26,50 +26,7 @@
 #
 
 
-# types [
-
-types {
- map 0;
- unit 1;
- shot 2;
- joystick 3;
-};
-
-teams {
- sys 0;
- green 1;
- blue 2;
-};
-
-subtypes {
- none 0;
- bot 1;
- player 2;
-};
-bots {
- types {
-  robot 0;
-  tower 1;
-  homebase 2;
-  shop 3;
-  homehealth 4;
-
-  minion.mage 5;
-  minion.guard 6;
-  minion.captain 7;
- };
-};
-players {
- heroes {
-  debug 0;
-  cat 1;
-  santa 2;
-  angel 3;
- };
- # id
-};
-
-# types ]
+_ @dota.object.types;
 
 x0 p1;
 y0 p2;
