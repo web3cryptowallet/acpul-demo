@@ -209,11 +209,13 @@ context.d.a r5;
 
 self context;
 
-if (r0) {
- heap.alloc(context.d.a, self.def.SIZE);
+# todo - old remove
+
+#if (r0) {
+# heap.alloc(context.d.a, self.def.SIZE);
 # self.dir.x.set(177788);
 # watch(self.dir.x);
-};
+#};
 
 # alloc self context ]
 
@@ -223,7 +225,7 @@ k:=1;
 
 ### 3221 Object.draw
 
-if (0) {
+if (1) {
 
 a 0.5;
 
