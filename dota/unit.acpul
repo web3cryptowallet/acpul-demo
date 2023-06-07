@@ -43,9 +43,12 @@ if (r0) { #hack!
   hero0 = node.new.this.ex(r0*c, hero.leprechaun, player.id);
   node.prop.y.s(r0*c, hero0, 20);
 
-  sn0 0;
-  new.ui.shader.node(sn0, 0-15,10,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
-
+  effect {
+   sn0 0;
+   new.ui.shader.node(sn0, 0-15,10,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
+  };
+  effect;
+  
  };
 
 
