@@ -1,4 +1,6 @@
 ### 3220 Object (type,x,y,...)
+# type, x,y, team, subtype(bot|player)
+#
 #  0      1 2   3      4
 # <type> <x,y> <team> <subtype> [bot|player]
 # type
