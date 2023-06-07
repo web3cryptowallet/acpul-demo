@@ -11,6 +11,10 @@ t+=1;
 
 _ @draw.extra;
 
+x0 10; # main x
+
+
+
 x 0;
 y 0;
 
@@ -124,8 +128,6 @@ y 30;
 w 20;
 h 50;
 
-x0 10;
-
 x1=x0+x;
 
 head(x1,y,w,h);
@@ -133,15 +135,17 @@ head(x1,y,w,h);
 x 0;
 y 0;
 
-leg.l(x,y,w,h);
-leg.r(x,y,w,h);
+x1=x0+x;
+
+leg.l(x1,y,w,h);
+leg.r(x1,y,w,h);
 
 y 10;
 
-body(x,y,w,h);
+body(x1,y,w,h);
 
-hand.l(x,y,w,h);
-hand.r(x,y,w,h);
+hand.l(x1,y,w,h);
+hand.r(x1,y,w,h);
 
 golden.pot {
  x _0; y _1; w _2; h _3;
