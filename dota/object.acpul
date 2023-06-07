@@ -145,6 +145,8 @@ k:=1;
 
 ### 3221 Object.draw
 
+# DRAW.OBJECT.DEBUG.BOX [
+
 if (1) {
 
 a 0.5;
@@ -177,3 +179,5 @@ if (l0==9) {sa;sb;sc;sd;se;sg;};
 # draw 0-9 16x16 ]
 
 };
+
+# DRAW.OBJECT.DEBUG.BOX ]
