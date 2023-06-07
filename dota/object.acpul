@@ -53,6 +53,12 @@ _ @3200;
 
 _ @dota.object.types;
 
+_ @1010;
+#_ @sys.heap;
+
+_ @dota.object.context;
+
+
 MAP 3224;
 UNIT 3230;
 JOYSTICK 3270;
@@ -66,11 +72,6 @@ if (r0) {
 
 
 # unit code (split later) [
-
-_ @1010;
-_ @sys.heap;
-
-_ @dota.object.context;
 
 if (type==types.unit) {
  if (subtype==subtypes.player) {
