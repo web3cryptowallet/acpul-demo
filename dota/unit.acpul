@@ -1,4 +1,5 @@
 ### 3230 Unit
+# subtype, player.id, bot.id
 
 draw(r0, 3231);
 
