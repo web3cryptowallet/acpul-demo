@@ -11,7 +11,7 @@ t+=1;
 
 _ @draw.extra;
 
-x0 10; # main x
+x0 8; # main x
 
 
 
