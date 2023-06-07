@@ -27,30 +27,31 @@
 #  id
 #
 
-
-_ @dota.object.types;
+type p0;
 
 x0 p1;
 y0 p2;
 
-if (r0) {
- x:=x0;
- y:=y0;
-};
-
-draw(r0, 3221);
-
-type p0;
 team p3;
 subtype p4;
 player.id p5;
 
 r7:=type;
 
+draw(r0, 3221);
+
+if (r0) {
+ x:=x0;
+ y:=y0;
+};
+
+
 _ @1010;
 _ @sys.node;
 
 _ @3200;
+
+_ @dota.object.types;
 
 MAP 3224;
 UNIT 3230;
