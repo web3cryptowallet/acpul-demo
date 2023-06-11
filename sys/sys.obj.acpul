@@ -384,6 +384,11 @@ it.tree.number_of_siblings
 #it.tree.next_at_same_depth
 
 # tree ]
+
+_ @sys.jobj;
+
+### sys.jobj
+
 # jobj [
 
 jobj.new
