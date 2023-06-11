@@ -1,0 +1,139 @@
+### sys.obj.volatile
+
+volatile {
+ get
+  # u0, uid : object -> object
+  io(_0, 502120, _1, 0, 0,0);
+ get4
+  # u0, id0,id1,id2,id3 -> object
+  io(_0, 502121, _1, _2, _3, _4);
+
+ set
+  # u0, uid : object, object
+  io(_0, 502122, _1, _2, 0,0);
+ set4 {
+  # u0, id0,id1,id2,id3, object
+  io(_0, 502123, _5, 0, 0, 0);
+  io(_0, 502124, _1, _2, _3, _4);
+ };
+
+ # get4(codeline
+
+ dbg.codeline 
+  # -> code line
+  0;
+
+ dbg.fid
+  # -> fid
+  0;
+
+ dbg.node.key
+  # node,key -> nkid
+  #  node like thread
+  #  key loke key
+  0;
+ dbg.node.key4
+  # node,key0,key1,key2,key3 -> nkid
+
+  0;
+};
+
+volatile.delete
+ # u0, key
+ set(_0, _1, 0);
+
+volatile.buffer {
+ # u0, key, bid, max, overhead
+ u0 _0; key _1; oid _2;
+ max _3; overhead _4;
+ 
+ if (oid==0) {
+  oid:=volatile.get(u0, key);
+  if (oid<0) {
+   oid:=buffer.new(u0, max,overhead);
+   volatile.set(u0, key, oid);
+  };
+ };
+};
+
+volatile.num {
+ # u0, key, bid, value
+ u0 _0; key _1; bid _2; value _3;
+
+ bid0 = bid;
+ volatile.buffer(u0, key, bid, 1,1);
+ v 0;
+ if (bid0==0) {
+  v:=buffer.get(u0, bid,0,0);
+ };
+ if (bid0!=0) {
+  buffer.set(u0, bid,0,0, value);
+  v:=value;
+ };
+ v;
+};
+
+volatile.num.get {
+ # u0, key, bid
+ u0 _0; key _1; bid _2; value _3;
+
+ volatile.buffer(u0, key, bid, 1,1);
+ buffer.get(u0, bid,0,0);
+};
+
+volatile.num.get {
+ # u0, key, bid
+ u0 _0; key _1; bid _2;
+
+ volatile.buffer(u0, key, bid, 1,1);
+ buffer.set(u0, bid,0,0, value);
+};
+
+volatile.buffer4 {
+ # u0, k0,k1,k2,k4, bid, max, overhead
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; oid _5;
+ max _6; overhead _7;
+ 
+ if (oid==0) {
+  oid:=volatile.get4(u0, k0,k1,k2,k3);
+  if (oid<0) {
+   oid:=buffer.new(u0, max,overhead);
+   volatile.set4(u0, k0,k1,k2,k3, oid);
+  };
+ };
+};
+
+volatile.num4 {
+ # u0, k0,k1,k2,k4, bid, value
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5; value _6;
+
+ bid0 = bid;
+ volatile.buffer4(u0, k0,k1,k2,k3, bid, 1,1);
+ v 0;
+ if (bid0==0) {
+  v:=buffer.get(u0, bid,0,0);
+ };
+ if (bid0!=0) {
+  buffer.set(u0, bid,0,0, value);
+  v:=value;
+ };
+ v;
+};
+
+volatile.num4.get {
+ # u0, k0,k1,k2,k4, bid
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5;
+
+ bid0 = bid;
+ volatile.buffer4(u0, k0,k1,k2,k3, bid, 1,1);
+ buffer.get(u0, bid,0,0);
+};
+
+volatile.num4.set {
+ # u0, k0,k1,k2,k4, bid, value
+ u0 _0; k0 _1; k1 _2; k2 _3; k3 _4; bid _5; value _6;
+
+ bid0 = bid;
+ volatile.buffer4(u0, k0,k1,k2,k3, bid, 1,1);
+ buffer.set(u0, bid,0,0, value);
+};
