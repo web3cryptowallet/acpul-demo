@@ -82,6 +82,8 @@ if (r0) { #hack!
 
 };
 
+# FUN [
+
 smile {
 if (r0) {
  CREATURE0.SMILE 70802;
@@ -100,6 +102,8 @@ node.prop.s.s(u0, smile0, 0.2+0.1*sin(t*0.1));
 node.prop.r.s(u0, smile0, t*10);
 };
 #smile;
+
+# FUN ]
 
 t+=1;
 
