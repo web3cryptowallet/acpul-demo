@@ -385,7 +385,8 @@ it.tree.number_of_siblings
 
 # tree ]
 
-_ @sys.jobj;
+_ @sys.obj.tree;
+_ @sys.obj.jobj;
 
 
 
