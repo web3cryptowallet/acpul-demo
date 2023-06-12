@@ -273,7 +273,11 @@ dma.log
 dma.dump dma.log(_0, _1, _2);
 
 dma.split
- # u0, mode, dma, p0
+# u0, mode, dma, p0-p4
+# mode:
+#  0 - \n
+#  1 - chr
+#  2 - dma
  dma_split_to_object(_0, _2, _1, _3);
 
 dma.print
