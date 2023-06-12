@@ -278,7 +278,7 @@ dma.split
 #  0 - \n
 #  1 - chr
 #  2 - dma
- dma_split_to_object(_0, _2, _1, _3);
+ dma_split_to_object(_0, _2, _1, _3,_4,_5,_6);
 
 dma.print
  # u0, out, format, args
