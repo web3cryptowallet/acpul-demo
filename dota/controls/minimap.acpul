@@ -13,6 +13,8 @@ h:=100;
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, MINIMAP, x);
 
+# MINIMAP [
+
 _ @struct.def;
 
 minimap0 0;
@@ -35,6 +37,8 @@ minimap {
  unpack unpack4(_0, map0, width, height, 0);
 
 };
+
+# MINIMAP ]
 
 if (r0) {
  minimap.new();
