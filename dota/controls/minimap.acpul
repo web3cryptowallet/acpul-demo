@@ -46,7 +46,7 @@ if (r0) {
 
 minimap0:=minimap.pack;
 
-node.prop.s(u0, 0, minimap0);
+node.value.s(u0, 0, minimap0);
 
 ### 19201 DOTA::minimap.draw
 
