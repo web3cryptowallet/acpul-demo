@@ -32,6 +32,7 @@ minimap {
  };
 
  pack pack4(map0, width, height, 0);
+ unpack unpack4(_0, map0, width, height, 0);
 
 };
 
