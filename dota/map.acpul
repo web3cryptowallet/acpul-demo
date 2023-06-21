@@ -153,7 +153,7 @@ t+=dt;
 
 _ @3200;
 
-node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
+#node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
 
 #_ @1100;
