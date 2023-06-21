@@ -66,7 +66,7 @@ if (r0) { #hack!
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28743); # dota.eff.light2
  };
- effect;
+# effect;
 
  effect {
   sn0 0;
@@ -79,6 +79,12 @@ if (r0) { #hack!
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28745); # dota.eff.water1
  };
 # effect;
+
+ effect {
+  sn0 0;
+  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28747); # dota.eff.def
+ };
+ effect;
 
 };
 
