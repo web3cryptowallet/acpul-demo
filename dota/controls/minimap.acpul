@@ -17,7 +17,7 @@ _ @struct.def;
 
 minimap0 0;
 
-minimap.this {
+minimap {
  _ struct;
 
  width 256;
@@ -30,8 +30,8 @@ minimap.this {
 };
 
 if (r0) {
-  minimap0:=minimap.this.new();
 };
+minimap0:=minimap.new();
 
 
 
