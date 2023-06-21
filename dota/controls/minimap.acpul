@@ -1,5 +1,6 @@
 ### 19200 DOTA::minimap
-# (0) - map
+# map
+## # (0) - map
 
 draw(r0, 19201);
 
@@ -19,7 +20,7 @@ minimap0 0;
 minimap.obj {
  _ struct;
 
- 
+
 
 };
 
