@@ -24,6 +24,10 @@ minimap.obj {
 
 };
 
+if (r0) {
+  
+};
+
 
 
 node.prop.s(u0, 0, map0);
