@@ -99,7 +99,7 @@ if (r0) { #hack!
 
 sword0 0;
 
-  node.prop.r.s(u0, sword0,-45+sin(t)*10);
+  node.prop.r.s(u0, sword0,-45+sin(t*0.1)*10);
 
 # FUN [
 
