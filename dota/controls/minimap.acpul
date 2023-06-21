@@ -23,19 +23,25 @@ minimap {
  width 256;
  height 256;
 
+ map0 0;
+
  new {
-  
+  # create 2d map
+  map0:=buffer.new(u0, w*h,w*h);
+
  };
+
+ pack pack4(map0, width, height, 0);
 
 };
 
 if (r0) {
+ minimap.new();
 };
-minimap0:=minimap.new();
 
+minimap0:=minimap.pack;
 
-
-node.prop.s(u0, 0, map0);
+node.prop.s(u0, 0, minimap0);
 
 ### 19201 DOTA::minimap.draw
 
