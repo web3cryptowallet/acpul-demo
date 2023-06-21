@@ -20,7 +20,8 @@ minimap0 0;
 minimap.this {
  _ struct;
 
- l 0;
+ width 256;
+ height 256;
 
  new {
   
