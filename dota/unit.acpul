@@ -89,6 +89,7 @@ if (r0) { #hack!
  sword {
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28748); # 
+  node.prop.x.s(u0, sn0,0);
   node.prop.r.s(u0, sn0,-45);
  };
  sword;
