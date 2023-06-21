@@ -82,7 +82,7 @@ if (r0) { #hack!
 
  effect {
   sn0 0;
-  new.ui.shader.node(sn0, 0-12,13,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
+  new.ui.shader.node(sn0, 0-16,13,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
  };
  effect;
 
