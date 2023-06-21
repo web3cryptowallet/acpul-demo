@@ -17,15 +17,19 @@ _ @struct.def;
 
 minimap0 0;
 
-minimap.obj {
+minimap.this {
  _ struct;
 
+ l 0;
 
+ new {
+  
+ };
 
 };
 
 if (r0) {
-  
+  minimap0:=minimap.this.new();
 };
 
 
