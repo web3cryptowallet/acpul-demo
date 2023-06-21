@@ -21,7 +21,7 @@ node.new.this.ex4(r0, OBJECT, obj.types.map, 25,15, 0);
 node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 
 # MINIMAP
-#node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
+node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
 
 #s:=0.45;
