@@ -30,7 +30,6 @@ minimap {
  new {
   # create 2d map
   map0:=buffer.new(u0, w*h,w*h);
-
  };
 
  pack pack4(map0, width, height, 0);
