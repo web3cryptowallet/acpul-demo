@@ -37,6 +37,8 @@ minimap {
  };
 
  add {
+  # game.object
+  
 #  buffer.add(u0, objects0,);
  };
 
