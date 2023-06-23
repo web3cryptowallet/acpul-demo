@@ -38,8 +38,9 @@ minimap {
 
  add {
   # game.object
-  
+
 #  buffer.add(u0, objects0,);
+  buffer.append(u0, objects0,0, _0);
  };
 
  pack pack4(objects0, width, height, 0);
