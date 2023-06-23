@@ -25,15 +25,19 @@ minimap {
  width 256;
  height 256;
 
- map0 0;
+# map0 0;
  objects0 0;
- 
+
  new {
   # create 2d map
-  map0:=buffer.new(u0, w*h,w*h);
+#  map0:=buffer.new(u0, w*h,w*h);
 
   # create objects
   objects0:=buffer.new(u0, 10000,10000);
+ };
+
+ add {
+#  buffer.add(u0, objects0,);
  };
 
  pack pack4(objects0, width, height, 0);
