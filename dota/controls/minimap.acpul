@@ -18,12 +18,13 @@ minimap0 r1;
 
 if (r0) {
  minimap.new();
-# add()
+# minimap.add();
 };
 
 minimap0:=minimap.pack;
 
 node.value.s(u0, nid,0, minimap0);
+
 
 ### 19201 DOTA::minimap.draw
 
