@@ -1,3 +1,52 @@
+### dota.minimap.def
+
+# MINIMAP [
+
+_ @struct.def;
+_ @sys.obj;
+
+minimap {
+ _ struct;
+
+ width 256;
+ height 256;
+
+# map0 0;
+ objects0 0;
+
+ new {
+  # create 2d map
+#  map0:=buffer.new(u0, w*h,w*h);
+
+  # create objects
+  objects0:=buffer.new(u0, 10000,10000);
+ };
+
+ add {
+  # game.object
+
+#  buffer.add(u0, objects0,);
+  buffer.append(u0, objects0,0, _0);
+ };
+
+ count {
+  buffer.size(u0, objects0,0);
+ };
+
+ at {
+  # i
+  buffer.get(u0, objects0,0,_0);
+ };
+
+ pack pack4(objects0, width, height, 0);
+ unpack unpack4(_0, objects0, width, height, 0);
+};
+
+# MINIMAP ]
+
+
+
+
 ### 19200 DOTA::minimap
 # map
 ## # (0) - map
@@ -54,50 +103,4 @@ i:=0;while(i<count) {
 
 
 
-
-### dota.minimap.def
-
-# MINIMAP [
-
-_ @struct.def;
-_ @sys.obj;
-
-minimap {
- _ struct;
-
- width 256;
- height 256;
-
-# map0 0;
- objects0 0;
-
- new {
-  # create 2d map
-#  map0:=buffer.new(u0, w*h,w*h);
-
-  # create objects
-  objects0:=buffer.new(u0, 10000,10000);
- };
-
- add {
-  # game.object
-
-#  buffer.add(u0, objects0,);
-  buffer.append(u0, objects0,0, _0);
- };
-
- count {
-  buffer.size(u0, objects0,0);
- };
-
- at {
-  # i
-  buffer.get(u0, objects0,0,_0);
- };
-
- pack pack4(objects0, width, height, 0);
- unpack unpack4(_0, objects0, width, height, 0);
-};
-
-# MINIMAP ]
 
