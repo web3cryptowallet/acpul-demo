@@ -20,7 +20,7 @@ minimap0 r1;
 
 if (r0) {
  minimap.new();
- minimap.add(1);
+# minimap.add(1);
 };
 
 minimap0:=minimap.pack;
