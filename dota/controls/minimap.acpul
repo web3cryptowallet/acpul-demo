@@ -70,7 +70,8 @@ rect(u0, 2, 0,0,w,h);
 minimap0 r1;
 count = minimap.count(minimap0);
 i:=0;while(i<count) {
-  
+ 
+ i+=1;
 };
 
 
