@@ -29,7 +29,7 @@ node.value.s(u0, nid,0, minimap0);
 
 # MINIMAP0 ]
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, cnt, minimap.count);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,100,1, cnt, minimap.count);
 
 ### 19201 DOTA::minimap.draw
 
