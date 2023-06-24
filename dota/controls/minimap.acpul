@@ -45,7 +45,7 @@ minimap.unpack(minimap0);
 
 color(u0, 1,0,0,1);
 count = minimap.count;
-count = 10;
+#count = 10;
 i:=0;while(i<count) {
 # o = minimap.
  rect(u0, 6, 0+i*10,0+i*10,10,10);
