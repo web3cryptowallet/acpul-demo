@@ -60,6 +60,7 @@ i:=0;while(i<count) {
 # MINIMAP [
 
 _ @struct.def;
+_ @sys.obj;
 
 minimap {
  _ struct;
