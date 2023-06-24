@@ -37,10 +37,10 @@ minimap0 r1;
 minimap.unpack(minimap0);
 
 count = minimap.count;
-i:=0;while(i<count) {
- o = minimap.
- i+=1;
-};
+#i:=0;while(i<count) {
+# o = minimap.
+# i+=1;
+#};
 
 
 
