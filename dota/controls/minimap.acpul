@@ -17,7 +17,7 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, MINIMAP, x);
 
 _ @struct.def;
 
-minimap0 0;
+minimap0 r1;
 
 minimap {
  _ struct;
@@ -43,6 +43,10 @@ minimap {
   buffer.append(u0, objects0,0, _0);
  };
 
+ count {
+  buffer.size(u0, objects0,0);
+ };
+
  pack pack4(objects0, width, height, 0);
  unpack unpack4(_0, objects0, width, height, 0);
 };
@@ -62,5 +66,12 @@ node.value.s(u0, nid,0, minimap0);
 color(u0, 0,0.5,0,0.5);
 rect(u0, 6, 0,0,w,h);
 rect(u0, 2, 0,0,w,h);
+
+minimap0 r1;
+count = minimap.count(minimap0);
+i:=0;while(i<count) {
+  
+};
+
 
 
