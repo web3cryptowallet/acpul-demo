@@ -13,6 +13,8 @@ h:=100;
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, MINIMAP, x);
 
+# MINIMAP0 [
+
 _ @dota.minimap.def;
 minimap0 r1;
 
@@ -25,6 +27,9 @@ minimap0:=minimap.pack;
 
 node.value.s(u0, nid,0, minimap0);
 
+# MINIMAP0 ]
+
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, cnt, minimap.count);
 
 ### 19201 DOTA::minimap.draw
 
@@ -41,6 +46,7 @@ i:=0;while(i<count) {
 # o = minimap.
  i+=1;
 };
+
 
 
 
