@@ -41,9 +41,11 @@ _ @dota.minimap.def;
 minimap0 r1;
 minimap.unpack(minimap0);
 
+color(u0, 1,0,0,1);
 count = minimap.count;
 i:=0;while(i<count) {
 # o = minimap.
+ rect(u0, 6, 0,0,10,10);
  i+=1;
 };
 
