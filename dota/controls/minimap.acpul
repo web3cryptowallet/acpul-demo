@@ -14,10 +14,7 @@ _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, MINIMAP, x);
 
 _ @dota.minimap.def;
-
 minimap0 r1;
-
-# MINIMAP ]
 
 if (r0) {
  minimap.new();
@@ -33,6 +30,7 @@ color(u0, 0,0.5,0,0.5);
 rect(u0, 6, 0,0,w,h);
 rect(u0, 2, 0,0,w,h);
 
+_ @dota.minimap.def;
 minimap0 r1;
 minimap.unpack(minimap0);
 
@@ -86,4 +84,6 @@ minimap {
  pack pack4(objects0, width, height, 0);
  unpack unpack4(_0, objects0, width, height, 0);
 };
+
+# MINIMAP ]
 
