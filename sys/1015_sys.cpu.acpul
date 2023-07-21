@@ -158,7 +158,7 @@ cpu.get.frame.time
 cpu.set.frame.time.mode
  # u0, mode
  # mode:
- #  0 - time delta
+ #  0 - realtime time delta
  #  1 - fixed step time * fps
  io(_0, 500447, 0, _1, 0,0);
 
