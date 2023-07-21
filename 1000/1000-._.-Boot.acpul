@@ -216,7 +216,7 @@ h:=iphone.h/iphone.scale;
 draw(r0, 900);
 #s:=1.08;
 
-_ @sys.cpu;
+#_ @sys.cpu;
 
 cpu.set.frame.time(u0, rnd(u0)*1000);
 
