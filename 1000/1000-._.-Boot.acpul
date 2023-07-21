@@ -223,6 +223,8 @@ draw(r0, 900);
 #cpu.set.frame.time(u0, sin(qtime)*100);
 #cpu.set.frame.time(u0, rnd(u0)*1000);
 
+cpu.set.frame.time(u0, cpu.get.frame.time(u0)*2);
+
 #cpu.get.frame.time(u0);
 #
 cpu.set.frame.time.mode(u0, 0);
