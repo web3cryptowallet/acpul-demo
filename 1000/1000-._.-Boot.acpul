@@ -225,7 +225,7 @@ qtime+=1;
 
 #cpu.get.frame.time(u0);
 #
-cpu.set.frame.time.mode(u0, 0);
+cpu.set.frame.time.mode(u0, 1);
 
 
 ### 900 Boot.debug.draw
