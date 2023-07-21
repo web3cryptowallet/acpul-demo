@@ -23,7 +23,7 @@ BOOT.BOOTLOADER.Z 0-100;
 
 # BOOT MODES ]
 
-SHOW.AVATARS1 0; # 1 - demo, 2 - boot
+SHOW.AVATARS1 1; # 1 - demo, 2 - boot
 SHOW.UFO 1;
 SHOW.WALLEE 1;
 
