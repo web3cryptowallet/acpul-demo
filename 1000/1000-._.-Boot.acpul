@@ -220,7 +220,7 @@ draw(r0, 900);
 
 qtime 0;
 qtime+=0.1;
-cpu.set.frame.time(u0, sin(qtime)*1);
+cpu.set.frame.time(u0, sin(qtime)*100);
 #cpu.set.frame.time(u0, rnd(u0)*1000);
 
 #cpu.get.frame.time(u0);
