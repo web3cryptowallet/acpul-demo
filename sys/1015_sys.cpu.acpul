@@ -147,6 +147,20 @@ cpu.set.code
  #  1 - shader
  io(_0, 500446, _1, _2, _3, 0);
 
+cpu.set.frame.time
+ # u0, time
+ io(_0, 500447, 1, _1, 0,0);
+
+cpu.get.frame.time
+ # u0 -> time
+ io(_0, 500447, 2, 0,0,0);
+
+cpu.set.frame.time.mode
+ # u0, mode
+ # mode:
+ #  0 - time delta
+ #  1 - fixed step time * fps
+ io(_0, 500447, 0, _1, 0,0);
 
 cpu.get.formula.info.text.matrix.attribute
  # u0, fid, line,col, aid -> v
