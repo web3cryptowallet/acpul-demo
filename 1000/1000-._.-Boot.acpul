@@ -24,8 +24,8 @@ BOOT.BOOTLOADER.Z 0-100;
 # BOOT MODES ]
 
 SHOW.AVATARS1 2; # 1 - demo, 2 - boot
-SHOW.UFO 1;
-SHOW.WALLEE 1;
+SHOW.UFO 0;
+SHOW.WALLEE 0;
 
 TRACK.STOP music.stop(r0);
 TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
