@@ -218,9 +218,9 @@ draw(r0, 900);
 
 #_ @sys.cpu;
 
-qtime 0;
-qtime+=0.001;
-cpu.set.frame.time(u0, sin(qtime)*100);
+#qtime 0;
+#qtime+=0.001;
+#cpu.set.frame.time(u0, sin(qtime)*100);
 #cpu.set.frame.time(u0, rnd(u0)*1000);
 
 #cpu.get.frame.time(u0);
