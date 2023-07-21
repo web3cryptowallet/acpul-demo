@@ -608,7 +608,7 @@ new.wallet {
 merge.life 1100000;
 #node.new.this.ex(r0, merge.life, 0);
 
-VG;
+#VG;
 
 # GAME MERGE.LIFE ]
 # APPS [
