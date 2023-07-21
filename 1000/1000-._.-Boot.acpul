@@ -600,7 +600,7 @@ new.wallet {
 # node.prop.x.s(u0, l0, -w/2);
 # node.prop.y.s(u0, l0, -800);
 };
-new.wallet;
+#new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
@@ -608,7 +608,7 @@ new.wallet;
 merge.life 1100000;
 #node.new.this.ex(r0, merge.life, 0);
 
-#VG;
+VG;
 
 # GAME MERGE.LIFE ]
 # APPS [
