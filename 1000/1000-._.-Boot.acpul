@@ -552,8 +552,8 @@ NOOBSMILE 10024000;
 HIPSTER.BANNER 10025000;
 #node.new.this.ex(r0, HIPSTER.BANNER, 0);
 
-#sn0 0;
-# new.ui.shader.node(sn0, 1100,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
+sn0 0;
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 
 
 VG {
