@@ -1216,8 +1216,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28338); # bubles42
 #new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28340); # awake
 
-new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28342); # noise1c
-#new.ui.shader.node(sn0, 1000,0,2, 768/2,1024/2, 1, 70014,28343); # portal1oo
+new.ui.shader.node(sn0, 1000,0,2, 768/2,1024/2, 1, 70014,28343); # portal1oo
 
 ##new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28324); # z.lazer.time DOTA
 
