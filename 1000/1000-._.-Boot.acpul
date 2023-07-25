@@ -1213,7 +1213,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28314); # minions2
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28320); # rabbit.hole2
 
-new.ui.shader.node(sn0, 1000,0,4, 768/4,1024/4, 1, 70014,28257); # club.dance1
+new.ui.shader.node(sn0, 000,0,4, 768/4,1024/4, 1, 70014,28257); # club.dance1
 
 #new.ui.shader.node(sn0, -50,500,1, 768/2,1024/2, 1, 70014,28323); # radar.music
 
