@@ -1208,7 +1208,26 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28286); # matrix2
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
-new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28308); # waves.f4d
+#new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28308); # waves.f4d
+
+new.ui.shader.node(sn0, 1000,0,4, 768/4,1024/4, 1, 70014,28309); # flight.starship
+
+#new.ui.shader.node(sn0, 1000,0,1, 768/1,1024/1, 1, 70014,28310); # circle.bpm1
+
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28311); # bulb.spheres3d
+
+#new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28312); # wild.vec2d
+
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28313); # fractal.gallery
+
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28314); # minions2
+
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28316); # snow889
+
+#new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28315); # clock1ff
+
+
+#new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28318); # bg980
 
 };
 
