@@ -1197,12 +1197,14 @@ new.text.label1b
 };
 
 # demo ua30 ]
-#sn0 0;
+sn0 0;
+if (r0) {
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
+};
 
 # GALLACTIC AVATARS DEMO [
 
 avatars {
- new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
  sn0=0;
  new.ui.shader.node(sn0, 00,200,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
  if (SHOW.UFO) {
