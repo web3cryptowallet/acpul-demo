@@ -1207,8 +1207,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28287); # world.future1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28286); # matrix2
 
- new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28289); # shapes2
-# new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28291); # clody.stones1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28292); # japan.summer
 
