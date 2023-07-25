@@ -1203,8 +1203,7 @@ if (r0) {
  #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28417); # fractals25
  new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28275); # bg
- new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28276); # bg.club
-# new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28277); # bg1.fog1
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28277); # bg1.fog1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28278); # 
 };
 
