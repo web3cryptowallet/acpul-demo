@@ -1212,10 +1212,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28311); # bulb.spheres3d
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28314); # minions2
 
-new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28315); # clock1ff
-
-
-#new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28318); # bg980
+new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28318); # bg980
 
 };
 
