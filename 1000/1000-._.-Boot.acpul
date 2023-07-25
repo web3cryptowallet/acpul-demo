@@ -1209,7 +1209,6 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
 
-new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28306); # forest.mush  
 
 };
 
