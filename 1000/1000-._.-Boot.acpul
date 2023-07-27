@@ -1312,7 +1312,6 @@ _ @4;
 
 
 #new.wallet;
-   fly.box;
 
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
