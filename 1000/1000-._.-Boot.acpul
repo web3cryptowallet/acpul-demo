@@ -1169,10 +1169,11 @@ rec.nodes.update {
  node.z.to.front(u0, node0,0);
 };
 
-if (r0) {
- if (BOOT.REC.NODES) {
+if (BOOT.REC.NODES) {
+ if (r0) {
   rec.nodes;
  };
+ rec.nodes.update;
 };
 
 # VIDEO REC ]
