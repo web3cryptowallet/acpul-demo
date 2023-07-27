@@ -1166,7 +1166,7 @@ rec.nodes {
 };
 
 rec.nodes.update {
-
+ node.z.to.front(u0, node0,0);
 };
 
 if (r0) {
