@@ -1162,7 +1162,11 @@ rec.nodes {
  pos1 pos.portrait;
 
 # new.node0(r0, nodes.group.rec, pos0.x,pos0.y,0.5,500,500, 0,0,0,0);
- new.node0(r0, nodes.group.rec, pos1.x,pos1.y,0.5,500,500, 0,0,0,0);
+ node0=new.node0(r0, nodes.group.rec, pos1.x,pos1.y,0.5,500,500, 0,0,0,0);
+};
+
+rec.nodes.update {
+
 };
 
 if (r0) {
