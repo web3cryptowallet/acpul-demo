@@ -1226,6 +1226,8 @@ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28749); # the.time
 };
 };
 
+setup.bg;
+
 # GALLACTIC AVATARS DEMO [
 
 avatars {
