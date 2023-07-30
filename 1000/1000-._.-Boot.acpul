@@ -1237,7 +1237,7 @@ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28749); # the.time
 
 avatars {
  sn0=0;
- new.ui.shader.node(sn0, 00,200,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
+ new.ui.shader.node(sn0, 00,00,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
  if (SHOW.UFO) {
  new.ui.shader.node(sn0, 200,300,1, 768/2,512/2, 1, 70014,28391); # ufo1
  };
