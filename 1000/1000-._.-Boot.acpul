@@ -505,7 +505,7 @@ DOTA.MAIN 3202;
 #node.new.this.ex(r0, DOTA.MAIN, 0);
 
 run.dota {
- node.new.this.ex(i0, DOTA.MAIN, 0);
+ node.new.this.ex(u0, DOTA.MAIN, 0);
 };
 
 SHADER.TEST 37000;
