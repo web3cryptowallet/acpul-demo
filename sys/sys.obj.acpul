@@ -262,6 +262,9 @@ dma.mul4
 
 dma.minmax
  # u0, dma, offset, n, vsize,vstrip
+ # vsize=1 -> o0 min o1 max
+ # vsize=2 -> o0,o2 min o1,o3 max
+ # vsize=4 -> o0,o2,o4,o6 min o1,o3,o5,o7 max
  dma_minmax_v4(_0, _1, _2, _3, _4,_5);
 
 dma.add.dma
