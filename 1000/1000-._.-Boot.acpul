@@ -505,7 +505,6 @@ DOTA.MAIN 3202;
 #node.new.this.ex(r0, DOTA.MAIN, 0);
 
 run.dota {
- DOTA.MAIN 3202;
  node.new.this.ex(r0, DOTA.MAIN, 0);
 };
 
