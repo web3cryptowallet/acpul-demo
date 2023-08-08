@@ -1139,6 +1139,9 @@ process.node.events {
   if (_0==boot.run.dota) {
    run.dota;
   };
+  if (_0==boot.run.hero) {
+   run.nebula;
+  };
  };
 
  tmp0 d58;
