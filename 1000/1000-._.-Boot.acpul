@@ -1127,6 +1127,10 @@ process.node.events {
   if (_0==boot.event.move.ui) {
    toggle.move.ui;
   };
+
+  if (_0==boot.run.dota) {
+   run.dota;
+  };
  };
 
  tmp0 d58;
