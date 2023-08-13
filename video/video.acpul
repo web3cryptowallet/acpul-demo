@@ -171,10 +171,10 @@ if (r0) {
 # new.video(5500, 0, 1);
 # new.video(5500, 0, 2);
 # new.video(5500, 0, 4);
-# new.video(5500, 0, 6);
+ new.video(5500, 0, 6);
 # new.video(5500, 0, 7);
 # new.video(5500, 0, 23); # low
- new.video(5500, 0, 21); # high
+# new.video(5500, 0, 21); # high
 # new.video(5500, 1, 2); # high
 };
 
