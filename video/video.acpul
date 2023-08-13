@@ -178,7 +178,7 @@ if (r0) {
 # new.video(5500, 1, 2); # high
 # new.video(5500, 1, 6); # webm not works
 # new.video(5500, 1, 7); # mkv works
- new.video(5500, 1, 19); # with sound
+ new.video(5500, 1, 15); # with sound
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
