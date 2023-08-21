@@ -91,6 +91,8 @@ debug {
  _ @nodes.inc.node2;
  _ @nodes.graph0.util;
  _ @os.util2;
+ ide.pool 15500;
+
 
  graph nodes.graph;
 
