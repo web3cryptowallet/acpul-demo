@@ -190,8 +190,10 @@ media.video.render.texture
 
 # NEW
 
-media.video.get.pts
- # u0, vid -> pts  
+media.video.get.time
+ # u0, vid, mode
+ # mode=0 -> time seconds
+ # mode=1 -> time pts
  io(_0, 500975, 0, _1, 0,0);
 
 media.video.set.pts
