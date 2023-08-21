@@ -59,7 +59,7 @@ media.video.set.speed(u0, video0, 5);
 sec=media.video.get.time(u0, video0, 0);
 pts=media.video.get.time(u0, video0, 1);
 
-duration=media.video.get.duration(u0, video0, 0);
+duration.sec=media.video.get.duration(u0, video0, 0);
 duration.pts=media.video.get.duration(u0, video0, 1);
 
 media.video.get.size(u0, video0);
@@ -76,7 +76,7 @@ x0 h;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+0,2, A.time.sec, sec);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+40,2, A.time.pts, pts);
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+80,2, A.duration.sec, duration);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+80,2, A.duration.sec, duration.sec);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+120,2, A.w, video.width);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+160,2, A.h, video.height);
