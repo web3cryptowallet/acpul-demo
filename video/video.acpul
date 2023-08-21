@@ -54,7 +54,7 @@ media.video.render.texture(u0a, vid, tex0);
 
 # NEW [
 
-media.video.set.speed(u0, video0, 5);
+media.video.set.speed(u0, video0, 100);
 #media.video.set.speed(u0, video0, 30);
 
 sec=media.video.get.time(u0, video0, 0);
