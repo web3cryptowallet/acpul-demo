@@ -59,10 +59,16 @@ _ @4;
 sec=media.video.get.time(u0, video0, 0);
 pts=media.video.get.time(u0, video0, 1);
 
+duration.sec=media.video.get.duration(u0, video0, 0);
+#pts=media.video.get.duration(u0, video0, 1);
+
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,2, A.time.sec, sec);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,2, A.time.pts, pts);
 
-#debug.graph.add.v(debug.graph0, y);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,2, A.duration.sec, duration);
+
+
+debug.graph.add.v(debug.graph0, sec);
 
 debug {
  _ @nodes;
