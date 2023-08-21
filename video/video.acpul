@@ -108,10 +108,10 @@ debug {
 #  graph2:=new.node0(u0, nodes.graph0, -300,200,1,w,h, GRAPH2,0,0,0);
 #  node.move.to.parent(graph2);
  };
-# graph0.add.v {
-#  # v
-#  nodes.graph.add.v(graph0, _0);
-# };
+ graph0.add.v {
+  # v
+  nodes.graph.add.v(graph0, _0);
+ };
 };
 debug;
 
