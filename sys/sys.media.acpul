@@ -210,4 +210,8 @@ media.video.set.pts.next.frame
  # u0, vid, pts
  io(_0, 500975, 4, _1, _2, 0);
 
+media.video.is.finished
+ # u0, vid -> finished
+ io(_0, 500975, 5, _1, 0,0);
+
 # VIDEO ]
