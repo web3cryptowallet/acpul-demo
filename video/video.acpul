@@ -76,7 +76,7 @@ x0 h;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+0,2, A.time.sec, sec);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+40,2, A.time.pts, pts);
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+80,2, A.duration.sec, duration.sec);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+80,2, A.duration.sec, duration.pts);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+120,2, A.w, video.width);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+160,2, A.h, video.height);
