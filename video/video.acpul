@@ -18,9 +18,12 @@ tex.w r2;
 tex.h r3;
 
 
+video0 0;
+
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
+
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
 
@@ -49,6 +52,12 @@ draw(r0, 1621);
 u0a=if(u0a,0,1);
 media.video.render.texture(u0a, vid, tex0);
 
+# NEW [
+
+sec=media.video.get.time(u0, video0, 0);
+pts=media.video.get.time(u0, video0, 1);
+
+# NEW ]
 #x+=1;
 
 ### 1621 main.video.draw
