@@ -57,6 +57,34 @@ media.video.render.texture(u0a, vid, tex0);
 sec=media.video.get.time(u0, video0, 0);
 pts=media.video.get.time(u0, video0, 1);
 
+debug {
+ _ @nodes;
+ _ @nodes.inc.node2;
+ _ @nodes.graph0.util;
+ _ @os.util2;
+
+ graph nodes.graph;
+
+ sn0 0;
+ graph0 0;
+# graph1 0;
+# graph2 0;
+ if (r0) {
+#  new.node2(sn0, 0,0,1,w/2,h/2, 1, 70014,150018); # golden.prize1
+#  new.node2(sn0, 0,0,1,w/1,h/1, 1, 70014,150009); # clock2.node
+  graph0:=new.node0(u0, nodes.graph0, -100,0,1,w,h, GRAPH0,0,0,0);
+#  node.move.to.parent(graph0);
+#  graph1:=new.node0(u0, nodes.graph0, -300,0,1,w,h, GRAPH1,0,0,0);
+#  node.move.to.parent(graph1);
+#  graph2:=new.node0(u0, nodes.graph0, -300,200,1,w,h, GRAPH2,0,0,0);
+#  node.move.to.parent(graph2);
+ };
+ graph0.add.v {
+  # v
+  nodes.graph.add.v(graph0, _0);
+ };
+};
+
 # NEW ]
 #x+=1;
 
