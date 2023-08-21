@@ -54,19 +54,26 @@ media.video.render.texture(u0a, vid, tex0);
 
 # NEW [
 
-_ @4;
-
 sec=media.video.get.time(u0, video0, 0);
 pts=media.video.get.time(u0, video0, 1);
 
 duration.sec=media.video.get.duration(u0, video0, 0);
 #pts=media.video.get.duration(u0, video0, 1);
 
+media.video.get.size(u0, video0);
+video.width=o0;
+video.height=o1;
+
+
+_ @4;
+
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,2, A.time.sec, sec);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,2, A.time.pts, pts);
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,2, A.duration.sec, duration);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,80,2, A.duration.sec, duration);
 
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,120,2, A.w, video.width);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,160,2, A.h, video.height);
 
 debug.graph.add.v(debug.graph0, sec);
 
