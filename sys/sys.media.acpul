@@ -188,4 +188,12 @@ media.video.render.texture
  # u0, vid, tex 
  io(_0, 500974, _1,_2, 0,0);
 
+media.video.get.pts
+ # u0, vid -> pts  
+ io(_0, 500975, 0, _1, 0,0);
+
+media.video.set.pts
+ # u0, vid, pts  
+ io(_0, 500975, 1, _1, _2, 0);
+
 # VIDEO ]
