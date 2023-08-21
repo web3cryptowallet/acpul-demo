@@ -83,6 +83,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+160,2, A.h, video.height);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+200,2, A.finished, finished);
 
+ide.pool 15500;
+
 #debug.graph.add.v(debug.graph0, sec);
 debug.graph.add.v(debug.graph0, sec);
 
@@ -91,7 +93,6 @@ debug {
  _ @nodes.inc.node2;
  _ @nodes.graph0.util;
  _ @os.util2;
- ide.pool 15500;
 
 
  graph nodes.graph;
