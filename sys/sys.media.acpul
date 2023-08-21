@@ -196,8 +196,10 @@ media.video.get.time
  # mode=1 -> time pts
  io(_0, 500975, 0, _1, 0,0);
 
-media.video.set.pts
- # u0, vid, pts  
+media.video.set.time
+ # u0, vid, mode, time
+ # mode=0 time seconds
+ # mode=1 time pts
  io(_0, 500975, 1, _1, _2, 0);
 
 media.video.get.duration
