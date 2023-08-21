@@ -206,8 +206,7 @@ media.video.get.duration
 
 media.video.get.size
  # u0, vid, -> o0,o1 - size
- io(_0, 500975, 2, _1, _2,0);
-
+ io(_0, 500975, 6, _1, _2,0);
 
 media.video.set.speed
  # u0, vid, speed  
