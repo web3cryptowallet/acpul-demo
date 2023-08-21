@@ -108,6 +108,7 @@ debug {
   graph0:=new.node0(u0, nodes.graph0, 1500,500,3,300,300, GRAPH0,0,0,0);
   node.move.to.parent(graph0);
   node.move.to.parent(graph0);
+  node.move.to.parent(graph0);
 #  graph1:=new.node0(u0, nodes.graph0, -300,0,1,w,h, GRAPH1,0,0,0);
 #  node.move.to.parent(graph1);
 #  graph2:=new.node0(u0, nodes.graph0, -300,200,1,w,h, GRAPH2,0,0,0);
