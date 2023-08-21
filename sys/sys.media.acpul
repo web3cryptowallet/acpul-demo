@@ -213,7 +213,7 @@ media.video.get.size
  io(_0, 500975, 6, _1, _2,0);
 
 media.video.set.speed
- # u0, vid, speed  
+ # u0, vid, speed
  io(_0, 500975, 3, _1, _2, 0);
 
 media.video.set.time.next.frame
