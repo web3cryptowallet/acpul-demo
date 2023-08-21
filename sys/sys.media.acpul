@@ -198,10 +198,16 @@ media.video.set.pts
  # u0, vid, pts  
  io(_0, 500975, 1, _1, _2, 0);
 
-media.video.get.info
+media.video.get.duration
  # u0, vid, mode
- # mode=0 -> duration, o0,o1 - size  
+ # mode=0 -> duration seconds
+ # mode=1 -> duration pts
  io(_0, 500975, 2, _1, _2,0);
+
+media.video.get.size
+ # u0, vid, -> o0,o1 - size
+ io(_0, 500975, 2, _1, _2,0);
+
 
 media.video.set.speed
  # u0, vid, speed  
