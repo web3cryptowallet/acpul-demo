@@ -20,6 +20,9 @@ tex.h r3;
 
 video0 0;
 
+video.width 0;
+video.height 0;
+
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
@@ -34,6 +37,10 @@ tex.w := 1920/2; tex.h := 1080/2;
 #tex.w := 1920/1; tex.h := 1080/1;
 #tex.w := 640; tex.h := 368;
 #640x360
+
+media.video.get.size(u0, video0);
+video.width:=o0;
+video.height:=o1;
 
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
@@ -63,9 +70,9 @@ pts=media.video.get.time(u0, video0, 1);
 duration.sec=media.video.get.duration(u0, video0, 0);
 duration.pts=media.video.get.duration(u0, video0, 1);
 
-media.video.get.size(u0, video0);
-video.width=o0;
-video.height=o1;
+#media.video.get.size(u0, video0);
+#video.width=o0;
+#video.height=o1;
 
 finished=media.video.is.finished(u0, video0);
 
