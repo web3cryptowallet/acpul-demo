@@ -1243,7 +1243,7 @@ if (r0) {
 ##new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28324); # z.lazer.time DOTA
 
 
-new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28749); # the.time
+#new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28749); # the.time
 
 };
 };
