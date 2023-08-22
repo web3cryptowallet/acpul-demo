@@ -73,6 +73,9 @@ duration.pts=media.video.get.duration(u0, video0, 1);
 
 finished=media.video.is.finished(u0, video0);
 
+if (finished!=0) {
+  media.video.play(u0, vid);
+};
 
 _ @4;
 
