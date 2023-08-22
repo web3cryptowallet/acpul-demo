@@ -289,7 +289,7 @@ if (r0) {
 # new.video(5500, 1, 6); # webm not works
 # new.video(5500, 1, 7); # mkv works
 # new.video(5500, 1, 21); # 
- new.video(5500, 1, 15); # 
+ new.video(5500, 1, 15); # koop 
 };
 
 w:=node.prop.w.g(u0, vid0)+2;
