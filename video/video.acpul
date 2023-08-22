@@ -27,6 +27,9 @@ if (r0) {
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
 
+ media.video.set.time(u0, video0, 0, 50000);
+
+
 #tex.w := 320/2; tex.h := 240/2;
 #tex.w := 640/2; tex.h := 266/2;
 #tex.w := 640/2; tex.h := 360/2;
