@@ -80,7 +80,7 @@ time0 0;
 
 time0+=dt;
 
-media.video.set.time.next.frame(u0, video0, 0, time0*1000/2);
+media.video.set.time.next.frame(u0, video0, 0, time0*1000);
 
 
 #media.video.get.size(u0, video0);
