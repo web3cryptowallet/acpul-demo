@@ -20,9 +20,6 @@ tex.h r3;
 
 video0 0;
 
-video.width 0;
-video.height 0;
-
 if (r0) {
  media.video.select(u0, pool,id,i);
  media.video.options(u0, 0,0);
