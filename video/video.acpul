@@ -42,7 +42,7 @@ media.video.get.size(u0, video0);
 tex.w:=o0/2;
 tex.h:=o1/2;
 
-tex.w 2048+1;
+tex.w 2048;
 tex.h 2048;
  
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
