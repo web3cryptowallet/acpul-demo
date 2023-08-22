@@ -27,6 +27,7 @@ if (r0) {
  media.video.play(u0, vid);
 # media.video.stop(u0, vid);
 
+ media.video.set.time(u0, video0, 0, 100); 
 
 
 #tex.w := 320/2; tex.h := 240/2;
@@ -97,8 +98,6 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+200,2, A.finished, finished);
 
 #debug.graph.add.v(debug.graph0, sec);
 #debug.graph.add.v(debug.graph0, pts);
-
- media.video.set.time(u0, video0, 0, 100); 
 
 qq 0;
 qq+=1;
