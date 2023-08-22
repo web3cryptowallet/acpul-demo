@@ -46,7 +46,6 @@ if (r0) {
  tex.h:=o1/2;
 
  tex0:=node.ex.texture.create.fmt(r0, tex.w,tex.h, node.ex.texture.fmt.rgb565, 1);
-
 };
 
 w:=tex.w*2;
