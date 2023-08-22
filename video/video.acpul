@@ -102,6 +102,7 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+200,2, A.finished, finished);
 qq 0;
 qq+=1;
 if (qq>10) {
+ qq:=0;
  debug.graph.add.v(debug.graph0, sec);
 };
 
