@@ -78,7 +78,7 @@ duration.pts=media.video.get.duration(u0, video0, 1);
 
 time0 0;
 
-time0+=dt*2;
+time0+=dt*20;
 
 media.video.set.time.next.frame(u0, video0, 0, time0);
 
