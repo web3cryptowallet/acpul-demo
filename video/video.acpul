@@ -94,10 +94,10 @@ if (finished!=0) {
   time0:=0;
 };
 
-#if (time>10) {
-# time0:=0;
-# media.video.set.time(u0, video0, 0, 0); 
-#};
+if (time>10) {
+ time0:=0;
+ media.video.set.time(u0, video0, 0, 0); 
+};
 
 _ @4;
 
