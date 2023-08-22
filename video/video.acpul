@@ -76,6 +76,13 @@ pts=media.video.get.time(u0, video0, 1);
 duration.sec=media.video.get.duration(u0, video0, 0);
 duration.pts=media.video.get.duration(u0, video0, 1);
 
+time0 0;
+
+time0+=dt;
+
+media.video.set.time.next.frame(u0, video0, 0, time0);
+
+
 #media.video.get.size(u0, video0);
 #video.width=o0;
 #video.height=o1;
