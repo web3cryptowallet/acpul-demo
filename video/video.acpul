@@ -96,9 +96,9 @@ if (finished!=0) {
 
 if (time0>10) {
  time0:=0;
- media.video.set.time(u0, video0, 0, 0); 
+# media.video.set.time(u0, video0, 0, 0); 
+ media.video.set.time(u0, video0, 0, 2); 
 };
- media.video.set.time(u0, video0, 0, 1); 
 
 _ @4;
 
