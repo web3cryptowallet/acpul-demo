@@ -30,7 +30,7 @@ if (r0) {
 # media.video.set.time(u0, video0, 0, 50); 
 
 # media.video.set.time(u0, video0, 0, 120); 
- media.video.set.time(u0, video0, 0, 160); 
+ media.video.set.time(u0, video0, 0, 150); 
 
 
 #tex.w := 320/2; tex.h := 240/2;
