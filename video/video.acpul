@@ -35,14 +35,15 @@ if (r0) {
 #tex.w := 640; tex.h := 368;
 #640x360
 
-media.video.get.size(u0, video0);
-tex.w:=o0/2;
-tex.h:=o1/2;
  
 # tex0:=node.ex.texture.create.fmt(r0, 1668/2,2388/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 1024/2,768/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 320/2,240/2, node.ex.texture.fmt.rgb565, 1);
 # tex0:=node.ex.texture.create.fmt(r0, 640/2,266/2, node.ex.texture.fmt.rgb565, 1);
+
+ media.video.get.size(u0, video0);
+ tex.w:=o0/2;
+ tex.h:=o1/2;
 
  tex0:=node.ex.texture.create.fmt(r0, tex.w,tex.h, node.ex.texture.fmt.rgb565, 1);
 
