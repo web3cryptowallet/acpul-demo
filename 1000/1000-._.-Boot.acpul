@@ -1251,7 +1251,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28754); # circle.bg54
 #new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28755); # portal55
 #new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28756); # lines.bg56
-new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28757); # 
+new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28757); # 
 
 };
 };
