@@ -1247,8 +1247,9 @@ if (r0) {
 
 #new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28751); # spiral.galaxy
 #new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28752); # galaxy52
-#new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28753); # 
-new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28754); # 
+#new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28753); # neon.portal53
+new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28754); # circle.bg54
+new.ui.shader.node(sn0, 0,0,2, 768/1,1024/1, 1, 70014,28755); # 
 
 };
 };
