@@ -1255,7 +1255,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28758); # robo.hand58
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28759); # barbie.clouds
 
-new.ui.shader.node(sn0, 0,0,1, 768/2,1024/2, 1, 70014,28761); # 
+new.ui.shader.node(sn0, 0,300,1, 768/2,1024/2, 1, 70014,28761); # 
 
 };
 };
