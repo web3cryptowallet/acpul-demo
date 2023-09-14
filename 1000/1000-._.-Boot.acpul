@@ -1262,7 +1262,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
 #new.ui.shader.node(sn0, 0,200,2, 768/4,1024/4, 1, 70014,28765); # lazer.good.slow
 
-i=0;while(i<100) {
+i=0;while(i<10) {
 new.ui.shader.node(sn0, 0+rnd(u0)*500,200,1, 768/2,1024/2, 1, 70014,28766); # 
 i+=1;
 };
