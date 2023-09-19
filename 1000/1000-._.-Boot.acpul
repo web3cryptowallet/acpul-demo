@@ -1267,6 +1267,8 @@ if (r0) {
 i+=1;
 #};
 
+_ @basic.ui.shader.node3.inc;
+
 new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28766);
 
 };
