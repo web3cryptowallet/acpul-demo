@@ -657,7 +657,7 @@ run.paint {
 
 run.wallet {
  hide.default;
- node.new.this.ex(u0, GAME.NEBULA, 0);
+ new.wallet;
 };
 
 run.neo {
