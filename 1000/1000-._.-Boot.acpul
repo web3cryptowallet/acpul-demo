@@ -661,6 +661,7 @@ run.wallet {
 };
 
 run.neo {
+ hide.default;
  node.new.this.ex(r0, neo.v2.tests, 0);
 };
 
@@ -1167,6 +1168,9 @@ process.node.events {
   };
   if (_0==boot.run.wallet) {
    run.wallet;
+  };
+  if (_0==boot.run.neo) {
+   run.neo;
   };
  };
 
