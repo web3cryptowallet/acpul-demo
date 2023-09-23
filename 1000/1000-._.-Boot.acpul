@@ -662,7 +662,7 @@ run.wallet {
 
 run.neo {
  hide.default;
- node.new.this.ex(r0, neo.v2.tests, 0);
+ node.new.this.ex(u0, neo.v2.tests, 0);
 };
 
 # RUNNERS ]
