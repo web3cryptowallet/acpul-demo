@@ -849,9 +849,9 @@ keyboard.hide.button 15822;
 HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
-if (BOOT.WALLET) {
+#if (BOOT.WALLET) {
  new.wallet;
-};
+#};
 
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
