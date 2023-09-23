@@ -588,7 +588,7 @@ node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 # NEO V2 [
 
 neo.v2.tests 7990;
-#node.new.this.ex(r0, neo.v2.tests, 0);
+node.new.this.ex(r0, neo.v2.tests, 0);
 
 # NEO V2 ]
 # WALLET [
@@ -641,6 +641,14 @@ run.dota {
 };
 
 run.nebula {
+ node.new.this.ex(u0, GAME.NEBULA, 0);
+};
+
+run.paint {
+ node.new.this.ex(u0, GAME.NEBULA, 0);
+};
+
+run.wallet {
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
@@ -1141,6 +1149,12 @@ process.node.events {
   };
   if (_0==boot.run.hero) {
    run.nebula;
+  };
+  if (_0==boot.run.paint) {
+   run.paint;
+  };
+  if (_0==boot.run.wallet) {
+   run.wallet;
   };
  };
 
