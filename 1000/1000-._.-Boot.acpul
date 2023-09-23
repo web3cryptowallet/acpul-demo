@@ -1210,7 +1210,7 @@ node.prop.z.order.s(u0, bootloader0, BOOT.BOOTLOADER.Z);
 rec.nodes {
  _ @93000;
 
- pos.landscape {x 970; y 100;};
+ pos.landscape {x 1000; y 100;};
  pos.portrait {x 700; y 100;};
 
  pos1 pos.landscape;
