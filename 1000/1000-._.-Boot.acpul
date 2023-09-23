@@ -652,7 +652,7 @@ run.nebula {
 
 run.paint {
  hide.default;
- node.new.this.ex(u0, GAME.NEBULA, 0);
+ VG;
 };
 
 run.wallet {
