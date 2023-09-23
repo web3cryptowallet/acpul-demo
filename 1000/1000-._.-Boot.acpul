@@ -636,19 +636,27 @@ BIRD 7340;
 
 # RUNNERS [
 
+hide.default {
+ node.prop.visible.s(u0, avatar.mel0, 0);
+};
+
 run.dota {
+ hide.default;
  node.new.this.ex(u0, DOTA.MAIN, 0);
 };
 
 run.nebula {
+ hide.default;
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
 run.paint {
+ hide.default;
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
 run.wallet {
+ hide.default;
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
