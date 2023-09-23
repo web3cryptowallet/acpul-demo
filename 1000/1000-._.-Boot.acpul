@@ -1293,7 +1293,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28766);
 avatars {
  sn0=0;
 # new.ui.shader.node(sn0, 00,00,2, 768/8/4,1024/8/4, 1, 70014,28392); # avatar.hoody1
- new.ui.shader.node(sn0, 00,00,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
+# new.ui.shader.node(sn0, 00,00,2, 768/8,1024/8, 1, 70014,28392); # avatar.hoody1
  if (SHOW.UFO) {
  new.ui.shader.node(sn0, 200,300,1, 768/2,512/2, 1, 70014,28391); # ufo1
  };
@@ -1306,7 +1306,7 @@ demo0 {
 
 if (r0) {
  sn0 d0;
-# new.ui.shader.node(sn0, 00,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
+ new.ui.shader.node(sn0, 00,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
 # new.ui.shader.node(sn0, 000,0,2, 768/2,1024/2, 1, 70014,28553); # sphere.mut53
 # new.ui.shader.node(sn0, 00,0,4, 768/4,1024/4, 1, 70014,28396); # stones.circle3d
