@@ -657,7 +657,8 @@ run.paint {
 
 run.wallet {
  hide.default;
- new.wallet;
+ _ @core.gl3d;
+ l0:=node.new.this.ex(r0, gl3d.test.main, 0);
 };
 
 run.neo {
@@ -849,9 +850,9 @@ keyboard.hide.button 15822;
 HEROLESSUS 10009000;
 # node.new.this.ex(r0, HEROLESSUS, 0);
 
-#if (BOOT.WALLET) {
+if (BOOT.WALLET) {
  new.wallet;
-#};
+};
 
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
