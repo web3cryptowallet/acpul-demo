@@ -660,6 +660,10 @@ run.wallet {
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
+run.neo {
+ node.new.this.ex(r0, neo.v2.tests, 0);
+};
+
 # RUNNERS ]
 # OS/IDE [
 
