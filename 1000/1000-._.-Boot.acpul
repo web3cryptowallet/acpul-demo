@@ -658,7 +658,7 @@ run.paint {
  SNAKE 10150000;
  #node.new.this.ex(r0, SNAKE, 0); 
 
- PAINT 10160001;
+ PAINT 10160000;
  node.new.this.ex(u0, PAINT, 0);
 };
 
