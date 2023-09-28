@@ -1308,7 +1308,7 @@ i+=1;
 _ @basic.ui.shader.node3.inc;
 
 
-new.ui.shader.node3(sn0, 0,220,3, 100,100, 70014,28766);
+new.ui.shader.node3(sn0, 0,220,31, 100,100, 70014,28766);
 
 };
 };
