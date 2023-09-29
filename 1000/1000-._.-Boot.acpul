@@ -1309,10 +1309,12 @@ _ @basic.ui.shader.node3.inc;
 
 
 #new.ui.shader.node3(sn0, 0,220,1, 500,500, 70014,28766); # neon.lines.test
-new.ui.shader.node3(sn0, 0,220,1, 500,500, 70014,28768); # neon.lines.dyn
+new.ui.shader.node3(sn1lines, 0,220,1, 500,500, 70014,28768); # neon.lines.dyn
 
 };
 };
+
+sn1lines 0;
 
 # GALLACTIC AVATARS DEMO [
 
