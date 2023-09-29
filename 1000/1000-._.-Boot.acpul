@@ -1319,7 +1319,7 @@ _ @sys.shader.ex;
 sn1lines 0;
 shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 
-shader.set.uniformi.v2(sn1lines, iResolution1, 0, 500,300);
+//shader.set.uniformi.v2(sn1lines, iResolution1, 0, 500,300);
 shader.set.uniformi.v2.count(sn1lines, iResolution1, 1);
 
 
