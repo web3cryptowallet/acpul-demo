@@ -1315,7 +1315,7 @@ new.ui.shader.node3(sn1lines, 0,420,1, 500,500, 70014,28768); # neon.lines.dyn
 };
 
 sn1lines 0;
-#shader.set.uniform.v2(nid, iResolution, w,h);
+shader.set.uniform.v2(nid, iResolution1, w,h);
 
 
 # GALLACTIC AVATARS DEMO [
