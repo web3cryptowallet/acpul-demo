@@ -1321,7 +1321,7 @@ sn1lines 0;
 #shader.set.uniformi.v2.count
  # uid, name, n
 # obj.key.set2(u0, 2, _0,_1,0, 2,_2);
-shader.set.uniformi.v2(sn1lines, iResolution1, 0, 500,300);
+shader.set.uniformi.v2(sn1lines, iResolution1, 0, 500,500);
 shader.set.uniformi.v2.count(sn1lines, iResolution1, 1);
 
 
