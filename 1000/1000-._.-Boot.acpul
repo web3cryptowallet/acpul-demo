@@ -1314,6 +1314,8 @@ new.ui.shader.node3(sn1lines, 0,420,1, 500,500, 70014,28768); # neon.lines.dyn
 };
 };
 
+_ @sys.shader.ex;
+
 sn1lines 0;
 shader.set.uniform.v2(nid, iResolution1, 500,100);
 
