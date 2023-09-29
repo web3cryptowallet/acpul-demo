@@ -1316,6 +1316,7 @@ new.ui.shader.node3(sn1lines, 0,220,1, 500,500, 70014,28768); # neon.lines.dyn
 
 sn1lines 0;
 
+
 # GALLACTIC AVATARS DEMO [
 
 avatar.mel0 0;
