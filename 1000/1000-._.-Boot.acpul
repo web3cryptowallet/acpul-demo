@@ -1335,9 +1335,7 @@ hero.sign.color.purple1 {
 };
 hero.sign.color.purple2 {
  # nid
- shader.set.uniform.v3(_0, A.c1, 0.94, 0.05, 0.65);
- shader.set.uniform.v3(_0, A.c2, 0.85, 0.15, 0.35);
- shader.set.uniform.v3(_0, A.c3, 0.4, 0.15, 0.95);
+ hero.sign.color(sn2sign, 0.94, 0.05, 0.65,  0.85, 0.15, 0.35,  0.4, 0.15, 0.95);
 };
 
 hero.sign.color.purple3 {
@@ -1361,8 +1359,8 @@ hero.sign.color.green1
  hero.sign.color(sn2sign, 0.7,1,0, 0,1,0, 0,0.5,0);
 
 #hero.sign.color.purple1(sn2sign);
-#hero.sign.color.purple2(sn2sign);
-hero.sign.color.purple3(sn2sign);
+hero.sign.color.purple2(sn2sign);
+#hero.sign.color.purple3(sn2sign);
 #hero.sign.color.orange1(sn2sign);
 #hero.sign.color.rgb1(sn2sign);
 #hero.sign.color.purple4(sn2sign);
