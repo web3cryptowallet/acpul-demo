@@ -1316,6 +1316,7 @@ hero.sign.color.purple1(sn2sign);
 i=0;while(i<20){
 new.ui.shader.node3(sn2sign, 0,220+rnd(u0)*400,0.1+rnd(u0)*2, 300,300, 70014,28769); # hero.sign
 hero.sign.color(sn2sign, rnd(u0),rnd(u0),rnd(u0), rnd(u0),rnd(u0),rnd(u0), rnd(u0),rnd(u0),rnd(u0));
+i+=1;
 };
 
 };
