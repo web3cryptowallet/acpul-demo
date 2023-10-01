@@ -1364,11 +1364,11 @@ hero.sign.color.green1
 
 #hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
-#hero.sign.color.purple3(sn2sign);
-hero.sign.color.orange1(sn2sign);
+hero.sign.color.purple3(sn2sign);
+#hero.sign.color.orange1(sn2sign);
 #hero.sign.color.rgb1(sn2sign);
 #hero.sign.color.purple4(sn2sign);
-hero.sign.color.green1(sn2sign);
+#hero.sign.color.green1(sn2sign);
 
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
