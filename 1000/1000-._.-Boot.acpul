@@ -1320,6 +1320,13 @@ _ @sys.shader.ex;
 
 sn1lines 0;
 sn2sign 0;
+hero.sign.color {
+ # nid, r,g,b, r,g,b, r,g,b
+ shader.set.uniform.v3(_0, A.c1, _1, _2, _3);
+ shader.set.uniform.v3(_0, A.c2, _4, _5, _6);
+ shader.set.uniform.v3(_0, A.c3, _7, _8, _9);
+};
+
 hero.sign.color.purple1 {
  # nid
  shader.set.uniform.v3(_0, A.c1, 0.05, 0.94, 0.58);
