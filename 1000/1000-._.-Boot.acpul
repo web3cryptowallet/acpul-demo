@@ -1342,9 +1342,7 @@ hero.sign.color.purple2 {
 
 hero.sign.color.purple3 {
  # nid
- shader.set.uniform.v3(_0, A.c1, 0.2, 0.05, 0.95);
- shader.set.uniform.v3(_0, A.c2, 0.4, 0.05, 0.9);
- shader.set.uniform.v3(_0, A.c3, 0.25, 0.6, 0.93);
+ hero.sign.color(sn2sign, 0.2, 0.05, 0.95,  0.4, 0.05, 0.9,  0.25, 0.6, 0.93);
 };
 hero.sign.color.orange1
  # nid
