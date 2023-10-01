@@ -1325,7 +1325,7 @@ hero.sign.color.purple1 {
  shader.set.uniform.v3(_0, A.c2, 0.03, 0.47, 0.93);
  shader.set.uniform.v3(_0, A.c3, 0.4, 0.15, 0.95);
 };
-sn2sign(sn2sign);
+hero.sign.color.purple1(sn2sign);
 
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
