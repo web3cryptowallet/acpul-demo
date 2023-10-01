@@ -1320,6 +1320,8 @@ _ @sys.shader.ex;
 sn1lines 0;
 sn2sign 0;
 shader.set.uniform.v1(sn2sign, A.c1, 1.);
+shader.set.uniform.v1(sn2sign, A.c2, 1.);
+shader.set.uniform.v1(sn2sign, A.c2, 1.);
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
  # uid, name, n
