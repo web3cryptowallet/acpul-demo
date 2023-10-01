@@ -1341,8 +1341,8 @@ hero.sign.color.purple3 {
 };
 
 
-hero.sign.color.purple1(sn2sign);
-hero.sign.color.purple2(sn2sign);
+#hero.sign.color.purple1(sn2sign);
+#hero.sign.color.purple2(sn2sign);
 hero.sign.color.purple3(sn2sign);
 
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
