@@ -1321,7 +1321,7 @@ sn1lines 0;
 sn2sign 0;
 hero.sign.color.
 shader.set.uniform.v3(sn2sign, A.c1, 0.05, 0.94, 0.58);
-shader.set.uniform.v3(sn2sign, A.c2, 1.);
+shader.set.uniform.v3(sn2sign, A.c2, 0.03, 0.47, 0.93);
 shader.set.uniform.v3(sn2sign, A.c2, 1.);
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
