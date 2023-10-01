@@ -1348,9 +1348,10 @@ hero.sign.color.purple3 {
 };
 hero.sign.color.orange1 {
  # nid
- shader.set.uniform.v3(_0, A.c1, 0.95, 0.6, 0.05);
- shader.set.uniform.v3(_0, A.c2, 0.93, 0.4, 0.03);
- shader.set.uniform.v3(_0, A.c3, 0.8, 0.2, 0.05);
+# shader.set.uniform.v3(_0, A.c1, 0.95, 0.6, 0.05);
+# shader.set.uniform.v3(_0, A.c2, 0.93, 0.4, 0.03);
+# shader.set.uniform.v3(_0, A.c3, 0.8, 0.2, 0.05);
+ hero.sign.color(sn2sign, 0.95, 0.6, 0.05,  0.93, 0.4, 0.03,  0.8, 0.2, 0.05);
 };
 
 hero.sign.color.rgb {
