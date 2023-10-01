@@ -1359,6 +1359,8 @@ hero.sign.color.orange1 {
 #hero.sign.color.purple3(sn2sign);
 hero.sign.color.orange1(sn2sign);
 
+hero.sign.color(sn2sign, 1,0,0, 0,1,0, 0,0,1);
+
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
  # uid, name, n
