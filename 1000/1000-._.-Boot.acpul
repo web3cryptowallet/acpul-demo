@@ -1313,6 +1313,11 @@ _ @basic.ui.shader.node3.inc;
 new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
 hero.sign.color.purple1(sn2sign);
 
+i=0;while(i<20){
+new.ui.shader.node3(sn2sign, 0,220+rnd(u0)*400,0.1+rnd(u0)*2, 300,300, 70014,28769); # hero.sign
+hero.sign.color(sn2sign, rnd(u0),rnd(u0),rnd(u0), rnd(u0),rnd(u0),rnd(u0), rnd(u0),rnd(u0),rnd(u0));
+};
+
 };
 };
 
@@ -1320,6 +1325,9 @@ _ @sys.shader.ex;
 
 sn1lines 0;
 sn2sign 0;
+
+# HERO SIGN [
+
 hero.sign.color {
  # nid, r,g,b, r,g,b, r,g,b
  shader.set.uniform.v3(_0, A.c1, _1, _2, _3);
@@ -1362,6 +1370,9 @@ hero.sign.color.purple1(sn2sign);
 #hero.sign.color.rgb1(sn2sign);
 #hero.sign.color.purple4(sn2sign);
 #hero.sign.color.green1(sn2sign);
+
+# HERO SIGN ]
+
 
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
