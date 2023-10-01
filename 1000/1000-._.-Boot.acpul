@@ -1354,15 +1354,15 @@ hero.sign.color.orange1 {
  hero.sign.color(sn2sign, 0.95, 0.6, 0.05,  0.93, 0.4, 0.03,  0.8, 0.2, 0.05);
 };
 
-hero.sign.color.rgb {
+hero.sign.color.rgb1 {
  hero.sign.color(sn2sign, 1,0,0, 0,1,0, 0,0,1);
 };
 
 #hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
 #hero.sign.color.purple3(sn2sign);
-hero.sign.color.orange1(sn2sign);
-
+#hero.sign.color.orange1(sn2sign);
+hero.sign.color.rgb1(sn2sign);
 
 #shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
 #shader.set.uniformi.v2.count
