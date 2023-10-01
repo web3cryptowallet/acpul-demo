@@ -1360,7 +1360,7 @@ hero.sign.color.purple4
 
 hero.sign.color.green1
  # nid
- hero.sign.color(sn2sign, 0.7,1,0, 0,1,0, 0,0.5,0.5);
+ hero.sign.color(sn2sign, 0.7,1,0, 0,1,0, 0.5,0,0.5);
 
 #hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
