@@ -1319,7 +1319,8 @@ hero.sign.color.purple1(sn2sign);
 new.ui.shader.node3(sn2sign, 44,415,1.25*2, 32/2,32/2, 70014,28770); # neon.heart
 #new.ui.shader.node3(sn2sign, -100,415-200,2, 300,300, 70014,28770); # neon.heart
 
-new.ui.shader.node3(sn2sign, 100,415,2.5, 16*2,16*2, 70014,28776); # sword76
+//new.ui.shader.node3(sn2sign, 100,415,2.5, 16*2,16*2, 70014,28776); # sword76
+new.ui.shader.node3(sn2sign, 100,415,2.5, 16,16, 70014,28776); # sword76
 
 new.ui.shader.node3(sn2sign, 0,200,1, 500,100, 70014,28772); # prism72
 
