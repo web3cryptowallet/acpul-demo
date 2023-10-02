@@ -1329,7 +1329,6 @@ new.ui.shader.node3(sn2sign, 100,415,2.5, 16,16, 70014,28777); # metamorphosis77
 new.ui.shader.node3(sn2sign, 0,200,1, 500,100, 70014,28772); # prism72
 
 #new.ui.shader.node3(sn2sign, 0,300,1, 100,100, 70014,28773); # golden.piggy
-new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 #new.ui.shader.node3(sn2sign, 0,300,1, 100,100, 70014,28773); # golden.piggy
 
 new.ui.shader.node3(sn2sign, 100,300,1, 100,100, 70014,28775); # x.good1
@@ -1338,6 +1337,8 @@ new.ui.shader.node3(sn2sign, 100,300,1, 100,100, 70014,28775); # x.good1
 new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28778); # fly78
 
 new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28779); # 
+
+new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 
 many.signs {
  i=0;while(i<10){
