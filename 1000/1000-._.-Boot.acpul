@@ -1323,7 +1323,7 @@ new.hero.sign {
  hero.sign.color.purple1(_1);
 };
 
-hero.sign;
+hero.sign(sn2sign, 0,420,1, 300,300);
 
 new.ui.shader.node3(sn2sign, 0,415,1.25*2, 32/2,32/2, 70014,28770); # neon.heart
 #new.ui.shader.node3(sn2sign, -100,415-200,2, 300,300, 70014,28770); # neon.heart
