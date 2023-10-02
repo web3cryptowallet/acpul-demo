@@ -1322,7 +1322,7 @@ new.ui.shader.node3(sn2sign, 44,415,1.25*2, 32/2,32/2, 70014,28770); # neon.hear
 new.ui.shader.node3(sn2sign, 0,200,1, 500,100, 70014,28772); # prism72
 
 new.ui.shader.node3(sn2sign, 0,300,1, 100,100, 70014,28773); # golden.piggy
-new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28774); # 
+new.ui.shader.node3(sn2sign, 0,300,0.5, 500,500, 70014,28774); # 
 
 many.signs {
  i=0;while(i<10){
