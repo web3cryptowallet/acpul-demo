@@ -1365,31 +1365,31 @@ hero.sign.color {
 
 hero.sign.color.purple1
  # nid
- hero.sign.color(sn2sign, 0.05, 0.94, 0.58,  0.03, 0.47, 0.93,  0.4, 0.15, 0.95);
+ color(sn2sign, 0.05, 0.94, 0.58,  0.03, 0.47, 0.93,  0.4, 0.15, 0.95);
 
 hero.sign.color.purple2
  # nid
- hero.sign.color(sn2sign, 0.94, 0.05, 0.65,  0.85, 0.15, 0.35,  0.4, 0.15, 0.95);
+ color(sn2sign, 0.94, 0.05, 0.65,  0.85, 0.15, 0.35,  0.4, 0.15, 0.95);
 
 hero.sign.color.purple3
  # nid
- hero.sign.color(sn2sign, 0.2, 0.05, 0.95,  0.4, 0.05, 0.9,  0.25, 0.6, 0.93);
+ color(sn2sign, 0.2, 0.05, 0.95,  0.4, 0.05, 0.9,  0.25, 0.6, 0.93);
 
 hero.sign.color.orange1
  # nid
- hero.sign.color(sn2sign, 0.95, 0.6, 0.05,  0.93, 0.4, 0.03,  0.8, 0.2, 0.05);
+ color(sn2sign, 0.95, 0.6, 0.05,  0.93, 0.4, 0.03,  0.8, 0.2, 0.05);
 
 hero.sign.color.rgb1
  # nid
- hero.sign.color(sn2sign, 1,0,0, 0,1,0, 0,0,1);
+ color(sn2sign, 1,0,0, 0,1,0, 0,0,1);
 
 hero.sign.color.purple4
  # nid
- hero.sign.color(sn2sign, 0.6, 0.05, 0.93,  0.4, 0.03, 0.95,  0.1, 0.4, 0.9);
+ color(sn2sign, 0.6, 0.05, 0.93,  0.4, 0.03, 0.95,  0.1, 0.4, 0.9);
 
 hero.sign.color.green1
  # nid
- hero.sign.color(sn2sign, 0.7,1,0, 0,1,0, 0,0.5,0);
+ color(sn2sign, 0.7,1,0, 0,1,0, 0,0.5,0);
 
 hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
