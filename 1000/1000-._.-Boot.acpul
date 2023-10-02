@@ -1334,6 +1334,7 @@ new.ui.shader.node3(sn2sign, 100,300,1, 100,100, 70014,28775); # x.good1
 
 new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28778); # fly78
 
+new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28779); # 
 
 many.signs {
  i=0;while(i<10){
