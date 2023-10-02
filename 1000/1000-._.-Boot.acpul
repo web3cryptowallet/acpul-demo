@@ -1312,7 +1312,7 @@ _ @basic.ui.shader.node3.inc;
 #new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28768); # neon.lines.dyn
 new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
 hero.sign.color.purple1(sn2sign);
-new.ui.shader.node3(sn2sign, 0,416,1.2, 32,32, 70014,28770); # 
+new.ui.shader.node3(sn2sign, 0,414,1.2, 32,32, 70014,28770); # 
 
 many.signs {
  i=0;while(i<10){
