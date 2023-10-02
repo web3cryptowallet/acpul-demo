@@ -1318,8 +1318,9 @@ new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28768); # neon.lines.dyn
 #hero.sign.color.purple1(sn2sign);
 
 new.hero.sign {
-new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
-hero.sign.color.purple1(sn2sign);
+ # hid, x,y,s, w,h
+ new.ui.shader.node3(_0, _1,_2,_3, _4,_5, 70014,28769); # hero.sign
+ hero.sign.color.purple1(_1);
 };
 
 hero.sign;
