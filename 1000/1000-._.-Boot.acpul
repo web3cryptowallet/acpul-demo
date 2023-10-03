@@ -1346,7 +1346,7 @@ new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28778); # fly78
 
 new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28779); # 
 
-#new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
+new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 
 many.signs {
  i=0;while(i<10){
