@@ -1331,7 +1331,7 @@ new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
 
 shader.set.uniformi.v2(sn1lines, A.lineXY, 0, -0.44,0.28);
 shader.set.uniformi.v2(sn1lines, A.lineXY, 1, 0.44,0.28);
-shader.set.uniformi.v2(sn1lines, A.lineXY, 2, 0,-0.2);
+shader.set.uniformi.v2(sn1lines, A.lineXY, 2, 0,-0.4);
 shader.set.uniformi.v2(sn1lines, A.lineXY, 3, 0.44,0.28);
 shader.set.uniformi.v2.count(sn1lines, A.lineXY, 4);
 
