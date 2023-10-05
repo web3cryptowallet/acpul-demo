@@ -1448,7 +1448,6 @@ shader.set.uniformi.v2.count(sn1lines, iResolution1, 2);
 
 shader.set.uniformi.v2(sn1lines, A.lineXY, 0, -0.5+0.5*sin(t),0);
 shader.set.uniformi.v2(sn1lines, A.lineXY, 1, 0.1,0.2);
-shader.set.uniformi.v2.count(sn1lines, A.lineXY, 2);
 
 
 # GALLACTIC AVATARS DEMO [
