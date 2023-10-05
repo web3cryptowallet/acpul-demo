@@ -1337,7 +1337,7 @@ shader.set.uniformi.v2.count(sn1lines, A.lineXY, 4);
 
 shader.set.uniformi.v4(sn1lines, A.lineColor, 0, 1.2,0,1.2, 1);
 shader.set.uniformi.v4(sn1lines, A.lineColor, 1, 0,0,1.2, 1);
-shader.set.uniformi.v4(sn1lines, A.lineColor, 2, 0,1.4,0, 1);
+shader.set.uniformi.v4(sn1lines, A.lineColor, 2, 0,1.2,0, 1);
 shader.set.uniformi.v4(sn1lines, A.lineColor, 3, 0,0,1, 1);
 shader.set.uniformi.v4.count(sn1lines, A.lineColor, 4);
 
