@@ -1332,7 +1332,7 @@ shader.set.uniformi.v4(sn2poly, A.lineColor, 3, 0,0,1, 1);
 shader.set.uniformi.v4.count(sn2poly, A.lineColor, 4);
 
 
-new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
+#new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
 
 #neon.dyn2.add.point
 
