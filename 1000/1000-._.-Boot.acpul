@@ -1483,9 +1483,9 @@ hero.sign.color.purple4(sn2sign);
 #shader.set.uniformi.v2.count
  # uid, name, n
 # obj.key.set2(u0, 2, _0,_1,0, 2,_2);
-shader.set.uniformi.v2(sn1lines, iResolution1, 0, 300,300);
-shader.set.uniformi.v2(sn1lines, iResolution1, 1, 500,300-rnd(u0)*200);
-shader.set.uniformi.v2.count(sn1lines, iResolution1, 2);
+#shader.set.uniformi.v2(sn1lines, iResolution1, 0, 300,300);
+#shader.set.uniformi.v2(sn1lines, iResolution1, 1, 500,300-rnd(u0)*200);
+#shader.set.uniformi.v2.count(sn1lines, iResolution1, 2);
 
 #shader.set.uniformi.v2(sn1lines, A.lineXY, 0, -0.5+0.5*sin(t),0);
 #shader.set.uniformi.v2(sn1lines, A.lineXY, 1, 0.1,0.2);
