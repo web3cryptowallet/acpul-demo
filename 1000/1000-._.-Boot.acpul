@@ -1349,7 +1349,7 @@ lines2d.test1 { _;
  new.lines2d(sn1lines, 0,420,1, 300,300);
  
  lines2d.figure1(sn1lines);
- lines2d.test0.figure2(sn1lines);
+# lines2d.test0.figure2(sn1lines);
  lines2d.figure1.color1(sn1lines);
 };
 
