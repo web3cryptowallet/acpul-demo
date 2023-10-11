@@ -1419,18 +1419,18 @@ many.signs {
 
 _ @sys.shader.ex;
 
-_ @hero.sign1;
-
 sn1lines 0;
 sn2sign 0;
 
 # HERO SIGN [
 
+_ @hero.sign1;
+
 #hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
 #hero.sign.color.purple3(sn2sign);
 #hero.sign.color.orange1(sn2sign);
-hero.sign.color.rgb1(sn2sign);
+#hero.sign.color.rgb1(sn2sign);
 #hero.sign.color.purple4(sn2sign);
 #hero.sign.color.green1(sn2sign);
 
