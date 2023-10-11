@@ -1343,6 +1343,16 @@ _ @basic.lines2d.test;
 # lines2d.figure1(sn1lines);
 # figure2(sn1lines);
 # lines2d.figure1.color1(sn1lines);
+lines2d.test0 { _;
+ sn1lines 0;
+
+ new.lines2d(sn1lines, 0,420,1, 300,300);
+ 
+ lines2d.figure1(sn1lines);
+# lines2d.test0.figure2(sn1lines);
+ lines2d.figure1.color1(sn1lines);
+};
+
 
 lines2d.test0;
 #sn1lines 0;
