@@ -1464,8 +1464,8 @@ hero.sign.color.green1
 #hero.sign.color.purple3(sn2sign);
 #hero.sign.color.orange1(sn2sign);
 #hero.sign.color.rgb1(sn2sign);
-hero.sign.color.purple4(sn2sign);
-#hero.sign.color.green1(sn2sign);
+#hero.sign.color.purple4(sn2sign);
+hero.sign.color.green1(sn2sign);
 
 # HERO SIGN ]
 
