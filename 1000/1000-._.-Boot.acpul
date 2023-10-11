@@ -1320,7 +1320,7 @@ _ @basic.ui.shader.node3.inc;
 
 sn2poly 0;
 
- new.poly2d(sn2poly, 0,420,1, 200,200);
+ new.poly2d(sn2poly, 0,420,1, 400,200);
  poly2d.figure1(sn2poly);
  poly2d.figure1.color1(sn2poly);
 
@@ -1341,7 +1341,7 @@ sn2poly 0;
  _ @basic.lines2d.test;
  #lines2d.test0;
 
- new.lines2d(sn1lines, 0,420,1, 200,200);
+ new.lines2d(sn1lines, 0,420,1, 400,200);
 # lines2d.figure1(sn1lines);
 # lines2d.test0.figure2(sn1lines);
 # lines2d.figure1.color1(sn1lines);
