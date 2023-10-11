@@ -1380,11 +1380,6 @@ sn2poly 0;
 #new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
 #hero.sign.color.purple1(sn2sign);
 
-hero.sign.create {
- # hid, x,y,s, w,h
- new.ui.shader.node3(_0, _1,_2,_3, _4,_5, 70014,28769); # hero.sign
- hero.sign.color.purple1(_0);
-};
 
 hero.sign.create(sn2sign, 0,420,1, 300,300);
 
