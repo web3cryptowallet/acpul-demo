@@ -1340,10 +1340,10 @@ sn2poly 0;
 
 _ @basic.lines2d.test;
 
-
-new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
-
 lines2d.test0;
+
+#new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
+
 
 #shader.set.uniformi.v4(sn1lines, A.lineColor, 0, 1.2,0,1.2, 1);
 #shader.set.uniformi.v4(sn1lines, A.lineColor, 1, 1,1,0, 1);
