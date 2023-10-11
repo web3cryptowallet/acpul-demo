@@ -1352,7 +1352,7 @@ lines2d.test1 { _;
 # lines2d.test0.figure2(sn1lines);
  lines2d.figure1.color1(sn1lines);
 };
-
+aaaa;
 
 lines2d.test0;
 #sn1lines 0;
