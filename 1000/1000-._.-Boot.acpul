@@ -1345,6 +1345,11 @@ sn2poly 0;
 # lines2d.test0.figure2(sn1lines);
  lines2d.figure1.color1(sn1lines);
 
+  shader.set.uniformi.v4(sn1lines, A.lineColor, 0, 1.2,1.2,0, 1);
+  shader.set.uniformi.v4(sn1lines, A.lineColor, 1, 1.2,0,1.2, 1);
+  shader.set.uniformi.v4(sn1lines, A.lineColor, 2, 0,1.2,0, 1);
+  shader.set.uniformi.v4(sn1lines, A.lineColor, 3, 0,0,1, 1);
+  shader.set.uniformi.v4.count(sn1lines, A.lineColor, 4);
 
 #sn1lines 0;
 #new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
