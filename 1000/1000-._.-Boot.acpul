@@ -1337,7 +1337,7 @@ sn2poly 0;
 #shader.set.uniformi.v4(sn2poly, A.lineColor, 2, 0,1.2,0, 1);
 #shader.set.uniformi.v4(sn2poly, A.lineColor, 3, 0,0,1, 1);
 #shader.set.uniformi.v4.count(sn2poly, A.lineColor, 4);
-sn1lines 0;
+
 _ @basic.lines2d.test;
 # new.lines2d(sn1lines, 0,420,1, 300,300);
 # lines2d.figure1(sn1lines);
