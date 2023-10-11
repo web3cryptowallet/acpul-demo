@@ -1353,7 +1353,7 @@ lines2d.test1 { _;
  lines2d.figure1.color1(sn1lines);
 };
 
-v99;
+vv99;
 
 lines2d.test0;
 #sn1lines 0;
