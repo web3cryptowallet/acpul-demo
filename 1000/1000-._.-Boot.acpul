@@ -1419,6 +1419,8 @@ many.signs {
 
 _ @sys.shader.ex;
 
+ _ @hero.sign1;
+
 sn1lines 0;
 sn2sign 0;
 
