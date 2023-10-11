@@ -1317,6 +1317,9 @@ _ @basic.ui.shader.node3.inc;
 
 sn2poly 0;
 
+_ @basic.poly2d.test;
+poly2d.test0;
+
 new.ui.shader.node3(sn2poly, 0,420,1, 300,300, 70014,28781); # poly2d.dyn
 
 shader.set.uniformi.v2(sn2poly, A.lineXY, 0, -0.46,0.26);
