@@ -1377,9 +1377,6 @@ sn2poly 0;
 
  _ @hero.sign1.test;
 
-new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
-hero.sign.color.purple1(sn2sign);
-
 
 hero.sign.create(sn2sign, 0,420,1, 300,300);
 
