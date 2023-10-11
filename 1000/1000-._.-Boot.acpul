@@ -1371,9 +1371,6 @@ lines2d.test0;
 #shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.0, -0.5, -0.9, 0);
 #shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.5, -0.5, -0.9, 0);
 
-
-
-
 # NEON DYN2 ]
 
 #new.ui.shader.node3(sn2sign, 0,420,1, 300,300, 70014,28769); # hero.sign
