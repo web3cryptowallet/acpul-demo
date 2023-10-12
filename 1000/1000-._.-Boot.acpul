@@ -1303,7 +1303,7 @@ if (r0) {
 _ @basic.ui.shader.node3.inc;
 
 
-new.ui.shader.node3(sn2sign, 0,415-200,2, 300,300, 70014,28771); # 
+new.ui.shader.node3(sn2sign, 0,415,2, 300,300, 70014,28771); # 
 
 #new.ui.shader.node3(sn0, 0,220,1, 500,500, 70014,28766); # neon.lines.test
 #new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28768); # neon.lines.dyn
