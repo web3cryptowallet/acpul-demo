@@ -1418,7 +1418,7 @@ many.signs {
 };
 
 _ @sys.time.test;
-
+test.time0(300,0);
 
 _ @sys.shader.ex;
 
