@@ -1417,7 +1417,7 @@ many.signs {
 };
 };
 
-#_ @sys.time.test;
+_ @sys.time.test;
 #test.time0(r0, 500,30,1);
 
 _ @sys.shader.ex;
