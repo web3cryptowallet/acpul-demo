@@ -574,7 +574,7 @@ VG {
 };
 
 PHOTONEO 7500;
-#node.new.this.ex(r0, PHOTONEO, 0);
+node.new.this.ex(r0, PHOTONEO, 0);
 
 CLOCK 10170000;
 #l0:=node.new.this.ex(r0, CLOCK, 0);
