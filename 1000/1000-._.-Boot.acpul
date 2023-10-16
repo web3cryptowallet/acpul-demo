@@ -1423,7 +1423,7 @@ new.node.common0(testtex0, 0,0,1, 300,300, node.fid.by.name(u0, sys.test.texture
 };
 
 _ @sys.time.test;
-test.time0(r0, 500,30,1);
+#test.time0(r0, 500,30,1);
 
 
 
