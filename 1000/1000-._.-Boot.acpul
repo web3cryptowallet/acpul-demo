@@ -1416,7 +1416,7 @@ many.signs {
 
 vv100;
 testtex0 0;
-new.node.common0(testtex0, 300,0,1, 300,300, node.fid.by.name(u0, sys.test.textures), 0);
+new.node.common0(testtex0, 400,0,1, 300,300, node.fid.by.name(u0, sys.test.textures), 0);
 
 
 };
