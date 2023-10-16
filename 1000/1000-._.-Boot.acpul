@@ -1424,6 +1424,7 @@ testtex0 0;
 new.node.common0(testtex0, 0,0,1, 300,300, node.fid.by.name(u0, sys.test.textures), 0);
 
 
+
 _ @sys.shader.ex;
 
 sn1lines 0;
