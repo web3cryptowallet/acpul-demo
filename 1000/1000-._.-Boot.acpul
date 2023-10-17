@@ -1379,6 +1379,7 @@ sn2poly 0;
 #shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.0, -0.5, -0.9, 0);
 #shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.5, -0.5, -0.9, 0);
 
+
 # NEON DYN2 ]
 
  _ @hero.sign1.test;
@@ -1426,6 +1427,8 @@ new.node.common0(testtex0, 500,0,1, 300,300, node.fid.by.name(u0, sys.test.textu
 
 testtex1 0;
 new.node.common0(testtex1, 0,0,1, 300,300, node.fid.by.name(u0, chat.item), 0);
+
+node.prop.z.order.s(u0, testtex1, -1000);
 
 
 };
