@@ -1317,7 +1317,7 @@ sn2poly 0;
 
  new.poly2d(sn2poly, 0,420,1, 300,300);
 # poly2d.figure1(sn2poly);
- lines2d.figure3.dialog(sn2poly);
+# lines2d.figure3.dialog(sn2poly);
 # poly2d.figure1.color1(sn2poly);
 
 #new.ui.shader.node3(sn2poly, 0,420,1, 300,300, 70014,28781); # poly2d.dyn
