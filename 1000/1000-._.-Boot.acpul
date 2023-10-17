@@ -1350,7 +1350,7 @@ sn2poly 0;
  lines2d.figure3.color1(sn1lines);
  shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, -0.5, -0.5, -0.5, 0);
 
-# lines2d.figure3.dialog(sn2poly);
+ lines2d.figure3.dialog(sn2poly);
 # lines2d.figure2(sn2poly);
 # lines2d.figure2.color1(sn2poly);
 
