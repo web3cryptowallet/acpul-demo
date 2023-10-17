@@ -1318,8 +1318,8 @@ sn2poly 0;
 
  new.poly2d(sn2poly, 0,500,1, 300,300);
 # new.poly2d(sn2poly, 0,420,1, 300,300);
- lines2d.figure3.dialog(sn2poly);
- poly2d.figure1.color1(sn2poly);
+# poly2d.figure1(sn2poly);
+# poly2d.figure1.color1(sn2poly);
 
 #new.ui.shader.node3(sn2poly, 0,420,1, 300,300, 70014,28781); # poly2d.dyn
 
@@ -1350,8 +1350,9 @@ sn2poly 0;
  lines2d.figure3.color1(sn1lines);
  shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, -0.5, -0.5, -0.5, 0);
 
- lines2d.figure2(sn2poly);
- lines2d.figure2.color1(sn2poly);
+ lines2d.figure3.dialog(sn2poly);
+# lines2d.figure2(sn2poly);
+# lines2d.figure2.color1(sn2poly);
 
 
 #sn1lines 0;
