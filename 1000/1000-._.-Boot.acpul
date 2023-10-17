@@ -1354,7 +1354,6 @@ sn2poly 0;
 # lines2d.figure2(sn2poly);
 # lines2d.figure2.color1(sn2poly);
 
-
 #sn1lines 0;
 #new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
 
