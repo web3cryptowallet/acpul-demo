@@ -1336,7 +1336,7 @@ sn2poly 0;
  _ @basic.lines2d.test;
  #lines2d.test0;
 
- new.lines2d(sn1lines, 0,440,1, 300,300);
+ new.lines2d(sn1lines, 0,500,1, 300,300);
 # lines2d.figure1(sn1lines);
 # lines2d.test0.figure2(sn1lines);
 # lines2d.figure1.color1(sn1lines);
