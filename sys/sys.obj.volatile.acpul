@@ -47,13 +47,16 @@ volatile.buffer {
  u0 _0; key _1; oid _2;
  max _3; overhead _4;
  
+ created 0;
  if (oid==0) {
   oid:=volatile.get(u0, key);
   if (oid<0) {
    oid:=buffer.new(u0, max,overhead);
    volatile.set(u0, key, oid);
+   created:=1;
   };
  };
+ created;
 };
 
 volatile.num {
@@ -61,7 +64,7 @@ volatile.num {
  u0 _0; key _1; bid _2; value _3;
 
  bid0 = bid;
- volatile.buffer(u0, key, bid, 1,1);
+ created:=volatile.buffer(u0, key, bid, 1,1);
  v 0;
  if (bid0==0) {
   v:=buffer.get(u0, bid,0,0);
