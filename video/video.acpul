@@ -368,9 +368,9 @@ if (moving+r0) {
  node.z.to.front(u0, nid,0);
 };
 
-if (r0) {
-  s:=1/4;
-};
+#if (r0) {
+#  s:=1/4;
+#};
 
 #touch.rect2.lock(touch.id, 0,0,w,h);
 
