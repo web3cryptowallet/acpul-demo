@@ -1422,7 +1422,7 @@ many.signs {
 };
 #many.signs;
 
-_ @ai.chat.avatar.mel;
+#_ @ai.chat.avatar.mel;
 
 vv100;
 testtex0 0;
