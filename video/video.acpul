@@ -370,10 +370,6 @@ if (moving+r0) {
  node.z.to.front(u0, nid,0);
 };
 
-if (r0) {
-  s:=1/4;
-};
-
 touch.rect2.lock(touch.id, 0,0,w,h);
 
 _ @sys.touch.ev.process.once;
@@ -384,6 +380,11 @@ touch.ev.process.multi;
 
 _ @touch.tool.default.scale0.store;
 touch.tool.default.scale0.store;
+
+if (r0) {
+  s:=1/4;
+};
+
 
 _ @4;
 ui.value1(l12,110,110,0.5,s);
