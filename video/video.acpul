@@ -298,6 +298,8 @@ h:=node.prop.h.g(u0, vid0)+2;
 
 # TOUCH [
 
+DISABLED.BY.NEW.TOUCH.TOOL {
+
 _ @sys.os;
 _ @os.util2;
 
@@ -377,6 +379,8 @@ touch.rect2.lock(touch.id, 0,0,w,h);
 _ @sys.touch.ev.process.once;
 touch.b0:=1;
 touch.ev.process.multi;
+
+};
 
 _ @touch.tool.default.scale0.store;
 touch.tool.default.scale0.store;
