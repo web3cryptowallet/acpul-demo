@@ -69,7 +69,7 @@ volatile.num {
  if (bid0==0) {
   v:=buffer.get(u0, bid,0,0);
  };
- if (bid0!=0) {
+ if ((bid0!=0)+created) {
   buffer.set(u0, bid,0,0, value);
   v:=value;
  };
