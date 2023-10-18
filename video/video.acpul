@@ -378,6 +378,9 @@ if (r0) {
 #touch.b0:=1;
 #touch.ev.process.multi;
 
+_ @touch.tool.default.scale0.store;
+touch.tool.default.scale0.store;
+
 _ @4;
 ui.value1(l12,110,110,0.5,s);
 
