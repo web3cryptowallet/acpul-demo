@@ -1428,7 +1428,7 @@ testtex0 0;
 new.node.common0(testtex0, 500,0,1, 300,300, node.fid.by.name(u0, sys.test.textures), 0);
 
 mel0 0;
-new.node.common0(testtex1, 100,200,1, 300,300, node.fid.by.name(u0, ai.chat.dialog), 0);
+new.node.common0(testtex1, 100,200,1, 300,300, node.fid.by.name(u0, ai.chat.avatar.mel), 0);
 
 testtex1 0;
 new.node.common0(testtex1, 100,200,1, 300,300, node.fid.by.name(u0, ai.chat.dialog), 0);
