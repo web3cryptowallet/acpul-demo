@@ -372,11 +372,11 @@ if (r0) {
   s:=1/4;
 };
 
-touch.rect2.lock(touch.id, 0,0,w,h);
+#touch.rect2.lock(touch.id, 0,0,w,h);
 
-_ @sys.touch.ev.process.once;
-touch.b0:=1;
-touch.ev.process.multi;
+#_ @sys.touch.ev.process.once;
+#touch.b0:=1;
+#touch.ev.process.multi;
 
 _ @4;
 ui.value1(l12,110,110,0.5,s);
