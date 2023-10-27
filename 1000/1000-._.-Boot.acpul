@@ -1311,7 +1311,7 @@ _ @basic.ui.shader.node3.inc;
 # NEON DYN2 [
 
  _ @basic.poly2d.test;
- #poly2d.test0;
+poly2d.test0;
 
 sn2poly 0;
 
