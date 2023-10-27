@@ -1313,7 +1313,6 @@ _ @basic.ui.shader.node3.inc;
 #_ @basic.poly2d.test;
 #poly2d.test0;
 
-sn2poly 0;
 
 
 # new.poly2d(sn2poly, 0,470,1, 300,300);
@@ -1455,6 +1454,7 @@ _ @sys.shader.ex;
 
 sn1lines 0;
 sn2sign 0;
+sn2poly 0;
 
 # HERO SIGN [
 
