@@ -1383,10 +1383,10 @@ sn2poly 0;
 
 # NEON DYN2 ]
 
- _ @hero.sign1.test;
+# _ @hero.sign1.test;
 #hero.sign1.test0;
 
-hero.sign.create(sn2sign, 0,420,1, 300,300);
+#hero.sign.create(sn2sign, 0,420,1, 300,300);
 
 #new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 many.signs {
@@ -1456,13 +1456,13 @@ sn2sign 0;
 
 # HERO SIGN [
 
-_ @hero.sign1;
+#_ @hero.sign1;
 
 #hero.sign.color.purple1(sn2sign);
 #hero.sign.color.purple2(sn2sign);
 #hero.sign.color.purple3(sn2sign);
 #hero.sign.color.orange1(sn2sign);
-hero.sign.color.rgb1(sn2sign);
+#hero.sign.color.rgb1(sn2sign);
 #hero.sign.color.purple4(sn2sign);
 #hero.sign.color.green1(sn2sign);
 
