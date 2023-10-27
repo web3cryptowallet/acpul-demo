@@ -1388,6 +1388,8 @@ sn2poly 0;
 
 hero.sign.create(sn2sign, 0,420,1, 300,300);
 
+# DOTA [
+
 new.ui.shader.node3(sn0, 0,415,1.25*2, 32/2,32/2, 70014,28770); # neon.heart
 #new.ui.shader.node3(sn2sign, -100,415-200,2, 300,300, 70014,28770); # neon.heart
 
@@ -1409,6 +1411,7 @@ new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28778); # fly78
 
 new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28779); # 
 
+# DOTA ]
 
 #new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 many.signs {
@@ -1420,7 +1423,7 @@ many.signs {
   i+=1;
  };
 };
-#many.signs;
+many.signs;
 
 
 vv100;
