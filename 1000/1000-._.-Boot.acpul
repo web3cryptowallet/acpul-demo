@@ -1310,8 +1310,8 @@ _ @basic.ui.shader.node3.inc;
 
 # NEON DYN2 TEST [
 
- _ @basic.poly2d.test;
- #poly2d.test0;
+#_ @basic.poly2d.test;
+#poly2d.test0;
 
 sn2poly 0;
 
@@ -1336,8 +1336,8 @@ sn2poly 0;
 #shader.set.uniformi.v4(sn2poly, A.lineColor, 3, 0,0,1, 1);
 #shader.set.uniformi.v4.count(sn2poly, A.lineColor, 4);
 
- _ @basic.lines2d.test;
- #lines2d.test0;
+# _ @basic.lines2d.test;
+#lines2d.test0;
 
 # new.lines2d(sn1lines, 0,470,1, 300,300);
 # new.lines2d(sn1lines, 0,420,1, 300,300);
