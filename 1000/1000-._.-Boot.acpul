@@ -1433,7 +1433,7 @@ new.ui.shader.node3(sn0, 200,300,1, 200,200, 70014,28787); # dota.hero.bg.stars
 new.ui.shader.node3(sn0, 0,500,1, 200,200, 70014,28788); # dota.skill.laser.box
 new.ui.shader.node3(sn0, 200,500,1, 200,200, 70014,28789); # dota.bullet.laser.pointer
 
-new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28790); # 
+#new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28790); # 
 
 
 # DOTA ]
