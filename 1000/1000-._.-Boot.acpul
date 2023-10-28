@@ -1426,6 +1426,8 @@ new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28779); #
 
 new.ui.shader.node3(sn0, 0,350,1, 100,100, 70014,28784); # dota.stars.stun
 
+new.ui.shader.node3(sn0, 0,300,1, 300,300, 70014,28785); # 
+
 # DOTA ]
 
 
