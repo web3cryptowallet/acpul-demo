@@ -1426,7 +1426,7 @@ new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28779); #
 
 new.ui.shader.node3(sn0, 0,350,1, 100,100, 70014,28784); # dota.stars.stun
 
-new.ui.shader.node3(sn0, 0,00,1, 700,700, 70014,28785); # 
+new.ui.shader.node3(sn0, 0,00,1, 500,500, 70014,28785); # 
 
 #new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28786); # sphere.buff
 #new.ui.shader.node3(sn0, 200,300,1, 200,200, 70014,28787); # dota.hero.bg.stars
