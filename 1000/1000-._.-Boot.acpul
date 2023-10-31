@@ -1302,6 +1302,9 @@ if (r0) {
 
 _ @basic.ui.shader.node3.inc;
 
+#_ @basic.poly2d.test;
+# _ @basic.lines2d.test;
+
 
 # NOT WORKS AFTER UPDATE [
 
