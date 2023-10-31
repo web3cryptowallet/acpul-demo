@@ -1449,7 +1449,7 @@ voxel3d {
 
 #new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28794); # magic.mushroom
 
-new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28795); # 
+new.ui.shader.node3(sn0, 0,300,2, 200,200, 70014,28795); # 
 
 # DOTA ]
 
