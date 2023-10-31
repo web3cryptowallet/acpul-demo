@@ -1449,10 +1449,11 @@ voxel3d {
 
 #new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28794); # magic.mushroom
 
-new.ui.shader.node3(sn0, 0,300,1, 300,200, 70014,28795); # rock95
 
 new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
 new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28797); # dota.smoke
+
+new.ui.shader.node3(sn0, 0,300,1, 300,200, 70014,28795); # rock95
 
 
 # DOTA ]
