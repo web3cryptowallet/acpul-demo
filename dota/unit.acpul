@@ -11,6 +11,8 @@ _ @sys.node;
 _ @os.basic;
 _ @os.basic.ui;
 
+_ @os.util0;
+
 OBJECT 3220;
 
 obj @OBJECT;
@@ -37,6 +39,7 @@ if (r0) { #hack!
   b = q==1;
   c = q==2;
   node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
+
 
 #  node.new.this.ex(r0*b, hero.bobann, player.id);
   new.node.common0(hero0, 0,0,1, 100,100, hero.bobann, player.id);
