@@ -23,7 +23,6 @@ if (r0) {
 
 ### 3261 hero.weapon.mage.draw
 
-psize1(u0, 1);
 # body
 
 color(u0, 0.4,0.0,0.3,1);
