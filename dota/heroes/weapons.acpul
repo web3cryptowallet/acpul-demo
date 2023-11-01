@@ -7,7 +7,7 @@ t+=dt;
 _ @sys.node;
 eth @100000;
 
-
+psize(u0, 1);
 wallet0 0;
 if (r0) {
 # wallet0:=node.new.this.ex(r0, eth.wallet.eth, 0); 
