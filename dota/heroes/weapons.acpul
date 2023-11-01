@@ -7,7 +7,6 @@ t+=dt;
 _ @sys.node;
 eth @100000;
 
-psize1(u0, 1);
 wallet0 0;
 if (r0) {
 # wallet0:=node.new.this.ex(r0, eth.wallet.eth, 0); 
@@ -24,6 +23,7 @@ if (r0) {
 
 ### 3261 hero.weapon.mage.draw
 
+psize1(u0, 1);
 # body
 
 color(u0, 0.4,0.0,0.3,1);
