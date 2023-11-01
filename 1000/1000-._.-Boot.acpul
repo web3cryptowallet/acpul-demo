@@ -1407,53 +1407,6 @@ many.signs {
 #many.signs;
 
 # SIGN TEST ]
-# DOTA [
-
-new.ui.shader.node3(sn0, 0,415,1.25*2, 32/2,32/2, 70014,28770); # neon.heart
-#new.ui.shader.node3(sn2sign, -100,415-200,2, 300,300, 70014,28770); # neon.heart
-
-#new.ui.shader.node3(sn2sign, 100,415,2.5, 16*2,16*2, 70014,28776); # sword76
-new.ui.shader.node3(sn0, 50,415,2.5, 16,16, 70014,28776); # sword76
-
-
-new.ui.shader.node3(sn0, 100,415,2.5, 16,16, 70014,28777); # metamorphosis777
-
-
-new.ui.shader.node3(sn0, 0,200,1, 500,100, 70014,28772); # prism72
-
-new.ui.shader.node3(sn0, 0,300,1, 100,100, 70014,28773); # golden.piggy
-
-new.ui.shader.node3(sn0, 100,300,1, 100,100, 70014,28775); # x.good1
-#new.ui.shader.node3(sn2sign, 200,300,1, 100,100, 70014,28776); # sword76
-
-new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28778); # fly78
-
-new.ui.shader.node3(sn0, 200,300,1, 100,100, 70014,28779); # 
-
-new.ui.shader.node3(sn0, 0,350,1, 100,100, 70014,28784); # dota.stars.stun
-
-
-#new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28786); # sphere.buff
-#new.ui.shader.node3(sn0, 200,300,1, 200,200, 70014,28787); # dota.hero.bg.stars
-#new.ui.shader.node3(sn0, 0,500,1, 200,200, 70014,28788); # dota.skill.laser.box
-#new.ui.shader.node3(sn0, 200,500,1, 200,200, 70014,28789); # dota.bullet.laser.pointer
-
-#new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28790); # dota.skill.hypno
-#new.ui.shader.node3(sn0, 200,300,1, 200,200, 70014,28791); # dota.grid.bg
-#new.ui.shader.node3(sn0, 0,500,1, 200,200, 70014,28792); # dota.skill.laserbox
-#new.ui.shader.node3(sn0, 200,500,1, 200,200, 70014,28793); # 
-
-#new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28794); # magic.mushroom
-
-
-#new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
-
-#new.ui.shader.node3(sn0, 0,300,0.5, 300,200, 70014,28795); # rock95
-#new.ui.shader.node3(sn0, -10,350,1, 200,200, 70014,28797); # dota.smoke
-
-
-
-# DOTA ]
 
 voxel3d {
  new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28785); # voxel3d
