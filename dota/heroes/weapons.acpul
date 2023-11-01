@@ -16,10 +16,9 @@ if (r0) {
  node.prop.y.s(u0, wallet0,127);
  node.prop.x.s(u0, wallet0,5);
 };
-if (r0) {
-s:=rnd(u0)+1;
-
-};
+#if (r0) {
+#s:=rnd(u0)+1;
+#};
 
 
 
