@@ -20,6 +20,21 @@ s:=0.15;
 
 t+=dt;
 
+### hero.bobann1
+
+draw(r0, 3243);
+
+_ @sys.node;
+_ @dota.heroes;
+
+wp0 0;
+
+if (r0) {
+ wp0:=node.new.this.ex(r0, hero.weapon.mage, 0);
+};
+
+t+=dt;
+
 ### 3243 hero.bobann.draw
 
 q 1;
