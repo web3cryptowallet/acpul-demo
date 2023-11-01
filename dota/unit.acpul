@@ -51,7 +51,7 @@ if (r0) { #hack!
   };
 
 #  hero0 = node.new.this.ex(r0*c, hero.leprechaun, player.id);
-#  node.prop.y.s(r0*c, hero0, 20);
+  node.prop.y.s(r0*c, hero0, 20);
 
   effect {
    sn0 0;
