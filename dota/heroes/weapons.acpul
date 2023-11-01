@@ -5,7 +5,7 @@ draw(r0, 3261);
 t+=dt;
 
 _ @sys.node;
-#eth @100000;
+eth @100000;
 
 
 wallet0 0;
