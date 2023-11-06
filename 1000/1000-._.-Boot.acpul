@@ -1356,7 +1356,7 @@ node.prop.z.order.s(u0, dota1, 1000);
 };
 
 _ @sys.time.test;
-test.time0(r0, 500,30,1);
+#test.time0(r0, 500,30,1);
 
 
 
