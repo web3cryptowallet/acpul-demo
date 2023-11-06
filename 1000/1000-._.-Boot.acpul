@@ -1307,86 +1307,8 @@ _ @basic.ui.shader.node3.inc;
 #_ @hero.sign1.test;
 
 
-# NOT WORKS AFTER UPDATE [
+28799;
 
-#new.ui.shader.node3(sn2sign, -100,415-200,2, 300,300, 70014,28771); # 
-
-#new.ui.shader.node3(sn0, 0,220,1, 500,500, 70014,28766); # neon.lines.test
-#new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28768); # neon.lines.dyn
-
-# NOT WORKS AFTER UPDATE ]
-# NEON DYN2 TEST [
-
-#_ @basic.poly2d.test;
-#poly2d.test0;
-
-
-
-# new.poly2d(sn2poly, 0,470,1, 300,300);
-# new.poly2d(sn2poly, 0,420,1, 300,300);
-# lines2d.figure2(sn2poly);
-# poly2d.figure1(sn2poly);
-# poly2d.figure1.color1(sn2poly);
-
-#new.ui.shader.node3(sn2poly, 0,420,1, 300,300, 70014,28781); # poly2d.dyn
-
-#shader.set.uniformi.v2(sn2poly, A.lineXY, 0, -0.46,0.26);
-#shader.set.uniformi.v2(sn2poly, A.lineXY, 1, 0.46,0.26);
-#shader.set.uniformi.v2(sn2poly, A.lineXY, 2, 0,-0.5);
-#shader.set.uniformi.v2(sn2poly, A.lineXY, 3, -0.46,0.26);
-#shader.set.uniformi.v2.count(sn2poly, A.lineXY, 4);
-
-#shader.set.uniformi.v4(sn2poly, A.lineColor, 0, 1.2,1.2,0, 1);
-#shader.set.uniformi.v4(sn2poly, A.lineColor, 1, 1.2,0,1.2, 1);
-#shader.set.uniformi.v4(sn2poly, A.lineColor, 2, 0,1.2,0, 1);
-#shader.set.uniformi.v4(sn2poly, A.lineColor, 3, 0,0,1, 1);
-#shader.set.uniformi.v4.count(sn2poly, A.lineColor, 4);
-
-# _ @basic.lines2d.test;
-#lines2d.test0;
-
-# new.lines2d(sn1lines, 0,470,1, 300,300);
-# new.lines2d(sn1lines, 0,420,1, 300,300);
-# lines2d.figure1(sn1lines);
-# lines2d.test0.figure2(sn1lines);
-# lines2d.figure1.color1(sn1lines);
-# lines2d.figure2(sn1lines);
-# lines2d.figure2(sn1lines);
-# lines2d.figure2.color1(sn1lines);
-# lines2d.figure3.dialog(sn1lines);
-# lines2d.figure3.color1(sn1lines);
-# shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, -0.5, -0.5, -0.5, 0);
-
-# lines2d.figure3.dialog(sn2poly);
-# lines2d.figure2(sn2poly);
-# lines2d.figure2.color1(sn2poly);
-
-#sn1lines 0;
-#new.ui.shader.node3(sn1lines, 0,420,1, 300,300, 70014,28780); # neon.lines.dyn2
-
-#lines2d.figure1(sn1lines);
-
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 0, 1.2,0,1.2, 1);
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 1, 1,1,0, 1);
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 2, 1,1,0, 1);
-#shader.set.uniformi.v4.count(sn1lines, A.lineColor, 3);
-
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 0, -0.46,0.26);
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 1, 0.46,0.26);
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 2, 0,-0.5);
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 3, -0.46,0.26);
-#shader.set.uniformi.v2.count(sn1lines, A.lineXY, 4);
-
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 0, 1.2,1.2,0, 1);
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 1, 1.2,0,1.2, 1);
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 2, 0,1.2,0, 1);
-#shader.set.uniformi.v4(sn1lines, A.lineColor, 3, 0,0,1, 1);
-#shader.set.uniformi.v4.count(sn1lines, A.lineColor, 4);
-
-#shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.0, -0.5, -0.9, 0);
-#shader.set.uniform.v4(sn1lines, A.backgroundColorAdd, 0.5, -0.5, -0.9, 0);
-
-# NEON DYN2 TEST ]
 # SIGN TEST [
 
 # _ @hero.sign1.test;
@@ -1445,31 +1367,6 @@ sn1lines 0;
 sn2sign 0;
 sn2poly 0;
 
-# HERO SIGN [
-
-#_ @hero.sign1;
-
-#hero.sign.color.purple1(sn2sign);
-#hero.sign.color.purple2(sn2sign);
-#hero.sign.color.purple3(sn2sign);
-#hero.sign.color.orange1(sn2sign);
-#hero.sign.color.rgb1(sn2sign);
-#hero.sign.color.purple4(sn2sign);
-#hero.sign.color.green1(sn2sign);
-
-# HERO SIGN ]
-
-
-#shader.set.uniform.v2(sn1lines, iResolution1, 300,300);
-#shader.set.uniformi.v2.count
- # uid, name, n
-# obj.key.set2(u0, 2, _0,_1,0, 2,_2);
-#shader.set.uniformi.v2(sn1lines, iResolution1, 0, 300,300);
-#shader.set.uniformi.v2(sn1lines, iResolution1, 1, 500,300-rnd(u0)*200);
-#shader.set.uniformi.v2.count(sn1lines, iResolution1, 2);
-
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 0, -0.5+0.5*sin(t),0);
-#shader.set.uniformi.v2(sn1lines, A.lineXY, 1, 0.1,0.2);
 
 
 
