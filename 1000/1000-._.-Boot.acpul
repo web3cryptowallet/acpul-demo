@@ -1355,6 +1355,10 @@ dota1 0;
 new.node.common0(dota1, 0,200,1, 300,300, node.fid.by.name(u0, dota.dialog.test), 0);
 node.prop.z.order.s(u0, dota1, 1000);
 
+
+gpt0 0;
+new.node.common0(gpt0, 500,0,1, 300,300, node.fid.by.name(u0, gpt.chat.test), 0);
+
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28801); # pix.eq
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28802); # fractal802
 
