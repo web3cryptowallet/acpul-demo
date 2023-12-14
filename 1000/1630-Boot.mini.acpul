@@ -32,6 +32,17 @@ _ @sys.llog;
 llog.host(u0, 192,168,0,176, 8995);
 llog.enable(u0, 1);
 
+# touch
+touch.start();
+# events
+_ @sys.events;
+events.step();
+# media
+_ @sys.media;
+media.init(r0);
+media.step(u0, dt);
+
 # user
 music.set.track(r0, 1, 2, 1);
+
 
