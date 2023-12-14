@@ -491,7 +491,7 @@ new.Edit1
 
 #new.Edit1();
 
-#setup.bg;
+setup.bg;
 
 #!node.new.this.object(r0, 2000, 0);
 #node.new.this.object(r0, 3000, 0);
