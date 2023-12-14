@@ -32,4 +32,6 @@ _ @sys.llog;
 llog.host(u0, 192,168,0,176, 8995);
 llog.enable(u0, 1);
 
+# user
+music.set.track(r0, 1, 2, 1);
 
