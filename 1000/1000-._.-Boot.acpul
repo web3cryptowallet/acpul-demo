@@ -1266,8 +1266,8 @@ if (r0) {
  #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28417); # fractals25
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28275); # bg
-new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28330); # g.club.lights1
-# new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28282); # rainbow.clouds
+ #new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28330); # g.club.lights1
+ new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28282); # rainbow.clouds
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28287); # world.future1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28286); # matrix2
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
