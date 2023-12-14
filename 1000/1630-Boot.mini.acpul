@@ -75,4 +75,4 @@ GAME.NEBULA 11800;
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 new.wallet;
 
-VG;
+#VG;
