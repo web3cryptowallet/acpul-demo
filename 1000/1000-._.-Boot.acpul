@@ -239,7 +239,29 @@ rect(u0, 6, 0,0, w,h);
 
 ### 1630 Boot.main.mini
 
- 
+_ @0;
+
+_ @1010;
+_ @sys.node;
+_ @sys.touch;
+_ @sys.net;
+_ @sys.cpu;
+
+cpu.init(r0);
+
+# BOOT NID [
+bootnid u29;
+bootnid:=nid;
+# BOOT NID ]
+
+# i18n [
+_ @1100;
+if (r0) {
+ _ @util.i18n;
+ i18n.reset();
+ i18n.init();
+};
+# i18n ]
 
 
 ### 1610 Boot.main
