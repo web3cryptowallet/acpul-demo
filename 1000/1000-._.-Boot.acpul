@@ -237,40 +237,6 @@ color(u0, 1,1,1,1);
 rect(u0, 6, 0,0, w,h);
 
 
-### 1630 Boot.main.mini
-
-_ @0;
-
-_ @1010;
-_ @sys.node;
-_ @sys.touch;
-_ @sys.net;
-_ @sys.cpu;
-
-cpu.init(r0);
-
-# BOOT NID
-bootnid u29;
-bootnid:=nid;
-
-# i18n
-_ @1100;
-if (r0) {
- _ @util.i18n;
- i18n.reset();
- i18n.init();
-};
-# net
-if (r0) {
- net.host(192,168,0,176, 8077);
-}
-net.editor.update(1);
-net.reset.after.update(1, 1000);
-# llog
-_ @sys.llog;
-llog.host(u0, 192,168,0,176, 8995);
-llog.enable(u0, 1);
-
 
 ### 1610 Boot.main
 
