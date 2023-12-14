@@ -249,19 +249,21 @@ _ @sys.cpu;
 
 cpu.init(r0);
 
-# BOOT NID [
+# BOOT NID
 bootnid u29;
 bootnid:=nid;
-# BOOT NID ]
 
-# i18n [
+# i18n
 _ @1100;
 if (r0) {
  _ @util.i18n;
  i18n.reset();
  i18n.init();
 };
-# i18n ]
+# net
+if (r0) {
+ net.host(192,168,0,176, 8077);
+}
 
 
 ### 1610 Boot.main
