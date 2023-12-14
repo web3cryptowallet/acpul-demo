@@ -584,7 +584,7 @@ GAME.NEBULA 11800;
 node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 
-#VG;
+VG;
 
 # NEO V2 [
 
