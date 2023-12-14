@@ -318,7 +318,7 @@ llog.enable(u0, 1);
 _ @1010;
 _ @sys.display;
 
-vw 1768; vh 11024;
+vw 768; vh 1024;
 
 #display.size;
 #vw:=o0;
