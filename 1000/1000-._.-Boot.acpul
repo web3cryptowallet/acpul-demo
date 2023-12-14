@@ -207,7 +207,7 @@ t+=dt;
 
 # EMULATE DEVICE ]
 
-Boot.texture 1600;
+Boot.texture 1630;
 
 node.new.this.ex(r0, Boot.texture, 0);
 
