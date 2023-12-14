@@ -237,6 +237,11 @@ color(u0, 1,1,1,1);
 rect(u0, 6, 0,0, w,h);
 
 
+### 1630 Boot.main.mini
+
+ 
+
+
 ### 1610 Boot.main
 
 _ @0;
