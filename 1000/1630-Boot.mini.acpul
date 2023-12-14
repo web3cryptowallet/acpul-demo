@@ -45,6 +45,10 @@ media.step(u0, dt);
 # user
 music.set.track(r0, 1, 2, 1);
 
+_ @core.vg;
+
+PAINT 10160000;
+node.new.this.ex(r0, PAINT, 0);
 
 VG {
  _ @core.vg;
@@ -59,8 +63,6 @@ VG {
  SNAKE 10150000;
  #node.new.this.ex(r0, SNAKE, 0); 
 
- PAINT 10160000;
- node.new.this.ex(r0, PAINT, 0);
 };
 
 PHOTONEO 7500;
