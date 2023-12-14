@@ -583,6 +583,7 @@ node.prop.x.s(u0, l0, 550);
 GAME.NEBULA 11800;
 node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #node.new.this.ex(r0, GAME.NEBULA, 0);
+new.wallet;
 
 VG;
 
@@ -603,7 +604,6 @@ new.wallet {
 # node.prop.x.s(u0, l0, -w/2);
 # node.prop.y.s(u0, l0, -800);
 };
-new.wallet;
 
 # WALLET ]
 # GAME MERGE.LIFE [
