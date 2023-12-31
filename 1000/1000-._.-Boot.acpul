@@ -1305,7 +1305,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28799); # minecraft99
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28800); # minecraft800
 
-new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28810); # 
+#new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28810); # spheres
 
 _ @basic.ui.shader.node3.inc;
 
