@@ -43,7 +43,7 @@ media.init(r0);
 media.step(u0, dt);
 
 # user
-#music.set.track(r0, 1, 2, 1);
+music.set.track(r0, 1, 2, 1);
 
 _ @core.vg;
 
