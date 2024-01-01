@@ -63,11 +63,11 @@ TRACK.PLAY music.play(r0, 1, 0, 1);
 #TRACK.SET music.set.track(r0, 1, 3, 43); # serious sam
 #TRACK.SET music.set.track(r0, 1, 3, 4); # serious sam
 
-#TRACK.SET music.set.track(r0, 1, 2, 27); # megablast
+TRACK.SET music.set.track(r0, 1, 2, 27); # megablast
 #TRACK.SET music.set.track(r0, 1, 2, 29); # fantastica
 
 #TRACK.SET music.set.track(r0, 1, 2, 30); # 
-TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
+#TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
 
 #TRACK.SET music.set.track(r0, 1, 2, 32); # Moby
 #TRACK.SET music.set.track(r0, 1, 2, 36); # 
