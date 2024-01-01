@@ -364,7 +364,7 @@ if (r0) {
  dsp.reset();
 };
 
-#music.set.track(r0, 1, 2, 1);
+music.set.track(r0, 1, 2, 1);
 
 #music.set.track(r0, 1, 2, 3);
 #music.set.track(r0, 1, 2, 4);
