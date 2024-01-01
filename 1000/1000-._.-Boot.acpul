@@ -382,7 +382,7 @@ if (t>0.5) {
 # TRACK.PLAY music.play(l9==0, 1, 0, 1);
  r01=r0;
  r0:=l9==0;
-# TRACK.PLAY;
+ TRACK.PLAY;
  l9:=1;
  r0:=r01;
 };
