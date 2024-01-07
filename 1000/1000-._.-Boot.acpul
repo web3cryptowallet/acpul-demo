@@ -1356,9 +1356,8 @@ mel0 0;
 new.node.common0(mel0, 0,0,1, 768/8*2,1024/8*2, node.fid.by.name(u0, ai.chat.avatar.mel), 0);
 
 testtex1 0;
-new.node.common0(testtex1, 100,200,1, 300,300, node.fid.by.name(u0, ai.chat.dialog), 0);
-
-node.prop.z.order.s(u0, testtex1, 1000);
+#new.node.common0(testtex1, 100,200,1, 300,300, node.fid.by.name(u0, ai.chat.dialog), 0);
+#node.prop.z.order.s(u0, testtex1, 1000);
 
 dota1 0;
 #new.node.common0(dota1, 0,200,1, 300,300, node.fid.by.name(u0, dota.dialog.test), 0);
