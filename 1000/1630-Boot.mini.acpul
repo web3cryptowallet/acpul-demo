@@ -82,6 +82,7 @@ GAME.NEBULA 11800;
 
 #VG;
 
+_ @rec.nodes.inc;
 
 ### rec.nodes.inc
 
