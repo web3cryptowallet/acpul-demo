@@ -6,7 +6,7 @@ _ @sys.node;
 Boot.main 1610;
 Boot.main.mini 1630;
 
-node.new.this.ex(r0, Boot.main, 0);
+#node.new.this.ex(r0, Boot.main, 0);
 node.new.this.ex(r0, Boot.main.mini, 0);
 
 nextturn 0;
