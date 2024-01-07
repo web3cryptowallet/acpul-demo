@@ -1234,7 +1234,7 @@ rec.nodes.update {
 
 if (BOOT.REC.NODES) {
  if (r0) {
-  rec.nodes;
+#  rec.nodes;
  };
  rec.nodes.update;
 };
