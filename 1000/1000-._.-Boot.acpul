@@ -568,7 +568,7 @@ VG {
  #node.new.this.ex(r0, core.vg.node.test0, 0);
  #node.new.this.ex(r0, core.vg.node.test1, 0);
  #node.new.this.ex(r0, core.vg.node.test2, 0);
- paint0=node.new.this.ex(r0, core.vg.node.test3, 0);
+# paint0=node.new.this.ex(r0, core.vg.node.test3, 0);
 
 # node.set.xy(u0, paint0, 100,100);
 # node.set.s(u0, paint0, 0.25);
