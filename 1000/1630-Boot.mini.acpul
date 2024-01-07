@@ -82,6 +82,9 @@ GAME.NEBULA 11800;
 
 #VG;
 
+#_ @basic.ui;
+_ @ui.util0;
+
 _ @rec.nodes.inc;
 
  if (r0) {
