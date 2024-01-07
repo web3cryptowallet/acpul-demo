@@ -84,6 +84,11 @@ GAME.NEBULA 11800;
 
 _ @rec.nodes.inc;
 
+ if (r0) {
+  rec.nodes;
+ };
+ rec.nodes.update;
+
 ### rec.nodes.inc
 
 # VIDEO REC [
