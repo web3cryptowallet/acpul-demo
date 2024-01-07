@@ -81,3 +81,35 @@ GAME.NEBULA 11800;
 #new.wallet;
 
 #VG;
+
+
+### rec.nodes.inc
+
+# VIDEO REC [
+
+rec.nodes {
+ _ @93000;
+
+ pos.landscape {x 1070; y 100;};
+ pos.portrait {x 700; y 100;};
+
+ pos1 pos.landscape;
+ pos0 pos.portrait;
+
+# new.node0(r0, nodes.group.rec, pos0.x,pos0.y,0.5,500,500, 0,0,0,0);
+ node0=new.node0(r0, nodes.group.rec, pos1.x,pos1.y,0.5,500,500, 0,0,0,0);
+};
+
+rec.nodes.update {
+ node.z.to.front(u0, node0,0);
+};
+
+if (BOOT.REC.NODES) {
+ if (r0) {
+  rec.nodes;
+ };
+ rec.nodes.update;
+};
+
+# VIDEO REC ]
+
