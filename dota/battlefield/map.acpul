@@ -25,6 +25,7 @@ h:=500;
 sn0 0;
 
 if (r0) {
+x:=rnd(u0)*100;
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28713); # gojo.tower.main.screen
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28711); # pioneer.smile 
