@@ -33,3 +33,5 @@ create.asset {
 
 ### 3283 dota.gameplay.panel.draw
 
+color(u0, 0,0.7,0.9,1);
+rect(u0, 2, 0,0, w,h);
