@@ -31,7 +31,8 @@ node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 # MINIMAP
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
-new.node.common0(sl0, 0,0,2, 200,100, node.fid.by.name(u0, dota.battlefield), 0);
+battlefield0 0;
+new.node.common0(battlefield0, 0,0,2, 200,100, node.fid.by.name(u0, dota.battlefield), 0);
 
 
 
