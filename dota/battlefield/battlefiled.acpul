@@ -6,6 +6,9 @@ _ @1010;
 _ @sys.node;
 _ @os.util0;
 
+# MAP
+node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
+
 
 ### 3281 dota.battlefield.draw
 
