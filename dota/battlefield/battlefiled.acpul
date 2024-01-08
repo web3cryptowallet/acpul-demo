@@ -11,6 +11,7 @@ _ @os.util0;
 node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
 
 node.new.this.ex(r0, MAP, 0);
+ new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28726); # bg.bigcircle
 
 ### 3281 dota.battlefield.draw
 
