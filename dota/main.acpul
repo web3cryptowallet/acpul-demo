@@ -64,8 +64,8 @@ box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
 
 #watch(r0);
 color(u0, 0,0.1, 0,0);
-rect(u0, 6, 0,0,768,1024);
+rect(u0, 6, 0,0,w,h);
 psize(u0, 1);
 color(u0, 1,1,0,0);
-rect(u0, 2, 0,0,768,1024);
+rect(u0, 2, 0,0,w,h);
 
