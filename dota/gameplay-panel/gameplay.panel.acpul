@@ -53,6 +53,7 @@ if (r0) {
  create.asset;
 };
 
+draw(r0, 3283);
 
 ### 3283 dota.gameplay.panel.draw
 
