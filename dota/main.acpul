@@ -9,6 +9,7 @@ draw(r0, 3203);
 _ @3200;
 _ @1010;
 _ @sys.node;
+_ @os.util0;
 
 w:=1000;
 h:=500;
@@ -31,8 +32,6 @@ node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 
 # MINIMAP
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
-
-_ @os.util0;
 
 new.node.common0(sl0, 0,0,2, 200,100, node.fid.by.name(u0, dota.battlefield), 0);
 
