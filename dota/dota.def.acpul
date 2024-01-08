@@ -32,6 +32,7 @@ dota {
 };
 
 dota.battlefield 3280;
+dota.gameplay.panel 3282;
 
 gnet.wr u3;
 gnet.rd u4;
