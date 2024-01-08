@@ -11,6 +11,10 @@ OBJECT 3220;
 
 obj @OBJECT;
 
+w:=1000;
+h:=500;
+
+
 # NET
 node.new.this.ex(r0, NETWORKING, 0);
 
@@ -51,9 +55,6 @@ box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
 # STEP ]
 
 # PHYSICS ]
-
-w:=1000;
-h:=500;
 
 ### 3203 Dota::Main.draw
 
