@@ -31,6 +31,8 @@ dota {
   minimap 19200;
 };
 
+dota.battlefield 3280
+
 gnet.wr u3;
 gnet.rd u4;
 
