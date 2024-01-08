@@ -18,7 +18,7 @@ team obj.teams.green;
 
 nodenew node.new.this.ex8(__);
 
-w:=1500;
+w:=900;
 h:=500;
 
 
