@@ -59,6 +59,7 @@ s:=2;
 w:=100;
 h:=100;
 
+
 parent0=node.get.parent(u0, nid);
 
 parent.w node.prop.w.g(u0, parent0);
