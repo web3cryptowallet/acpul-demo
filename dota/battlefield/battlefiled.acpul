@@ -12,7 +12,7 @@ _ @os.util2;
 # MAP
 node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
 
-node.new.this.ex(r0, MAP, 0);
+node.new.this.ex(r0, 3224, 0);
 
 w:=500;
 h:=500;
