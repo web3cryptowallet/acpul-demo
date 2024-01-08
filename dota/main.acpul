@@ -52,8 +52,6 @@ box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
 
 # PHYSICS ]
 
-s:=1;
-
 ### 3203 Dota::Main.draw
 
 #watch(r0);
