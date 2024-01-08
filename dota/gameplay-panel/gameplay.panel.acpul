@@ -31,6 +31,25 @@ create.asset {
  texview0:=new.node0a(u0, nodes.image, 40,-40,1,80,80, Image.mode.file, 42000,0,7); # hero
 };
 
+if (r0) {
+ # boss.ufo
+# new.ui.shader.node(sn0, 0,0,0.1, 768/2,512/2, 1, 70014,28391); # ufo1
+
+# new.ui.shader.node(sn0, 0,0,0.5, 100,100, 1, 70014,28719); # ocean.bubbles1 X!
+
+
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,107216); #  p2p.net1
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28596); # grid
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28585); # gold
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28583); # 
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28575); # 
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28571); # 
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28597); # hex
+# new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28598); # hex2
+
+};
+
+
 ### 3283 dota.gameplay.panel.draw
 
 color(u0, 0,0.7,0.9,1);
