@@ -6,7 +6,7 @@ _ @3200;
 _ @1010;
 _ @sys.node;
 _ @os.util0;
-_ @os.util2;;
+_ @os.util2;
 
 # MAP
 node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
