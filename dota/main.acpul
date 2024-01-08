@@ -28,13 +28,15 @@ node.new.this.ex(r0, NETWORKING, 0);
 # JOYSTICK
 node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 
-# MINIMAP
-node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
-
+# BATTLEFIELD
 battlefield0 0;
 if (r0) {
  new.node.common0(battlefield0, 0,0,1, w,h, dota.battlefield, 0);
 };
+
+# MINIMAP
+node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
+
 
 
 
