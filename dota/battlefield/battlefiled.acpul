@@ -2,6 +2,8 @@
 
 draw(r0, 3281);
 
+_ @1010;
+_ @sys.node;
 
 
 ### 3281 dota.battlefield.draw
