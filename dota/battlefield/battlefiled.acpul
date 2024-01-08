@@ -11,6 +11,7 @@ _ @os.util0;
 node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
 
 node.new.this.ex(r0, MAP, 0);
+
 ### 3281 dota.battlefield.draw
 
 color(u0, 0,0.7,0.9,1);
