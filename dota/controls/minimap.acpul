@@ -67,7 +67,7 @@ parent.h node.prop.w.g(u0, parent0);
 location top.left;
 if (location==top.left) {
  x:=0;
-# y:=parent.h - w;
+ y:=parent.h - w;
 };
 
 _ @4;
