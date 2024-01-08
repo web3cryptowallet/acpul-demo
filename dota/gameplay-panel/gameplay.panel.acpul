@@ -1,4 +1,4 @@
-### gameplay.panel
+### dota.gameplay.panel
 
 create.asset {
  _ @93000; # nodes
@@ -31,5 +31,5 @@ create.asset {
  texview0:=new.node0a(u0, nodes.image, 40,-40,1,80,80, Image.mode.file, 42000,0,7); # hero
 };
 
-### gameplay.panel.draw
+### dota.gameplay.panel.draw
 
