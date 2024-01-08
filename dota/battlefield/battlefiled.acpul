@@ -4,3 +4,6 @@ draw(r0, 3281);
 
 ### 3281 dota.battlefield.draw
 
+
+color(u0, 0,0.7,0.2,1);
+rect(u0, 6, 0,0, w,h);
