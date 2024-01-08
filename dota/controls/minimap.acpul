@@ -59,6 +59,15 @@ s:=0.5;
 w:=100;
 h:=100;
 
+parent.w node.prop.w.g(u0, parent0);
+parent.h node.prop.w.g(u0, parent0);
+
+location top.left;
+if (location==top.left) {
+ x:=0;
+ y:=parent.h - w;
+};
+
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, MINIMAP, x);
 
