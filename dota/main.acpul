@@ -32,7 +32,7 @@ node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
 battlefield0 0;
-new.node.common0(battlefield0, 0,0,2, w,h, dota.battlefield, 0);
+new.node.common0(battlefield0, 0,0,1, w,h, dota.battlefield, 0);
 
 
 
