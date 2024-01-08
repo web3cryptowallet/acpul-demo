@@ -1,5 +1,9 @@
 ### 3202 Dota::Main
 
+# main
+# - MAP
+# - MINIMAP
+
 draw(r0, 3203);
 
 _ @3200;
