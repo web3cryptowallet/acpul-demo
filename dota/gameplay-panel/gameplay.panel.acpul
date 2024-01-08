@@ -1,0 +1,33 @@
+
+
+create.asset {
+ _ @93000; # nodes
+ x0 0; y0 0; w0 200; h0 200;
+
+#tex0boot1 u14;
+#tex0src  tex0boot1;
+
+
+ texview0 0;
+ Image @nodes.image;
+# texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.texture, tex0src, 0,0);
+# texview0:=new.node0(u0, nodes.image, x0,y0+50,1,200,200, Image.mode.file, 12000,0,1);
+# texview0:=new.node0(u0, nodes.image, x0,y0+50,1,w0,h0, Image.mode.file, 11000,0,1);
+# texview0:=new.node0(u0, nodes.image, 200,0,1,400,200, Image.mode.file, 42000,0,1);
+# texview0:=new.node0(u0, nodes.image, 200,0,1,400,200, Image.mode.file, 42000,0,1);
+
+ new.node0a {
+  texview0=new.node0(__);#u0, nodes.image, 200,50,1,50,50, Image.mode.file, 42000,0,2);
+  pin0=node.get.pin(texview0, 0);
+  node.prop.visible.s(u0, pin0, 0);
+ }; 
+
+ texview0:=new.node0a(u0, nodes.image, 180,30,1,50,50, Image.mode.file, 42000,0,2); # skill
+ texview0:=new.node0a(u0, nodes.image, 250-20+2,30,1,50,50, Image.mode.file, 42000,0,3); # skill
+ texview0:=new.node0a(u0, nodes.image, 300-20+2*2,30,1,50,50, Image.mode.file, 42000,0,4); # skill
+ texview0:=new.node0a(u0, nodes.image, 350-20+2*3,30,1,50,50, Image.mode.file, 42000,0,5); # skill
+
+ texview0:=new.node0a(u0, nodes.image, 330,-40,1,80,80, Image.mode.file, 42000,0,6); # attack 
+ texview0:=new.node0a(u0, nodes.image, 40,-40,1,80,80, Image.mode.file, 42000,0,7); # hero
+};
+
