@@ -29,7 +29,8 @@ if (r0) {
 
 qq0 0;
 if (r0) {
- new.node.common0(qq0, 200,0,1, 500,500, node.fid.by.name(u0, dota.forest.of.omphalos), 0);
+# new.node.common0(qq0, 200,0,1, 500,500, node.fid.by.name(u0, dota.forest.of.omphalos), 0);
+ new.node.common0(qq0, 200,0,1, 500,500, dota.forest.of.omphalos, 0);
 };
 
 ### 3281 dota.battlefield.draw
