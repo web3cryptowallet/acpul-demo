@@ -48,7 +48,7 @@ inited 0;
 if ((inited==0)*w*h) {
  inited:=1;
 # create0;
- create1(w,h, 30,50, 30); 
+ create1(w,h, 30,50*rnd(u0), 30); 
 };
 
 draw(r0, 3285);
