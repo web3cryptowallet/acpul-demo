@@ -36,6 +36,7 @@ create1 {
   h0=oh*s0;
   y0 rnd(u0)*(h-h0); 
   x0 rnd(u0)*(w-w0);
+  x0 0;
   y0 i*10;
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
   node.prop.z.order.s(u0, sn0, 1000-y0);
