@@ -18,3 +18,5 @@ if (r0) {
 
 ### 3285 dota.forest.of.omphalos.draw
 
+color(u0, 0,0.5,0,0.5);
+rect(u0, 6, 0,0,w,h);
