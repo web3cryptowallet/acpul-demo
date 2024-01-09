@@ -11,9 +11,9 @@ _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
 sn0 0;
-#new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28802); 
 if (r0) {
  new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28830); 
+ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28802); 
 };
 
 draw(r0, 3285);
