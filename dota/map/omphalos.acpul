@@ -24,16 +24,18 @@ create0 {
 };
 
 create1 {
- # ow,oh, count
- ow _0;
- oh _1;
- cnt _2;
+ # w,h, ow,oh, count
+ w _0;
+ h _1;
+ ow _2;
+ oh _3;
+ cnt _4;
  i=0;while(i<cnt) {
   s0 1;
   w0=oh*s0;
   h0=ow*s0;
-  y0 rnd(u0)*h0;
-  x0 rnd(u0)*w0;
+  y0 rnd(u0)*h;
+  x0 rnd(u0)*w;
   new.ui.shader.node3(sn0, 0,0,1, w0,h0, 70014,28830); # dota.omphalos
   node.prop.z.order.s(u0, sn0, -1);
   i+=1;
@@ -44,7 +46,7 @@ inited 0;
 if ((inited==0)*w*h) {
  inited:=1;
 # create0;
- create1(10,10,10);
+ create1(w,h, 10,10, 10);
 };
 
 draw(r0, 3285);
