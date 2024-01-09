@@ -42,7 +42,8 @@ create1 {
 inited 0;
 if ((inited==0)*w*h) {
  inited:=1;
- create0;
+# create0;
+ create1(10,10,10);
 };
 
 draw(r0, 3285);
