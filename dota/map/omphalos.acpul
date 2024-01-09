@@ -15,11 +15,12 @@ count 10;
 
 sn0 0;
 if (r0) {
- new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28830); # dota.omphalos
+# new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28830); # dota.omphalos
+ create0;
 };
 
 create0 {
- new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28830); # dota.omphalos
+ new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
 };
 
 draw(r0, 3285);
