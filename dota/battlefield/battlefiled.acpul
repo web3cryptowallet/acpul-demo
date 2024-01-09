@@ -1,5 +1,14 @@
 ### 3280 dota.battlefield
 
+# TASKS [
+# . omphalos
+# .. box2d body
+# .. draw once texture cache subnodes (optimize)
+# . panel
+# .. locate skill buttons
+
+# TASKS ]
+
 draw(r0, 3281);
 
 _ @3200;
