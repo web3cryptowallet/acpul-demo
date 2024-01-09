@@ -23,6 +23,11 @@ create0 {
  new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
 };
 
+create1 {
+ # omp.w,omp.h)
+ new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
+};
+
 inited 0;
 if ((inited==0)*w*h) {
  inited:=1;
