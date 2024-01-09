@@ -3,7 +3,7 @@
 
 ### dota.trees.spruce
 
-### dota.forest.of.omphalos
+### 3284 dota.forest.of.omphalos
 
 
 _ @4;
@@ -15,3 +15,6 @@ sn0 0;
 if (r0) {
  new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28830); 
 };
+
+### 3285 dota.forest.of.omphalos.draw
+
