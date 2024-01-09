@@ -32,8 +32,8 @@ create1 {
  cnt _4;
  i=0;while(i<cnt) {
   s0 1;
-  w0=oh*s0;
-  h0=ow*s0;
+  w0=ow*s0;
+  h0=oh*s0;
   y0 rnd(u0)*h;
   x0 rnd(u0)*w;
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
