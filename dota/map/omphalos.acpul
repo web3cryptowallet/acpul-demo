@@ -24,10 +24,13 @@ create0 {
 };
 
 create1 {
- # ow,oh
+ # ow,oh, count
  ow _0;
  oh _1;
- new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
+ cnt _2;
+ i=0;while(i<cnt) {
+  new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
+ };
 };
 
 inited 0;
