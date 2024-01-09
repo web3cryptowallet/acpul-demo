@@ -10,12 +10,15 @@ _ @4;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
+type 0;
+count 10;
+
 sn0 0;
 if (r0) {
  new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28830); # dota.omphalos
 };
 
-#draw(r0, 3285);
+draw(r0, 3285);
 
 ### 3285 dota.forest.of.omphalos.draw
 
