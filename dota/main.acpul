@@ -35,6 +35,7 @@ if (r0) {
 # MINIMAP
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
+# PANEL
 panel0 0;
 panel0.h 200;
 
