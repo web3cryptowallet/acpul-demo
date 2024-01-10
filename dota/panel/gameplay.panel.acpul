@@ -57,5 +57,5 @@ draw(r0, 3283);
 
 ### 3283 dota.gameplay.panel.draw
 
-color(u0, 0,0.7,0.9,1);
+color(u0, 0,0.7,0.9,0.5);
 rect(u0, 6, 0,0, w,h);
