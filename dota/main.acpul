@@ -44,11 +44,6 @@ if (r0) {
  new.node.common0(panel0, 0,0,1, w,panel0.h, dota.gameplay.panel, 0);
 };
 
-#s:=0.45;
-#x:=-80;
-#y:=220;
-#y:=0;
-
 # PHYSICS [
 
 _ @sys.box2d;
