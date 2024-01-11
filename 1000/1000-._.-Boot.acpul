@@ -1379,7 +1379,7 @@ gpt0 0;
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28802); # fractal802
 
 clockpatek 0;
- new.node.common0(clockpatek, 0,200,1, 400,500, node.fid.by.name(u0, patek.philippe.clock), 0);
+ new.node.common0(clockpatek, 0,200,1, 400,300, node.fid.by.name(u0, patek.philippe.clock), 0);
 
 
 
