@@ -1353,7 +1353,7 @@ many.signs {
 voxel3d {
  new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28785); # voxel3d
 };
-voxel3d;
+#voxel3d;
 
 vv100;
 testtex0 0;
