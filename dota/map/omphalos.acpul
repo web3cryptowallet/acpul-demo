@@ -61,7 +61,7 @@ if (req.update>0) {
 };
 # req.update-=0;
 
-req.update:=0;
+req.update:=0.1;
 #tex0 0;
 tex0 r1;
 
