@@ -58,7 +58,7 @@ if ((inited==0)*w*h) {
 };
 
 if (req.update>0) {
- req.update-=0;
+ req.update-=1;
 };
 
 #req.update:=;
