@@ -59,6 +59,8 @@ if ((inited==0)*w*h) {
 #tex0 0;
 tex0 r1;
 
+req.update r2;
+
 create.texture {
  tex0:=node.ex.texture.create(u0, w,h);
 #  node.value.s(u0, nid,0, tex0);
