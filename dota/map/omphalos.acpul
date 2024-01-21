@@ -58,10 +58,10 @@ if ((inited==0)*w*h) {
 };
 
 if (req.update>0) {
+ req.update-=0;
 };
-# req.update-=0;
 
-req.update:=0.1;
+#req.update:=;
 #tex0 0;
 tex0 r1;
 
