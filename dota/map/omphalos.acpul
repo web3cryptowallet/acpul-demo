@@ -93,8 +93,8 @@ if (req.update) {
 };
 
 draw.to.fbo {
-node.ex.gl.fbo(u0, tex0);
-node.ex.gl.clear(u0, 0,0,1,0);
+ node.ex.gl.fbo(u0, tex0);
+ node.ex.gl.clear(u0, 0,0,1,0);
 
 #gl.shader.use(vsh0,fsh0);
 
@@ -102,9 +102,9 @@ node.ex.gl.clear(u0, 0,0,1,0);
 
 #gl.rect0(5, 0,0, w,h);
 
-node.ex.gl.child.draw(u0);
+ node.ex.gl.child.draw(u0);
 
-node.ex.gl.fbo(u0, -1);
+ node.ex.gl.fbo(u0, -1);
 };
 
 gl.rect0.texture(5, 0,0, w,h, tex0);
