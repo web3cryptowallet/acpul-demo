@@ -44,6 +44,8 @@ create1 {
  };
 };
 
+req.update:=if(req.update>0,req.update-1,0);
+
 inited 0;
 if ((inited==0)*w*h) {
  inited:=1;
@@ -57,7 +59,6 @@ if ((inited==0)*w*h) {
  req.update:=rnd(u0);
 };
 
-req.update:=if(req.update>0,req.update-1,0);
 
 #req.update:=;
 #tex0 0;
