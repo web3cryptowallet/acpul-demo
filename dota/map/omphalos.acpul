@@ -45,7 +45,7 @@ create1 {
 };
 
 inited 0;
-if ((inited==0)*w*h*0) {
+if ((inited==0)*w*h) {
  inited:=1;
 # create0;
  create1(w,h, 30,50, 50); 
