@@ -49,16 +49,14 @@ if ((inited==0)*w*h) {
  inited:=1;
 # create0;
  create1(w,h, 30,50, 50); 
+ create.texture;
 };
 
 tex0 0;
 
-if (r0) {
- create.texture {
-  tex0:=node.ex.texture.create(u0, w,h);
+create.texture {
+ tex0:=node.ex.texture.create(u0, w,h);
 #  node.value.s(u0, nid,0, tex0);
- };
- create.texture;
 };
 
 draw(r0, 3285);
