@@ -91,7 +91,7 @@ tex0 r1;
 
 if (req.update) {
  req.update:=0;
- draw.to.fbo;
+# draw.to.fbo;
 };
 
 draw.to.fbo {
