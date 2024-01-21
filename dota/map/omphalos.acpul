@@ -93,7 +93,7 @@ req.update r2;
 
 tex0 r1;
 
-if (req.update) {
+if (req.update>0) {
  draw.to.fbo;
 };
 
