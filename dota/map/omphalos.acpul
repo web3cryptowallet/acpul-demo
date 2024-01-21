@@ -99,7 +99,8 @@ if (req.update>0) {
 
 draw.to.fbo {
  node.ex.gl.fbo(u0, tex0);
- node.ex.gl.clear(u0, 0,0,rnd(u0),0);
+# node.ex.gl.clear(u0, 0,0,rnd(u0),0);
+ node.ex.gl.clear(u0, 0,0,req.update,0);
 
 #gl.shader.use(vsh0,fsh0);
 
