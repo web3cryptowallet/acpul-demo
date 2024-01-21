@@ -51,6 +51,16 @@ if ((inited==0)*w*h) {
  create1(w,h, 30,50, 50); 
 };
 
+tex0 0;
+
+if (r0) {
+ create.texture {
+  tex0:=node.ex.texture.create(u0, w,h);
+#  node.value.s(u0, nid,0, tex0);
+ };
+ create.texture;
+};
+
 draw(r0, 3285);
 
 ### 3285 dota.forest.of.omphalos.draw
