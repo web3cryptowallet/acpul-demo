@@ -53,7 +53,8 @@ if ((inited==0)*w*h) {
  create.texture;
 };
 
-tex0 0;
+#tex0 0;
+tex0 r1;
 
 create.texture {
  tex0:=node.ex.texture.create(u0, w,h);
