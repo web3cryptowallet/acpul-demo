@@ -56,7 +56,8 @@ if ((inited==0)*w*h) {
 
  node.ex.child.draw.s(u0, 0);
 
- req.update:=rnd(u0);
+ req.update:=1;
+# req.update:=rnd(u0);
 };
 
 
