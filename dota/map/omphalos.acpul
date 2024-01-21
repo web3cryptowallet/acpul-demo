@@ -43,6 +43,7 @@ create1 {
   i+=1;
  };
 };
+req.update r2;
 
 inited 0;
 if ((inited==0)*w*h) {
@@ -60,7 +61,6 @@ if ((inited==0)*w*h) {
 #tex0 0;
 tex0 r1;
 
-req.update r2;
 
 create.texture {
  tex0:=node.ex.texture.create(u0, w,h);
