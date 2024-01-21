@@ -49,6 +49,7 @@ if ((inited==0)*w*h) {
  inited:=1;
 # create0;
  create1(w,h, 30,50, 50); 
+
  create.texture;
 };
 
