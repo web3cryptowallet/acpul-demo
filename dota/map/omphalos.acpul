@@ -51,6 +51,9 @@ if ((inited==0)*w*h) {
  create1(w,h, 30,50, 50); 
 
  create.texture;
+
+ node.ex.child.draw.s(u0, 0);
+
 };
 
 #tex0 0;
