@@ -81,11 +81,18 @@ _ @util.gl.std;
 _ @sys.obj.key;
 _ @sys.shader.ex;
 
-vsh0 r2;
-fsh0 r3;
+#vsh0 r2;
+#fsh0 r3;
+
+req.update r2;
 
 tex0 r1;
 
+if (req.update) {
+ draw.to.fbo;
+};
+
+draw.to.fbo {
 node.ex.gl.fbo(u0, tex0);
 node.ex.gl.clear(u0, 0,0,1,0);
 
@@ -98,5 +105,6 @@ node.ex.gl.clear(u0, 0,0,1,0);
 node.ex.gl.child.draw(u0);
 
 node.ex.gl.fbo(u0, -1);
+};
 
 gl.rect0.texture(5, 0,0, w,h, tex0);
