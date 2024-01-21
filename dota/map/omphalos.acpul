@@ -71,6 +71,8 @@ rect(u0, 2, 0,0,w,h);
 vsh0 r2;
 fsh0 r3;
 
+tex0 r1;
+
 node.ex.gl.fbo(u0, tex0);
 node.ex.gl.clear(u0, 0,0,1,0);
 
