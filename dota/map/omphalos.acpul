@@ -44,7 +44,7 @@ create1 {
  };
 };
 
-req.update:=if(req.update>0,req.update-1,0);
+req.update:=if(req.update>0,req.update-0.1,0);
 
 inited 0;
 if ((inited==0)*w*h) {
