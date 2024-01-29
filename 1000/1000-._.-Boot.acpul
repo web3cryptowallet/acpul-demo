@@ -1322,7 +1322,7 @@ if (r0) {
 
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28831); # in.yan
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28834); # Turbilhão
-new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.interactive
+new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
 
 _ @basic.ui.shader.node3.inc;
 
