@@ -1324,6 +1324,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28834); # Turbilhão
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
 new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28837); # Origami
+new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28838); # 
 
 
 
