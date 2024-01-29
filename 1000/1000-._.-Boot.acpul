@@ -1320,6 +1320,8 @@ if (r0) {
 
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28810); # spheres
 
+new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28831); # 
+
 _ @basic.ui.shader.node3.inc;
 
 #_ @basic.poly2d.test;
