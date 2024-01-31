@@ -1332,6 +1332,8 @@ new.ui.shader.node3(sn0, 0,300,1, 500,500, 1, 70014,28839); # clouds39
 
 #new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
+new.node.common0(sn0, 50,300,1, 300,347, node.fid.by.name(u0, patek.philippe.clock), 1);
+
 _ @basic.ui.shader.node3.inc;
 
 #_ @basic.poly2d.test;
