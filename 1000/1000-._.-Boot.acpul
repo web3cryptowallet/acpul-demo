@@ -1329,6 +1329,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 1, 70014,28839); # clouds39
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 1, 70014,28839); # clouds39
 
+sn0=0;
 new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
 _ @basic.ui.shader.node3.inc;
