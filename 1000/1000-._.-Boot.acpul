@@ -1328,7 +1328,7 @@ if (r0) {
 
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
 #new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28822); # neon22
-new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28823); # 
+new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28823); # neonbg23
 
 #new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
