@@ -1326,7 +1326,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28837); # Origami
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28838); # starsfield38
 
-new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
+#new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
 
 #new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
