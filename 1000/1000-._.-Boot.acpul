@@ -30,7 +30,7 @@ SHOW.AVATARS1 0; # 1 - demo, 2 - boot
 SHOW.UFO 0;
 SHOW.WALLEE 0;
 
-TRACK.STOP music.stop(r0);
+#TRACK.STOP music.stop(r0);
 TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
 #TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
 #TRACK.PLAY music.play(r0, 1, 360, 1);
