@@ -604,7 +604,7 @@ if (BOOT.PAINT) {
 
 if (BOOT.PLAYER*r0) {
  player0 0;
- new.node.common0(player0, 0,100,2, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.player), 0);
+ new.node.common0(player0, 0,100,1, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.player), 0);
 };
 
 # NEO V2 [
