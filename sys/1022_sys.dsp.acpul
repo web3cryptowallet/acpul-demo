@@ -16,6 +16,28 @@ music.play.time
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
 
+# MUSIC STATS AND SEEK [
+
+music.get.stats.play.x
+ # r0 -> time.play.ms, time.length.ms
+ io(_0, 500095, 0,0,0,0);
+
+# get stats selected track
+music.get.stats.track.x
+ # r0 -> pool,id,i, playing
+ io(_0, 500096, 0,0,0,0);
+
+###
+
+music.get.time.play.ms
+ # r0 -> time.play.ms
+ io(_0, 500097, 0,0,0,0);
+
+music.get.time.length.ms
+ # r0 -> time.length.ms
+ io(_0, 500097, 1,0,0,0);
+
+# MUSIC LINK STATS AND SEEK ]
 
 
 dsp {
