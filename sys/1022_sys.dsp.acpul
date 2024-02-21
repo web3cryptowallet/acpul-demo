@@ -12,13 +12,9 @@ music.stop
  # r0
  io(_0, 500091, 0,0,0,0);
 
-music.play.time
+music.play.time # old?
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
-
-music.seek.time
- # r0, time
- io(_0, 500098, _1,0,0,0);
 
 # MUSIC STATS AND SEEK [
 
@@ -40,6 +36,10 @@ music.get.time.play.ms
 music.get.time.length.ms
  # r0 -> time.length.ms
  io(_0, 500097, 1,0,0,0);
+
+music.seek.time.ms
+ # r0, time
+ io(_0, 500097, 2,_1,0,0);
 
 # MUSIC LINK STATS AND SEEK ]
 
