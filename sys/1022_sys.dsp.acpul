@@ -16,6 +16,10 @@ music.play.time
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
 
+music.seek.time
+ # r0, time
+ io(_0, 500098, _1,0,0,0);
+
 # MUSIC STATS AND SEEK [
 
 music.get.stats.play.x
