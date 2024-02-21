@@ -13,8 +13,8 @@ music.stop
  io(_0, 500091, 0,0,0,0);
 
 music.play.time
- # r0 -> time
- io(_0, 500094, 0,0,0,0);
+ # r0, track.id -> time
+ io(_0, 500094, _1, 0,0,0);
 
 
 
