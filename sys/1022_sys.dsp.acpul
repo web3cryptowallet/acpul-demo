@@ -12,6 +12,12 @@ music.stop
  # r0
  io(_0, 500091, 0,0,0,0);
 
+music.play.time
+ # r0 -> time
+ io(_0, 500094, 0,0,0,0);
+
+
+
 dsp {
  reset
   io(u0, 500000, 0,0,0,0);
