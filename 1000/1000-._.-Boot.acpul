@@ -607,6 +607,12 @@ if (BOOT.PLAYER*r0) {
  new.node.common0(player0, 0,100,1, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.player), 0);
 };
 
+if (BOOT.FILES*r0) {
+ files0 0;
+ new.node.common0(files0, 0,100,1, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.files), 0);
+};
+
+
 # NEO V2 [
 
 neo.v2.tests 7990;
