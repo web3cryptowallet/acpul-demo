@@ -622,7 +622,7 @@ menu0.w 1000;portrait.w;
 menu0.x w-200;
 
 if (BOOT.MENU*r0) {
- new.node.common0(menu0, h-200,100,1, 200,200, NNN(acpu.menu), 0);
+ new.node.common0(menu0, h-200,100,1, 200,400, NNN(acpu.menu), 0);
 };
 
 node.set.x(u0, menu0, menu0.x);
