@@ -617,7 +617,7 @@ if (BOOT.FILES*r0) {
 
 if (BOOT.MENU*r0) {
  menu0 0;
- new.node.common0(menu0, 500,100,1, 768/8*2,1024/8*2, NNN(acpu.menu), 0);
+ new.node.common0(menu0, 600,100,1, 200,200, NNN(acpu.menu), 0);
 };
 
 
