@@ -613,6 +613,12 @@ if (BOOT.FILES*r0) {
  new.node.common0(files0, 500,100,1, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.files), 0);
 };
 
+if (BOOT.MENU*r0) {
+ menu0 0;
+ new.node.common0(menu0, 500,100,1, 768/8*2,1024/8*2, node.fid.by.name(u0, acpu.menu), 0);
+};
+
+NN node.fid.by.name(u0, _0);
 
 # NEO V2 [
 
