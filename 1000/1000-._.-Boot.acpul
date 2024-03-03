@@ -616,8 +616,8 @@ if (BOOT.FILES*r0) {
 };
 
 menu0 0;
-menu0.w portrait.w-200;
-menu0.x h-200;
+menu0.w portrait.w;
+menu0.x w-200;
 
 if (BOOT.MENU*r0) {
  new.node.common0(menu0, h-200,100,1, 200,200, NNN(acpu.menu), 0);
