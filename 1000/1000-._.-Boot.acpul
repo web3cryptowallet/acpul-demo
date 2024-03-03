@@ -621,6 +621,11 @@ if (BOOT.MENU*r0) {
  new.node.common0(menu0, h-200,100,1, 200,200, NNN(acpu.menu), 0);
 };
 
+qqq 0;
+qqq +=1;
+
+node.set.x(u0, menu0, qqq);
+
 # NEO V2 [
 
 neo.v2.tests 7990;
@@ -638,8 +643,6 @@ new.wallet {
 # node.prop.x.s(u0, l0, -w/2);
 # node.prop.y.s(u0, l0, -800);
 };
-
-node.set.x(u0, menu0, h-200);
 
 # WALLET ]
 # GAME MERGE.LIFE [
