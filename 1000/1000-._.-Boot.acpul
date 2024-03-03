@@ -626,7 +626,7 @@ if (BOOT.MENU*r0) {
 #qqq 0;
 #qqq +=1;
 
-node.set.x(u0, menu0, 0);
+node.set.x(u0, menu0, menu0.x);
 
 # NEO V2 [
 
