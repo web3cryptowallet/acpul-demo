@@ -618,7 +618,7 @@ if (BOOT.FILES*r0) {
 # MENU [
 
 menu0 0;
-menu0.w portrait.w;
+menu0.w 700;portrait.w;
 menu0.x w-200;
 
 if (BOOT.MENU*r0) {
