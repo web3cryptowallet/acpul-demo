@@ -328,12 +328,6 @@ new.Edit1
 
 setup.bg;
 
-#!node.new.this.object(r0, 2000, 0);
-#node.new.this.object(r0, 3000, 0);
-#node.new.this.ex(r0, 9700, 0);
-#node.new.this.ex(r0, 9740, 0);
-#!node.new.this.ex(r0, 20000, 0);
-#!node.new.this.ex(r0, 11000, 0);
 
 #s:=sin(t)*0.5+1;
 
