@@ -33,53 +33,12 @@ SHOW.UFO 0;
 SHOW.WALLEE 0;
 
 #TRACK.STOP music.stop(r0);
-TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
-#TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
-#TRACK.PLAY music.play(r0, 1, 360, 1);
-#TRACK.PLAY music.play(r0, 1, 360*1.79, 1);
 
 TRACK.SET music.set.track(r0, 1, 2, 17); # EE189
 #TRACK.PLAY music.play(r0, 1, 26.8*60, 1); # EE
 #TRACK.PLAY music.play(r0, 1, 60*46+20, 1); # EE
 TRACK.PLAY music.play(r0, 1, 100, 1); # EE
 
-#TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
-#TRACK.PLAY music.play(r0, 1, 0, 1);
-##TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
-#TRACK.PLAY music.play(r0, 1, 1100, 1);
-
-#TRACK.SET music.set.track(r0, 1, 2, 19); # Spirit
-#TRACK.PLAY music.play(r0, 1, 10*60, 1);
-
-#TRACK.SET music.set.track(r0, 1, 2, 18); # Noc
-#TRACK.SET music.set.track(r0, 1, 2, 20); # avb
-#TRACK.PLAY music.play(r0, 1, 0, 1);
-
-#TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
-#TRACK.PLAY music.play(r0, 1, 60, 1);
-
-#TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
-#TRACK.PLAY music.play(r0, 1, 0, 1);
-
-#TRACK.SET music.set.track(r0, 1, 2, 24); # Space1
-#TRACK.SET music.set.track(r0, 1, 2, 25); # Space2
-#TRACK.SET music.set.track(r0, 1, 2, 26); # Space3
-#TRACK.PLAY music.play(r0, 1, 0, 1);
-
-#TRACK.SET music.set.track(r0, 1, 3, 43); # serious sam
-#TRACK.SET music.set.track(r0, 1, 3, 4); # serious sam
-
-#TRACK.SET music.set.track(r0, 1, 2, 27); # megablast
-#TRACK.SET music.set.track(r0, 1, 2, 29); # fantastica
-
-#TRACK.SET music.set.track(r0, 1, 2, 30); # 
-#TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
-
-#TRACK.SET music.set.track(r0, 1, 2, 32); # Moby
-#TRACK.SET music.set.track(r0, 1, 2, 36); # 
-#TRACK.SET music.set.track(r0, 1, 2, 33); # 
-
-#TRACK.PLAY music.play(r0, 1, 0, 1); 
 #TRACK.STOP 0;
 
 TRACK.SET music.set.track(r0, 1, 5, 4); #
