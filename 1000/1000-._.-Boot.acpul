@@ -542,21 +542,21 @@ run.neo {
 
 toggle.files {
  show {
-  new.hackernews.view(hn0, w-500,0,500,500);
+  new.files;
  };
  hide {
-  node.prop.lt.s(u0, hn0, 0.001);
-  hn0:=0;
+  kill.app(files0);
+  files0:=0;
  };
 
  if (hn0, hide, show);
 };
 
 
-kill.app
+kill.app {
  # app
  node.prop.lt.s(u0, _0, 0.1);
-
+};
 
 close.apps {
  kill.app(dota0);
