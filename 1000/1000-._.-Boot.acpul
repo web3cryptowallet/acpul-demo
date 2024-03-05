@@ -501,9 +501,10 @@ hide.default {
  node.prop.visible.s(u0, avatar.mel0, 0);
 };
 
+dota0 0;
 run.dota {
  hide.default;
- node.new.this.ex(u0, DOTA.MAIN, 0);
+ dota0:=node.new.this.ex(u0, DOTA.MAIN, 0);
 };
 
 run.nebula {
@@ -533,6 +534,17 @@ run.neo {
  hide.default;
  node.new.this.ex(u0, neo.v2.tests, 0);
 };
+
+kill.app
+ # app
+ node.prop.lt.s(u0, _0, 0.1);
+
+  
+
+close.apps {
+ kill.app(dota0);
+};
+
 
 # RUNNERS ]
 # OS/IDE [
@@ -1043,7 +1055,8 @@ process.node.events {
   };
 
   if (_0==boot.close.apps) {
-
+   hide.default;
+   close.apps;
   };
   if (_0==boot.toggle.files) {
 
