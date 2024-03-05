@@ -548,9 +548,19 @@ toggle.files {
   kill.app(files0);
   files0:=0;
  };
- if (files0, hide, show);
+ if(files0, hide, show);
 };
 
+toggle.player {
+ show {
+  new.player;
+ };
+ hide {
+  kill.app(player0);
+  player0:=0;
+ };
+ if(player0, hide, show);
+};
 
 kill.app {
  # app
