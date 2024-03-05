@@ -549,7 +549,7 @@ toggle.files {
   files0:=0;
  };
 
- if (hn0, hide, show);
+ if (files0, hide, show);
 };
 
 
