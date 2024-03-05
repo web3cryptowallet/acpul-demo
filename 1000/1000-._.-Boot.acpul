@@ -1041,6 +1041,10 @@ process.node.events {
   if (_0==boot.run.neo) {
    run.neo;
   };
+
+  if (_0==boot.close.apps) {
+   
+  };
  };
 
  tmp0 d58;
