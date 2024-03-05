@@ -779,7 +779,6 @@ toggle.files {
  };
  hide {
   kill.app(files0);
-  files0:=0;
  };
  if(files0, hide, show);
 };
@@ -792,7 +791,6 @@ toggle.player {
  };
  hide {
   kill.app(player0);
-  player0:=0;
  };
  if(player0, hide, show);
 };
@@ -805,7 +803,6 @@ toggle.dota.test {
  };
  hide {
   kill.app(dota1);
-  dota1:=0;
  };
  if(dota1, hide, show);
 };
@@ -813,6 +810,7 @@ toggle.dota.test {
 kill.app {
  # app
  node.prop.lt.s(u0, _0, 0.1);
+ _0:=0;
 };
 
 close.apps {
