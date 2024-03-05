@@ -1076,7 +1076,7 @@ process.node.events {
    close.apps;
   };
   if (_0==boot.toggle.files) {
-
+   toggle.files;
   };
   if (_0==boot.toggle.player) {
 
