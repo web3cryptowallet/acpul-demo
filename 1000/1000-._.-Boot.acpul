@@ -800,6 +800,7 @@ kill.app {
 
 close.apps {
  kill.app(dota0);
+ kill.app(dota1);
 };
 
 
@@ -1101,6 +1102,9 @@ process.node.events {
   if (_0==boot.toggle.player) {
    toggle.player;
   };
+  if (_0==boot.toggle.dota.test) {
+   toggle.dota.test
+  }
  };
 
  tmp0 d58;
