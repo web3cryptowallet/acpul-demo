@@ -1093,7 +1093,7 @@ process.node.events {
    toggle.files;
   };
   if (_0==boot.toggle.player) {
-
+   toggle.player;
   };
  };
 
