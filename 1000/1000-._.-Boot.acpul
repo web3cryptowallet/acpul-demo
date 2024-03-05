@@ -428,9 +428,14 @@ if (BOOT.PLAYER*r0) {
  new.node.common0(player0, 0,100,1, 768/8*2,1024/8*2, NNN(acpu.player), 0);
 };
 
-if (BOOT.FILES*r0) {
- files0 0;
+files0 0;
+
+new.files {
  new.node.common0(files0, 500,100,1, 768/8*2,1024/8*2, NNN(acpu.files), 0);
+};
+
+if (BOOT.FILES*r0) {
+ new.files;
 };
 
 # MENU [
@@ -535,11 +540,25 @@ run.neo {
  node.new.this.ex(u0, neo.v2.tests, 0);
 };
 
+toggle.files {
+ show {
+  new.hackernews.view(hn0, w-500,0,500,500);
+ };
+ hide {
+  node.prop.lt.s(u0, hn0, 0.001);
+  hn0:=0;
+ };
+
+ if (hn0, hide, show);
+};
+
+
+};
+
 kill.app
  # app
  node.prop.lt.s(u0, _0, 0.1);
 
-  
 
 close.apps {
  kill.app(dota0);
