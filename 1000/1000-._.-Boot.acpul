@@ -771,6 +771,8 @@ run.neo {
  node.new.this.ex(u0, neo.v2.tests, 0);
 };
 
+# TOGGLE FILES
+
 toggle.files {
  show {
   new.files;
@@ -782,6 +784,8 @@ toggle.files {
  if(files0, hide, show);
 };
 
+# TOGGLE PLAYER
+
 toggle.player {
  show {
   new.player;
@@ -792,6 +796,8 @@ toggle.player {
  };
  if(player0, hide, show);
 };
+
+# TOGGLE DOTA TEST
 
 toggle.dota.test {
  show {
