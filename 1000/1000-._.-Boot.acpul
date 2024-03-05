@@ -199,7 +199,7 @@ draw(r0, 900);
 cpu.set.frame.time.mode(u0, 0);
 
 #s:=3;
-s:=1;
+#s:=1;
 
 ### 900 Boot.debug.draw
 
