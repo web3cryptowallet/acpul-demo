@@ -1043,7 +1043,13 @@ process.node.events {
   };
 
   if (_0==boot.close.apps) {
-   
+
+  };
+  if (_0==boot.toggle.files) {
+
+  };
+  if (_0==boot.toggle.player) {
+
   };
  };
 
