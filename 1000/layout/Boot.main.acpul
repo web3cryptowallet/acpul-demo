@@ -1,0 +1,135 @@
+### 1000  ._. Boot
+
+#_ @1;
+
+_ @1010;
+_ @sys.node;
+_ @sys.cpu;
+_ @sys.display;
+
+# EMULATE DEVICE [
+
+device.screen {
+ iphone7 {w 750; h 1334; scale 2;};
+ iphone7.plus {w 1080; h 1920; scale 3;};
+
+ iphone8 {w 750; h 1334; scale 2;};
+ iphone8.plus {w 1080; h 1920; scale 3;};
+
+ iphone10 {w 1125; h 2436; scale 3;};
+ iphone10.xr {w 828; h 1792; scale 2;};
+ iphone10.xs {w 1125; h 2436; scale 3;};
+ iphone10.xs.max {w 1242; h 2688; scale 3;};
+
+ iphone11 {w 828; h 1792; scale 2;};
+ iphone11.pro {w 1125; h 2436; scale 2;};
+ iphone11.pro.max {w 1242; h 2688; scale 2;};
+
+ iphone12 {w 1170; h 2532; scale 3;};
+ iphone12.mini {w 1080; h 2340; scale 3;};
+ iphone12.pro {w 1170; h 2532; scale 3;};
+ iphone12.pro.max {w 1284; h 2778; scale 3;};
+
+ iphone13 {w 1170; h 2532; scale 3;};
+ iphone13.mini {w 1080; h 2340; scale 3;};
+ iphone13.pro {w 1170; h 2532; scale 3;};
+ iphone13.pro.max {w 1284; h 2778; scale 3;};
+
+ iphone14 {w 1170; h 2532; scale 3;};
+ iphone14.plus {w 1284; h 2778; scale 3;};
+ iphone14.pro {w 1179; h 2556; scale 3;};
+ iphone14.pro.max {w 1290; h 2796; scale 3;};
+
+ ipad.pro3.s12 {w 2048; h 2732; scale 2;}; # 12.9
+ ipad.pro3.s11 {w 1668; h 2224; scale 2;}; # 11
+   
+ ipad.pro2.s12 {w 2048; h 2732; scale 2;}; # 12.9
+ ipad.pro2.s10 {w 1668; h 2224; scale 2;}; # 10.5
+};
+
+emulation {
+_ device.screen;
+
+emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
+#emulate.device(cpu.device.type.ipad, cpu.device.model.ipad.pro, 0);
+
+iphone iphone7;
+#iphone iphone7.plus;
+
+#iphone iphone8;
+#iphone iphone14;
+#iphone iphone14.plus;
+#iphone iphone14.pro;
+#iphone iphone14.pro.max;
+#iphone iphone13;
+#iphone iphone13.mini;
+#iphone iphone13.pro;
+#iphone iphone13.pro.max;
+#iphone iphone12;
+#iphone iphone12.mini;
+#iphone iphone12.pro;
+#iphone iphone12.pro.max;
+#iphone iphone11;
+#iphone iphone11.pro;
+#iphone iphone11.pro.max;
+#iphone iphone10;
+#iphone iphone10.xr;
+#iphone iphone10.xs;
+#iphone iphone10.xs.max;
+
+#iphone ipad.pro2.s10;
+
+emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
+#emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
+
+_ @sys.display;
+#display.scaled.size();
+#display.size();
+h1=768*display.scale;
+
+#s:=1;
+s:=0.7;
+#s:=0.5;
+#s:=0.3;
+if(iphone.h > h1) {
+ s:=0.35;
+};
+
+#s:=h1/(iphone.h*iphone.scale);
+s:=h1/iphone.h-0.1;
+
+#s:=if(iphone.scale==2,0.5,s); # crash exprtk
+
+t+=dt;
+
+};
+#emulation;
+
+
+# EMULATE DEVICE ]
+
+Boot.texture 1600;
+
+node.new.this.ex(r0, Boot.texture, 0);
+
+w:=iphone.w;
+h:=iphone.h/iphone.scale;
+draw(r0, 900);
+#s:=1.08;
+
+#_ @sys.cpu;
+
+#qtime 0;
+#qtime+=0.001;
+#cpu.set.frame.time(u0, sin(qtime)*100);
+#cpu.set.frame.time(u0, rnd(u0)*1000);
+
+#cpu.set.frame.time(u0, cpu.get.frame.time(u0)*10);
+
+#cpu.get.frame.time(u0);
+#
+#cpu.set.frame.time.mode(u0, 1);
+cpu.set.frame.time.mode(u0, 0);
+
+#s:=3;
+#s:=1;
