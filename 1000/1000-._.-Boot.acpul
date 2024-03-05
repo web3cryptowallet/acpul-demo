@@ -1103,8 +1103,8 @@ process.node.events {
    toggle.player;
   };
   if (_0==boot.toggle.dota.test) {
-   toggle.dota.test
-  }
+   toggle.dota.test;
+  };
  };
 
  tmp0 d58;
