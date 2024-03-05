@@ -548,7 +548,6 @@ toggle.files {
   kill.app(files0);
   files0:=0;
  };
-
  if (files0, hide, show);
 };
 
