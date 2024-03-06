@@ -829,6 +829,23 @@ close.apps {
  kill.app(chat0);
 };
 
+# APPS EVENTS
+
+process.apps.events {
+ if (_0==boot.close.apps) {
+  hide.default;
+  close.apps;
+ };
+ if (_0==boot.toggle.files) {
+  toggle.files;
+ };
+ if (_0==boot.toggle.player) {
+  toggle.player;
+ };
+ if (_0==boot.toggle.dota.test) {
+  toggle.dota.test;
+ };
+};
 
 # RUNNERS ]
 # CPU STEP [
@@ -1118,19 +1135,8 @@ process.node.events {
    run.neo;
   };
 
-  if (_0==boot.close.apps) {
-   hide.default;
-   close.apps;
-  };
-  if (_0==boot.toggle.files) {
-   toggle.files;
-  };
-  if (_0==boot.toggle.player) {
-   toggle.player;
-  };
-  if (_0==boot.toggle.dota.test) {
-   toggle.dota.test;
-  };
+  # process apps
+  process.apps.events(_0);
  };
 
  tmp0 d58;
