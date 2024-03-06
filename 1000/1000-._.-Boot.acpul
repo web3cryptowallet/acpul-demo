@@ -848,7 +848,8 @@ process.apps.events {
  if (_0==boot.toggle.ai.chat) {
   new.ai.chat;
  };
- 
+# if (_0==boot.toggle.ai.chat) {
+# };
 };
 
 # RUNNERS ]
