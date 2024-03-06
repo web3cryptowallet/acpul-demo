@@ -807,6 +807,16 @@ toggle.dota.test {
  if(dota1, hide, show);
 };
 
+# CHAT
+
+chat0 0;
+
+new.ai.chat {
+ new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
+};
+
+# CLOSE APP
+
 kill.app {
  # app
  node.prop.lt.s(u0, _0, 0.1);
@@ -818,11 +828,6 @@ close.apps {
  kill.app(dota1);
 };
 
-chat0 0;
-
-new.ai.chat {
- new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
-};
 
 # RUNNERS ]
 # CPU STEP [
