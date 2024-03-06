@@ -1292,9 +1292,9 @@ if (r0) {
 #new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28823); # neonbg23
 #new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28824); # smiles24
 
-#new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
+new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
-# new.ui.shader.node3(sn0, 200,0,1, 500,500 70014,28840); # galaxy3d
+#new.ui.shader.node3(sn0, 200,0,1, 500,500 70014,28840); # galaxy3d
 
 _ @basic.ui.shader.node3.inc;
 
