@@ -845,6 +845,10 @@ process.apps.events {
  if (_0==boot.toggle.dota.test) {
   toggle.dota.test;
  };
+ if (_0==boot.toggle.ai.chat) {
+  new.ai.chat;
+ };
+
 };
 
 # RUNNERS ]
