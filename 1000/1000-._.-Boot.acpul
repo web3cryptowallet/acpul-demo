@@ -826,6 +826,7 @@ kill.app {
 close.apps {
  kill.app(dota0);
  kill.app(dota1);
+ kill.app(chat0);
 };
 
 
