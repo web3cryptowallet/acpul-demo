@@ -807,12 +807,25 @@ toggle.dota.test {
  if(dota1, hide, show);
 };
 
-# CHAT
+# CHAT AI
 
 chat0 0;
 
 new.ai.chat {
  new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
+};
+
+# STARS
+
+stars0 0;
+toggle.stars {
+ show {
+#  new.dota.test;
+ };
+ hide {
+#  kill.app(dota1);
+ };
+ if(stars0, hide, show);
 };
 
 # CLOSE APP
@@ -848,8 +861,9 @@ process.apps.events {
  if (_0==boot.toggle.ai.chat) {
   new.ai.chat;
  };
-# if (_0==boot.toggle.ai.chat) {
-# };
+ if (_0==boot.toggle.stars) {
+  toggle.stars;
+ };
 };
 
 # RUNNERS ]
