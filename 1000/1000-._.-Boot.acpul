@@ -1294,7 +1294,7 @@ if (r0) {
 
 #new.node.common0(sn0, 50,300,1, 300,347, 28839, 1);
 
-new.ui.shader.node3(sn0, 200,0,1, 500,500, 70014,28840); # galaxy3d
+new.ui.shader.node3(sn0, 500,0,1, 300,300, 70014,28840); # galaxy3d
 
 _ @basic.ui.shader.node3.inc;
 
