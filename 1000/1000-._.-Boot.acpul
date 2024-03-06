@@ -818,6 +818,11 @@ close.apps {
  kill.app(dota1);
 };
 
+chat0 0;
+
+new.ai.chat {
+ new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
+};
 
 # RUNNERS ]
 # CPU STEP [
