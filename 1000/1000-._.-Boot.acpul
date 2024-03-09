@@ -808,6 +808,10 @@ toggle.dota.test {
  if(dota1, hide, show);
 };
 
+if (BOOT.DOTA.TEST*r0) {
+ new.dota.test;
+};
+
 # CHAT AI
 
 chat0 0;
