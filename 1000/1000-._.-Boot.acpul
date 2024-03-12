@@ -1303,7 +1303,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 500,0,1, 500,500, 70014,28840); # galaxy3d.realistic
 #new.ui.shader.node3(sn0, 500,0,5, 100,100, 70014,28840); # galaxy3d.realistic
 
-new.ui.shader.node3(sn0, 000,0,5, 500,500, 70014,28850); # 
+new.ui.shader.node3(sn0, 500,0,5, 300,300, 70014,28850); # 
 
 
 _ @basic.ui.shader.node3.inc;
