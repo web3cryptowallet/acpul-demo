@@ -756,13 +756,8 @@ run.paint {
  hide.default;
  _ @core.vg;
  close.app(paint0);
- paint0:=node.new.this.ex(u0, core.vg.node.test3, 0);
-
- SNAKE 10150000;
- #node.new.this.ex(r0, SNAKE, 0); 
-
  PAINT 10160000;
- node.new.this.ex(u0, PAINT, 0);
+ paint0:=node.new.this.ex(u0, PAINT, 0);
 };
 
 run.wallet {
