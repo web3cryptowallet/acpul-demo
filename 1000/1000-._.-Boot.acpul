@@ -750,11 +750,13 @@ run.nebula {
  node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
+paint0 0;
+
 run.paint {
  hide.default;
  _ @core.vg;
  close.app(paint0);
- paint0=node.new.this.ex(u0, core.vg.node.test3, 0);
+ paint0:=node.new.this.ex(u0, core.vg.node.test3, 0);
 
  SNAKE 10150000;
  #node.new.this.ex(r0, SNAKE, 0); 
