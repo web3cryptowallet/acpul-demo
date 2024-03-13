@@ -420,7 +420,7 @@ node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 
 if (BOOT.PAINT*r0) {
 # VG;
-# run.paint;
+ run.paint;
 };
 
 NNN node.fid.by.name(u0, _0);
