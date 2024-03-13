@@ -846,6 +846,7 @@ close.apps {
  kill.app(dota1);
  kill.app(chat0);
  kill.app(player0);
+ kill.app(files0);
 };
 
 # APPS EVENTS
