@@ -758,7 +758,7 @@ run.paint {
  #node.new.this.ex(r0, SNAKE, 0); 
 
  PAINT 10160000;
-# node.new.this.ex(u0, PAINT, 0);
+ node.new.this.ex(u0, PAINT, 0);
 };
 
 run.wallet {
