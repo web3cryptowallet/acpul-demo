@@ -418,7 +418,7 @@ node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 #new.wallet;
 
-if (BOOT.PAINT) {
+if (BOOT.PAINT*r0) {
 # VG;
  run.paint;
 };
