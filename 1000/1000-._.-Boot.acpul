@@ -419,7 +419,8 @@ node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #new.wallet;
 
 if (BOOT.PAINT) {
- VG;
+# VG;
+ run.paint;
 };
 
 NNN node.fid.by.name(u0, _0);
