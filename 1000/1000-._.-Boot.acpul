@@ -760,10 +760,12 @@ run.paint {
  paint0:=node.new.this.ex(u0, PAINT, 0);
 };
 
+wallet0 0;
+
 run.wallet {
  hide.default;
  _ @core.gl3d;
- l0:=node.new.this.ex(u0, gl3d.test.main, 0);
+ wallet0:=node.new.this.ex(u0, gl3d.test.main, 0);
 };
 
 run.neo {
