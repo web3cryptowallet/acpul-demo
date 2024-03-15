@@ -853,6 +853,7 @@ close.apps {
  kill.app(paint0);
  kill.app(wallet0);
  kill.app(hero0);
+ kill.app(video0);
 };
 
 # APPS EVENTS
