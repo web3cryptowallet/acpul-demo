@@ -849,6 +849,7 @@ close.apps {
  kill.app(player0);
  kill.app(files0);
  kill.app(paint0);
+ kill.app(wallet0);
 };
 
 # APPS EVENTS
