@@ -874,9 +874,9 @@ process.apps.events {
  if (_0==boot.toggle.stars) {
   toggle.stars;
  };
- if (_0==boot.toggle.hero) {
-#  toggle.stars;
- };
+# if (_0==boot.toggle.hero) {
+#  toggle.hero;
+# };
 };
 
 # RUNNERS ]
