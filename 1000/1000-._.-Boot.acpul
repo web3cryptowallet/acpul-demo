@@ -829,7 +829,7 @@ stars0 0;
 
 run.stars {
   _ @stars3d;
- node.new.this.ex(r0, stars3d.default, 0);
+ stars0:=node.new.this.ex(u0, stars3d.default, 0);
 # node.new.this.ex(r0, stars3d.radial, 0);
 };
 
