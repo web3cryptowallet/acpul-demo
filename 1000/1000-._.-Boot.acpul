@@ -1450,12 +1450,12 @@ video0 0;
 
 if (r0) {
  if (VIDEO.PLAYER) {
-  video0:=node.new.this.ex(u0, test.main.video, 0);
+  run.video;
  };
 };
 
 run.video {
-  
+ video0:=node.new.this.ex(u0, test.main.video, 0);
 };
 
 # TEST VIDEO ]
