@@ -1169,6 +1169,9 @@ process.node.events {
   if (_0==boot.run.neo) {
    run.neo;
   };
+  if (_0==boot.run.video) {
+   run.video;
+  };
 
   # process apps
   process.apps.events(_0);
