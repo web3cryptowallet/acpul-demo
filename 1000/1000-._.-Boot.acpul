@@ -745,9 +745,11 @@ new.dota.test {
  node.prop.z.order.s(u0, dota1, 1000);
 };
 
+hero0 0;
+
 run.nebula {
  hide.default;
- node.new.this.ex(u0, GAME.NEBULA, 0);
+ hero0:=node.new.this.ex(u0, GAME.NEBULA, 0);
 };
 
 paint0 0;
@@ -850,6 +852,7 @@ close.apps {
  kill.app(files0);
  kill.app(paint0);
  kill.app(wallet0);
+ kill.app(hero0);
 };
 
 # APPS EVENTS
