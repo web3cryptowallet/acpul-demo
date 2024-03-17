@@ -55,7 +55,7 @@ if (r0) { #hack!
 
   effect {
    sn0 0;
-   new.ui.shader.node(sn0, 0-15,10,0.5, 100,100, 1, 70014,28733); # st.patrick.clover
+   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
   };
 #  effect;
 
