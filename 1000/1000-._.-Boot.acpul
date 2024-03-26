@@ -1330,6 +1330,11 @@ if (r0) {
 #new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28850); # warp.universe
 #new.ui.shader.node3(sn0, 100,200,1, 500,500, 70014,28850); # warp.universe
 
+intro0 0;
+new.startup.intro {
+ new.node.common0(intro0, 0,100,1, 768/8*2,1024/8*2, NNN(startup.intro), 0);
+};
+new.startup.intro;
 
 _ @basic.ui.shader.node3.inc;
 
