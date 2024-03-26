@@ -861,6 +861,7 @@ close.apps {
  kill.app(wallet0);
  kill.app(hero0);
  kill.app(video0);
+ kill.app(bootloader0);
 };
 
 # APPS EVENTS
