@@ -695,7 +695,7 @@ if (BOOT.WALLET) {
 };
 
 BOOTLOADER 8000000;
-node.new.this.ex(r0, BOOTLOADER, 0);
+#node.new.this.ex(r0, BOOTLOADER, 0);
 
 #node.new.this.ex(r0, ACPU.STUDIO, 0);
 #node.new.this.ex(r0, HIPSTER.BANNER, 0);
