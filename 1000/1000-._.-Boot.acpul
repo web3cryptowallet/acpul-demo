@@ -251,7 +251,7 @@ s:=0.2*10;
 r:=0;
 #s:=1.0;
 
-_ @boot.zoom;
+_ @boot.util.zoom;
 
 zoom1
 {
