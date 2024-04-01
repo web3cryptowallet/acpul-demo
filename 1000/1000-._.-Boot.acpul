@@ -262,8 +262,6 @@ new.Edit1
 setup.bg;
 
 
-#s:=sin(t)*0.5+1;
-
 DOTA.MAIN 3202;
 if (BOOT.DOTA) {
  node.new.this.ex(r0, DOTA.MAIN, 0);
