@@ -252,6 +252,7 @@ r:=0;
 #s:=1.0;
 
 _ @boot.util.zoom;
+_ @boot.util.a;
 
 new.Edit1
  node.new.this.object(r0, 1002, 0);
