@@ -254,8 +254,6 @@ r:=0;
 _ @boot.util.zoom;
 _ @boot.util.a;
 
-#new.Edit1();
-
 setup.bg;
 
 
