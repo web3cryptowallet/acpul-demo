@@ -774,7 +774,11 @@ intro0 0;
 new.startup.intro {
  new.node.common0(intro0, 0,0,1, w,h, NNN(boot.startup.intro), 0);
 };
-#new.startup.intro;
+
+BOOT.INTRO 1;
+if (BOOT.INTRO) {
+ new.startup.intro;
+};
 
 # CLOSE APP
 
