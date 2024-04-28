@@ -421,7 +421,7 @@ apps0 l11;
 
 if (r0) {
  if (BOOT.APPS) {
-#  apps0:=node.new.this.ex(r0, os.apps.run, 0);
+  apps0:=node.new.this.ex(r0, os.apps.run, 0);
  };
 };
 
