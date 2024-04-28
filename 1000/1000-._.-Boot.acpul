@@ -255,7 +255,7 @@ r:=0;
 _ @boot.util.zoom;
 _ @boot.util.a;
 
-#setup.bg;
+setup.bg;
 
 
 DOTA.MAIN 3202;
