@@ -794,7 +794,7 @@ toggle.hipster {
  hide {
   kill.app(hipster0);
  };
- if(stars0, hide, show);
+ if(hipster0, hide, show);
 };
 
 
@@ -847,7 +847,7 @@ process.apps.events {
   new.startup.intro;
  };
  if (_0==boot.event.hipster) {
-  new.startup.hipster;
+  toggle.hipster;
  };
 # if (_0==boot.toggle.hero) {
 #  toggle.hero;
