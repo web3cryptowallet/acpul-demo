@@ -780,6 +780,13 @@ if (BOOT.INTRO*r0) {
  new.startup.intro;
 };
 
+# HIPSTER
+
+hipster0 0;
+new.startup.hipster {
+ hipster0:=node.new.this.ex(u0, HIPSTER.BANNER, 0);
+};
+
 # CLOSE APP
 
 kill.app {
@@ -828,8 +835,7 @@ process.apps.events {
   new.startup.intro;
  };
  if (_0==boot.event.hipster) {
-#  new.startup.intro;
-  node.new.this.ex(u0, HIPSTER.BANNER, 0);
+  new.startup.hipster;
  };
 # if (_0==boot.toggle.hero) {
 #  toggle.hero;
