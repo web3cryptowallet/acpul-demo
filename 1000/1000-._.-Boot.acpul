@@ -787,6 +787,17 @@ new.startup.hipster {
  hipster0:=node.new.this.ex(u0, HIPSTER.BANNER, 0);
 };
 
+toggle.hipster {
+ show {
+  new.startup.hipster;
+ };
+ hide {
+  kill.app(hipster0);
+ };
+ if(stars0, hide, show);
+};
+
+
 # CLOSE APP
 
 kill.app {
@@ -807,6 +818,7 @@ close.apps {
  kill.app(video0);
  kill.app(bootloader0);
  kill.app(intro0);
+ kill.app(hipster0);
 };
 
 # APPS EVENTS
