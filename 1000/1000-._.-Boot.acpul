@@ -1296,6 +1296,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28811); # hexagold
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28812); # cubes3d.lag
 
+new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # 
 
 
