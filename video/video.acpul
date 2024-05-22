@@ -127,6 +127,7 @@ if (qq>3) {
  qq:=0;
  debug.graph.add.v(debug.graph0, sec);
 };
+ debug.graph.add.v(debug.graph0, sec);
 
 debug {
  _ @nodes;
