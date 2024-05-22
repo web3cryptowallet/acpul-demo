@@ -121,13 +121,14 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,x0+200,2, A.finished, finished);
 
 #media.video.set.time(u0, video0, 0, 120); 
 
+# GRAPH DEBUG [
+
 qq 0;
 qq+=1;
 if (qq>3) {
  qq:=0;
  debug.graph.add.v(debug.graph0, sec);
 };
- debug.graph.add.v(debug.graph0, sec);
 
 debug {
  _ @nodes;
@@ -158,6 +159,8 @@ debug {
 # };
 };
 debug;
+
+# GRAPH DEBUG ]
 
 # NEW ]
 #x+=1;
