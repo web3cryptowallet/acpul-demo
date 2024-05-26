@@ -1298,7 +1298,8 @@ if (r0) {
 
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28853); # vegas53.not.works
-new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28854); # 
+#new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28854); # color.circles.not.work
+new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28855); # 
 
 
 _ @basic.ui.shader.node3.inc;
