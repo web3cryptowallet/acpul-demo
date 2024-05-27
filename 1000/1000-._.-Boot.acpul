@@ -1242,7 +1242,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28308); # waves.f4d
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28311); # bulb.spheres3d
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28314); # minions2
-#new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28320); # rabbit.hole2
+new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28320); # rabbit.hole2
 #new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28338); # bubles42
 #new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28340); # awake
 
@@ -1265,7 +1265,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28762); # loading62
 #new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28763); # dota.hero.bg63
 
-new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
+#new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
 #new.ui.shader.node(sn0, 0,200,2, 768/4,1024/4, 1, 70014,28765); # lazer.good.slow
 
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28799); # minecraft99
