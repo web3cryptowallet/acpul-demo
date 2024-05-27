@@ -1299,7 +1299,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28853); # x.vegas53.not.works
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28854); # x.color.circles.not.work
 
-new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
+#new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
 
 
