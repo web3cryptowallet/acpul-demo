@@ -1271,9 +1271,9 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28799); # minecraft99
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28800); # minecraft800
 
-#new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28810); # spheres
+new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28810); # spheres
 
-new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28831); # in.yan
+#new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28831); # in.yan
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28834); # Turbilhão
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28837); # Origami
