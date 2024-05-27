@@ -1304,7 +1304,7 @@ new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # 
-shader.set.texture(sn0, A.iChannel0, 1);
+shader.set.texture(sn0, A.iChannel0, 2);
 
 _ @basic.ui.shader.node3.inc;
 
