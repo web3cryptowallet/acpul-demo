@@ -1307,7 +1307,7 @@ if (r0) {
 new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
 tex0=node.value.g(u0, sn0,0);
 
-new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # 
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # dota.fluid(tex)
 shader.set.texture(sn0, A.iChannel0, tex0);
 
 _ @basic.ui.shader.node3.inc;
