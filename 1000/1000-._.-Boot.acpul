@@ -1265,7 +1265,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28762); # loading62
 #new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28763); # dota.hero.bg63
 
-new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
+#new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
 #new.ui.shader.node(sn0, 0,200,2, 768/4,1024/4, 1, 70014,28765); # lazer.good.slow
 
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28799); # minecraft99
@@ -1301,7 +1301,7 @@ new.ui.shader.node(sn0, 0,200,1, 768/2,1024/2, 1, 70014,28764); # dota.hero.bg64
 
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 
-#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
 tex0=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # 
