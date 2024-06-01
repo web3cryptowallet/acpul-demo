@@ -1312,7 +1312,7 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # dota.fluid(tex)
 shader.set.texture(sn0, A.iChannel0, tex0);
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28872); # 
-#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28873); # 
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28873); # 
 
 _ @basic.ui.shader.node3.inc;
 
