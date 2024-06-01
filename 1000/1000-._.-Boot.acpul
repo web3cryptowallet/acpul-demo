@@ -1319,7 +1319,7 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28874); # light.sign.circle
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28875); # power.sphere75
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28876); # cat.eyes76
 
-#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28877); # 
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28877); # 
 
 
 _ @basic.ui.shader.node3.inc;
