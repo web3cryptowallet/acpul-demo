@@ -1333,7 +1333,7 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28873); # dota.jedi.light73
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28882); # dota.fire82
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28883); # dota.fire83
-new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28884); # 
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28884); # dota.boom84
 
 
 _ @basic.ui.shader.node3.inc;
