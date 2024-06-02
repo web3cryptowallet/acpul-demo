@@ -1333,6 +1333,7 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28872); #
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28882); # 
 
+
 _ @basic.ui.shader.node3.inc;
 
 #_ @basic.poly2d.test;
