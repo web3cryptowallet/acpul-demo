@@ -102,6 +102,10 @@ s:=h1/iphone.h-0.1;
 
 t+=dt;
 
+w:=iphone.w;
+h:=iphone.h/iphone.scale;
+draw(r0, 900);
+
 };
 #emulation;
 
@@ -112,9 +116,6 @@ Boot.texture 1600;
 
 node.new.this.ex(r0, Boot.texture, 0);
 
-w:=iphone.w;
-h:=iphone.h/iphone.scale;
-draw(r0, 900);
 
 #_ @sys.cpu;
 
