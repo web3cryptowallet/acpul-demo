@@ -134,6 +134,11 @@ cpu.set.frame.time.mode(u0, 0);
 #s:=3;
 #s:=1;
 
+### 900 Boot.debug.draw
+
+color(u0, 1,1,1,1);
+rect(u0, 6, 0,0, w,h);
+
 
 
 ### boot.removed.x1
