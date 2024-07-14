@@ -114,7 +114,7 @@ node.new.this.ex(r0, Boot.texture, 0);
 
 w:=iphone.w;
 h:=iphone.h/iphone.scale;
-draw(r0, 900);
+#draw(r0, 900);
 #s:=1.08;
 
 #_ @sys.cpu;
