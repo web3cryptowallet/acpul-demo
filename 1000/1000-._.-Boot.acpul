@@ -1339,7 +1339,7 @@ tex1=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28890); # mix.in2.alpha
 shader.set.texture(sn0, A.iChannel0, tex1);
-shader.set.texture(sn0, A.iChannel1, tex1);
+shader.set.texture(sn0, A.iChannel1, tex0);
 shader.set.uniform.v(sn0, A.mode, 0);
 
 _ @basic.ui.shader.node3.inc;
