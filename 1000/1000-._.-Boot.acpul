@@ -1313,6 +1313,7 @@ shader.set.texture(sn0, A.iChannel0, tex0);
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28881); # life.clever81
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28872); # dota.gem72
+tex1=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28873); # dota.jedi.light73
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28874); # light.sign.circles74
@@ -1332,8 +1333,8 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28872); # dota.gem72
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28884); # dota.boom84
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28885); # dota.boom85
 
-#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28886); # rain86
-#shader.set.texture(sn0, A.iChannel0, tex0);
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28886); # rain86
+shader.set.texture(sn0, A.iChannel0, tex0);
 
 
 _ @basic.ui.shader.node3.inc;
