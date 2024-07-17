@@ -1348,7 +1348,7 @@ shader.set.texture(sn0, A.iChannel0, tex05);
 #shader.set.texture(sn0, A.iChannel0, tex2);
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28900); # fire900.in1
-shader.set.texture(sn0, A.iChannel0, tex2);
+shader.set.texture(sn0, A.iChannel0, tex05);
 
 
 _ @basic.ui.shader.node3.inc;
