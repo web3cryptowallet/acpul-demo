@@ -1332,6 +1332,8 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28872); #
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28884); # dota.boom84
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28885); # dota.boom85
 
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28886); # rain86
+
 
 _ @basic.ui.shader.node3.inc;
 
