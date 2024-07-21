@@ -11,7 +11,8 @@ touch.ev.process.once
   gy=o3;
   touchIndex=o4;
   touchCount=o5;
-  watch(55);
+  qq=55;
+  watch(qq);
   watch(_1);
   watch(touchIndex);
   watch(touchCount);
