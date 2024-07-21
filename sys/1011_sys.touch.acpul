@@ -2,6 +2,7 @@
 touch.e.began 1;
 touch.e.moved 2;
 touch.e.ended 3;
+touch.e.canceled 4;
 touch.e.click 5;
 
 touch.a.a 500100;
