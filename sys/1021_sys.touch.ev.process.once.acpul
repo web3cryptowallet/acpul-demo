@@ -4,6 +4,12 @@ touch.ev.process.once
 # shared: o0, o1
 {
  _1:=touch.event(_0);
+ x=o0;
+ y=o1;
+ gx=o2;
+ gy=o3;
+ touchIndex=o4;
+ touchCount=o5;
  if (_1==touch.e.began)
  {
   touch.ev.began(o0, o1, o2, o3, o4, o5);
