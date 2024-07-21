@@ -11,6 +11,9 @@ touch.ev.process.once
   gy=o3;
   touchIndex=o4;
   touchCount=o5;
+  watch(_1);
+  watch(touchIndex);
+  watch(touchCount);
   if (_1==touch.e.began) {
 #  touch.ev.began(o0, o1, o2, o3, o4, o5);
    touch.ev.began(x,y, gx,gy, touchIndex,touchCount);
