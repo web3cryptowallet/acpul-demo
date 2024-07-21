@@ -4,25 +4,25 @@ touch.ev.process.once
 # shared: o0, o1
 {
  _1:=touch.event(_0);
- x=o0;
- y=o1;
- gx=o2;
- gy=o3;
- touchIndex=o4;
- touchCount=o5;
- if (_1==touch.e.began) {
+ if (_1>0) {
+  x=o0;
+  y=o1;
+  gx=o2;
+  gy=o3;
+  touchIndex=o4;
+  touchCount=o5;
+  if (_1==touch.e.began) {
 #  touch.ev.began(o0, o1, o2, o3, o4, o5);
-  touch.ev.began(x,y, gx,gy, touchIndex,touchCount);
- };
- if (_1==touch.e.moved)
- {
+   touch.ev.began(x,y, gx,gy, touchIndex,touchCount);
+  };
+  if (_1==touch.e.moved) {
 #  touch.ev.moved(o0, o1, o2, o3, o4, o5);
-  touch.ev.moved(x,y, gx,gy, touchIndex,touchCount);
- };
- if (_1==touch.e.ended)
- {
+   touch.ev.moved(x,y, gx,gy, touchIndex,touchCount);
+  };
+  if (_1==touch.e.ended) {
 #  touch.ev.ended(o0, o1, o2, o3, o4, o5);
-  touch.ev.ended(x,y, gx,gy, touchIndex,touchCount);
+   touch.ev.ended(x,y, gx,gy, touchIndex,touchCount);
+  };
  };
 };
 
