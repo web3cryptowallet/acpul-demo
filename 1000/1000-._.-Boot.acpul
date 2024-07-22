@@ -1361,7 +1361,7 @@ shader.set.texture(sn0, A.iChannel0, tex05);
 #shader.set.texture(sn0, A.iChannel1, tex1);
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28888); # god8888
-new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28889); # rabbit.hole89
+new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28889); # rabbit.hole89
 
 _ @basic.ui.shader.node3.inc;
 
