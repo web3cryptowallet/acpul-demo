@@ -797,7 +797,7 @@ toggle.hipster {
 
 kill.app {
  # app
- node.prop.lt.s(u0, _0, 0.1);
+ node.prop.lt.s(u0, _0, 0.01);
  _0:=0;
 };
 
