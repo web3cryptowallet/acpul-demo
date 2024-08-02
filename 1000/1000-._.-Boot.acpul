@@ -1325,9 +1325,9 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28874); # light.sign.circle
 #test04;
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28875); # power.sphere75
-new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28876); # cat.eyes76
+#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28876); # cat.eyes76
 
-#new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28877); # the.way.Kazantip77
+new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28877); # the.way.Kazantip77
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28878); # dota.jedi.light78
 #new.ui.shader.node3(sn0, 000,100,1, 300*2,300*2, 70014,28879); # dota.bg.good79
 
