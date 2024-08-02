@@ -1224,7 +1224,7 @@ new.text.label1b
 setup.bg {
 sn0 0;
 if (r0) {
-# new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
+ new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28417); # fractals25
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28275); # bg
@@ -1289,7 +1289,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 500,0,5, 100,100, 70014,28840); # galaxy3d.realistic
 
 #new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28850); # warp.universe
-new.ui.shader.node3(sn0, 0,200,1, 500,500, 70014,28850); # warp.universe
+#new.ui.shader.node3(sn0, 0,200,1, 500,500, 70014,28850); # warp.universe
 
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28811); # hexagold
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28812); # cubes3d.lag
