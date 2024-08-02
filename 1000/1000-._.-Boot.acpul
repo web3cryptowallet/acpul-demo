@@ -1300,8 +1300,6 @@ if (r0) {
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28852); # dota.rocks52
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
-#new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
-new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28838); # starsfield38
 
 test04 {
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
