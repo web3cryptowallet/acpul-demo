@@ -1302,6 +1302,10 @@ new.ui.shader.node(sn0, 0,0,1, 1024,768, 1, 70014,28838); # starsfield38.cool
 
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28855); # glyph.wheel
 
+## 1
+#new.ui.shader.node3(sn0, 0,0,2, 1024/2,768/2, 70014,28850); # warp.universe
+#new.ui.shader.node(sn0, 0,0,1, 1024,768, 1, 70014,28838); # starsfield38.cool
+
 
 test04 {
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
