@@ -1274,7 +1274,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28837); # Origami
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28838); # starsfield38.cool
 
-new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
+#new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
 
 # exp5X
 #new.ui.shader.node3(sn0, 0,300,1, 700,500, 70014,28821); # deephole21
