@@ -1229,7 +1229,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28417); # fractals25
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28275); # bg
 # new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28330); # g.club.lights1
- new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28282); # rainbow.clouds
+# new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28282); # rainbow.clouds
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28287); # world.future1
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28286); # matrix2
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28290); # fractal.crystal1
@@ -1340,6 +1340,7 @@ new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28874); # light.sign.circle
 # MIX.IN
 
 sn05 0;
+test05 {
 new.ui.shader.node3(sn05, 200,100,0.5, 300,300, 70014,28890); # mix.in2.alpha
 shader.set.texture(sn05, A.iChannel0, tex1);
 shader.set.texture(sn05, A.iChannel1, tex2);
@@ -1366,7 +1367,7 @@ shader.set.texture(sn0, A.iChannel0, tex05);
 #new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28889); # rabbit.hole89
 
 #new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28891); # paint.egypt.texure.orig
-
+};
 
 _ @basic.ui.shader.node3.inc;
 
