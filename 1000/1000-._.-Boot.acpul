@@ -1272,7 +1272,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28834); # Turbilhão
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28837); # Origami
-#new.ui.shader.node(sn0, 0,0,1, 1024,768, 1, 70014,28838); # starsfield38.cool
+new.ui.shader.node(sn0, 0,0,1, 1024,768, 1, 70014,28838); # starsfield38.cool
 
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28839); # clouds39
 
@@ -1290,7 +1290,7 @@ if (r0) {
 
 #new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28850); # warp.universe
 #new.ui.shader.node3(sn0, 0,200,1, 500,500, 70014,28850); # warp.universe
-new.ui.shader.node3(sn0, 0,0,2, 1024/2,768/2, 70014,28850); # warp.universe
+#new.ui.shader.node3(sn0, 0,0,2, 1024/2,768/2, 70014,28850); # warp.universe
 
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28811); # hexagold
 #new.ui.shader.node3(sn0, 100,100,1.5, 300,300, 70014,28812); # cubes3d.lag
