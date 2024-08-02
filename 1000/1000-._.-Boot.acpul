@@ -1303,6 +1303,7 @@ if (r0) {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28836); # nn1.super
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28838); # starsfield38
 
+test04 {
 #new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28303); # sin.waves2
 #new.ui.shader.node3(sn0, 0,0,2, 768/2,1024/2, 70014,28873); # dota.jedi.light73
 #new.ui.shader.node3(sn0, 0,0,2, 768/2,1024/2, 70014,28877); # *the.way.Kazantip77
@@ -1310,7 +1311,6 @@ if (r0) {
 #new.ui.shader.node3(sn0, 0,0,2, 768/2,1024/2, 70014,28879); # dota.bg.good79
 tex0=node.value.g(u0, sn0,0);
 
-test04 {
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28856); # dota.fluid(tex)
 shader.set.texture(sn0, A.iChannel0, tex0);
 tex2=node.value.g(u0, sn0,0);
