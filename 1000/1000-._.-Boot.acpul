@@ -1323,7 +1323,7 @@ tex1=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28874); # light.sign.circles74
 };
-test04;
+#test04;
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28875); # power.sphere75
 #new.ui.shader.node3(sn0, 200,100,1.5, 300,300, 70014,28876); # cat.eyes76
 
