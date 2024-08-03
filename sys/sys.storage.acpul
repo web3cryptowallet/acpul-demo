@@ -51,7 +51,7 @@ storage.image.load.texture
 
 storage.share.photo
  # pool,id,i, opts 
- io(u0, 500500, _0,_1,_2, _3);
+ io(u0, 500503, _0,_1,_2, _3);
 
 # SHARE ]
 
