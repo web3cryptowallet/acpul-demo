@@ -49,10 +49,11 @@ storage.image.load.texture
 
 # SHARE [
 
-storage.share.file
+storage.share.file {
  # pool,id,i, opts, rect:x:y:w:h 
  io(u0, 500514, _4,_5,_6,_7);
  io(u0, 500503, _0,_1,_2, _3);
+};
 
 storage.share.photo
  # pool,id,i, rect:x:y:w:h 
