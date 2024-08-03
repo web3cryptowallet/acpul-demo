@@ -50,14 +50,17 @@ storage.image.load.texture
 # SHARE [
 
 storage.share.file
- # pool,id,i, opts 
+ # pool,id,i, opts, rect:x:y:w:h 
+ io(u0, 500514, _4,_5,_6,_7);
  io(u0, 500503, _0,_1,_2, _3);
 
 storage.share.photo
- file(_0,_1,_2, 0);
+ # pool,id,i, rect:x:y:w:h 
+ file(_0,_1,_2, 0, _3,_4,_5,_6);
 
 storage.share.video
- file(_0,_1,_2, 1);
+ # pool,id,i, rect:x:y:w:h 
+ file(_0,_1,_2, 1, _3,_4,_5,_6);
 
 # SHARE ]
 
