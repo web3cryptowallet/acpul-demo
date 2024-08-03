@@ -54,11 +54,11 @@ storage.share.file
  io(u0, 500503, _0,_1,_2, _3);
 
 storage.share.photo
- file(__);
+ file(_0,_1,_2, 0);
 
 storage.share.video
- file(__);
- 
+ file(_0,_1,_2, 1);
+
 # SHARE ]
 
 
