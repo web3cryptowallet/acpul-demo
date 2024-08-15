@@ -1376,7 +1376,7 @@ shader.set.texture(sn0, A.iChannel0, tex05);
 
 rabbithole {
  new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28889); # rabbit.hole89
-new.ui.shader.node(sn0, 0,0,1, 768/1,1024/1, 1, 70014,28320); # rabbit.hole2
+ new.ui.shader.node(sn0, 0,0,1, 300/1,300/1, 1, 70014,28320); # rabbit.hole2
 };
 rabbithole;
 
