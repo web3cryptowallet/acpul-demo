@@ -1384,7 +1384,7 @@ rabbithole {
 #new.ui.shader.node(sn0, 0,300,1, 500,500, 1, 70014,28834); # Turbilhão
 new.ui.shader.node3(sn0, 300,300,1, 300,300, 70014,28821); # deephole21
  new.ui.shader.node3(sn0, 00,300,1*2, 300/2,300/2, 70014,28889); # rabbit.hole89
- new.ui.shader.node(sn0, 600,300,1, 300/1,300/1, 1, 70014,28320); # rabbit.hole2
+ new.ui.shader.node(sn0, 600,300,0.7, 500/1,500/1, 1, 70014,28320); # rabbit.hole2
 };
 rabbithole;
 
