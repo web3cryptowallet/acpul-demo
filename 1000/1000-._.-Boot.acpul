@@ -34,7 +34,7 @@ SHOW.AVATARS1 0; # 1 - demo, 2 - boot
 SHOW.UFO 0;
 SHOW.WALLEE 0;
 
-TRACK.STOP music.stop(r0);
+#TRACK.STOP music.stop(r0);
 
 TRACK.SET music.set.track(r0, 1, 2, 17); # EE189
 #TRACK.PLAY music.play(r0, 1, 26.8*60, 1); # EE
