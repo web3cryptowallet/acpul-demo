@@ -1394,9 +1394,9 @@ new.ui.shader.node3(sn0, 400,100,2, 100,100, 70014,28819); # dota.skill.crystal.
 };
 #rabbithole;
 
-new.ui.shader.node3(sn0, 0,0,2, 1000/2,700/2, 70014,28827); # 
-#new.ui.shader.node3(sn0, 0,0,4, 1000/4,700/4, 70014,28827); # 
-#new.ui.shader.node3(sn0, 0,0,8, 1000/8,700/8, 70014,28827); # 
+new.ui.shader.node3(sn0, 0,0,2, 1000/2,700/2, 70014,28827); # dota.main.bg1
+#new.ui.shader.node3(sn0, 0,0,4, 1000/4,700/4, 70014,28827); # dota.main.bg1
+#new.ui.shader.node3(sn0, 0,0,8, 1000/8,700/8, 70014,28827); # dota.main.bg1
 
 _ @basic.ui.shader.node3.inc;
 
