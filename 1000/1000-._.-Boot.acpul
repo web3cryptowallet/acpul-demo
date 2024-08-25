@@ -1388,7 +1388,7 @@ rabbithole {
  new.ui.shader.node(sn0, 600,300,0.7, 500/1,500/1, 1, 70014,28320); # rabbit.hole2
 new.ui.shader.node3(sn0, 300,300,1, 300,300, 70014,28850); # warp.universe
 
-new.ui.shader.node3(sn0, 600,120,2, 100,100, 70014,28819); # dota.skill.crystal.light
+new.ui.shader.node3(sn0, 400,120,2, 100,100, 70014,28819); # dota.skill.crystal.light
 };
 rabbithole;
 
