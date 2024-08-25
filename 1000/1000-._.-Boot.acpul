@@ -210,7 +210,7 @@ music.set.track(r0, 1, 2, 1);
 #music.play(r0, -1, 70*60, 1);
 
 TRACK.SET;
-TRACK.STOP;
+#TRACK.STOP;
 if (t>0.5) {
 # TRACK.PLAY music.play(l9==0, 1, 0, 1);
  r01=r0;
