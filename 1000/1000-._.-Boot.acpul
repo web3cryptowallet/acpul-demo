@@ -655,6 +655,8 @@ hide.default {
  node.prop.visible.s(u0, avatar.mel0, 0);
 };
 
+# DOTA
+
 dota0 0;
 run.dota {
  hide.default;
@@ -664,7 +666,7 @@ run.dota {
 dota1 0;
 new.dota.test {
  new.node.common0(dota1, 0,0,1, 1000,1000, node.fid.by.name(u0, dota.test.main), 0);
- node.prop.z.order.s(u0, dota1, 1000);
+# node.prop.z.order.s(u0, dota1, 1000);
 };
 
 hero0 0;
