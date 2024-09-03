@@ -1576,9 +1576,9 @@ _ @4;
 #   ui.value1(l12,110,110,0.5,bootnid);
 
 winamp0 0;
-winamp 80150;
-new.node.common0(winamp0, 0,0,1, 300,300, winamp, 0);
-#new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
+#winamp 80150;
+#new.node.common0(winamp0, 0,0,1, 300,300, winamp, 0);
+new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
 
 
 #new.wallet;
