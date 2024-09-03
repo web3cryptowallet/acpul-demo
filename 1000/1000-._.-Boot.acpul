@@ -1579,7 +1579,7 @@ winamp 80150;
 new.node.common0(testtex0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
 
 
-new.wallet;
+#new.wallet;
 
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
