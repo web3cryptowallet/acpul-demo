@@ -1416,9 +1416,9 @@ waterfall {
  new.ui.shader.node3(sn0, 0,100,1, 300,300, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex0);
 # tex0=node.value.g(u0, sn0,0);
-#node.ex.gl.fbo(u0, tex0);
-#node.ex.gl.clear(u0, 0,0,0,0);
-#node.ex.gl.fbo(u0, -1);
+node.ex.gl.fbo(u0, tex0);
+node.ex.gl.clear(u0, 0,0,0,0);
+node.ex.gl.fbo(u0, -1);
 
 # new.ui.shader.node3(sn0, 300,100,1, 300,300, 70014,28931); # waterfall31
 # shader.set.texture(sn0, A.iChannel0, tex0);
