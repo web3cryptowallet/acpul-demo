@@ -1425,10 +1425,10 @@ if (r0) {
 };
 qwe 0;
 qwe+=1;
-if(qwe>2) {
+#if(qwe>2) {
   waterfall;
-  qwe:=0;
-};
+#  qwe:=0;
+#};
 
 # SIGN TEST [
 
