@@ -1412,12 +1412,17 @@ waterfall {
  sn1 0;
  sn2 0;
  l11;
-# tex0=node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb8888, 1);
+ tex0=node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb8888, 1);
  new.ui.shader.node3(sn0, 0,100,1, 300,300, 70014,28931); # waterfall31
- tex0=node.value.g(u0, sn0,0);
-node.ex.gl.fbo(u0, tex0);
-node.ex.gl.clear(u0, 0,0,0,0);
-node.ex.gl.fbo(u0, -1);
+ shader.set.texture(sn0, A.iChannel0, tex0);
+# tex0=node.value.g(u0, sn0,0);
+#node.ex.gl.fbo(u0, tex0);
+#node.ex.gl.clear(u0, 0,0,0,0);
+#node.ex.gl.fbo(u0, -1);
+
+# new.ui.shader.node3(sn0, 300,100,1, 300,300, 70014,28931); # waterfall31
+# shader.set.texture(sn0, A.iChannel0, tex0);
+# tex0=node.value.g(u0, sn0,0);
 
 # new.ui.shader.node3(sn1, 300,300,1.5, 300,300, 70014,70015); # copy tex
 # shader.set.texture(sn1, A.iChannel0, tex0);
