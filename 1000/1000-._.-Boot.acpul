@@ -1424,6 +1424,11 @@ if (r0) {
  waterfall;
 };
 
+qwe+=1;
+if(qwe>2) {
+  waterfall;
+};
+
 # SIGN TEST [
 
 # _ @hero.sign1.test;
