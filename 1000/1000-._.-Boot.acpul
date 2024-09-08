@@ -1422,8 +1422,8 @@ waterfall {
 # shader.set.texture(sn0, A.iChannel0, tex1);
 
  new.ui.shader.node3(sn0, 200,100,1, 300,300, 70014,28931); # waterfall31
+ shader.set.texture(sn0, A.iChannel0, tex0);
  tex0=node.value.g(u0, sn0,0);
- shader.set.texture(sn0, A.iChannel0, 0);
 
  new.ui.shader.node3(sn0, 500,100,1, 300,300, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex0);
