@@ -1423,10 +1423,10 @@ waterfall {
 if (r0) {
  waterfall;
 };
-qwe 0;
-qwe+=1;
+#qwe 0;
+#qwe+=1;
 #if(qwe>2) {
-  waterfall;
+#  waterfall;
 #  qwe:=0;
 #};
 
