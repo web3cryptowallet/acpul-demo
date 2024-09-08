@@ -1421,7 +1421,7 @@ waterfall {
  shader.set.texture(sn0, A.iChannel0, tex1);
 };
 if (r0) {
-# waterfall;
+ waterfall;
 };
 qwe 0;
 qwe+=1;
