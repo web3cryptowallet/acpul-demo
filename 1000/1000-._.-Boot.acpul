@@ -94,7 +94,7 @@ bootnid u29;
 bootnid:=nid;
 # BOOT NID ]
 
-r0:=k==0;
+#r0:=k==0;
 
 # i18n [
 
