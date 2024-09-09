@@ -1466,7 +1466,8 @@ clockpatek0 0;
 _ @sys.time.test;
 #test.time0(r0, 500,30,1);
 
-_ @sys.shader.ex;
+#_ @sys.shader.ex;
+_ @photoneo.common.gl.extra;
 
 # WATERFALL [
 
