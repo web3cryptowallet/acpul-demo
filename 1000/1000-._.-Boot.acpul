@@ -1617,6 +1617,7 @@ if (r0) {
   run.video;
  };
 };
+### qqqqqqq
 
 run.video {
  video0:=node.new.this.ex(u0, test.main.video, 0);
@@ -1659,7 +1660,6 @@ _ @4;
 #   _ @4;
 #   ui.value1(l12,110,110,0.5,port);
 #   ui.value1(l12,110,110,0.5,bootnid);
-### qqqqqqq
 
 winamp0 0;
 if (r0) {
