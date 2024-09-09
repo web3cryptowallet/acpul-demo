@@ -1480,7 +1480,7 @@ qwe 0;
 qwe+=1;
 #qwe=3;
 l11;
-bbbb 3;
+#bbbb 3;
 if (r0) {
   bbbb:=3;
 };
