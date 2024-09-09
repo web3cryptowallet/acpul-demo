@@ -1617,7 +1617,6 @@ if (r0) {
   run.video;
  };
 };
-### qqqqqqq
 
 run.video {
  video0:=node.new.this.ex(u0, test.main.video, 0);
@@ -1625,6 +1624,7 @@ run.video {
 
 # TEST VIDEO ]
 
+### qqqqqqq
 k:=1;
 
 _ @92000;
