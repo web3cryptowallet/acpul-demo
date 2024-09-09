@@ -1544,7 +1544,7 @@ if (r0) {
 
 qwe 0;
 qwe+=1;
-if (qwe>2) {
+if (qwe>52) {
  shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 };
 
