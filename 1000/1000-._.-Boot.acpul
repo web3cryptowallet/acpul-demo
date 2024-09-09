@@ -1475,14 +1475,13 @@ if (r0) {
  waterfall;
 };
 
-qwe 0;
-qwe+=1;
+#qwe 0;
+#qwe+=1;
 qwe=2;
-#if (qwe>2) {
-if (r0) {
+if (qwe>2) {
  shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
-#};
 };
+
 # SIGN TEST [
 
 # _ @hero.sign1.test;
