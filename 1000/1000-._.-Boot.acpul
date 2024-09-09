@@ -1521,7 +1521,7 @@ node.ex.gl.fbo(u0, -1);
  texA=node.value.g(u0, sn0,0);
 # gl.texture.filter.linear(tex1);
 # gl.texture.filter.linear(tex2);
- gl.texture.filter.linear(texA);
+# gl.texture.filter.linear(texA);
 # gl.texture.filter.nearest(tex1);
 # gl.texture.filter.nearest(tex2);
 # gl.texture.filter.nearest(texA);
