@@ -1481,7 +1481,7 @@ waterfall {
  sn1 0;
  sn2 0;
  x0 0;
- w0 tw;
+ w0 tw*ss;
  tex0=node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb8888, 1);
  node.ex.gl.fbo(u0, tex0);
 # node.ex.gl.clear(u0, 0,0,1,0);
