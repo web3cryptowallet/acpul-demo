@@ -1482,7 +1482,7 @@ waterfall {
  sn2 0;
  tex0=node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb8888, 1);
  node.ex.gl.fbo(u0, tex0);
- node.ex.gl.clear(u0, 0,0,0,0);
+ node.ex.gl.clear(u0, 0,0,1,0);
  node.ex.gl.fbo(u0, -1);
 
  new.ui.shader.node3(sn0, 0,100,ss, tw,th, 70014,28931); # waterfall31
