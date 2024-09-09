@@ -1492,7 +1492,9 @@ waterfall {
 
  sn00=sn0;
 
- new.ui.shader.node3(sn0, 300,100,ss, tw,th, 70014,28931); # waterfall31
+ x0 tw;
+
+ new.ui.shader.node3(sn0, x0,100,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex1);
  tex2=node.value.g(u0, sn0,0);
 
