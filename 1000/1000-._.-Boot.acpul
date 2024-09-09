@@ -1476,8 +1476,8 @@ if (r0) {
  waterfall;
 };
 
-qwe 0;
-qwe+=1;
+#qwe 0;
+#qwe+=1;
 #qwe=3;
 l11;
 #bbbb 3;
