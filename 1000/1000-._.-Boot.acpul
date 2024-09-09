@@ -1546,7 +1546,7 @@ qwe 0;
 qwe+=1;
 if (qwe>5) {
 # shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
- shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex4);
+ shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 };
 
 
