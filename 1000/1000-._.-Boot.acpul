@@ -1431,15 +1431,16 @@ node.ex.gl.fbo(u0, -1);
  shader.set.texture(sn0, A.iChannel0, tex2);
  tex3=node.value.g(u0, sn0,0);
 
- new.ui.shader.node3(sn0, 000,400,0.5, 300,300, 70014,28931); # waterfall31
- shader.set.texture(sn0, A.iChannel0, tex3);
- tex4=node.value.g(u0, sn0,0);
+# new.ui.shader.node3(sn0, 000,400,0.5, 300,300, 70014,28931); # waterfall31
+# shader.set.texture(sn0, A.iChannel0, tex3);
+# tex4=node.value.g(u0, sn0,0);
 
- new.ui.shader.node3(sn0, 150,400,0.5, 300,300, 70014,28931); # waterfall31
- shader.set.texture(sn0, A.iChannel0, tex4);
- tex5=node.value.g(u0, sn0,0);
+# new.ui.shader.node3(sn0, 150,400,0.5, 300,300, 70014,28931); # waterfall31
+# shader.set.texture(sn0, A.iChannel0, tex4);
+# tex5=node.value.g(u0, sn0,0);
 
- shader.set.texture(sn00, A.iChannel0, tex5);
+ shader.set.texture(sn00, A.iChannel0, tex3);
+# shader.set.texture(sn00, A.iChannel0, tex5);
 
  new.ui.shader.node3(sn0, 300,400,1, 300,300, 70014,28932); # waterfall31.draw
  shader.set.texture(sn0, A.iChannel0, tex2);
