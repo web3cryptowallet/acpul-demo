@@ -1515,7 +1515,8 @@ waterfall {
 # shader.set.texture(sn00, A.iChannel0, tex2);
 # shader.set.texture(sn00, A.iChannel0, tex5);
 
- new.ui.shader.node3(sn0, 600-200,100,ss*3, tw,th, 70014,28932); # waterfall31.draw
+ new.ui.shader.node3(sn0, 600-400,100,ss*3, tw,th, 70014,28932); # waterfall31.draw
+ new.ui.shader.node3(sn0, 600,100,ss, tw,th, 70014,28932); # waterfall31.draw
 # new.ui.shader.node3(sn0, 300,400,1, 300,300, 70014,28932); # waterfall31.draw
  shader.set.texture(sn0, A.iChannel0, tex2);
  texA=node.value.g(u0, sn0,0);
