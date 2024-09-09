@@ -1480,6 +1480,8 @@ waterfall {
  sn0 0;
  sn1 0;
  sn2 0;
+ x0 0;
+ w0 tw;
  tex0=node.ex.texture.create.fmt(u0, tw,th, node.ex.texture.fmt.rgb8888, 1);
  node.ex.gl.fbo(u0, tex0);
 # node.ex.gl.clear(u0, 0,0,1,0);
@@ -1492,15 +1494,14 @@ waterfall {
 
  sn00=sn0;
  
- x0 0;
- x0+=tw;
+ x0+=w0;
 
  new.ui.shader.node3(sn0, x0,0,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex1);
  tex2=node.value.g(u0, sn0,0);
 
 
- x0+=tw;
+ x0+=w0;
 
 # gl.texture.filter.nearest(tex1);
 # gl.texture.filter.nearest(tex2);
