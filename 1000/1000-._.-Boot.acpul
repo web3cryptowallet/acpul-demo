@@ -1526,25 +1526,6 @@ waterfall {
 # gl.texture.filter.nearest(tex2);
 # gl.texture.filter.nearest(texA);
 
-# new.ui.shader.node3(sn1, 300,300,1.5, 300,300, 70014,70015); # copy tex
-# shader.set.texture(sn1, A.iChannel0, tex0);
-
-# tex1=node.value.g(u0, sn1,0);
-# shader.set.texture(sn0, A.iChannel0, tex1);
-#aa {
-# new.ui.shader.node3(sn0, 300,100,1, 300,300, 70014,28931); # waterfall31
-# shader.set.texture(sn0, A.iChannel0, tex0);
-# tex0=node.value.g(u0, sn0,0);
-
-# new.ui.shader.node3(sn0, 500,100,1, 300,300, 70014,28931); # waterfall31
-# shader.set.texture(sn0, A.iChannel0, tex0);
-# tex1=node.value.g(u0, sn0,0);
-
-# new.ui.shader.node3(sn0, 500,400,1, 300,300, 70014,28931); # waterfall31
-# shader.set.texture(sn0, A.iChannel0, tex1);
-# tex2=node.value.g(u0, sn0,0);
-#};
-#aa;
 # new.ui.shader.node3(sn1, 300,300,1.5, 300,300, 70014,70031); # copy tex
 # shader.set.texture(sn1, A.iChannel0, tex0);
 # tex1=node.value.g(u0, sn1,0);
