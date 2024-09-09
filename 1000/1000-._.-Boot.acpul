@@ -75,7 +75,7 @@ r0:=0;
 #bbbb 0;
 bbbb 3;
 l10;
-bbbb+=1;
+#bbbb+=1;
 
 #m 1;
 #if(m,1,0);
