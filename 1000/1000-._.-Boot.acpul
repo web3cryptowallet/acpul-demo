@@ -78,6 +78,7 @@ _ @0;
 # test needCompile [
 a1001 @1001;
 # test needCompile ]
+bbbb 3;
 
 _ @1010;
 _ @sys.node;
@@ -778,7 +779,6 @@ if (BOOT.INTRO*r0) {
  new.startup.intro;
 };
 
-bbbb 3;
 # HIPSTER
 
 hipster0 0;
