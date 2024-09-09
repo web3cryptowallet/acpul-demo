@@ -1481,12 +1481,13 @@ qwe+=1;
 if (qwe==2) {
 # shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 #hero.sign1.test0;
+new.ui.shader.node3(sn2sign, 0,300,1, 500,500, 70014,28773); # golden.piggy
 };
 
 # SIGN TEST [
 
- _ @hero.sign1.test;
-hero.sign1.test0;
+# _ @hero.sign1.test;
+#hero.sign1.test0;
 
 #hero.sign.create(sn2sign, 0,420,1, 300,300);
 
