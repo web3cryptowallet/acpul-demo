@@ -1544,14 +1544,20 @@ if (r0) {
  waterfall;
 };
 
+waterfall.update {
+ qwe 0;
+ qwe+=1;
+ if (qwe>5) {
+  shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
+ # shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex4);
+ };
+};
+
+waterfall.update;
+
 # WATERFALL ]
 
-qwe 0;
-qwe+=1;
-if (qwe>5) {
- shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
-# shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex4);
-};
+
 
 
 
