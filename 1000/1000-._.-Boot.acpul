@@ -1476,7 +1476,7 @@ waterfall {
  #iChannel0
  tw 1200;
  th 1200;
- ss 1;
+ ss 0.3;
  sn0 0;
  sn1 0;
  sn2 0;
