@@ -1474,12 +1474,14 @@ aa;
 if (r0) {
  waterfall;
 };
-#qwe 0;
-#qwe+=1;
-#if(qwe>2) {
+
+qwe 0;
+qwe+=1;
+if(qwe==2) {
+ shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 #  waterfall;
 #  qwe:=0;
-#};
+};
 
 # SIGN TEST [
 
