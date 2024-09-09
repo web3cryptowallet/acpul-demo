@@ -1480,6 +1480,9 @@ qwe+=1;
 #qwe=3;
 l11;
 bbbb 3;
+if (r0) {
+  bbbb:=3;
+};
 bbbb+=1;
 if (bbbb>2) {
 # shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
