@@ -72,16 +72,13 @@ r0:=0;
 
 
 ### 1610 Boot.main
-#bbbb 0;
-bbbb 3;
-l10;
-#bbbb+=1;
 
 #m 1;
 #if(m,1,0);
 #m:=2;
 
 _ @4;
+bbbb 3;
 #if(bbbb,1,0);
 val0 0;ui.value1(val0,0,300,0.5,bbbb);
 bbbb+=1;
