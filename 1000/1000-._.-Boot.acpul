@@ -1429,6 +1429,10 @@ node.ex.gl.fbo(u0, -1);
  shader.set.texture(sn0, A.iChannel0, tex2);
  tex3=node.value.g(u0, sn0,0);
 
+ new.ui.shader.node3(sn0, 000,400,0.5, 300,300, 70014,28931); # waterfall31
+ shader.set.texture(sn0, A.iChannel0, tex3);
+ tex4=node.value.g(u0, sn0,0);
+
  new.ui.shader.node3(sn0, 000,400,1, 300,300, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex3);
  tex4=node.value.g(u0, sn0,0);
