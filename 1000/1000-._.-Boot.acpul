@@ -1478,9 +1478,8 @@ if (r0) {
 qwe 0;
 qwe+=1;
 qwe=2;
-if (qwe>2) {
- shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
-};
+if (qwe>2, shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2),0);
+#};
 
 # SIGN TEST [
 
