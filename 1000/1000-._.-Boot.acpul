@@ -1481,7 +1481,7 @@ qwe+=1;
 l11;
 bbbb 3;
 if (r0) {
-  bbbb:=0;
+  bbbb:=3;
 };
 bbbb+=1;
 if (bbbb>2) {
