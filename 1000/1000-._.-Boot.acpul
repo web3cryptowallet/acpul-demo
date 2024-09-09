@@ -1474,9 +1474,9 @@ _ @photoneo.common.gl.extra;
 waterfall {
  #28931
  #iChannel0
- tw 100;
- th 100;
- ss 1.5*2;
+ tw 200;
+ th 200;
+ ss 1.5;
  sn0 0;
  sn1 0;
  sn2 0;
