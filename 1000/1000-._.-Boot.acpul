@@ -778,6 +778,7 @@ if (BOOT.INTRO*r0) {
  new.startup.intro;
 };
 
+bbbb 3;
 # HIPSTER
 
 hipster0 0;
@@ -1376,7 +1377,6 @@ shader.set.texture(sn0, A.iChannel0, tex05);
 
 #new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28891); # paint.egypt.texure.orig
 };
-bbbb 3;
 
 rabbithole {
 # new.ui.shader.node3(sn0, 200,100,1.5*2, 300/2,300/2, 70014,28889); # rabbit.hole89
