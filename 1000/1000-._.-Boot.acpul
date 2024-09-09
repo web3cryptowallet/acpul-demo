@@ -1500,8 +1500,8 @@ l11;
 #new.ui.shader.node3(sn2sign, 300,300,1, 500,500, 70014,28773); # golden.piggy
 #};
 
-val0 0;ui.value1(val0,0,300,0.5,bbbb);
 if(bbbb,1,0);
+val0 0;ui.value1(val0,0,300,0.5,bbbb);
 bbbb+=1;
 
 
