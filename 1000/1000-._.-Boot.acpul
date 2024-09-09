@@ -92,6 +92,8 @@ bbbb 3;
 l10;
 bbbb+=1;
 
+### qqqqqq
+
 # BOOT NID [
 bootnid u29;
 bootnid:=nid;
