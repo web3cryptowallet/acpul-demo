@@ -1471,8 +1471,8 @@ _ @sys.time.test;
 waterfall {
  #28931
  #iChannel0
- tw 300;
- th 300;
+ tw 400;
+ th 400;
  sn0 0;
  sn1 0;
  sn2 0;
