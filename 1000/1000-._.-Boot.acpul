@@ -1480,12 +1480,12 @@ qwe+=1;
 #qwe=3;
 l11;
 bbbb 0;
+bbbb+=1;
 if (bbbb>2) {
 # shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 #hero.sign1.test0;
 new.ui.shader.node3(sn2sign, 300,300,1, 500,500, 70014,28773); # golden.piggy
 };
-bbbb+=1;
 
 # SIGN TEST [
 
