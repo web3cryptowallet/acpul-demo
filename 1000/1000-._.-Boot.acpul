@@ -88,17 +88,6 @@ _ @sys.cpu;
 
 cpu.init(r0);
 
-#m 1;
-#if(m,1,0);
-#m:=2;
-
-_ @4;
-bbbb 3333;
-#if(bbbb,1,0);
-val0 0;ui.value1(val0,0,300,0.5,bbbb);
-bbbb+=1;
-
-### qqweqweqwe
 
 # BOOT NID [
 bootnid u29;
