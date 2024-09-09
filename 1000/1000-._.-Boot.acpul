@@ -78,8 +78,6 @@ _ @0;
 # test needCompile [
 a1001 @1001;
 # test needCompile ]
-#bbbb 0;
-bbbb 3;
 
 _ @1010;
 _ @sys.node;
@@ -88,6 +86,9 @@ _ @sys.net;
 _ @sys.cpu;
 
 cpu.init(r0);
+
+#bbbb 0;
+bbbb 3;
 
 # BOOT NID [
 bootnid u29;
