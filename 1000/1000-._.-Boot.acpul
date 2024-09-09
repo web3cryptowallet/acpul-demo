@@ -1441,6 +1441,9 @@ node.ex.gl.fbo(u0, -1);
 
  shader.set.texture(sn00, A.iChannel0, tex5);
 
+ new.ui.shader.node3(sn0, 300,400,0.5, 300,300, 70014,28932); # waterfall31.draw
+ shader.set.texture(sn0, A.iChannel0, tex5);
+
 # new.ui.shader.node3(sn1, 300,300,1.5, 300,300, 70014,70015); # copy tex
 # shader.set.texture(sn1, A.iChannel0, tex0);
 
