@@ -1475,9 +1475,8 @@ if (r0) {
  waterfall;
 };
 
-#qwe 0;
-#qwe+=1;
-qwe=111;
+qwe 0;
+qwe+=1;
 if (qwe>2) {
  shader.set.texture(waterfall.sn00, A.iChannel0, waterfall.tex2);
 };
