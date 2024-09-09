@@ -1487,6 +1487,9 @@ if (bbbb>2) {
 new.ui.shader.node3(sn2sign, 300,300,1, 500,500, 70014,28773); # golden.piggy
 };
 
+   ui.value1(uiv0,110,110,0.5,port+t);
+
+
 # SIGN TEST [
 
 # _ @hero.sign1.test;
