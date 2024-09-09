@@ -1625,7 +1625,6 @@ run.video {
 # TEST VIDEO ]
 
 k:=1;
-### qqqqqqq
 
 _ @92000;
 
@@ -1641,6 +1640,7 @@ _ @sys.obj;
 _ @sys.os;
 _ @os.basic;
 
+### qqqqqqq
 if (r0) {
 #sn0 l12;
 #new.ui.shader.node(sn0, 000,0,4, 768/4,1024/4., 1, 70014,28520); # 
