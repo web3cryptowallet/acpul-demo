@@ -266,7 +266,7 @@ waterfall {
 
  new.ui.shader.node3(sn0, 0,0,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex0);
- shader.set.uniform.v3(sn0, A.Mouse, 0,0,0);
+ shader.set.uniform.v3(sn0, A.iMouse, 0,0,0);
 
  tex1=node.value.g(u0, sn0,0);
 
@@ -276,7 +276,7 @@ waterfall {
 
  new.ui.shader.node3(sn0, x0,0,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex1);
- shader.set.uniform.v3(sn0, A.Mouse, 0,0,0);
+ shader.set.uniform.v3(sn0, A.iMouse, 0,0,0);
  tex2=node.value.g(u0, sn0,0);
 
  sn01=sn0;
@@ -368,7 +368,7 @@ touch.ev {
 #  xs:=x0;
 #  ys:=y0;
 #  new.ui.shader.node3(sn0, _0,_1,1, 500,500, 70014,28773); # golden.piggy
-  shader.set.uniform.v3(sn00, A.Mouse, _0,_1,1);
+  shader.set.uniform.v3(sn00, A.iMouse, _0,_1,1);
 
   pressed:=1;
 #  clicked:=1;
