@@ -251,9 +251,10 @@ waterfall {
  #28931
  #iChannel0
 # tw 500; th 500; ss 0.3;
- tw 200*2;
- th 200*2;
- ss 1/2;
+# tw 200*2; th 200*2; ss 1/2;
+ tw 200;
+ th 200;
+ ss 1;
  sn0 0;
  sn1 0;
  sn2 0;
