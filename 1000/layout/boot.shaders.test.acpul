@@ -266,6 +266,7 @@ waterfall {
 
  new.ui.shader.node3(sn0, 0,0,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex0);
+ shader.set.uniform.v3(sn0, A.Mouse, 0,0,0);
 
  tex1=node.value.g(u0, sn0,0);
 
@@ -275,6 +276,7 @@ waterfall {
 
  new.ui.shader.node3(sn0, x0,0,ss, tw,th, 70014,28931); # waterfall31
  shader.set.texture(sn0, A.iChannel0, tex1);
+ shader.set.uniform.v3(sn0, A.Mouse, 0,0,0);
  tex2=node.value.g(u0, sn0,0);
 
 
