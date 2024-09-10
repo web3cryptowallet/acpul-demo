@@ -364,7 +364,7 @@ touch.ev {
 #  y0:=_3;
 #  xs:=x0;
 #  ys:=y0;
-     new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28773); # golden.piggy
+  new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28773); # golden.piggy
 
   pressed:=1;
 #  clicked:=1;
@@ -397,10 +397,10 @@ touch.ev {
  };
 };
 
-p.x waterfall.x0;
+p.x 400;#waterfall.x0;
 p.y 0;
-p.w waterfall.tw;
-p.h waterfall.th;
+p.w waterfall.tw*ss*3;
+p.h waterfall.th*ss*3;
 touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
 #touch.rect2.lock(touch.id, 0,0,w,h);
 
