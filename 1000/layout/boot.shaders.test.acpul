@@ -397,7 +397,7 @@ touch.ev {
  };
 };
 
-ss0 waterfall.ss*3;
+ss1 waterfall.ss*3;
 
 p.x 400;#waterfall.x0;
 p.y 0;
