@@ -361,6 +361,7 @@ p {
 touch.ev {
  began {
   # x,y, gx,gy
+ new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28773); # golden.piggy
 
 #  x0:=_2;
 #  y0:=_3;
