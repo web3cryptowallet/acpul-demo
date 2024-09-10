@@ -377,7 +377,7 @@ touch.ev {
 #  new.ui.shader.node3(sn0, _0,_1,1, 500,500, 70014,28773); # golden.piggy
 #  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0+100,100,1);
 #  shader.set.uniform.v3(waterfall.sn00, A.iMouse, 300*rnd(u0),100,1);
-  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0-p.x,_1-p.y,1);
+  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0/ss1-p.x,_1/ss1-p.y,1);
 
   pressed:=1;
 #  clicked:=1;
