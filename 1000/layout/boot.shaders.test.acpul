@@ -364,7 +364,7 @@ touch.ev {
 #  y0:=_3;
 #  xs:=x0;
 #  ys:=y0;
-  new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28773); # golden.piggy
+   new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28773); # golden.piggy
 
   pressed:=1;
 #  clicked:=1;
