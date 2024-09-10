@@ -358,8 +358,13 @@ touch.id 0;
 touch.b0 0;
 
 sn0 0;
+ss1 waterfall.ss*3;
 
-#  shader.set.uniform.v3(waterfall.sn00, A.iMouse, 100,100,1);
+p.x 400;#waterfall.x0;
+p.y 0;
+p.w waterfall.tw*ss1;
+p.h waterfall.th*ss1;
+
 
 touch.ev {
  began {
@@ -372,7 +377,7 @@ touch.ev {
 #  new.ui.shader.node3(sn0, _0,_1,1, 500,500, 70014,28773); # golden.piggy
 #  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0+100,100,1);
 #  shader.set.uniform.v3(waterfall.sn00, A.iMouse, 300*rnd(u0),100,1);
-  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0-400,100,1);
+  shader.set.uniform.v3(waterfall.sn00, A.iMouse, _0-p.x,_1-p.y,1);
 
   pressed:=1;
 #  clicked:=1;
@@ -405,12 +410,6 @@ touch.ev {
  };
 };
 
-ss1 waterfall.ss*3;
-
-p.x 400;#waterfall.x0;
-p.y 0;
-p.w waterfall.tw*ss1;
-p.h waterfall.th*ss1;
 touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
 #touch.rect2.lock(touch.id, 0,0,w,h);
 
