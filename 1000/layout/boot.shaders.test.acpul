@@ -397,10 +397,12 @@ touch.ev {
  };
 };
 
+ss1 waterfall.ss*3;
+
 p.x 400;#waterfall.x0;
 p.y 0;
-p.w waterfall.tw*ss*3;
-p.h waterfall.th*ss*3;
+p.w waterfall.tw*ss1;
+p.h waterfall.th*ss1;
 touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
 #touch.rect2.lock(touch.id, 0,0,w,h);
 
