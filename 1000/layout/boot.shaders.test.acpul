@@ -343,8 +343,8 @@ pressed 0;
 #clicked 0;
 #moving 0;
 
-node.set.visible(u0, pb1, pressed==0);
-node.set.visible(u0, pb2, pressed);
+#node.set.visible(u0, pb1, pressed==0);
+#node.set.visible(u0, pb2, pressed);
 
 #x0 0; y0 0;
 #xs 0; ys 0; 
