@@ -397,9 +397,14 @@ touch.ev {
  };
 };
 
-#touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
+p.x waterfall.x0;
+p.y 0;
+p.w waterfall.tw;
+p.h waterfall.th;
+touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
 #touch.rect2.lock(touch.id, 0,0,w,h);
-touch.rect2.lock(touch.id, 0,0,500,500);
+
+#touch.rect2.lock(touch.id, 0,0,500,500);
 
 _ @sys.touch.ev.process.once;
 touch.b0:=1;
