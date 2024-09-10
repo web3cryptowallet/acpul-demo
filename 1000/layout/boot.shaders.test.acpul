@@ -397,7 +397,6 @@ touch.ev {
 #  click.ended;
  };
 };
- new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28773); # golden.piggy
 
 touch.rect2.lock(touch.id, p.x,p.y,p.w,p.h);
 
