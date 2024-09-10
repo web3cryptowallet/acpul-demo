@@ -366,7 +366,7 @@ p.w waterfall.tw*ss1;
 p.h waterfall.th*ss1;
 
 mouse.pos
-  shader.set.uniform.v3(waterfall.sn00, A.iMouse, (_0-p.x)/2,(_1-p.y)/2,1);
+  shader.set.uniform.v3(waterfall.sn00, A.iMouse, (_0-p.x)/ss1,(_1-p.y)/ss1,1);
 
 touch.ev {
  began {
