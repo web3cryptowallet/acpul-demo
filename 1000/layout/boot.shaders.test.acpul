@@ -242,6 +242,7 @@ _ @1111;
 _ @4;
 _ @photoneo.common.gl.extra;
 _ @sys.shader.ex;
+_ @basic.ui.shader.node3.inc;
 
 # WATERFALL [
 
