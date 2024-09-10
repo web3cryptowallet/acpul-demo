@@ -279,6 +279,7 @@ waterfall {
  shader.set.uniform.v3(sn0, A.Mouse, 0,0,0);
  tex2=node.value.g(u0, sn0,0);
 
+ sn01=sn0;
 
  x0+=w0;
 
