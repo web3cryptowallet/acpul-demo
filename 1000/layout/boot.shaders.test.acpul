@@ -354,9 +354,7 @@ pressed 0;
 touch.id 0;
 touch.b0 0;
 
-p {
- _ win.posbar.bg;
-};
+sn0 0;
 
 touch.ev {
  began {
