@@ -1,8 +1,10 @@
 ### boot.shaders.test
 
-_ @photoneo.common.gl.extra;
 
 setup.bg {
+
+_ @photoneo.common.gl.extra;
+
 sn0 0;
 if (r0) {
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
