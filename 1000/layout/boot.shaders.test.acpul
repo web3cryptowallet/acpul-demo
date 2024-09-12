@@ -252,6 +252,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 new.ui.shader.node3(sn0, 0,0,10, 50,50, 70014,28942); # dota.effect.sparkles
 shader.set.uniform.v2(sn0, A.iResolution, 110,110); # sparkles.size
 tex0=node.value.g(u0, sn0,0);
+gl.texture.filter.nearest(tex0);
 
 #define  (iResolution*2.)
 
