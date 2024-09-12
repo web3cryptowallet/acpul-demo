@@ -1,5 +1,7 @@
 ### boot.shaders.test
 
+_ @photoneo.common.gl.extra;
+
 setup.bg {
 sn0 0;
 if (r0) {
