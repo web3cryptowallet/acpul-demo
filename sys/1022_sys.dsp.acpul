@@ -43,6 +43,14 @@ music.seek.time.ms
 
 # MUSIC LINK STATS AND SEEK ]
 
+music.get.volume
+ # r0
+ io(_0, 500098, 0,0,0,0);
+
+music.set.volume
+ # r0, volume
+ io(_0, 500098, 1,_1,0,0);
+
 
 dsp {
  reset
