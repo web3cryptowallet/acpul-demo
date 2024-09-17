@@ -685,7 +685,7 @@ run.paint {
  _ @core.vg;
  kill.app(paint0);
  PAINT 10160000;
- paint0:=node.new.this.ex(u0, PAINT, 0);
+# paint0:=node.new.this.ex(u0, PAINT, 0);
 };
 
 wallet0 0;
