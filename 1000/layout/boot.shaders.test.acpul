@@ -229,7 +229,8 @@ gpt0 0;
 #new.node.common0(gpt0, 500,0,1, 300,300, node.fid.by.name(u0, gpt.chat.test), 0);
 
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28801); # pix.eq
-#new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28802); # fractal802
+new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28802); # fractal802
+tex0=node.value.g(u0, sn0,0);
 
 clockpatek0 0;
 #new.node.common0(clockpatek0, 50,300,1, 300,347, node.fid.by.name(u0, patek.philippe.clock), 1);
@@ -248,7 +249,6 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28937); # dota.magic.pyramid
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.skill.trangle.buggy
 
-tex0=node.value.g(u0, sn0,0);
 new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28942); # dota.effect.sparkles
