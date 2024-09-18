@@ -281,7 +281,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 #shader.set.texture(sn0, A.iChannel0, tex0);
 #shader.set.texture(sn0, A.iChannel1, tex0);
 
-new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28953); # dota.
+new.ui.shader.node3(sn0, 500,0,1, 500,500, 70014,28953); # dota.
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
