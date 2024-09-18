@@ -262,7 +262,7 @@ shader.set.uniform.v2(sn0, A.iResolution, 110,110); # sparkles.size
 #new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28943); # dota.effect.light43
 
 #new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28944); # dota.effect.nebula44
-new.ui.shader.node3(sn0, 0,0,2, 1100/2,800/2, 70014,28944); # dota.effect.nebula44
+#new.ui.shader.node3(sn0, 0,0,2, 1100/2,800/2, 70014,28944); # dota.effect.nebula44
 new.ui.shader.node3(sn0, 0,0,2, 1100/2,800/2, 70014,28945); # dota.effect.starhole
 
 
