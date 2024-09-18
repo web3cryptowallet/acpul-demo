@@ -271,10 +271,10 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28947); # dota.effect.hypno47
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28948); # dota.effect.buff48
 
-#new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28949); # dota.effect.gravity49
+new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28949); # dota.effect.gravity49
 #tex0=node.value.g(u0, sn0,0);
 
-new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28950); # dota.effect.fractal50
+#new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28950); # dota.effect.fractal50
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28951); # dota.effect.p2p.good
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28952); # dota.building.crunch
