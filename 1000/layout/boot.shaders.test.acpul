@@ -258,7 +258,7 @@ shader.set.uniform.v2(sn0, A.iResolution, 110,110); # sparkles.size
 #tex0=node.value.g(u0, sn0,0);
 #gl.texture.filter.linear(tex0);
 
-№new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28943); # dota.effect.light43
+#new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28943); # dota.effect.light43
 new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28943); # dota.effect.light43
 
 
