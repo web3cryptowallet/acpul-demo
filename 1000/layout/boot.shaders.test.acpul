@@ -283,6 +283,8 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 
 #new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28953); # dota.bio.cell53
 
+new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28954); # 
+
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
