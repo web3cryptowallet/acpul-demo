@@ -286,7 +286,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28954); # cosmic.webb54
 
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28955); # dota.effect.gravity.dots
-new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28957); # dota.effect.tunnel.spirals
+new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28957); # dota.effect.tunnel.spirals
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
