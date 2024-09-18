@@ -230,13 +230,13 @@ gpt0 0;
 
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28801); # pix.eq
 new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28802); # fractal802
-tex0=node.value.g(u0, sn0,0);
 
 clockpatek0 0;
 #new.node.common0(clockpatek0, 50,300,1, 300,347, node.fid.by.name(u0, patek.philippe.clock), 1);
 
 waterfall0 0;
-#new.node.common0(waterfall0, 0,0,1, 1000,1000, node.fid.by.name(u0, waterfall.test), 1);
+new.node.common0(waterfall0, 0,0,1, 1000,1000, node.fid.by.name(u0, waterfall.test), 1);
+tex0=node.value.g(u0, sn0,0);
 
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28935); # dota.harmony.lines
 #new.ui.shader.node3(sn0, 0,00,2, 500,500, 70014,28936); # painted.skies
