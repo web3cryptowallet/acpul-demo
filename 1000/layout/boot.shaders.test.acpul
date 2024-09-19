@@ -297,8 +297,8 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28960); # dota.bg.ipad
 #new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
 
-new.ui.shader.node3(sn0, 500,200,1, 100,200, 70014,28961); # dota.
 new.ui.shader.node3(sn0, 500,200,1, 400,400, 70014,28961); # dota.
+new.ui.shader.node3(sn0, 500,200,1, 100,200, 70014,28961); # dota.
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
