@@ -298,7 +298,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 #new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
 
 new.ui.shader.node3(sn0, 00,200,1, 400,400, 70014,28961); # dota.weapon.sword2
-new.ui.shader.node3(sn0, 200,200,1, 100,200, 70014,28961); # dota.weapon.sword2
+new.ui.shader.node3(sn0, 100,200,1, 100,200, 70014,28961); # dota.weapon.sword2
 node.anchor.point.s1(u0, sn0, 0.5,0.5);
 node.prop.r.s(u0, sn0, 30);
 #sn0rr:=sn0;
