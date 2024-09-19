@@ -312,7 +312,7 @@ sn0rr:=sn0;
 sn0rr 0;
 rr 0;
 rr+=1;
-node.prop.r.s(u0, sn0rr, r);
+node.prop.r.s(u0, sn0rr, rr);
 
 
 
