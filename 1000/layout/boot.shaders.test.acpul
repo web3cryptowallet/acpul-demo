@@ -339,6 +339,8 @@ tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28720); # water 
 #tex2=node.value.g(u0, sn0,0);
 
+gl.texture.wrap.repeat(tex3);
+
 
 new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28970); # dota.ground.mix4.tex
 shader.set.texture(sn0, A.iChannel0, tex3);
