@@ -247,6 +247,7 @@ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28937); # dota.magic.pyramid
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28930); # dota.skill.magic.ball
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.skill.trangle.buggy
+tex1=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 tex0=node.value.g(u0, sn0,0);
@@ -306,7 +307,7 @@ node.prop.r.s(u0, sn0, 30);
 
 new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28970); # dota.
 shader.set.texture(sn0, A.iChannel0, tex0);
-shader.set.texture(sn0, A.iChannel1, tex0);
+shader.set.texture(sn0, A.iChannel1, tex1);
 shader.set.texture(sn0, A.iChannel2, tex0);
 shader.set.texture(sn0, A.iChannel3, tex0);
 
