@@ -316,8 +316,8 @@ shader.set.texture(sn0, A.iChannel3, tex0);
 g1;
 
 new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28970); # dota.
-shader.set.texture(sn0, A.iChannel0, tex1);
-shader.set.texture(sn0, A.iChannel1, tex2);
+shader.set.texture(sn0, A.iChannel0, tex0);
+shader.set.texture(sn0, A.iChannel1, tex1);
 shader.set.texture(sn0, A.iChannel2, tex0);
 shader.set.texture(sn0, A.iChannel3, tex2);
 
