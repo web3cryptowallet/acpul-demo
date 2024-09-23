@@ -349,7 +349,7 @@ shader.set.texture(sn0, A.iChannel0, tex3);
 shader.set.texture(sn0, A.iChannel1, tex3);
 shader.set.texture(sn0, A.iChannel2, tex3);
 shader.set.texture(sn0, A.iChannel3, tex3);
-}
+};
 groundmix;
 
 dbgtex4 {
