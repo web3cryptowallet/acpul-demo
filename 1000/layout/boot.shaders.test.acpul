@@ -333,7 +333,8 @@ new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28726); # dota.map!
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28731); # dota.bg
 #new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28929); # dota.bg
 tex3=node.value.g(u0, sn0,0);
-new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28721); # water1
+new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
+#new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28721); # water1
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28720); # water 
 tex2=node.value.g(u0, sn0,0);
 
