@@ -329,6 +329,15 @@ shader.set.texture(sn0, A.iChannel1, tex1);
 shader.set.texture(sn0, A.iChannel2, tex2);
 shader.set.texture(sn0, A.iChannel3, tex3);
 
+
+dbgtex4 {
+ # x:y:w:h
+ x _0; y _1; w _2; h _3;
+ new.ui.shader.node3(sn0, x,y,1, w,h, 70014,28890); # mix.in2.alpha
+ shader.set.texture(sn0, A.iChannel0, tex0);
+ shader.set.uniform.v(preview0, A.mode, 4);
+};
+
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
