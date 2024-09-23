@@ -326,7 +326,7 @@ shader.set.texture(sn0, A.iChannel3, tex2);
 
 #new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28791); # dota.grid.bg
 #new.ui.shader.node3(sn0, 0,300,0.5, 300,200, 70014,28795); # rock95
-new.ui.shader.node3(sn0, -10,350,1, 200,200, 70014,28797); # dota.smoke
+#new.ui.shader.node3(sn0, -10,350,1, 200,200, 70014,28797); # dota.smoke
 tex3=node.value.g(u0, sn0,0);
 
 
