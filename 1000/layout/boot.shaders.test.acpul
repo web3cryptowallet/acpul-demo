@@ -337,7 +337,7 @@ dbgtex4 {
  shader.set.texture(sn0, A.iChannel0, tex0);
  shader.set.uniform.v(sn0, A.mode, 4);
 };
-dbgtex4(500,500,100,100);
+dbgtex4(500,200,100,100);
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
