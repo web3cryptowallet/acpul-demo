@@ -47,6 +47,8 @@ music.set.track(r0, 1, 2, 1);
 
 _ @core.vg;
 
+_ @os.util0;
+
 winamp0 0;
 if (r0) {
  new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
