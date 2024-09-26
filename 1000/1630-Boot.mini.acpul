@@ -46,7 +46,7 @@ media.step(u0, dt);
 # user
 music.set.track(r0, 1, 26, 1);
 
-_ @core.vg;
+#_ @core.vg;
 
 _ @os.util0;
 _ @sys.obj.volatile;
