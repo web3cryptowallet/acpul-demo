@@ -44,7 +44,6 @@ media.init(r0);
 media.step(u0, dt);
 
 # user
-music.set.track(r0, 1, 26, 1);
 
 #_ @core.vg;
 
@@ -53,17 +52,21 @@ _ @sys.obj.volatile;
 
 winamp0 0;
 if (r0) {
-# file.pack(file0, pool0,id0,i0);
-# volatile.set(u0, PLAYER_TRACK_FILE, file0);
+ pool0 1; id0 26; i0 1;
  name0 JJamesBrown.I.FeelGood;
+
+ music.set.track(r0, 1, 26, 1);
+
+ file.pack(file0, pool0,id0,i0);
+ volatile.set(u0, PLAYER_TRACK_FILE, file0);
  volatile.set(u0, PLAYER_TRACK_NAME, name0);
 
  new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
 
-  events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
+#  events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
 };
 
-volatile.set(u0, PLAYER_TRACK_NAME, name0);
+#volatile.set(u0, PLAYER_TRACK_NAME, name0);
 
 PAINT 10160000;
 #node.new.this.ex(r0, PAINT, 0);
