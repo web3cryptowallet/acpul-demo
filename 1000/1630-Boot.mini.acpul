@@ -61,6 +61,7 @@ if (r0) {
 
   events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
 };
+
  volatile.set(u0, PLAYER_TRACK_NAME, name0);
 
 PAINT 10160000;
