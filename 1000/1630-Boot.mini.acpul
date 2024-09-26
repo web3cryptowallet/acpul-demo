@@ -59,6 +59,7 @@ if (r0) {
  volatile.set(u0, PLAYER_TRACK_NAME, name0);
 
  new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
+  events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
 };
 
 PAINT 10160000;
