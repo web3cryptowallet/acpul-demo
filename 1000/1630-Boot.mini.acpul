@@ -43,7 +43,7 @@ media.init(r0);
 media.step(u0, dt);
 
 # user
-music.set.track(r0, 1, 2, 1);
+music.set.track(r0, 1, 26, 1);
 
 _ @core.vg;
 
@@ -51,6 +51,12 @@ _ @os.util0;
 
 winamp0 0;
 if (r0) {
+ pool0 1; id0 26; i 1;
+ name0 JJamesBrown.I.FeelGood;
+ file.pack(file0, pool0,id0,i0);
+ volatile.set(u0, PLAYER_TRACK_FILE, file0);
+ volatile.set(u0, PLAYER_TRACK_NAME, name0);
+
  new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
 };
 
