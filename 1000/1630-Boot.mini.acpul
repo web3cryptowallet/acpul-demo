@@ -52,7 +52,7 @@ _ @os.util0;
 
 winamp0 0;
 if (r0) {
-# pool0 1; id0 26; i 1;
+ pool0 1; id0 26; i 1;
 # file.pack(file0, pool0,id0,i0);
 # volatile.set(u0, PLAYER_TRACK_FILE, file0);
  name0 JJamesBrown.I.FeelGood;
