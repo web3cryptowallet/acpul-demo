@@ -49,10 +49,10 @@ music.set.track(r0, 1, 26, 1);
 _ @core.vg;
 
 _ @os.util0;
+ pool0 1; id0 26; i 1;
 
 winamp0 0;
 if (r0) {
- pool0 1; id0 26; i 1;
 # file.pack(file0, pool0,id0,i0);
 # volatile.set(u0, PLAYER_TRACK_FILE, file0);
  name0 JJamesBrown.I.FeelGood;
@@ -62,6 +62,7 @@ if (r0) {
 
   events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
 };
+  events.push(u0, ui.pool,0, ev.player.active.track, pool0,id0,i0,name0);
 
 PAINT 10160000;
 #node.new.this.ex(r0, PAINT, 0);
