@@ -1,5 +1,7 @@
 ### dota.map.background
 
+
+
 w:=parent.w;
 h:=parent.h;
 
