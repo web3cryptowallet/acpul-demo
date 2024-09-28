@@ -26,7 +26,7 @@ sn0 0;
 _ @os.util0;
 
 # BACKGROUND
-node.new.this.ex(r0, NNN(dota.map.background), 0);
+#node.new.this.ex(r0, NNN(dota.map.background), 0);
 
 if (r0) {
 
