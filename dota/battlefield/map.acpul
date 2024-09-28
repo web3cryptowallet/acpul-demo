@@ -122,7 +122,7 @@ create.minions {
 #nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.captain,0,0);
 };
 
-create.minions(r0);
+#create.minions(r0);
 
 r2:=if(r2<60*5,r2+1,0);
 if (r2==0) {
