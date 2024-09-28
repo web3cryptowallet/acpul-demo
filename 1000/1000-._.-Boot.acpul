@@ -672,13 +672,6 @@ new.dota.test {
 };
 
 
-wallet0 0;
-
-run.wallet {
- hide.default;
- _ @core.gl3d;
- wallet0:=node.new.this.ex(u0, gl3d.test.main, 0);
-};
 
 run.neo {
  hide.default;
@@ -697,17 +690,6 @@ toggle.files {
  if(files0, hide, show);
 };
 
-# TOGGLE PLAYER
-
-toggle.player {
- show {
-  new.player;
- };
- hide {
-  kill.app(player0);
- };
- if(player0, hide, show);
-};
 
 # TOGGLE DOTA TEST
 
