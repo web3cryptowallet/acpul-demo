@@ -5,7 +5,7 @@ _ @sys.node;
 
 create.asset {
  _ @93000; # nodes
- x0 0; y0 0; w0 200; h0 200;
+ x0 200; y0 0; w0 200; h0 200;
 
 #tex0boot1 u14;
 #tex0src  tex0boot1;
