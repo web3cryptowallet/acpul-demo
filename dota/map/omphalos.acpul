@@ -31,7 +31,7 @@ create1 {
  oh _3;
  cnt _4;
  i=0;while(i<cnt) {
-  s0 1*3;
+  s0 1*2;
   w0=ow*s0;
   h0=oh*s0;
   y0 rnd(u0)*(h-h0); 
