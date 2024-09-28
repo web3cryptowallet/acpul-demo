@@ -373,7 +373,7 @@ dbgtex4(500,200,100,100);
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28962); # dota.zerg.ground.bad.math
 
 #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
-#new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28964); # dota.
+new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28964); # dota.building.crunch2
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
