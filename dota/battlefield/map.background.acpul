@@ -2,12 +2,26 @@
 
 _ @4;
 
-w:=parent.w;
-h:=parent.h;
+# BY PARENT [
 
-chk.wh 0+(w>0)*(h>0)*(_0==0)
+#w:=parent.w;
+#h:=parent.h;
 
-sn0 0;
-if (chk.wh(sn0)) {
+#chk.wh 0+(w>0)*(h>0)*(_0==0)
+
+#sn0 0;
+#if (chk.wh(sn0)) {
+# new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28726); # bg.bigcircle
+#};
+
+# BY PARENT ]
+
+MAP.WIDTH 500;
+MAP.HEIGHT 500;
+
+w:=MAP.WIDTH;
+h:=MAP.HEIGHT;
+
+if (r0) {
  new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28726); # bg.bigcircle
 };
