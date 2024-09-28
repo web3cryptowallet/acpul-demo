@@ -49,7 +49,7 @@ minimap {
 
 ### 19200 DOTA::minimap
 # map
-## # (0) - map
+# 0 : minimap
 
 draw(r0, 19201);
 
