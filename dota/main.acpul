@@ -38,9 +38,11 @@ node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
 w0 w;
 
+joystick0.w 350;
+
 # PANEL
 panel0 0;
-panel0.x 200;
+panel0.x joystick0.w;
 panel0.w w0-x;
 panel0.h 200;
 
