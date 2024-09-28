@@ -677,53 +677,7 @@ new.ai.chat {
  new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
 };
 
-# STARS
 
-stars0 0;
-
-run.stars {
-  _ @stars3d;
- stars0:=node.new.this.ex(u0, stars3d.default, 0);
-# node.new.this.ex(r0, stars3d.radial, 0);
-};
-
-toggle.stars {
- show {
-  run.stars;
- };
- hide {
-  kill.app(stars0);
- };
- if(stars0, hide, show);
-};
-
-# INTRO
-
-intro0 0;
-new.startup.intro {
- new.node.common0(intro0, 0,0,1, w,h, NNN(boot.startup.intro), 0);
-};
-
-if (BOOT.INTRO*r0) {
- new.startup.intro;
-};
-
-# HIPSTER
-
-hipster0 0;
-new.startup.hipster {
- hipster0:=node.new.this.ex(u0, HIPSTER.BANNER, 0);
-};
-
-toggle.hipster {
- show {
-  new.startup.hipster;
- };
- hide {
-  kill.app(hipster0);
- };
- if(hipster0, hide, show);
-};
 
 
 
@@ -1214,10 +1168,6 @@ _ @4;
 #   ui.value1(l12,110,110,0.5,port);
 #   ui.value1(l12,110,110,0.5,bootnid);
 
-winamp0 0;
-if (r0) {
- new.node.common0(winamp0, 0,0,1, 300,300, node.fid.by.name(u0, winamp), 0);
-};
 
 #new.wallet;
 
