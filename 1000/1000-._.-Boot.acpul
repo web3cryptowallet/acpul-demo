@@ -359,12 +359,6 @@ if (BOOT.PLAYER*r0) {
  new.player;
 };
 
-files0 0;
-
-new.files {
- new.node.common0(files0, 500,100,1, 768/8*2,1024/8*2, NNN(acpu.files), 0);
-};
-
 if (BOOT.FILES*r0) {
  new.files;
 };
@@ -690,22 +684,6 @@ toggle.files {
  if(files0, hide, show);
 };
 
-
-# TOGGLE DOTA TEST
-
-toggle.dota.test {
- show {
-  new.dota.test;
- };
- hide {
-  kill.app(dota1);
- };
- if(dota1, hide, show);
-};
-
-if (BOOT.DOTA.TEST*r0) {
- new.dota.test;
-};
 
 # CHAT AI
 
