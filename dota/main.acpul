@@ -11,8 +11,12 @@ _ @1010;
 _ @sys.node;
 _ @os.util0;
 
-w:=1000;
-h:=500;
+_ @sys.display;
+
+display.scalled.size(w,h);
+
+#w:=1000;
+#h:=500;
 
 
 NETWORKING 3290;
