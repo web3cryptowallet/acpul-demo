@@ -36,10 +36,11 @@ if (r0) {
 # MINIMAP
 node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
 
+w0 w;
 # PANEL
 panel0 0;
 panel0.x 200;
-panel0.w w-x;
+panel0.w w0-x;
 panel0.h 200;
 
 if (r0) {
