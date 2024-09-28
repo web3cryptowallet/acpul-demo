@@ -349,11 +349,6 @@ if (BOOT.PAINT*r0) {
 
 NNN node.fid.by.name(u0, _0);
 
-player0 0;
-
-new.player {
- new.node.common0(player0, 0,100,1, 768/8*2,1024/8*2, NNN(acpu.player), 0);
-};
 
 if (BOOT.PLAYER*r0) {
  new.player;
