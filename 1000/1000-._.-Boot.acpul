@@ -24,6 +24,7 @@ BOOT.PAINT 1;
 BOOT.PLAYER 0;
 BOOT.FILES 0;
 BOOT.INTRO 0;
+BOOT.WINAMP 0;
 
 #BOOT.BOOTLOADER.Z 0;
 BOOT.BOOTLOADER.Z 0-100;
@@ -357,6 +358,11 @@ if (BOOT.PLAYER*r0) {
 if (BOOT.FILES*r0) {
  new.files;
 };
+
+if (BOOT.WINAMP*r0) {
+ new.winamp;
+};
+
 
 # MENU [
 
