@@ -143,7 +143,7 @@ hero0 0;
 #node.new.this.ex4(r0, hero.bobann, 0,0,0,0);
 
 if (r0) {
- hero0:=node.new.this.ex4(r0, hero.leprechaun, 0,0,0,0);
+# hero0:=node.new.this.ex4(r0, hero.leprechaun, 0,0,0,0);
 };
 
 node.prop.x.s(u0, hero0, 20);
