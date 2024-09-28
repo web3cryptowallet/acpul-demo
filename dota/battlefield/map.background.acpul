@@ -3,6 +3,9 @@
 w:=parent.w;
 h:=parent.h;
 
-if (r0) {
+chk.wh 0+(w>0)*(h>0)*(_0==0)
+
+sn0 0;
+if (chk.wh(sn0)) {
  new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28726); # bg.bigcircle
 };
