@@ -821,6 +821,8 @@ close.apps {
  kill.app(hipster0);
 };
 
+_ @acpu.menu.apps;
+
 # APPS EVENTS
 
 process.apps.events {
