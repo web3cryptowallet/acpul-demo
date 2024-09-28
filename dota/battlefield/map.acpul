@@ -27,7 +27,7 @@ _ @os.util0;
 
 if (r0) {
 
- node.new.this.ex(r0, NNN(dota.map.background), 0);
+# node.new.this.ex(r0, NNN(dota.map.background), 0);
 
 #x:=rnd(u0)*100;
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28713); # gojo.tower.main.screen
