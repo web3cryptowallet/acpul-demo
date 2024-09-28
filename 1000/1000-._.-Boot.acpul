@@ -672,17 +672,6 @@ run.neo {
  node.new.this.ex(u0, neo.v2.tests, 0);
 };
 
-# TOGGLE FILES
-
-toggle.files {
- show {
-  new.files;
- };
- hide {
-  kill.app(files0);
- };
- if(files0, hide, show);
-};
 
 
 # CHAT AI
