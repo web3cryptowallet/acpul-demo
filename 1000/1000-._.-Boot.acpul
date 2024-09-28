@@ -672,16 +672,6 @@ new.dota.test {
 };
 
 
-paint0 0;
-
-run.paint {
- hide.default;
- _ @core.vg;
- kill.app(paint0);
- PAINT 10160000;
- paint0:=node.new.this.ex(u0, PAINT, 0);
-};
-
 wallet0 0;
 
 run.wallet {
