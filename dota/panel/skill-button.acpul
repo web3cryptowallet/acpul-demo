@@ -1,7 +1,4 @@
-# 3260 Skill Button
+# 3260 dota.skill.button
 
-r0:=k==0;
 
-k:=1;
-
-# 3261 Skill Button.draw
+# 3261 dota.skill.button.draw
