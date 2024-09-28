@@ -671,12 +671,6 @@ new.dota.test {
 # node.prop.z.order.s(u0, dota1, 1000);
 };
 
-hero0 0;
-
-run.nebula {
- hide.default;
- hero0:=node.new.this.ex(u0, GAME.NEBULA, 0);
-};
 
 paint0 0;
 
@@ -798,64 +792,10 @@ toggle.hipster {
 };
 
 
-# CLOSE APP
 
-kill.app {
- # app
- node.prop.lt.s(u0, _0, 0.01);
- _0:=0;
-};
-
-close.apps {
- kill.app(dota0);
- kill.app(dota1);
- kill.app(chat0);
- kill.app(player0);
- kill.app(files0);
- kill.app(paint0);
- kill.app(wallet0);
- kill.app(hero0);
- kill.app(video0);
- kill.app(bootloader0);
- kill.app(intro0);
- kill.app(hipster0);
-};
 
 _ @acpu.menu.apps;
 
-# APPS EVENTS
-
-process.apps.events {
- if (_0==boot.close.apps) {
-  hide.default;
-  close.apps;
- };
- if (_0==boot.toggle.files) {
-  toggle.files;
- };
- if (_0==boot.toggle.player) {
-  toggle.player;
- };
- if (_0==boot.toggle.dota.test) {
-  toggle.dota.test;
- };
- if (_0==boot.toggle.ai.chat) {
-  new.ai.chat;
- };
- if (_0==boot.toggle.stars) {
-  toggle.stars;
- };
- if (_0==boot.event.intro) {
-  new.startup.intro;
- };
- if (_0==boot.event.hipster) {
-  toggle.hipster;
- };
-# if (_0==boot.toggle.hero) {
-#  toggle.hero;
-# };
-
-};
 
 # RUNNERS ]
 # CPU STEP [
