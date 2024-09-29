@@ -28,6 +28,7 @@ UNIT.COMPLEX 3234;
 
 _ @dota.heroes;
 
+hero0 0;
 
 if (r0) { #hack!
  if (subtype==ost.bot) {
