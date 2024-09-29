@@ -46,7 +46,6 @@ if (r0) {
 };
 
 #node.prop.z.order.s(u0, nid, 100000-y);
-node.prop.z.order.s(u0, nid, rnd(u0)*100);
 
 #y:=0;
 
@@ -148,6 +147,7 @@ self context;
 # unit code (split later) ]
 
 k:=1;
+node.prop.z.order.s(u0, nid, rnd(u0)*100);
 
 
 
