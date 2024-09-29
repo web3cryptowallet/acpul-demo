@@ -46,7 +46,9 @@ if (r0) {
 };
 
 #node.prop.z.order.s(u0, nid, 100000-y);
-node.prop.z.order.s(u0, nid, rnd(u0));
+#node.prop.z.order.s(u0, nid, rnd(u0));
+
+y:=0;
 
 _ @1010;
 _ @sys.node;
