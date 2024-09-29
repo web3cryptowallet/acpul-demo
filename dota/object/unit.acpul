@@ -45,6 +45,7 @@ if (r0) { #hack!
   if (r0*b) {
    new.node.common0(hero0, 0,0,0.15, 100,100, NNN(dota.dialog.hero.bobann), player.id);
   };
+  
 
   if (r0*c) {
    new.node.common0(hero0, 0,20,1.5, 100,100, hero.leprechaun, player.id);
