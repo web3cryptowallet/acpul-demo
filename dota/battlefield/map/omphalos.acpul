@@ -90,18 +90,23 @@ create1 {
 #j=i*rnd(u0);
 #x0 50+j*10;
 #y0 j*50;
+qq=rnd(u0);
 m=0;
 m:=if(qq<0.5,m,1);
 m:=if(qq<0.7,m,2);
-m:=if(qq<0.7,m,2);
+m:=if(qq<0.7,m,3);
 
-qq=rnd(u0);
 #qq 1;
-if (qq<0.5) {
+if (m==0) {
+#if (qq<0.5) {
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
 };
-if (qq>0.5) {
+if (m==1) {
+#if (qq>0.5) {
   new.ui.shader.node3(sn0, x0,y0,s0/2, w0,h0, 70014,28967); # dota.tree67
+#  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
+};
+if (m==2) {
 #  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
 
