@@ -59,7 +59,7 @@ if (r0) { #hack!
 
   effect {
    sn0 0;
-   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28733); # dota.effect.shield
+   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
   };
   effect;
 
