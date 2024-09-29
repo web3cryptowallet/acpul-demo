@@ -260,7 +260,8 @@ setup.bg;
 
 DOTA.MAIN 3202;
 if (BOOT.DOTA) {
- node.new.this.ex(r0, DOTA.MAIN, 0);
+# node.new.this.ex(r0, DOTA.MAIN, 0);
+ run.dota;
 };
 
 SHADER.TEST 37000;
