@@ -28,7 +28,7 @@ draw.fid(dota.forest.entity.draw);
 
 ### dota.forest.entity.draw
 
-color(u0, 0,0.2,0,1);
+color(u0, 0,0.2,0,0.2);
 #rect(u0, 2, 0,0,w,h);
 rect(u0, 6, 0,0,w,h);
 
