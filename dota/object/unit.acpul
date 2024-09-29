@@ -67,7 +67,7 @@ if (r0) { #hack!
 
 };
 
-dota.unit.apply.effect;
+_ @dota.unit.apply.effect;
 
 sword0 0;
 
