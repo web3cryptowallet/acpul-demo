@@ -54,6 +54,9 @@ if (r0) {
  y:=y0;
 };
 
+node.prop.z.order.s(u0, nid, 100000-y);
+
+
 MAP 3224;
 UNIT 3230;
 JOYSTICK 3270;
@@ -140,7 +143,7 @@ self context;
 
 k:=1;
 
-node.prop.z.order.s(u0, nid, rnd(u0)*100);
+#node.prop.z.order.s(u0, nid, rnd(u0)*100);
 
 #y:=rnd(u0)*100;
 
