@@ -6,6 +6,8 @@ _ @4;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
+sn0 0;
+
 if (r0) {
  new.ui.shader.node3(sn0, 0,0,1, 30,50, 70014,28830); # dota.omphalos
 };
