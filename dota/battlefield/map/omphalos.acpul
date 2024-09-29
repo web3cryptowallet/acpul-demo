@@ -78,8 +78,8 @@ create1 {
  cnt _4;
  i=0;while(i<cnt) {
   s0 1*2;
-  w0=ow*s0;
-  h0=oh*s0;
+  w=ow*s0;
+  h=oh*s0;
   y0=rnd(u0)*(h-h0); 
   x0=rnd(u0)*(w-w0);
 
@@ -99,7 +99,7 @@ m:=if(qq<0.8,m,3);
 #qq 1;
 if (m==0) {
 #if (qq<0.5) {
-  new.ui.shader.node3(sn0, x0,y0,s0, 30,50, 70014,28830); # dota.omphalos
+  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
 };
 if (m==1) {
 #if (qq>0.5) {
