@@ -28,6 +28,17 @@ UNIT.COMPLEX 3234;
 
 _ @dota.heroes;
 
+hero.bobann 3242;
+
+hero.weapon.mage 3260;
+
+hero.minion.guard 19300;
+hero.minion.mage 19310;
+hero.minion.captain 19320;
+
+hero.leprechaun 19330;
+
+
 if (r0) { #hack!
  if (subtype==ost.bot) {
   node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
