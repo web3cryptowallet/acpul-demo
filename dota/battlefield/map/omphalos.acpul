@@ -53,11 +53,12 @@ j=i*rnd(u0);
 #y0 j*50;
 qq=rnd(u0);
 #qq 1;
-if (qq<0.5) {
+#if (qq<0.5) {
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
-};
+#  dota.forest.entity
+#};
 if (qq>0.5) {
-  new.ui.shader.node3(sn0, x0,y0,s0/2, w0,h0, 70014,28967); # dota.tree67
+#  new.ui.shader.node3(sn0, x0,y0,s0/2, w0,h0, 70014,28967); # dota.tree67
 #  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
 
