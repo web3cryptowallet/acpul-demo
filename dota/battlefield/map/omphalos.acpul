@@ -19,7 +19,8 @@ if (r0wh(sn0)) {
  new.ui.shader.node3(sn0, 0,0,1, w/4,h, 70014,28830); # dota.omphalos
 };
 
-z=prop.z.order.g(u0, sn0);
+#z=prop.z.order.g(u0, sn0);
+z=prop.z.order.g(u0, nid);
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,0,0.5, X, x);
