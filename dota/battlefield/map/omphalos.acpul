@@ -1,5 +1,14 @@
 ### dota.omphalos
 
+### dota.forest.entity
+
+_ @4;
+_ @os.util2;
+_ @basic.ui.shader.node3.inc;
+
+if (r0) {
+ new.ui.shader.node3(sn0, 0,0,1, 30,50, 70014,28830); # dota.omphalos
+};
 
 ### dota.trees.spruce
 
@@ -7,6 +16,7 @@
 
 
 _ @4;
+_ @os.util0;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
