@@ -7,8 +7,6 @@ _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
 sn0 0;
-w 100;
-h 100;
 
 r0wh 0+(w>0)*(h>0)*(_0==0);
 
