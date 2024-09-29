@@ -55,6 +55,9 @@ qq=rnd(u0);
 #qq 1;
 #if (qq<0.5) {
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28830); # dota.omphalos
+  
+  new.node.common0(sn0, x0,y0,s0, w0,h0, NNN(dota.forest.entity), 0);
+
 #  dota.forest.entity
 #};
 if (qq>0.5) {
