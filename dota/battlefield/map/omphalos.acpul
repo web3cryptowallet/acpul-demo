@@ -136,7 +136,7 @@ if ((inited==0)*w*h) {
  inited:=1;
 # create0;
 # create1(w,h, 30,50, 50, 2,2); 
- create1(w,h, 50,100, 50, 1,0.5); 
+ create1(w,h, 50,100, 100, 1,0.5); 
 # create1(w,h, 100,200, 50, 1,-0.5); 
 # create1(w,h, 30,50, 150, 1,1); 
 
