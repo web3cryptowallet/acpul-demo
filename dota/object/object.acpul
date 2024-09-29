@@ -145,7 +145,7 @@ self context;
 
 k:=1;
 
-node.prop.z.order.s(u0, nid, 100000-y0);
+node.prop.z.order.s(u0, nid, 100000-y);
 
 
 ### 3221 Object.draw
