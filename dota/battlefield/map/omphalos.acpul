@@ -23,7 +23,7 @@ z=prop.z.order.g(u0, sn0);
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,0,0.5, X, x);
-lbl0 0; val0 0; ui.value4(lbl0,val0,30,0,0.5, Z, z);
+lbl0 0; val0 0; ui.value4(lbl0,val0,20,20,0.5, Z, z);
 
 draw.fid(dota.forest.entity.draw);
 
