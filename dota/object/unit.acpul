@@ -35,6 +35,7 @@ if (r0) { #hack!
  if (subtype==ost.player) {
   n = 3;
   q = floor(rnd(u0)*n);
+  q = 0;
   a = q==0;
   b = q==1;
   c = q==2;
