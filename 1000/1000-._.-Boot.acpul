@@ -258,12 +258,6 @@ _ @boot.util.a;
 setup.bg;
 
 
-DOTA.MAIN 3202;
-if (r0*BOOT.DOTA) {
-# node.new.this.ex(r0, DOTA.MAIN, 0);
- run.dota;
-};
-
 SHADER.TEST 37000;
 #node.new.this.ex(r0, SHADER.TEST, 0);
 
@@ -656,17 +650,13 @@ hide.default {
 
 # DOTA
 
-dota0 0;
-run.dota {
- hide.default;
- dota0:=node.new.this.ex(u0, DOTA.MAIN, 0);
+DOTA.MAIN 3202;
+if (r0*BOOT.DOTA) {
+# node.new.this.ex(r0, DOTA.MAIN, 0);
+ run.dota;
 };
 
-dota1 0;
-new.dota.test {
- new.node.common0(dota1, 0,0,1, 1000,1000, node.fid.by.name(u0, dota.test.main), 0);
-# node.prop.z.order.s(u0, dota1, 1000);
-};
+
 
 
 
