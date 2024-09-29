@@ -285,7 +285,7 @@ tex2=node.value.g(u0, sn0,0);
 #shader.set.texture(sn0, A.iChannel0, tex0);
 #shader.set.texture(sn0, A.iChannel1, tex0);
 
-#new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28953); # dota.bio.cell53
+new.ui.shader.node3(sn0, 500,200,1, 300,300, 70014,28953); # dota.bio.cell53
 
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28954); # cosmic.webb54
 
