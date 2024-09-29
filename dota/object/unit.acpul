@@ -10,7 +10,6 @@ _ @sys.node;
 #_ @sys.node;
 _ @os.basic;
 _ @os.basic.ui;
-
 _ @os.util0;
 
 OBJECT 3220;
@@ -44,7 +43,7 @@ if (r0) { #hack!
 
 #  node.new.this.ex(r0*b, hero.bobann, player.id);
   if (r0*b) {
-   new.node.common0(hero0, 0,0,0.15, 100,100, hero.bobann, player.id);
+   new.node.common0(hero0, 0,0,0.15, 100,100, NNN(dota.dialog.hero.bobann), player.id);
   };
 
   if (r0*c) {
