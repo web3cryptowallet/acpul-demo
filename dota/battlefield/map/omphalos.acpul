@@ -113,7 +113,7 @@ if (qq>0.5) {
 #req.update:=if(req.update>0,req.update-0.1,0);
 #req.update:=0;
 req.update:=if(req.update>0,req.update-0.5,0);
-req.update:=1;
+#req.update:=1;
 
 inited 0;
 if ((inited==0)*w*h) {
