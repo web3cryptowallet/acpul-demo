@@ -70,15 +70,17 @@ create0 {
 };
 
 create1 {
- # w,h, ow,oh, count
- w _0;
- h _1;
- ow _2;
- oh _3;
+ # w,h, ow,oh, count, s0a,s0b
+ w _0; h _1;
+ ow _2; oh _3;
  cnt _4;
+ s0a _5; s0b _6;
+ 
  i=0;while(i<cnt) {
-  s0=1+2*rnd(u0)+1;
+#  s0=1+2*rnd(u0)+1;
 #  s0=1*2+2*rnd(u0);
+#  s0=1*2+2*rnd(u0);
+  s0=s0a+s0b*rnd(u0);
   w0=ow;
   h0=oh;
   w1=ow*s0;
