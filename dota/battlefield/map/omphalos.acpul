@@ -102,9 +102,9 @@ if (qq>0.5) {
 };
 
 #  node.prop.z.order.s(u0, sn0, 1000-y0);
-#  node.prop.z.order.s(u0, sn0, 10000-y0);
+  node.prop.z.order.s(u0, sn0, 10000-y0);
 #  node.prop.z.order.s(u0, sn0, y0);
-  node.prop.z.order.s(u0, sn0, y0);
+#  node.prop.z.order.s(u0, sn0, y0);
 #  node.prop.z.order.s(u0, sn0, 111);
   i+=1;
  };
