@@ -72,7 +72,7 @@ if ((inited==0)*w*h) {
 
  create.texture;
 
- node.ex.child.draw.s(u0, 0);
+# node.ex.child.draw.s(u0, 0);
 
  req.update:=1;
 # req.update:=rnd(u0);
@@ -90,7 +90,7 @@ create.texture {
 #  node.value.s(u0, nid,0, tex0);
 };
 
-draw(r0, 3285);
+#draw(r0, 3285);
 
 ### 3285 dota.forest.of.omphalos.draw
 
