@@ -145,6 +145,9 @@ self context;
 
 k:=1;
 
+node.prop.z.order.s(u0, nid, 100000-y0);
+
+
 ### 3221 Object.draw
 
 # DRAW.OBJECT.DEBUG.BOX [
