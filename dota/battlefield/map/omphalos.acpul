@@ -14,7 +14,7 @@ sn0 0;
 r0wh 0+(w>0)*(h>0)*(_0==0);
 
 if (r0wh(sn0)) {
-# new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28830); # dota.omphalos
+ new.ui.shader.node3(sn0, 0,0,0.5, w,h, 70014,28830); # dota.omphalos
 };
 
 _ @4;
