@@ -39,7 +39,7 @@ create1 {
 #  x0 i*3;
 #  y0 i*10;
 x0 50+i*10;
-y0 i*50;
+y0 i*50*rnd(u0);
 qq=rnd(u0);
 #qq 1;
 if (qq<0.5) {
