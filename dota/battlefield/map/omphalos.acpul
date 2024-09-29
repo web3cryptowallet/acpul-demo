@@ -38,7 +38,7 @@ create1 {
   x0 rnd(u0)*(w-w0);
 #  x0 i*3;
 #  y0 i*10;
-j=i**rnd(u0)
+j=i*rnd(u0);
 x0 50+j*10;
 y0 j*50;
 qq=rnd(u0);
