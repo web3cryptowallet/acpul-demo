@@ -113,7 +113,7 @@ if (m==1) {
 #  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
 if (m==2) {
-  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
+  new.ui.shader.node3(sn0, x0,y0,s0, h0,h0, 70014,28795); # rock95
   shader.set.uniform.v(sn0, A.time1, rnd(u0)*100);
 };
 if (m==3) {
