@@ -9,6 +9,7 @@ _ @4;
 _ @os.util0;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
+_ @easy.start.new;
 
 sn0 0;
 
