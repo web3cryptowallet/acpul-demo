@@ -26,8 +26,6 @@ bot.id p1;
 UNIT.ROBOT 3232;
 UNIT.COMPLEX 3234;
 
-_ @dota.heroes;
-
 hero0 0;
 
 if (r0) { #hack!
