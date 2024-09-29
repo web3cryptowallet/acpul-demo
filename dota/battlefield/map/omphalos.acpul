@@ -75,8 +75,8 @@ create1 {
   s0 1*2;
   w0=ow*s0;
   h0=oh*s0;
-  y0 rnd(u0)*(h-h0); 
-  x0 rnd(u0)*(w-w0);
+  y0=rnd(u0)*(h-h0); 
+  x0=rnd(u0)*(w-w0);
 #  x0 i*3;
 #  y0 i*10;
 j=i*rnd(u0);
