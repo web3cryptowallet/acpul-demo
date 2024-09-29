@@ -1,4 +1,4 @@
-### 3230 Unit
+### 3230 dota.unit
 # subtype, player.id, bot.id
 
 draw(r0, 3231);
@@ -52,48 +52,9 @@ if (r0) { #hack!
 #  hero0 = node.new.this.ex(r0*c, hero.leprechaun, player.id);
 #  node.prop.y.s(r0*c, hero0, 20);
 
-  effect {
-   sn0 0;
-   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
-  };
-#  effect;
+  eff0 0;
+  apply.effect(eff0);
 
-  effect {
-   sn0 0;
-   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
-  };
-  effect;
-
-  effect {
-   sn0 0;
-   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28742); # dota.eff.light1
-  };
-#  effect;
- };
-
- effect {
-  sn0 0;
-  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28743); # dota.eff.light2
- };
-# effect;
-
- effect {
-  sn0 0;
-  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28744); # dota.eff.greensmoke1
- };
-# effect;
-
- effect {
-  sn0 0;
-  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28745); # dota.eff.water1
- };
-# effect;
-
- effect {
-  sn0 0;
-  new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
- };
-# effect;
 
  sword {
   sn0 0;
@@ -135,7 +96,56 @@ node.prop.r.s(u0, smile0, t*10);
 
 t+=1;
 
-### 3231 Unit.draw
+### dota.unit.apply.effect
+
+apply.effect {
+ # effect
+ eff0 _0;
+  effect {
+   sn0 0;
+   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
+  };
+#  effect;
+
+  effect {
+   sn0 0;
+   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
+  };
+#  effect;
+
+  effect {
+   sn0 0;
+   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28742); # dota.eff.light1
+  };
+#  effect;
+ };
+
+ effect {
+  sn0 0;
+  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28743); # dota.eff.light2
+ };
+# effect;
+
+ effect {
+  sn0 0;
+  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28744); # dota.eff.greensmoke1
+ };
+# effect;
+
+ effect {
+  sn0 0;
+  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28745); # dota.eff.water1
+ };
+# effect;
+
+ effect {
+  sn0 0;
+  new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
+ };
+# effect;
+};
+
+### 3231 dota.unit.draw
 
 #watch(r0);
 
