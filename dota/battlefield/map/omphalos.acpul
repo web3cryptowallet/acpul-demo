@@ -77,7 +77,7 @@ create1 {
  oh _3;
  cnt _4;
  i=0;while(i<cnt) {
-  s0=1+2*rnd(u0);
+  s0=1+2*rnd(u0)+2;
 #  s0=1*2+2*rnd(u0);
   w0=ow;
   h0=oh;
