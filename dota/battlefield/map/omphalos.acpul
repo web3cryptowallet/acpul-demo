@@ -21,6 +21,7 @@ if (r0wh(sn0)) {
 # node.prop.z.order.s(u0, nid, rnd(u0)*100);
 };
 
+dbg {
 #z=node.prop.z.order.g(u0, sn0);
 z=node.prop.z.order.g(u0, nid);
 
@@ -32,7 +33,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,20,10,0.5, Z, z);
 
 
 draw.fid(dota.forest.entity.draw);
-
+};
+dbg;
 
 
 ### dota.forest.entity.draw
