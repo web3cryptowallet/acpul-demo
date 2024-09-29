@@ -36,19 +36,6 @@ team p3;
 subtype p4;
 player.id p5;
 
-r7:=type;
-
-draw(r0, 3221);
-
-if (r0) {
- x:=x0;
- y:=y0;
-};
-
-#node.prop.z.order.s(u0, nid, 100000-y);
-
-#y:=0;
-
 _ @1010;
 _ @sys.node;
 
@@ -58,6 +45,14 @@ _ @os.util0;
 _ @dota.object.types;
 _ @dota.object.context;
 
+r7:=type;
+
+draw(r0, 3221);
+
+if (r0) {
+ x:=x0;
+ y:=y0;
+};
 
 MAP 3224;
 UNIT 3230;
