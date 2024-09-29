@@ -25,6 +25,8 @@ draw.fid(dota.forest.entity.draw);
 
 ### dota.forest.entity.draw
 
+rect(u0, 6, 0,0,w,h);
+
 ### 3284 dota.forest.of.omphalos
 
 
