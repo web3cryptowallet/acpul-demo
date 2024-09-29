@@ -90,7 +90,7 @@ create.texture {
 #  node.value.s(u0, nid,0, tex0);
 };
 
-#draw(r0, 3285);
+draw(r0, 3285);
 
 ### 3285 dota.forest.of.omphalos.draw
 
