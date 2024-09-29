@@ -138,7 +138,7 @@ aa {
   y0=rnd(u0)*(h-h1); 
   x0=rnd(u0)*(w-w1);
 };
-  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28982); # dota.
+  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28982); # dota.tree82
   shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
 };
 
