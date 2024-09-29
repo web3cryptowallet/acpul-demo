@@ -101,6 +101,8 @@ if (r0) {
 l1:=OBJECT;
 l2:=r0;
 
+# BASE [
+
 nodenew(r0, OBJECT, ot.unit, 100,100, obj.teams.sys, ost.bot, obt.homebase,0,0);
 nodenew(r0, OBJECT, ot.unit, 200,50, team, ost.bot, obt.tower,0,0);
 nodenew(r0, OBJECT, ot.unit, 200,200, team, ost.bot, obt.tower,0,0);
@@ -108,6 +110,7 @@ nodenew(r0, OBJECT, ot.unit, 50,200, team, ost.bot, obt.tower,0,0);
 nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
 nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 
+# BASE ]
 # MINIONS [
 
 minion.cx 30;
