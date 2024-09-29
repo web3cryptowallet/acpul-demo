@@ -60,8 +60,8 @@ _ @1010;
 #_ @sys.heap;
 
 _ @dota.object.context;
-_ @ul.ui;
-_ @ui.util0;
+#_ @ul.ui;
+_ @os.util0;
 
 
 MAP 3224;
