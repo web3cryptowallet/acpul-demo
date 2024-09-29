@@ -78,10 +78,12 @@ create1 {
  cnt _4;
  i=0;while(i<cnt) {
   s0 1*2;
-  w0=ow*s0;
-  h0=oh*s0;
-  y0=rnd(u0)*(h-h0); 
-  x0=rnd(u0)*(w-w0);
+  w0=ow;
+  h0=oh;
+  w1=ow*s0;
+  h1=oh*s0;
+  y0=rnd(u0)*(h-h1); 
+  x0=rnd(u0)*(w-w1);
 
 #  new.node.common0(sn0, x0,y0,s0, w0,h0, NNN(dota.forest.entity), 0);
 
