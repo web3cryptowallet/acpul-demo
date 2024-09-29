@@ -20,7 +20,7 @@ if (r0wh(sn0)) {
 };
 
 _ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, X, x);
+lbl0 0; val0 0; ui.value4(lbl0,val0,20,0,0.5, X, x);
 
 draw.fid(dota.forest.entity.draw);
 
