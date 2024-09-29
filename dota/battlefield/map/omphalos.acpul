@@ -125,6 +125,7 @@ if (m==3) {
 if (m==4) {
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28980); # dota.bud80
   shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
+  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28981); # dota.
 };
 
 
