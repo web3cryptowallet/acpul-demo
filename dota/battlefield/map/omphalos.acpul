@@ -72,15 +72,11 @@ if ((inited==0)*w*h) {
 
  create.texture;
 
-# node.ex.child.draw.s(u0, 0);
+ node.ex.child.draw.s(u0, 0);
 
  req.update:=1;
-# req.update:=rnd(u0);
 };
 
-
-#req.update:=;
-#tex0 0;
 tex0 r1;
 
 req.update r2;
