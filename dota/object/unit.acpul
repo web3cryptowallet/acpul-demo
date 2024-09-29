@@ -41,14 +41,9 @@ if (r0) { #hack!
   c = q==2;
   node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
 
-
-#  node.new.this.ex(r0*b, hero.bobann, player.id);
   if (r0*b) {
-#   new.node.common0(hero0, 0,0,0.15, 100,100, NNN(dota.dialog.hero.bobann), player.id);
    new.node.common0(hero0, 0,0,0.15, 100,100, hero.bobann, player.id);
   };
-
-
   if (r0*c) {
    new.node.common0(hero0, 0,20,1.5, 100,100, hero.leprechaun, player.id);
   };
