@@ -378,7 +378,7 @@ dbgtex4(500,200,100,100);
 new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28965); # dota.magic.ball65
 
 
-new.ui.shader.node3(sn0, 0,0,2, 1000/2,700/2, 70014,28866); # dota.
+new.ui.shader.node3(sn0, 0,0,2, 1000/2,700/2, 70014,28966); # dota.
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
