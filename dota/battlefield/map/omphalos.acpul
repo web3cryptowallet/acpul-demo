@@ -26,7 +26,8 @@ draw.fid(dota.forest.entity.draw);
 
 ### dota.forest.entity.draw
 
-rect(u0, 6, 0,0,w,h);
+color(u0, 0,1,0,1);
+rect(u0, 2, 0,0,w,h);
 
 ### 3284 dota.forest.of.omphalos
 
