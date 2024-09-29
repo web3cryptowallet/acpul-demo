@@ -92,9 +92,9 @@ create1 {
 #y0 j*50;
 qq=rnd(u0);
 m=0;
-m:=if(qq<0.5,m,1);
-m:=if(qq<0.7,m,2);
-m:=if(qq<0.7,m,3);
+m:=if(qq<0.3,m,1);
+m:=if(qq<0.6,m,2);
+m:=if(qq<0.8,m,3);
 
 #qq 1;
 if (m==0) {
@@ -107,8 +107,10 @@ if (m==1) {
 #  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
 if (m==2) {
-#  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
+  new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
+#new.ui.shader.node3(sn0, 0,300,1, 200,200, 70014,28794); # magic.mushroom
+
 
 #  node.prop.z.order.s(u0, sn0, 1000-y0);
   node.prop.z.order.s(u0, sn0, 100000-y0);
