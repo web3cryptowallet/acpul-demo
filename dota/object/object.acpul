@@ -53,15 +53,10 @@ _ @1010;
 _ @sys.node;
 
 _ @3200;
+_ @os.util0;
 
 _ @dota.object.types;
-
-_ @1010;
-#_ @sys.heap;
-
 _ @dota.object.context;
-#_ @ul.ui;
-_ @os.util0;
 
 
 MAP 3224;
