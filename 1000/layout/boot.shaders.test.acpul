@@ -391,6 +391,7 @@ new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28982); # dota.
 shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
 
 
+
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
