@@ -115,7 +115,7 @@ if (m==2) {
   new.ui.shader.node3(sn0, x0,y0,s0, w0,h0, 70014,28795); # rock95
 };
 if (m==3) {
-  new.ui.shader.node3(sn0, x0,y0,s0, h0,h0, 70014,28794); # magic.mushroom
+  new.ui.shader.node3(sn0, x0,y0,s0/2, h0,h0, 70014,28794); # magic.mushroom
 };
 
 #  node.prop.z.order.s(u0, sn0, 1000-y0);
