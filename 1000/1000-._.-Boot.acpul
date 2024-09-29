@@ -658,7 +658,7 @@ hide.default {
 dota0 0;
 run.dota {
  hide.default;
- dota0:=node.new.this.ex(u0, DOTA.MAIN, 0);
+# dota0:=node.new.this.ex(u0, DOTA.MAIN, 0);
 };
 
 dota1 0;
