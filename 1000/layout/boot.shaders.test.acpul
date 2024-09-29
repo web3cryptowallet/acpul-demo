@@ -242,7 +242,7 @@ waterfall0 0;
 tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,00,0.5, 1000,1000, 70014,28936); # painted.skies
 
-#new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28937); # dota.magic.pyramid
+new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28937); # dota.magic.pyramid
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28938); # dota.pyramid2
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28939); # dota.skill.hypno
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28930); # dota.skill.magic.ball
@@ -296,7 +296,7 @@ tex2=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28957); # dota.effect.tunnel.spirals
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28958); # dota.bg.mountain.rain58
-new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28959); # dota.bullet.morph59
+#new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28959); # dota.bullet.morph59
 
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28960); # dota.bg.ipad
 #new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
