@@ -117,7 +117,7 @@ if (m==2) {
   shader.set.uniform.v(sn0, A.time1, rnd(u0)*100);
 };
 if (m==3) {
-  new.ui.shader.node3(sn0, x0,y0,s0/2, h0,h0/2, 70014,28794); # magic.mushroom
+  new.ui.shader.node3(sn0, x0,y0,s0/2, h0,h0, 70014,28794); # magic.mushroom
   shader.set.uniform.v(sn0, A.time1, rnd(u0)*100);
   shader.set.uniform.v3(sn0, A.color, rnd(u0),rnd(u0),rnd(u0));
 };
