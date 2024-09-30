@@ -43,6 +43,7 @@ if (r0) {
  load.texture(tex0, 11001,1,4); # grass
  load.texture(tex0, 11001,2,5); # gold
  load.texture(tex0, 11001,3,1); # marble
+ load.texture(tex0, 11001,4,6); # 
 
  new.ground;
 };
