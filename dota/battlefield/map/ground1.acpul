@@ -2,11 +2,12 @@
 
 #_ @winamp.util;
 
-# Import for use gl.texture.param
-_ @photoneo.common.gl.extra;
 
 _ @1111;
 _ @sys.storage;
+
+# Import for use gl.texture.param
+_ @photoneo.common.gl.extra;
 
 load.texture {
  # tex, pool,id,i
