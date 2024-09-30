@@ -19,12 +19,6 @@ load.texture {
  gl.texture.filter.nearest(tex);
 };
 
-tex0 0;
-sn0 0;
-
-if (r0) {
- load.texture(tex0, 11001,1,1);
-
 new.ground {
  new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28983); # dota.layer.ground2
  #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
@@ -39,5 +33,11 @@ new.ground {
  #shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
 };
 
+tex0 0;
+sn0 0;
 
+if (r0) {
+ load.texture(tex0, 11001,1,1);
+
+ new.ground;
 };
