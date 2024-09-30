@@ -392,9 +392,9 @@ dbgtex4(500,200,100,100);
 #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28982); # dota.tree82
 #shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
 
+new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28983); # dota.
 
 dotalayer {
-new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28983); # dota.layer.ground2
 #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
 #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28971); # dota.layer.ground1
 #new.ui.shader.node3(sn0,  0,0,4, 200,200, 70014,28971); # dota.layer.ground1
