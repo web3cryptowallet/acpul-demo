@@ -8,6 +8,7 @@ _ @sys.storage;
 _ @os.util0;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
+_ @sys.shader.ex;
 
 # Import for use gl.texture.param
 _ @photoneo.common.gl.extra;
