@@ -56,7 +56,7 @@ if (r0) {
 
 # load.texture(tex0, 11001,12,1); # ground.pattern1
 # load.texture(tex0, 11001,12,2); # ground.pattern2
- load.texture(tex0, 11001,12,3); # ground.pattern3
+# load.texture(tex0, 11001,12,3); # ground.pattern3
 
 
  new.ground;
