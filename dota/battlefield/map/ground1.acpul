@@ -19,6 +19,8 @@ load.texture {
 tex0 0;
 
 if (r0) {
- load.texture(t)
+ load.texture(tex0, 11001,1,1);
 };
+
+
 
