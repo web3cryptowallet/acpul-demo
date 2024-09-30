@@ -17,7 +17,7 @@ load.texture {
  # tex, pool,id,i
  tex _0;
  tex:=storage.image.load.texture(_1,_2,_3);
- gl.texture.filter.nearest(tex);
+# gl.texture.filter.nearest(tex);
 };
 
 new.ground {
