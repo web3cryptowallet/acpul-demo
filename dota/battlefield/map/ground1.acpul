@@ -44,7 +44,7 @@ if (r0) {
 # load.texture(tex0, 11001,2,5); # gold
 # load.texture(tex0, 11001,3,1); # marble
  load.texture(tex0, 11001,4,6); # sand
- load.texture(tex0, 11001,4,6); # sand
+ load.texture(tex0, 11001,5,4); # sand
 
 
  new.ground;
