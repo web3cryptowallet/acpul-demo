@@ -38,13 +38,19 @@ tex0 0;
 tex1 0;
 tex2 0;
 tex3 0;
+
+tex99 0; #mask
+
 sn0 0;
 
 if (r0) {
 # load.texture(tex0, 11001,1,1);
 # load.texture(tex0, 11001,1,2);
- load.texture(tex0, 11001,1,3);
-# load.texture(tex0, 11001,1,4); # ground.grass1
+# load.texture(tex0, 11001,1,3);
+
+ load.texture(tex99, 11001,1,3);
+
+ load.texture(tex0, 11001,1,4); # ground.grass1
 # load.texture(tex0, 11001,2,5); # ground.gold
 # load.texture(tex0, 11001,3,1); # ground.marble
 # load.texture(tex0, 11001,4,6); # ground.sand
