@@ -24,7 +24,7 @@ new.ground {
 # new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
  #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28971); # dota.layer.ground1
  #new.ui.shader.node3(sn0,  0,0,4, 200,200, 70014,28971); # dota.layer.ground1
- new.ui.shader.node3(sn0,  0,0,1, 1000,1000, 70014,28971); # dota.layer.ground1
+ new.ui.shader.node3(sn0,  0,0,1, 1000,1000, 70014,28972); # dota.layer.ground1
  shader.set.texture(sn0, A.iChannel0, tex0);
  shader.set.texture(sn0, A.iChannel1, tex0);
  shader.set.texture(sn0, A.iChannel2, tex0);
