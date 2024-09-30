@@ -1,2 +1,19 @@
 ### dota.map.ground1
 
+#_ @winamp.util;
+
+_ @1111;
+_ @sys.storage;
+
+load.texture {
+ # tex, pool,id,i
+ tex _0;
+ tex:=storage.image.load.texture(_1,_2,_3);
+ gl.texture.filter.nearest(tex);
+};
+
+tex0 0;
+
+if (r0) {
+ load.texture(t)
+};
