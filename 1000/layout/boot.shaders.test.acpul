@@ -284,7 +284,7 @@ tex0=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28950); # dota.effect.fractal50
 new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28951); # dota.effect.p2p.good
 tex2=node.value.g(u0, sn0,0);
-tex3=node.value.g(u0, sn0,0);
+#tex3=node.value.g(u0, sn0,0);
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28952); # dota.building.crunch
 #shader.set.texture(sn0, A.iChannel0, tex0);
@@ -304,7 +304,8 @@ tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28959); # dota.bullet.morph59
 
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28960); # dota.bg.ipad
-#new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
+new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
+tex3=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 00,200,1, 400,400, 70014,28961); # dota.weapon.sword2
 new.ui.shader.node3(sn0, 100,200,1, 100,200, 70014,28961); # dota.weapon.sword2
@@ -338,7 +339,7 @@ shader.set.texture(sn0, A.iChannel3, tex2);
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28731); # dota.bg
 #new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28929); # dota.bg
 #new.ui.shader.node3(sn0, 0,300,1, 300,300, 70014,28796); # dota.ground.lava.rock
-tex3=node.value.g(u0, sn0,0);
+#tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28721); # water1
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28720); # water 
