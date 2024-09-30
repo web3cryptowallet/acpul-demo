@@ -51,7 +51,8 @@ if (r0) {
 # load.texture(tex0, 11001,8,5); # ground.road
 # load.texture(tex0, 11001,8,5); # ground.paving.stones
 # load.texture(tex0, 11001,9,4); # ground.bricks9
- load.texture(tex0, 11001,10,5); # ground.bricks 1024x512
+# load.texture(tex0, 11001,10,5); # ground.bricks 1024x512
+ load.texture(tex0, 11001,11,6); # ground.bricks 1024x512
 
 
  new.ground;
