@@ -37,7 +37,7 @@ tex0 0;
 sn0 0;
 
 if (r0) {
- load.texture(tex0, 11001,1,1);
+ load.texture(tex0, 11001,1,2);
 
  new.ground;
 };
