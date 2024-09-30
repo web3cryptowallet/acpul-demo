@@ -55,8 +55,9 @@ if (r0) {
  load.texture(tex0, 11001,1,4); # ground.grass1
  load.texture(tex1, 11001,2,5); # ground.gold
 # load.texture(tex2, 11001,3,1); # ground.marble
- load.texture(tex2, 11001,4,6); # ground.sand
-# load.texture(tex0, 11001,5,4); # ground.forest
+# load.texture(tex2, 11001,4,6); # ground.sand
+
+ load.texture(tex0, 11001,5,4); # ground.forest
 # load.texture(tex0, 11001,6,3); # ground.rocks
 # load.texture(tex0, 11001,7,2); # ground.grass7
 # load.texture(tex0, 11001,8,5); # ground.road
