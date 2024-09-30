@@ -50,7 +50,7 @@ if (r0) {
 # load.texture(tex0, 11001,7,2); # ground.grass7
 # load.texture(tex0, 11001,8,5); # ground.road
 # load.texture(tex0, 11001,8,5); # ground.paving.stones
- load.texture(tex0, 11001,10,4); # ground.
+ load.texture(tex0, 11001,9,4); # ground.
 
 
  new.ground;
