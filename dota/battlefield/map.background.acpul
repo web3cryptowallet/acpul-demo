@@ -1,6 +1,10 @@
 ### dota.map.background
 
+_ @easy.start.new;
 _ @4;
+_ @os.util0;
+_ @os.util2;
+_ @basic.ui.shader.node3.inc;
 
 # BY PARENT [
 
@@ -26,4 +30,6 @@ sn0 0;
 
 if (r0) {
  new.ui.shader.node(sn0, 0,0,1, w,h, 1, 70014,28726); # bg.bigcircle
+
+ dota.map.ground1
 };
