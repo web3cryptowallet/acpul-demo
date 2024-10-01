@@ -115,10 +115,13 @@ new.crunch2 {
 # new.ui.shader.node3(sn0,  x0,y0-10,1/(2-1), 100,100, 70014,28983); # dota.effect.star83
  new.ui.shader.node3(sn0,  x0,y0+12,s0, 100,100, 70014,28983); # dota.effect.star83
  texx=node.value.g(u0, sn0,0);
- gl.texture.filter.nearest(texx);
-# gl.texture.filter.linear(texx);
+# gl.texture.filter.nearest(texx);
+ gl.texture.filter.linear(texx);
 
  new.ui.shader.node3(sn0, x0,y0,s0, 100,100, 70014,28952); # dota.building.crunch
+ texx=node.value.g(u0, sn0,0);
+# gl.texture.filter.nearest(texx);
+ gl.texture.filter.linear(texx);
  shader.set.uniform.v(sn0, A.time, 10); # 
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
  shader.set.texture(sn0, A.iChannel0, tex1); # 
