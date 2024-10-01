@@ -87,6 +87,8 @@ tex1 0;
 tex2 0;
 tex3 0;
 
+tex4 0;
+
 tex99 0; # mask grass1
 
 sn0 0;
@@ -113,7 +115,7 @@ a {
 # load.texture(tex2, 11001,4,6); # ground.sand
 
 # load.texture(tex2, 11001,5,4); # ground.forest
-# load.texture(tex2, 11001,6,3); # ground.rocks
+ load.texture(tex4, 11001,6,3); # ground.rocks
 # load.texture(tex2, 11001,7,2); # ground.grass7
  load.texture(tex2, 11001,8,5); # ground.road
 # load.texture(tex2, 11001,8,5); # ground.paving.stones
@@ -142,6 +144,6 @@ a {
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
 # shader.set.texture(sn0, A.iChannel0, tex0); # 
  shader.set.texture(sn0, A.iChannel0, tex99); # 
- shader.set.texture(sn0, A.iChannel1, tex2); # 
+ shader.set.texture(sn0, A.iChannel1, tex4); # 
 
 };
