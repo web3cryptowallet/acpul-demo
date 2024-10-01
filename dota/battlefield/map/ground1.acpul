@@ -23,8 +23,6 @@ load.texture {
 new.ground {
 # new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
 # new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
- #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28971); # dota.layer.ground1
- #new.ui.shader.node3(sn0,  0,0,4, 200,200, 70014,28971); # dota.layer.ground1
  new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28972); # dota.layer.ground2
 
 # new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28973); # x dota.layer.ground3
