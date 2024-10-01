@@ -89,7 +89,7 @@ new.egg1 {
 # texx=node.value.g(u0, sn0,0);
 # gl.texture.filter.nearest(texx);
 # gl.texture.filter.linear(texx);
- shader.set.uniform.v(sn0, A.time, 10); # 
+ shader.set.uniform.v(sn0, A.time, 10*rnd(u0)); # 
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
 # shader.set.texture(sn0, A.iChannel0, tex0); # 
  shader.set.texture(sn0, A.iChannel0, tex99); # 
