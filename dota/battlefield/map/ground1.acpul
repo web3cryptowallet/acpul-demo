@@ -30,7 +30,7 @@ new.ground {
 # gl.texture.filter.nearest(texx);
  gl.texture.filter.linear(texx);
 
- new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28973); # x dota.layer.ground3
+# new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28973); # x dota.layer.ground3
 # new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28973); # x dota.layer.ground3
 
  shader.set.texture(sn0, A.iChannel0, tex99); # mask
