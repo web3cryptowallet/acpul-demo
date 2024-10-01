@@ -93,6 +93,6 @@ a {
  new.ground;
  new.layer.crystal;
 
- new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28964); # dota.building.crunch
+ new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28964); # dota.building.crunch
 
 };
