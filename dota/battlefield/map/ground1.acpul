@@ -142,7 +142,7 @@ a {
  load.texture(tex4, 11001,6,3); # ground.rocks
 # load.texture(tex2, 11001,7,2); # ground.grass7
 
-# load.texture(tex2, 11001,8,5); # ground.road
+ load.texture(tex2, 11001,8,5); # ground.road
 # load.texture(tex2, 11001,8,5); # ground.paving.stones
 
 # load.texture(tex2, 11001,9,4); # ground.bricks9
