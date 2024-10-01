@@ -148,6 +148,7 @@ a {
  new.crunch1;
  new.crunch2;
 
-
- new.egg1(80,150,1/4);
+ i=0;while(i<3){
+  new.egg1(80+rnd(u0)*10,150+rnd(u0*10),1/4+rnd(u0)*1/4);
+ };
 };
