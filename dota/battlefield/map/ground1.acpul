@@ -140,8 +140,8 @@ a {
 # gl.texture.filter.linear(texx);
 # shader.set.uniform.v(sn0, A.time, 10); # 
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
- shader.set.texture(sn0, A.iChannel0, tex3); # 
-# shader.set.texture(sn0, A.iChannel0, tex99); # 
+# shader.set.texture(sn0, A.iChannel0, tex3); # 
+ shader.set.texture(sn0, A.iChannel0, tex99); # 
  shader.set.texture(sn0, A.iChannel1, tex99); # 
 
 };
