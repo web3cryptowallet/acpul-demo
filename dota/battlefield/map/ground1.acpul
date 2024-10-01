@@ -142,6 +142,6 @@ a {
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
 # shader.set.texture(sn0, A.iChannel0, tex0); # 
  shader.set.texture(sn0, A.iChannel0, tex99); # 
- shader.set.texture(sn0, A.iChannel1, tex0); # 
+ shader.set.texture(sn0, A.iChannel1, tex1); # 
 
 };
