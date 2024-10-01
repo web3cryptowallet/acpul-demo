@@ -141,6 +141,6 @@ a {
 # shader.set.uniform.v(sn0, A.time, 10); # 
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
  shader.set.texture(sn0, A.iChannel0, tex3); # 
- shader.set.texture(sn0, A.iChannel0, tex0); # 
+ shader.set.texture(sn0, A.iChannel0, tex99); # 
 
 };
