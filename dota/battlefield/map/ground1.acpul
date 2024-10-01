@@ -94,6 +94,7 @@ a {
  new.layer.crystal;
 
  new.ui.shader.node3(sn0, 200,130,1/2, 100,100, 70014,28964); # dota.building.crunch
- shader.set.texture(sn0, A.iChannel0, tex1); # 
+ shader.set.value(sn0, A.time, 0); # 
+# shader.set.texture(sn0, A.iChannel0, tex1); # 
 
 };
