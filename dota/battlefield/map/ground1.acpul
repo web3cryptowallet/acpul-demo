@@ -135,7 +135,7 @@ a {
  new.crunch2;
 
 
- x0 100; y0 200; s0 1/2;
+ x0 100; y0 150; s0 1/2;
  new.ui.shader.node3(sn0, x0,y0,s0, 100,100, 70014,28991); # dota.
 # texx=node.value.g(u0, sn0,0);
 # gl.texture.filter.nearest(texx);
