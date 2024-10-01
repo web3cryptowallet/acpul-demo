@@ -105,9 +105,6 @@ new.crunch1 {
  new.ui.shader.node3(sn0,  x0,y0+10,1/2, 100,100, 70014,28983); # dota.effect.star83
 };
 new.crunch2 {
-# x0 200-8;
-# y0 130-25;
-# x0 200+20;
  x0 140;
  y0 140;
 # new.ui.shader.node3(sn0,  x0,y0-10,1/(2-1), 100,100, 70014,28983); # dota.effect.star83
@@ -123,5 +120,5 @@ new.crunch2 {
  new.ui.shader.node3(sn0,  x0,y0+20,1/2, 100,100, 70014,28983); # dota.effect.star83
 };
  new.crunch1;
-
+ new.crunch2;
 };
