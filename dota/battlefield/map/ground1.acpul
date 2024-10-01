@@ -149,7 +149,7 @@ a {
  new.crunch2;
 
  i=0;while(i<3){
-  new.egg1(80+rnd(u0)*20,150+rnd(u0)*20,1/4-rnd(u0)*1/4/8);
+  new.egg1(80+rnd(u0)*100,150+rnd(u0)*100,1/4-rnd(u0)*1/4/8);
   i+=1;
  };
 };
