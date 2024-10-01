@@ -102,5 +102,6 @@ new.crunch1 {
  shader.set.uniform.v(sn0, A.time, 10); # 
 # shader.set.texture(sn0, A.iChannel0, tex1); # 
 };
+ new.crunch1;
 
 };
