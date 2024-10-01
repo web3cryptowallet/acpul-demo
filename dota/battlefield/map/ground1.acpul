@@ -42,8 +42,8 @@ new.ground {
 };
 
 new.layer.crystal {
- new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28974); # dota.layer.ground2
-# new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28974); # dota.layer.crystal1
+# new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28974); # dota.layer.ground2
+ new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28974); # dota.layer.crystal1
  shader.set.texture(sn0, A.iChannel0, tex1); # 
 };
 
