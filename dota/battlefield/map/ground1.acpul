@@ -106,7 +106,7 @@ new.crunch1 {
 
  new.ui.shader.node3(sn0, x0,y0,1/2, 100,100, 70014,28952); # dota.building.crunch
  shader.set.uniform.v(sn0, A.time, 10); # 
- shader.set.texture(sn0, A.iChannel0, tex1); # 
+ shader.set.texture(sn0, A.iChannel0, tex2); # 
 # shader.set.texture(sn0, A.iChannel0, tex1); # 
 };
  new.crunch1;
