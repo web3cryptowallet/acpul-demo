@@ -178,7 +178,7 @@ req.update r2;
 
 create.texture {
 # tex0:=node.ex.texture.create(u0, w*2,h*2);
- tex0:=node.ex.texture.create(u0, w*3,h);
+ tex0:=node.ex.texture.create(u0, w,h);
 #  node.value.s(u0, nid,0, tex0);
 };
 
