@@ -164,6 +164,8 @@ a {
 
  new.ground;
  new.layer.crystal;
+ 
+ new.ground2.mine;
 
  new.crunch1;
  new.crunch2;
