@@ -179,8 +179,13 @@ a {
  new.crunch1;
  new.crunch2;
 
- i=0;while(i<15){
-  new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
-  i+=1;
+ new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28972); # dota.layer.ground2
+
+ new.eggs1 {
+  i=0;while(i<15){
+   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
+   i+=1;
+  };
  };
+ new.eggs1;
 };
