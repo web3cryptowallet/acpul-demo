@@ -179,7 +179,7 @@ a {
  new.crunch1;
  new.crunch2;
 
- new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28972); # dota.layer.ground2
+ new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28984); # dota.layer.ground2
 
 # new.eggs1 {
   i=0;while(i<15){
