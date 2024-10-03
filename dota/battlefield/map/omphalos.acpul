@@ -164,7 +164,7 @@ if ((inited==0)*w*h) {
 # create1(w,h, 100,100, 70, 1,0.5); 
 # create1(w,h, 200,200, 50, 1,-0.5); 
 # create1(w,h, 30,50, 150, 1,1); 
- hq 1;
+ hq 2;
  create1(w,h, 100*hq,100*hq, 50*hq, 1,-0.5); 
 
  create.texture;
