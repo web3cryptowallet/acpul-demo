@@ -41,7 +41,8 @@ new.ground {
 
 new.ground2.mine {
  x0 150; y0 70;
- rq 100*5;
+ rq 100*2;
+# rq 100*5;
 # rq 1000*2;
 # rq 1000*1;
  #rq 3; #0.5;
