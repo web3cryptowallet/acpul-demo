@@ -42,7 +42,8 @@ new.ground {
 new.ground2.mine {
  x0 150; y0 70;
 # rq 100*5;
- rq 1000*2;
+# rq 1000*2;
+ rq 1000*1;
  #rq 3; #0.5;
 # new.ui.shader.node3(sn0,  x0,y0,1/3, 100,100, 70014,28975); # dota.
  new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28975); # dota.
