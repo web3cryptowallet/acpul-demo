@@ -39,7 +39,7 @@ new.ground {
  #shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
 };
 
-new.ground2.mine {
+new.layer.crystal2 {
  x0 150; y0 70;
  rq 100*2;
 # rq 100*5;
@@ -174,7 +174,7 @@ a {
  new.ground;
  new.layer.crystal;
  
- new.ground2.mine;
+ new.layer.crystal2;
 
  new.crunch1;
  new.crunch2;
