@@ -303,8 +303,9 @@ tex2=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28958); # dota.bg.mountain.rain58
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28959); # dota.bullet.morph59
 
+new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28986); # dota.frac86
 #new.ui.shader.node3(sn0, 500,200,1, 500,500, 70014,28960); # dota.bg.ipad
-new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
+#new.ui.shader.node3(sn0, 0,0,1, 1100,800, 70014,28960); # dota.bg.ipad
 tex3=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0, 00,200,1, 400,400, 70014,28961); # dota.weapon.sword2
