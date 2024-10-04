@@ -1056,7 +1056,7 @@ new.text.label1b
 
 # demo ua30 ]
 
-#_ @boot.shaders.test;
+_ @boot.shaders.test;
 
 _ @sys.time.test;
 #test.time0(r0, 500,30,1);
