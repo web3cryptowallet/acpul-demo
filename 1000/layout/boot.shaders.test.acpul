@@ -254,7 +254,7 @@ tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.skill.trangle.buggy
 tex1=node.value.g(u0, sn0,0);
 
-new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
+#new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28941); # dota.effect.lighting
 tex0=node.value.g(u0, sn0,0);
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28942); # dota.effect.sparkles
