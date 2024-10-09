@@ -223,8 +223,8 @@ l12;
   #shader.set.uniform.v(sn0, A.time, 10);
  };
  step {
-#  t0+=dt;
-  t0+=1;
+  t0+=dt;
+#  t0+=1;
 #  shader.set.uniform.v(starship0, A.time, 1000*rnd(u0));
   shader.set.uniform.v(starship0, A.time, t0*100);
  };
