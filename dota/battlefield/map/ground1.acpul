@@ -236,6 +236,8 @@ starship {
  };
 };
 
+launch.dock0 0;
+
 #starship.step;
 starship.step1;
 
