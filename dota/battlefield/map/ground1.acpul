@@ -237,12 +237,12 @@ starship {
  step1 {
   x:=dock0.x;
   y:=dock0.y-20;
+  y+=height0;
   node.set.xy(u0, starship0, x,y);
   shader.set.uniform.v(starship0, A.time, t0);
  };
 
  move.up {
-  y+=height0;
   height0+=velocity0;
   if (velocity0<1) {
    t0:=velocity0*7;
@@ -251,7 +251,7 @@ starship {
    t0:=if(t0<15,t0+0.2,15);
   };
   velocity0+=0.1;
-  node.set.xy(u0, starship0, x,y);
+#  node.set.xy(u0, starship0, x,y);
  };
 };
 
