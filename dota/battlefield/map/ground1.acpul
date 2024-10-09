@@ -255,6 +255,8 @@ starship {
 
  move.down {
   height0-=velocity0;
+  if (height0 < 10)
+    velocity0 = 1;
   if (velocity0<1) {
    t0:=velocity0*7;
   };
