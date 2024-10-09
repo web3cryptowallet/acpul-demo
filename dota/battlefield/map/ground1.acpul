@@ -198,7 +198,7 @@ a {
 # new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28557); # starship7
 # new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28419); # starship1
  starship.new;
- 
+
 
  new.ui.shader.node3(sn0,  60,135,1/3, 200,200, 70014,28989); # dota.ghost89
  shader.set.uniform.v(sn0, A.time, 10);
@@ -222,3 +222,5 @@ a {
   t0+=dt;
   shader.set.uniform.v(sn0, A.time, t0);
  };
+
+starship.step;
