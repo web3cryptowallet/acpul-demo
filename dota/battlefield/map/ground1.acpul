@@ -318,7 +318,7 @@ add.coin {
  };
 };
 
-#add.coin;
+add.coin;
 
 add.coin.step;
 
