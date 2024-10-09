@@ -211,12 +211,13 @@ a {
  };
  new.eggs1;
 };
-l12;
+
+# STARSHIP [
+
 starship {
  t0 0;
  starship0 0;
  new {
-l12;
   t0:=0;
   new.ui.shader.node3(starship0, 110,0,1/2, 100/1,300/1, 70014,28992); # dota.starship92
   shader.set.uniform.v(starship0, A.time, 0);
@@ -229,6 +230,8 @@ l12;
 };
 
 starship.step;
+
+# STARSHIP ]
 
 #_ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,100,20,0.3, A.starship.t, starship.t0);
