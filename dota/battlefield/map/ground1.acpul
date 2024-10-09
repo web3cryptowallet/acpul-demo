@@ -171,7 +171,7 @@ a {
 # load.texture(tex0, 11001,12,3); # ground.pattern3
 
 
-# new.ground;
+ new.ground;
  new.layer.crystal;
  
  new.layer.crystal2;
