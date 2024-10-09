@@ -192,7 +192,8 @@ a {
  shader.set.texture(sn0, A.iChannel0, tex80toad); # 
 
  new.ui.shader.node3(sn0,  110,0,1, 100,100, 70014,28988); # dota.building.launch
- shader.set.uniform.v(sn0, A.time, 10*rnd(u0));
+ shader.set.uniform.v(sn0, A.time, 10);
+# shader.set.uniform.v(sn0, A.time, 10*rnd(u0));
 
  new.eggs1 {
   i=0;while(i<15){
