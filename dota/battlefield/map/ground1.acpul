@@ -302,7 +302,13 @@ if (starship.direction==down) {
  if (starship.height0 == 0) {
   starship.direction:=up;
   velocity0:=0;
+
+  add.coin;
  };
+};
+
+add.coin {
+  
 };
 
 # STARSHIP ]
