@@ -232,12 +232,14 @@ starship {
  };
  step1 {
   x:=dock0.x;
+  y:=dock0.y;
   node.set.xy(u0, starship0, x,y);
  };
 };
 
 launch.base0 0;
 dock0.x node.get.x(u0, launch.base0);
+dock0.y node.get.y(u0, launch.base0);
 
 
 #starship.step;
