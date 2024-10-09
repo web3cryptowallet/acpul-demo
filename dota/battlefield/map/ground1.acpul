@@ -312,10 +312,15 @@ add.coin {
  _ @dota.fly.box1;
  l11;
  box0=fly.box1(dock0.x-1*rnd(u0)/2,dock0.y);
- node.prop.s.s(u0, box0, 0.5);
+ step {
+#  if (box0) {
+  node.prop.s.s(u0, box0, 0.5);
+ };
 };
 
 #add.coin;
+
+add.coin.step;
 
 # STARSHIP ]
 
