@@ -277,7 +277,7 @@ starship {
    t0:=if(t0<15,t0+0.2,15);
   };
   if (height0 < 70) {
-   velocity0:=if(velocity0<-5,velocity0/2,velocity0);
+   velocity0:=if(velocity0<-5,velocity0/1.5,velocity0);
    velocity0:=if(velocity0<-0.5, velocity0+0.4, -0.4);
 #   velocity0+=0.3;
   };
