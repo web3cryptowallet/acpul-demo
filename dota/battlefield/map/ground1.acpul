@@ -285,7 +285,7 @@ starship.step1;
 if (starship.direction==up) {
  starship.move.up;
  if (starship.height0 >= 10) {
-  starship.direction=down;
+  starship.direction:=down;
  };
 };
 if (starship.direction==down) {
