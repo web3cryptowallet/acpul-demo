@@ -221,7 +221,7 @@ starship0 0;
  };
  starship.step {
   t0+=dt;
-  shader.set.uniform.v(sn0s, A.time, 1000*rnd(u0));
+  shader.set.uniform.v(starship0, A.time, 1000*rnd(u0));
  };
 
 starship.step;
