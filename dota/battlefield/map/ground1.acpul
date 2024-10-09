@@ -272,8 +272,9 @@ starship {
   };
   velocity0-=0.1;
   if (height0 < 10) {
-   velocity0 = 1;
+   velocity0 -= 0.1;
   };
+  height0:=if(height0>0,height0,0);
  };
 
 };
@@ -281,8 +282,15 @@ starship {
 #starship.step;
 starship.step1;
 #starship.move.up;
-if (starship.direction==up)
-if (starship < 10, starship.move.up, starship.move.down);
+if (starship.direction==up) {
+ starship.move.up;
+ if (starship.height0 >= 10) {
+  starship.direction==down;
+ };
+};
+if (starship.direction==down) {
+ starship.move.down;
+};
 
 # STARSHIP ]
 
