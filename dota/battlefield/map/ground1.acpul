@@ -230,9 +230,14 @@ starship {
   # 5-16
   shader.set.uniform.v(starship0, A.time, t0);
  };
+ step1 {
+  x:=100;
+  node.set.xy(u0, starship0, x,y);
+ };
 };
 
 #starship.step;
+starship.step1;
 
 # STARSHIP ]
 
