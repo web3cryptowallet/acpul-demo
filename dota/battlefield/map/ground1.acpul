@@ -267,4 +267,5 @@ starship.move.up;
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,50,20,0.3, A.starship.t, starship.t0);
+lbl0 0; val0 0; ui.value4(lbl0,val0,50,30,0.3, A.starship.height0, starship.height0);
 
