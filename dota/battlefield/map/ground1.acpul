@@ -259,6 +259,7 @@ dock0.y node.get.y(u0, launch.base0);
 
 #starship.step;
 starship.step1;
+starship.move.up;
 
 # STARSHIP ]
 
