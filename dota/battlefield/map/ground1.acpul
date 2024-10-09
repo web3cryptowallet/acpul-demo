@@ -292,6 +292,7 @@ if (starship.direction==down) {
  starship.move.down;
  if (starship.height0 == 0) {
   starship.direction:=up;
+  velocity0:=0;
  };
 };
 
