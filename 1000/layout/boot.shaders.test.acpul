@@ -399,7 +399,7 @@ new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28983); # dota.effect.star83
 
 #new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,28990); # goldenwebb
 
-new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,28989); # dota.
+new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,28988); # dota.
 
 
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28940); # dota.
