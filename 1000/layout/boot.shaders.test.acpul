@@ -6,7 +6,7 @@ setup.bg {
 _ @photoneo.common.gl.extra;
 
 sn0 0;
-test.main {
+if (r0) {
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28418); # universe53
 # new.ui.shader.node(sn0, 0,0,2, 768/2,1024/2, 1, 70014,28390); # universe.space1
 # new.ui.shader.node(sn0, 0,0,4, 768/4,1024/4, 1, 70014,28417); # fractals25
@@ -412,6 +412,7 @@ dbgtex4(500,200,100,100);
 if (r0) {
   test.main;
 };
+
 };
 
 
