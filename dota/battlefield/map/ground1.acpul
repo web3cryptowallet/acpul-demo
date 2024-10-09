@@ -215,10 +215,13 @@ a {
 # STARSHIP [
 
 starship {
- t0 0;
  starship0 0;
+ t0 0;
  x 0;
  y 0;
+ height0 0;
+ velocity0 0;
+ 
  new {
   new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
   shader.set.uniform.v(starship0, A.time, 0);
@@ -231,8 +234,6 @@ starship {
   shader.set.uniform.v(starship0, A.time, t0);
  };
  step1 {
-  height0 0;
-  velocity0 0;
   x:=dock0.x;
   y:=dock0.y-20;
   node.set.xy(u0, starship0, x,y);
