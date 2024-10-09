@@ -241,7 +241,7 @@ starship {
    t0:=velocity0*7;
   };
   if (velocity0>1) {
-   t0=if(t0<15,t0+0.2,15);
+   t0:=if(t0<15,t0+0.2,15);
   };
   velocity0+=0.1;
   node.set.xy(u0, starship0, x,y);
