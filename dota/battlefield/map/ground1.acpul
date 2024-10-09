@@ -231,7 +231,7 @@ starship {
  };
 };
 
-starship.step;
+#starship.step;
 
 # STARSHIP ]
 
