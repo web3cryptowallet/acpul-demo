@@ -232,7 +232,8 @@ starship {
  };
  step1 {
   x:=dock0.x;
-  y:=dock0.y+rnd(u0)*10-20;
+  y:=dock0.y-20;
+  
   node.set.xy(u0, starship0, x,y);
  };
 };
