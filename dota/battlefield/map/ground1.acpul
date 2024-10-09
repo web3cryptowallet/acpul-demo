@@ -212,6 +212,13 @@ a {
  new.eggs1;
 };
 
+# LAUNCH BASE [
+
+launch.base0 0;
+dock0.x node.get.x(u0, launch.base0);
+dock0.y node.get.y(u0, launch.base0);
+
+# LAUNCH BASE ]
 # STARSHIP [
 
 starship {
@@ -268,9 +275,6 @@ starship {
  };
 };
 
-launch.base0 0;
-dock0.x node.get.x(u0, launch.base0);
-dock0.y node.get.y(u0, launch.base0);
 
 
 #starship.step;
