@@ -277,7 +277,8 @@ starship {
 
 #starship.step;
 starship.step1;
-starship.move.up;
+#starship.move.up;
+if (starship < 10, starship.move.up, starship.move.down);
 
 # STARSHIP ]
 
