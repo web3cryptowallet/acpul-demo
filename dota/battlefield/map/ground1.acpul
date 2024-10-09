@@ -312,7 +312,7 @@ if (starship.direction==down) {
 add.coin {
  _ @dota.fly.box2;
  l11;
- box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h);
+ box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h*s);
 };
 
 
@@ -322,7 +322,7 @@ add.coin;
 # STARSHIP ]
 
 _ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,20,5,0.3, A.starship.direction, starship.direction*0+dock0.h);
+lbl0 0; val0 0; ui.value4(lbl0,val0,20,5,0.3, A.starship.direction, starship.direction);
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,10,0.3, A.starship.t, starship.t0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,15,0.3, A.starship.height0, starship.height0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,20,0.3, A.starship.velocity0, starship.velocity0);
