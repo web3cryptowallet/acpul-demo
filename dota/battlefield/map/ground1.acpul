@@ -216,6 +216,7 @@ a {
 
 starship {
  starship0 0;
+
  t0 0;
  x 0;
  y 0;
