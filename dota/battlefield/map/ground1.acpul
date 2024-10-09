@@ -217,7 +217,7 @@ starship {
  starship0 0;
  new {
   new.ui.shader.node3(starship0, 110,0,1/2, 100/1,300/1, 70014,28992); # dota.starship92
-  shader.set.uniform.v(starship0, A.time, 0);
+  shader.set.uniform.v(starship0, A.time, t0);
   #shader.set.uniform.v(sn0, A.time, 10);
  };
  step {
