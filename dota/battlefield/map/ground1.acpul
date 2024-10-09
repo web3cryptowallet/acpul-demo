@@ -314,7 +314,7 @@ add.coin {
  fly.box1(dock0.x-1*rnd(u0)/2,dock0.y);
 };
 
-add.coin;
+#add.coin;
 
 # STARSHIP ]
 
