@@ -310,9 +310,11 @@ if (starship.direction==down) {
 
 add.coin {
  _ @dota.fly.box1;
+ l11;
  fly.box1(dock0.y-bw*rnd(u0)/2,dock0.y);
 };
-add.coin;
+
+#add.coin;
 
 # STARSHIP ]
 
