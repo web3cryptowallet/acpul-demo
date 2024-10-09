@@ -275,8 +275,6 @@ starship {
  };
 };
 
-
-
 #starship.step;
 starship.step1;
 starship.move.up;
