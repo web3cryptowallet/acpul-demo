@@ -217,6 +217,7 @@ a {
 launch.base0 0;
 dock0.x node.get.x(u0, launch.base0);
 dock0.y node.get.y(u0, launch.base0);
+dock0.h node.get.h(u0, launch.base0);
 
 # LAUNCH BASE ]
 # STARSHIP [
@@ -311,8 +312,9 @@ if (starship.direction==down) {
 add.coin {
  _ @dota.fly.box2;
  l11;
- box0=fly.box1(dock0.x-1*rnd(u0)/2,dock0.y);
+ box0=fly.box1(dock0.x-1*rnd(u0)/2,dock0.y+);
 };
+
 
 add.coin;
 
