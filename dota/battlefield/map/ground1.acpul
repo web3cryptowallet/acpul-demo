@@ -313,7 +313,7 @@ add.coin {
  _ @dota.fly.box2;
  l11;
  s0 3;
- box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0);
+ box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2);
 };
 
 
