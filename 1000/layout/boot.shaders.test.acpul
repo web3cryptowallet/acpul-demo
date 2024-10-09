@@ -408,11 +408,12 @@ dbgtex4(500,200,100,100);
 #new.ui.shader.node3(sn0, 0,00,4, 250,250, 70014,28936); # painted.skies
 
 };
-};
 
 if (r0) {
   test.main;
 };
+};
+
 
 #sn0rr 0;
 #rr 0;
