@@ -193,7 +193,7 @@ a {
 
  new.ui.shader.node3(sn0,  180,110,1, 25/2,50/2, 70014,28970); # dota.fire70
 
-# new.ui.shader.node3(sn0,  180,110,1, 25/2,50/2, 70014,28970); # dota.fire70
+ new.ui.shader.node3(sn0,  200,120,1, 25/2,50/2, 70014,28970); # dota.fire70
 
  # BASE [
 
