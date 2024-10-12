@@ -232,7 +232,7 @@ a {
   shader.set.texture(sn05, A.iChannel1, tex8);
   shader.set.uniform.v2(sn05, A.iResolution1, 100,100); # tex1.size
   shader.set.uniform.v(sn05, A.mode, 5);
-  tex7=node.value.g(u0, sn0,0);
+  tex7=node.value.g(u0, sn05,0);
 #  tex7=tex8;
 
 
