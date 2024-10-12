@@ -414,7 +414,7 @@ new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29102); # x.coin
 };
 
 if (r0) {
-# test.main;
+ test.main;
 };
 
 };
