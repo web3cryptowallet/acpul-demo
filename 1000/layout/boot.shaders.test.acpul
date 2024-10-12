@@ -401,7 +401,7 @@ dbgtex4(500,200,100,100);
 
 new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29101); # x.A
 new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29102); # x.coin
-shader.set.texture(sn0, A.iChannel0, tex2);
+shader.set.texture(sn0, A.iChannel0, tex3);
 #shader.set.texture(sn0, A.iChannel0, tex0);
 
 
