@@ -340,7 +340,7 @@ shader.set.texture(sn0, A.iChannel3, tex2);
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28723); # dota.bg
 #new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28924); # dota.bg
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28731); # dota.bg
-new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28929); # dota.bg
+#new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28929); # dota.bg
 #new.ui.shader.node3(sn0, 0,300,1, 300,300, 70014,28796); # dota.ground.lava.rock
 #tex3=node.value.g(u0, sn0,0);
 #new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
