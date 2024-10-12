@@ -387,8 +387,8 @@ dbgtex4(500,200,100,100);
 #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28965); # dota.magic.ball65
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28967); # dota.tree67
 
-#new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
-new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28969); # dota.tree69
+new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
+#new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28969); # dota.tree69
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28980); # dota.
 
 #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28981); # dota.tree81
