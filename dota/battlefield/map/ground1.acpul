@@ -230,7 +230,7 @@ a {
   shader.set.texture(sn05, A.iChannel0, tex7);
   shader.set.texture(sn05, A.iChannel1, tex8);
   shader.set.uniform.v2(sn05, A.iResolution1, 100,100); # tex1.size
-  shader.set.uniform.v(sn05, A.mode, 5);
+  shader.set.uniform.v(sn05, A.mode, 0);
   tex7=node.value.g(u0, sn0,0);
 
 
