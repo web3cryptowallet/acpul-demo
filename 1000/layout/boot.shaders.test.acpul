@@ -421,7 +421,7 @@ xcoin;
 };
 
 if (r0) {
- test.main;
+# test.main;
 };
 
 };
