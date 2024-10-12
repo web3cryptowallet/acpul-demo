@@ -248,10 +248,10 @@ a {
   shader.set.uniform.v(sn05, A.mode0in, 1);
     # rect0in - bg
   x0 0; y0 0;
-  w0 1; h0 1;
+  w0 1/2; h0 1/2;
   shader.set.uniform.v4(sn05, A.rect1in, x0,y0,w0,h0);
   shader.set.uniform.v(sn05, A.mode1in, 1);
-  
+
   #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
   #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
  };
