@@ -215,6 +215,19 @@ a {
 
 
 
+ xcoin;
+
+ new.eggs1 {
+  i=0;while(i<15){
+   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
+   i+=1;
+  };
+ };
+ new.eggs1;
+};
+
+# XCOIN [
+
  xcoin {
  # new.ui.shader.node3(sn0, 0,0,2/3, 100,100, 70014,28963); # dota.effect.plasma.carpet
  # tex7=node.value.g(u0, sn0,0);
@@ -255,17 +268,9 @@ a {
   #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
   #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
  };
- xcoin;
 
- new.eggs1 {
-  i=0;while(i<15){
-   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
-   i+=1;
-  };
- };
- new.eggs1;
-};
 
+# XCOIN ]
 # LAUNCH BASE [
 
 launch.base0 0;
