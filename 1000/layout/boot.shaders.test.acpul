@@ -343,7 +343,7 @@ shader.set.texture(sn0, A.iChannel3, tex2);
 #new.ui.shader.node3(sn0, 300,00,1, 200,200, 70014,28929); # dota.bg
 #new.ui.shader.node3(sn0, 0,300,1, 300,300, 70014,28796); # dota.ground.lava.rock
 #tex3=node.value.g(u0, sn0,0);
-#new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
+new.ui.shader.node3(sn0, 0,300,1, 500,500, 70014,28796); # dota.ground.lava.rock
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28721); # water1
 #new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,28720); # water 
 #tex2=node.value.g(u0, sn0,0);
@@ -381,7 +381,7 @@ dbgtex4(500,200,100,100);
 
 #new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,28962); # dota.zerg.ground.bad.math
 
-new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
+#new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
 #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28964); # dota.building.crunch
 
 #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28965); # dota.magic.ball65
@@ -405,6 +405,7 @@ new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29102); # x.coin
 shader.set.texture(sn0, A.iChannel0, tex7);
 #shader.set.texture(sn0, A.iChannel0, tex0);
 #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
+#new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
 
 
 
