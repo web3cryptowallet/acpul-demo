@@ -264,10 +264,18 @@ a {
   w0 1/0.55; h0 1/0.55;
   shader.set.uniform.v4(sn05, A.rect1in, x0,y0,w0,h0);
   shader.set.uniform.v(sn05, A.mode1in, 1);
+  tex11=node.value.g(u0, sn05,0);
+
+tex0boot0 u13;
+tex0boot1 u14;
+
+tex0boot1:=tex11;
+tex0boot0:=tex11;
 
   #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
   #new.ui.shader.node3(sn0, 0,0,2, 200,200, 70014,28963); # dota.effect.plasma.carpet
  };
+
 
 
 shader.set.uniform.v(xcoin.sn0, A.time, t*2);
