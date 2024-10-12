@@ -214,7 +214,7 @@ a {
  shader.set.uniform.v(sn0, A.time, 10);
 
  xcoin {
-  new.ui.shader.node3(sn0, 0,0,2, 300,300, 70014,28963); # dota.effect.plasma.carpet
+  new.ui.shader.node3(sn0, 0,0,2, 500,500, 70014,28963); # dota.effect.plasma.carpet
   new.ui.shader.node3(sn0,  0,100,1, 100,100, 70014,29101); # x.A
   new.ui.shader.node3(sn0,  0,100,1, 500/3,500/3, 70014,29102); # x.coin
   shader.set.texture(sn0, A.iChannel0, tex7);
