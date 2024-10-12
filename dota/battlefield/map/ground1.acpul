@@ -270,7 +270,7 @@ a {
  };
 
 
-shader.set.uniform.v(xcoin.sn0, A.time, t);
+shader.set.uniform.v(xcoin.sn0, A.time, t*2);
 t+=dt;
 
 # XCOIN ]
