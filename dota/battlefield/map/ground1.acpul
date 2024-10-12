@@ -269,7 +269,7 @@ a {
 tex0boot0 u13;
 tex0boot1 u14;
 
-tex0boot1:=tex7;
+tex0boot1:=tex8;
 tex0boot0:=tex8;
 
   #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
