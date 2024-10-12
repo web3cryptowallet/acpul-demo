@@ -397,11 +397,12 @@ dbgtex4(500,200,100,100);
 
 #new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28983); # dota.effect.star83
 
-#new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,28990); # goldenwebb
+new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,28990); # goldenwebb
+tex7=node.value.g(u0, sn0,0);
 
 new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29101); # x.A
 new.ui.shader.node3(sn0,  0,100,1, 500,500, 70014,29102); # x.coin
-shader.set.texture(sn0, A.iChannel0, tex3);
+shader.set.texture(sn0, A.iChannel0, tex7);
 #shader.set.texture(sn0, A.iChannel0, tex0);
 
 
