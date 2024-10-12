@@ -271,6 +271,7 @@ a {
 
 
 shader.set.uniform.v(xcoin.sn0, A.time, t);
+t+=dt;
 
 # XCOIN ]
 # LAUNCH BASE [
