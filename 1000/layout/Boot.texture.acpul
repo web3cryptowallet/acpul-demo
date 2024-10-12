@@ -74,8 +74,8 @@ node.ex.child.draw.s(u0, 0);
 #tex0boot:=if(tex0boot==tex0,tex99,tex0);
 #tex0boot:=tex99;
 
-tex0boot1:=tex1;
-tex0boot0:=tex0;
+#tex0boot1:=tex1;
+#tex0boot0:=tex0;
 
 _ @4;
 #ui.value1(l12,110,110,1.5,display.orientation.get);
