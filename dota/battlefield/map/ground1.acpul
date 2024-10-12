@@ -247,7 +247,7 @@ a {
   shader.set.uniform.v4(sn05, A.rect0in, x0,y0,w0,h0);
   shader.set.uniform.v(sn05, A.mode0in, 1);
     # rect0in - bg
-  x0 0-0.45; y0 0-0.45;
+  x0 0-0.4; y0 0-0.4;
   w0 1/0.55; h0 1/0.55;
   shader.set.uniform.v4(sn05, A.rect1in, x0,y0,w0,h0);
   shader.set.uniform.v(sn05, A.mode1in, 1);
