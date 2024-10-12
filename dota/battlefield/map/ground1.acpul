@@ -216,7 +216,7 @@ a {
  xcoin {
   new.ui.shader.node3(sn0, 0,0,2, 100,100, 70014,28963); # dota.effect.plasma.carpet
   new.ui.shader.node3(sn0,  0,100,1, 100,100, 70014,29101); # x.A
-  new.ui.shader.node3(sn0,  0,100,1, 100,100, 70014,29102); # x.coin
+  new.ui.shader.node3(sn0,  0,100,1, 500/2,500/2, 70014,29102); # x.coin
   shader.set.texture(sn0, A.iChannel0, tex7);
   #shader.set.texture(sn0, A.iChannel0, tex0);
   #new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28968); # dota.bg.tunnel68
