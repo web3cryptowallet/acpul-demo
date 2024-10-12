@@ -226,7 +226,7 @@ a {
   new.ui.shader.node3(sn0,  0,100,1/3, 300,300, 70014,29101); # x.A
   tex7=node.value.g(u0, sn0,0);
 
-  new.ui.shader.node3(sn05, 0,0,1, sphere.w,sphere.h, 70014,28896); # mix.in2.alpha.new
+  new.ui.shader.node3(sn05, 0,0,1, 300,300, 70014,28896); # mix.in2.alpha.new
   shader.set.texture(sn05, A.iChannel0, tex8);
   shader.set.texture(sn05, A.iChannel1, tex8);
   shader.set.uniform.v2(sn05, A.iResolution1, 100,100); # tex1.size
