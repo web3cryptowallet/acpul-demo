@@ -234,7 +234,7 @@ a {
   starship0 0;
   new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
   shader.set.uniform.v(starship0, A.time, 0);
-  tex8=node.value.g(u0, starship0,15); 
+  tex8=node.value.g(u0, starship0,0); 
 
   sn05 0;
   new.ui.shader.node3(sn05, 0,0,1/3*0.01, 300*2,300*2, 70014,28896); # mix.in2.alpha.new
