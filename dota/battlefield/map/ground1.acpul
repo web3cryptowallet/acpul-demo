@@ -13,7 +13,7 @@ _ @sys.shader.ex;
 # Import for use gl.texture.param
 #_ @photoneo.common.gl.extra;
 
-#_ @load.texture;
+_ @load.texture;
 #load.texture {
  # tex, pool,id,i
 # tex _0;
