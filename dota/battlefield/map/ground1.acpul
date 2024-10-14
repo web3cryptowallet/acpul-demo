@@ -13,6 +13,7 @@ _ @sys.shader.ex;
 # Import for use gl.texture.param
 _ @photoneo.common.gl.extra;
 
+_ @load.texture;
 load.texture {
  # tex, pool,id,i
  tex _0;
@@ -404,6 +405,9 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,20,20,0.3, A.starship.velocity0, starship.ve
 ### load.texture
 
 load.texture {
+ # Import for use gl.texture.param
+ _ @photoneo.common.gl.extra;
+
  # tex, pool,id,i
  tex _0;
  tex:=storage.image.load.texture(_1,_2,_3);
