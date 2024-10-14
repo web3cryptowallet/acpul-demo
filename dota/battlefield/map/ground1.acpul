@@ -415,6 +415,16 @@ load.texture {
 # gl.texture.filter.nearest(tex);
 };
 
+load.texture.nearest {
+ load.texture(__);
+ gl.texture.filter.nearest(_0);
+};
+
+load.texture.linear {
+ load.texture(__);
+ gl.texture.filter.nearest(_0);
+};
+
 #  new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
 #  shader.set.uniform.v(starship0, A.time, 0);
 
