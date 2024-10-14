@@ -239,6 +239,8 @@ a {
   new.ui.shader.node3(sn0,  0,100,1/3*0.01, 300*2,300*2, 70014,29101); # x.A
   tex7=node.value.g(u0, sn0,0);
 
+  tex8
+
   sn05 0;
   new.ui.shader.node3(sn05, 0,0,1/3*0.01, 300*2,300*2, 70014,28896); # mix.in2.alpha.new
   shader.set.texture(sn05, A.iChannel0, tex7);
@@ -398,4 +400,16 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,20,5,0.3, A.starship.direction, starship.dir
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,10,0.3, A.starship.t, starship.t0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,15,0.3, A.starship.height0, starship.height0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,20,20,0.3, A.starship.velocity0, starship.velocity0);
+
+### load.texture
+
+load.texture {
+ # tex, pool,id,i
+ tex _0;
+ tex:=storage.image.load.texture(_1,_2,_3);
+# gl.texture.filter.nearest(tex);
+};
+
+#  new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
+#  shader.set.uniform.v(starship0, A.time, 0);
 
