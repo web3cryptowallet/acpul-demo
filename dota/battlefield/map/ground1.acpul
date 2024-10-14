@@ -221,7 +221,7 @@ a {
 
 # XCOIN
 
-_ @dota.xcoin;
+#_ @dota.xcoin;
 
 #shader.set.uniform.v(xcoin.sn0, A.time, t*2);
 t+=dt;
