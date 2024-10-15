@@ -1,4 +1,6 @@
 ### dota.hero.bb9 
-
-
+sn0 0;
+if (r0) {
+ new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
+};
 
