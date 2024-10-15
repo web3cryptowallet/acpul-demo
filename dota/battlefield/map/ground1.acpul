@@ -220,7 +220,7 @@ a {
  # DIALOG TEST ]
 
 
- new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28993); # dota.droid.bb9
+ new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
 
  new.eggs1 {
   i=0;while(i<15){
