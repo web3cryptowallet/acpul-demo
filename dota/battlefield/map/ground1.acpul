@@ -222,6 +222,7 @@ a {
 
  new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
 
+new.ui.shader.node3(sn0, 0,0,1, 200,200, 70014,28814); # dota.skill.black.hole
 
  new.eggs1 {
   i=0;while(i<15){
