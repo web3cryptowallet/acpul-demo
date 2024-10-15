@@ -1,6 +1,7 @@
 ### dota.hero.bb9 
 
 _ @4;
+_ @dota.dialog.inc;
 
 sn0 0;
 if (r0) {
