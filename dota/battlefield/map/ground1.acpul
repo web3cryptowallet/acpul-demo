@@ -215,7 +215,7 @@ a {
  # DIALOG TEST [
 
  _ @dota.dialog.inc;
- new.dialog.hero(sn0, 0,0,1/5, 1024,768, 9); # 
+# new.dialog.hero(sn0, 0,0,1/5, 1024,768, 9); # 
 
  # DIALOG TEST ]
 
