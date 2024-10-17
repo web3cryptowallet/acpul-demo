@@ -251,6 +251,8 @@ t+=dt;
 
 # XCOIN ]
 
+_ @dota.space.spaceport;
+
 add.coin {
  _ @dota.fly.box2;
  s0 3;
