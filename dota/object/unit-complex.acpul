@@ -30,13 +30,20 @@ if (utype==bt.homehealth) {
 
 _ @dota.heroes;
 
+# MINION GUARD [
+
 if (utype==bt.minion.guard) {
   node.new.this.ex(r0, hero.minion.guard, 0);
 };
 
+# MINION GUARD ]
+# MINION MAGE [
+
 if (utype==bt.minion.mage) {
   node.new.this.ex(r0, hero.minion.mage, 0);
 };
+
+# MINION MAGE ]
 
 ### 3235 Unit::Complex.draw
 
