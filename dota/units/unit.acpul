@@ -31,10 +31,15 @@ hero0 0;
 sword0 0;
 eff0 0;
 
-if (r0) { #hack!
+if (r0) {
+ 
+ # BOT
+
  if (subtype==ost.bot) {
   node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
  };
+
+ # PLAYER
 
  if (subtype==ost.player) {
   n = 4;
@@ -43,7 +48,7 @@ if (r0) { #hack!
 
   create.unit(q);
 
-  apply.effect(eff0);
+  apply.effect(eff0, 0);
 
   sword.a0;
 };
