@@ -104,6 +104,7 @@ rect(u0, 6, 0,0,w,h);
 color(u0, 0.7,0.7,0,0.95);
 rect(u0, 2, 0,0,w,h);
 
+_ @sys.node;
 _ @os.util2;
 
 _ @dota.minimap.def;
