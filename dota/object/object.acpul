@@ -129,21 +129,13 @@ context.d.a r5;
 
 self context;
 
-# todo - old remove
-
-#if (r0) {
-# heap.alloc(context.d.a, self.def.SIZE);
-# self.dir.x.set(177788);
-# watch(self.dir.x);
-#};
-
 # alloc self context ]
 
 # unit code (split later) ]
 
 k:=1;
 
-#node.prop.z.order.s(u0, nid, rnd(u0)*100);
+node.prop.z.order.s(u0, nid, rnd(u0)*100);
 
 #y:=rnd(u0)*100;
 
