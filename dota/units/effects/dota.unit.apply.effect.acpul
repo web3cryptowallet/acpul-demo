@@ -48,7 +48,12 @@ apply.effect {
  };
 # effect;
 
- if (id==0) { effect0; };
- if (id==1) { effect0; };
+ if (id==0) {effect0;};
+ if (id==1) {effect1;};
+ if (id==2) {effect2;};
+ if (id==3) {effect3;};
+ if (id==4) {effect4;};
+ if (id==5) {effect5;};
+ if (id==6) {effect6;};
 };
 
