@@ -222,7 +222,7 @@ a {
 
  new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
 
- new.destroyer;
+ new.destroyer(150,70,1/3, 300,300);
 
  new.eggs1;
 };
@@ -230,7 +230,10 @@ a {
 # DESTROYER [
 
 new.destroyer {
- new.ui.shader.node3(sn0, 150,70,1/3, 300,300, 70014,28997); # dota.space.destroyer
+ # x:y:s:w:h
+ x _0; y _1; s _2; w _3; h _4;
+ sn0 0;
+ new.ui.shader.node3(sn0, x,y,s, w,h, 70014,28997); # dota.space.destroyer
  shader.set.uniform.v3(sn0, A.rot0, 0.3,-2,0);
 # 1
  shader.set.uniform.v3(sn0, A.color0, -1,0,0);
