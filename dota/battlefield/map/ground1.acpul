@@ -234,9 +234,10 @@ new.destroyer {
  shader.set.uniform.v3(sn0, A.rot0, 0.3,-2,0);
 # 1
  shader.set.uniform.v3(sn0, A.color0, -1,0,0);
- shader.set.uniform.v2(sn0, A.texScale, 0.1,0.1);
+# shader.set.uniform.v2(sn0, A.texScale, 0.1,0.1);
+ shader.set.uniform.v2(sn0, A.texScale, 0.5,0.5);
 # shader.set.texture(sn0, A.iChannel0, tex99); # good
- shader.set.texture(sn0, A.iChannel0, tex0); # green
+# shader.set.texture(sn0, A.iChannel0, tex0); # green
 # shader.set.texture(sn0, A.iChannel0, tex1); # gold
 # shader.set.texture(sn0, A.iChannel0, tex2); # good
 # shader.set.texture(sn0, A.iChannel0, tex4); # good
