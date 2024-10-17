@@ -45,6 +45,9 @@ if (r0) {
  mmobjs0:=node.value.g(u0, minimap0,0);
 };
 
+
+
+
 # MINIMAP ]
 
 dota.pool 3202;
@@ -52,7 +55,7 @@ dota.pool 3202;
 dota.evs {
   # ev, o0... - event
  if (_0==ev.dota.new.object) {
-  
+
  };
 };
 
