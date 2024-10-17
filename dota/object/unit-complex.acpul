@@ -16,6 +16,7 @@ bt obj.bots.types;
 
 _ @1010;
 _ @sys.node;
+_ @dota.heroes;
 
 # HEALTH CRYSTALS [
 
@@ -27,9 +28,6 @@ if (utype==bt.homehealth) {
 };
 
 # HEALTH CRYSTALS ]
-
-_ @dota.heroes;
-
 # MINION GUARD [
 
 if (utype==bt.minion.guard) {
