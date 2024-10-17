@@ -58,6 +58,9 @@ dota.pool 3202;
 dota.evs {
   # ev, o0... - event
  if (_0==ev.dota.new.object) {
+  
+ };
+ if (_0==ev.dota.del.object) {
 
  };
 };
