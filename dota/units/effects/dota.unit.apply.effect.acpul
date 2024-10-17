@@ -3,6 +3,8 @@
 apply.effect {
  # eff0, id
  eff0 _0;
+ id _1;
+
  effect0 {
   sn0 0;
   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
@@ -45,5 +47,7 @@ apply.effect {
   new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
  };
 # effect;
+
+ if (id==0) { effect0; };
 };
 
