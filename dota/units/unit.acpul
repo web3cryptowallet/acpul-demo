@@ -77,8 +77,8 @@ if (r0) {
   };
   if (r0*d) {
    new.node.common0(hero0, 0-12,4,0.4, 100,100, NNN(dota.hero.bb9), player.id);
-   sword0.x := 20;
-   sword0.y := 5;
+   sword0.x := 23;
+   sword0.y := 7;
   };
  };
 
