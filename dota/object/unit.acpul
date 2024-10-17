@@ -45,15 +45,7 @@ if (r0) { #hack!
 #  apply.effect(eff0);
 
 
- sword {
-  sn0 0;
-  new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28748); # 
-  node.prop.x.s(u0, sn0,20);
-  node.prop.r.s(u0, sn0,-45);
-  sword0:=sn0;
- };
- sword;
-
+# sword.a0;
 };
 
 # UNIT [
@@ -86,6 +78,14 @@ _ @dota.unit.apply.effect;
 
 # EFFECT ]
 # WEAPON [
+
+sword.a0 {
+ sn0 0;
+ new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28748); # 
+ node.prop.x.s(u0, sn0,20);
+ node.prop.r.s(u0, sn0,-45);
+ sword0:=sn0;
+};
 
 # WEAPON ]
 
