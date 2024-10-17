@@ -106,6 +106,7 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-50,1/2, O14, minimap.at(14));
 #info;
 
 
+
 ### 19201 DOTA::minimap.draw
 
 color(u0, 0.2,0.2,0,0.95);
