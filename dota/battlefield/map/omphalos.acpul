@@ -168,7 +168,7 @@ if ((inited==0)*w*h) {
  hq 2;
  hqn 2;
  hqn 0.1;
- hqn 10;
+ hqn 2;
  create1(w,h, 100*hq,100*hq, 50*hqn, 1,-0.5); 
 
  create.texture;
