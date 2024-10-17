@@ -29,6 +29,7 @@ UNIT.COMPLEX 3234;
 
 hero0 0;
 sword0 0;
+eff0 0;
 
 if (r0) { #hack!
  if (subtype==ost.bot) {
@@ -42,11 +43,9 @@ if (r0) { #hack!
 
   create.unit(q);
 
-  eff0 0;
 #  apply.effect(eff0);
 
-
- sword.a0;
+  sword.a0;
 };
 
 # UNIT [
