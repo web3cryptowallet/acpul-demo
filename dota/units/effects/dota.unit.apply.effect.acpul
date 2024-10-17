@@ -49,5 +49,6 @@ apply.effect {
 # effect;
 
  if (id==0) { effect0; };
+ if (id==1) { effect0; };
 };
 
