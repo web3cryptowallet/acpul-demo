@@ -343,7 +343,7 @@ if (starship.direction==down) {
   starship.direction:=up;
   velocity0:=0;
 
-  add.coin;
+  add.coin; # event
  };
 };
 
