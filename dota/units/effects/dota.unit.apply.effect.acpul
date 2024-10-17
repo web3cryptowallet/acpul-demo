@@ -9,19 +9,19 @@ apply.effect {
   sn0 0;
   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
  };
- effect0;
+# effect0;
 
  effect1 {
   sn0 0;
   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
  };
- effect1;
+# effect1;
 
  effect2 {
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28742); # dota.eff.light1
  };
-#  effect;
+  effect2;
  };
 
  effect3 {
