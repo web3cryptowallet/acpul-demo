@@ -28,7 +28,7 @@ apply.effect {
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28743); # dota.eff.light2
  };
-# effect;
+ effect3;
 
  effect4 {
   sn0 0;
