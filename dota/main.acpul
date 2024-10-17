@@ -49,6 +49,9 @@ if (r0) {
 
  l10;
  events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
+ events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
+ events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
+ events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
  l11;
 };
 
