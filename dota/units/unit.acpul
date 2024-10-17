@@ -31,8 +31,8 @@ hero0 0;
 sword0 0;
 eff0 0;
 
-sword0.dx 0;
-sword0.dy 0;
+sword0.x 0;
+sword0.y 0;
 
 if (r0) {
  
@@ -77,8 +77,8 @@ if (r0) {
   };
   if (r0*d) {
    new.node.common0(hero0, 0-12,4,0.4, 100,100, NNN(dota.hero.bb9), player.id);
-   sword0.dx := 50;
-   sword0.dy := -5;
+   sword0.x := 0;
+   sword0.y := 0;
   };
  };
 
@@ -92,11 +92,18 @@ _ @dota.unit.apply.effect;
 
 sword.a0 {
  sn0 0;
- new.ui.shader.node(sn0, 0-112+sword0.dx,13+sword0.dy,0.4, 100,100, 1, 70014,28748); # 
- node.prop.x.s(u0, sn0,20);
+ new.ui.shader.node(sn0, sword0.x,sword0.y,0.4, 100,100, 1, 70014,28748); # 
  node.prop.r.s(u0, sn0,-45);
  sword0:=sn0;
 };
+
+#sword.a0 {
+# sn0 0;
+# new.ui.shader.node(sn0, 0-12+sword0.x,13+sword0.y,0.4, 100,100, 1, 70014,28748); # 
+# node.prop.x.s(u0, sn0,20);
+# node.prop.r.s(u0, sn0,-45);
+# sword0:=sn0;
+#};
 
 node.prop.r.s(u0, sword0,-45+sin(t*100.)*3);
 #node.prop.r.s(u0, sword0,-45+sin(t*0.1)*3+100*rnd(u0));
