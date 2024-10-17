@@ -9,44 +9,36 @@ apply.effect {
   sn0 0;
   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
  };
-# effect0;
 
  effect1 { # shiled
   sn0 0;
   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
  };
-# effect1;
 
  effect2 { # pulseA
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28742); # dota.eff.light1
  };
-#  effect2;
-# };
 
  effect3 { # pusleB
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28743); # dota.eff.light2
  };
-# effect3;
 
  effect4 { #?
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28744); # dota.eff.greensmoke1
  };
-# effect4;
 
  effect5 { # water
   sn0 0;
   new.ui.shader.node(sn0, 0-12,13,0.4, 100,100, 1, 70014,28745); # dota.eff.water1
  };
-# effect5;
 
  effect6 { # stones
   sn0 0;
   new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
  };
-# effect;
 
  if (id==0) {effect0;};
  if (id==1) {effect1;};
