@@ -239,8 +239,8 @@ new.destroyer {
 # shader.set.texture(sn0, A.iChannel0, tex99); # good
 # shader.set.texture(sn0, A.iChannel0, tex0); # green
 # shader.set.texture(sn0, A.iChannel0, tex1); # gold
- shader.set.texture(sn0, A.iChannel0, tex2); # good
-# shader.set.texture(sn0, A.iChannel0, tex4); # good
+# shader.set.texture(sn0, A.iChannel0, tex2); # good
+ shader.set.texture(sn0, A.iChannel0, tex4); # good
 
 # 2
 # shader.set.uniform.v3(sn0, A.rot0, rnd(u0)*10,rnd(u0),rnd(u0));
