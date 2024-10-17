@@ -47,7 +47,7 @@ if (r0) {
 };
 
 
-minimap.add()
+minimap.add();
 minimap.pack(mm0);
 
 
