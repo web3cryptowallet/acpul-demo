@@ -250,102 +250,6 @@ shader.set.uniform.v(xcoin0.sn0, A.time, t*2);
 t+=dt;
 
 # XCOIN ]
-# LAUNCH BASE [
-
-launch.base0 0;
-dock0.x node.get.x(u0, launch.base0);
-dock0.y node.get.y(u0, launch.base0);
-dock0.h node.get.h(u0, launch.base0);
-
-# LAUNCH BASE ]
-# STARSHIP [
-
-starship {
- starship0 0;
-
- t0 0;
- x 0;
- y 0;
- height0 0;
- velocity0 0;
- direction 0;
-
- new {
-  direction:=up;
-  new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
-  shader.set.uniform.v(starship0, A.time, 0);
-#  shader.set.uniform.v(starship0, A.time, 10);
- };
- step {
-  t0+=dt;
-  # 0-5
-  # 5-16
-  shader.set.uniform.v(starship0, A.time, t0);
- };
- step1 {
-  x:=dock0.x;
-  y:=dock0.y-20;
-  y+=height0;
-  node.set.xy(u0, starship0, x,y);
-  shader.set.uniform.v(starship0, A.time, t0);
- };
-
- move.up {
-  height0+=velocity0;
-  if (velocity0<1) {
-   t0:=velocity0*7;
-  };
-  if (velocity0>1) {
-   t0:=if(t0<15,t0+0.2,15);
-  };
-  velocity0+=0.1/3;
- };
-
- move.down {
-  height0+=velocity0;
-#  if (velocity0<1) {
-#   t0:=(1-velocity0)*7;
-#  };
-  if (height0<50) {
-   t0:=height0/50*7;
-  };
-#  if (velocity0<1) {
-#   t0:=(0-velocity0)*7;
-#  };
-  if (velocity0>1) {
-   t0:=if(t0<15,t0+0.2,15);
-  };
-  if (height0 < 90) {
-   velocity0:=if(velocity0<-5,velocity0/1.3,velocity0);
-   velocity0:=if(velocity0<-0.5, velocity0+0.4, -0.4);
-#   velocity0+=0.3;
-  };
-  velocity0-=0.1;
-  velocity0:=if(height0>0,velocity0,0);
-  height0:=if(height0>0,height0,0);
- };
-
-};
-
-#starship.step;
-starship.step1;
-#starship.move.up;
-if (starship.direction==up) {
- starship.move.up;
- if (starship.height0 >= 300) {
-  starship.direction:=down;
-  velocity0:=0;
- };
-};
-if (starship.direction==down) {
- starship.move.down;
- if (starship.height0 == 0) {
-  starship.direction:=up;
-  velocity0:=0;
-
-  add.coin; # event
- };
-};
 
 add.coin {
  _ @dota.fly.box2;
@@ -353,9 +257,9 @@ add.coin {
  box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2);
 };
 
-
 #add.coin;
 
+dota.space.spaceport;
 
 # STARSHIP ]
 
