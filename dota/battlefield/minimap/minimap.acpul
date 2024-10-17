@@ -11,6 +11,8 @@ minimap {
  width 256;
  height 256;
 
+ scale 0.2;
+ 
 # map0 0;
  objects0 0;
 
