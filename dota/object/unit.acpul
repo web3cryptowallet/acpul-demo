@@ -34,6 +34,7 @@ if (r0) { #hack!
  if (subtype==ost.bot) {
   node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
  };
+
  if (subtype==ost.player) {
   n = 4;
   q = floor(rnd(u0)*n);
@@ -45,7 +46,7 @@ if (r0) { #hack!
 #  apply.effect(eff0);
 
 
-# sword.a0;
+ sword.a0;
 };
 
 # UNIT [
