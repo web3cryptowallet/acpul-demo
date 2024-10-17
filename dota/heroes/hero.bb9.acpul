@@ -7,6 +7,7 @@ sn0 0;
 
 if ((sn0==0)*(w>0)*(h>0)) {
  new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28994); # dota.droid.bb9
+ shader.set.uniform.v3(sn0, A.color, rnd(u0),rnd(u0),rnd(u0));
 };
 
 #tex0 0;
