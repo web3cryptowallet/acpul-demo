@@ -223,10 +223,10 @@ a {
  new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
 
  new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28997); # dota.space.destroyer
-# shader.set.texture(sn0, A.iChannel0, tex80toad); # 
 # shader.set.uniform.v3(sn0, A.rot0, rnd(u0)*10,rnd(u0),rnd(u0));
  shader.set.uniform.v3(sn0, A.rot0, 0,0,0);
 # shader.set.uniform.v3(sn0, A.color0, rnd(u0)*0.5,rnd(u0)*0.5,rnd(u0)*0.5);
+ shader.set.texture(sn0, A.iChannel0, tex99); # 
  shader.set.uniform.v3(sn0, A.color0, -1,0,0);
 
  new.eggs1;
