@@ -17,12 +17,16 @@ bt obj.bots.types;
 _ @1010;
 _ @sys.node;
 
+# HEALTH CRYSTALS [
+
 if (utype==bt.homehealth) {
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
   node.new.this.ex(u0, Crystal.Pulses, 0);
  };
 };
+
+# HEALTH CRYSTALS ]
 
 _ @dota.heroes;
 
