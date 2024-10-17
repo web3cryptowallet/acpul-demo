@@ -97,8 +97,14 @@ sword.a0 {
  sword0:=sn0;
 };
 
-sword.a1 {
- 
+sword.a0 {
+ sn0 0;
+# new.ui.shader.node3(sn0, 00,200,1, 400,400, 70014,28961); # dota.weapon.sword2
+ new.ui.shader.node3(sn0, 100,200,1, 100,200, 70014,28961); # dota.weapon.sword2
+ node.anchor.point.s1(u0, sn0, 0.5,0.5);
+ node.prop.r.s(u0, sn0, 30);
+ sword0:=sn0;
+
 };
 
 #sword.a0 {
