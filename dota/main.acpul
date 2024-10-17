@@ -63,10 +63,10 @@ dota.pool 3202;
 dota.evs {
   # ev, o0... - event
  if (_0==ev.dota.new.object) {
-  object.added;  
+  object.added(o0);
  };
  if (_0==ev.dota.del.object) {
-  object.removed;
+  object.removed(o0);
  };
 };
 
