@@ -55,6 +55,10 @@ object.added {
  minimap.pack(mm0);
 };
 
+object.removed {
+  
+};
+
 # MINIMAP ]
 # events process [
 
