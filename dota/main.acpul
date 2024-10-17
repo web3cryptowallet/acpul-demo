@@ -38,6 +38,7 @@ if (r0) {
 # MINIMAP [
 
 _ @dota.minimap.def;
+_ @sys.events;
 
 minimap0 0;
 mm0 0;
