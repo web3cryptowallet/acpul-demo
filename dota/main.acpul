@@ -37,6 +37,8 @@ if (r0) {
 # BATTLEFIELD ]
 # MINIMAP [
 
+_ @dota.minimap.def;
+
 minimap0 0;
 mm0 0;
 
