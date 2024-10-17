@@ -31,6 +31,9 @@ hero0 0;
 sword0 0;
 eff0 0;
 
+sword0.dx 0;
+sword0.dy 0;
+
 if (r0) {
  
  # BOT
