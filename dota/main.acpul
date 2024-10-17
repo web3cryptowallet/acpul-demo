@@ -58,6 +58,7 @@ object.added {
 };
 
 # MINIMAP ]
+# events process [
 
 dota.pool 3202;
 
