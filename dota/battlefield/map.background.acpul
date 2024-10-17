@@ -34,5 +34,5 @@ if (r0) {
  w0 MAP.WIDTH;
  h0 MAP.HEIGHT;
 
- new.node.common0(sn0, x0,y0,s0, w0,h0, NNN(dota.map.ground1), 0);
+# new.node.common0(sn0, x0,y0,s0, w0,h0, NNN(dota.map.ground1), 0);
 };
