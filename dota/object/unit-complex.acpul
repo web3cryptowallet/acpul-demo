@@ -55,6 +55,8 @@ bt obj.bots.types;
 
 utype r7;
 
+# TOWER [
+
 if (utype==bt.tower) {
  b(1,0,3,3);
  b(0,3,1,1);
@@ -62,12 +64,18 @@ if (utype==bt.tower) {
  b(4,3,1,1);
 };
 
+# TOWER ]
+# BASE [
+
 if (utype==bt.homebase) {
  b(-1,0,7,3);
  b(0,3,1,1);
  b(2,3,1,1);
  b(4,3,1,1);
 };
+
+# BASE ]
+# SHOP [
 
 if (utype==bt.shop) {
  l0:=0;
@@ -78,6 +86,9 @@ if (utype==bt.shop) {
  node.ex.shader.use(u0, 37100, 37033);
  node.ex.gl.rect(u0, -40,77, 200,400);
 };
+
+# SHOP ]
+# HEALTH CRYSTALS [
 
 if (utype==bt.homehealth) {
  a 1;
@@ -101,6 +112,8 @@ if (utype==bt.homehealth) {
 
  #point4(u0, 2, x,y, x-30*sc,y+50*sc, x,y+100*sc, x+30*sc,y+50*sc);
 };
+
+# HEALTH CRYSTALS ]
 
 ### 3236 U::C::Crystal.Pulses
 
