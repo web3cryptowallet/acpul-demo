@@ -89,8 +89,8 @@ _ @dota.unit.apply.effect;
 
 # WEAPON ]
 
-node.prop.r.s(u0, sword0,-45+sin(t*0.1)*3);
-t+=dt;
+node.prop.r.s(u0, sword0,-45+sin(t*0.1)*3+100*rnd(u0));
+
 # FUN [
 
 smile {
