@@ -134,11 +134,10 @@ self context;
 
 # unit code (split later) ]
 
-k:=1;
 
-#node.prop.z.order.s(u0, nid, rnd(u0)*100);
 
-#y:=rnd(u0)*100;
+
+
 
 ### 3221 Object.draw
 
