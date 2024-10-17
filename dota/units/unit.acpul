@@ -48,7 +48,7 @@ if (r0) {
 
   create.unit(q);
 
-  apply.effect(eff0, 1);
+  apply.effect(eff0, 0);
 
   sword.a0;
 };
