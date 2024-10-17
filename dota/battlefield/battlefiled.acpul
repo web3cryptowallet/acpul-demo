@@ -17,10 +17,6 @@ _ @os.util0;
 _ @basic.ui;
 _ @os.util2;
 
-# MAP BY CAMERA
-#s:=2;
-s:=3;
-
 # MAP
 #node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
 
@@ -42,6 +38,10 @@ if (r0) {
  new.node.common0(omphalos0, 240,0,1/3, 100*3,300*3, dota.forest.of.omphalos, 0);
  new.node.common0(omphalos0, 0,240,1/3, 300*3,100*3, dota.forest.of.omphalos, 0);
 };
+
+# MAP BY CAMERA
+#s:=2;
+s:=3;
 
 x:=100*sin(t);
 t+=dt;
