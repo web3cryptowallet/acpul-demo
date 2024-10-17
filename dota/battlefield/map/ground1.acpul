@@ -226,7 +226,8 @@ a {
  shader.set.uniform.v3(sn0, A.rot0, 0.3,-2,0);
 # 1
  shader.set.uniform.v3(sn0, A.color0, -1,0,0);
- shader.set.texture(sn0, A.iChannel0, tex99); # 
+# shader.set.texture(sn0, A.iChannel0, tex99); # 
+ shader.set.texture(sn0, A.iChannel0, tex0); # 
 # 2
 # shader.set.uniform.v3(sn0, A.rot0, rnd(u0)*10,rnd(u0),rnd(u0));
 # shader.set.uniform.v3(sn0, A.color0, rnd(u0)*0.5,rnd(u0)*0.5,rnd(u0)*0.5);
