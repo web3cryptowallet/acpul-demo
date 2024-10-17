@@ -42,8 +42,9 @@ if (r0) { #hack!
   c = q==2;
   d = q==3;
 
-  node.new.this.ex(r0*a, UNIT.ROBOT, player.id);
-
+  if (r0*a) {
+   hero0:=node.new.this.ex(u0, UNIT.ROBOT, player.id);
+  };
   if (r0*b) {
    new.node.common0(hero0, 0,0,0.15, 100,100, hero.bobann, player.id);
   };
