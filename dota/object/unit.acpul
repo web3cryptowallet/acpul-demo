@@ -51,7 +51,7 @@ if (r0) { #hack!
    new.node.common0(hero0, 0,20,0.5, 100,100, hero.leprechaun, player.id);
   };
   if (r0*d) {
-   new.node.common0(hero0, 0,20,0.3, 100,100, NNN(dota.hero.bb9), player.id);
+   new.node.common0(hero0, 0-10,10,0.3, 100,100, NNN(dota.hero.bb9), player.id);
   };
 
   
