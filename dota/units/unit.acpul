@@ -92,7 +92,7 @@ _ @dota.unit.apply.effect;
 
 sword.a0 {
  sn0 0;
- new.ui.shader.node(sn0, 0-12+sword0.dx,13+sword0.dy,0.4, 100,100, 1, 70014,28748); # 
+ new.ui.shader.node(sn0, 0-112+sword0.dx,13+sword0.dy,0.4, 100,100, 1, 70014,28748); # 
  node.prop.x.s(u0, sn0,20);
  node.prop.r.s(u0, sn0,-45);
  sword0:=sn0;
