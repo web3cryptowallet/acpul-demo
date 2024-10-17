@@ -5,13 +5,13 @@ apply.effect {
  eff0 _0;
  id _1;
 
- effect0 {
+ effect0 { # lucky heal
   sn0 0;
   new.ui.shader.node3(sn0, 0-15,10,0.5, 100,100, 70014,28733); # st.patrick.clover
  };
 # effect0;
 
- effect1 {
+ effect1 { # shiled
   sn0 0;
   new.ui.shader.node3(sn0, 0-12,13,0.4, 100,100, 70014,28740); # dota.effect.shield
  };
