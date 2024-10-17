@@ -46,10 +46,12 @@ if (r0) {
  minimap.unpack(mm0);
 };
 
-
-minimap.add();
-minimap.pack(mm0);
-
+object.added {
+ # obj
+ o=_0;
+ minimap.add(o);
+ minimap.pack(mm0);
+};
 
 # MINIMAP ]
 
@@ -58,10 +60,10 @@ dota.pool 3202;
 dota.evs {
   # ev, o0... - event
  if (_0==ev.dota.new.object) {
-  
+  object.added;  
  };
  if (_0==ev.dota.del.object) {
-
+  object.removed;
  };
 };
 
