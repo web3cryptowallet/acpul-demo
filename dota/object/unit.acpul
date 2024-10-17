@@ -37,10 +37,13 @@ if (r0) { #hack!
   n = 4;
   q = floor(rnd(u0)*n);
   q = 3;
+ create.unit {
+  q _0;
   a = q==0;
   b = q==1;
   c = q==2;
   d = q==3;
+
 
   if (r0*a) {
    hero0:=node.new.this.ex(u0, UNIT.ROBOT, player.id);
@@ -54,7 +57,10 @@ if (r0) { #hack!
   if (r0*d) {
    new.node.common0(hero0, 0-12,10,0.4, 100,100, NNN(dota.hero.bb9), player.id);
   };
+ };
+  create.unit(q);
 
+ 
   eff0 0;
 #  apply.effect(eff0);
 
