@@ -275,8 +275,13 @@ shader.set.uniform.v(xcoin0.sn0, A.time, t*2);
 t+=dt;
 
 # XCOIN ]
+# SPACE [
 
 _ @dota.space.spaceport;
+
+_ @dota.space.destroyer;
+
+# SPACE ]
 
 add.coin {
  _ @dota.fly.box2;
@@ -285,7 +290,6 @@ add.coin {
 };
 
 #add.coin;
-
 
 # STARSHIP ]
 
