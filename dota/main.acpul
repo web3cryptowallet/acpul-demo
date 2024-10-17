@@ -47,12 +47,7 @@ if (r0) {
  mm0:=node.value.g(u0, minimap0,0);
  minimap.unpack(mm0);
 
- l10;
  events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
- events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
- events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
- events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
- l11;
 };
 
 object.added {
@@ -65,7 +60,7 @@ object.added {
 # MINIMAP ]
 
 dota.pool 3202;
-l12;
+
 dota.evs {
   # ev, o0... - event
  if (_0==ev.dota.new.object) {
