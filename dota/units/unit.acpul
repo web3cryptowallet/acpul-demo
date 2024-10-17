@@ -111,7 +111,6 @@ sword.a1 {
  sword0.r:=45;
  node.prop.r.s(u0, sn0,sword0.r);
  sword0:=sn0;
-
 };
 
 #sword.a0 {
