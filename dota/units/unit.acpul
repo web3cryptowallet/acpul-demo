@@ -93,7 +93,7 @@ sword.a0 {
  sword0:=sn0;
 };
 
-node.prop.r.s(u0, sword0,-45+sin(t*10.)*3);
+node.prop.r.s(u0, sword0,-45+sin(t*100.)*3);
 #node.prop.r.s(u0, sword0,-45+sin(t*0.1)*3+100*rnd(u0));
 
 # WEAPON ]
