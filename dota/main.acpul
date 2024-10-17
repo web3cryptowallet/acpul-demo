@@ -46,8 +46,6 @@ if (r0) {
  minimap0:=node.new.this.ex4(r0, dota.minimap, 0,0,0,0);
  mm0:=node.value.g(u0, minimap0,0);
  minimap.unpack(mm0);
-
-# events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
 };
 
 object.added {
