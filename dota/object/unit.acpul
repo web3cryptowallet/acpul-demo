@@ -43,7 +43,7 @@ if (r0) { #hack!
 
   create.unit(q);
 
-#  apply.effect(eff0);
+  apply.effect(eff0);
 
   sword.a0;
 };
