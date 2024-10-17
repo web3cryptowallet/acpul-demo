@@ -42,7 +42,7 @@ apply.effect {
  };
 # effect5;
 
- effect6 {
+ effect6 { # stones
   sn0 0;
   new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
  };
