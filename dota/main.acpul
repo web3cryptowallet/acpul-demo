@@ -74,7 +74,7 @@ dota.evs {
 };
 
 _ @os.util2;
-#ui.event.process4(dota.pool,0, dota.evs);
+ui.event.process4(dota.pool,0, dota.evs);
 
 # events process ]
 
