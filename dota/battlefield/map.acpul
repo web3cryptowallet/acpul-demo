@@ -137,7 +137,7 @@ create.minions(r0);
 
 r2:=if(r2<60*5,r2+1,0);
 if (r2==0) {
- create.minions(u0);
+# create.minions(u0);
 };
 
 # MINIONS ]
