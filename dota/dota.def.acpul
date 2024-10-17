@@ -35,6 +35,8 @@ dota.battlefield 3280;
 dota.gameplay.panel 3282;
 dota.forest.of.omphalos 3284;
 
+dota.pool 3202;
+
 gnet.wr u3;
 gnet.rd u4;
 
