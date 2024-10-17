@@ -52,6 +52,7 @@ draw(r0, 3221);
 if (r0) {
  x:=x0;
  y:=y0;
+ y:=0;
 };
 
 node.prop.z.order.s(u0, nid, 100000-y);
