@@ -85,10 +85,11 @@ if (r0) {
  minimap.add(1);
  minimap.add(1);
  minimap.add(1);
- node.value.s(u0, nid,0, minimap0);
 };
 
 minimap0:=minimap.pack;
+
+node.value.s(u0, nid,0, minimap0);
 
 
 # MINIMAP0 ]
