@@ -38,7 +38,6 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28565); # for.portal2
 
 # Good
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28514); # core
 
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
@@ -76,6 +75,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.3, w,h, 1, 70014,28724); # map.butterfly1
 
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28514); # bullet.core
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28500); # bullet.effect2
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28517); # bullet.eff5
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28523); # bullet.eff7
