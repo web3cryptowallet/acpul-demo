@@ -88,7 +88,7 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28543); # bullet.ball
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4.lazer
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); # eff6.
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); # eff6.circle
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # acpu.startup.eye
 };
