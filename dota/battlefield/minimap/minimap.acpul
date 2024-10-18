@@ -133,3 +133,15 @@ i:=0;while(i<count) {
  i+=1;
 };
 
+### minimap.viewport
+
+w:=100;
+h:=100;
+
+
+
+### minimap.viewport.draw
+
+color(u0, 1,1,1,1);
+rect(u0, 6, 0,0, w,h);
+
