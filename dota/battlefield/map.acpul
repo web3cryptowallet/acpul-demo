@@ -31,7 +31,7 @@ node.new.this.ex(r0, NNN(dota.map.background), 0);
 if (r0) {
 
 # ?
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28713); # gojo.tower.main.screen
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28713); # gojo.tower.main.screen
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28711); # pioneer.smile 
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28700); # for.portal1
