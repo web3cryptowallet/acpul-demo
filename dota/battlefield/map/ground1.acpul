@@ -226,6 +226,7 @@ a {
 
  new.ui.shader.node3(sn0, 260,80,1/2, 300/2,300/2, 70014,28998); # dota.
 
+ new.ui.shader.node(sn0, 0,0,2, w/2,h/2, 1, 70014,28200);
 
  new.eggs1;
 };
