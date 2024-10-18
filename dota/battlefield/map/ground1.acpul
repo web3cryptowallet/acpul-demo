@@ -123,9 +123,8 @@ tex99 0; # mask grass1
 
 sn0 0;
 
-_ @dota.ground1.alien;
-
-### ytytuu
+#_ @dota.ground1.alien;
+# ## ytytuu
 
 
 if (r0) {
