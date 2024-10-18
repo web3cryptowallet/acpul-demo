@@ -51,7 +51,6 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28505); # fireball
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28543); # ball
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # eye
@@ -85,6 +84,8 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28556); # salute
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28558); # bg
+
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28505); # fireball
 };
 
 l1:=OBJECT;
