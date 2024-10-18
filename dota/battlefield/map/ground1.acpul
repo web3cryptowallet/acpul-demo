@@ -158,7 +158,7 @@ a {
 # load.texture(tex2, 11001,10,5); # ground.rocks10 1024x512
 # load.texture(tex2, 11001,11,6); # ground.rocks11 1024x512
 
-# load.texture(tex0, 11001,12,1); # ground.pattern1
+ load.texture(tex0, 11001,12,1); # ground.pattern1
 # load.texture(tex0, 11001,12,2); # ground.pattern2
 # load.texture(tex0, 11001,12,3); # ground.pattern3
 
