@@ -227,7 +227,7 @@ a {
  new.ui.shader.node3(sn0, 260,80,1/2, 300/2,300/2, 70014,28998); # dota.alien.enemy
 
  new.ui.shader.node(sn0, 0,0,1, 300,300, 1, 70014,28200);
- new.ui.shader.node(sn0, 0,0,1, 100,100, 1, 70014,28201); # alien
+ new.ui.shader.node(sn0, 0,0,1, 300,300, 1, 70014,28201); # alien
 
  new.eggs1;
 };
