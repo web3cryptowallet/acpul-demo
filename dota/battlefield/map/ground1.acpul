@@ -227,6 +227,7 @@ a {
 
 
  new.ui.shader.node3(sn0, 260,0,1/3, 300,300, 70014,29103); # dota.map.alien.terrain
+ shader.set.uniform.v2(sn0, A.offs, 0,0);
  new.ui.shader.node3(sn0, 260,0,1/3, 300,300, 70014,29104); # dota.alien.egg04
  new.ui.shader.node3(sn0, 260,80,1/3, 300/2,300/2, 70014,28998); # dota.alien.enemy
 
