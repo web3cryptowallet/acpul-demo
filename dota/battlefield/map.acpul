@@ -86,7 +86,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28505); # fireball
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4
 };
 
 l1:=OBJECT;
