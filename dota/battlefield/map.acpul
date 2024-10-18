@@ -40,7 +40,7 @@ if (r0) {
 # Good
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28514); # core
 
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
