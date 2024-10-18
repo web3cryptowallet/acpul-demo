@@ -51,7 +51,6 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28543); # ball
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # eye
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28542); # jinni?
 
@@ -90,6 +89,8 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28506); # bullet.eff3
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4.lazer
+
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # acpu.startup.eye
 };
 
 l1:=OBJECT;
