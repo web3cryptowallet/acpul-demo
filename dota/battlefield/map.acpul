@@ -51,7 +51,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28543); # ball
 
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # eye
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # eye
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28542); # jinni?
 
