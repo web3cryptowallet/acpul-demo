@@ -42,7 +42,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28500); # effect2
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28517); # eff5
+ new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28517); # eff5
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
