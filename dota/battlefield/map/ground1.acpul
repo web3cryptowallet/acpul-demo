@@ -291,5 +291,74 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,20,20,0.3, A.starship.velocity0, starship.ve
 #  new.ui.shader.node3(starship0, x,y,1/2, 100/1,300/1, 70014,28992); # dota.starship92
 #  shader.set.uniform.v(starship0, A.time, 0);
 
-### dota.starship
 
+
+### dota.ground1.alien
+
+new.ground {
+# new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
+# new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
+ new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28972); # dota.layer.ground2
+ texx=node.value.g(u0, sn0,0);
+# gl.texture.filter.nearest(texx);
+ gl.texture.filter.linear(texx);
+
+# new.ui.shader.node3(sn0,  0,0,1/3, 1000,1000, 70014,28973); # x dota.layer.ground3
+# new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28973); # x dota.layer.ground3
+
+ shader.set.texture(sn0, A.iChannel0, tex99); # mask
+ shader.set.texture(sn0, A.iChannel1, tex0);
+ shader.set.texture(sn0, A.iChannel2, tex1);
+ shader.set.texture(sn0, A.iChannel3, tex2);
+ #shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
+ #shader.set.uniform.v(sn0, A.time1, 10*rnd(u0));
+};
+
+if (r0)
+{
+# load.texture(tex0, 11001,1,1);
+# load.texture(tex0, 11001,1,2);
+# load.texture(tex0, 11001,1,3);
+
+a {
+ load.texture(tex99, 11001,1,2); # mask grass1
+ load.texture(tex0, 11001,1,4); # ground.grass1
+ load.texture(tex1, 11001,2,5); # ground.gold
+ load.texture(tex2, 11001,6,3); # ground.rocks
+};
+
+# load.texture(tex99, 11001,1,1); # mask grass1
+ load.texture(tex99, 11001,1,2); # mask grass1
+# load.texture(tex99, 11001,1,3); # mask grass1
+
+ load.texture(tex0, 11001,1,4); # ground.grass1
+ load.texture(tex1, 11001,2,5); # ground.gold
+# load.texture(tex2, 11001,3,1); # ground.marble
+
+# load.texture(tex2, 11001,4,6); # ground.sand
+# load.texture(tex0, 11001,4,6); # ground.sand
+
+# load.texture(tex0, 11001,5,4); # ground.forest
+# load.texture(tex2, 11001,5,4); # ground.forest
+ load.texture(tex4, 11001,6,3); # ground.rocks
+# load.texture(tex2, 11001,7,2); # ground.grass7
+
+ load.texture(tex2, 11001,8,5); # ground.road
+# load.texture(tex2, 11001,8,5); # ground.paving.stones
+
+# load.texture(tex2, 11001,9,4); # ground.bricks9
+# load.texture(tex2, 11001,10,5); # ground.rocks10 1024x512
+# load.texture(tex2, 11001,11,6); # ground.rocks11 1024x512
+
+# load.texture(tex0, 11001,12,1); # ground.pattern1
+# load.texture(tex0, 11001,12,2); # ground.pattern2
+# load.texture(tex0, 11001,12,3); # ground.pattern3
+
+ new.ui.shader.node3(sn0, 260,0,1/3, 300,300, 70014,29103); # dota.map.alien.terrain
+ shader.set.uniform.v2(sn0, A.offs, 0.5,0.1);
+ tex0:=node.value.g(u0, sn0,0);
+
+
+ new.ground;
+
+};
