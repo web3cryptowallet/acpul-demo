@@ -40,7 +40,6 @@ if (r0) {
 # Good
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28514); # core
 
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # effect1
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28510); # party1
 
@@ -87,6 +86,7 @@ if (r0) {
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28509); # eff4.lazer
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28522); # eff6.circle
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28590); # eff.effect1
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28526); # acpu.startup.eye
 };
