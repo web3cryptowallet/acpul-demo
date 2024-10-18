@@ -39,12 +39,16 @@ if (r0) {
  new.node.common0(omphalos0, 0,240,1/3, 300*3,100*3, dota.forest.of.omphalos, 0);
 };
 
-# MAP BY CAMERA
+# MAP BY CAMERA [
+
 #s:=2;
-s:=3;
+#s:=3;
+s:=5;
 
 x:=100*sin(t);
 t+=dt;
+
+# MAP BY CAMERA ]
 
 ### 3281 dota.battlefield.draw
 
