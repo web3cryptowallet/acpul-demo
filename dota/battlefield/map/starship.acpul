@@ -8,7 +8,7 @@ new.destroyer {
  # x:y:s:w:h
  x _0; y _1; s _2; w _3; h _4;
  sn0 0;
-# new.ui.shader.node3(sn0, x,y,s, w,h, 70014,28997); # dota.space.destroyer
+ new.ui.shader.node3(sn0, x,y,s, w,h, 70014,28997); # dota.space.destroyer
  shader.set.uniform.v3(sn0, A.rot0, 0.3,-2,0);
 # 1
  shader.set.uniform.v3(sn0, A.color0, -1,0,0);
