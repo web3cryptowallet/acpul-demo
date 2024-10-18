@@ -123,6 +123,8 @@ tex99 0; # mask grass1
 
 sn0 0;
 
+### ytytuu
+
 if (r0) {
 # load.texture(tex0, 11001,1,1);
 # load.texture(tex0, 11001,1,2);
