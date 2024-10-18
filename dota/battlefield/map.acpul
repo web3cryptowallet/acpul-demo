@@ -75,8 +75,6 @@ if (r0) {
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28556); # salute
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28558); # bg
- new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28561); # bg
-# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28573); # bg.eye
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28583); # bg
 
 # new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28720); # water1
@@ -97,6 +95,9 @@ if (r0) {
 #x new.ui.shader.node(sn0, 0,-20,1, 200,200, 1, 70014,28732); # fireball3
 #x new.ui.shader.node(sn0, 0,0,0.5/2, 100,100, 1, 70014,28734); # eye34
 #x new.ui.shader.node(sn0, 0,0,0.5/2, 100,100, 1, 70014,28734); # eye34
+
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28561); # bg.screen.main
+# new.ui.shader.node(sn0, 0,0,0.5, w,h, 1, 70014,28573); # bg.screen.eye
 };
 
 l1:=OBJECT;
