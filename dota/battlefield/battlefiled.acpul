@@ -54,8 +54,8 @@ y:=(-node.y(player0))*s+h/2;
 # MAP BY CAMERA [
 
 #s:=2;
-s:=3;
-#s:=5;
+#s:=3;
+s:=5;
 
 #x:=100*sin(t);
 t+=dt;
