@@ -79,7 +79,7 @@ touch.ev {
   y0:=_3;
   xs:=x0;
   ys:=y0;
-
+x:=rnd(u0)*111;
   pressed:=1;
   clicked:=1;
  };
