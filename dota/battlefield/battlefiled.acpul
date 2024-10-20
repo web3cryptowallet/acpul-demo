@@ -49,8 +49,75 @@ s:=3;
 t+=dt;
 
 # MAP BY CAMERA ]
+# TOUCH [
 
+# TOUCH [
 
+#_ @sys.os;
+_ @os.util2;
+
+_ @sys.touch;
+_ @sys.events;
+
+pressed 0;
+clicked 0;
+moving 0;
+
+x0 0; y0 0;
+xs 0; ys 0; 
+dx.max 25;
+dy.max 25;
+
+touch.id 0;
+touch.b0 0;
+
+touch.ev {
+ began {
+  # x,y, gx,gy
+
+  x0:=_2;
+  y0:=_3;
+  xs:=x0;
+  ys:=y0;
+
+  pressed:=1;
+  clicked:=1;
+ };
+ moved {
+  # x,y, gx,gy
+
+  xp = x0;
+  yp = y0;
+
+  # check clicked
+  if ((abs(_3-ys)>dy.max)+(abs(_2-xs)>dx.max)) {
+   clicked:=0;
+   moving:=1;
+  };
+  if (moving) {
+   x+=_2-x0;
+   y+=_3-y0;
+   x0:=_2;
+   y0:=_3;
+  };
+ };
+ ended {
+  # x,y, gx,gy
+
+  pressed:=0;
+  moving:=0;
+
+#  click.ended;
+ };
+};
+
+ touch.rect2.lock(touch.id, 0,0,w,h),
+
+_ @sys.touch.ev.process.once;
+touch.b0:=1;
+touch.ev.process.multi;
+
+# TOUCH ]
 
 ### 3281 dota.battlefield.draw
 
