@@ -53,6 +53,13 @@ y:=(-node.y(player0))*s+h/2;
 x:=if(x<0,0,x);
 y:=if(y<0,0,y);
 
+_ @4;
+
+info {
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, X, x);
+};
+info;
+
 # MAP BY CAMERA [
 
 #s:=2;
