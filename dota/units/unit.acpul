@@ -34,7 +34,7 @@ eff0 0;
 sword0.x 0;
 sword0.y 0;
 sword0.r 0;
-sword0.on := 1;
+sword0.on 0;
 
 if (r0) {
  
