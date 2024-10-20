@@ -34,6 +34,7 @@ eff0 0;
 sword0.x 0;
 sword0.y 0;
 sword0.r 0;
+sword0.on := 1;
 
 if (r0) {
  
@@ -71,6 +72,7 @@ if (r0) {
   c = q==2;
   d = q==3;
 
+  sword0.on := 1;
   sword0.x := 23;
   sword0.y := 7;
  
