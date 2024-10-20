@@ -56,8 +56,8 @@ y:=if(y<0,0,y);
 _ @4;
 
 info {
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1/5, X, x);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,10,1/5, Y, Y);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,5,1/5, X, x);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1/5, Y, Y);
 };
 info;
 
