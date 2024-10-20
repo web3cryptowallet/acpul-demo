@@ -17,11 +17,15 @@ _ @os.util0;
 _ @basic.ui;
 _ @os.util2;
 
-# MAP
+# MAP ???
 #node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
 
+map0 0;
+
 MAP 3224;
-node.new.this.ex(r0, MAP, 0);
+if (r0) {
+ map0:=node.new.this.ex(r0, MAP, 0);
+};
 
 w:=500;
 h:=500;
@@ -40,7 +44,10 @@ if (r0) {
 };
 
 
- node.value.s(u0, nid,0, player0);
+player0 0;
+player0:=node.value.g(u0, map0,0);
+
+
 
 # MAP BY CAMERA [
 
