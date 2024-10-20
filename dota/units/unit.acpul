@@ -72,7 +72,7 @@ if (r0) {
   d = q==3;
 
   sword0.x := 23;
-   sword0.y := 7;
+  sword0.y := 7;
  
   if (r0*a) {
    hero0:=node.new.this.ex(u0, UNIT.ROBOT, player.id);
