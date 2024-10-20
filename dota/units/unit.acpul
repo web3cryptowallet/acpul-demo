@@ -54,6 +54,7 @@ if (r0) {
   create.unit(q);
 
 #  apply.effect(eff0, 0);
+   sword0.on := 0;
 
   if (sword0.on) {
    n = 2;
