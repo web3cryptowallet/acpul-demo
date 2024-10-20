@@ -45,7 +45,7 @@ if (r0) {
 s:=3;
 #s:=5;
 
-x:=100*sin(t);
+#x:=100*sin(t);
 t+=dt;
 
 # MAP BY CAMERA ]
