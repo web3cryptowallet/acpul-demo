@@ -46,7 +46,7 @@ if (r0) {
 
 player0 0;
 player0:=node.value.g(u0, map0,0);
-
+player0
 
 
 # MAP BY CAMERA [
