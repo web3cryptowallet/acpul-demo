@@ -55,11 +55,13 @@ if (r0) {
 
 #  apply.effect(eff0, 0);
 
-  n = 2;
-  q = floor(rnd(u0)*n);
+  if (sword0.on) {
+   n = 2;
+   q = floor(rnd(u0)*n);
 #  q = 3;
-  if (q==0) {sword.a0;};
-  if (q==1) {sword.a1;};
+   if (q==0) {sword.a0;};
+   if (q==1) {sword.a1;};
+  };
  };
 };
 
