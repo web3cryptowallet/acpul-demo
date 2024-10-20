@@ -111,7 +111,7 @@ x:=rnd(u0)*111;
  };
 };
 
-touch.rect2.lock(touch.id, 0,0,w,h),
+touch.rect2.lock(touch.id, 0,0,w,h);
 
 _ @sys.touch.ev.process.once;
 touch.b0:=1;
