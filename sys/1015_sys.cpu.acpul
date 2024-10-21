@@ -410,7 +410,7 @@ debugger.get.errors {
  #  [0] - type=0, fid, number, lne, col
  #  [1] - message
  # -> error 1 - shaders
- #  [0] - type=1, sid, number, lne, col, shaderId, shaderType
+ #  [0] - type=1, sid, number, lne, col, shaderId, shaderType, vid, fid
  #  [1] - message
  debugger.cmd.param0(_0, _4, 0,0);
  debugger.cmd(_0, 12, _1, _2, _3);
