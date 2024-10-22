@@ -50,6 +50,19 @@ cpu.debug.get.formula.info.runtime.memory
 # # u0, fid -> objects
 # runtime(_0, 0, _1, _2);
 
+cpu.debug.formula.has.binary
+ # u0, fid -> has.binary
+
+cpu.debug.formula.is.binary.on
+ # u0, fid -> enabled
+
+cpu.debug.formula.is.empty
+ # u0, fid -> empty
+
+cpu.debug.formula.set.binary.on
+ # u0, fid, on
+ cpu.debug.get.formula.info.runtime(_0, 4, _1, 0, _2);
+
 # runtime ]
 
 # new ]
