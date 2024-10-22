@@ -61,7 +61,7 @@ cpu.debug.formula.is.empty
 
 cpu.debug.formula.set.binary.on
  # u0, fid, on
- cpu.debug.get.formula.info.runtime(_0, 4, _1, 0, _2);
+ cpu.debug.get.formula.info.runtime(_0, 4, _1,0, _2);
 
 # runtime ]
 
