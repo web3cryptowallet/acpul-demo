@@ -66,6 +66,7 @@ S.live1.twitch.tv rtmp://live-jfk.twitch.tv/app/live_442520422_hFVfe4yhYnoOwsSCa
 S.acpu.server.url0 ws://192.168.8.100:8077;
 
 ### 2 qqqqq
+
 r0:=0;
 
 
