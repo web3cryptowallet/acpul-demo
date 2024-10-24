@@ -120,7 +120,7 @@ node.new.this.ex(r0, Boot.texture, 0);
 #_ @sys.cpu;
 
 qtime 0;
-qtime+=0.001;
+qtime+=0.0001;
 cpu.set.frame.time(u0, sin(qtime)*100);
 #cpu.set.frame.time(u0, rnd(u0)*1000);
 
