@@ -1,5 +1,117 @@
-### 0 NONAME
-hhh
+### 0 PRESET
+ 
+# https://github.com/DavidGerva/LockTab-Sublime-Plugin
+
+UI.MODE 2; #if(rnd(r10+125345)>0.5,1,0); #u12;
+
+SHOW.AVATARS0 0;
+
+SHOW.UFO 1;
+SHOW.WALLEE 1;
+
+RAY3D.MODE 0;
+
+DEBUG.FRAMES 0;
+
+#IDE.FID 9811;
+#IDE.FID 15500;
+IDE.FID 16610;
+
+#TRACK {POOL 7; ID 1; I 0; TIME 0;};
+
+#TRACK.SET music.set.track(r0, 1, 2, 3);
+#TRACK.SET music.set.track(r0, 1, 2, 4);
+#TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
+#TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
+#TRACK.SET music.set.track(r0, 1, 2, 7); # TERM
+#TRACK.SET music.set.track(r0, 1, 2, 8); # TWIST
+#TRACK.SET music.set.track(r0, 1, 2, 11); # STARWARS
+
+#TRACK.SET music.set.track(r0, 1, 2, 12); # EE EelkeKlein
+#TRACK.SET music.set.track(r0, 1, 2, 13);
+#TRACK.SET music.set.track(r0, 1, 2, 14);
+#TRACK.SET music.set.track(r0, 1, 2, 15);
+TRACK.SET music.set.track(r0, 1, 2, 17); # EE189
+#TRACK.SET music.set.track(r0, 1, 2, 18); # Noc
+
+#TRACK.STOP music.stop(r0);
+
+#TRACK.PLAY music.play(r0, 1, 0, 1);
+#TRACK.PLAY music.play(r0, 1, 360, 1);
+#TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
+#TRACK.PLAY music.play(r0, 1, 26.8*60, 1); # EE
+TRACK.PLAY music.play(r0, 1, 60*46+20, 1); # EE
+
+#TRACK.SET music.set.track(r0, 1, 2, 6); # WhoMadeWho
+#TRACK.PLAY music.play(r0, 1, 1.2*60*60, 1);
+#TRACK.PLAY music.play(r0, 1, 360, 1);
+#TRACK.PLAY music.play(r0, 1, 360*1.79, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 1); # AVATAR
+#TRACK.PLAY music.play(r0, 1, 0, 1);
+##TRACK.SET music.set.track(r0, 1, 2, 2); # AVB-1
+#TRACK.PLAY music.play(r0, 1, 1100, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 19); # Spirit
+#TRACK.PLAY music.play(r0, 1, 10*60, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 18); # Noc
+#TRACK.SET music.set.track(r0, 1, 2, 20); # avb
+#TRACK.PLAY music.play(r0, 1, 0, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 22); # W3W
+#TRACK.PLAY music.play(r0, 1, 60, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 23); # Synergy
+#TRACK.PLAY music.play(r0, 1, 0, 1);
+
+#TRACK.SET music.set.track(r0, 1, 2, 24); # Space1
+#TRACK.SET music.set.track(r0, 1, 2, 25); # Space2
+#TRACK.SET music.set.track(r0, 1, 2, 26); # Space3
+#TRACK.PLAY music.play(r0, 1, 0, 1);
+
+#TRACK.SET music.set.track(r0, 1, 3, 43); # serious sam
+#TRACK.SET music.set.track(r0, 1, 3, 4); # serious sam
+
+#TRACK.SET music.set.track(r0, 1, 2, 27); # megablast
+#TRACK.SET music.set.track(r0, 1, 2, 29); # fantastica
+
+#TRACK.SET music.set.track(r0, 1, 2, 30); # 
+#TRACK.SET music.set.track(r0, 1, 2, 31); # Pa
+
+#TRACK.SET music.set.track(r0, 1, 2, 32); # Moby
+#TRACK.SET music.set.track(r0, 1, 2, 36); # 
+#TRACK.SET music.set.track(r0, 1, 2, 33); # 
+
+#TRACK.PLAY music.play(r0, 1, 0, 1); 
+
+# VIDEO REC/STREAM [
+
+VIDEO.REC.SECONDS 15;
+STREAM.TWITCH 0;
+
+# VIDEO REC/STREAM ]
+# MODULES ]
+
+BOOT.OPTIONS 997;
+
+# MODULES ]
+
+# CPU A1 [
+
+
+ dma0 0;
+ dma1 1;
+
+# CPU A1 ]
+
+# FUTURE AI OPTIMIZATIONS [
+
+# FUTURE AI OPTIMIZATIONS ]
+
+
+
+
 ### 4 INC.OS
 
 _ @1010;
