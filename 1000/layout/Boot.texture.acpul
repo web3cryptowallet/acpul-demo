@@ -121,7 +121,7 @@ to.texture1.flip {
 
 #  w 768; h 1024;
 #  node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
-  gl.rect0(5, 0,h, w,-h);
+#  gl.rect0(5, 0,h, w,-h);
 
   gl.fbo(-1);
 };
