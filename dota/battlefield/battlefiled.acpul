@@ -46,7 +46,7 @@ if (r0) {
 # CAMERA TO PLAYER [
 
 _ @sys.net;
-player.index:=net.get.index(u0);
+player.index=net.get.index(u0);
 
 movemode 0;
 
