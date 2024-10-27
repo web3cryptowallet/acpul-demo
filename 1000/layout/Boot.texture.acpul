@@ -114,14 +114,14 @@ to.texture0 {
 
 to.texture1.flip {
   gl.fbo(tex1.flip);
-#  gl.clear(1,1,0,0);
+  gl.clear(1,1,0,0);
 #a:=1;
   gl.shader.use(70014,70015);
   gl.shader.uniform.texture(0, tex0, 0);
 
 #  w 768; h 1024;
 #  node.ex.gl.point4tex4(u0, 5, 0,0,w,0,0,h,w,h, 0,1, 1,1, 0,0, 1,0);
-#  gl.rect0(5, 0,h, w,-h);
+  gl.rect0(5, 0,h, w,-h);
 
   gl.fbo(-1);
 };
