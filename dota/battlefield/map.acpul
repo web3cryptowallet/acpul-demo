@@ -6,6 +6,8 @@ draw(r0, 3225);
 _ @3200;
 _ @1010;
 _ @sys.node;
+_ @os.basic;
+_ @os.basic.ui;
 
 OBJECT 3220;
 
@@ -111,13 +113,6 @@ if (r0) {
 
 t+=dt;
 
-
-#_ @1100;
-#_ @util.gl.std;
-#_ @sys.llog;
-#_ @sys.os;
-_ @os.basic;
-_ @os.basic.ui;
 
 
 ### 3225 Map.draw
