@@ -145,7 +145,7 @@ self context;
 
 # DRAW.OBJECT.DEBUG.BOX [
 
-if (1) {
+if (0) {
 
 a 0.5;
 
