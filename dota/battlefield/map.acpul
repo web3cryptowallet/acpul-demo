@@ -81,12 +81,16 @@ if (r2==0) {
 
 if (r0) {
  player0=nodenew(r0, OBJECT, ot.unit, 50,50, team, ost.player, 0,heroes.debug,0);
- nodenew(r0, OBJECT, ot.unit, 70,50, team, ost.player, 1,heroes.cat,0);
- nodenew(r0, OBJECT, ot.unit, 90,50, team, ost.player, 2,heroes.santa,0);
- nodenew(r0, OBJECT, ot.unit, 50,30, team, ost.player, 3,heroes.angel,0);
- nodenew(r0, OBJECT, ot.unit, 70,30, team, ost.player, 4,heroes.cat,0);
+ player1=nodenew(r0, OBJECT, ot.unit, 70,50, team, ost.player, 1,heroes.cat,0);
+ player2=nodenew(r0, OBJECT, ot.unit, 90,50, team, ost.player, 2,heroes.santa,0);
+ player3=nodenew(r0, OBJECT, ot.unit, 50,30, team, ost.player, 3,heroes.angel,0);
+ player4=nodenew(r0, OBJECT, ot.unit, 70,30, team, ost.player, 4,heroes.cat,0);
 
  node.value.s(u0, nid,0, player0);
+ node.value.s(u0, nid,1, player1);
+ node.value.s(u0, nid,2, player2);
+ node.value.s(u0, nid,3, player3);
+ node.value.s(u0, nid,4, player4);
 };
 
 # PLAYERS ]
