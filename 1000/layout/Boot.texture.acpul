@@ -114,8 +114,8 @@ to.texture0 {
 
 to.texture1.flip {
   gl.fbo(tex1.flip);
-  gl.clear(0,1,0,0);
-a:=1;
+#  gl.clear(0,1,0,0);
+#a:=1;
   gl.shader.use(70014,70015);
   gl.shader.uniform.texture(0, tex0, 0);
 
