@@ -226,7 +226,7 @@ record.frame {
 
   node.ex.gl.fbo(u0, tex);
 
-  node.ex.gl.clear(u0, 0,1,0,0);
+#  node.ex.gl.clear(u0, 0,1,0,0);
 
   shader node.ex.shader;
   vsh 5404; fsh 5405;
