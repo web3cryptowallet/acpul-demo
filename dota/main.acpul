@@ -84,7 +84,8 @@ w0 w;
 
 joystick0.w 350;
 
-# PANEL
+# PANEL [
+
 panel0 0;
 panel0.x joystick0.w;
 panel0.w w0-x;
@@ -94,9 +95,12 @@ if (r0) {
  new.node.common0(panel0, panel0.x,0,1, panel0.w,panel0.h, dota.gameplay.panel, 0);
 };
 
-# JOYSTICK
+# PANEL ]
+# JOYSTICK [
+
 node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 
+# JOYSTICK ]
 # PHYSICS [
 
 _ @sys.box2d;
