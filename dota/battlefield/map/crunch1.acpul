@@ -33,8 +33,8 @@ if (r0) {
  new.crunch1;
 };
 
-t+=dt;
-if (t>0.01){
+frame0+=1;
+if (frame0==1){
  node.value.s(u0, crunch0,1, 1);
 };
 
