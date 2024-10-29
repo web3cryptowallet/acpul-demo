@@ -33,9 +33,9 @@ if (r0) {
  new.crunch1;
 };
 
-if (r0!=0){
+#if (r0!=0){
  node.value.s(u0, crunch0,0, 0);
-};
+#};
 
 x00 r2;
 y00 r3;
