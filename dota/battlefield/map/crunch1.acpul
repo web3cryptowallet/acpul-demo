@@ -33,7 +33,7 @@ if (r0) {
  new.crunch1;
 };
 
-if (r0!=0){
+if (r0==0){
  node.value.s(u0, crunch0,1, 1);
 };
 
