@@ -41,7 +41,8 @@ if (r0) {
 # node.ex.child.draw.s(u0, 1);
 
 p0=0;
-
+w:=100;
+h:=100;
 _ @rt1.texture.node;
 
 x00 r2;
