@@ -8,7 +8,7 @@ _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 _ @sys.shader.ex;
 
-draw0000
+draw.fid(dota.building.crunch1.draw);
 
 sn 0;
 
