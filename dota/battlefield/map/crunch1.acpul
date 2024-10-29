@@ -1,5 +1,13 @@
 ### dota.building.crunch1
 
+#_ @1111;
+#_ @sys.storage;
+_ @os.util0;
+_ @os.util2;
+_ @basic.ui.shader.node3.inc;
+_ @sys.shader.ex;
+
+
 new.crunch1 {
  x0 200;
  y0 130;
