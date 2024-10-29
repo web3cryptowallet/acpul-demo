@@ -5,7 +5,7 @@ tex1 p0;
 
 _ @easy.start.new1;
 
-draw.fid(dota.building.crunch1.draw);
+draw.fid(dota.building.crunch2.draw);
 
 sn0 0;
 
