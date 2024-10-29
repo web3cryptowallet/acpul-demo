@@ -48,7 +48,7 @@ once {
  p0=0;
  _ @rt1.texture.node;
 };
-once;
+#once;
 
 x00 r2;
 y00 r3;
