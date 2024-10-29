@@ -39,5 +39,5 @@ if (r0) {
 
 ### dota.building.crunch1.draw
 
-color(u0, 1,1,1,1);
+color(u0, 0.5,0.5,0.5,0.5);
 rect(u0, 6, 0,0, w,h);
