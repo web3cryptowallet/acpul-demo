@@ -53,8 +53,6 @@ h:=100;
 
 once {
  p0=0; # mode normal
- r2:=0;
-
  _ @rt1.texture.node;
 };
 once;
