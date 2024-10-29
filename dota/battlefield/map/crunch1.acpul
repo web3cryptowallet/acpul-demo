@@ -31,7 +31,7 @@ new.crunch1 {
 };
 
 if (r0) {
-# new.crunch1;
+ new.crunch1;
 };
 
 # Optimize: draw once 
