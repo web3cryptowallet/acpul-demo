@@ -98,7 +98,7 @@ new.crunch2 {
 # new.ui.shader.node3(sn0,  x0,y0+20,1/2, 100,100, 70014,28983); # dota.effect.star83
 };
 
-_ @dota.map.eggs1;
+_ @dota.place.eggs1;
 
 tex0 0;
 tex1 0;
