@@ -10,7 +10,7 @@ _ @sys.shader.ex;
 
 draw.fid(dota.building.crunch1.draw);
 
-sn 0;
+sn0 0;
 
 new.crunch1 {
  x0 200;
