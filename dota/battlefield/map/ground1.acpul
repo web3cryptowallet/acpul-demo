@@ -265,7 +265,7 @@ a {
   i=0;while(i<10){
 #   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
 #   new.egg1(rnd(u0)*30,rnd(u0)*30,1/4-rnd(u0)*1/8);
-   new.egg1(rnd(u0)*30,rnd(u0)*30,1-rnd(u0)*1/8, 20+rnd(u0)*10,30);
+   new.egg1(rnd(u0)*30,rnd(u0)*30,1-rnd(u0)*1/8, 20+rnd(u0)*5,30);
    i+=1;
   };
  };
