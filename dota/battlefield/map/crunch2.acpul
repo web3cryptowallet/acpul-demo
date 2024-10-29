@@ -34,4 +34,13 @@ new.crunch2 {
 # new.ui.shader.node3(sn0,  x0,y0+20,1/2, 100,100, 70014,28983); # dota.effect.star83
 };
 
+if (r0) {
+ new.crunch1;
+};
+
+x00 r2;
+y00 r3;
+
+x00:=node.x(sn0);
+y00:=node.y(sn0);
 
