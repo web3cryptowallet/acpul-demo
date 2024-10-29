@@ -50,9 +50,11 @@ if (r0) {
 
 w:=100;
 h:=100;
-r2:=0;
+
 once {
  p0=0;
+ r2:=0;
+
  _ @rt1.texture.node;
 };
 once;
