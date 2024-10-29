@@ -677,6 +677,7 @@ new.ai.chat {
 
 
 
+node.new.this.ex(r0, 20241001, 0);
 
 
 
@@ -1179,7 +1180,6 @@ if (touchnid0) {
 # node.prop.z.order.s(r0, touchnid0, 100000);
 };
 
-node.new.this.ex(r0, 20241001, 0);
 
 _ @4;
 #ee0 0;ui.value1(ee0,100,0,0.5,metrics0.vw);
