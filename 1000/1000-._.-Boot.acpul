@@ -675,6 +675,7 @@ new.ai.chat {
  new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
 };
 
+ new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
 
 
 node.new.this.ex(r0, 20241001, 01);
