@@ -34,7 +34,7 @@ if (r0) {
 };
 
 t+=dt;
-if (t>1){
+if (t==0){
 #if (r0==0){
  node.value.s(u0, crunch0,1, 1);
 };
