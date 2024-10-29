@@ -34,7 +34,7 @@ new.crunch1 {
  x:=node.x(sn0);
  y:=node.y(sn0);
 };
-
+x:=100;
 if (r0) {
  new.crunch1;
 };
