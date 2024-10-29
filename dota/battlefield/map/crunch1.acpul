@@ -6,10 +6,10 @@ tex1 p0;
 _ @easy.start.new;
 
 #_ @sys.storage;
-_ @os.util0;
-_ @os.util2;
-_ @basic.ui.shader.node3.inc;
-_ @sys.shader.ex;
+#_ @os.util0;
+#_ @os.util2;
+#_ @basic.ui.shader.node3.inc;
+#_ @sys.shader.ex;
 
 draw.fid(dota.building.crunch1.draw);
 
