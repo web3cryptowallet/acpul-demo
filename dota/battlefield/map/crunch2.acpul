@@ -40,7 +40,7 @@ if (r0) {
 };
 # node.ex.child.draw.s(u0, 1);
 
-p0 0;
+#p0 0;
 
 _ @rt1.texture.node;
 
