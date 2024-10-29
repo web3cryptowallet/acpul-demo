@@ -98,6 +98,8 @@ new.crunch2 {
 # new.ui.shader.node3(sn0,  x0,y0+20,1/2, 100,100, 70014,28983); # dota.effect.star83
 };
 
+# EGG1 [
+
 new.egg1 {
  # x:y:s:w:h
  x0 _0; y0 _1; s0 _2; w0 _3; h0 _4;
@@ -114,7 +116,8 @@ new.egg1 {
  shader.set.texture(sn0, A.iChannel1, tex4); # 
 };
 
-# EGGS [
+# EGG1 ]
+# EGGS1 [
 
 new.eggs1 {
  i=0;while(i<10){
@@ -125,7 +128,7 @@ new.eggs1 {
  };
 };
 
-# EGGS ]
+# EGGS1 ]
 
 tex0 0;
 tex1 0;
