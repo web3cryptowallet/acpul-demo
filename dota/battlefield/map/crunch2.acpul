@@ -43,6 +43,7 @@ if (r0) {
 p0=0;
 
 _ @rt1.texture.node;
+draw(r0, NNN(rt1.texture.node.draw));
 
 x00 r2;
 y00 r3;
