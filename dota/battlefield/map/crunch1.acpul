@@ -37,7 +37,6 @@ y00 r3;
 x00:=node.x(sn0);
 y00:=node.y(sn0);
 
- _ @rt1.texture.node;
 
 
 ### dota.building.crunch1.draw
