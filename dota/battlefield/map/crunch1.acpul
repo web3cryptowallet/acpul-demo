@@ -37,8 +37,8 @@ if (r0) {
  new.crunch1;
 };
 
- x:=node.x(sn0);
- y:=node.y(sn0);
+x:=node.x(sn0);
+y:=node.y(sn0);
 
 ### dota.building.crunch1.draw
 
