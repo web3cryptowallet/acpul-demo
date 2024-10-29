@@ -55,48 +55,8 @@ new.layer.crystal {
  shader.set.texture(sn0, A.iChannel0, tex1); # 
 };
 
-new.crunch1 {
- x0 200;
- y0 130;
-# new.ui.shader.node3(sn0,  x0,y0+10,1/2, 100,100, 70014,28983); # dota.effect.star83
- hq 3;
-# hq 0.1;
 
-# new.ui.shader.node3(sn0, x0,y0,1/2, 100,100, 70014,28964); # dota.building.crunch
-# new.ui.shader.node3(sn0, x0,y0,1/4, 200,200, 70014,28964); # dota.building.crunch
- new.ui.shader.node3(sn0, x0,y0,1/2/hq, 100*hq,100*hq, 70014,28964); # dota.building.crunch
- shader.set.uniform.v(sn0, A.time, 10); # 
-# shader.set.texture(sn0, A.iChannel0, tex3); # 
- shader.set.texture(sn0, A.iChannel0, tex1); # 
- hq 2;
-# new.ui.shader.node3(sn0,  x0,y0+10,1/2, 100,100, 70014,28983); # dota.effect.star83
- new.ui.shader.node3(sn0,  x0,y0+25,1/2/hq, 100*hq,100*hq, 70014,28983); # dota.effect.star83
-};
 
-new.crunch2 {
-# x0 140;
-# y0 140;
-# s0 1/1.5;
- x0 110;
- y0 100;
- s0 1;
- hq 0.5;
-# new.ui.shader.node3(sn0,  x0,y0-10,1/(2-1), 100,100, 70014,28983); # dota.effect.star83
- new.ui.shader.node3(sn0,  x0,y0+12,s0/hq, 100*hq,100*hq, 70014,28983); # dota.effect.star83
- texx=node.value.g(u0, sn0,0);
-# gl.texture.filter.nearest(texx);
- gl.texture.filter.linear(texx);
-
- hq 2;
- new.ui.shader.node3(sn0, x0,y0,s0/hq, 100*hq,100*hq, 70014,28952); # dota.building.crunch
- texx=node.value.g(u0, sn0,0);
- gl.texture.filter.nearest(texx);
-# gl.texture.filter.linear(texx);
- shader.set.uniform.v(sn0, A.time, 10); # 
-# shader.set.texture(sn0, A.iChannel0, tex3); # 
- shader.set.texture(sn0, A.iChannel0, tex1); # 
-# new.ui.shader.node3(sn0,  x0,y0+20,1/2, 100,100, 70014,28983); # dota.effect.star83
-};
 
 _ @dota.place.eggs1;
 
