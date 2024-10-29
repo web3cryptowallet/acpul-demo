@@ -253,14 +253,16 @@ a {
  new.ui.shader.node3(sn0, 260,80,1/3, 300/2,300/2, 70014,28998); # dota.alien.enemy
 
 # new.eggs1; # slow
-};
+}
+
+new.eggs1;
 
 # EGGS [
 
  new.eggs1 {
   i=0;while(i<15){
 #   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
-   new.egg1(220+rnd(u0)*30,30+rnd(u0)*30,1/4-rnd(u0)*1/8);
+   new.egg1(rnd(u0)*30,rnd(u0)*30,1/4-rnd(u0)*1/8);
    i+=1;
   };
  };
