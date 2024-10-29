@@ -6,7 +6,6 @@ tex1 p0;
 _ @easy.start.new1;
 _ @photoneo.common.gl.extra;
 
-draw.fid(dota.building.crunch1.draw);
 
 sn0 0;
 
@@ -40,9 +39,9 @@ if (r0) {
 };
 # node.ex.child.draw.s(u0, 1);
 
+draw.fid(dota.building.crunch1.draw);
 #x00 r2;
 #y00 r3;
-
 #x00:=node.x(sn0);
 #y00:=node.y(sn0);
 
