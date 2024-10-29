@@ -39,7 +39,8 @@ if (r0) {
 };
 # node.ex.child.draw.s(u0, 1);
 
-draw.fid(dota.building.crunch1.draw);
+#draw.fid(dota.building.crunch1.draw);
+
 #x00 r2;
 #y00 r3;
 #x00:=node.x(sn0);
