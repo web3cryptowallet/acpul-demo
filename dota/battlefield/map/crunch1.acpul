@@ -24,6 +24,7 @@ new.crunch1 {
 # shader.set.texture(sn0, A.iChannel0, tex3); # 
  shader.set.texture(sn0, A.iChannel0, tex1); # 
  node.value.s(u0, crunch0,1, 1);
+ 
  crunch0:=sn0;
  hq 2;
 # new.ui.shader.node3(sn0,  x0,y0+10,1/2, 100,100, 70014,28983); # dota.effect.star83
