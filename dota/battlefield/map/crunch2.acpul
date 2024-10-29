@@ -8,6 +8,7 @@ _ @photoneo.common.gl.extra;
 
 
 sn0 0;
+crunch0 0;
 
 x:=110;
 y:=100;
