@@ -29,7 +29,7 @@ new.crunch2 {
 # gl.texture.filter.nearest(texx);
  gl.texture.filter.linear(texx);
  crunch0:=sn0;
- 
+
  hq 2;
  new.ui.shader.node3(sn0, x0,y0,s0/hq, 100*hq,100*hq, 70014,28952); # dota.building.crunch
  texx=node.value.g(u0, sn0,0);
@@ -48,9 +48,9 @@ if (r0) {
 # Optimize: draw once 
 frame0 0;
 frame0+=1;
-if (frame0==4) { # magic number 4
+#if (frame0==4) { # magic number 4
  node.value.s(u0, crunch0,1, 1); # draw.off
-};
+#};
 
 #draw.fid(dota.building.crunch1.draw);
 
