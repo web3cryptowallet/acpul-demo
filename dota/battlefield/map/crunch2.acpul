@@ -40,9 +40,16 @@ if (r0) {
 };
 # node.ex.child.draw.s(u0, 1);
 
+x00 r2;
+y00 r3;
+
+x00:=node.x(sn0);
+y00:=node.y(sn0);
+
+#
+
 w:=100;
 h:=100;
-
 
 once {
  p0=0;
@@ -50,9 +57,4 @@ once {
 };
 once;
 
-x00 r2;
-y00 r3;
-
-x00:=node.x(sn0);
-y00:=node.y(sn0);
 
