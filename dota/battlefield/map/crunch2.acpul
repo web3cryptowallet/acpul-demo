@@ -9,8 +9,8 @@ _ @photoneo.common.gl.extra;
 
 sn0 0;
 
-x 110;
-y 100;
+x:=110;
+y:=100;
 
 new.crunch2 {
 # x0 140;
