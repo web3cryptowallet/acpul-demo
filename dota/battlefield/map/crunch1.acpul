@@ -7,6 +7,7 @@ _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 _ @sys.shader.ex;
 
+sn 0;
 
 new.crunch1 {
  x0 200;
