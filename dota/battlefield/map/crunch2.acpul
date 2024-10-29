@@ -36,7 +36,7 @@ new.crunch2 {
 };
 
 if (r0) {
- new.crunch2;
+# new.crunch2;
 };
 # node.ex.child.draw.s(u0, 1);
 
