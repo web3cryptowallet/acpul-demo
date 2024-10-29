@@ -36,9 +36,9 @@ if (r0) {
 };
 
 frame0+=1;
-if (frame0==10){
+#if (frame0==10){
  node.value.s(u0, crunch0,1, 0);
-};
+#};
 
 x00 r2;
 y00 r3;
