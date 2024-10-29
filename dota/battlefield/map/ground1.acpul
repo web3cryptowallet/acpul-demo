@@ -60,7 +60,7 @@ ww 100;
 hh 100;
 
 new.building.crunch1
- new.node.common0(rtex0, 0,0,1, ww,hh, NNN(dota.building.crunch1), 0);
+ new.node.common0(sn0, 0,0,1, ww,hh, NNN(dota.building.crunch1), 0);
 
 _ @dota.place.eggs1;
 
