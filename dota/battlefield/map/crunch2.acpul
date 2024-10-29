@@ -52,6 +52,7 @@ w:=100;
 h:=100;
 
 once {
+ p0=0;
  r2:=0;
 
  _ @rt1.texture.node;
