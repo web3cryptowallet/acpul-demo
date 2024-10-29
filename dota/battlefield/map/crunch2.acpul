@@ -6,7 +6,7 @@ tex1 p0;
 #_ @easy.start.new1;
 #_ @photoneo.common.gl.extra;
 
-#draw.fid(dota.building.crunch1.draw);
+draw.fid(dota.building.crunch1.draw);
 
 sn0 0;
 
@@ -36,7 +36,7 @@ new.crunch2 {
 };
 
 if (r0) {
-# new.crunch2;
+ new.crunch2;
 };
 # node.ex.child.draw.s(u0, 1);
 
