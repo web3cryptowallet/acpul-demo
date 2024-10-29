@@ -39,6 +39,8 @@ if (r0) {
  new.crunch2;
 };
 
+_ @rt1.texture.node;
+
 x00 r2;
 y00 r3;
 
