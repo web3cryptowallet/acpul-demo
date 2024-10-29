@@ -13,7 +13,7 @@ _ @sys.shader.ex;
 
 draw.fid(dota.building.crunch1.draw);
 
-sn0 r2;
+sn0 r1;
 
 new.crunch1 {
  x0 200;
@@ -39,10 +39,6 @@ if (r0) {
 
 
 ### dota.building.crunch1.draw
-
-_ @easy.start.new;
-
-sn0 r2;
 
 x9:=node.x(sn0);
 y9:=node.y(sn0);
