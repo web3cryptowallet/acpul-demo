@@ -255,7 +255,7 @@ a {
 # new.eggs1; # slow
 }
 
-#new.eggs1;
+new.eggs1;
 
 # EGGS [
 
