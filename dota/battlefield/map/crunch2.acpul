@@ -35,7 +35,7 @@ new.crunch2 {
 };
 
 if (r0) {
- new.crunch1;
+ new.crunch2;
 };
 
 x00 r2;
