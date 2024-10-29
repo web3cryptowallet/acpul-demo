@@ -40,6 +40,8 @@ if (r0) {
 
 ### dota.building.crunch1.draw
 
+_ @easy.start.new;
+
 sn0 r2;
 
 x9:=node.x(sn0);
