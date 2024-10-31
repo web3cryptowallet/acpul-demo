@@ -29,7 +29,7 @@ new.destroyer {
 
 ### dota.space.spaceport
 
-#_ @dota.space.launch.base;
+_ @dota.space.launch.base;
 _ @dota.space.starship;
 
 ### dota.space.launch.base
