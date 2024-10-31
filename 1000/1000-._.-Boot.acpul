@@ -1189,3 +1189,4 @@ info.vwvh.porait {
  ee0 0;ui.value1(ee0,100,50,0.5,metrics0.portrait.w);
  ee0 0;ui.value1(ee0,100,75,0.5,metrics0.portrait.h);
 };
+info.vwvh.porait;
