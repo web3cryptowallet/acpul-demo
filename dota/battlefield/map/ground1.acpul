@@ -227,7 +227,7 @@ t+=dt;
 # XCOIN ]
 # SPACE [
 
-_ @dota.space.spaceport;
+#_ @dota.space.spaceport;
 
 _ @dota.space.destroyer;
 
