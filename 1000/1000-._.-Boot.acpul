@@ -682,7 +682,7 @@ new.ai.chat {
 
 
 
-_ @acpu.menu.apps;
+#_ @acpu.menu.apps;
 
 
 # RUNNERS ]
