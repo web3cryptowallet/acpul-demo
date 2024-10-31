@@ -1183,9 +1183,9 @@ if (touchnid0) {
 
 
 info.vwvh.porait {
-#_ @4;
-#ee0 0;ui.value1(ee0,100,0,0.5,metrics0.vw);
-#ee0 0;ui.value1(ee0,100,25,0.5,metrics0.vh);
-#ee0 0;ui.value1(ee0,100,50,0.5,metrics0.portrait.w);
-#ee0 0;ui.value1(ee0,100,75,0.5,metrics0.portrait.h);
+ _ @4;
+ ee0 0;ui.value1(ee0,100,0,0.5,metrics0.vw);
+ ee0 0;ui.value1(ee0,100,25,0.5,metrics0.vh);
+ ee0 0;ui.value1(ee0,100,50,0.5,metrics0.portrait.w);
+ ee0 0;ui.value1(ee0,100,75,0.5,metrics0.portrait.h);
 };
