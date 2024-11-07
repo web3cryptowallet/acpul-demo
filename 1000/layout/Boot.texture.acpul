@@ -11,7 +11,7 @@ node.new.this.ex(r0, Boot.main, 0);
 
 nextturn 0;
 #draw(r0, 1601);
-draw(nextturn==2, 1601);
+draw(nextturn==10, 1601);
 nextturn+=1;
 
 
