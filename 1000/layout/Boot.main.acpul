@@ -116,14 +116,13 @@ Boot.texture 1600;
 
 node.new.this.ex(r0, Boot.texture, 0);
 
+# MAGIC NUMBERS - 5 frame reset due black screen [
 nframe 0;
 nframe+=1;
 if (nframe==5) {
-# node.new.this.ex(u0, Boot.texture, 0);
-#cpu.reset(u0, 1000, 0);
-cpu.reset(u0, 1600, 0);
-#cpu.set.frame.time(u0, 0); # not works?
+ cpu.reset(u0, 1600, 0);
 };
+# MAGIC NUMBERS - 5 frame reset due black screen ]
 
 #_ @sys.cpu;
 
