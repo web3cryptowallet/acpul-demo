@@ -123,6 +123,7 @@ if (nframe==2) {
 #cpu.reset(u0, 1000, 0);
 cpu.reset(u0, 1600, 0);
 #cpu.set.frame.time(u0, 0); # not works?
+
 };
 
 #_ @sys.cpu;
