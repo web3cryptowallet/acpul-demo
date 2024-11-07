@@ -118,8 +118,9 @@ Boot.texture 1600;
 
 nframe 0;
 nframe+=1;
-if (nframe==10) {
+if (nframe==60) {
  node.new.this.ex(u0, Boot.texture, 0);
+#cpu.reset(u0, 1000, 0);
 };
 
 #_ @sys.cpu;
