@@ -118,7 +118,7 @@ Boot.texture 1600;
 
 nframe 0;
 nframe+=1;
-if (nframe==2) {
+if (nframe==10) {
  node.new.this.ex(u0, Boot.texture, 0);
 };
 
