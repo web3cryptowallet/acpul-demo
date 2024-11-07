@@ -121,6 +121,7 @@ nframe+=1;
 if (nframe==60*5) {
 # node.new.this.ex(u0, Boot.texture, 0);
 #cpu.reset(u0, 1000, 0);
+cpu.reset(u0, 1600, 0);
 #cpu.set.frame.time(u0, 0); # not works?
 };
 
