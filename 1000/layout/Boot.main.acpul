@@ -114,8 +114,13 @@ draw(r0, 900);
 
 Boot.texture 1600;
 
-node.new.this.ex(r0, Boot.texture, 0);
+#node.new.this.ex(r0, Boot.texture, 0);
 
+nframe 0;
+nframe+=1;
+if (nframe==2) {
+ node.new.this.ex(u0, Boot.texture, 0);
+};
 
 #_ @sys.cpu;
 
