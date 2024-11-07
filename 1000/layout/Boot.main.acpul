@@ -118,7 +118,7 @@ node.new.this.ex(r0, Boot.texture, 0);
 
 nframe 0;
 nframe+=1;
-if (nframe==60*5) {
+if (nframe==60*3) {
 # node.new.this.ex(u0, Boot.texture, 0);
 #cpu.reset(u0, 1000, 0);
 cpu.reset(u0, 1600, 0);
