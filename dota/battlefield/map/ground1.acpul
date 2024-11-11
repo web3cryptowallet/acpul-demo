@@ -162,7 +162,7 @@ a {
  # BASE [
 
 
- new.place.space.launch.base(launch.base0, 110,0,1/3, 300,300);
+# new.place.space.launch.base(launch.base0, 110,0,1/3, 300,300);
 
 };
 if(0){
