@@ -179,11 +179,11 @@ a {
 
  # XCOIN TEST [
 
-# xcoin;
-
-# xcoin.starship;
 };
 if(0){
+# xcoin;
+
+ xcoin.starship;
 
  # XCOIN TEST ]
  # DIALOG TEST [
