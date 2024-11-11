@@ -173,7 +173,8 @@ a {
 
  # BASE ]
 
- new.ui.shader.node3(sn0,  60,135,1/3, 200,200, 70014,28989); # dota.ghost89
+ hq 0.5;
+ new.ui.shader.node3(sn0,  60,135,1/3/hq, 200*hq,200*hq, 70014,28989); # dota.ghost89
  shader.set.uniform.v(sn0, A.time, 10);
 
 };
