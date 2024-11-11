@@ -55,6 +55,8 @@ new.layer.crystal {
  shader.set.texture(sn0, A.iChannel0, tex1); # 
 };
 
+# PLACES [
+
 # Default
 ww 100;
 hh 100;
@@ -66,6 +68,8 @@ new.place.crunch2
  new.node.common0(sn0, 0,0,1, ww,hh, NNN(dota.building.crunch2), tex1);
 
 _ @dota.place.eggs1;
+
+# PLACES ]
 
 tex0 0;
 tex1 0;
