@@ -151,8 +151,8 @@ a {
 
  # BASE [
 
-# new.ui.shader.node3(launch.base0,  110,0,1/3, 300,300, 70014,28988); # dota.building.launch
-# shader.set.uniform.v(launch.base0, A.time, 10);
+ new.ui.shader.node3(launch.base0,  110,0,1/3, 300,300, 70014,28988); # dota.building.launch
+ shader.set.uniform.v(launch.base0, A.time, 10);
 # shader.set.uniform.v(sn0, A.time, 10*rnd(u0));
 
 # new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28557); # starship7
