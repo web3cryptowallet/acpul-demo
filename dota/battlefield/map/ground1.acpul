@@ -130,8 +130,10 @@ a {
  # GROUND ]
 
  new.layer.crystal;
+
+ new.place.crystals2;
  
- new.layer.crystal2;
+# new.layer.crystal2;
 
  new.place.crunch1;
  new.place.crunch2;
