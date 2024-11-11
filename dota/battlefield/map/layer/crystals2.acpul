@@ -24,6 +24,7 @@ new.layer.crystal2 {
  gl.texture.filter.linear(texx);
  shader.set.texture(sn0, A.iChannel0, tex3);
  shader.set.texture(sn0, A.iChannel1, tex99);
+ crystals0:=sn0;
 };
 
 if (r0) {
