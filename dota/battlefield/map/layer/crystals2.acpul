@@ -25,7 +25,7 @@ new.layer.crystal2 {
 };
 
 if (r0) {
- new.crunch1;
+ new.layer.crystal2;
 };
 
 # DRAW
