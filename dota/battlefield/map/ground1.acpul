@@ -52,8 +52,11 @@ new.place.crystals2
 
 # PLACES SPACE [
 
-new.place.launch.base
+new.place.space.launch.base
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.space.launch.base), 0,0,0,0);
+
+new.place.space.container
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.space.building.container), 0,0,0,0);
 
 # PLACES SPACE ]
 
