@@ -11,7 +11,7 @@ sn0 0;
 base0 0;
 
 new.base {
- new.ui.shader.node3(base0,  0,0,1, 300,300, 70014,28988); # dota.building.launch
+ new.ui.shader.node3(base0,  0,0,1, w,h, 70014,28988); # dota.building.launch
  shader.set.uniform.v(base0, A.time, 10);
 # shader.set.uniform.v(sn0, A.time, 10*rnd(u0));
 
