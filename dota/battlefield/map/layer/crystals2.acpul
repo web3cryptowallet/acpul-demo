@@ -1,4 +1,8 @@
 ### dota.layer.crystals2
+# tex0:tex1
+
+tex3 p0;
+tex99 p1;
 
 new.layer.crystal2 {
  x0 150; y0 70;
