@@ -179,8 +179,8 @@ a {
 
  # XCOIN TEST [
 
-};
-if(0){
+#};
+#if(0){
 # xcoin;
 
  xcoin.starship;
