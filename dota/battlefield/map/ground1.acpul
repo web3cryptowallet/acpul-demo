@@ -63,6 +63,9 @@ new.unit.alien1
 
 # PLACES SPACE ]
 
+new.hypnotoad
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.unit.alien1), 0,0,0,0);
+
 _ @dota.place.eggs1;
 
 # PLACES ]
