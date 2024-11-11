@@ -28,6 +28,8 @@ if (r0) {
  new.crunch1;
 };
 
+# DRAW
+
 draw.fid(dota.building.crunch1.draw);
 
 # COMMON [
