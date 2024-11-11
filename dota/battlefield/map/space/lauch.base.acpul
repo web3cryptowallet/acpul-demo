@@ -1,0 +1,39 @@
+### dota.space.launch.base
+
+# tex0:tex1
+
+tex3 p0;
+tex99 p1;
+
+_ @easy.start.new1;
+
+sn0 0;
+base0 0;
+
+new.base {
+	
+};
+
+if (r0) {
+ new.base;
+};
+
+# COMMON [
+
+# Optimize: draw once 
+frame0 0;
+frame0+=1;
+if (frame0==4) { # magic number 4
+ node.value.s(u0, crystals0,1, 1); # draw.off
+};
+
+draw.fid(dota.building.crunch1.draw);
+
+x00 r2;
+y00 r3;
+
+x00:=node.x(sn0);
+y00:=node.y(sn0);
+
+# COMMON ]
+
