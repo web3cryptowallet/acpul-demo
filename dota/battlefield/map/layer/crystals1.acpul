@@ -30,12 +30,3 @@ y00:=node.y(sn0);
 
 # COMMON ]
 
-### dota.layer.crystals1.draw
-
-
-x00 r2;
-y00 r3;
-
-color(u0, 0.5,0.5,0.5,0.5);
-#rect(u0, 6, x00,y00, w,h);
-rect(u0, 2, x00,y00, 10,10);
