@@ -4,8 +4,10 @@
 tex3 p0;
 tex99 p1;
 
+_ @easy.start.new1;
+
 sn0 0;
-crunch0 0;
+crystals0 0;
 
 new.layer.crystal2 {
  x0 150; y0 70;
