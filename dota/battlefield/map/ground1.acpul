@@ -51,8 +51,11 @@ new.place.crystals2
  new.node.common4(sn0, 0,0,1, ww,hh, NNN(dota.layer.crystals2), tex3,tex99,0,0);
 
 # PLACES SPACE [
+
 new.place.launch.base
  new.node.common4(sn0, 0,0,1, ww,hh, NNN(dota.space.launch.base), 0,0,0,0);
+
+# PLACES SPACE ]
 
 _ @dota.place.eggs1;
 
