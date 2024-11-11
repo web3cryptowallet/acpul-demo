@@ -8,3 +8,34 @@ _ @easy.start.new1;
 
 sn0 0;
 crystals0 0;
+
+# DRAW
+
+draw.fid(dota.layer.crystals1.draw);
+
+# COMMON [
+
+# Optimize: draw once 
+frame0 0;
+frame0+=1;
+if (frame0==4) { # magic number 4
+ node.value.s(u0, crystals0,1, 1); # draw.off
+};
+
+x00 r2;
+y00 r3;
+
+x00:=node.x(sn0);
+y00:=node.y(sn0);
+
+# COMMON ]
+
+### dota.layer.crystals1.draw
+
+
+x00 r2;
+y00 r3;
+
+color(u0, 0.5,0.5,0.5,0.5);
+#rect(u0, 6, x00,y00, w,h);
+rect(u0, 2, x00,y00, 10,10);
