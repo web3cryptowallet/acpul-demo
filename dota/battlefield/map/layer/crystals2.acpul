@@ -24,6 +24,19 @@ new.layer.crystal2 {
  shader.set.texture(sn0, A.iChannel1, tex99);
 };
 
+if (r0) {
+ new.crunch1;
+};
+
+# COMMON [
+
+# Optimize: draw once 
+frame0 0;
+frame0+=1;
+if (frame0==4) { # magic number 4
+ node.value.s(u0, crunch0,1, 1); # draw.off
+};
+
 draw.fid(dota.building.crunch1.draw);
 
 x00 r2;
@@ -32,6 +45,7 @@ y00 r3;
 x00:=node.x(sn0);
 y00:=node.y(sn0);
 
+# COMMON ]
 
 ### dota.layer.crystals2.draw
 
