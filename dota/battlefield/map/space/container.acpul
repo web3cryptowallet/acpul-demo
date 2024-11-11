@@ -6,7 +6,7 @@ sn0 0;
 container0 0;
 
 new.container {
- new.ui.shader.node3(container0,  0,0,1, w,h, 70014,28993); # dota.building.container
+ new.ui.shader.node3(container0,  0,0,1, 200,200, 70014,28993); # dota.building.container
 };
 
 if ((base0==0)*w*h>0) {
