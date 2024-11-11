@@ -31,11 +31,9 @@ if (r0) {
  new.layer.crystal2;
 };
 
-# DRAW
+# COMMON [
 
 draw.fid(dota.building.crunch1.draw);
-
-# COMMON [
 
 # Optimize: draw once 
 frame0 0;
