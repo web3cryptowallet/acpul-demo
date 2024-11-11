@@ -11,7 +11,7 @@ crystals0 0;
 
 # DRAW
 
-draw.fid(dota.layer.crystals1.draw);
+draw.fid(dota.building.crunch1.draw);
 
 # COMMON [
 
