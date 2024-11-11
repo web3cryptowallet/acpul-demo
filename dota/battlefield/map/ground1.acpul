@@ -52,7 +52,7 @@ new.place.crunch2
  new.node.common0(sn0, 0,0,1, ww,hh, NNN(dota.building.crunch2), tex1);
 
 new.place.crystals1
- new.node.common4(sn0, 0,0,1, ww,hh, NNN(dota.layer.crystals2), tex1,0,0,0);
+ new.node.common4(sn0, 0,0,1, ww,hh, NNN(dota.layer.crystals1), tex1,0,0,0);
 
 new.place.crystals2
  new.node.common4(sn0, 0,0,1, ww,hh, NNN(dota.layer.crystals2), tex3,tex99,0,0);
