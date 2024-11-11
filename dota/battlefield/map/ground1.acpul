@@ -132,11 +132,11 @@ a {
  # ALIEN ]
 
  new.ground;
-};
-if(0){
 
  # GROUND ]
 
+};
+if(0){
  new.place.crystals1;
 
  new.place.crystals2;
