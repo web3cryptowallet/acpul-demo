@@ -37,10 +37,10 @@ if (r0) {
 # Optimize: draw once 
 frame0 0;
 frame0+=1;
-#if (frame0==4) { # magic number 4
+if (frame0==4) { # magic number 4
  node.value.s(u0, crunch0,1, 1); # draw.off
- node.value.s(u0, sn0,1, 1); # draw.off
-#};
+# node.value.s(u0, sn0,1, 1); # draw.off
+};
 
 
 x00 r2;
