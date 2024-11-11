@@ -129,11 +129,11 @@ a {
  shader.set.uniform.v2(sn0, A.offs, 0.5,0.1);
  tex0:=node.value.g(u0, sn0,0);
 
-};
-if(0){
  # ALIEN ]
 
  new.ground;
+};
+if(0){
 
  # GROUND ]
 
