@@ -4,6 +4,9 @@
 tex3 p0;
 tex99 p1;
 
+sn0 0;
+crunch0 0;
+
 new.layer.crystal2 {
  x0 150; y0 70;
  rq 100*2;
@@ -20,3 +23,4 @@ new.layer.crystal2 {
  shader.set.texture(sn0, A.iChannel0, tex3);
  shader.set.texture(sn0, A.iChannel1, tex99);
 };
+
