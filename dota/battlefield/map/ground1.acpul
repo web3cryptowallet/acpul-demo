@@ -131,16 +131,16 @@ a {
 
  # ALIEN ]
 
-# new.ground;
+ new.ground;
 
  # GROUND ]
 
-# new.place.crystals1;
+ new.place.crystals1;
 
-# new.place.crystals2;
+ new.place.crystals2;
  
  new.place.crunch1;
-# new.place.crunch2;
+ new.place.crunch2;
 
 };
 if(0){
