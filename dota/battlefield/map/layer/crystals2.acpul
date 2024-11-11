@@ -33,7 +33,7 @@ if (r0) {
 
 # DRAW
 
-draw.fid(dota.building.crunch1.draw);
+draw.fid(dota.layer.crystals2.draw);
 
 # COMMON [
 
