@@ -1,0 +1,18 @@
+### dota.space
+
+
+### dota.space.spaceport
+
+_ @dota.space.launch.base1;
+_ @dota.space.starship;
+
+### dota.space.launch.base1
+
+# LAUNCH BASE [
+
+launch.base0 0;
+dock0.x node.get.x(u0, launch.base0);
+dock0.y node.get.y(u0, launch.base0);
+dock0.h node.get.h(u0, launch.base0);
+
+# LAUNCH BASE ]
