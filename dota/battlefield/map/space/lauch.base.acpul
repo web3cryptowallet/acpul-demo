@@ -26,8 +26,9 @@ if ((base0==0)*w*h>0) {
 frame0 0;
 frame0+=1;
 if (frame0==4) { # magic number 4
- node.value.s(u0, base0,1, 1); # draw.off
+# node.value.s(u0, base0,1, 1); # draw.off
 };
+ shader.set.uniform.v(base0, A.time, rnd(u0));
 
 draw.fid(dota.building.crunch1.draw);
 
