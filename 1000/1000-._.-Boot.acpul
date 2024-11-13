@@ -950,11 +950,13 @@ process.node.events {
    kbd = o1;
    keyboard.switch(mode, kbd);
   };
-  if (_0==boot.event.toggle.hn) {
-   toggle.hackernews;
-  };
+
   if (_0==boot.event.move.ui) {
    toggle.move.ui;
+  };
+
+  if (_0==boot.event.toggle.hn) {
+   toggle.hackernews;
   };
 
   if (_0==boot.run.dota) {
