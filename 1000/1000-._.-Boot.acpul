@@ -942,9 +942,6 @@ process.node.events {
 
   _ @boot.menu.events.exec;
 
-  if (_0==boot.event.toggle.hn) {
-   toggle.hackernews;
-  };
 
   if (_0==boot.run.dota) {
    run.dota;
