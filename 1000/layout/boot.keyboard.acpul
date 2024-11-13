@@ -35,6 +35,10 @@ display.keyboard.toggle {
 
 display.keyboard.update {
  # kbd, mode
+ # mode:
+ #  0 - mini awsd keyboard
+ #  1 - normal keybard
+ #
  kbd0 _0;
  mode _1;
  node.z.to.front(u0, kbd0, 0);
@@ -42,10 +46,12 @@ display.keyboard.update {
  kw node.prop.w.g(u0, kbd0);
  kh node.prop.h.g(u0, kbd0);
 
+ # MINI
  if (mode == 0) {
-  pos.x = metrics0.vw - kw;
-  pos.y = metrics0.vh / 2 - kh;
-#  pos.y = 0;
+#  pos.x = metrics0.vw - kw;
+#  pos.y = metrics0.vh / 2 - kh;
+  pos.x = 0;
+  pos.y = 0;
 
   node.prop.x.s(u0, kbd0, pos.x);
   node.prop.y.s(u0, kbd0, pos.y);
