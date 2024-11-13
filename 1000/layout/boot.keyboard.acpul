@@ -58,7 +58,7 @@ display.keyboard.update {
  if (mode == 0) {
 #  pos.x = metrics0.vw - kw;
 #  pos.y = metrics0.vh / 2 - kh;
-  pos.x = if(metrics.ide.is.portrait,
+  pos.x = if(metrics.ide.mode==0,
    metrics0.ide.x + metrics0.ide.w,
    metrics0.ide.x + metrics0.ide.w + kw*2
   );
