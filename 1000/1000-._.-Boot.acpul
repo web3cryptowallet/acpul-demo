@@ -807,28 +807,8 @@ keyboard.switch {
 # KEYBOARD ]
 
 _ @boot.menu.runners;
-_ @boot.menu.events.exec;
 
 
-# HACKERNEWS [
-
-_ @hackernews;
-
-hn0 0;
-
-toggle.hackernews {
- show {
-  new.hackernews.view(hn0, w-500,0,500,500);
- };
- hide {
-  node.prop.lt.s(u0, hn0, 0.001);
-  hn0:=0;
- };
-
- if (hn0, hide, show);
-};
-
-# HACKERNEWS ]
 # LLOG CORE [
 
 llog2core0 0;
@@ -959,6 +939,8 @@ process.node.events {
   if (_0==boot.event.move.ui) {
    toggle.move.ui;
   };
+
+  _ @boot.menu.events.exec;
 
   if (_0==boot.event.toggle.hn) {
    toggle.hackernews;
