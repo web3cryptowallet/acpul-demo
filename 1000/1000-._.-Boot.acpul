@@ -805,6 +805,11 @@ keyboard.switch {
 };
 
 # KEYBOARD ]
+
+_ @boot.menu.runners;
+_ @boot.menu.events.run;
+
+
 # HACKERNEWS [
 
 _ @hackernews;
