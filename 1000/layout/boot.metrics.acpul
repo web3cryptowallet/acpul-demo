@@ -40,6 +40,9 @@ os.metrics {
  ide1 @ide.metrics.inc;
  
  ide {
+  mode 0;
+  is.portrait mode==0;
+  is.landscape mode==1;
   x 0;
   y 0;
   w 400;
