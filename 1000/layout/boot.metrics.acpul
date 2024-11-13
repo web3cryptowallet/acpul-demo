@@ -36,6 +36,8 @@ os.metrics {
   w panel.w;
   h panel.h;
  };
+
+ ide1 @ide.metrics.inc;
  
  ide {
   x 0;
@@ -46,7 +48,7 @@ os.metrics {
  ide.base {
   x 0;
   y 0;
-  w metrics.portrait.w;
+  w ide1.param.w;
   h 400;
  };
  ide.portrait {
