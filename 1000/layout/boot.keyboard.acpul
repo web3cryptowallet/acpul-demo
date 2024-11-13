@@ -58,11 +58,11 @@ display.keyboard.update {
  if (mode == 0) {
 #  pos.x = metrics0.vw - kw;
 #  pos.y = metrics0.vh / 2 - kh;
-  pos.x = if(metrics.ide.mode==0,
+  pos.x = if(metrics0.ide.mode==0,
    metrics0.ide.x + metrics0.ide.w,
    metrics0.ide.x + metrics0.ide.w
   );
-  pos.y = if(metrics.ide.mode==0,
+  pos.y = if(metrics0.ide.mode==0,
    metrics0.ide.y + kh+100,
    metrics0.ide.y - kh+100
   );
