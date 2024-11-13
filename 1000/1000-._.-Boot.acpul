@@ -369,7 +369,7 @@ menu0.w 1100;portrait.w;
 menu0.w 320;
 #menu0.x w-115;
 
-menu0.x metrics0.ide.x + metrics0.ide.w;
+menu0.x metrics0.ide.x + metrics0.ide.w + menu.w;
 menu0.y metrics0.ide.y;
 
 if (BOOT.MENU*r0) {
