@@ -366,9 +366,12 @@ if (BOOT.WINAMP*r0) {
 
 menu0 0;
 menu0.w 1100;portrait.w;
-menu0.x w-115;
+#menu0.x w-115;
+
+menu0.x metrics0.ide.x + metrics0.ide.w;
 
 if (BOOT.MENU*r0) {
+# new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
  new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
 };
 
