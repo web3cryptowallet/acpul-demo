@@ -370,6 +370,7 @@ menu0.w 320;
 #menu0.x w-115;
 
 menu0.x metrics0.ide.x + metrics0.ide.w;
+menu0.y metrics0.ide.y;
 
 if (BOOT.MENU*r0) {
 # new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
@@ -377,6 +378,7 @@ if (BOOT.MENU*r0) {
 };
 
 node.set.x(u0, menu0, menu0.x);
+node.set.y(u0, menu0, menu0.y);
 
 # MENU ]
 
