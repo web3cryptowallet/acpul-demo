@@ -63,7 +63,7 @@ display.keyboard.update {
    metrics0.ide.x + metrics0.ide.w
   );
   pos.y = if(metrics.ide.mode==0,
-   metrics0.ide.y - kh,
+   metrics0.ide.y ,
    metrics0.ide.y - kh
   );
 
