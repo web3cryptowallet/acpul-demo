@@ -8,9 +8,14 @@ _ @keyboard.common;
 kbd0.awsd 0;
 kbd1.text 0;
 
+# NODE FUTURE [
+
 node.prop.visible.toggle 
 # u0, nid
  s(_0,_1, if(g(_0,_1),0,1));
+
+# NODE FUTURE ]
+# KEYBOARD TOGGLE SHOW/HIDE [ 
 
 display.keyboard.toggle {
  # kbd, type, mode
@@ -33,6 +38,7 @@ display.keyboard.toggle {
  node.set.process.children(u0, kbd0, visible);
 };
 
+# KEYBOARD TOGGLE SHOW/HIDE ]
 # METRICS [
 
 display.keyboard.update {
