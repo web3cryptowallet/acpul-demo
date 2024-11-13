@@ -783,7 +783,7 @@ if (r0) {
  };
 };
 
-display.keyboard.update(kbd0.awsd, 0);
+display.keyboard.update(kbd0.awsd, 1);
 display.keyboard.update(kbd1.text, 1);
 
 keyboard.switch {
