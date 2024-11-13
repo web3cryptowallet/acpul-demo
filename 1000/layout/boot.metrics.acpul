@@ -15,9 +15,6 @@ os.metrics {
   portrait.h:=max(vw,vh);
  };
 
-
-
-
  panel {
   w portrait.w;
   h 100;
