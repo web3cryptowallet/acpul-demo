@@ -379,7 +379,7 @@ if (BOOT.MENU*r0) {
 };
 
 node.set.x(u0, menu0, menu0.x);
-node.set.y(u0, menu0, menu0.y);
+node.set.y(u0, menu0, menu0.y+rnd(u0));
 
 # MENU ]
 
