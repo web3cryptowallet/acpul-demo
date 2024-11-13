@@ -1,2 +1,94 @@
 ### boot.keyboard
 
+# KEYBOARD [
+
+_ @ide.common;
+_ @keyboard.common;
+
+kbd0.awsd 0;
+kbd1.text 0;
+
+node.prop.visible.toggle 
+# u0, nid
+ s(_0,_1, if(g(_0,_1),0,1));
+
+display.keyboard.toggle {
+ # kbd, type, mode
+ kbd0 _0;
+ type0 _1;
+ mode _2;
+ if (kbd0==0) {
+  kbd0:=node.new.this.ex4(u0, os.keyboard, type0, 0,0,0);
+  node.prop.visible.s(u0, kbd0, 0);
+ };
+
+ if (mode == -1) {
+  node.prop.visible.toggle(u0, kbd0);
+ };
+ if (mode >= 0) {
+  node.prop.visible.s(u0, kbd0, mode);
+ };
+ visible=node.prop.visible.g(u0, kbd0);
+ node.set.running(u0, kbd0, visible);
+ node.set.process.children(u0, kbd0, visible);
+};
+
+display.keyboard.update {
+ # kbd, mode
+ kbd0 _0;
+ mode _1;
+ node.z.to.front(u0, kbd0, 0);
+
+ kw node.prop.w.g(u0, kbd0);
+ kh node.prop.h.g(u0, kbd0);
+
+ if (mode == 0) {
+  pos.x = metrics0.vw - kw;
+  pos.y = metrics0.vh / 2 - kh;
+#  pos.y = 0;
+
+  node.prop.x.s(u0, kbd0, pos.x);
+  node.prop.y.s(u0, kbd0, pos.y);
+ };
+ if (mode == 1) {
+  pos.x = (metrics0.vw - kw) / 2;
+  pos.y = 16;
+
+  node.prop.x.s(u0, kbd0, pos.x);
+  node.prop.y.s(u0, kbd0, pos.y);
+ };
+};
+
+#display.keyboard.toggle;
+
+if (r0) {
+#  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, 1);
+ if (SHOW.KEYBOARD==1) {
+  events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 1,1,0,0);
+  events.push(r0, events.pool.boot,0, boot.event.toggle.keyboard, 1,0,0,0);
+ };
+};
+
+display.keyboard.update(kbd0.awsd, 0);
+display.keyboard.update(kbd1.text, 1);
+
+keyboard.switch {
+ # mode, kbd
+ #  mode: -1 - toggle, 0 - off, 1 - on
+ #  kbd: 0 - default, 1 - awsd, 2 - texxt
+ mode _0;
+ kbd _1;
+ if (kbd == 0) {
+# display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
+  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, mode);
+#  display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
+ };
+ if (kbd == 1) {
+  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, mode);
+ };
+ if (kbd == 2) {
+  display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
+ };
+};
+
+# KEYBOARD ]
