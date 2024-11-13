@@ -56,7 +56,7 @@ os.metrics {
   s 0.8;
   x panel.landscape.x;
   y panel.landscape.y-ide.h*s;
-  w ide.w;
+  w 400;
   h ide.h;
  };
  
