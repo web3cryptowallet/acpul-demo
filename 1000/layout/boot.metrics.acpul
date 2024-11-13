@@ -59,6 +59,10 @@ os.metrics {
   w ide.w;
   h ide.h;
  };
+
+ ide.update {
+  # rect
+ };
 };
 
 os.metrics.step;
@@ -89,6 +93,11 @@ if (display.is.landscape) {
  node.prop.s.s(u0, ide0, m.ide.landscape.s);
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
  node.prop.y.s(u0, ide0, m.ide.landscape.y);
+
+ m.ide.x:=m.ide.landscape.x;
+ m.ide.y:=m.ide.landscape.y;
+ m.ide.w:=m.ide.landscape.w;
+ m.ide.h:=m.ide.landscape.h;
  
 # node.prop.s.s(u0, panel0, 0.8);
  node.prop.s.s(u0, panel0, 1);
