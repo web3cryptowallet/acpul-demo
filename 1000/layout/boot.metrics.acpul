@@ -83,7 +83,7 @@ if (display.is.portrait) {
  node.prop.s.s(u0, ide0, m.ide.portrait.s);
  node.prop.x.s(u0, ide0, m.ide.portrait.x);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
- m.ide.update(m.ide.portrait);
+ metrics0.ide.update(m.ide.portrait);
 # m.ide.x:=m.ide.portrait.x;
 # m.ide.y:=m.ide.portrait.y;
 # m.ide.w:=m.ide.portrait.w;
@@ -100,10 +100,10 @@ if (display.is.landscape) {
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
  node.prop.y.s(u0, ide0, m.ide.landscape.y);
 
- m.ide.x:=m.ide.landscape.x;
- m.ide.y:=m.ide.landscape.y;
- m.ide.w:=m.ide.landscape.w;
- m.ide.h:=m.ide.landscape.h;
+# m.ide.x:=m.ide.landscape.x;
+# m.ide.y:=m.ide.landscape.y;
+# m.ide.w:=m.ide.landscape.w;
+# m.ide.h:=m.ide.landscape.h;
  
 # node.prop.s.s(u0, panel0, 0.8);
  node.prop.s.s(u0, panel0, 1);
