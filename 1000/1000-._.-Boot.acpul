@@ -759,7 +759,8 @@ display.keyboard.update {
 
  if (mode == 0) {
   pos.x = metrics0.vw - kw;
-  pos.y = metrics0.vh / 2 - kh;
+#  pos.y = metrics0.vh / 2 - kh;
+  pos.y = 0;
 
   node.prop.x.s(u0, kbd0, pos.x);
   node.prop.y.s(u0, kbd0, pos.y);
