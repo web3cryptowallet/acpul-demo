@@ -807,7 +807,7 @@ keyboard.switch {
 # KEYBOARD ]
 
 _ @boot.menu.runners;
-_ @boot.menu.events.go;
+_ @boot.menu.events.step;
 
 
 # HACKERNEWS [
