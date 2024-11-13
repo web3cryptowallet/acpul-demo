@@ -86,7 +86,7 @@ os.metrics.step;
 metrics0 os.metrics;
 
  lbl0 0; val0 0; ui.value4(lbl0,val0,500,300,1, A.ide.mode, metrics0.ide.mode);
-
+metrics0.ide.mode+=1;
 # METRICS ]
 # UI ORIENTATION [
 
