@@ -59,7 +59,8 @@ os.metrics {
   w ide.w;
   h ide.h;
  };
-
+ 
+ # Update metrics
  ide.update {
   # rect
   x:=_0.x;
