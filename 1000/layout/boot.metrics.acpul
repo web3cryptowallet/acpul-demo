@@ -43,21 +43,27 @@ os.metrics {
   w 400;
   h 400;
  };
+ ide.base {
+  x 0;
+  y 0;
+  w 400;
+  h 400;
+ };
  ide.portrait {
 #  s 0.97;
 #  y panel.portrait.y-ide.h + ((1 - s) * ide.h);
   s 1;
   x 0;
-  y panel.portrait.y-ide.h;
-  w ide.w;
-  h ide.h;
+  y panel.portrait.y-ide.base.h;
+  w ide.base.w;
+  h ide.base.h;
  };
  ide.landscape {
   s 0.8;
   x panel.landscape.x;
-  y panel.landscape.y-ide.h*s;
-  w 400;
-  h ide.h;
+  y panel.landscape.y-ide.base.h*s;
+  w ide.base.w;
+  h ide.base.h;
  };
  
  # Update metrics
