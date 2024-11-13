@@ -374,7 +374,8 @@ menu0.y metrics0.ide.y;
 
 if (BOOT.MENU*r0) {
 # new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
- new.node.common0(menu0, 0,30,1, 150,320, NNN(acpu.menu), 0);
+ new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
+ node.z.to.back(u0, menu0, 0);
 };
 
 node.set.x(u0, menu0, menu0.x);
