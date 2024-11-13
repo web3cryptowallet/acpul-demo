@@ -62,6 +62,10 @@ os.metrics {
 
  ide.update {
   # rect
+  x:=_0.x;
+  y:=_0.y;
+  w:=_0.w;
+  h:=_0.h;
  };
 };
 
