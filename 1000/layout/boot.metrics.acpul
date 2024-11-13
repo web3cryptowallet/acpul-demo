@@ -94,11 +94,10 @@ if (display.is.portrait) {
  node.prop.s.s(u0, ide0, m.ide.portrait.s);
  node.prop.x.s(u0, ide0, m.ide.portrait.x);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
+
+ metrics0.ide.mode = 0; # portrait
  metrics0.ide.update(m.ide.portrait);
-# m.ide.x:=m.ide.portrait.x;
-# m.ide.y:=m.ide.portrait.y;
-# m.ide.w:=m.ide.portrait.w;
-# m.ide.h:=m.ide.portrait.h;
+
  node.prop.s.s(u0, panel0, 1);
  node.prop.x.s(u0, panel0, m.panel.portrait.x);
  node.prop.y.s(u0, panel0, m.panel.portrait.y);
