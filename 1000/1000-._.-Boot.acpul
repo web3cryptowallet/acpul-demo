@@ -794,7 +794,8 @@ keyboard.switch {
  kbd _1;
  if (kbd == 0) {
 # display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd);
-  display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
+  display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, mode);
+#  display.keyboard.toggle(kbd1.text, keyboard.type.text, mode);
  };
  if (kbd == 1) {
   display.keyboard.toggle(kbd0.awsd, keyboard.type.awsd, mode);
