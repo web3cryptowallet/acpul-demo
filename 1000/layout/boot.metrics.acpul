@@ -72,8 +72,12 @@ metrics0 os.metrics;
 if (display.is.portrait) {
  m metrics0;
  node.prop.s.s(u0, ide0, m.ide.portrait.s);
- node.prop.x.s(u0, ide0, 0);
+ node.prop.x.s(u0, ide0, m.ide.portrait.x);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
+ m.ide.x:=m.ide.portrait.x;
+ m.ide.y:=m.ide.portrait.y;
+ m.ide.w:=m.ide.portrait.w;
+ m.ide.h:=m.ide.portrait.h;
  node.prop.s.s(u0, panel0, 1);
  node.prop.x.s(u0, panel0, m.panel.portrait.x);
  node.prop.y.s(u0, panel0, m.panel.portrait.y);
