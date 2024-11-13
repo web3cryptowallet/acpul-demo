@@ -99,6 +99,7 @@ if (display.is.landscape) {
  node.prop.s.s(u0, ide0, m.ide.landscape.s);
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
  node.prop.y.s(u0, ide0, m.ide.landscape.y);
+ metrics0.ide.update(m.ide.landscape);
 
 # m.ide.x:=m.ide.landscape.x;
 # m.ide.y:=m.ide.landscape.y;
