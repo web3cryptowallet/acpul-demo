@@ -126,6 +126,6 @@ if (display.is.landscape) {
 info.metrics {
  lbl0 0; val0 0; ui.value4(lbl0,val0,500,200,1, A.ide.mode, metrics0.ide.mode);
 };
-info.metrics;
+#info.metrics;
 
 # INFO ]
