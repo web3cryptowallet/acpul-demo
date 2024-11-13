@@ -60,7 +60,7 @@ display.keyboard.update {
 #  pos.y = metrics0.vh / 2 - kh;
   pos.x = if(metrics.ide.mode==0,
    metrics0.ide.x + metrics0.ide.w,
-   metrics0.ide.x + metrics0.ide.w + kw
+   metrics0.ide.x + metrics0.ide.w + kw/2
   );
   pos.y = metrics0.ide.y - kh;
 
