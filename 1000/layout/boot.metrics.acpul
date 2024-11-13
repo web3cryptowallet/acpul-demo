@@ -40,7 +40,7 @@ os.metrics {
  ide {
   x 0;
   y 0;
-  w portrait.w;
+  w 400;
   h 400;
  };
  ide.portrait {
