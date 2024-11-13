@@ -434,8 +434,6 @@ panel0 l14;
 
 _ @boot.metrics;
 
-
-
 if (r0) {
  if (BOOT.IDE) {
   os.main.ide.new(ide0, 0,525,1, 600,400);
