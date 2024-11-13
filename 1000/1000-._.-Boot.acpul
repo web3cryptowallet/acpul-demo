@@ -366,7 +366,7 @@ if (BOOT.WINAMP*r0) {
 
 menu0 0;
 menu0.w 1100;portrait.w;
-menu0.w 320;
+menu0.w 150;
 #menu0.x w-115;
 
 menu0.x metrics0.ide.x + metrics0.ide.w + menu.w/2;
