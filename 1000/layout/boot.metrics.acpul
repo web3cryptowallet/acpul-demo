@@ -96,7 +96,7 @@ if (display.is.portrait) {
  node.prop.x.s(u0, ide0, m.ide.portrait.x);
  node.prop.y.s(u0, ide0, m.ide.portrait.y);
 
- metrics0.ide.mode = 0; # portrait
+ metrics0.ide.mode := 0; # portrait
  metrics0.ide.update(m.ide.portrait);
 
  node.prop.s.s(u0, panel0, 1);
@@ -111,7 +111,7 @@ if (display.is.landscape) {
  node.prop.x.s(u0, ide0, m.ide.landscape.x);
  node.prop.y.s(u0, ide0, m.ide.landscape.y);
 
- metrics0.ide.mode = 1; # landscape
+ metrics0.ide.mode := 1; # landscape
  metrics0.ide.update(m.ide.landscape);
  
 # node.prop.s.s(u0, panel0, 0.8);
