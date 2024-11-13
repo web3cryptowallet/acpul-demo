@@ -378,8 +378,8 @@ if (BOOT.MENU*r0) {
  node.z.to.back(u0, menu0, 0);
 };
 
-node.set.x(u0, menu0, menu0.x+rnd(u0)*100);
-node.set.y(u0, menu0, menu0.y+rnd(u0)*100);
+node.set.x(u0, menu0, menu0.x);
+node.set.y(u0, menu0, menu0.y);
 
 # MENU ]
 
