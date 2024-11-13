@@ -1,3 +1,101 @@
 ### boot.metrics
 
+# METRICS [
+
+os.metrics {
+ _ @sys.display;
+
+ vw 768; vh 1024;
+ portrait.w 768;
+ portrait.h 1024;
+
+ step {
+  display.scalled.size(vw,vh);
+  portrait.w:=min(vw,vh);
+  portrait.h:=max(vw,vh);
+ };
+
+
+
+
+ panel {
+  w portrait.w;
+  h 100;
+  x 0;
+  y portrait.h-h;
+ };
+ panel.portrait {
+  x panel.x;
+  y panel.y;
+  w panel.w;
+  h panel.h;
+ };
+ panel.landscape {
+  x vw-portrait.w;
+  y vh-h;
+  w panel.w;
+  h panel.h;
+ };
+ 
+ ide {
+  x 0;
+  y 0;
+  w portrait.w;
+  h 400;
+ };
+ ide.portrait {
+#  s 0.97;
+#  y panel.portrait.y-ide.h + ((1 - s) * ide.h);
+  s 1;
+  x 0;
+  y panel.portrait.y-ide.h;
+  w ide.w;
+  h ide.h;
+ };
+ ide.landscape {
+  s 0.8;
+  x panel.landscape.x;
+  y panel.landscape.y-ide.h*s;
+  w ide.w;
+  h ide.h;
+ };
+};
+
+os.metrics.step;
+
+metrics0 os.metrics;
+
+
+# METRICS ]
+# UI ORIENTATION [
+
+if (display.is.portrait) {
+ m metrics0;
+ node.prop.s.s(u0, ide0, m.ide.portrait.s);
+ node.prop.x.s(u0, ide0, 0);
+ node.prop.y.s(u0, ide0, m.ide.portrait.y);
+ node.prop.s.s(u0, panel0, 1);
+ node.prop.x.s(u0, panel0, m.panel.portrait.x);
+ node.prop.y.s(u0, panel0, m.panel.portrait.y);
+ node.prop.s.s(u0, apps0, 1);
+ node.prop.y.s(u0, apps0, 0);
+};
+if (display.is.landscape) {
+ m metrics0;
+ node.prop.s.s(u0, ide0, m.ide.landscape.s);
+ node.prop.x.s(u0, ide0, m.ide.landscape.x);
+ node.prop.y.s(u0, ide0, m.ide.landscape.y);
+ 
+# node.prop.s.s(u0, panel0, 0.8);
+ node.prop.s.s(u0, panel0, 1);
+ node.prop.x.s(u0, panel0, metrics0.panel.landscape.x); 
+ node.prop.y.s(u0, panel0, metrics0.panel.landscape.y);
+
+ node.prop.s.s(u0, apps0, 0.47);
+ node.prop.y.s(u0, apps0, 330);
+# node.prop.s.s(u0, apps0, 0.533);
+# node.prop.y.s(u0, apps0, 260);
+};
+
+# UI ORIENTATION ]
 
