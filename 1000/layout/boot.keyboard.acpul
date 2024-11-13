@@ -59,7 +59,7 @@ display.keyboard.update {
 #  pos.x = metrics0.vw - kw;
 #  pos.y = metrics0.vh / 2 - kh;
   pos.x = metrics0.ide.landscape.x;
-  pos.y = 0;
+  pos.y = metrics0.ide.landscape.y - kh;
 
   node.prop.x.s(u0, kbd0, pos.x);
   node.prop.y.s(u0, kbd0, pos.y);
