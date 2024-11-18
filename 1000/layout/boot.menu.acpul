@@ -23,4 +23,6 @@ node.set.y(u0, menu0, menu0.y);
 
 # MENU ]
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,100,100,1, A.w, w);
+display.scalled.size(vw,vh);
+
+lbl0 0; val0 0; ui.value4(lbl0,val0,100,100,1, A.w, vw);
