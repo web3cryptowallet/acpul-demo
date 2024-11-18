@@ -428,9 +428,9 @@ if (r0) {
  };
 };
 
-if (BOOT.IDE) {
+#if (BOOT.IDE) {
  node.z.to.front(u0, ide0,0);
-};
+#};
 
 if (r0) {
  if (BOOT.PANEL) {
