@@ -69,9 +69,10 @@ sys.ul.ui 70100;
 
 # __bugfix [
 
-# bugfix 1. render order
-# render sequence should call using line after
-# psize for shader set.
+# Bugfix 1: Render Order
+# The render sequence must call `line()` after
+# `psize()` to set internal shader variables correctly
+
 psize1
 {
  psize(u0, _0);
@@ -86,21 +87,8 @@ color1
 dbg gdbg(u0, _0);
 
 # __bugfix ]
-
 # math.future [
 
 sinc sin(_0)/_0;
 
 # math.future ]
-
-#r+=0.01;
-#r+=0.1;
-#r+=sin(r);
-#r+=100;
-#x+=sin(t)*1.01;
-#s+=-0.009+rnd(u0)*0.01;
-#s+=rnd(u0)*0.01;
-#x0000 x;
-#x d35;
-#x 0;
-#y 0;

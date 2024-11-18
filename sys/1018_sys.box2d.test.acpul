@@ -38,39 +38,6 @@ box2d.test
  cgr(world, cgs.enemy.fire, cgs.friend, 1);
  cgr(world, cgs.enemy, cgs.friend, 1);
 
- # Body: Comment example
- # ---
- # You don't need more breakedown for compiler,
- # any text in any rule can be writed (like in
- # your file system).
- # ACPUL - The Language with minimal 
- # syntax discovery.
- # Give your hands free, more time for
- # brainstorm & ideas.
- # ---
- # Here is Body of Box2d component.
- # For collision testing we 
- # requierd 4 groups bodies:
- # enemy, friend, enemy fire, friend fire
- # The Body can created using full descrition
- # or short descrition (below in samples).
- #
- # Learn: box2d, sys.box2d, box2d.body,
- # /box2d.org/, etc... (like link?)
- #
- # The two ACPUL comments rule:
- # 1. Don't write many comments, coments should
- # be not much, but with full description. 
- # The best comment - no comment or 
- # short in header location.
- # 2. Code must be documented by self in near
- # code coordinate system & logic range & scope 
- # (what you see, handfree scroll). 
- # You have more time for code documentation, 
- # think twice, please.
- #
- # Error procesing - don't write errors.
-
  # BODY FULL
  # def0
  type box2d.dynamic;
@@ -154,4 +121,3 @@ box2d.test
 
 };
 
-#Yes, this better, than JSON :)
