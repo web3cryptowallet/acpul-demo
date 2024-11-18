@@ -15,13 +15,14 @@ menu0.x vw-menu0.w;
 if (BOOT.MENU*r0) {
 # new.node.common0(menu0, 0,330,1, 150,320, NNN(acpu.menu), 0);
  new.node.common0(menu0, 0,330,1, menu0.w,320, NNN(acpu.menu), 0);
- node.z.to.back(u0, menu0, 0);
+# node.z.to.back(u0, menu0, 0);
 };
 
 node.set.x(u0, menu0, menu0.x);
 node.set.y(u0, menu0, menu0.y);
 
 node.z.to.front(u0, menu0, 0);
+
 if (BOOT.IDE) {
  node.z.to.front(u0, ide0,0);
 };
