@@ -33,6 +33,6 @@ if (BOOT.IDE) {
 
 #lbl0 0; val0 0; ui.value4(lbl0,val0,100,100,1, A.w, vw);
 
-lbl0 0; val0 0; ui.value4(lbl0,val0,100,100,1, A.menu0, menu0);
-lbl0 0; val0 0; ui.value4(lbl0,val0,100,120,1, A.menu0.x, menu0.x);
-lbl0 0; val0 0; ui.value4(lbl0,val0,100,140,1, A.menu0.y, menu0.y);
+#lbl0 0; val0 0; ui.value4(lbl0,val0,100,100,1, A.menu0, menu0);
+#lbl0 0; val0 0; ui.value4(lbl0,val0,100,120,1, A.menu0.x, menu0.x);
+#lbl0 0; val0 0; ui.value4(lbl0,val0,100,140,1, A.menu0.y, menu0.y);
