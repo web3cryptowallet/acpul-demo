@@ -21,6 +21,11 @@ if (BOOT.MENU*r0) {
 node.set.x(u0, menu0, menu0.x);
 node.set.y(u0, menu0, menu0.y);
 
+node.z.to.front(u0, menu0, 0);
+if (BOOT.IDE) {
+ node.z.to.front(u0, ide0,0);
+};
+
 # MENU ]
 
 #display.scalled.size(vw,vh);
