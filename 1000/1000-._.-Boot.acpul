@@ -918,9 +918,6 @@ run.video {
 
 # TEST VIDEO ]
 
-if (BOOT.IDE) {
- node.z.to.front(u0, ide0,0);
-};
 
 
 k:=1;
