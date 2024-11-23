@@ -88,7 +88,6 @@ jobj.o.s # universal str/buf/o/jo
  jobj_set(u0, 4, _0, _1, _2, 0);
 
 # jobj [
-
 # json [
 
 json.decode
