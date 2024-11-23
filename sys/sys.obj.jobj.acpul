@@ -93,11 +93,11 @@ jobj.o.s # universal str/buf/o/jo
 
 json.decode
  # s -> o
- io(u0, 500520, _0, 0,0,0);
+ io(u0, 500521, _0, 0,0,0);
 
 json.encode
  # o, to
- io(u0, 500521, _0, _1, 0,0);
+ io(u0, 500520, _0, _1, 0,0);
 
 # json ]
 
