@@ -502,9 +502,9 @@ if (BOOT.WALLET*r0) {
 
 # ChatGPT
 
-BOOT.CHAT.GPT 0;
+BOOT.CHAT.GPT 1;
 
-if (BOOT.CHAT.GPT) {
+if (BOOT.CHAT.GPT*r0) {
  gpt0 0;
  new.node.common0(gpt0, 500,0,1, 300,300, node.fid.by.name(u0, gpt.chat.test), 0);
 };
