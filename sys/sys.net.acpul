@@ -197,10 +197,13 @@ net.snippet.scan {
 
 ### 1040 sys.http
 
-www.pool 80000;
+www.pool 80000; # handle=0 - all responses
+www.pool.res 80001; # handle=reqId - response to request
 
+
+# Send request
 http.req
- # jobj
+ # jobj -> reqId
  #  host '';
  #  path '';
  #  method '';
@@ -209,8 +212,11 @@ http.req
  #  body '';
  io(u0, 500530, _0, 0, 0,0);
 
-http.req.json
- # : http.req
+http.req.json # ::http.req
+ # jobj -> reqId
  io(u0, 500530, _0, 1, 0,0);
 
-http.event.res 1;
+# HTTP event www.pool,0, jo, raw, obj1, requestId
+# HTTP event www.pool.res,reqId, jo, raw, obj1, 0
+http.event.res 1; 
+
