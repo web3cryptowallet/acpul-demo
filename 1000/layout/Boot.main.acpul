@@ -120,7 +120,7 @@ node.new.this.ex(r0, Boot.texture, 0);
 nframe 0;
 nframe+=1;
 if (nframe==5) {
- cpu.reset(u0, 1600, 0);
+# cpu.reset(u0, 1600, 0);
 };
 # MAGIC NUMBERS - 5 frame reset due black screen ]
 
