@@ -500,6 +500,13 @@ if (BOOT.WALLET*r0) {
  run.wallet;
 };
 
+# ChatGPT
+
+if (BOOT.CHAT.GPT) {
+ gpt0 0;
+ new.node.common0(gpt0, 500,0,1, 300,300, node.fid.by.name(u0, gpt.chat.test), 0);
+};
+
 BOOTLOADER 8000000;
 #node.new.this.ex(r0, BOOTLOADER, 0);
 
