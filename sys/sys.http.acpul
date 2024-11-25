@@ -2,7 +2,7 @@
 
 www.pool 80000; # handle=0 - all responses
 www.pool.res 80001; # handle=reqId - response to request
-www.pool2 80002; # for http.request
+www.pool2 80002; # for http.request nid
 www.pool3 80003; # for http.request group
 
 # Send request
