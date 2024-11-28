@@ -515,7 +515,6 @@ if (BOOT.CHAT.GPT*r0) {
  #new.node.common0(gpt0, 500-50,0,1, 300,300, node.fid.by.name(u0, gpt.chat.test), 0);
  ai0:=new.node.ai(500-50,0,1, 300,300, 0);
 # ai0:=new.ai.node(500-50,0,1, 300,300, 0);
-#
 };
 
 # AI ]
