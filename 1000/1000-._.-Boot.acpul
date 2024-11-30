@@ -503,11 +503,9 @@ if (BOOT.WALLET*r0) {
 };
 
 # AI [
-
 # ChatGPT
 
 _ @node.ai.inc;
-
 
 if (BOOT.CHAT.GPT*r0) {
  toggle.ai.chat;
