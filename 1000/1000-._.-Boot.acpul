@@ -577,15 +577,6 @@ run.neo {
 
 
 
-# CHAT AI
-
-chat0 0;
-
-new.ai.chat {
-# new.node.common0(chat0, 100,200,1, 300,300, NNN(ai.chat.dialog), 0);
- new.node.common0(chat0, 0,0,1, 500,500, NNN(gpt.chat.test), 0);
-};
-
 
 # Hacktoberfest
 #node.new.this.ex(r0, 2024101, 01); 
