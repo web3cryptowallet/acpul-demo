@@ -248,8 +248,8 @@ headcrab.test {
   x2 240+rnd(u0)*30;
   y2 30+rnd(u0)*60;
   sz=rnd(u0);
-  w2 100+sz*100;
-  h2 100+sz*100;
+  w2 50+sz*100;
+  h2 50+sz*100;
   new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29133); # dota.headcrab
   i+=1;
  };
