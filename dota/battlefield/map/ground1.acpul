@@ -258,6 +258,8 @@ headcrab.step {
  shader.set.uniform.v(sn0, A.time, t); #
 };
 
+headcrab.step;
+
 headcrab.test {
  i=0;while(i<10) {
   x2 280+rnd(u0)*30;
