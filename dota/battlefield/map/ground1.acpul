@@ -267,7 +267,7 @@ headcrab.test {
   hq 2;
   x2 280+rnd(u0)*30;
   y2 30+rnd(u0)*60;
-  sz=rnd(u0);
+  sz=rnd(u0)+0.5;
   w2 50+sz*100*hq;
   h2 50+sz*100*hq;
 #  w2 50+sz*700;
