@@ -237,7 +237,7 @@ a {
  new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29132); # dota.alien.jelly32
 
  headcrab.new;
- headcrab.test;
+# headcrab.test;
 };
 
 # ALIEN JELLY32 [
