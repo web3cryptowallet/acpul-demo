@@ -274,7 +274,7 @@ headcrab.test {
   shader.set.uniform.v(sn0, A.time, rnd(u0)*100); #
   node.value.s(u0, sn0,1, 1); # draw.off
 #  node.prop.z.order.s(u0, sn0, 100000-y2);
-  node.prop.z.order.s(u0, sn0, 1000+y2);
+  node.prop.z.order.s(u0, sn0, 1000-y2);
 #  texx=node.value.g(u0, sn0,0);
 # gl.texture.filter.nearest(texx);
 #  gl.texture.filter.linear(texx);
