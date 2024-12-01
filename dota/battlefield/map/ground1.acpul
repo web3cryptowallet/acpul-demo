@@ -249,8 +249,8 @@ if (r0) {
  shader.set.uniform.v(buff0, A.size0, 3); #
 };
 
-#shader.set.uniform.v3(buff0, A.angle0, 5,1,1); #
-#shader.set.uniform.v(buff0, A.size0, 3+sin(t)); #
+shader.set.uniform.v3(buff0, A.angle0, 5,1,1); #
+shader.set.uniform.v(buff0, A.size0, 3+sin(t)); #
 
 # BUFF 0 ]
 # XCOIN [
