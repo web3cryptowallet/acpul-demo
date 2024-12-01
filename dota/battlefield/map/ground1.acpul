@@ -249,7 +249,8 @@ if (r0) {
  shader.set.uniform.v(buff0, A.size0, 3); #
 };
 
-shader.set.uniform.v3(buff0, A.angle0, t*2,t*2,t); #
+sp 2;
+shader.set.uniform.v3(buff0, A.angle0, t*sp,t*sp,t*sp); #
 shader.set.uniform.v(buff0, A.size0, 2+sin(t)); #
 
 # BUFF 0 ]
