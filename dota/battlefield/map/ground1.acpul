@@ -240,6 +240,10 @@ a {
 buff0 0;
 
 if (r0) {
+ buff.new;
+};
+
+buff.new {
  x2 90;
  y2 30;
  w2 100;
@@ -249,9 +253,11 @@ if (r0) {
  shader.set.uniform.v(buff0, A.size0, 3); #
 };
 
-sp 2;
-shader.set.uniform.v3(buff0, A.angle0, t*sp,t*sp,t*sp); #
-shader.set.uniform.v(buff0, A.size0, 2+sin(t)); #
+buff.step {
+ sp 2;
+ shader.set.uniform.v3(buff0, A.angle0, t*sp,t*sp,t*sp); #
+ shader.set.uniform.v(buff0, A.size0, 2+sin(t)); #
+};
 
 # BUFF 0 ]
 # XCOIN [
