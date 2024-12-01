@@ -258,6 +258,7 @@ buff.step {
  shader.set.uniform.v3(buff0, A.angle0, t*sp,t*sp,t*sp); #
  shader.set.uniform.v(buff0, A.size0, 2+sin(t)); #
 };
+buff.step;
 
 # BUFF 0 ]
 # XCOIN [
