@@ -271,7 +271,7 @@ headcrab.test {
   h2 50+sz*100;
   new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29133); # dota.headcrab
   shader.set.uniform.v(sn0, A.time, rnd(u0)*100); #
-#  node.value.s(u0, sn0,1, 1); # draw.off
+  node.value.s(u0, sn0,1, 1); # draw.off
 #  texx=node.value.g(u0, sn0,0);
 # gl.texture.filter.nearest(texx);
 #  gl.texture.filter.linear(texx);
