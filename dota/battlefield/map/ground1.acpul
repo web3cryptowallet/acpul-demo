@@ -240,11 +240,11 @@ a {
 buff0 0;
 
 if (r0) {
- x2 0;
- y2 0;
  x2 90;
  y2 30;
-# new.ui.shader.node3(buff0, x2,y2,1/3, w2,h2, 70014,29131); # dota.buff131
+ w2 100;
+ h2 100;
+ new.ui.shader.node3(buff0, x2,y2,1/3, w2,h2, 70014,29131); # dota.buff131
 # shader.set.uniform.v3(buff0, A.angle0, 5,1,1); #
 # shader.set.uniform.v(buff0, A.size0, 3); #
 };
