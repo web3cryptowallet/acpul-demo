@@ -241,7 +241,7 @@ a {
  headcrab.test;
 };
 
-# HEADCRAB [
+# ALIEN HEADCRAB [
 
 headcrab.test {
  i=0;while(i<10) {
@@ -259,8 +259,7 @@ headcrab.test {
  };
 };
 
-# HEADCRAB ]
-
+# ALIEN HEADCRAB ]
 # BUFF 0 [
 
 buff0 0;
