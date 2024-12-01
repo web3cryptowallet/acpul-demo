@@ -220,7 +220,7 @@ a {
  h2 100;
  #new.ui.shader.node3(sn0, x2,y2,1, w2,h2, 70014,28732); # dota.skill.fireball3
 
- #new.ui.shader.node3(sn0, x2,y2,1, w2,h2, 70014,28732); # dota.skill.fireball3
+ new.ui.shader.node3(sn0, x2,y2,1, w2,h2, 70014,28732); # dota.skill.fireball3
 
 };
 
