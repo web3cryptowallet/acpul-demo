@@ -249,8 +249,8 @@ a {
  headcrab.test;
 
  eff0 0;
- eff0.circle0 0;
- 
+# eff0.circle0 0;
+
  x0 140;
  y0 70;
  q 2;
