@@ -16,6 +16,8 @@ _ @basic.ui.shader.node3.inc;
 
 display.scalled.size(w,h);
 
+sn0 0;
+
 #w:=1000;
 #h:=500;
 
