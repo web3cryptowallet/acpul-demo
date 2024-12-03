@@ -29,6 +29,8 @@ map0 0;
 MAP 3224;
 if (r0) {
  new.ui.shader.node3(sn0, 0-100,0,1/5, w,h, 70014,29135); # dota.
+ node.value.s(u0, sn0, 1, 2); # no texture
+
  map0:=node.new.this.ex(r0, MAP, 0);
 };
 
