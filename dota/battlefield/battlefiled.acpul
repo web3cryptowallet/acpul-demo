@@ -16,6 +16,7 @@ _ @sys.node;
 _ @os.util0;
 _ @basic.ui;
 _ @os.util2;
+_ @basic.ui.shader.node3.inc;
 
 # MAP ???
 #node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
