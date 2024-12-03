@@ -36,7 +36,7 @@ node.new.this.ex(r0, NETWORKING, 0);
 
 battlefield0 0;
 if (r0) {
- hq 0.1;
+ hq 1;
  new.ui.shader.node3(sn0, 00,0,1*hq, w,h, 70014,29135); # dota.
 # new.ui.shader.node3(sn0, 00,0,1*hq, w/hq,h/hq, 70014,29135); # dota.
  node.value.s(u0, sn0, 1, 2); # no texture
