@@ -236,7 +236,7 @@ a {
  x2 110;
  new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29132); # dota.alien.jelly32
 
- new.ui.shader.node3(sn0, x2,y2,1/3*3, w2,h2, 70014,29134); # dota.dota.ai.skull
+ new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29134); # dota.dota.ai.skull
 
  headcrab.new;
  headcrab.test;
