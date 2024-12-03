@@ -241,7 +241,7 @@ a {
  y2 70;
  new.ui.shader.node3(sn0, x2,y2,1/3*2, w2,h2, 70014,29134); # dota.ai.skull
  shader.set.uniform.v3(sn0, A.rotation, 0,0,2.5); #
- shader.set.uniform.v4(sn0, A.color, 2,0,10,1); #
+ shader.set.uniform.v4(sn0, A.color, 0,2,0,1); #
 
  headcrab.new;
  headcrab.test;
