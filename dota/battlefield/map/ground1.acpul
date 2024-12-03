@@ -248,7 +248,6 @@ a {
  headcrab.new;
  headcrab.test;
 
- eff0 0;
 # eff0.circle0 0;
 
  x0 140;
@@ -261,6 +260,9 @@ a {
  shader.set.uniform.v(eff0, iTime, 0); #
 
 };
+ eff0 0;
+
+ shader.set.uniform.v(eff0, iTime, t); #
 
 # ALIEN JELLY32 [
 
