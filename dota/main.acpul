@@ -12,6 +12,7 @@ _ @sys.node;
 _ @os.util0;
 _ @sys.display;
 _ @sys.events;
+_ @basic.ui.shader.node3.inc;
 
 display.scalled.size(w,h);
 
