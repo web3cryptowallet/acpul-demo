@@ -20,8 +20,8 @@ display.scalled.size(w,h);
 
 sn0 0;
 
-w:=1000;
-h:=500;
+#w:=1000;
+#h:=500;
 
 
 NETWORKING 3290;
