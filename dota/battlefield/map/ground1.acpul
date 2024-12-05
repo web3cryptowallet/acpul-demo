@@ -251,7 +251,7 @@ a {
  skull.create;
 
  new.fantasy.skull0(sn0, 140+50/2-9,250+50/2-9,1, 50,50);
- new.eff.circle0(sn0, 140,250,1, 100,100);
+ new.eff.circle0(sn0, 140,250,2, 100,100);
 };
 
 # ALIEN JELLY32 [
