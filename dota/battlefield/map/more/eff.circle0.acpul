@@ -10,6 +10,8 @@ if ((eff0==0)*w*h>0) {
  eff.circle.create;
 };
 
+t+=dt;
+
 # EFF CIRCLE 0 [
 
 
