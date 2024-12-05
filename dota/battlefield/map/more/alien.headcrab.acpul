@@ -35,7 +35,7 @@ headcrab.step;
 
 min.w p0;
 min.h p1;
-sz p2;
+sz0 p2;
 
 _ @easy.start.new1;
 
@@ -54,7 +54,7 @@ headcrab.test {
   hq 1;
   x2 0+rnd(u0)*(w-w2);
   y2 0+rnd(u0)*(h-h2);
-  sz=rnd(u0)+0.1;
+  sz=rnd(u0)*sz0;
   w2 min.w+sz*min.w*hq;
   h2 min.h+sz*min.h*hq;
 #  w2 50+sz*700;
