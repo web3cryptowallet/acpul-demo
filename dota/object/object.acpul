@@ -142,7 +142,7 @@ self context;
 ### 3221 Object.draw
 
 if (1) {
- color(1,0,1,1);
+ color(u0, 1,0,1,1);
  rect(u0, 2, 0,0,w,h);
 };
 
