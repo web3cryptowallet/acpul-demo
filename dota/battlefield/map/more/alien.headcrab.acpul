@@ -50,8 +50,8 @@ t+=dt;
 headcrab.test {
  i=0;while(i<10) {
   hq 2;
-  x2 0;#+rnd(u0)*(w-w2);
-  y2 0;#+rnd(u0)*(h-h2);
+  x2 0+rnd(u0)*(w-w2);
+  y2 0+rnd(u0)*(h-h2);
   sz=rnd(u0)+0.1;
   w2 50+sz*100*hq;
   h2 50+sz*100*hq;
