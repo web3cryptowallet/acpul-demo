@@ -51,12 +51,12 @@ t+=dt;
 
 headcrab.test {
  i=0;while(i<10) {
-  hq 2;
+  hq 1;
   x2 0+rnd(u0)*(w-w2);
   y2 0+rnd(u0)*(h-h2);
   sz=rnd(u0)+0.1;
-  w2 50+sz*100*hq;
-  h2 50+sz*100*hq;
+  w2 min.w+sz*min.w*hq;
+  h2 min.h+sz*min.h*hq;
 #  w2 50+sz*700;
 #  h2 50+sz*700;
 #  x2 280;
