@@ -12,6 +12,8 @@ if ((skull0==0)*w*h>0) {
  skull0:=sn0;
 };
 
+t+=dt;
+
 # SKULL 0 [
 
 skull {
