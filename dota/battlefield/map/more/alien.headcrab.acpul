@@ -33,6 +33,10 @@ headcrab.step;
 ### dota.alien.headcrab.test
 # min:w:h, sz
 
+min.w p0;
+min.h p1;
+sz p2;
+
 _ @easy.start.new1;
 
 crab0 0;
