@@ -84,6 +84,9 @@ new.alien.jelly0
 new.buff.a0
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.a0), 0,0,0,0);
 
+new.crystal1
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.crystal1), 0,0,0,0);
+
 _ @dota.place.eggs1;
 
 # PLACES ]
