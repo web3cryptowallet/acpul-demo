@@ -259,16 +259,16 @@ skull {
   shader.set.uniform.v4(sn0, A.color, 0,2,2,1); #
  };
  step {
-  shader.set.uniform.v3(sn0, A.rotation, 0+sin(t)*10,0,2.5); #
-
+  shader.set.uniform.v3(sn0, A.rotation, 0+sin(t),0,2.5); #
  };
 };
+
+skull.step;
 
 # SKULL 0]
 # EFF CIRCLE 0 [
 
 eff0 0;
-
 
 # eff0.circle0 0;
 eff.circle {
@@ -292,7 +292,7 @@ eff.circle {
  };
 };
 
-step;
+eff.circle.step;
 
 # EFF CIRCLE 0 ]
 # ALIEN JELLY32 [
