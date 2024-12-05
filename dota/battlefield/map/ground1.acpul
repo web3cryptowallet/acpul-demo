@@ -248,7 +248,7 @@ a {
  headcrab.new;
  headcrab.test;
 
- eff.circle;
+ eff.circle.create;
 };
 
 # EFF CIRCLE 0 [
