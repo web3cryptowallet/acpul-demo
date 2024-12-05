@@ -260,7 +260,7 @@ a {
 eff.circle {
  create {
   x0 140;
-  y0 70;
+  y0 170;
   q 2;
   w0 100*q;
   h0 100*q;
