@@ -32,3 +32,14 @@ headcrab.step;
 
 
 ### dota.alien.headcrab.test
+
+_ @easy.start.new1;
+
+crab0 0;
+
+if ((crab0==0)*w*h>0) {
+ headcrab.test;
+};
+
+t+=dt;
+
