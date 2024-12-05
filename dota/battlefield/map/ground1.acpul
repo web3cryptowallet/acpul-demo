@@ -79,7 +79,7 @@ new.headcrab.test
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.headcrab.test), _6,_7,_8, 0);
 
 new.alien.jelly0
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.jelly0), 0,0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.headcrab), 0,0,0,0);
 
 new.buff.a0
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.a0), 0,0,0,0);
