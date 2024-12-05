@@ -87,6 +87,9 @@ new.buff.a0
 new.crystal1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.crystal1), 0,0,0,0);
 
+new.bullet.fireball1
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.crystal1), 0,0,0,0);
+
 _ @dota.place.eggs1;
 
 # PLACES ]
@@ -241,7 +244,8 @@ a {
  h2 100;
  new.ui.shader.node3(sn0, x2,y2,1, w2,h2, 70014,28732); # dota.skill.fireball3
 # new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,28732); # dota.skill.fireball3
- new.fireball(sn0, 90,260, 100,100);
+
+ new.bullet.fireball1(sn0, 90,260, 100,100);
 
  new.crystal1(sn0, 90,30,1/3, 100,100);
 
