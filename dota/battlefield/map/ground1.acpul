@@ -252,9 +252,9 @@ a {
 };
 
 # EFF CIRCLE 0 [
- eff0 0;
 
- shader.set.uniform.v(eff0, iTime, t); #
+eff0 0;
+
 
 # eff0.circle0 0;
 eff.circle {
@@ -273,7 +273,12 @@ eff.circle {
 #  shader.set.uniform.v4(eff0, A.freqA, 0,0.25,0.125,0.625); #
 #  shader.set.uniform.v4(eff0, A.freqA, 0,0.25,0.125,0.625); #
  };
+ step {
+  shader.set.uniform.v(eff0, iTime, t); #
+ };
 };
+
+step;
 
 # EFF CIRCLE 0 ]
 # ALIEN JELLY32 [
