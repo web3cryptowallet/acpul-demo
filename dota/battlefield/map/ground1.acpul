@@ -259,33 +259,6 @@ a {
 
 # ALIEN JELLY32 ]
 
-headcrab.test {
- i=0;while(i<10) {
-  hq 2;
-  x2 280+rnd(u0)*30;
-  y2 30+rnd(u0)*60;
-  sz=rnd(u0)+0.1;
-  w2 50+sz*100*hq;
-  h2 50+sz*100*hq;
-#  w2 50+sz*700;
-#  h2 50+sz*700;
-#  x2 280;
-#  sz:=1;
-#  y2 30+i*25;
-#x2 0; 
-#  y2 0;
-  new.ui.shader.node3(sn0, x2,y2,1/3/hq, w2,h2, 70014,29133); # dota.headcrab
-  shader.set.uniform.v(sn0, A.time, rnd(u0)*100); #
-  node.value.s(u0, sn0,1, 1); # draw.off
-#  node.prop.z.order.s(u0, sn0, 100000-y2);
-  node.prop.z.order.s(u0, sn0, 1000-y2);
-#  texx=node.value.g(u0, sn0,0);
-# gl.texture.filter.nearest(texx);
-#  gl.texture.filter.linear(texx);
-  i+=1;
- };
-};
-
 # BUFF 0 [
 
 buff0 0;
