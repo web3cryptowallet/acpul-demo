@@ -251,7 +251,7 @@ a {
 
 
  new.headcrab(sn0, 140,30,1, 100,100);
- new.headcrab.test(sn0, 0,30,1, 500,500, 50,50,2);
+ new.headcrab.test(sn0, 280,30,1, 500,500, 50,50,2);
 
  eff.circle.create;
 
