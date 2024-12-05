@@ -78,6 +78,9 @@ new.headcrab.test
  # sn0, x:y:s:w:h, min:w:h, sz
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.headcrab.test), _6,_7,_8, 0);
 
+new.alien.jelly0
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.headcrab), 0,0,0,0);
+
 new.buff.a0
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.a0), 0,0,0,0);
 
@@ -248,9 +251,7 @@ a {
 # shader.set.uniform.v3(sn0, A.col0, -05.1,-05.5,-04.1); #
  shader.set.uniform.v3(sn0, A.col0, -05.1,-05.5,-0.1); #
 
- # ALIEN JELLY
- x2 110;
- new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29132); # dota.alien.jelly32
+ new.alien.jelly0(sn0, 110,240,1, 100,100);
 
 
  new.headcrab(sn0, 100,240,1, 100,100);
