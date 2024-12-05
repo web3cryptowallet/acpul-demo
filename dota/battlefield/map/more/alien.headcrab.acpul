@@ -12,7 +12,6 @@ t+=dt;
 
 # ALIEN HEADCRAB [
 
-
 headcrab.new {
  x2 140;
  y2 30;
