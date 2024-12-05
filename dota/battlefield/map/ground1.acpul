@@ -88,7 +88,7 @@ new.crystal1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.crystal1), 0,0,0,0);
 
 new.bullet.fireball1
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.crystal1), 0,0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.bullet.fireball1), 0,0,0,0);
 
 _ @dota.place.eggs1;
 
