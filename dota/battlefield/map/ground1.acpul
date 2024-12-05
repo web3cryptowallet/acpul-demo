@@ -247,7 +247,7 @@ a {
 
  skull.create;
 
- new.fantasy.skull0(sn0, 140+50/2-9, 250+50/2-9, 50,50);
+ new.fantasy.skull0(sn0, 140+50/2-9,250+50/2-9,1, 50,50);
 };
 
 # EFF CIRCLE 0 [
