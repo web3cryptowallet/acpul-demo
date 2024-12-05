@@ -141,9 +141,14 @@ self context;
 
 ### 3221 Object.draw
 
+if (1) {
+ color(1,0,1,1);
+ rect(u0, 2, 0,0,w,h);
+};
+
 # DRAW.OBJECT.DEBUG.BOX [
 
-if (1) {
+if (0) {
 
 a 0.5;
 
