@@ -249,7 +249,7 @@ a {
 
 skull.create {
  # AI SKULL
- x2 110;
+ x2 140;
  y2 250;
  w2 50;
  h2 50;
