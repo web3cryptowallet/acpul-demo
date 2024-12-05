@@ -241,12 +241,13 @@ a {
  headcrab.test;
 
  eff.circle.create;
- skull.new;
+
+ skull.create;
 };
 
 # SKULL 0 [
 
-skull.new {
+skull.create {
  # AI SKULL
  w2 50;
  h2 50;
@@ -254,8 +255,6 @@ skull.new {
  new.ui.shader.node3(sn0, x2,y2,1/3*2, w2,h2, 70014,29134); # dota.ai.skull
  shader.set.uniform.v3(sn0, A.rotation, 0,0,2.5); #
  shader.set.uniform.v4(sn0, A.color, 0,2,2,1); #
-
-
 };
 
 # SKULL 0]
