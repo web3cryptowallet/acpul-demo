@@ -1,3 +1,24 @@
 ### dota.alien.headcrab
 
+# ALIEN HEADCRAB [
+
+crab0 0;
+
+headcrab.new {
+ x2 140;
+ y2 30;
+ w2 100;
+ h2 100;
+ new.ui.shader.node3(crab0, x2,y2,1/3, w2,h2, 70014,29133); # dota.headcrab
+ shader.set.uniform.v(crab0, A.time, rnd(u0)*100); #
+};
+
+headcrab.step {
+ shader.set.uniform.v(crab0, A.time, t); #
+};
+
+headcrab.step;
+
+
+
 ### dota.alien.headcrab.test
