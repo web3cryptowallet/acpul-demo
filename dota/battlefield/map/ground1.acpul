@@ -244,8 +244,8 @@ a {
  new.ui.shader.node3(sn0, x2,y2,1/3, w2,h2, 70014,29132); # dota.alien.jelly32
 
 
- new.headcrab(sn0, 140, 30,1, 100, 100);
- new.headcrab.test(sn0, 140, 30,1, 100, 100);
+ new.headcrab(sn0, 140,30,1, 100, 100);
+ new.headcrab.test(sn0, 280,30,1, 500, 500);
 
  eff.circle.create;
 
