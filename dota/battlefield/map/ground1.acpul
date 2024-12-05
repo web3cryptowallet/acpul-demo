@@ -78,6 +78,9 @@ new.headcrab.test
  # sn0, x:y:s:w:h, min:w:h, sz
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.headcrab.test), _6,_7,_8, 0);
 
+new.buff.a0
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.a0), 0,0,0,0);
+
 _ @dota.place.eggs1;
 
 # PLACES ]
@@ -259,6 +262,8 @@ a {
 
  new.fantasy.skull0(sn0, 140+50/2-9,250+50/2-9,1, 50,50);
  new.eff.circle0(sn0, 140,250,2, 100,100);
+
+ new.buff.a0(sn0, 90,30,1, 100,100);
 };
 
 # ALIEN JELLY32 [
