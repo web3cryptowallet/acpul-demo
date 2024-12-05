@@ -259,7 +259,7 @@ skull {
   shader.set.uniform.v4(sn0, A.color, 0,2,2,1); #
  };
  step {
-  shader.set.uniform.v3(sn0, A.rotation, 0+sin(t),0,2.5); #
+  shader.set.uniform.v3(sn0, A.rotation, 0,0+sin(t),2.5); #
  };
 };
 
