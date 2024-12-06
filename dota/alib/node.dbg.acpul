@@ -64,5 +64,5 @@ rect(u0, 2, -100,-100,w+200,h+200);
 
 dw min(w,5);
 dh min(h,5);
-line(u0, 4, 0,0,dw,0);
-line(u0, 4, 0,0,0,dh);
+line(u0, 1, 0,0,dw,0);
+line(u0, 1, 0,0,0,dh);
