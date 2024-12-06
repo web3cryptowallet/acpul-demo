@@ -11,6 +11,8 @@ dbg.node1 new.dbg.node1(r0);
 
 ### dota.dbg.node1
 
+_ @easy.start.new1;
+
 check.visible {
 
  node.transform.point(u0, view1, nid, 0,0);
