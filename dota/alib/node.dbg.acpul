@@ -38,6 +38,8 @@ check.visible {
  0+(y0<vr.h)*(y1>vr.x);
 };
 
+visible 0;
+
 visible:=check.visible(vr);
 
 draw.fid(dota.dbg.node1.draw);
