@@ -13,8 +13,19 @@ dbg.node1 new.dbg.node1(r0);
 
 _ @easy.start.new1;
 
-w:=100;
-h:=100;
+node.parent.w
+ # u0, nid
+ node.prop.w.g(_0, node.get.parent(u0, _1));
+
+node.parent.h
+ # u0, nid
+ node.prop.h.g(_0, node.get.parent(u0, _1));
+
+w:=node.parent.w(u0, nid);
+h:=node.parent.h(u0, nid);
+
+#w:=100;
+#h:=100;
 
 view1 u24;
 vr.x 0;
