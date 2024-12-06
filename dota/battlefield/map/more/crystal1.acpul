@@ -27,5 +27,4 @@ crystal.create {
 
 dbg.node1;
 
-w:=10;
 
