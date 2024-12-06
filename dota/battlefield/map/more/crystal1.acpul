@@ -5,7 +5,7 @@ _ @dota.node.base;
 sn0 0;
 
 if ((sn0==0)*w*h>0) {
- crystal.create;
+# crystal.create;
 };
 
 t+=dt;
