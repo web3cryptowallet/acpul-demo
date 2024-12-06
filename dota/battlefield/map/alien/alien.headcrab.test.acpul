@@ -5,7 +5,7 @@ min.w p0;
 min.h p1;
 sz0 p2;
 
-_ @easy.start.new1;
+_ @dota.node.base0;
 
 crab0 0;
 sn0 0;
