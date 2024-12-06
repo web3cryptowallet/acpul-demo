@@ -44,8 +44,10 @@ check.visible {
  node.transform.point(u0, view1, nid, 0,h);
  x1=o0;
  y1=o1;
+ w1=o2;
+ h1=o3;
 
- 0+(y0<vr.h)*(y1>vr.y)*(x0<vr.w)*(x1>vr.x);
+ 0+(y0<vr.h)*((y1+h1)>vr.y)*(x0<vr.w)*(x1>vr.x);
 };
 
 visible 0;
