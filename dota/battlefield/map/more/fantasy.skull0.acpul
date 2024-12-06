@@ -24,7 +24,7 @@ skull {
 #  y2 250+50/2-9;
 #  w2 50;
 #  h2 50;
-  new.ui.shader.node3(sn0, x2,y2,1*2, w2,h2, 70014,29134); # dota.ai.skull
+  new.ui.shader.node3(sn0, x2,y2,1, w2,h2, 70014,29134); # dota.ai.skull
   shader.set.uniform.v3(sn0, A.rotation, 0,0,2.5); #
   shader.set.uniform.v4(sn0, A.color, 0,2,2,1); #
  };
