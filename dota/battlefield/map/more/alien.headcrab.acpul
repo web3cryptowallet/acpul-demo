@@ -76,7 +76,6 @@ headcrab.test {
  };
 };
 
-_ @dota.node.base;
 
 if (r0) {
  node.new.this.ex(r0, NNN(dota.dbg.node1), 0);
