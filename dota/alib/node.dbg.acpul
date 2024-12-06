@@ -17,7 +17,9 @@ w:=100;
 h:=100;
 
 view1 u24;
-vr.h 500;
+vr.x 0;
+vr.y 0;
+vr.w 500;
 vr.h 500;
 
 check.visible {
