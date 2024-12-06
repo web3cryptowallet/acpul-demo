@@ -1,3 +1,29 @@
 ### dota.node.base
 
 _ @easy.start.new1;
+
+new.dbg.node1
+ node.new.this.ex(r0, NNN(dota.dbg.node1), 0);
+
+
+### dota.dbg.node1
+
+check.visible {
+
+ node.transform.point(u0, view1, nid, 0,0);
+# yy:=o1;
+# node.transform.point(view0, nid, 0,0);
+
+# y0:=yy+view0.y;
+# y1:=y0+h;
+
+ y0=o1;
+ node.transform.point(u0, view1, nid, 0,h);
+ y1=o1;
+
+ 0+(y0<vr.h)*(y1>vr.x);
+};
+
+visible:=check.visible(vr);
+
+### dota.dbg.node1.draw
