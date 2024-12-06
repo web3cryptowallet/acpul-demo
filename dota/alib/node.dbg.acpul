@@ -13,6 +13,8 @@ dbg.node1 new.dbg.node1(r0);
 
 _ @easy.start.new1;
 
+view1 u24;
+
 check.visible {
 
  node.transform.point(u0, view1, nid, 0,0);
