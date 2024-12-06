@@ -25,6 +25,5 @@ crystal.create {
  shader.set.uniform.v3(sn0, A.col0, -05.1,-05.5,-0.1); #
 };
 
-dbg.node1;
 
 
