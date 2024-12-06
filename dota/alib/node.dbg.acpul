@@ -19,7 +19,7 @@ node.parent.w
 
 node.parent.h
  # u0, nid
- 200;#node.prop.h.g(_0, node.get.parent(u0, _1));
+ node.prop.h.g(_0, node.get.parent(u0, _1));
 
 w:=node.parent.w(u0, nid);
 h:=node.parent.h(u0, nid);
