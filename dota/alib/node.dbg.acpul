@@ -67,7 +67,7 @@ color(u0, 1,1,1,1);
 
 dw min(w,5);
 dh min(h,5);
-line(u0, 1, 0,0,dw,0);
-line(u0, 1, 0,0,0,dh);
+#line(u0, 1, 0,0,dw,0);
+#line(u0, 1, 0,0,0,dh);
 line(u0, 1, 0,dh,dw,0);
 line(u0, 1, 0,dh,0,-dh);
