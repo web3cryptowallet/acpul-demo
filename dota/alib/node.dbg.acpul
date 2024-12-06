@@ -3,7 +3,11 @@
 _ @easy.start.new1;
 
 new.dbg.node1
- node.new.this.ex(u0, NNN(dota.dbg.node1), 0);
+ # r0
+ node.new.this.ex(_0, NNN(dota.dbg.node1), 0);
+
+dbg.node1 new.dbg.node1(r0);
+
 
 ### dota.dbg.node1
 
