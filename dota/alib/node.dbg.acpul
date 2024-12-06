@@ -35,6 +35,8 @@ check.visible {
 
 visible:=check.visible(vr);
 
+draw.fid(dota.dbg.node1.draw);
+
 ### dota.dbg.node1.draw
 
 color(u0, 0.5,0.5,0,0.5);
