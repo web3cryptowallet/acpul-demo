@@ -62,7 +62,7 @@ rect(u0, 2, -100,-100,w+200,h+200);
 #rect(u0, 4, 0,0,w,h);
 #rect(u0, 0, 0,0,w,h);
 
-psize(u0, 5);
+psize(u0, 1);
 color(u0, 1,1,1,1);
 
 dw min(w,5);
