@@ -13,7 +13,6 @@ dbg.node1 new.dbg.node1(r0);
 
 _ @easy.start.new1;
 
-
 w:=node.parent.w(u0, nid);
 h:=node.parent.h(u0, nid);
 
