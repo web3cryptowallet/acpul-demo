@@ -90,6 +90,8 @@ new.crystal1
 new.bullet.fireball1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.bullet.fireball1), 0,0,0,0);
 
+new.fire1
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.fire1), 0,0,0,0);
 
  
 
@@ -193,8 +195,9 @@ a {
 
 # new.ui.shader.node3(sn0,  180,110,1, 25/2,50/2, 70014,28970); # dota.fire70
 
-# new.ui.shader.node3(sn0,  200-3,140,1, 25/2,50/2, 70014,28970); # dota.fire70
-# new.ui.shader.node3(sn0,  240,140,1, 25/2,50/2, 70014,28970); # dota.fire70
+ new.fire1(sn0, 200-3,140,1, 25/2,50/2);
+ new.ui.shader.node3(sn0,  200-3,140,1, 25/2,50/2, 70014,28970); # dota.fire70
+ new.ui.shader.node3(sn0,  240,140,1, 25/2,50/2, 70014,28970); # dota.fire70
 
  # BASE [
 
