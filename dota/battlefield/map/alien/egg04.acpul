@@ -1,4 +1,21 @@
 ### dota.alien.egg04
 
+_ @dota.node.base0;
+
+_ @dota.place.eggs1;
+
+egg0 0;
+sn0 0;
+
+if ((egg0==0)*w*h>0) {
+# new.eggs1;
+# new.ui.shader.node3(sn0, 260,0,1/3, 300,300, 70014,29104); # dota.alien.egg04
+# new.ui.shader.node3(sn0, 0,0,1/3, 100,100, 70014,29104); # dota.alien.egg04
+ new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,29104); # dota.alien.egg04
+ egg0:=sn0;
+};
+
+t+=dt;
+
 
 
