@@ -48,7 +48,6 @@ check.visible {
 # h1=o3;
 
  0+(y0<vr.h)*(y1>vr.y)*(x0<vr.w)*(x1>vr.x);
- 
 };
 
 visible 0;
