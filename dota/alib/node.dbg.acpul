@@ -60,6 +60,8 @@ draw.fid(dota.dbg.node1.draw);
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, A.visible, visible);
+cv check.visible;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, A.y1, cv.y1);
 
 
 ### dota.dbg.node1.draw
