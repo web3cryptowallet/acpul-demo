@@ -31,6 +31,9 @@ vr.y 0;
 vr.w 500;
 vr.h 500;
 
+vr.w=node.get.w(u0, view1);
+vr.h=node.get.h(u0, view1);
+
 check.visible {
 
  node.transform.point(u0, view1, nid, 0,0);
@@ -65,6 +68,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.5, A.visible, visible);
 cv check.visible;
 lbl0 0; val0 0; ui.value4(lbl0,val0,-60,20,0.5/2, A.y1, cv.y1);
 lbl0 0; val0 0; ui.value4(lbl0,val0,-60,40,0.5/2, A.y0, cv.y0);
+lbl0 0; val0 0; ui.value4(lbl0,val0,-60,60,0.5/2, A.vr.w, vr.w);
+lbl0 0; val0 0; ui.value4(lbl0,val0,-60,80,0.5/2, A.vr.h, vr.h);
 
 
 ### dota.dbg.node1.draw
