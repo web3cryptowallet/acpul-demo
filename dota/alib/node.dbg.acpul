@@ -57,7 +57,7 @@ visible:=check.visible(vr);
 node.set.visible(u0, nid, visible);
 parent0:=node.parent(u0, nid);
 node.set.visible(u0, parent0, visible);
-
+node.set.s(u0, parent0, 2);
 
 draw.fid(dota.dbg.node1.draw);
 
