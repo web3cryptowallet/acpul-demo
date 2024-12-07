@@ -54,9 +54,13 @@ visible 0;
 
 visible:=check.visible(vr);
 
-node.set.visible(u0, nid, visible);
+#node.set.visible(u0, nid, visible);
 
 draw.fid(dota.dbg.node1.draw);
+
+_ @4;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, A.visible, visible);
+
 
 ### dota.dbg.node1.draw
 
