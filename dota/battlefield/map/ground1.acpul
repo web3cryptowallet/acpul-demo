@@ -291,8 +291,6 @@ t+=dt;
 
 _ @dota.space.spaceport;
 
-_ @dota.space.destroyer;
-
 # SPACE ]
 
 add.coin {
