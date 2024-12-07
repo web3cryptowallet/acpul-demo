@@ -31,7 +31,7 @@ new.eggs1 {
 #   new.egg1(rnd(u0)*30,rnd(u0)*30,1/4-rnd(u0)*1/8);
  ew 40;
  eh ew;
- sz=1;#rnd(u0)*2+2;
+ sz=rnd(u0)*2+2;
  ow min(w,ew*sz);
  oh ow;
  sz=ow/40;
