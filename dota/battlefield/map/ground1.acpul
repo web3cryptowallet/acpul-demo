@@ -39,7 +39,7 @@ ww 100;
 hh 100;
 
 new.place.crunch1
- new.node.common0(sn0, 0,0,1, ww,hh, NNN(dota.building.crunch1), tex1);
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(dota.building.crunch1), _6);
 
 new.place.crunch2
  new.node.common0(sn0, 0,0,1, ww,hh, NNN(dota.building.crunch2), tex1);
@@ -191,7 +191,7 @@ a {
 
  new.place.crystals2;
  
- new.place.crunch1;
+ new.place.crunch1(sn0, 0,0,1,100,100, tex1);
  new.place.crunch2;
 
  new.ui.shader.node3(sn0,  0,0,1/3, 500,500, 70014,28984); # dota.effect.lighting
