@@ -94,9 +94,9 @@ new.bullet.fireball1
  
 
 new.alien.egg0
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.egg0), 0,0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.egg0), _6,_7, 0,0);
 new.alien.eggs1
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.eggs1), 0,0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.eggs1), _6,_7, 0,0);
 new.alien.egg04
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.egg04), 0,0,0,0);
 
