@@ -1,0 +1,10 @@
+### dota.portal85
+
+_ @dota.node.base0;
+
+main0 0;
+
+if ((main0==0)*w*h>0) {
+ new.ui.shader.node3(main0,  0,0,1, w,h, 70014,28985); # dota.portal85
+ main0:=hypnotoad0;
+};
