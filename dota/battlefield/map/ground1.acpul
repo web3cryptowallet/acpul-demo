@@ -242,7 +242,7 @@ a {
 
  new.alien.egg0(sn0, 0,0,1, 100,100, tex99,tex4);
  new.alien.eggs1(sn0, 0,0,1, 100,100, tex99,tex4);
- new.alien.egg04(sn0, 280,100,1/4, 100,100);
+ new.alien.egg04(sn0, 300,100,1/4, 100,100);
 
  hq 0.5;
  new.unit.alien1(sn0, 260,80,1/3/hq, 300/2*hq,300/2*hq);
