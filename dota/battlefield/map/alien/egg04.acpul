@@ -5,10 +5,12 @@ _ @dota.node.base0;
 _ @dota.place.eggs1;
 
 egg0 0;
+sn0 0;
 
 if ((egg0==0)*w*h>0) {
 # new.eggs1;
  new.egg1(0,0,1,w,h);
+ egg0:=sn0;
 };
 
 t+=dt;
@@ -16,6 +18,18 @@ t+=dt;
 
 ### dota.alien.eggs5
 
+_ @dota.node.base0;
+
+_ @dota.place.eggs1;
+
+egg0 0;
+
+if ((egg0==0)*w*h>0) {
  new.eggs1;
+ egg0:=sn0;
+};
+
+t+=dt;
+
 
 
