@@ -33,6 +33,10 @@ new.eggs1 {
 # EGGS1 ]
 
 ### dota.alien.egg0
+# tex0:tex1
+
+tex0 p0;
+tex1 p1;
 
 _ @dota.node.base0;
 
@@ -50,6 +54,10 @@ if ((egg0==0)*w*h>0) {
 t+=dt;
 
 ### dota.alien.eggs1
+# tex0:tex1
+
+tex0 p0;
+tex1 p1;
 
 _ @dota.node.base0;
 
