@@ -6,6 +6,7 @@ sn0 0;
 
 if ((sn0==0)*w*h>0) {
  hq 1;
- new.ui.shader.node3(sn0,  60,135,1/3/hq, 200*hq,200*hq, 70014,28989); # dota.ghost89
+# new.ui.shader.node3(sn0,  60,135,1/3/hq, 200*hq,200*hq, 70014,28989); # dota.ghost89
+ new.ui.shader.node3(sn0,  0,0,1, w,h, 70014,28989); # dota.ghost89
  shader.set.uniform.v(sn0, A.time, 10);
 };
