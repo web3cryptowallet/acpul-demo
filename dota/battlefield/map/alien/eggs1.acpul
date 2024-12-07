@@ -34,7 +34,7 @@ new.eggs1 {
  sz=rnd(u0)*2;
  x0=rnd(u0)*(w-ow);
  y0=rnd(u0)*(h-oh);
- new.egg1(x0,y0,sz, 40,40);
+ new.egg1(x0,y0,sz, ow,oh);
 # new.egg1(x0,y0,1-rnd(u0)*1/8, 20+rnd(u0)*5,30);
  i+=1;
  };
