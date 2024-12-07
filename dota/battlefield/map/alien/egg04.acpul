@@ -23,6 +23,7 @@ _ @dota.node.base0;
 _ @dota.place.eggs1;
 
 egg0 0;
+sn0 0;
 
 if ((egg0==0)*w*h>0) {
  new.eggs1;
