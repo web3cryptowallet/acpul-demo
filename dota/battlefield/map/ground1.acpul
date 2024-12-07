@@ -102,6 +102,10 @@ new.alien.eggs1
 new.alien.egg04
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.alien.egg04), 0,0,0,0);
 
+new.destroyer1
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.space.destroyer), 0,0,0,0);
+
+
 _ @dota.place.eggs1;
 
 # PLACES ]
@@ -237,7 +241,7 @@ a {
 
 # new.ui.shader.node3(sn0, 100,0,1/3, 300/2,300/2, 70014,28994); # dota.droid.bb9
 
- new.destroyer(150,70,1/3, 300,300);
+ new.destroyer1(sn0, 150,70,1/3, 300,300);
 
 
  # Good alien map
