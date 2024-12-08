@@ -10,7 +10,7 @@ mode p0;
 
 col.r 1;
 col.g 0;
-col.b 0.5;
+col.b 1;
 col.a 1;
 
 _ @dota.node.base0;
