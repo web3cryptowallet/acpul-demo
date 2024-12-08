@@ -1,7 +1,6 @@
 ### dota.buff.magic0
 # mode
 
-
 mode p0;
 
 col.r 1;
