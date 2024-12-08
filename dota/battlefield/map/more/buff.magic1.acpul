@@ -12,7 +12,7 @@ magic0 0;
 sn0 0;
 
 if ((magic0==0)*w*h>0) {
- new.ui.shader.node3(sn0, 0,0,1/3, 100,100, 70014,29139); # dota.magic1
+ new.ui.shader.node3(sn0, 0,0,1/3, w,h, 70014,29139); # dota.magic1
  shader.set.uniform.v4(sn0, A.color, col.r,col.g,col.b,col.a); #
  magic0:=sn0;
 };
