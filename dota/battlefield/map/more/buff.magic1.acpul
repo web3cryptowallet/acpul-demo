@@ -1,10 +1,15 @@
 ### dota.buff.magic1
-
+# rgba
 
 col.r 1;
 col.g 0;
 col.b 1;
 col.a 1;
+
+col.r p0;
+col.g p1;
+col.b p2;
+col.a p3;
 
 _ @dota.node.base0;
 
