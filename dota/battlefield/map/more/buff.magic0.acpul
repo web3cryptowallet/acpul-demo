@@ -1,5 +1,10 @@
 ### dota.buff.magic0
 # mode
+# 0: time - todo
+# 1: col.r - todo
+# 2: col.g - todo
+# 3: col.b - todo
+# 4: col.a - todo
 
 mode p0;
 
