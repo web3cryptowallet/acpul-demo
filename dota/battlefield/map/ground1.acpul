@@ -117,7 +117,7 @@ new.ghost89
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.ghost89), 0,0,0,0);
 
 new.magic0
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.magic0), 1, 0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.magic0), _6, 0,0,0);
 
 # PLACES ]
 
@@ -282,7 +282,7 @@ a {
 
  new.buff.a0(sn0, 90,30,1, 100,100);
 
- new.magic0(magic0, 60,0,1/3, 300,300, 70014,29137, 0);
+ new.magic0(magic0, 60,0,1/3, 300,300, 0);
 
 };
 
