@@ -1,5 +1,9 @@
 ### 3230 dota.unit
 # subtype, player.id, bot.id
+#
+# Create 
+#  ost.bot - UNIT.COMPLEX 
+#
 
 draw(r0, 3231);
 
