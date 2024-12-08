@@ -19,7 +19,7 @@ magic0 0;
 sn0 0;
 
 if ((magic0==0)*w*h>0) {
- new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,29137); # dota.magic0
+ new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,29137); # dota.magic0
  shader.set.uniform.v(sn0, A.mode, mode); #
  shader.set.uniform.v(sn0, A.time, 113); #
  shader.set.uniform.v4(sn0, A.colorA, col.r,col.g,col.b,col.a); #
