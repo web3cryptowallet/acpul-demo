@@ -8,7 +8,7 @@
 
 mode p0;
 
-col.r 0;
+col.r 1;
 col.g 0;
 col.b 0;
 col.a 1;
