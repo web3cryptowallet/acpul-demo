@@ -9,8 +9,8 @@
 mode p0;
 
 col.r 1;
-col.g 1;
-col.b 1;
+col.g 2;
+col.b 0;
 col.a 1;
 
 _ @dota.node.base0;
