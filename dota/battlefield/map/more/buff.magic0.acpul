@@ -17,7 +17,7 @@ if ((magic0==0)*w*h>0) {
  new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,29137); # 
  shader.set.uniform.v(sn0, A.mode, mode); #
  shader.set.uniform.v(sn0, A.time, 113); #
- shader.set.uniform.v4(sn0, A.colorA, col.r,col.r,col.b,col.a); #
+ shader.set.uniform.v4(sn0, A.colorA, col.r,col.r,col.b,1); #
  magic0:=sn0;
 };
 
