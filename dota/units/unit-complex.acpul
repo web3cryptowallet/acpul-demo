@@ -83,12 +83,12 @@ utype r7;
 # BASE [
 
 # see render.base
-#if (utype==bt.homebase) {
-# b(-1,0,7,3);
-# b(0,3,1,1);
-# b(2,3,1,1);
-# b(4,3,1,1);
-#};
+if (utype==bt.homebase) {
+ b(-1,0,7,3);
+ b(0,3,1,1);
+ b(2,3,1,1);
+ b(4,3,1,1);
+};
 
 # BASE ]
 # SHOP [
