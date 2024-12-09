@@ -42,7 +42,7 @@ _ @sys.events;
 _ @3200;
 _ @os.util0;
 
-_ @dota.object.types;
+#_ @dota.object.types;
 _ @dota.object.context;
 
 r7:=type;
