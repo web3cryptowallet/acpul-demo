@@ -69,7 +69,7 @@ if (r0) {
  if (type==types.joystick) { node.new.this.ex(r0, JOYSTICK, 0);};
 
  node.value.s(u0, nid,0, type);
- node.value.s(u0, nid,1, 11);
+ node.value.s(u0, nid,1, subtype);
 
  # Add object to minimap
  events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
