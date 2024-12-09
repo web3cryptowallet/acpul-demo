@@ -45,6 +45,7 @@ if (utype==bt.minion.mage) {
 
 _ @dota.map.primitives;
 
+sn0 0;
 if (utype==bt.tower) {
  new.tesla.tower(sn0, 0,0,1, 200,200, 0);
 };
