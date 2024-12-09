@@ -161,7 +161,7 @@ i:=0;while(i<count) {
  color(u0, 1,0,0,1);
 
  type0=node.value.g(u0, oid,0);
- subtype0=1;node.value.g(u0, oid,1);
+ subtype0=node.value.g(u0, oid,1);
  btype0=node.value.g(u0, oid,2);
 
  if ((type0==obj.types.unit)*(subtype0==obj.subtypes.bot)) {
