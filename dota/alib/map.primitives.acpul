@@ -1,5 +1,6 @@
 ### dota.map.primitives
 
+_ @basic.ui;
 _ @os.util0;
 
 new.tesla.tower
