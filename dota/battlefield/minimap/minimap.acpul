@@ -178,7 +178,7 @@ i:=0;while(i<count) {
  };
 
  if (draw) {
- # rect(u0, 6, x*minimap.scale,y*minimap.scale,10/2,10/2);
+  rect(u0, 6, x*minimap.scale,y*minimap.scale,10/2,10/2);
  };
  i+=1;
 };
