@@ -51,7 +51,7 @@ minimap {
 # map
 # 0: minimap
 
-#draw(r0, 19201);
+draw(r0, 19201);
 
 
 
