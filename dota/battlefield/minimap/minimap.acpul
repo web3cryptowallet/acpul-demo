@@ -147,7 +147,7 @@ i:=0;while(i<count) {
 
  type0=node.value.g(u0, oid,0);
  #subtype0=node.value.g(u0, oid,1);
- btype0=node.value.g(u0, oid,1);
+ btype0=node.value.g(u0, oid,2);
 
  if ((type0==obj.types.unit)*(btype0==obj.bots.types.tower)) {
 # if (type0==obj.types.unit) {
