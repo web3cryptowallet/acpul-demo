@@ -33,7 +33,7 @@ x0 p1;
 y0 p2;
 
 team p3;
-subtype0 1;
+subtype0 p4;
 btype0 p5;
 player.id p5;
 
