@@ -50,6 +50,8 @@ sn0 0;
 if (r0) {
  if (utype==bt.tower) {
   new.tesla.tower(sn0, 0,0,1*2, 200,200, 0);
+  w:=200;
+  h:=200;
  };
 };
 
