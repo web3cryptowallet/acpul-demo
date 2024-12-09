@@ -152,7 +152,7 @@ i:=0;while(i<count) {
  if ((type0==obj.types.unit)*(btype0==obj.bots.types.tower)) {
 # if (type0==obj.types.unit) {
   color(u0, 1,1,0,1);
-  render.tower(x*minimap.scale,y*minimap.scale, 5);
+  render.tower(x*minimap.scale,y*minimap.scale, 1);
   draw:=0;
  };
 
