@@ -137,6 +137,10 @@ render.base {
  y0=_1;
  sz=_2;
  b rect(u0, 6, x0+_0*sz,y0+_1*sz, _2*sz,_3*sz);
+ b(-1,0,7,3);
+ b(0,3,1,1);
+ b(2,3,1,1);
+ b(4,3,1,1);
 };
 
 # DRAW OBJECTS - see Unit::Complex, refactor ]
