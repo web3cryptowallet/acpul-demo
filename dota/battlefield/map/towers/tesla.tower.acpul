@@ -1,2 +1,12 @@
 ### dota.towers.tesla.tower
 
+_ @dota.node.base0;
+
+sn0 0;
+
+if ((sn0==0)*w*h>0) {
+ fireball.create;
+};
+
+t+=dt;
+
