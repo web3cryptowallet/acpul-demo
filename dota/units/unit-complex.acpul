@@ -63,12 +63,12 @@ utype r7;
 # TOWER [
 
 # see render.tower
-#if (utype==bt.tower) {
-# b(1,0,3,3);
-# b(0,3,1,1);
-# b(2,3,1,1);
-# b(4,3,1,1);
-#};
+if (utype==bt.tower) {
+ b(1,0,3,3);
+ b(0,3,1,1);
+ b(2,3,1,1);
+ b(4,3,1,1);
+};
 
 # TOWER ]
 # BASE [
