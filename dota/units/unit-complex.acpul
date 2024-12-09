@@ -43,6 +43,13 @@ if (utype==bt.minion.mage) {
 
 # MINION MAGE ]
 
+_ @dota.map.primitives;
+
+if (utype==bt.tower) {
+ new.tesla.tower(sn0, 0,0,1, 200,200, 0);
+};
+
+
 ### 3235 Unit::Complex.draw
 
 b rect(u0, 6, _0*32-42,_1*32+70, _2*32,_3*32);
@@ -55,22 +62,24 @@ utype r7;
 
 # TOWER [
 
-if (utype==bt.tower) {
- b(1,0,3,3);
- b(0,3,1,1);
- b(2,3,1,1);
- b(4,3,1,1);
-};
+# see render.tower
+#if (utype==bt.tower) {
+# b(1,0,3,3);
+# b(0,3,1,1);
+# b(2,3,1,1);
+# b(4,3,1,1);
+#};
 
 # TOWER ]
 # BASE [
 
-if (utype==bt.homebase) {
- b(-1,0,7,3);
- b(0,3,1,1);
- b(2,3,1,1);
- b(4,3,1,1);
-};
+# see render.base
+#if (utype==bt.homebase) {
+# b(-1,0,7,3);
+# b(0,3,1,1);
+# b(2,3,1,1);
+# b(4,3,1,1);
+#};
 
 # BASE ]
 # SHOP [
