@@ -124,9 +124,8 @@ new.magic1
  # .., color
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.magic1), _6,_7,_8,_9);
 
+_ @dota.map.primitives;
 
-new.tesla.tower
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.towers.tesla.tower), _6, 0,0,0);
 
 # PLACES ]
 
