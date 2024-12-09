@@ -50,8 +50,8 @@ sn0 0;
 if (r0) {
  if (utype==bt.tower) {
   new.tesla.tower(sn0, 0,0,1*2, 200,200, 0);
-  w:=200;
-  h:=200;
+#  w:=200;
+#  h:=200;
  };
 };
 
@@ -72,12 +72,12 @@ utype r7;
 # TOWER [
 
 # see render.tower
-if (utype==bt.tower) {
- b(1,0,3,3);
- b(0,3,1,1);
- b(2,3,1,1);
- b(4,3,1,1);
-};
+#if (utype==bt.tower) {
+# b(1,0,3,3);
+# b(0,3,1,1);
+# b(2,3,1,1);
+# b(4,3,1,1);
+#};
 
 # TOWER ]
 # BASE [
