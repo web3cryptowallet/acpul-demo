@@ -44,8 +44,11 @@ if (r0) {
  
  # BOT
 
+ bot0 0;
+
  if (subtype==ost.bot) {
-  node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
+  new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, bot.id, 0,0,0);
+#  node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
  };
 
  # PLAYER
