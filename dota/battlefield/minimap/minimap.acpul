@@ -168,7 +168,7 @@ i:=0;while(i<count) {
   };
   if (btype0==obt.homebase) {
    color(u0, 1,1,0,1);
-   render.tower(x*minimap.scale,y*minimap.scale, 2);
+   render.base(x*minimap.scale,y*minimap.scale, 2);
    draw:=0;
   };
  };
