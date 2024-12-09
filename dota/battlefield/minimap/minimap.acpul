@@ -120,7 +120,8 @@ _ @os.util2;
 obj @dota.object.types;
 
 render.tower {
- b rect(u0, 6, _0*32-42,_1*32+70, _2*32,_3*32);
+ sz _0;
+ b rect(u0, 6, _0*sz,_1*sz, _2*sz,_3*sz);
  b(1,0,3,3);
  b(0,3,1,1);
  b(2,3,1,1);
@@ -148,7 +149,7 @@ i:=0;while(i<count) {
  if ((type0==obj.types.unit)*(subtype0==obj.bots.types.tower)) {
 # if (type0==obj.types.unit) {
   color(u0, 1,1,0,1);
-  render.tower;
+  render.tower(32);
  };
 
  if (draw) {
