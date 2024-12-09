@@ -133,6 +133,11 @@ render.tower {
 };
 
 render.base {
+ x0=_0;
+ y0=_1;
+ sz=_2;
+ b rect(u0, 6, x0+_0*sz,y0+_1*sz, _2*sz,_3*sz);
+};
 
 # DRAW OBJECTS - see Unit::Complex, refactor ]
 
