@@ -23,7 +23,7 @@ _ @dota.heroes;
 if (utype==bt.homehealth) {
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
-  node.new.this.ex(u0, Crystal.Pulses, 0);
+#  node.new.this.ex(u0, Crystal.Pulses, 0);
  };
 };
 
