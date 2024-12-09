@@ -119,6 +119,8 @@ _ @os.util2;
 
 obj @dota.object.types;
 
+# DRAW OBJECTS - see Unit::Complex, refactor [
+
 render.tower {
  x0=_0;
  y0=_1;
@@ -129,6 +131,10 @@ render.tower {
  b(2,3,1,1);
  b(4,3,1,1);
 };
+
+render.base {
+
+# DRAW OBJECTS - see Unit::Complex, refactor ]
 
 _ @dota.minimap.def;
 minimap0 r1;
