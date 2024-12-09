@@ -23,15 +23,16 @@ subtypes {
 
 bots {
  types {
-  robot 0;
-  tower 1;
-  homebase 2;
-  shop 3;
-  homehealth 4;
+  none 0;
+  robot 1;
+  tower 2;
+  homebase 3;
+  shop 4;
+  homehealth 5;
 
-  minion.mage 5;
-  minion.guard 6;
-  minion.captain 7;
+  minion.mage 6;
+  minion.guard 7;
+  minion.captain 8;
  };
 };
 players {
