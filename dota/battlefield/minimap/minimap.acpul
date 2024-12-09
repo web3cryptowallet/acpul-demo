@@ -131,9 +131,17 @@ i:=0;while(i<count) {
  x = node.get.x(u0, oid);
  y = node.get.y(u0, oid);
 # rect(u0, 6, 0+i*10,0+i*10,10,10);
- rect(u0, 6, x*minimap.scale,y*minimap.scale,10/2,10/2);
-color(u0, 1,1,0,1);
+ draw=1;
+ color(u0, 1,0,0,1);
+
  subtype=node.value.s(u0, nid,1);
+ if (subtype==bots.types.tower) {
+  color(u0, 1,1,0,1);
+ };
+
+ if (draw) {
+  rect(u0, 6, x*minimap.scale,y*minimap.scale,10/2,10/2);
+ };
  i+=1;
 };
 
