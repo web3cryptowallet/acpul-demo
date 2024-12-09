@@ -63,9 +63,9 @@ minion2.cx minion.cx+10;
 minion2.cy minion.cy;
 
 create.minions {
- nodenew(_0, OBJECT, ot.unit, minion0.cx,minion0.cy, team, ost.bot, obt.minion.guard,0,0);
- nodenew(_0, OBJECT, ot.unit, minion2.cx,minion2.cy, team, ost.bot, obt.minion.guard,0,0);
- nodenew(_0, OBJECT, ot.unit, minion1.cx,minion1.cy, team, ost.bot, obt.minion.mage,0,0);
+# nodenew(_0, OBJECT, ot.unit, minion0.cx,minion0.cy, team, ost.bot, obt.minion.guard,0,0);
+# nodenew(_0, OBJECT, ot.unit, minion2.cx,minion2.cy, team, ost.bot, obt.minion.guard,0,0);
+# nodenew(_0, OBJECT, ot.unit, minion1.cx,minion1.cy, team, ost.bot, obt.minion.mage,0,0);
 # nodenew(r0, OBJECT, ot.unit, minion.cx,minion.cy, team, ost.bot, obt.minion.captain,0,0);
 };
 
