@@ -74,7 +74,7 @@ if (r0) {
  node.value.s(u0, nid,2, btype0);
 
  # Add object to minimap
- events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
+# events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
 };
 
 
