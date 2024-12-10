@@ -40,7 +40,7 @@ if (r0) {
 # new.ui.shader.node3(sn0, 00,0,1*hq, w/hq,h/hq, 70014,29135); # dota.bg.aurora.slow
 # node.value.s(u0, sn0, 1, 2); # no texture
 
-# new.node.common0(battlefield0, 0,0,1, w,h, dota.battlefield, 0);
+ new.node.common0(battlefield0, 0,0,1, w,h, dota.battlefield, 0);
 };
 
 view1 u24;
