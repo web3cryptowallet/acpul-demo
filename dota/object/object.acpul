@@ -81,7 +81,7 @@ if (r0) {
 # unit code (split later) [
 
 if (type==types.unit) {
- if (subtype==subtypes.player) {
+ if (subtype0==subtypes.player) {
   x+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*30;
   y+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*30;
   r7:=player.id+5;
