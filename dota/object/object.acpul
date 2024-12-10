@@ -80,7 +80,7 @@ if (r0) {
 
 # unit code (split later) [
 
-movement.speed 100;
+movement.speed 100/2;
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
