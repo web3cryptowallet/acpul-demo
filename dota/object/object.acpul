@@ -80,12 +80,20 @@ if (r0) {
 
 # unit code (split later) [
 
+gnet.player.get.vx(player.id);
+gnet.player.get.vy(player.id);
+
 movement.speed 100/2;
+
+apply.velocity {
+ player.id _0;
+ x+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*movement.speed;
+ y+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*movement.speed;
+};
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
-  x+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*movement.speed;
-  y+=get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*movement.speed;
+  apply.velocity(player.id);
   r7:=player.id+5;
  };
 };
