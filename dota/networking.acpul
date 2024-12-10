@@ -105,7 +105,8 @@ if (this.turn.sended==0)
 
 if (net.is.sync.event(u0)>0)
 {
- net.recv.mem(u0, 0, gnet.mem.rd.a);
+ players.max 5;
+ net.recv.mem(u0, 0,players.max, gnet.mem.itemSize, gnet.mem.rd.a);
  this.turn.received:=1;
 };
 
