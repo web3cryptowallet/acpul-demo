@@ -111,15 +111,20 @@ draw(r0, 900);
 
 };
 
+# EMULATION ]
+# EMULATION OFF [
+
 emulate.device.off emulate.device(-1,-1,-1);
 
 emulate.device.off;
 s:=1;
 
-# EMULATION ]
+# EMULATION OFF ]
+# EMULATION ON [
 
 #emulation;
 
+# EMULATION ON ]
 
 # EMULATE DEVICE ]
 
