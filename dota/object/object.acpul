@@ -142,7 +142,9 @@ box2d.body.get.position(u0, body0);
 #x:=o0;
 #y:=o1;
 
- box2d.body.set.position(u0, body0, x,y);
+# box2d.body.set.position(u0, body0, x,y);
+angle=body.get.angle(u0, body0);
+body.set.transform(u0, body0, x,y, angle);
 
 # CREATE BODY ]
 # BOX2D ]
