@@ -120,7 +120,7 @@ fixture0 l12;
 
 if (type==types.unit) {
 qq 0;qq+=1;
-if (qq<2) {
+if (qq<3) {
 
  bb.def0(u0, box2d.dynamic, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
