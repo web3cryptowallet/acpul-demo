@@ -118,7 +118,7 @@ s:=1;
 
 # EMULATION ]
 
-#emulation;
+emulation;
 
 
 # EMULATE DEVICE ]
