@@ -18,6 +18,8 @@ _ @basic.ui.shader.node3.inc;
 
 display.scalled.size(w,h);
 
+_ @dota.main.box2d;
+
 sn0 0;
 
 #w:=1000;
