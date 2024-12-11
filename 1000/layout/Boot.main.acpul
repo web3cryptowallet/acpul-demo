@@ -125,7 +125,6 @@ s:=1;
 #emulation;
 
 # EMULATION ON ]
-
 # EMULATE DEVICE ]
 
 Boot.texture 1600;
