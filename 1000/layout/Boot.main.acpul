@@ -114,6 +114,7 @@ draw(r0, 900);
 emulate.device.off emulate.device(-1,-1,-1);
 
 emulate.device.off;
+s:=1;
 
 # EMULATION ]
 
