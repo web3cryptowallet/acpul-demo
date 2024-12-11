@@ -208,3 +208,9 @@ if (l0==9) {sa;sb;sc;sd;se;sg;};
 };
 
 # DRAW.OBJECT.DEBUG.BOX ]
+b2d.world u10;
+
+_ @1010;
+_ @sys.box2d;
+
+box2d.world.draw(u0, b2d.world);
