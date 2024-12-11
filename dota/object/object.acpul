@@ -119,7 +119,7 @@ shape0 l11;
 fixture0 l12;
 
 if (type==types.unit) {
-if (1) {
+if (r0) {
 
  bb.def0(u0, box2d.dynamic, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
