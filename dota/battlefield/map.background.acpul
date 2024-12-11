@@ -35,5 +35,6 @@ if (r0) {
  h0 MAP.HEIGHT;
 
  new.node.common0(sn0, x0,y0,s0, w0,h0, NNN(dota.map.ground1), 0);
- node.set.z.order(u0, sn0, 0-100);
+# node.set.z.order(u0, sn0, 0-100);
 };
+
