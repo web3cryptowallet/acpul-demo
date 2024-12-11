@@ -117,7 +117,7 @@ emulate.device.off;
 
 # EMULATION ]
 
-emulation;
+#emulation;
 
 
 # EMULATE DEVICE ]
