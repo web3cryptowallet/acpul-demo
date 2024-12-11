@@ -107,7 +107,7 @@ vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
 
-
+# BOX2D [
 # CREATE BODY [
 
 _ @1010;
@@ -140,6 +140,9 @@ box2d.body.get.position(u0, body0);
 #x:=o0;
 #y:=o1;
 
+# CREATE BODY ]
+# BOX2D ]
+
 
  if (subtype==subtypes.player) {
   vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*3000*10;
@@ -149,7 +152,6 @@ box2d.body.get.position(u0, body0);
  };
 };
 
-# CREATE BODY ]
 # alloc self context [
 
 context.d.a r5;
