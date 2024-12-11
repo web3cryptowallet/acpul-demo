@@ -80,8 +80,12 @@ if (r0) {
 
 # unit code (split later) [
 
-gnet.player.get.vx(player.id);
-gnet.player.get.vy(player.id);
+gnet.player.get.vx {
+ # player.id
+};
+gnet.player.get.vy {
+ # player.id
+};
 
 movement.speed 100/2;
 
