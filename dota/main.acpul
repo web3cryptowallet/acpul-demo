@@ -116,29 +116,6 @@ node.new.this.ex4(r0, OBJECT, obj.types.joystick, 0,0, 0);
 
 _ @dota.main.box2d;
 
-# BOX2D PHYSICS [
-
-_ @sys.box2d;
-box2d.reset(r0);
-
-# CREATE WORLD [
-gravity.x 0;
-gravity.y 0; #DOTA reality 0 m/s
-
-if (r0) {
- b2d.world:=box2d.world(u0, gravity.x, gravity.y);
-};
-# CREATE WORLD ]
-
-# STEP [
-velocity.iteractions 8;
-position.iteractions 3;
-
-box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
-# STEP ]
-
-# BOX2D PHYSICS ]
-
 #s:=1/3;
 
 ### 3203 Dota::Main.draw
