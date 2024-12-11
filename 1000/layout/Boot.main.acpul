@@ -1,4 +1,4 @@
-### 1000  ._. Boot
+### 1000 ._. Boot
 
 #_ @1;
 
@@ -107,7 +107,7 @@ h:=iphone.h/iphone.scale;
 draw(r0, 900);
 
 };
-#emulation;
+emulation;
 
 
 # EMULATE DEVICE ]
