@@ -47,6 +47,8 @@ device.screen {
  ipad.pro2.s10 {w 1668; h 2224; scale 2;}; # 10.5
 };
 
+# EMULATION [
+
 emulation {
 _ device.screen;
 
@@ -108,6 +110,13 @@ h:=iphone.h/iphone.scale;
 draw(r0, 900);
 
 };
+
+emulate.device.off emulate.device(-1,-1,-1);
+
+emulate.device.off;
+
+# EMULATION ]
+
 emulation;
 
 
