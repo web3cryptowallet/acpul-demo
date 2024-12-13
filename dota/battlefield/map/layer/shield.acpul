@@ -34,7 +34,7 @@ shield1 {
  shader.set.uniform.v(sn0, A.layers, 9);
 # shader.set.uniform.v(sn0, A.layers, 5);
  shader.set.uniform.v(sn0, A.mode, mode0);
- shader.set.uniform.v(sn0, A.timeMul, rnd(u0));
+ shader.set.uniform.v(sn0, A.timeMul, rnd(u0)*100);
 
  tex0=node.value.g(u0, sn0,0);
 
