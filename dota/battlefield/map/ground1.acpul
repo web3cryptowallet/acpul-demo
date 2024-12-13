@@ -11,6 +11,7 @@ _ @basic.ui.shader.node3.inc;
 _ @sys.shader.ex;
 
 _ @load.texture;
+_ @photoneo.common.gl.extra;
 
 new.ground {
 # new.ui.shader.node3(sn0,  0,0,1, 200,200, 70014,28972); # dota.layer.ground2
