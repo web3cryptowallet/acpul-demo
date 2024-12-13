@@ -304,7 +304,7 @@ a {
 shield1 {
  x0 0;
  y0 0;
- new.ui.shader.node3(sn0, 0,0,0.1, 100,100, 70014,28828); # dota.skill.shield2.hex
+ new.ui.shader.node3(sn0, 0,0,1, 100,100, 70014,28828); # dota.skill.shield2.hex
  tex0=node.value.g(u0, sn0,0);
 
  w0 130;
