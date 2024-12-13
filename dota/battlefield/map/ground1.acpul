@@ -311,7 +311,7 @@ shield1 {
  shader.set.uniform.v3(sn0, PURPLE, 0.6, 0.2, 0.5);
  shader.set.uniform.v3(sn0, RED, 0.7, 0.1, 0.2);
  shader.set.uniform.v(sn0, A.tiles0, 20);
- shader.set.uniform.v(sn0, A.layers, 5);
+ shader.set.uniform.v(sn0, A.layers, 1);
 
  tex0=node.value.g(u0, sn0,0);
 
