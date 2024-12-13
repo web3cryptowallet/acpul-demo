@@ -125,10 +125,6 @@ new.magic1
  # .., color
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.buff.magic1), _6,_7,_8,_9);
 
-new.base.shield1
- # opt
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.base.shield1), _6, 0,0,0);
-
 _ @dota.map.primitives;
 
 
