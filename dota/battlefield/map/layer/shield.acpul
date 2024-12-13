@@ -34,8 +34,8 @@ shield1 {
  tex0=node.value.g(u0, sn0,0);
 
  ss 1;
- w0 w;
- h0 h;
+ w0 w*3;
+ h0 h*3;
 # x0 300;
 # y0 300;
 # w0 1400;
