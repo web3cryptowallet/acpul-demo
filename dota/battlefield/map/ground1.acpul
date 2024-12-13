@@ -310,8 +310,8 @@ shield1 {
 
  w0 1500;
  h0=w0;
- x0=0-w0/2;
- y0=0-h0/2;
+ x0=0-2;
+ y0=0-2;
  new.ui.shader.node3(sn0, x0,y0,1/3, w0,h0, 70014,29122); # dota.
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.uniform.v(sn0, A.dismfScale0, 0.0);
