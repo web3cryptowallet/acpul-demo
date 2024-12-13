@@ -78,7 +78,8 @@ shield2 {
 # shader.set.uniform.v4(sn0, A.col0, 0,0.2,0.7,0.3);
 # shader.set.uniform.v4(sn0, A.col0, 0,0.2,0.7,0.5);
 # shader.set.uniform.v4(sn0, A.col0, 0.5,0.5,0,0.5);
- shader.set.uniform.v4(sn0, A.col0, 0.5,0.5,0,0.2);
+ shader.set.uniform.v4(sn0, A.col0, 0.0,0.5,0.5,0.5);
+# shader.set.uniform.v4(sn0, A.col0, 0.5,0.5,0,0.5);
  shader.set.uniform.v3(sn0, ORANGE, 0.7, 0.3, 0.1);
  shader.set.uniform.v3(sn0, BROWN, 0.5, 0.5, 0.2);
  shader.set.uniform.v3(sn0, PURPLE, 0.6, 0.2, 0.5);
