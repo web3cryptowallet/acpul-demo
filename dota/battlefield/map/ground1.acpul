@@ -308,12 +308,12 @@ shield1 {
  shader.set.uniform.v4(sn0, A.col0, 0,0.2,0.5,0.7);
  tex0=node.value.g(u0, sn0,0);
 
- w0 130;
+ w0 1000;
  h0=w0;
  new.ui.shader.node3(sn0, x0,y0,1, w0,h0, 70014,29122); # dota.
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.uniform.v(sn0, A.dismfScale0, 0.2);
-# shader.set.texture(sn0, A.iChannel0, tex0);
+ shader.set.texture(sn0, A.iChannel0, tex0);
 };
 
 
