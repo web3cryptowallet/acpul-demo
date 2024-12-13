@@ -302,12 +302,14 @@ a {
 };
 
 shield1 {
+ x0 0;
+ y0 0;
  new.ui.shader.node3(sn0, 0,0,0.1, 100,100, 70014,28828); # dota.skill.shield2.hex
  tex0=node.value.g(u0, sn0,0);
 
  w0 130;
  h0=w0;
- new.ui.shader.node3(sn0, w/2-w0/2,h/2-h0/2,1, w0,h0, 70014,29122); # dota.
+ new.ui.shader.node3(sn0, x0,y0,1, w0,h0, 70014,29122); # dota.
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.texture(sn0, A.iChannel0, tex0);
 };
