@@ -39,7 +39,7 @@ shield1 {
  new.ui.shader.node3(sn0, x0,y0,1/ss, w0,h0, 70014,29122); # dota.ball.tex
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.uniform.v(sn0, A.dismfScale0, 0.0);
- shader.set.uniform.v2(sn0, A.scaleTex, 2,2);
+ shader.set.uniform.v2(sn0, A.scaleTex, 4,4);
  
  shader.set.texture(sn0, A.iChannel0, tex0);
  tex=node.value.g(u0, sn0,0);
