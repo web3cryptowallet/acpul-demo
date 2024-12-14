@@ -56,7 +56,7 @@ nodenew.tower(r0, OBJECT, ot.unit, 200,200, team, ost.bot, obt.tower,0,0);
 
 # TOP
 nodenew.tower(r0, OBJECT, ot.unit, 50,200, team, ost.bot, obt.tower,0,0);
-nodenew.tower(r0, OBJECT, ot.unit, 50,500, team, ost.bot, obt.tower,0,0);
+nodenew.tower(r0, OBJECT, ot.unit, 50,400, team, ost.bot, obt.tower,0,0);
 nodenew.tower(r0, OBJECT, ot.unit, 50,700, team, ost.bot, obt.tower,0,0);
 
 nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
