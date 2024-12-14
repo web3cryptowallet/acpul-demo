@@ -131,8 +131,8 @@ shield3 {
  mode0 _0;
  x0 0;
  y0 0;
-# new.ui.shader.node3(sn0, 0,0,0.1, 2000,2000, 70014,28828); # dota.skill.shield2.hex
- new.ui.shader.node3(sn0, 0,0,0.01, 200,200, 70014,28828); # dota.skill.shield2.hex
+ new.ui.shader.node3(sn0, 0,0,0.1, 2000,2000, 70014,28828); # dota.skill.shield2.hex
+# new.ui.shader.node3(sn0, 0,0,0.01, 200,200, 70014,28828); # dota.skill.shield2.hex
 # shader.set.uniform.v4(sn0, A.col0, 0,0.7,0.7,0.5);
 # shader.set.uniform.v4(sn0, A.col0, 0,0.2,0.7,0.3);
 # shader.set.uniform.v4(sn0, A.col0, 0,0.2,0.7,0.5);
