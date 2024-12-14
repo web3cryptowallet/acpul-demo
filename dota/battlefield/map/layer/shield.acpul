@@ -148,7 +148,7 @@ shield3 {
  shader.set.uniform.v(sn0, A.tiles0, 20);
  shader.set.uniform.v(sn0, A.layers, 9);
 # shader.set.uniform.v(sn0, A.layers, 5);
- shader.set.uniform.v(sn0, A.mode, 1);
+ shader.set.uniform.v(sn0, A.mode, 2);
  shader.set.uniform.v(sn0, A.timeMul, rnd(u0)+2);
 
  tex0=node.value.g(u0, sn0,0);
