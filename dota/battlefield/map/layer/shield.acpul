@@ -15,7 +15,7 @@ if ((sn0==0)*w*h>0) {
   shield2(mode);
  };
  if (mode==2) {
-  shield3(mode);
+#  shield3(mode);
  };
 };
 
