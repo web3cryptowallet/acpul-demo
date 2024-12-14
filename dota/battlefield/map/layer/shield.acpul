@@ -14,6 +14,9 @@ if ((sn0==0)*w*h>0) {
  if (mode==1) {
   shield2(mode);
  };
+ if (mode==2) {
+  shield3(mode);
+ };
 };
 
 t+=dt;
