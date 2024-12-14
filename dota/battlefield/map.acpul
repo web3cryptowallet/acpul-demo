@@ -53,8 +53,8 @@ nodenew.tower(r0, OBJECT, ot.unit, 700,50, team, ost.bot, obt.tower,0,0);
 
 # CENTRAL
 nodenew.tower(r0, OBJECT, ot.unit, 200,200, team, ost.bot, obt.tower,0,0);
-nodenew.tower(r0, OBJECT, ot.unit, 450,450, team, ost.bot, obt.tower,0,0);
-nodenew.tower(r0, OBJECT, ot.unit, 700,700, team, ost.bot, obt.tower,0,0);
+nodenew.tower(r0, OBJECT, ot.unit, 300,300, team, ost.bot, obt.tower,0,0);
+nodenew.tower(r0, OBJECT, ot.unit, 400,400, team, ost.bot, obt.tower,0,0);
 
 # TOP
 nodenew.tower(r0, OBJECT, ot.unit, 50,200, team, ost.bot, obt.tower,0,0);
