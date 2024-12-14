@@ -10,6 +10,7 @@ if ((skull0==0)*w*h>0) {
 # new.ui.shader.node3(sn0, 260,80,1/3/hq, 300/2*hq,300/2*hq, 70014,28998); # dota.alien.enemy
  skull.create;
  skull0:=sn0;
+ create.shield1;
 };
 
 t+=dt;
