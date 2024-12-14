@@ -47,13 +47,7 @@ _ @dota.map.primitives;
 
 sn0 0;
 
-if (r0) {
- if (utype==bt.tower) {
-  new.tesla.tower(sn0, 0,0,1*2, 150,150, 0);
-#  w:=200;
-#  h:=200;
- };
-};
+_ @dota.unit.tower;
 
 
 ### 3235 Unit::Complex.draw
