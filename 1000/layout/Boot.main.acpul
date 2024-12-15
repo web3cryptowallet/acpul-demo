@@ -59,7 +59,7 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 #iphone iphone7.plus;
 #iphone iphone8;
 
-iphone iphone14;
+#iphone iphone14;
 #iphone iphone14.plus;
 #iphone iphone14.pro;
 #iphone iphone14.pro.max;
@@ -82,8 +82,8 @@ iphone iphone14;
 #iphone ipad.pro2.s10;
 #iphone ipad.pro3.s12;
 
-#emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
-emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
+emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
+#emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
 _ @sys.display;
 #display.scaled.size();
