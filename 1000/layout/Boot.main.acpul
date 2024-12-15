@@ -71,13 +71,13 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 #iphone iphone12.mini;
 #iphone iphone12.pro;
 #iphone iphone12.pro.max;
-iphone iphone11;
+#iphone iphone11;
 #iphone iphone11.pro;
 #iphone iphone11.pro.max;
 #iphone iphone10;
 #iphone iphone10.xr;
 #iphone iphone10.xs;
-#iphone iphone10.xs.max;
+iphone iphone10.xs.max;
 
 #iphone ipad.pro2.s10;
 #iphone ipad.pro3.s12;
