@@ -52,7 +52,7 @@ device.screen {
 emulation {
 _ device.screen;
 
-emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
+#emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 emulate.device(cpu.device.type.ipad, cpu.device.model.ipad.pro, 0);
 
 #iphone iphone7;
