@@ -80,7 +80,7 @@ emulate.device(cpu.device.type.iphone, cpu.device.model.iphone8, 0);
 #iphone iphone10.xs.max;
 
 #iphone ipad.pro2.s10;
-#iphone ipad.pro3.s12;
+iphone ipad.pro3.s12;
 
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
@@ -122,7 +122,7 @@ s:=1;
 # EMULATION OFF ]
 # EMULATION ON [
 
-#emulation;
+emulation;
 
 # EMULATION ON ]
 # EMULATE DEVICE ]
