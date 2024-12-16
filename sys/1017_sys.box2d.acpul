@@ -704,3 +704,16 @@ box2d
 #
 ## rope ]
 };
+
+
+# BOX2D Reset draw color
+box2d.reset.draw.color
+ # u0
+ io(_0, 500323, -1, 0,0,0);
+
+# BOX2D set draw color 
+box2d.set.draw.color {
+ # u0, world, index, r:g:b
+ io(_0, 500336, _6, 0,0,0);
+ io(_0, 500323, _2, _3,_4,_5);
+};
