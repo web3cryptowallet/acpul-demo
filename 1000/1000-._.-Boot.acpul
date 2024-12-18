@@ -339,15 +339,15 @@ CLOCK 10170000;
 #l0:=node.new.this.ex(r0, CLOCK, 0);
 #node.prop.x.s(u0, l0, 550);
 
-if (r0) {
- run.nebula;
-};
-
 
 GAME.NEBULA 11800;
 #node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 #new.wallet;
+
+if (r0) {
+ run.nebula;
+};
 
 if (BOOT.PAINT*r0) {
 # VG;
