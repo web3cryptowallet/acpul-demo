@@ -340,8 +340,7 @@ CLOCK 10170000;
 #node.prop.x.s(u0, l0, 550);
 
 if (r0) {
-# run.nebula;
- hero0:=node.new.this.ex(u0, GAME.NEBULA, 0);
+ run.nebula;
 };
 
 
