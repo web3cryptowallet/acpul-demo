@@ -345,7 +345,7 @@ GAME.NEBULA 11800;
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 #new.wallet;
 
-if (r0) {
+if (r0*BOOT.GAME.NEBULA) {
  run.nebula;
 };
 
