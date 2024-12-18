@@ -341,8 +341,6 @@ CLOCK 10170000;
 
 if (r0) {
  run.nebula;
- run.paint;
- 
 };
 
 
