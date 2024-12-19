@@ -261,7 +261,10 @@ _ @boot.util.zoom;
 _ @boot.util.a;
 
 setup.bg;
-
+if (r0) {
+new.ui.shader.node3(sn0, 300,400,1, 300,300, 70014,29145); # acpu.background45
+shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
+};
 
 SHADER.TEST 37000;
 #node.new.this.ex(r0, SHADER.TEST, 0);
