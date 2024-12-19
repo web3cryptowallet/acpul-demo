@@ -26,4 +26,4 @@ shader.set.uniform.v(magic0, A.time, t*3); #
 
 
 
-x:=0;y:=0;s:=1;w:=100;y:=100;
+#x:=0;y:=0;s:=1;w:=100;y:=100;
