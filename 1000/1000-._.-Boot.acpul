@@ -264,7 +264,7 @@ setup.bg;
 
 if (r0) {
 sn0 0;
-new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29145); # acpu.background45
+new.ui.shader.node3(sn0, 0,0,1, 1024/5,768/5, 70014,29145); # acpu.background45
 shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
 };
 
