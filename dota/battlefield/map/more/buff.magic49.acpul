@@ -1,1 +1,13 @@
 ### dota.buff.magic49
+# mode
+
+mode p0;
+
+new.ui.shader.node3(sn0, 400,00,1, 300,300, 70014,29149); # dota.buff.magic49
+shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
+shader.set.uniform.v3(sn0, A.col0, 0.5, 0.5, 0.5);
+shader.set.uniform.v3(sn0, A.col1, 0.5, 0.5, 0.5);
+shader.set.uniform.v3(sn0, A.col2, 1., 0.7, 1.5);
+shader.set.uniform.v3(sn0, A.col3, 0.00, 0.15, 0.30);
+shader.set.uniform.v(sn0, A.alpha, 1);
+shader.set.uniform.v(sn0, A.radius, 0.5);
