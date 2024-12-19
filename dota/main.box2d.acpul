@@ -11,6 +11,12 @@ gravity.y 0; #DOTA reality 0 m/s
 
 if (r0) {
  b2d.world:=box2d.world(u0, gravity.x, gravity.y);
+
+ box2d.set.draw.color(u0, physics.world, 0, 1,0,1,0);
+ box2d.set.draw.color(u0, physics.world, 1, 0.5,0,1,0);
+ box2d.set.draw.color(u0, physics.world, 2, 1,0,1,0);
+ box2d.set.draw.color(u0, physics.world, 3, 0,1,1,0); # circle
+ box2d.set.draw.color(u0, physics.world, 4, 0,0,1,0);
 };
 # CREATE WORLD ]
 
