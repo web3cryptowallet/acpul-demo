@@ -22,7 +22,7 @@ if ((magic0==0)*w*h>0) {
 
 t+=dt;
 
-shader.set.uniform.v(magic0, A.time, t*3); #
+#shader.set.uniform.v(magic0, A.time, t*3); #
 
 
 
