@@ -262,7 +262,7 @@ _ @boot.util.a;
 
 setup.bg;
 if (r0) {
-new.ui.shader.node3(sn0, 300,400,1, 300,300, 70014,29145); # acpu.background45
+new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,29145); # acpu.background45
 shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
 };
 
