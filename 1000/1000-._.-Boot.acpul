@@ -262,11 +262,19 @@ _ @boot.util.a;
 
 setup.bg;
 
+# ACPU BACKGROUND 45 [
+
+new.background45 {
+ sn0 0;
+ new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29145); # acpu.background45
+ shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
+ shader.set.uniform.v2(sn0, A.edgeSize, 1,1);
+};
+
+# ACPU BACKGROUND 45 ]
+
 if (r0) {
-sn0 0;
-new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29145); # acpu.background45
-shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
-shader.set.uniform.v2(sn0, A.edgeSize, 1,1);
+ new.background45;
 };
 
 SHADER.TEST 37000;
