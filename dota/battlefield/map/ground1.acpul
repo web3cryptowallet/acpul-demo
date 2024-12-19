@@ -311,6 +311,8 @@ a {
  x0=150-w0/2/ss;
  y0=150-h0/2/ss;
  new.base.shield1(sn0, x0,y0,1/ss, w0,h0, 0);
+
+ new.christmas.tree2024(sn0, 0,0,1, 100,100);
 };
 
 
