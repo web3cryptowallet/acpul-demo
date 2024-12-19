@@ -3,6 +3,12 @@
 
 mode p0;
 
+_ @dota.node.base0;
+
+magic0 0;
+sn0 0;
+
+if ((magic0==0)*w*h>0) {
 new.ui.shader.node3(sn0, 400,00,1, 300,300, 70014,29149); # dota.buff.magic49
 shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
 shader.set.uniform.v3(sn0, A.col0, 0.5, 0.5, 0.5);
@@ -11,3 +17,12 @@ shader.set.uniform.v3(sn0, A.col2, 1., 0.7, 1.5);
 shader.set.uniform.v3(sn0, A.col3, 0.00, 0.15, 0.30);
 shader.set.uniform.v(sn0, A.alpha, 1);
 shader.set.uniform.v(sn0, A.radius, 0.5);
+ magic0:=sn0;
+};
+
+t+=dt;
+
+shader.set.uniform.v(magic0, A.time, t*3); #
+
+
+
