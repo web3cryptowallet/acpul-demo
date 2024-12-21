@@ -64,7 +64,7 @@ if (r0) {
 
 #  apply.effect(eff0, 0);
 
-  # WEAPON [
+  # WEAPON SWORD [
 
   if (sword0.on) {
    n = 2;
@@ -74,7 +74,13 @@ if (r0) {
    if (q==1) {sword.a1;};
   };
 
-  # WEAPON ]
+  # WEAPON SWORD ]
+  # WEAPON BOXERS [
+
+  boxers0:=boxers.new();
+  boxers1:=boxers.new();
+
+  # WEAPON BOXERS ]
 
   boxers.new;
  };
