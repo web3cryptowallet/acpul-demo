@@ -81,6 +81,7 @@ if (r0) {
   boxers0:=boxers.new(0);
   boxers0.x:=boxers.new.x0;
   boxers1:=boxers.new(1);
+  boxers1.x:=boxers.new.x0;
 
   # WEAPON BOXERS ]
  };
