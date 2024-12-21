@@ -166,23 +166,29 @@ node.prop.r.s(u0, sword0,sword0.r+sin(t*100.)*3);
 # WEAPON ]
 # WEAPON HANDS [
 
-boxers.sn0 0;
+boxers0 0;
+boxers0:=boxers.new();
+
 
 boxers.new {
+ sn0 0;
  # mode - L|R
  new.ui.shader.node3(sn0, 0,0,0.15, 100,100, 70014,29153); # dota.hand53
  shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
  shader.set.uniform.v(sn0, A.rotA, 110*rnd(u0));
  shader.set.uniform.v(sn0, A.time, 1);
  shader.set.uniform.v(sn0, A.rotA, 0);
+ sn0;
 };
 
 boxers.step {
+ # boxers
+ sn0 _0;
  shader.set.uniform.v(sn0, A.time, 0);
  shader.set.uniform.v(sn0, A.rotA, 0);
 };
 
-boxers.step;
+boxers.step(boxers0);
 
 # WEAPON HANDS ]
 
