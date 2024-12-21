@@ -17,7 +17,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
  skillb0 0;
  x0 60;
  y0 200;
- dy 22;
+ dy 5;
  new.node.common0(skillb0, x0,y0,1, 100,5, NNN(dota.unit.health.bar), 2);
  y0+=dy;
  new.node.common0(manab0, x0,y0,1, 100,5, NNN(dota.unit.health.bar), 1);
