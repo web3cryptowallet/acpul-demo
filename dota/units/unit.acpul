@@ -169,8 +169,6 @@ node.prop.r.s(u0, sword0,sword0.r+sin(t*100.)*3);
 boxers0 0;
 boxers1 0;
 
-boxers0:=boxers.new();
-boxers1:=boxers.new();
 
 
 boxers.new {
