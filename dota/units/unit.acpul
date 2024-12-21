@@ -183,7 +183,7 @@ boxers.new {
  R mode==1;
  x0 0;
  y0 0;
- x0:=if(L, 0, 10);
+ x0:=if(L, 0, 110);
  y0:=if(L, 0, 10);
  new.ui.shader.node3(sn0, x0,y0,0.15, 100,100, 70014,29153); # dota.hand53
  shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
