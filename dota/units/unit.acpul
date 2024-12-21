@@ -183,7 +183,7 @@ boxers.new {
  R mode==1;
 
  x0 0;
- y0 0;
+ y0 20;
  x0:=if(L, 0, 30);
  y0:=if(L, 0, 30);
 
