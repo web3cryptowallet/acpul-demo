@@ -80,8 +80,10 @@ if (r0) {
 
   boxers0:=boxers.new(0);
   boxers0.x:=boxers.new.x0;
+  boxers0.y:=boxers.new.y0;
   boxers1:=boxers.new(1);
   boxers1.x:=boxers.new.x0;
+  boxers1.y:=boxers.new.y0;
 
   # WEAPON BOXERS ]
  };
@@ -177,7 +179,9 @@ boxers0 0;
 boxers1 0;
 
 boxers0.x 0;
+boxers0.y 0;
 boxers1.x 0;
+boxers1.y 0;
 
 _ @os.util2;
 
@@ -208,6 +212,7 @@ boxers.step {
  shader.set.uniform.v(sn0, A.rotA, 0+rnd(u0));
 
  x0=_0.x;
+ node.set.x(u0, sn0, x0+rnd(u0)*10);
  node.set.x(u0, sn0, x0+rnd(u0)*10);
 # node.set.x(u0, sn0, 110);
 };
