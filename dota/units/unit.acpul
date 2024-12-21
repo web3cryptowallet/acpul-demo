@@ -195,8 +195,8 @@ boxers.step {
  shader.set.uniform.v(sn0, A.rotA, 0+rnd(u0));
 };
 
-boxers.step(boxers0);
-boxers.step(boxers1);
+#boxers.step(boxers0);
+#boxers.step(boxers1);
 
 # WEAPON HANDS ]
 
