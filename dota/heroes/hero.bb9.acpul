@@ -19,8 +19,8 @@ if ((sn0==0)*(w>0)*(h>0)) {
  y0 200;
  w0 50;
  dy 5;
- new.node.common0(skillb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 2);
- y0+=dy;
+# new.node.common0(skillb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 2);
+# y0+=dy;
  new.node.common0(manab0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 1);
  y0+=dy;
  new.node.common0(healthb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 0);
