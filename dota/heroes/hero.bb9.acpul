@@ -12,7 +12,12 @@ if ((sn0==0)*(w>0)*(h>0)) {
 # shader.set.uniform.v3(sn0, A.color0, rnd(u0),rnd(u0),rnd(u0));
  shader.set.uniform.v3(sn0, A.color0, rnd(u0)*2,rnd(u0)*2,rnd(u0)*2);
 
- healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
+ healthb0 0;
+# healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 0);
+ new.common0(healthb0, 0,0,1, 100,20, NNN(dota.unit.health.bar), 0);
+# healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 0);
+# manab0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
+# healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
 };
 
 
