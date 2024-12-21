@@ -21,6 +21,7 @@ _ @basic.ui.shader.node3.inc;
 OBJECT 3220;
 
 #obj @OBJECT;
+obj @dota.object;
 ot obj.types;
 ost obj.subtypes;
 
