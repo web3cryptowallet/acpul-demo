@@ -24,6 +24,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
 _ @4;
 _ @dota.dialog.inc;
 
+sn0 0;
 healthb0 0;
 
 if ((sn0==0)*(w>0)*(h>0)) {
