@@ -12,6 +12,29 @@ if ((sn0==0)*(w>0)*(h>0)) {
 # shader.set.uniform.v3(sn0, A.color0, rnd(u0),rnd(u0),rnd(u0));
  shader.set.uniform.v3(sn0, A.color0, rnd(u0)*2,rnd(u0)*2,rnd(u0)*2);
 
+ x0 60+25;
+ y0 200;
+ w0 50;
+ new.node.common0(manab0, x0,y0,1, w0,5, NNN(dota.unit.stats.header), 1);
+};
+
+
+
+#tex0 0;
+#if (r0) {
+# new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,28994); # dota.droid.bb9
+# tex0:=node.value.g(u0, sn0,0);
+#};
+#tex0boot0 u13; tex0boot1 u14;
+#tex0boot1:=tex0; tex0boot0:=tex0;
+
+### dota.unit.stats.header
+
+_ @4;
+
+healthb0 0;
+
+if ((sn0==0)*(w>0)*(h>0)) {
  healthb0 0;
  manab0 0;
  skillb0 0;
@@ -25,17 +48,5 @@ if ((sn0==0)*(w>0)*(h>0)) {
  y0+=dy;
 # new.node.common0(healthb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 0);
  new.node.common0(manab0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 3);
- 
-# healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 0);
-# manab0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
 };
 
-
-
-#tex0 0;
-#if (r0) {
-# new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,28994); # dota.droid.bb9
-# tex0:=node.value.g(u0, sn0,0);
-#};
-#tex0boot0 u13; tex0boot1 u14;
-#tex0boot1:=tex0; tex0boot0:=tex0;
