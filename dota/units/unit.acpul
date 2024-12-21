@@ -64,6 +64,8 @@ if (r0) {
 
 #  apply.effect(eff0, 0);
 
+  # WEAPON [
+
   if (sword0.on) {
    n = 2;
    q = floor(rnd(u0)*n);
@@ -71,6 +73,10 @@ if (r0) {
    if (q==0) {sword.a0;};
    if (q==1) {sword.a1;};
   };
+
+  # WEAPON ]
+
+  boxers.new;
  };
 };
 
