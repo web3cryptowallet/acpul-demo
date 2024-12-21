@@ -215,9 +215,9 @@ boxers.step {
  shader.set.uniform.v(sn0, A.rotA, 0+rnd(u0));
 
  x0 _0.x;
- y0 _0.x;
-# node.set.x(u0, sn0, x0+rnd(u0)*10);
-# node.set.y(u0, sn0, y0+rnd(u0)*3);
+ y0 _0.y;
+ node.set.x(u0, sn0, x0+rnd(u0)*10);
+ node.set.y(u0, sn0, y0+rnd(u0)*3);
 # node.set.x(u0, sn0, 110);
 };
 
