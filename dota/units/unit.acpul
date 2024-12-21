@@ -17,6 +17,7 @@ _ @os.basic.ui;
 _ @os.util0;
 _ @dota.heroes;
 _ @basic.ui.shader.node3.inc;
+_ @sys.shader.ex;
 
 #OBJECT 3220;
 #obj @OBJECT;
