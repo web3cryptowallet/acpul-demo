@@ -79,6 +79,7 @@ if (r0) {
   # WEAPON BOXERS [
 
   boxers0:=boxers.new(0);
+  boxers0.x:=boxers.new.x0;
   boxers1:=boxers.new(1);
 
   # WEAPON BOXERS ]
@@ -174,6 +175,8 @@ node.prop.r.s(u0, sword0,sword0.r+sin(t*100.)*3);
 boxers0 0;
 boxers1 0;
 
+boxers0.x 0;
+boxers1.x 0;
 
 
 boxers.new {
