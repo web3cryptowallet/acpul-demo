@@ -85,6 +85,9 @@ if (r0) {
   boxers1.x:=boxers.new.x0;
   boxers1.y:=boxers.new.y0;
 
+  node.z.to.back(u0, boxers0, 0);
+  
+
   # WEAPON BOXERS ]
  };
 };
