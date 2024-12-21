@@ -179,8 +179,6 @@ boxers1 0;
 boxers0.x 0;
 boxers1.x 0;
 
-
-#_ @os.util0;
 _ @os.util2;
 
 boxers.new {
