@@ -179,6 +179,7 @@ boxers1 0;
 boxers.new {
  # mode - L|R
  mode p0;
+ mode 0;
  L mode==0;
  R mode==1;
 
