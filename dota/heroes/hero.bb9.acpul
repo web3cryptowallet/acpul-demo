@@ -15,7 +15,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
  healthb0 0;
  manab0 0;
  skillb0 0;
- x0 60;
+ x0 60+25;
  y0 200;
  w0 50;
  dy 5;
