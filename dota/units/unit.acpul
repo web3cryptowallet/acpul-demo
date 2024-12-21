@@ -216,8 +216,8 @@ boxers.step {
 
  x0 _0.x;
  y0 _0.x;
- node.set.x(u0, sn0, x0+rnd(u0)*10);
- node.set.y(u0, sn0, y0+rnd(u0)*3);
+# node.set.x(u0, sn0, x0+rnd(u0)*10);
+# node.set.y(u0, sn0, y0+rnd(u0)*3);
 # node.set.x(u0, sn0, 110);
 };
 
