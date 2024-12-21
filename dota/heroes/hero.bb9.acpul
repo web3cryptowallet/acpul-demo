@@ -22,6 +22,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
 ### dota.unit.stats.header
 
 _ @4;
+_ @dota.dialog.inc;
 
 healthb0 0;
 
