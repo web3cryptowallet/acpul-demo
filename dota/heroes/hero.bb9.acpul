@@ -14,7 +14,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
 
  healthb0 0;
 # healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 0);
- new.common0(healthb0, 0,0,1, 100,20, NNN(dota.unit.health.bar), 0);
+ new.node.common0(healthb0, 0,0,1, 100,20, NNN(dota.unit.health.bar), 0);
 # healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 0);
 # manab0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
 # healthb0:=node.new.this.ex(u0, NNN(dota.unit.health.bar), 1);
