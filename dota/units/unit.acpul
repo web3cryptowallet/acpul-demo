@@ -210,7 +210,7 @@ boxers.step {
 
 # x0=_0.x;
 # node.set.x(u0, sn0, x0+rnd(u0)*100);
- node.set.x(u0, sn0, 0);
+ node.set.x(u0, sn0, 110);
 };
 
 boxers.step(boxers0);
