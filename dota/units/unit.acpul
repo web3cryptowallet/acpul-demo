@@ -196,6 +196,7 @@ boxers.step {
 };
 
 boxers.step(boxers0);
+boxers.step(boxers1);
 
 # WEAPON HANDS ]
 
