@@ -20,7 +20,7 @@ _ @basic.ui.shader.node3.inc;
 
 OBJECT 3220;
 
-obj @OBJECT;
+#obj @OBJECT;
 ot obj.types;
 ost obj.subtypes;
 
