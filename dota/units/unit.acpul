@@ -76,6 +76,11 @@ if (r0) {
 
 # CREATE UNIT [
 
+ux 0;
+uy 0;
+uw 0;
+uh 0;
+
 create.unit {
  q _0;
  a = q==0;
