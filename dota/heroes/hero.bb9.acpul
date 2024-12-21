@@ -19,30 +19,3 @@ if ((sn0==0)*(w>0)*(h>0)) {
 };
 
 
-### dota.unit.stats.header
-
-_ @4;
-_ @dota.dialog.inc;
-
-sn0 0;
-healthb0 0;
-
-if ((sn0==0)*(w>0)*(h>0)) {
- healthb0 0;
- manab0 0;
- skillb0 0;
- x0 0;
- y0 0;
- w0 w;
- dy 6;
-# new.node.common0(skillb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 2);
-# y0+=dy;
- new.node.common0(manab0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 1);
- y0+=dy;
-# new.node.common0(healthb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 0);
- new.node.common0(healthb0, x0,y0,1, w0,5, NNN(dota.unit.health.bar), 3);
- y0+=dy;
- sn0:=healthb0;
- h:=y0;
-};
-
