@@ -90,8 +90,9 @@ sword0.on:=0;
   # WEAPON BOXERS ]
 
   ustats0 0;
+  ss 0.2;
   x0 0;60+25;
-  y0 200;
+  y0 200*ss;
   w0 50;
   new.node.common0(ustats0, x0,y0,0.2, w0,5, NNN(dota.unit.stats.header), 0);
 
