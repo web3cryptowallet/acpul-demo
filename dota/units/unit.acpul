@@ -151,7 +151,7 @@ create.unit {
 create.stats.header {
  x0 0;
  y0 0;
- w0 150;
+ w0 50;
  new.node.common0(ustats0, x0,y0,1, w0,5, NNN(dota.unit.stats.header), 0);
 };
 
