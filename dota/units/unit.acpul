@@ -149,7 +149,7 @@ create.unit {
   new.node.common0(hero0, 0,20,0.5, 100,100, hero.leprechaun, player.id);
  };
  if (r0*d) {
-  e 2;
+  e 3;
   ss 2;
   w0 200;
   h0 200;
