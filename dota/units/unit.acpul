@@ -117,7 +117,7 @@ uh 0;
 
 create.unit {
  q _0;
- q 4;
+ q 3;
  a = q==0;
  b = q==1;
  c = q==2;
@@ -129,7 +129,7 @@ create.unit {
  sword0.y := 7;
  
  boxers0.on := 0;
- 
+
  ustats0.y := 220;
 
  if (r0*a) {
