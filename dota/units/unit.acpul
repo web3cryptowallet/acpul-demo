@@ -139,7 +139,7 @@ create.unit {
  };
  if (r0*e) {
 #  new.node.common0(hero0, 0,0,1/3, 100,100, NNN(hero.bender), player.id);
-  ss 2/3;
+  ss 3;
   new.node.common0(hero0, 0-100/ss,0,1/3/2, 200,200, NNN(hero.bender), player.id);
  };
 };
