@@ -156,8 +156,10 @@ shield3 {
  tex0=node.value.g(u0, sn0,0);
 
  ss 1;
- w0 w*1.5;
- h0 h*1.5;
+ w0 w*1;
+ h0 h*1;
+# w0 w*1.5;
+# h0 h*1.5;
  x0 0-w*0.5/2;
  y0 0-w*0.5/2;
 # ss 1;
