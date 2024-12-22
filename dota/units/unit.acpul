@@ -159,6 +159,10 @@ create.unit {
   q=rnd(u0)>0.5;
   boxers0.on := q;
   sword0.on := q==0;
+
+  sword0.x := 0;
+  sword0.y := 7;
+
  };
  if (r0*e) {
 #  new.node.common0(hero0, 0,0,1/3, 100,100, NNN(hero.bender), player.id);
