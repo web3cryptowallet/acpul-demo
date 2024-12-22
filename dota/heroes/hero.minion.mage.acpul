@@ -1,6 +1,6 @@
 ### 19310 hero.minion.mage
 
-#draw(r0, 19311);
+draw(r0, 19311);
 
 #lt:=10;
 #y+=1;
