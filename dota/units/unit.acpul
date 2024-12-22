@@ -242,10 +242,11 @@ boxers0.on 0;
 _ @os.util2;
 
 boxers.new {
- # mode, color:r:g:b
+ # boxers, mode, color:r:g:b
  # mode - L|R
- mode _0;
- col.r _1; col.g _2; col.b _3;
+ boxers _0;
+ mode _1;
+ col.r _2; col.g _3; col.b _4;
  L mode==0;
  R mode==1;
 
