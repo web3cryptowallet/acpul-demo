@@ -161,7 +161,7 @@ create.unit {
   sword0.on := q==0;
 
   sword0.x := 0;
-  sword0.y := 7;
+  sword0.y := 0;
 
  };
  if (r0*e) {
