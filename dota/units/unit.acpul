@@ -138,7 +138,7 @@ create.unit {
   new.node.common0(hero0, 0-12,4,0.4/2, 100*2,100*2, NNN(dota.hero.bb9), player.id);
  };
  if (r0*e) {
-  new.node.common0(hero0, 0,20,1/3, 100,100, NNN(hero.bender), player.id);
+  new.node.common0(hero0, 0,0,1/3, 100,100, NNN(hero.bender), player.id);
  };
 };
 
