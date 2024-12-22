@@ -44,6 +44,9 @@ sword0.r 0;
 sword0.on 0;
 
 ustats0 0;
+ustats0.x 0;
+ustats0.y 0;
+
 
 if (r0) {
  
@@ -95,7 +98,8 @@ sword0.on:=0;
   ss 0.2;
   w0 50;
   x0 0-w0/2*ss;
-  y0 220*ss;
+  #y0 220*ss;
+  y0 ustats0.y*ss;
   new.node.common0(ustats0, x0,y0,0.2, w0,5, NNN(dota.unit.stats.header), 0);
 
   # UNIT STATS ]
@@ -122,6 +126,8 @@ create.unit {
  sword0.x := 23;
  sword0.y := 7;
  
+ ustats0.y := 220;
+
  if (r0*a) {
   #hero0:=node.new.this.ex(u0, UNIT.ROBOT, player.id);
   new.node.common0(hero0, 0,0-2,0.15, 100,100, UNIT.ROBOT, player.id);
@@ -142,6 +148,7 @@ create.unit {
 #  ss 3;
   ss 2;
   new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
+  ustats0.y := 260;
  };
 };
 
