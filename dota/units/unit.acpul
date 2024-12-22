@@ -62,7 +62,7 @@ if (r0) {
  # PLAYER
 
  if (subtype==ost.player) {
-  n = 4;
+  n = 5;
   q = floor(rnd(u0)*n);
 #  q = 3;
 
@@ -122,7 +122,7 @@ uh 0;
 
 create.unit {
  q _0;
- q 3;
+# q 3;
  a = q==0;
  b = q==1;
  c = q==2;
