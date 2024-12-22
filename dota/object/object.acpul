@@ -181,8 +181,11 @@ self context;
 
 
 
-#h:=10;
-#w:=10;
+if (r0) {
+ h:=10;
+ w:=10;
+};
+
 
 
 ### 3221 Object.draw
