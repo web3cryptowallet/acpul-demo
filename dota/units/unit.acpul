@@ -214,6 +214,8 @@ boxers0.y 0;
 boxers1.x 0;
 boxers1.y 0;
 
+boxers0.on 0;
+
 _ @os.util2;
 
 boxers.new {
