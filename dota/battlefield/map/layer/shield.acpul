@@ -60,7 +60,7 @@ shield1 {
 # h0=w0;
 # x0=150-w0/2/ss;
 # y0=150-h0/2/ss;
-# new.ui.shader.node3(sn0, x0,y0,1/ss, w0,h0, 70014,29122); # dota.ball.tex
+ new.ui.shader.node3(sn0, x0,y0,1/ss, w0,h0, 70014,29122); # dota.ball.tex
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.uniform.v(sn0, A.dismfScale0, 0.0);
 # shader.set.uniform.v2(sn0, A.scaleTex, 1*3,1*3);
@@ -115,7 +115,7 @@ shield2 {
 # h0=w0;
 # x0=150-w0/2/ss;
 # y0=150-h0/2/ss;
- new.ui.shader.node3(sn0, x0,y0,1/ss, w0,h0, 70014,29122); # dota.ball.tex
+# new.ui.shader.node3(sn0, x0,y0,1/ss, w0,h0, 70014,29122); # dota.ball.tex
  shader.set.uniform.v(sn0, A.mode, 1);
  shader.set.uniform.v(sn0, A.dismfScale0, 0.0);
  shader.set.uniform.v2(sn0, A.scaleTex, 1,1);
