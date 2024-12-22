@@ -47,6 +47,16 @@ ustats0 0;
 ustats0.x 0;
 ustats0.y 0;
 
+boxers0 0;
+boxers1 0;
+
+boxers0.x 0;
+boxers0.y 0;
+boxers1.x 0;
+boxers1.y 0;
+
+boxers0.on 0;
+
 
 if (r0) {
  
@@ -231,16 +241,6 @@ node.prop.r.s(u0, sword0,sword0.r+sin(t*100.)*3);
 
 # WEAPON ]
 # WEAPON HANDS [
-
-boxers0 0;
-boxers1 0;
-
-boxers0.x 0;
-boxers0.y 0;
-boxers1.x 0;
-boxers1.y 0;
-
-boxers0.on 0;
 
 _ @os.util2;
 
