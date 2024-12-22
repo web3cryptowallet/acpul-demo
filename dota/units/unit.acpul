@@ -100,7 +100,7 @@ if (r0) {
    b=rnd(u0)*2;
 
    boxers0.y 0;
-   boxers1.y 0;#0-20;
+#   boxers1.y 0;#0-20;
 
    boxers0:=boxers.new(boxers0, 0, r,g,b);
 #   boxers0.x:=boxers.new.x0;
