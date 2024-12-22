@@ -55,7 +55,7 @@ _ @dota.unit.tower;
 b rect(u0, 6, _0*32-42,_1*32+70, _2*32,_3*32);
 
 
-#rect(u0, 2, 0,0,w,h);
+rect(u0, 2, 0,0,w,h);
 
 OBJECT 3220;
 obj @OBJECT;
