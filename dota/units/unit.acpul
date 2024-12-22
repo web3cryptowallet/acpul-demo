@@ -83,15 +83,17 @@ if (r0) {
   # WEAPON SWORD ]
   # WEAPON BOXERS [
 
-  boxers0:=boxers.new(0);
-  boxers0.x:=boxers.new.x0;
-  boxers0.y:=boxers.new.y0;
-  boxers1:=boxers.new(1);
-  boxers1.x:=boxers.new.x0;
-  boxers1.y:=boxers.new.y0;
+  if (boxers0.on) {
+   boxers0:=boxers.new(0);
+   boxers0.x:=boxers.new.x0;
+   boxers0.y:=boxers.new.y0;
+   boxers1:=boxers.new(1);
+   boxers1.x:=boxers.new.x0;
+   boxers1.y:=boxers.new.y0;
 
-  node.z.to.back(u0, boxers1, 0);
-  
+   node.z.to.back(u0, boxers1, 0);
+  };
+
   # WEAPON BOXERS ]
   # UNIT STATS [
 
@@ -125,6 +127,8 @@ create.unit {
  sword0.on := 1;
  sword0.x := 23;
  sword0.y := 7;
+ 
+ boxers0.on := 0;
  
  ustats0.y := 220;
 
