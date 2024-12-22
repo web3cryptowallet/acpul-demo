@@ -230,7 +230,7 @@ boxers.new {
  # mode, color:r:g:b
  # mode - L|R
  mode _0;
- col.r _1; col.g _1; col.b _1;
+ col.r _1; col.g _2; col.b _3;
  L mode==0;
  R mode==1;
 
