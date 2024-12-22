@@ -115,6 +115,7 @@ create.unit {
  b = q==1;
  c = q==2;
  d = q==3;
+ e = q==4;
 
  sword0.on := 1;
  sword0.x := 23;
