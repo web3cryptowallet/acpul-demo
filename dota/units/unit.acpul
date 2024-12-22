@@ -227,8 +227,10 @@ boxers0.on 0;
 _ @os.util2;
 
 boxers.new {
+ # mode, color:r:g:b
  # mode - L|R
  mode _0;
+ col.r _1; col.g _1; col.b _1;
  L mode==0;
  R mode==1;
 
@@ -240,7 +242,7 @@ boxers.new {
  sn0 0;
  new.ui.shader.node3(sn0, x0,y0,1/3, 100/2,100/2, 70014,29153); # dota.hand53
 # new.ui.shader.node3(sn0, x0,y0,0.15, 100,100, 70014,29153); # dota.hand53
- shader.set.uniform.v3(sn0, A.color0, rnd(u0)*2,rnd(u0)*2,rnd(u0)*2);
+ shader.set.uniform.v3(sn0, A.color0, col.r,col.g,col.b);
  shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
  shader.set.uniform.v(sn0, A.rotA, 110*rnd(u0));
 # shader.set.uniform.v(sn0, A.time, 1);
