@@ -9,5 +9,5 @@ ustats0 0;
 
 if ((sn0==0)*(w>0)*(h>0)) {
 
-# new.ui.shader.node3(sn0, 500,-100,1, 500,500, 70014,29154); # dota.bender
+ new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,29154); # dota.bender
 };
