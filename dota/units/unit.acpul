@@ -63,7 +63,7 @@ if (r0) {
 
  if (subtype==ost.player) {
   n = 5;
-  q = floor(rnd(u0)*n);
+  q = round(rnd(u0)*n);
 #  q = 3;
 
   create.unit(q);
