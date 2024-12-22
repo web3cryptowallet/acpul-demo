@@ -150,7 +150,7 @@ create.unit {
   w0 200;
   h0 200;
   new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
-  ustats0.y := h0/2/ss-h0/ss;
+  ustats0.y := h0/2/ss-h0/2/ss;
  };
 };
 
