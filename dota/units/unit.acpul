@@ -161,7 +161,7 @@ create.unit {
   boxers0.on := q;
   sword0.on := q==0;
 
-  sword0.x := 0;
+  sword0.x := w0/ss;
   sword0.y := 0;
 
  };
