@@ -111,7 +111,7 @@ uh 0;
 
 create.unit {
  q _0;
- q 4;
+ q 3;
  a = q==0;
  b = q==1;
  c = q==2;
