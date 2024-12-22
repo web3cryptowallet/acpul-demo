@@ -149,8 +149,12 @@ create.unit {
   new.node.common0(hero0, 0,20,0.5, 100,100, hero.leprechaun, player.id);
  };
  if (r0*d) {
+  ss 2;
+  w0 200;
+  h0 200;
 #  new.node.common0(hero0, 0-12,4,0.4, 100,100, NNN(dota.hero.bb9), player.id);
   new.node.common0(hero0, 0-12,4,0.4/2, 100*2,100*2, NNN(dota.hero.bb9), player.id);
+  ustats0.y := 200/ss;
   q=rnd(u0)>0.5;
   boxers0.on := q;
   sword0.on := q==0;
