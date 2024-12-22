@@ -84,6 +84,7 @@ if (r0) {
   # WEAPON BOXERS [
 
   if (boxers0.on) {
+   # boxers color
    r=rnd(u0)*2;
    g=rnd(u0)*2;
    b=rnd(u0)*2;
