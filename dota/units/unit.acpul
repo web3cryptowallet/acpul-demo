@@ -93,7 +93,7 @@ sword0.on:=0;
   x0 0;60+25;
   y0 0;200;
   w0 50;
-  new.node.common0(ustats0, x0,y0,1, w0,5, NNN(dota.unit.stats.header), 0);
+  new.node.common0(ustats0, x0,y0,0.2, w0,5, NNN(dota.unit.stats.header), 0);
 
  };
 };
