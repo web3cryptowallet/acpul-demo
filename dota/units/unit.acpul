@@ -89,10 +89,10 @@ if (r0) {
    g=rnd(u0)*2;
    b=rnd(u0)*2;
 
-   boxers0:=boxers.new(0, r,g,b);
+   boxers0:=boxers.new(boxers0, 0, r,g,b);
    boxers0.x:=boxers.new.x0;
    boxers0.y:=boxers.new.y0;
-   boxers1:=boxers.new(1, r,g,b);
+   boxers1:=boxers.new(boxers1, 1, r,g,b);
    boxers1.x:=boxers.new.x0;
    boxers1.y:=boxers.new.y0;
 
