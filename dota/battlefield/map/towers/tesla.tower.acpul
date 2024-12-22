@@ -15,7 +15,7 @@ t+=dt;
 _ @dota.map.primitives;
 
 create.shield1 {
- ss 0.5;
+ ss 0.1;
  w0 w/ss;
  h0=w0;
  x0=0;
