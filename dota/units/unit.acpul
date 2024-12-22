@@ -93,9 +93,9 @@ sword0.on:=0;
   # UNIT STATS [
 
   ss 0.2;
-  x0 0*25*ss;
-  y0 220*ss;
   w0 50;
+  x0 0-w0/2*ss;
+  y0 220*ss;
   new.node.common0(ustats0, x0,y0,0.2, w0,5, NNN(dota.unit.stats.header), 0);
 
   # UNIT STATS ]
