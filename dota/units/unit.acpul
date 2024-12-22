@@ -244,6 +244,8 @@ boxers.step(boxers1);
 
 t+=dt;
 
+x:=0;
+
 ### 3231 dota.unit.draw
 
 #watch(r0);
