@@ -64,7 +64,7 @@ r pi/2*0.5+sin(t1)*0.05;
 #r 0;
 #point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
-#point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
+point4r(u0, 6, x,y, x+w,y, x+w,y+h, x,y+h, r);
 
 
 color.rand(u0, 1);
