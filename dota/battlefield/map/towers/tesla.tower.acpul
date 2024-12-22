@@ -21,5 +21,5 @@ create.shield1 {
  y0=0;
 # x0=0+(w0)/s;
 # y0=0+(h0)/s;
- new.base.shield1(sn0, x0,y0,1/ss, w0,h0, 1);
+ new.base.shield1(sn0, x0,y0,1*ss, w0,h0, 1);
 };
