@@ -65,7 +65,7 @@ if (r0) {
   n = 5;
   q = floor(rnd(u0)*n);
 #  q = 3;
-
+q=4;
   create.unit(q);
 
 #  apply.effect(eff0, 0);
