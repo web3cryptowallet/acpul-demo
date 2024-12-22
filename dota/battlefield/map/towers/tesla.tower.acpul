@@ -18,6 +18,6 @@ create.shield1 {
  w0 w;
  h0=w0;
  x0=0+w0/4;
- y0=0;
+ y0=0+h0/4;
  new.base.shield1(sn0, x0,y0,1/ss, w0,h0, 1);
 };
