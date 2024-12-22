@@ -87,8 +87,14 @@ sword0.on:=0;
 
   node.z.to.back(u0, boxers1, 0);
   
-
   # WEAPON BOXERS ]
+
+  ustats0 0;
+  x0 0;60+25;
+  y0 0;200;
+  w0 50;
+  new.node.common0(ustats0, x0,y0,1, w0,5, NNN(dota.unit.stats.header), 0);
+
  };
 };
 
