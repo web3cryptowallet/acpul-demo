@@ -153,7 +153,7 @@ create.unit {
   w0 200;
   h0 200;
 #  new.node.common0(hero0, 0-12,4,0.4, 100,100, NNN(dota.hero.bb9), player.id);
-  new.node.common0(hero0, 0-w0/2/2/ss,0-50/ss, 1/2/ss, w0,h0, NNN(dota.hero.bb9), player.id);
+  new.node.common0(hero0, 0-w0/2/2/ss,0-30/ss, 1/2/ss, w0,h0, NNN(dota.hero.bb9), player.id);
   ustats0.y := (h0-h0/4-10)/2/ss;
   q=rnd(u0)>0.5;
   boxers0.on := q;
