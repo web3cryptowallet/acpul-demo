@@ -87,7 +87,6 @@ if (r0) {
    r=rnd(u0)*2;
    g=rnd(u0)*2;
    b=rnd(u0)*2;
-#   shader.set.uniform.v3(sn0, A.color0, rnd(u0)*2,rnd(u0)*2,rnd(u0)*2);
 
    boxers0:=boxers.new(0, r,g,b);
    boxers0.x:=boxers.new.x0;
