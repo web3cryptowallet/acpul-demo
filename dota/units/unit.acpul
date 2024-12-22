@@ -92,7 +92,6 @@ sword0.on:=0;
   # WEAPON BOXERS ]
   # UNIT STATS [
 
-
   ss 0.2;
   x0 25*ss;
   y0 200*ss;
