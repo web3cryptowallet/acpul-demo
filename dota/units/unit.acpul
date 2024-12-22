@@ -148,7 +148,7 @@ create.unit {
 #  ss 3;
   ss 2;
   new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
-  ustats0.y := 260/2/ss;
+  ustats0.y := 200/2/ss;
  };
 };
 
