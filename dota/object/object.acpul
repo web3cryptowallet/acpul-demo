@@ -49,7 +49,7 @@ _ @dota.object.context;
 
 r7:=type;
 
-#draw(r0, 3221);
+draw(r0, 3221);
 
 if (r0) {
  x:=x0;
