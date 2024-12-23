@@ -161,6 +161,8 @@ create.unit {
   w0 50;
   h0 100;
   new.node.common0(hero0, 0-w0/e/ss,0-10/e/ss, 1/ss, w0,h0, hero.leprechaun, player.id);
+  sword0.x := 90/e/ss;
+  sword0.y := 0-90/e/ss;
  };
  if (r0*d) {
   e 3;
