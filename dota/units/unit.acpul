@@ -303,7 +303,7 @@ boxers.step(boxers1);
 
 t+=dt;
 
-#_ @dota.dialog.inc;
+_ @dota.node.base0;
 #x:=0;
 #y:=0;
 #w:=100;
