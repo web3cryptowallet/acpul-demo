@@ -63,8 +63,7 @@ if (r0) {
   if (subtype0==subtypes.bot) {
    building=1;
    if ((btype0==bots.types.minion.mage)) {
-#   if ((btype0==bots.types.minion.mage)
-#     * (btype0==bots.types.minion.guard)) {
+      + (btype0==bots.types.minion.guard)) {
     create.body.unit;
     building:=0;
    };
