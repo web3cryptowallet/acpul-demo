@@ -122,55 +122,7 @@ vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
 
-# BOX2D [
-# CREATE BODY [
-
-_ @1010;
-_ @3200;
-_ @sys.box2d;
-bb box2d.body;
-body0 l10;
-shape0 l11;
-fixture0 l12;
-
-create.body.unit {
- bb.def0(u0, box2d.dynamic, x,y, 0);
- bb.def1(u0, 0,0, 0,0);
- bb.def3(u0, 0, 0,1,5);
- body0:=bb.create(u0, b2d.world);
-# body.def.type.position.angle;
-# body.def.velocity.linear.angular;
-# body.def.damping.linear.angular.allowSleep.awake;
-# body.def.fixed.rotation.bullet.active.gravity.scale;
-
- shape0:=box2d.shape.create.circle(u0);
- box2d.shape.set.radius(u0, shape0, 5);
-
- # Fixture friction, restitution, density, isSensor
- box2d.fixture.def(u0, 0.2, 10, 0, 0);
- fixture0:=box2d.fixture.create(u0, body0, shape0);
-
-# box2d.fixture.filter.collision(u0, b1f1, 1,1+2, 0);
-
-# box2d.body.set.position(u0, body0, x,y);
-};
-
-sync.pos.to.body {
- box2d.body.get.position(u0, body0);
- x:=o0;
- y:=o1;
-};
-
-if (type==types.unit) {
- if (r0) {
-  create.body.unit;
- };
- sync.pos.to.body;
-};
-
-# CREATE BODY ]
-# BOX2D ]
-
+_ @dota.object.box2d;
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
