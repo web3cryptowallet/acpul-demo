@@ -21,8 +21,8 @@ team obj.teams.blue;
 
 nodenew node.new.this.ex8(__);
 
-w:=1000;
-h:=1000;
+w:=1000-100;
+h:=1000-100;
 
 sn0 0;
 
