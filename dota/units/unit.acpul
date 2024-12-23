@@ -59,7 +59,7 @@ boxers1.y 0;
 
 boxers0.on 0;
 
- bot0 0;
+bot0 0;
 
 
 if (r0) {
