@@ -70,7 +70,7 @@ if (r0) {
  # BOT [
 
  if (subtype==ost.bot) {
-  # Types:
+  # ctype:
   #  building:
   #   tower
   #   homehealth
