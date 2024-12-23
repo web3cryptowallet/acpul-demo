@@ -305,6 +305,7 @@ t+=dt;
 
 _ @dota.node.base0;
 check.visible.x:=-w/2;
+check.visible.y:=-h/2;
 #x:=0;
 #y:=0;
 w:=30;
