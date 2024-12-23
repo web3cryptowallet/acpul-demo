@@ -19,7 +19,7 @@ apply.velocity {
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
-  apply.velocity(player.id);
+#  apply.velocity(player.id);
   r7:=player.id+5;
  };
 };
