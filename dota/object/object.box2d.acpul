@@ -67,6 +67,9 @@ if (r0) {
    create.body.unit;
   };
  };
+};
+
+if (type==types.unit) {
  sync.pos.to.body;
 };
 
