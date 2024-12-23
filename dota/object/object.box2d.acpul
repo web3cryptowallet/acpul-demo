@@ -66,7 +66,7 @@ create.tower.sensor {
  body0=bb.create(u0, b2d.world);
 
  shape0=box2d.shape.create.circle(u0);
- box2d.shape.set.radius(u0, shape0, 15);
+ box2d.shape.set.radius(u0, shape0, 50);
 
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 1);
