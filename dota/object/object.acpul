@@ -85,8 +85,6 @@ if (r0) {
 };
 
 
-# unit code (split later) [
-
 # NET MOVE [
 
 gnet.player.get.vx {
@@ -113,15 +111,6 @@ if (type==types.unit) {
 
 # NET MOVE ]
 
-_ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.1, X, x);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-2,0.1, Y, y);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-4,0.1, Player.id, player.id);
-
-vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
-
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
-
 _ @dota.object.box2d;
 
 if (type==types.unit) {
@@ -133,6 +122,15 @@ if (type==types.unit) {
  };
 };
 
+_ @4;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.1, X, x);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-2,0.1, Y, y);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-4,0.1, Player.id, player.id);
+
+vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
+
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
+
 # alloc self context [
 
 context.d.a r5;
@@ -140,8 +138,6 @@ context.d.a r5;
 self context;
 
 # alloc self context ]
-
-# unit code (split later) ]
 
 
 
