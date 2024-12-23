@@ -20,8 +20,8 @@ heroes obj.players.heroes;
 team obj.teams.blue;
 
 
-w:=1000-30;
-h:=1000-30;
+w:=1000-40;
+h:=1000-40;
 
 sn0 0;
 
