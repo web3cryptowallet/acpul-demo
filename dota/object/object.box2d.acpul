@@ -39,7 +39,7 @@ create.body.unit {
 # CREATE BODY BUILDING [
 
 create.body.building {
- bb.def0(u0, box2d.dynamic, x,y, 0);
+ bb.def0(u0, box2d.static, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
  body0:=bb.create(u0, b2d.world);
