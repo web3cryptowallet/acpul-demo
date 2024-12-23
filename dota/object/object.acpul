@@ -47,7 +47,7 @@ _ @os.util0;
 _ @dota.object.types;
 _ @dota.object.context;
 
-context.d.a r5;
+#context.d.a r5;
 
 r7:=type;
 
