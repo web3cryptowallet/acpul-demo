@@ -31,6 +31,8 @@ create.body.unit {
  box2d.fixture.def(u0, 0.2, 0, 0, 0);
  fixture0:=box2d.fixture.create(u0, body0, shape0);
 
+ box2d.fixture.filter.collision(u0, fixture0, 2,1+2, 0);
+
 # box2d.fixture.filter.collision(u0, b1f1, 1,1+2, 0);
 
 # box2d.body.set.position(u0, body0, x,y);
