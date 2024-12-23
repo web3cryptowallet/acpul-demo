@@ -160,7 +160,7 @@ create.unit {
   ss 2;
   w0 50;
   h0 100;
-  new.node.common0(hero0, 0-w0/e/ss,0-90/e/ss, 1/ss, w0,h0, hero.leprechaun, player.id);
+  new.node.common0(hero0, 0-w0/e/ss,0-30/e/ss, 1/ss, w0,h0, hero.leprechaun, player.id);
  };
  if (r0*d) {
   e 3;
