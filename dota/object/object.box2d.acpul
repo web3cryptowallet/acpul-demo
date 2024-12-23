@@ -33,7 +33,10 @@ create.body.unit {
 # box2d.body.set.position(u0, body0, x,y);
 };
 
-sync.pos.to.body {
+create.body.unit {
+
+
+box2d.sync.pos.to.body {
  box2d.body.get.position(u0, body0);
  x:=o0;
  y:=o1;
@@ -49,7 +52,7 @@ if (type==types.unit) {
    create.body.unit;
   };
  };
- sync.pos.to.body;
+ box2d.sync.pos.to.body;
 };
 
 # CREATE BODY ]
