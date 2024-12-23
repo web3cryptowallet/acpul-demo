@@ -177,7 +177,7 @@ i:=0;while(i<count) {
    draw:=0;
   };
   if ((btype0==obj.bots.types.homebase)
-     * (btype0==obj.bots.types.shop)) {
+     ) {
    if (team==obj.teams.blue) {
     color(u0, 0,1,1,1);
    };
