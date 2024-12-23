@@ -39,7 +39,6 @@ create.body.unit {
 # CREATE BODY BUILDING [
 
 create.body.building {
-
  bb.def0(u0, box2d.dynamic, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
@@ -55,7 +54,6 @@ create.body.building {
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 0);
  fixture0:=box2d.fixture.create(u0, body0, shape0);
-
 };
 
 # CREATE BODY BUILDING ]
