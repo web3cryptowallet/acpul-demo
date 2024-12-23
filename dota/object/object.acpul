@@ -66,7 +66,7 @@ JOYSTICK 3270;
 
 if (r0) {
  if (type==types.map) { 
-  node.new.this.ex(r0, MAP, 0);
+#  node.new.this.ex(r0, MAP, 0);
  };
  if (type==types.unit) {
   node.new.this.ex4(r0, dota.unit, subtype0, player.id, 0,0);
