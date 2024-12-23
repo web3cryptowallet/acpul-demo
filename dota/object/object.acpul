@@ -87,6 +87,8 @@ if (r0) {
 
 # unit code (split later) [
 
+# NET MOVE [
+
 gnet.player.get.vx {
  # player.id
 };
@@ -108,6 +110,8 @@ if (type==types.unit) {
   r7:=player.id+5;
  };
 };
+
+# NET MOVE ]
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.1, X, x);
