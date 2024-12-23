@@ -73,6 +73,8 @@ create.tower.sensor {
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 1);
  fixture0=box2d.fixture.create(u0, body0, shape0);
+
+# box2d.fixture.filter.collision(u0, b1f1, 1,1+2, 0);
  sensor0:=body0;
 };
 
@@ -117,5 +119,46 @@ sync.pos.to.body {
  y:=o1;
 };
 
+_ @sys.events;
+
+# BOX2D PROCESS EVENTS [
+
+_ @dota.fly.box1;
+_ @os.util2;
+
+tb0=1;
+while(tb0) {
+ tb0:=events.pop(u0, box2d.e.pool, physics.world);
+ if (tb0==box2d.e.contact.begin) {
+  # body0, body1
+  body0=o0;
+  fixture0=o1;
+  body1=o2;
+  fixture1=o3;
+
+  nid1=box2d.body.data.get(u0, o0, 0);
+
+  box2d.body.get.position(u0, body0);
+  bx0=o0;
+  by0=o1;
+
+#  fly.box1(bx0+10*rnd(u0),by0);
+  score=o0;
+  qq=qq+1;
+  score+=qq;
+
+  type=999; # gold
+
+  events.push(u0, pool.nebula,0, ev.add.score, score, type, bx0,by0);
+
+#  node.set.visible(u0, nid1, 0);
+
+#  fly0=fly.box1(0-10*rnd(u0)/2,0);
+#  node.move.to.parent(u0, nid1, fly0);
+ };
+};
+
+# BOX2D PROCESS EVENTS ]
+# box2d event ]
 # CREATE BODY ]
 # BOX2D ]
