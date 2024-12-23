@@ -169,6 +169,9 @@ i:=0;while(i<count) {
   if (btype0==obj.bots.types.tower) {
    if (team==obj.teams.blue) {
 #    color(u0, 1,1,0,1);
+    color(u0, 0,0,1,1);
+   };
+   if (team==obj.teams.red) {
     color(u0, 1,0,0,1);
    };
    render.tower(x*minimap.scale,y*minimap.scale, 2);
