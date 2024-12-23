@@ -43,10 +43,10 @@ if (type==types.unit) {
  if (r0) {
   if (subtype0==subtypes.bot) {
 #   if ()
-   create.body.unit;
+#   create.body.unit;
   };
   if (subtype0==subtypes.player) {
-#   create.body.unit;
+   create.body.unit;
   };
  };
  sync.pos.to.body;
