@@ -50,7 +50,8 @@ create.body.building {
 
  shape0:=box2d.shape.create.circle(u0);
 # box2d.shape.set.radius(u0, shape0, 5);
- box2d.shape.polygon.box.a(u0, shape0, 100,100, 0,0, 0);
+ box2d.shape.polygon.box(u0, shape0, 100,100);
+# box2d.shape.polygon.box.a(u0, shape0, 100,100, 0,0, 0);
 
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 0);
