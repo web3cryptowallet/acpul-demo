@@ -104,12 +104,10 @@ apply.velocity {
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
-  apply.velocity(player.id);
+#  apply.velocity(player.id);
   r7:=player.id+5;
  };
 };
-
-# NET MOVE ]
 
 _ @dota.object.box2d;
 
@@ -121,6 +119,8 @@ if (type==types.unit) {
 #  watch(vx);
  };
 };
+
+# NET MOVE ]
 
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.1, X, x);
