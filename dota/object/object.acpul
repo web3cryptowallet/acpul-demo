@@ -162,19 +162,17 @@ sync.pos.to.body {
 };
 
 if (type==types.unit) {
-if (r0) {
- create.body.unit;
+ if (r0) {
+  create.body.unit;
+ };
+ sync.pos.to.body;
 };
-sync.pos.to.body;
-
-# box2d.body.set.position(u0, body0, x,y);
-#angle=box2d.body.get.angle(u0, body0);
-#box2d.body.set.transform(u0, body0, x,y, angle);
 
 # CREATE BODY ]
 # BOX2D ]
 
 
+if (type==types.unit) {
  if (subtype0==subtypes.player) {
   vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*3000*10;
   vy get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*3000*10;
