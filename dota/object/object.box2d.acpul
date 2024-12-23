@@ -63,7 +63,7 @@ if (type==types.unit) {
  if (r0) {
   if (subtype0==subtypes.bot) {
 
-#	create.body.building;
+	create.body.building;
   };
   if (subtype0==subtypes.player) {
    create.body.unit;
