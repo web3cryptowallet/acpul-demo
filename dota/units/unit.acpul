@@ -125,7 +125,8 @@ if (r0) {
 
   ss 0.2;
   w0 50;
-  x0 0-w0/2*ss;
+  #x0 0-w0/2*ss;
+  x0=ustats0.x;
   #y0 220*ss;
   y0 ustats0.y;
   new.node.common0(ustats0, x0,y0,0.2, w0,5, NNN(dota.unit.stats.header), 0);
