@@ -304,7 +304,7 @@ boxers.step(boxers1);
 t+=dt;
 
 _ @dota.node.base0;
-#vr.x:=-w/2;
+vr.x:=-w/2;
 #x:=0;
 #y:=0;
 w:=30;
