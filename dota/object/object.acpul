@@ -165,8 +165,8 @@ if (r0) {
 sync.pos.to.body;
 
 # box2d.body.set.position(u0, body0, x,y);
-#angle=box2d.body.get.angle(u0, body0);
-#box2d.body.set.transform(u0, body0, x,y, angle);
+angle=box2d.body.get.angle(u0, body0);
+box2d.body.set.transform(u0, body0, x,y, angle);
 
 # CREATE BODY ]
 # BOX2D ]
