@@ -41,8 +41,11 @@ l2:=r0;
 # THE BASE [
 
 nodenew.tower {
- # r0, nid.object, type
- nodenew(__);
+ # r0, nid.object, type, x,y, team, subtype, ctype
+ if (team==obj.teams.green) {
+  nodenew(__);
+ };
+# nodenew(__);
 };
 
 build.base {
