@@ -152,7 +152,11 @@ create.unit {
   new.node.common0(hero0, 0,0-2,0.15, 100,100, UNIT.ROBOT, player.id);
  };
  if (r0*b) {
-  new.node.common0(hero0, 0,0-5,0.15, 100,100, hero.bobann, player.id);
+  e 3;
+  ss 2;
+  w0 50;
+  h0 100;
+  new.node.common0(hero0, 0,0-5,0.15, w0,h0, hero.bobann, player.id);
   sword0.on := 0;
  };
  if (r0*c) {
