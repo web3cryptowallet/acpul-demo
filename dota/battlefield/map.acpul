@@ -44,10 +44,10 @@ nodenew.tower {
  # r0, nid.object, type, x,y, team, subtype, ctype
  x0 _3;
  y0 _4;
- if (team==obj.teams.green) {
-#  nodenew(__);
- };
  if (team==obj.teams.blue) {
+  nodenew(__);
+ };
+ if (team==obj.teams.red) {
 #  x1:=w-x0;
 #  y1:=h-y0;
   x1:=100-x0;
