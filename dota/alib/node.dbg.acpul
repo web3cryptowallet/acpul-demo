@@ -35,8 +35,10 @@ vr.w=node.get.w(u0, view1);
 vr.h=node.get.h(u0, view1);
 
 check.visible {
+ x0 0;
+ y0 0;
 
- node.transform.point(u0, view1, nid, 0,0);
+ node.transform.point(u0, view1, nid, x0,y0);
 # yy:=o1;
 # node.transform.point(view0, nid, 0,0);
 
