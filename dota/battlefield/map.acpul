@@ -46,6 +46,8 @@ nodenew.tower {
 };
 
 build.base {
+ # team
+ team _0;
  nodenew(r0, OBJECT, ot.unit, 100,100, obj.teams.sys, ost.bot, obt.homebase,0,0);
 
  # BOTTOM
@@ -66,6 +68,9 @@ build.base {
  nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
  nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 };
+
+build.base(obj.teams.blue);
+build.base(obj.teams.red);
 
 # THE BASE ]
 # MINIONS [
