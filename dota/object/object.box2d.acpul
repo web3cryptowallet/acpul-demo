@@ -140,8 +140,8 @@ while(tb0) {
   nid1=box2d.body.data.get(u0, o0, 0);
 
   box2d.body.get.position(u0, body0);
-  bx0=o0;
-  by0=o1;
+  bx0=o0*3;
+  by0=o1*3;
 
   fly.box1(bx0+10*rnd(u0),by0);
 
