@@ -24,6 +24,8 @@ if (type==types.unit) {
  };
 };
 
+_ @dota.object.box2d;
+
 
 if (type==types.unit) {
  if (subtype0==subtypes.player) {
