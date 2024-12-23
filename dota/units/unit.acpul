@@ -148,8 +148,11 @@ create.unit {
  ustats0.y := 220;
 
  if (r0*a) {
-  #hero0:=node.new.this.ex(u0, UNIT.ROBOT, player.id);
-  new.node.common0(hero0, 0,0-2,0.15, 100,100, UNIT.ROBOT, player.id);
+  e 3;
+  ss 2;
+  w0 50;
+  h0 100;
+  new.node.common0(hero0, 0,0-2,0.15, w0,h0, UNIT.ROBOT, player.id);
  };
  if (r0*b) {
   e 3;
