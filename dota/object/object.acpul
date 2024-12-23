@@ -134,7 +134,7 @@ shape0 l11;
 fixture0 l12;
 
 create.body.unit {
- bb.def0(u0, box2d.dynamic, x,y, 0);
+ bb.def0(u0, box2d.dynamic, x+10,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
  body0:=bb.create(u0, b2d.world);
@@ -152,7 +152,7 @@ create.body.unit {
 
 # box2d.fixture.filter.collision(u0, b1f1, 1,1+2, 0);
 
- box2d.body.set.position(u0, body0, x,y);
+# box2d.body.set.position(u0, body0, x,y);
 };
 
 sync.pos.to.body {
