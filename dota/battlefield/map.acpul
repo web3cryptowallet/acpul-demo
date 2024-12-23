@@ -45,7 +45,7 @@ nodenew.tower {
  x0 _3;
  y0 _4;
  if (team==obj.teams.green) {
-  nodenew(__);
+#  nodenew(__);
  };
  if (team==obj.teams.blue) {
 #  x1:=w-x0;
