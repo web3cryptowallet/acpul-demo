@@ -55,7 +55,7 @@ nodenew.tower {
 #  y1:=1000-y0;
   x1:=x0;
   y1:=y0;
-  nodenew(_0, _1, _2, x1,y1, team, _6,_7,_8,_9);
+  nodenew(_0, _1, _2, x0,y0, team, _6,_7,_8,_9);
  #};
 };
 
