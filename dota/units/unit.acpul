@@ -64,8 +64,8 @@ bot0 0;
 
 if (r0) {
  # default w/h
- w:=30;
- h:=30;
+ w:=50;
+ h:=50;
 
  # BOT [
 
