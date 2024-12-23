@@ -70,8 +70,8 @@ if (r0) {
 
  if (subtype==ost.bot) {
   # Types:
-  #   tower
-  #   
+  #  tower
+  #  
   new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, bot.id, 0,0,0);
  };
 
