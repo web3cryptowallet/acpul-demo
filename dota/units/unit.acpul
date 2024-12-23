@@ -5,7 +5,7 @@
 #  ost.bot - UNIT.COMPLEX 
 #
 
-draw(r0, 3231);
+#draw(r0, 3231);
 
 _ @1010;
 _ @sys.node;
@@ -304,8 +304,8 @@ boxers.step(boxers1);
 t+=dt;
 
 _ @dota.dialog.inc;
-x:=0;
-y:=0;
+#x:=0;
+#y:=0;
 w:=100;
 h:=100;
 
