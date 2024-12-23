@@ -45,8 +45,8 @@ if (type==types.unit) {
 #   if ()
   };
   if (subtype0==ost.player) {
-  };
    create.body.unit;
+  };
  };
  sync.pos.to.body;
 };
