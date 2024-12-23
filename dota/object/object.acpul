@@ -133,7 +133,7 @@ body0 l10;
 shape0 l11;
 fixture0 l12;
 
-create.body0 {
+create.body.unit {
  bb.def0(u0, box2d.dynamic, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
@@ -154,7 +154,7 @@ create.body0 {
 
 if (type==types.unit) {
 if (r0) {
-# create.body0;
+ create.body.unit;
 };
 box2d.body.get.position(u0, body0);
 x:=o0;
