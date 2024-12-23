@@ -61,7 +61,15 @@ create.body.building {
 if (r0) {
  if (type==types.unit) {
   if (subtype0==subtypes.bot) {
-   create.body.building;
+   building=1;
+   if ((btype0==bots.types.minion.mage)
+     * (btype0==bots.types.minion.guard)) {
+    create.body.unit;
+    building:=0;
+   };
+   if (building) {
+    create.body.building;
+   };
   };
   if (subtype0==subtypes.player) {
    create.body.unit;
