@@ -80,7 +80,7 @@ build.base {
  nodenew.tower(r0, OBJECT, ot.unit, 50,700, team, ost.bot, obt.tower,0,0);
 };
 
-build.base(obj.teams.blue);
+#build.base(obj.teams.blue);
 build.base(obj.teams.red);
 
 # THE BASE ]
