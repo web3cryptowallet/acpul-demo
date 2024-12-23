@@ -212,7 +212,7 @@ create.unit {
   h0 w*e;
   new.node.common0(hero0, 0,0-h0/e/3, 1/e, w0,h0, NNN(hero.bender), player.id);
   ustats0.x := w0/e/2-ustats0.w/e/4;
-  ustats0.y := h0/e/2;
+  ustats0.y := h0/e/3;
 
   ss 2;
   w0 200;
