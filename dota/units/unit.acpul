@@ -208,6 +208,12 @@ create.unit {
   ss 2;
   w0 200;
   h0 200;
+
+  new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
+
+  ss 2;
+  w0 200;
+  h0 200;
   new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
   ustats0.y := (h0-h0/4-10)/2/ss;
   sword0.on:=0;
