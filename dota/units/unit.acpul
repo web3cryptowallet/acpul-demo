@@ -209,7 +209,7 @@ create.unit {
   w0 200;
   h0 200;
 
-  new.node.common0(hero0, 0-100/2/ss,0-30/ss, 1/ss/2, 200,200, NNN(hero.bender), player.id);
+  new.node.common0(hero0, 0,0, 1, 200,200, NNN(hero.bender), player.id);
 
   ss 2;
   w0 200;
