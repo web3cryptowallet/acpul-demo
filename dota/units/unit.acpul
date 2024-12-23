@@ -71,8 +71,10 @@ if (r0) {
 
  if (subtype==ost.bot) {
   # Types:
-  #  tower
-  #  
+  #  building: tower
+  #  building: homehealth
+  #  minion.guard
+  #
   new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, ctype, 0,0,0);
  };
 
