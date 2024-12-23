@@ -157,7 +157,7 @@ create.unit {
  };
  if (r0*c) {
   ss 2;
-  w0 40;
+  w0 50;
   h0 100;
   new.node.common0(hero0, 0-w0/2/3/ss,20,0.5, w0,h0, hero.leprechaun, player.id);
  };
