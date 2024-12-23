@@ -19,7 +19,6 @@ heroes obj.players.heroes;
 
 team obj.teams.blue;
 
-nodenew node.new.this.ex8(__);
 
 w:=1000-100;
 h:=1000-100;
@@ -40,7 +39,9 @@ l2:=r0;
 
 # THE BASE [
 
-nodenew.tower {
+nodenew node.new.this.ex8(__);
+
+nodenew.ex {
  # r0, nid.object, type, x,y, team, subtype, ctype
  x0 _3;
  y0 _4;
@@ -55,13 +56,16 @@ nodenew.tower {
  };
 };
 
+nodenew.tower nodenew.ex(__);
+nodenew.base nodenew.ex(__);
+
 build.base {
  # team
  team _0;
 
- nodenew(r0, OBJECT, ot.unit, 100,100, team, ost.bot, obt.homebase,0,0);
- nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
- nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
+ nodenew.base(r0, OBJECT, ot.unit, 100,100, team, ost.bot, obt.homebase,0,0);
+ nodenew.base(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
+ nodenew.base(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 
 # nodenew(r0, OBJECT, ot.unit, 900,900, team, ost.bot, obt.homebase,0,0);
 
