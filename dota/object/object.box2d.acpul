@@ -33,7 +33,7 @@ create.body.unit {
 # box2d.body.set.position(u0, body0, x,y);
 };
 
-create.body.unit {
+create.body.building {
 };
 
 if (type==types.unit) {
