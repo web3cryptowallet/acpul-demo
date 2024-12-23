@@ -134,7 +134,22 @@ shape0 l11;
 fixture0 l12;
 
 create.body0 {
-};
+ bb.def0(u0, box2d.dynamic, x,y, 0);
+ bb.def1(u0, 0,0, 0,0);
+ bb.def3(u0, 0, 0,1,5);
+ body0:=bb.create(u0, b2d.world);
+# body.def.type.position.angle;
+# body.def.velocity.linear.angular;
+# body.def.damping.linear.angular.allowSleep.awake;
+# body.def.fixed.rotation.bullet.active.gravity.scale;
+
+ shape0:=box2d.shape.create.circle(u0);
+ box2d.shape.set.radius(u0, shape0, 5);
+
+ box2d.fixture.def(u0, 0.2, 0, 0, 0);
+ fixture0:=box2d.fixture.create(u0, body0, shape0);
+
+# box2d.body.set.position(u0, body0, x,y);
 };
 
 if (type==types.unit) {
