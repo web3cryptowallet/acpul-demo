@@ -58,7 +58,6 @@ create.body.building {
 
 # CREATE BODY BUILDING ]
 
-
 if (type==types.unit) {
  if (r0) {
   if (subtype0==subtypes.bot) {
