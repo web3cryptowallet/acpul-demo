@@ -53,6 +53,7 @@ create.body.building {
  box2d.shape.polygon.box(u0, shape0, 10,10);
 # box2d.shape.polygon.box.a(u0, shape0, 100,100, 0,0, 0);
 
+
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 0);
  fixture0:=box2d.fixture.create(u0, body0, shape0);
