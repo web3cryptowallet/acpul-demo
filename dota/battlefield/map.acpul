@@ -17,7 +17,7 @@ ost obj.subtypes;
 obt obj.bots.types;
 heroes obj.players.heroes;
 
-team obj.teams.green;
+team obj.teams.blue;
 
 nodenew node.new.this.ex8(__);
 
