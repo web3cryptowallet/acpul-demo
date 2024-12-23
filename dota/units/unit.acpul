@@ -307,8 +307,8 @@ _ @dota.node.base0;
 #vr.x:=-w/2;
 #x:=0;
 #y:=0;
-w:=10;
-h:=10;
+w:=30;
+h:=30;
 
 ### 3231 dota.unit.draw
 
