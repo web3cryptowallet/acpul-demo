@@ -331,6 +331,7 @@ _ @dota.node.base0;
 #y:=0;
 #w:=30;
 #h:=30;
+x:=w/2;
 
 ### 3231 dota.unit.draw
 
