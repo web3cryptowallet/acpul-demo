@@ -6,9 +6,11 @@ _ @1010;
 _ @3200;
 _ @sys.box2d;
 bb box2d.body;
+
 body0 l10;
 shape0 l11;
 fixture0 l12;
+sensor0 0;
 
 # CREATE BODY UNIT [
 
@@ -71,7 +73,7 @@ create.tower.sensor {
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 1);
  fixture0=box2d.fixture.create(u0, body0, shape0);
-
+ sensor0:=body0;
 };
 
 create.body.tower {
