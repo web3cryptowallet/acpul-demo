@@ -154,7 +154,7 @@ create.body0 {
 
 if (type==types.unit) {
 if (r0) {
-
+ create.body0;
 };
 box2d.body.get.position(u0, body0);
 x:=o0;
