@@ -1,7 +1,6 @@
 ### dota.object.box2d
 
 # BOX2D [
-# CREATE BODY [
 
 _ @1010;
 _ @3200;
@@ -61,6 +60,7 @@ create.body.building {
 };
 
 # CREATE BODY BUILDING ]
+# CREATE BODY [
 
 if (r0) {
  if (type==types.unit) {
