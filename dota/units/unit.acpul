@@ -21,6 +21,9 @@ _ @sys.shader.ex;
 
 _ @dota.dialog.inc;
 
+w:=100;
+h:=100;
+
 #OBJECT 3220;
 #obj @OBJECT;
 
