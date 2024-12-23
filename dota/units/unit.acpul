@@ -1,8 +1,9 @@
 ### 3230 dota.unit
-# subtype, player.id, bot.id
-#
+# subtype, player.id, ctype
+#  ctype - complex type
 # Create 
-#  ost.bot - UNIT.COMPLEX 
+#  ost.player
+#  ost.bot -> UNIT.COMPLEX 
 #
 
 draw(r0, 3231);
@@ -30,7 +31,7 @@ ost obj.subtypes;
 
 subtype p0;
 player.id p1;
-bot.id p1;
+ctype p1;
 
 UNIT.ROBOT 3232;
 UNIT.COMPLEX 3234;
@@ -72,7 +73,7 @@ if (r0) {
   # Types:
   #  tower
   #  
-  new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, bot.id, 0,0,0);
+  new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, ctype, 0,0,0);
  };
 
  # BOT ]
