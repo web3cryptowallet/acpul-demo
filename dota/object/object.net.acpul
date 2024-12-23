@@ -24,7 +24,7 @@ if (type==types.unit) {
  };
 };
 
-_ @dota.object.box2d;
+#_ @dota.object.box2d;
 
 
 if (type==types.unit) {
