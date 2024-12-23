@@ -44,6 +44,7 @@ nodenew.tower {
  # r0, nid.object, type, x,y, team, subtype, ctype
  x0 _3;
  y0 _4;
+ team _5;
  if (team==obj.teams.blue) {
   nodenew(__);
  };
