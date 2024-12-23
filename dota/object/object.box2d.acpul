@@ -36,12 +36,6 @@ create.body.unit {
 create.body.unit {
 
 
-sync.pos.to.body {
- box2d.body.get.position(u0, body0);
- x:=o0;
- y:=o1;
-};
-
 if (type==types.unit) {
  if (r0) {
   if (subtype0==subtypes.bot) {
@@ -53,6 +47,12 @@ if (type==types.unit) {
   };
  };
  sync.pos.to.body;
+};
+
+sync.pos.to.body {
+ box2d.body.get.position(u0, body0);
+ x:=o0;
+ y:=o1;
 };
 
 # CREATE BODY ]
