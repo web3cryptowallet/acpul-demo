@@ -42,10 +42,16 @@ l2:=r0;
 
 nodenew.tower {
  # r0, nid.object, type, x,y, team, subtype, ctype
+ x0 _3;
+ y0 _4;
  if (team==obj.teams.green) {
   nodenew(__);
  };
-# nodenew(__);
+ if (team==obj.teams.green) {
+  x1:=w-x0;
+  y1:=w-y0;
+  nodenew(_0, _1, _2, x1,y1, _3,_4,_5);
+ };
 };
 
 build.base {
