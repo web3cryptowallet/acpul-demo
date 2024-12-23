@@ -181,7 +181,7 @@ i:=0;while(i<count) {
     color(u0, 0,1,1,1);
    };
    if (team==obj.teams.red) {
-    color(u0, 1,0,0.5,1);
+    color(u0, 1,0.5,0,1);
    };
    render.base(x*minimap.scale,y*minimap.scale, 2);
    draw:=0;
