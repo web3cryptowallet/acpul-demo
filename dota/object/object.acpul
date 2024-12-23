@@ -133,25 +133,13 @@ body0 l10;
 shape0 l11;
 fixture0 l12;
 
+create.body0 {
+};
+};
+
 if (type==types.unit) {
 if (r0) {
 
- bb.def0(u0, box2d.dynamic, x,y, 0);
- bb.def1(u0, 0,0, 0,0);
- bb.def3(u0, 0, 0,1,5);
- body0:=bb.create(u0, b2d.world);
-# body.def.type.position.angle;
-# body.def.velocity.linear.angular;
-# body.def.damping.linear.angular.allowSleep.awake;
-# body.def.fixed.rotation.bullet.active.gravity.scale;
-
- shape0:=box2d.shape.create.circle(u0);
- box2d.shape.set.radius(u0, shape0, 5);
-
- box2d.fixture.def(u0, 0.2, 0, 0, 0);
- fixture0:=box2d.fixture.create(u0, body0, shape0);
-
-# box2d.body.set.position(u0, body0, x,y);
 };
 box2d.body.get.position(u0, body0);
 x:=o0;
@@ -165,12 +153,12 @@ y:=o1;
 # BOX2D ]
 
 
-# if (subtype0==subtypes.player) {
-#  vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*3000*10;
-#  vy get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*3000*10;
-#  box2d.body.set.linear.velocity(u0, body0, vx,vy);
+ if (subtype0==subtypes.player) {
+  vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2)*gdt*3000*10;
+  vy get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 3)*gdt*3000*10;
+  box2d.body.set.linear.velocity(u0, body0, vx,vy);
 #  watch(vx);
-# };
+ };
 };
 
 # alloc self context [
