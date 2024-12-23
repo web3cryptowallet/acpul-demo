@@ -149,7 +149,7 @@ _ @dota.minimap.def;
 minimap0 r1;
 minimap.unpack(minimap0);
 
-color(u0, 1,0,0,1);
+color(u0, 1,1,1,1);
 count = minimap.count;
 #count = 10;
 i:=0;while(i<count) {
@@ -178,7 +178,9 @@ i:=0;while(i<count) {
    draw:=0;
   };
   if (btype0==obj.bots.types.homebase) {
-   color(u0, 0,1,1,1);
+   if (team==obj.teams.blue) {
+    color(u0, 0,1,1,1);
+   };
    render.base(x*minimap.scale,y*minimap.scale, 2);
    draw:=0;
   };
