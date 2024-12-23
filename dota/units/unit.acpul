@@ -156,7 +156,7 @@ create.unit {
   ss 2;
   w0 50;
   h0 100;
-  new.node.common0(hero0, 0-w0/e/ss,0-h0/e/ss, 1/e/ss, w0,h0, hero.bobann, player.id);
+  new.node.common0(hero0, 0-w0/e/ss,0-110/e/ss, 1/e/ss, w0,h0, hero.bobann, player.id);
   sword0.on := 0;
  };
  if (r0*c) {
