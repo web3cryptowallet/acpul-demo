@@ -156,7 +156,10 @@ create.unit {
   sword0.on := 0;
  };
  if (r0*c) {
-  new.node.common0(hero0, 0,20,0.5, 100,100, hero.leprechaun, player.id);
+  ss 2;
+  w0 100;
+  h0 100;
+  new.node.common0(hero0, 0,20,0.5, w0,h0, hero.leprechaun, player.id);
  };
  if (r0*d) {
   e 3;
