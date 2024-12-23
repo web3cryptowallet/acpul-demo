@@ -91,7 +91,7 @@ if (r0) {
     create.body.unit;
     building:=0;
    };
-   if (btype0==bots.types) {
+   if (btype0==bots.types.tower) {
     create.body.tower;
     building:=0;
    };
