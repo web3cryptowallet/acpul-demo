@@ -58,24 +58,27 @@ boxers1.y 0;
 
 boxers0.on 0;
 
+ bot0 0;
+
 
 if (r0) {
- 
- # BOT
+ # default w/h
+ w:=30;
+ h:=30;
 
- bot0 0;
+ # BOT [
 
  if (subtype==ost.bot) {
   new.node.common4(bot0, 0,0,0.2, 100,100, UNIT.COMPLEX, bot.id, 0,0,0);
 #  node.new.this.ex(r0, UNIT.COMPLEX, bot.id);
  };
 
- # PLAYER
+ # BOT ]
+ # PLAYER [
 
  if (subtype==ost.player) {
   n = 5;
   q = floor(rnd(u0)*n);
-#  q = 3;
 
   create.unit(q);
 
@@ -122,6 +125,8 @@ if (r0) {
 
   # UNIT STATS ]
  };
+
+ # PLAYER ]
 };
 
 # CREATE UNIT [
@@ -308,8 +313,8 @@ check.visible.x:=-w/2;
 check.visible.y:=-h/2;
 #x:=0;
 #y:=0;
-w:=30;
-h:=30;
+#w:=30;
+#h:=30;
 
 ### 3231 dota.unit.draw
 
