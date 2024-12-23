@@ -51,6 +51,11 @@ context.d.a r5;
 
 r7:=type;
 
+_ @dota.dialog.inc;
+
+w:=100;
+h:=100;
+
 draw(r0, 3221);
 
 if (r0) {
