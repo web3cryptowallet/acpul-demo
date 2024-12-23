@@ -143,7 +143,8 @@ while(tb0) {
   bx0=o0*3;
   by0=o1;
 
-  fly.box1(bx0+10*rnd(u0),by0);
+#  fly.box1(bx0+10*rnd(u0),by0);
+  fly.box1(0,0);
 
 #  score=o0;
 #  qq=qq+1;
