@@ -59,6 +59,15 @@ create.body.building {
  fixture0:=box2d.fixture.create(u0, body0, shape0);
 };
 
+create.tower.sensor {
+	
+};
+
+create.body.tower {
+ create.body.building;
+ create.tower.sensor;
+};
+
 # CREATE BODY BUILDING ]
 # CREATE BODY [
 
