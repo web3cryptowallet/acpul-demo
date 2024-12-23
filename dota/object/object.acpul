@@ -95,6 +95,8 @@ _ @dota.object.box2d;
 
 _ @dota.object.net;
 
+# INFO [
+
 _ @4;
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,0.1, X, x);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-2,0.1, Y, y);
@@ -103,6 +105,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-4,0.1, Player.id, player.id);
 vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
+
+# INFO ]
 
 #if (r0) {
 # h:=10;
