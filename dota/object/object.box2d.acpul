@@ -41,7 +41,12 @@ sync.pos.to.body {
 
 if (type==types.unit) {
  if (r0) {
-  create.body.unit;
+  if (subtype0==ost.bot) {
+#   if ()
+  };
+  if (subtype0==ost.player) {
+   create.body.unit;
+  };
  };
  sync.pos.to.body;
 };
