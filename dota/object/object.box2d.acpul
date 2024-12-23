@@ -63,14 +63,14 @@ create.tower.sensor {
  bb.def0(u0, box2d.static, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
- body0:=bb.create(u0, b2d.world);
+ body0=bb.create(u0, b2d.world);
 
- shape0:=box2d.shape.create.circle(u0);
+ shape0=box2d.shape.create.circle(u0);
  box2d.shape.set.radius(u0, shape0, 15);
 
  # Fixture friction, restitution, density, isSensor
  box2d.fixture.def(u0, 0.2, 0, 0, 1);
- fixture0:=box2d.fixture.create(u0, body0, shape0);
+ fixture0=box2d.fixture.create(u0, body0, shape0);
 
 };
 
