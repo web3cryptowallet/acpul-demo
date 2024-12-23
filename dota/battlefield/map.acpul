@@ -63,7 +63,7 @@ build.base {
  nodenew(r0, OBJECT, ot.unit, 10,100, team, ost.bot, obt.shop,0,0);
  nodenew(r0, OBJECT, ot.unit, 10,10, team, ost.bot, obt.homehealth,0,0);
 
- nodenew(r0, OBJECT, ot.unit, 900,100, team, ost.bot, obt.homebase,0,0);
+ nodenew(r0, OBJECT, ot.unit, 900,900, team, ost.bot, obt.homebase,0,0);
 
  # BOTTOM
  nodenew.tower(r0, OBJECT, ot.unit, 200,50, team, ost.bot, obt.tower,0,0);
