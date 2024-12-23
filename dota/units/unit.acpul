@@ -301,7 +301,7 @@ boxers.step(boxers1);
 
 # WEAPON HANDS ]
 
-#t+=dt;
+t+=dt;
 
 _ @dota.dialog.inc;
 x:=0;
