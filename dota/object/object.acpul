@@ -89,7 +89,7 @@ if (r0) {
 
 # BOX2D
 
-_ @dota.object.box2d;
+#_ @dota.object.box2d;
 
 # NETWORKING
 
