@@ -143,14 +143,15 @@ while(tb0) {
   bx0=o0;
   by0=o1;
 
-#  fly.box1(bx0+10*rnd(u0),by0);
-  score=o0;
-  qq=qq+1;
-  score+=qq;
+  fly.box1(bx0+10*rnd(u0),by0);
 
-  type=999; # gold
+#  score=o0;
+#  qq=qq+1;
+#  score+=qq;
 
-  events.push(u0, pool.nebula,0, ev.add.score, score, type, bx0,by0);
+#  type=999; # gold
+
+#  events.push(u0, pool.nebula,0, ev.add.score, score, type, bx0,by0);
 
 #  node.set.visible(u0, nid1, 0);
 
