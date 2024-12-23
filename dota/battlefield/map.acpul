@@ -49,7 +49,7 @@ nodenew.tower {
  };
  if (team==obj.teams.blue) {
   x1:=w-x0;
-  y1:=w-y0;
+  y1:=h-y0;
   nodenew(_0, _1, _2, x1,y1, _3,_4,_5);
  };
 };
