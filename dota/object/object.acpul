@@ -82,6 +82,8 @@ if (r0) {
  node.value.s(u0, nid,0, type);
  node.value.s(u0, nid,1, subtype0);
  node.value.s(u0, nid,2, btype0);
+ node.value.s(u0, nid,3, team);
+
 
  # Add object to minimap
  events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
