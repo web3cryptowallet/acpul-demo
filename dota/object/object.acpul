@@ -87,6 +87,7 @@ if (r0) {
  events.push(u0, dota.pool,0, ev.dota.new.object, nid, 0,0,0);
 };
 
+_ @dota.object.box2d;
 
 _ @dota.object.net;
 
