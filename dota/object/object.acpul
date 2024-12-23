@@ -47,6 +47,8 @@ _ @os.util0;
 _ @dota.object.types;
 _ @dota.object.context;
 
+context.d.a r5;
+
 r7:=type;
 
 draw(r0, 3221);
@@ -131,13 +133,6 @@ vx get(u0, gnet.mem.rd.a, player.id*gnet.mem.wr.size + 2);
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0-6,0.1, VX, vx);
 
-# alloc self context [
-
-context.d.a r5;
-
-self context;
-
-# alloc self context ]
 
 
 
