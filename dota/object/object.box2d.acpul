@@ -11,7 +11,7 @@ body0 l10;
 shape0 l11;
 fixture0 l12;
 
-create.body.unit {
+physics.create.body.unit {
  bb.def0(u0, box2d.dynamic, x,y, 0);
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
@@ -49,7 +49,7 @@ if (type==types.unit) {
 #   create.body.unit;
   };
   if (subtype0==subtypes.player) {
-   create.body.unit;
+   physics.create.body.unit;
   };
  };
  physics.sync.pos.to.body;
