@@ -128,7 +128,7 @@ _ @os.util2;
 
 tb0=1;
 while(tb0) {
- tb0:=events.pop(u0, box2d.e.pool, physics.world);
+ tb0:=events.pop(u0, box2d.e.pool, b2d.world);
  if (tb0==box2d.e.contact.begin) {
   # body0, body1
   body0=o0;
