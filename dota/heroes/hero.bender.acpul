@@ -14,6 +14,9 @@ if ((sn0==0)*(w>0)*(h>0)) {
  new.crown;
 };
 
+_ @sys.storage;
+_ @load.texture;
+
 new.crown {
  tex99 0;
  #load.texture(tex99, 11001,1,2); # texture
