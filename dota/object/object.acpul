@@ -72,7 +72,7 @@ if (r0) {
 #  node.new.this.ex(r0, MAP, 0);
  };
  if (type==types.unit) {
-  node.new.this.ex4(r0, dota.unit, subtype0, player.id, 0,0);
+#  node.new.this.ex4(r0, dota.unit, subtype0, player.id, 0,0);
  };
 # if (type==types.shot) { node.new.this.ex(r0, SHOT, 0);};
  if (type==types.joystick) {
