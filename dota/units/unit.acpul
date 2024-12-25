@@ -329,7 +329,7 @@ _ @dota.node.base0;
 #check.visible.y:=-h/2;
 #x:=0;
 #y:=0;
-w:=30;
+#w:=30;
 #h:=30;
 x:=-w/2;
 
