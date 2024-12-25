@@ -28,7 +28,7 @@ h:=node.parent.h(u0, nid);
 view1 u24;
 vr.x 0;
 vr.y 0;
-vr.w 100;
+vr.w 500;
 vr.h 500;
 
 vr.w=node.get.w(u0, view1);
