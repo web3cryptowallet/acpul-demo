@@ -14,6 +14,8 @@ if ((sn0==0)*(w>0)*(h>0)) {
 # new.crown;
 };
 
+# CROWN [
+
 _ @sys.storage;
 _ @load.texture;
 
@@ -33,3 +35,5 @@ new.crown {
  shader.set.texture(sn0, A.iChannel0, tex99);
  #shader.set.texture(sn0, A.iChannel0, tex);
 };
+
+# CROWN ]
