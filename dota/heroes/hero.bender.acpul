@@ -11,7 +11,7 @@ if ((sn0==0)*(w>0)*(h>0)) {
 
  new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,29154); # dota.bender
 
- new.crown;
+# new.crown;
 };
 
 _ @sys.storage;
