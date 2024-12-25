@@ -4,7 +4,8 @@ if (r0) {
  if (utype==bt.tower) {
 #  new.tesla.tower(sn0, 0,0,1*3, 100,100, 0);
 #  new.tesla.tower(sn0, 0,0,1*2, 150,150, 0);
-  new.tesla.tower(sn0, 0,0,1*1, 300,300, 0);
+#  new.tesla.tower(sn0, 0,0,1*1, 300,300, 0);
+  new.tesla.tower(sn0, 0,0,1*1, w,h, 0);
 #  w:=200;
 #  h:=200;
  };
