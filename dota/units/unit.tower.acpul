@@ -10,6 +10,8 @@ if (r0) {
  };
 };
 
-if ((sn0==0)*w*h) {
- new.tesla.tower(sn0, 0,0,1*1, w,h, 0);
+if (utype==bt.tower) {
+ if ((sn0==0)*w*h) {
+  new.tesla.tower(sn0, 0,0,1*1, w,h, 0);
+ };
 };
