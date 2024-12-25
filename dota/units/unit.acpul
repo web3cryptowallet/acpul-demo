@@ -78,7 +78,8 @@ if (r0) {
   #   shop
   #  minion.guard
   #  minion.mage
-  new.node.common4(bot0, 0,0,1/2, 100,100, UNIT.COMPLEX, ctype, 0,0,0);
+  ss 2;
+  new.node.common4(bot0, 0,0,1/ss, 100,100, UNIT.COMPLEX, ctype, 0,0,0);
  };
 
  # BOT ]
