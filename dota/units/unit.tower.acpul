@@ -12,7 +12,8 @@ if (r0) {
 
 if ((sn0==0)*w*h) {
  if (utype==bt.tower) {
+  q 1;
   ss 3;
-  new.tesla.tower(sn0, 0,0-h/2/ss,1*1, w*2,h*2, 0);
+  new.tesla.tower(sn0, 0,0-h/2/ss,1/q, w*q,h*q, 0);
  };
 };
