@@ -279,8 +279,10 @@ if (r0) {
 # ACPU BACKGROUND 45 ]
 # HELP [
 
+help0 0;
+
 if (r0) {
- new.suggestions.manager(sn0, 0,0,1,w,h, 0);
+ new.suggestions.manager(help0, 0,0,1,w,h, 0);
 };
 
 # HELP
