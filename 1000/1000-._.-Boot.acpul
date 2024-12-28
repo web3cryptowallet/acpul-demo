@@ -279,6 +279,8 @@ if (r0) {
 # ACPU BACKGROUND 45 ]
 # HELP [
 
+_ @help.inc;
+
 help0 0;
 
 if (r0) {
