@@ -463,7 +463,7 @@ if (r0) {
 };
 
 if (BOOT.IDE) {
-# node.z.to.front(u0, ide0,0);
+ node.z.to.front(u0, ide0,0);
 };
 
 if (r0) {
