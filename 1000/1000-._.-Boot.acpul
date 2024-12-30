@@ -1009,6 +1009,8 @@ if (touchnid0) {
 # node.prop.z.order.s(r0, touchnid0, 100000);
 };
 
+_ @sys.cpu.future;
+
 suggestion.top0=cpu.get.first.node.for.formula(u0, NNN(suggestions.top.layer));
 if (suggestion.top0) {
  node.z.to.front(u0, suggestion.top0,0);
