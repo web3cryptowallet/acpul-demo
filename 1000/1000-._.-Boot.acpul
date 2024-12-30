@@ -463,7 +463,7 @@ if (r0) {
 };
 
 if (BOOT.IDE) {
-# node.z.to.front(u0, ide0,0);
+ node.z.to.front(u0, ide0,0);
 };
 
 if (r0) {
@@ -476,7 +476,7 @@ if (r0) {
 
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
-# node.z.to.front(u0, panel0,0);
+ node.z.to.front(u0, panel0,0);
 };
 
 ide.toggle.console {
@@ -1001,7 +1001,7 @@ _ @4;
 
 
 if (BOOT.PANEL.TOP*BOOT.PANEL) {
-# node.z.to.front(u0, panel0,0);
+ node.z.to.front(u0, panel0,0);
 };
 
 if (touchnid0) {
