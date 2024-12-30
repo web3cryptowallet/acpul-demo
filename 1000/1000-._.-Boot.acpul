@@ -1009,6 +1009,8 @@ if (touchnid0) {
 # node.prop.z.order.s(r0, touchnid0, 100000);
 };
 
+# SUGGESTION TOP LAYER [
+
 _ @sys.cpu.future;
 
 suggestion.top0=cpu.get.first.node.for.formula(u0, NNN(suggestions.top.layer));
@@ -1018,6 +1020,7 @@ if (suggestion.top0) {
 };
 ee0 0;ui.value1(ee0,100,0,0.5,suggestion.top0);
 
+# SUGGESTION TOP LAYER ]
 
 info.vwvh {
  _ @4;
