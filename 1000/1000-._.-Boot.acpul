@@ -1013,6 +1013,8 @@ suggestion.top0:=cpu.get.first.node.for.formula(u0, NNN(suggestions.top.layer));
 if (suggestion.top0) {
  node.z.to.front(u0, suggestion.top0,0);
 };
+ee0 0;ui.value1(ee0,100,0,0.5,suggestion.top0);
+
 
 info.vwvh {
  _ @4;
