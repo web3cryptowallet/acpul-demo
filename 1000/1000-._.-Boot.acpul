@@ -277,7 +277,7 @@ new.background45 {
 #};
 
 if (r0) {
-# new.ui.shader.node3(sn0, 0,0,0.5, 1024,768, 70014,29181); # 
+ new.ui.shader.node3(sn0, 0,0,0.5, 1024,768, 70014,29181); # 
 # new.ui.shader.node3(sn0, 110,0,0.5, 1024,768, 70014,29181); # 
 # new.ui.shader.node3(sn0, 110,0,0.5, 1024,768, 70014,29181);
 # new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29180);
