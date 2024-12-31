@@ -276,12 +276,12 @@ new.background45 {
 if (r0) {
  new.background45;
 
- new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29184); # new.year2025.forest
+# new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29184); # new.year2025.forest
 
-# new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29181); # new.year2025.bg.heart
-# new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29180); # new.year2025.santa
+ new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29181); # new.year2025.bg.heart
+ new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29180); # new.year2025.santa
 
-# new.ui.shader.node3(sn0, 600,0,3, 100,200, 70014,29182); # new.year2025.tree82
+ new.ui.shader.node3(sn0, 600,0,3, 100,200, 70014,29182); # new.year2025.tree82
 ## new.ui.shader.node3(sn0, 600,0,1, 100*3,200*3, 70014,29182); # new.year2025.tree82
 
 };
