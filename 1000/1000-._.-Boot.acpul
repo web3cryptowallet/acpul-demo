@@ -282,7 +282,6 @@ if (r0) {
 if (r0) {
  new.ui.shader.node3(sn0, 0,0,0.5, 1024,768, 70014,29181); # 
  new.ui.shader.node3(sn0, 110,0,0.5, 1024,768, 70014,29181); # 
- 
 };
 
 # ACPU BACKGROUND 45 ]
