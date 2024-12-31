@@ -281,7 +281,7 @@ if (r0) {
  new.ui.shader.node3(sn0, 600,0,3, 100,200, 70014,29182); # new.year2025.tree82
 # new.ui.shader.node3(sn0, 600,0,1, 100*3,200*3, 70014,29182); # new.year2025.tree82
 
- new.ui.shader.node3(sn0, 600,0,3, 100,200, 70014,29184); # new.year2025.
+ new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29184); # new.year2025.
 };
 
 # ACPU BACKGROUND 45 ]
