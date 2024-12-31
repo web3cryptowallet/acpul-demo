@@ -271,6 +271,7 @@ new.background45 {
  shader.set.uniform.v2(sn0, A.edgeSize, 5,5);
  node.value.s(u0, sn0,1, 1); # draw.off
  new.ui.shader.node3(sn0, 0,0,0.5, 1024,768, 70014,29181); # 
+ new.ui.shader.node3(sn0, 110,0,0.5, 1024,768, 70014,29181); # 
 };
 
 if (r0) {
