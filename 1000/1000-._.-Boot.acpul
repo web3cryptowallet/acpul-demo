@@ -291,7 +291,7 @@ hide.help {
 };
 
 if (r0) {
- open.help;
+# open.help;
 };
 
 nframe0 0;
