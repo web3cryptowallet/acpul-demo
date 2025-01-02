@@ -294,9 +294,9 @@ hide.help {
 
 nframe0 0;
 nframe0+=1;
-if ((nframe0==5)*OPEN.HELP) {
+#if ((nframe0==5)*OPEN.HELP) {
  open.help;
-};
+#};
 
 # HELP ]
 
