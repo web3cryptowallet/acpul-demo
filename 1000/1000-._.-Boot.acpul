@@ -293,7 +293,7 @@ hide.help {
 #if (r0) {
 # open.help;
 #};
-
+OPEN.HELP 1;
 nframe0 0;
 nframe0+=1;
 if ((nframe0==5)*OPEN.HELP) {
