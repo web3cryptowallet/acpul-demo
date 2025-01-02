@@ -1033,7 +1033,7 @@ _ @sys.cpu.future;
 suggestion.top0=cpu.get.first.node.for.formula(u0, NNN(suggestions.top.layer));
 if (suggestion.top0) {
  node.z.to.front(u0, suggestion.top0,0);
-# node.prop.lt.s(u0, suggestion.top0, 0.1);
+ node.prop.lt.s(u0, suggestion.top0, 0.1);
 };
 #ee0 0;ui.value1(ee0,100,0,0.5,suggestion.top0);
 
