@@ -296,7 +296,7 @@ if (r0) {
 
 nframe0 0;
 nframe0+=1;
-if (nframe0==3) {
+if (nframe0==10) {
  open.help;
 };
 
