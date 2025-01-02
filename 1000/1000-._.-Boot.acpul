@@ -286,7 +286,7 @@ open.help {
 };
 
 hide.help {
- node.prop.lt(u0, help0, 0.01);
+ node.prop.lt.s(u0, help0, 0.01);
  help0:=0;
 };
 
