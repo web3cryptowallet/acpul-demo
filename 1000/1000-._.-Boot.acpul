@@ -281,15 +281,16 @@ _ @help.inc;
 
 help0 0;
 
-if (r0) {
-# open.help;
-};
-
 open.help {
  new.suggestions.manager(help0, 0,0,1,w,h, 0); # new.year2025.santa
 };
 
-# HELP
+if (r0) {
+# open.help;
+};
+
+
+# HELP ]
 
 SHADER.TEST 37000;
 #node.new.this.ex(r0, SHADER.TEST, 0);
