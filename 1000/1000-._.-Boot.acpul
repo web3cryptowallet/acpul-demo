@@ -296,7 +296,6 @@ if ((nframe0==5)*OPEN.HELP) {
  open.help;
 };
 
-
 # HELP ]
 
 SHADER.TEST 37000;
