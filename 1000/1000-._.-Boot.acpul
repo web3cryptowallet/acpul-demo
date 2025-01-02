@@ -814,7 +814,6 @@ process.node.events {
   };
   if (_0==ide.event.show.help) {
    open.help;
-   hide.help;
   };
   if (_0==ide.event.hide.help) {
    hide.help;
