@@ -290,9 +290,9 @@ hide.help {
  help0:=0;
 };
 
-if (r0) {
+#if (r0) {
 # open.help;
-};
+#};
 
 nframe0 0;
 nframe0+=1;
