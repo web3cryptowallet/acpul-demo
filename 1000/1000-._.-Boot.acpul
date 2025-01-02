@@ -282,7 +282,7 @@ _ @help.inc;
 help0 0;
 
 if (r0) {
- open.help;
+# open.help;
 };
 
 open.help {
