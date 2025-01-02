@@ -294,6 +294,12 @@ if (r0) {
  open.help;
 };
 
+nframe0 0;
+nframe0+=1;
+if (nframe0==1) {
+ open.help;
+};
+
 
 # HELP ]
 
