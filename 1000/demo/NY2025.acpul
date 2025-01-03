@@ -3,7 +3,7 @@
 _ @help.inc1;
 #_ @1111;
 
-sn 0;
+sn0 0;
 
 if (r0) {
 # new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29184); # new.year2025.forest
