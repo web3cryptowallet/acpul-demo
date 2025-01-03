@@ -321,9 +321,9 @@ a {
 
 
 new.dota.ground3
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.christmas.tree2024), 0,0,0,0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.ground3.map), 0,0,0,0);
 
- new.dota.ground3(sn0, 0,0,1/3, 100,100, tex99,tex4);
+ new.dota.ground3(sn0, 0,0,1/3, 100,100);
 # dota.ground3.map
 
  # JAN 2025 ]
