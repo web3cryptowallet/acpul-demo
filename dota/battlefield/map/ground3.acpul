@@ -1,5 +1,7 @@
 ### dota.ground3.map
 
+_ @help.inc1;
+
 sn0 0;
 
 if (r0) {
