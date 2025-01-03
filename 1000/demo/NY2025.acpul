@@ -24,7 +24,7 @@ new.paint.view
 paint0 0;
 
 if (r0) {
-# new.paint.view(paint0, 0,0,1, 100,100, 20000,0,612);
+ new.paint.view(paint0, 0,0,1, 100,100, 20000,0,612);
 };
 
 # PAINT VIEW ]
