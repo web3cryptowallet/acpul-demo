@@ -19,7 +19,7 @@ if (r0) {
 # PAINT VIEW [
 
 new.paint.view
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.ground3.map), _6,_7,_8, 0);
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(paint.view), _6,_7,_8, 0);
 
 paint0 0;
 
