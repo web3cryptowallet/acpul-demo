@@ -16,6 +16,8 @@ if (r0) {
 # new.ui.shader.node3(sn0, 600,0,1, 100*3,200*3, 70014,29182); # new.year2025.tree82
 };
 
+# PAINT VIEW [
+
 new.paint.view
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.ground3.map), _6,_7,_8, 0);
 
@@ -25,3 +27,4 @@ if (r0) {
  new.paint.view(paint0, 0,0,1, 100,100, 20000,0,612);
 };
 
+# PAINT VIEW ]
