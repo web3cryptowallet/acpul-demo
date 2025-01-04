@@ -30,10 +30,11 @@ BOOT.PLAYER 0;
 BOOT.FILES 0;
 BOOT.WINAMP 0;
 
+BOOT.INTRO 0;
+BOOT.DEMO2025 1;
+
 #BOOT.BOOTLOADER.Z 0;
 BOOT.BOOTLOADER.Z 0-100;
-
-BOOT.INTRO ;
 
 # BOOT MODES ]
 
@@ -271,7 +272,7 @@ if (r0) {
 # ACPU BACKGROUND 45 ]
 # DEMO NY 2025 [
 
-if (r0) {
+if (r0*BOOT.DEMO2025) {
  # demo
  node.new.this.ex(r0, NNN(demo.NewYear2025), 0);
 };
