@@ -265,12 +265,17 @@ new.background45 {
 
 if (r0) {
  new.background45;
-
- # demo
-# node.new.this.ex(r0, NNN(demo.NewYear2025), 0);
 };
 
 # ACPU BACKGROUND 45 ]
+# DEMO NY 2025 [
+
+if (r0) {
+ # demo
+ node.new.this.ex(r0, NNN(demo.NewYear2025), 0);
+};
+
+# DEMO NY 2025 ]
 # HELP [
 
 _ @help.inc;
