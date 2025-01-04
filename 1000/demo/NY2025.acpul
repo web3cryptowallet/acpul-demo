@@ -24,8 +24,9 @@ new.paint.view
 paint0 0;
 
 if (r0) {
- new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,400); # fish
+# new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,400); # fish
 # new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,610); # NY2025
+ new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,611); # 
 };
 
 # PAINT VIEW ]
