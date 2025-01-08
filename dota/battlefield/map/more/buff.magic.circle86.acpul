@@ -6,6 +6,6 @@ magic0 0;
 sn0 0;
 
 if ((magic0==0)*w*h>0) {
- new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,29186); # dota.magic.circle86
+ new.ui.shader.node3(sn0, 0,0,1, 300,300, 70014,29186); # dota.magic.circle86
  magic0:=sn0;
 };
