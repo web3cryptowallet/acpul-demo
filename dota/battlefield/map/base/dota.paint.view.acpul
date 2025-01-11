@@ -1,7 +1,10 @@
 ### dota.paint.view
 
 _ @dota.node.base0;
-_ @photoneo.common.gl.extra;
+
+_ @paint.inc;
+
+#_ @photoneo.common.gl.extra;
 
 #draw.fid(dota.building.crunch1.draw);
 
