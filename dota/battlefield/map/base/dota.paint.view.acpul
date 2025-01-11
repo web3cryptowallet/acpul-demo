@@ -1,0 +1,9 @@
+### dota.paint.view
+
+_ @dota.node.base0;
+_ @photoneo.common.gl.extra;
+
+draw.fid(dota.building.crunch1.draw);
+
+ new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,610); # NY2025
+
