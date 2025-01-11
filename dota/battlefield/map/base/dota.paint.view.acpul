@@ -3,7 +3,12 @@
 _ @dota.node.base0;
 _ @photoneo.common.gl.extra;
 
-draw.fid(dota.building.crunch1.draw);
+#draw.fid(dota.building.crunch1.draw);
 
+paint0 0;
+sn0 0;
+
+if ((paint0==0)*w*h>0) {
  new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,610); # NY2025
+};
 
