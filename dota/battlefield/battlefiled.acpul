@@ -194,3 +194,13 @@ rect(u0, 2, 0,0, w,h);
 _ @help.inc1;
 
 tex0 r1;
+
+draw.to.fbo {
+ node.ex.gl.fbo(u0, tex0);
+ node.ex.gl.clear(u0, 0,0,0,0);
+
+ node.ex.gl.child.draw(u0);
+
+ node.ex.gl.fbo(u0, -1);
+};
+
