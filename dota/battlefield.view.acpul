@@ -1,5 +1,7 @@
 ### battlefield.view
 
+_ @help.inc1;
+
 parent0=node.get.parent(u0, nid);
 
 parent.w node.prop.w.g(u0, parent0);
