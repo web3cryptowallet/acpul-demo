@@ -181,3 +181,16 @@ touch.ev.process.multi;
 
 color(u0, 0,0.7,0.9,1);
 rect(u0, 2, 0,0, w,h);
+
+#_ @4;
+#_ @900776;
+#_ @1100;
+#_ @util.gl.std;
+
+#_ @sys.obj.key;
+#_ @sys.shader.ex;
+
+#
+_ @help.inc1;
+
+tex0 r1;
