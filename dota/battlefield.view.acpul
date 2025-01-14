@@ -46,7 +46,7 @@ tex0 r1;
 
 draw.to.fbo {
  node.ex.gl.fbo(u0, tex0);
- node.ex.gl.clear(u0, 0,1,0,0);
+ node.ex.gl.clear(u0, 0,1,0,1);
 
  node.ex.gl.child.draw(u0);
 
