@@ -21,7 +21,7 @@ if ((tex0==0)*w*h) {
  tex0:=node.ex.texture.create.fmt(u0, w,h, node.ex.texture.fmt.rgba8888, 1);
  node.value.s(u0, nid,0, tex0);
 
-# node.ex.child.draw.s(u0, 0);
+ node.ex.child.draw.s(u0, 0);
 
  new.node.common0(battlefield0, 0,0,1, w,h, NNN(dota.battlefield), 0);
 };
