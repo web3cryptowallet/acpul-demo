@@ -209,7 +209,7 @@ draw.to.fbo {
 };
 
 if (tex0>0) {
- draw.to.fbo;
+# draw.to.fbo;
 };
 
 gl.rect0.texture(5, 0,0, w,h, tex0);
