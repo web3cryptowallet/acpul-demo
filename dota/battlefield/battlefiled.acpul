@@ -118,8 +118,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,5,1/5, X, x);
 info;
 
 _ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,1, W, w);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1, W, w);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,1/3, W, w);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1/3, W, w);
 
 # MAP BY CAMERA ]
 # TOUCH [
