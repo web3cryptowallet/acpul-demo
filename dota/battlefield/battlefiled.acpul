@@ -1,4 +1,5 @@
 ### 3280 dota.battlefield
+# 0: tex
 
 # TASKS [
 # . omphalos
@@ -38,6 +39,7 @@ if (r0) {
 
 
 # new.ui.shader.node3(sn0, 0,0,1/5, w,h, 70014,29135); # dota.
+
 };
 
 
