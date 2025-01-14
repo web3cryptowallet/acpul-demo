@@ -238,4 +238,4 @@ if (tex0>0) {
  draw.to.fbo;
 };
 
-gl.rect0.texture(5, 0,0, w*2,h, tex0);
+gl.rect0.texture(5, 0,0, w/2,h, tex0);
