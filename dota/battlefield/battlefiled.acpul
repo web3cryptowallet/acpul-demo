@@ -198,6 +198,7 @@ rect(u0, 2, 0,0, w,h);
 
 #
 _ @help.inc1;
+_ @gl.std;
 
 tex0 r1;
 
