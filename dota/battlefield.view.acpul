@@ -57,4 +57,4 @@ if (tex0>0) {
  draw.to.fbo;
 };
 
-gl.rect0.texture(5, 0,0, w,h, tex0);
+#gl.rect0.texture(5, 0,0, w,h, tex0);
