@@ -67,7 +67,7 @@ reflect.sphere {
  shader.set.uniform.v2(sn0, A.texPos, 0.5,0.5);
 # shader.set.uniform.v2(sn0, A.texScale, 03.7,03.7);
 # shader.set.uniform.v2(sn0, A.texScale, 0.5,0.5);
- shader.set.uniform.v2(sn0, A.texScale, 0.5,0.7);
+ shader.set.uniform.v2(sn0, A.texScale, 0.5,0.7); # NEED FIX!
 # shader.set.uniform.v2(sn0, A.texScale, 0.3,0.3);
 # shader.set.uniform.v2(sn0, A.texScale, 0.2,0.2);
 };
