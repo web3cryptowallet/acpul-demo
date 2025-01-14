@@ -204,3 +204,6 @@ draw.to.fbo {
  node.ex.gl.fbo(u0, -1);
 };
 
+if (tex0>0) {
+ draw.to.fbo;
+};
