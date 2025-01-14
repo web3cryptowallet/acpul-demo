@@ -23,3 +23,36 @@ if ((tex0==0)*ww*hh) {
 };
 
 # TEXTURE ]
+
+draw.fid(battlefield.view.draw);
+
+### battlefield.view.draw
+
+#_ @4;
+#_ @900776;
+#_ @1100;
+#_ @util.gl.std;
+
+#_ @sys.obj.key;
+#_ @sys.shader.ex;
+
+#
+_ @help.inc1;
+_ @gl.std;
+
+tex0 r1;
+
+draw.to.fbo {
+ node.ex.gl.fbo(u0, tex0);
+ node.ex.gl.clear(u0, 0,0,0,0);
+
+ node.ex.gl.child.draw(u0);
+
+ node.ex.gl.fbo(u0, -1);
+};
+
+if (tex0>0) {
+ draw.to.fbo;
+};
+
+gl.rect0.texture(5, 0,0, w,h, tex0);
