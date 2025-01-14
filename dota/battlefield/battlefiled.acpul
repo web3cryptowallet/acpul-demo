@@ -27,8 +27,11 @@ parent0=node.get.parent(u0, nid);
 parent.w node.prop.w.g(u0, parent0);
 parent.h node.prop.h.g(u0, parent0);
 
-w:=parent.w;
-h:=parent.h;
+#w:=parent.w;
+#h:=parent.h;
+
+_ @4;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, W, w);
 
 # MAP ???
 #node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
