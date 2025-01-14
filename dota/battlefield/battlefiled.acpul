@@ -29,7 +29,7 @@ parent.h node.prop.h.g(u0, parent0);
 
 w0 0;
 if (r0) {
- w0:=parent.w;
+# w0:=parent.w;
 };
 #w:=parent.w;
 #h:=parent.h;
