@@ -48,8 +48,10 @@ if (r0) {
 view1 u24;
 view1:=nid;
 
+tex0boot0 u13; tex0boot1 u14;
+
 if (r0) {
- tex0 0;
+ tex0 tex0boot0;
 reflect.sphere {
  new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,29178); # dota.reflect.sphere
  shader.set.texture(sn0, A.iChannel0, tex0);
