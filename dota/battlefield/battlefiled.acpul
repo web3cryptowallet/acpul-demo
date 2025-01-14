@@ -30,8 +30,6 @@ parent.h node.prop.h.g(u0, parent0);
 #w:=parent.w;
 #h:=parent.h;
 
-_ @4;
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, W, w);
 
 # MAP ???
 #node.new.this.ex4(r0, OBJECT, obj.types.map, 0,0, 0);
@@ -119,6 +117,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,5,1/5, X, x);
 };
 info;
 
+_ @4;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, W, w);
 
 # MAP BY CAMERA ]
 # TOUCH [
