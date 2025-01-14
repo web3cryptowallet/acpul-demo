@@ -61,7 +61,7 @@ if ((tex0==0)*ww*hh) {
  w:=ww;
  h:=hh;
 # tex0:=node.ex.texture.create.fmt(u0, w,h, node.ex.texture.fmt.rgb565, 1);
- tex0:=node.ex.texture.create.fmt(u0, ww,hh, node.ex.texture.fmt.rgba8888, 1);
+ tex0:=node.ex.texture.create.fmt(u0, ww*2,hh*2, node.ex.texture.fmt.rgba8888, 1);
  node.value.s(u0, nid,0, tex0);
 
  node.ex.child.draw.s(u0, 0);
