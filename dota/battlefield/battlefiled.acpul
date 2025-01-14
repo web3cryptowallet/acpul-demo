@@ -183,8 +183,8 @@ touch.ev.process.multi;
 
 ### 3281 dota.battlefield.draw
 
-w 100;
-h 100;
+#w 100;
+#h 100;
 color(u0, 0,0.7,0.9,1);
 rect(u0, 2, 0,0, w,h);
 
