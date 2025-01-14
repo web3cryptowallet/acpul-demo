@@ -85,7 +85,7 @@ if (movemode==0) {
  player0.y:=node.y(player0);
 
  x:=(-node.x(player0))*s+w/2;
- y:=(-node.y(player0))*s+h/2-h/4;
+ y:=(-node.y(player0))*s+h/2-h/8;
 
  x:=if(x>0,0,x);
  y:=if(y>0,0,y);
