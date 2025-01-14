@@ -1,5 +1,13 @@
 ### battlefield.view
 
+parent0=node.get.parent(u0, nid);
+
+parent.w node.prop.w.g(u0, parent0);
+parent.h node.prop.h.g(u0, parent0);
+
+ww=parent.w;
+hh=parent.h;
+
 # TEXTURE [
 
 if ((tex0==0)*ww*hh) {
