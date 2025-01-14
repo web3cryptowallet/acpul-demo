@@ -27,8 +27,8 @@ parent0=node.get.parent(u0, nid);
 parent.w node.prop.w.g(u0, parent0);
 parent.h node.prop.h.g(u0, parent0);
 
-#w:=parent.w;
-#h:=parent.h;
+w:=parent.w;
+h:=parent.h;
 
 
 # MAP ???
