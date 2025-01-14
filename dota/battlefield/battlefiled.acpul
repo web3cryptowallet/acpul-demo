@@ -54,19 +54,6 @@ if (r0) {
 # new.ui.shader.node3(sn0, 0,0,1/5, w,h, 70014,29135); # dota.
 };
 
-# TEXTURE [
-
-if ((tex0==0)*ww*hh) {
- w:=ww;
- h:=hh;
-# tex0:=node.ex.texture.create.fmt(u0, w,h, node.ex.texture.fmt.rgb565, 1);
- tex0:=node.ex.texture.create.fmt(u0, ww,hh, node.ex.texture.fmt.rgba8888, 1);
- node.value.s(u0, nid,0, tex0);
-
- node.ex.child.draw.s(u0, 0);
-};
-
-# TEXTURE ]
 
 omphalos0 0;
 if (r0) {
@@ -210,31 +197,3 @@ touch.ev.process.multi;
 color(u0, 0,0.7,0.9,1);
 rect(u0, 2, 0,0, w,h);
 
-#_ @4;
-#_ @900776;
-#_ @1100;
-#_ @util.gl.std;
-
-#_ @sys.obj.key;
-#_ @sys.shader.ex;
-
-#
-_ @help.inc1;
-_ @gl.std;
-
-tex0 r1;
-
-draw.to.fbo {
- node.ex.gl.fbo(u0, tex0);
- node.ex.gl.clear(u0, 0,0,0,0);
-
- node.ex.gl.child.draw(u0);
-
- node.ex.gl.fbo(u0, -1);
-};
-
-if (tex0>0) {
- draw.to.fbo;
-};
-
-gl.rect0.texture(5, 0,0, w,h, tex0);
