@@ -50,8 +50,10 @@ view1:=nid;
 
 tex0boot0 u13; tex0boot1 u14;
 
+tex0=node.value.g(u0, nid,0);
+
 if (r0) {
- tex0 tex0boot1;
+# tex0 tex0boot1;
 reflect.sphere {
  _ @help.inc1;
  w0 200;
