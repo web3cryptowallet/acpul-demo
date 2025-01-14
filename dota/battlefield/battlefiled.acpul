@@ -19,8 +19,8 @@ _ @basic.ui;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 
-#w:=500;
-#h:=500;
+w:=500;
+h:=500;
 
 parent0=node.get.parent(u0, nid);
 
