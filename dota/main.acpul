@@ -48,6 +48,22 @@ if (r0) {
 view1 u24;
 view1:=nid;
 
+if (r0) {
+reflect.sphere {
+ new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,29178); # dota.reflect.sphere
+ shader.set.texture(sn0, A.iChannel0, tex0);
+ #shader.set.uniform.v(sn0, A.time, 110*rnd(u0));
+ shader.set.uniform.v3(sn0, A.pos0, 0,0,-1.5);
+ #shader.set.uniform.v3(sn0, A.pos0, 02.9,0,-5);
+ shader.set.uniform.v2(sn0, A.texPos, 0.5,0.5);
+# shader.set.uniform.v2(sn0, A.texScale, 03.7,03.7);
+# shader.set.uniform.v2(sn0, A.texScale, 0.5,0.5);
+# shader.set.uniform.v2(sn0, A.texScale, 0.7,0.7);
+ shader.set.uniform.v2(sn0, A.texScale, 0.3,0.3);
+};
+reflect.sphere;
+};
+
 # BATTLEFIELD ]
 # MINIMAP [
 
