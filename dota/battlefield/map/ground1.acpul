@@ -339,7 +339,7 @@ a {
 # new.dota.paint.view(sn0, 0,200,1/3, 100,100, 20000,0,301); # Seba2024 
  new.dota.paint.view(sn0, 75,240,1/3, 100,100, 20000,0,400); # fish 
 
- new.ui.shader.node3(sn0, 50,270,1/3, 100,100, 70014,29179); # dota.
+ new.ui.shader.node3(sn0, 40,260,1/3, 100,100, 70014,29179); # dota.
 
  # JAN 2025 ]
 };
