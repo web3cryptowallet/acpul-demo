@@ -1,6 +1,7 @@
 ### demo3
 
 _ @help.inc1;
+_ @ui0.xstack.inc;
 
 vstack0 0;
 
