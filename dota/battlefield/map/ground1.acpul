@@ -266,7 +266,7 @@ a {
 #if(0){
 # xcoin;
 
-# xcoin.starship;
+ xcoin.starship;
 
  # XCOIN TEST ]
  # DIALOG TEST [
