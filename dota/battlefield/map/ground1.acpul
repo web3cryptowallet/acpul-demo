@@ -138,6 +138,10 @@ new.dota.paint.view
  # pool:id:i
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.paint.view), _6,_7,_8,0);
 
+new.dota.sphere.drop79
+ # 
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.sphere.drop79), 0,0,0,0);
+
 _ @dota.map.primitives;
 
 
