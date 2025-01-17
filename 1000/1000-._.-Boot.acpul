@@ -279,6 +279,13 @@ if (r0*BOOT.DEMO2025) {
 };
 
 # DEMO NY 2025 ]
+# DEMO3 [
+
+if (r0*BOOT.DEMO3) {
+ node.new.this.ex(r0, NNN(demo3), 0);
+};
+
+# DEMO3 ]
 # HELP [
 
 _ @help.inc;
