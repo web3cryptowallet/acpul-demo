@@ -35,6 +35,7 @@ if (r0) {
  bw 100;
  bh 100;
  new.panel.button(bn0, 0,0,1, bw,bh, 0, RANDOM);
+ node.anchor.point.s1(u0, bn0, 0,0);
  xstack.add(hstack0, bn0);
 };
 
