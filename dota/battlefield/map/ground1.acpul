@@ -362,7 +362,6 @@ _ @dota.xcoin;
 # tex0boot0 u13; tex0boot1 u14;
 # tex0boot1:=xcoin0.tex11; tex0boot0:=xcoin0.tex11;
 
-
 shader.set.uniform.v(xcoin0.sn0, A.time, t*2);
 t+=dt;
 
