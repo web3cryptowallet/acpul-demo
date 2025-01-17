@@ -23,7 +23,7 @@ if (r0) {
  xstack.add(vstack0, sn0);
 
 
-# div0=new.div(500,600, 0);
-# div.add(div0, sn0);
+ div0=new.div(500,600, 0);
+ div.add(div0, sn0);
 };
 
