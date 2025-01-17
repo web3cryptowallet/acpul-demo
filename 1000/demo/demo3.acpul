@@ -2,6 +2,8 @@
 
 _ @help.inc1;
 
+vstack0 0;
+
 #display.scalled.size(w,h);
 
 #new.paint.view
