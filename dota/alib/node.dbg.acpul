@@ -12,7 +12,7 @@ dbg.node1 new.dbg.node1(r0);
 
 _ @dota.node.base;
 
-#dbg.node1;
+dbg.node1;
 
 
 ### dota.dbg.node1
