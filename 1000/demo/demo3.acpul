@@ -4,6 +4,7 @@ _ @help.inc1;
 _ @ui0.xstack.inc;
 
 vstack0 0;
+hstack0 0;
 
 #display.scalled.size(w,h);
 
@@ -26,5 +27,7 @@ if (r0) {
  div.add(div0, sn0);
 
  xstack.add(vstack0, div0);
+
+ hstack0:=new.hstack(0,0,1, 100,100, 1);
 };
 
