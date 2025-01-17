@@ -64,6 +64,6 @@ a {
  tex0:=node.value.g(u0, sn0,0);
 
 
-# new.ground;
+ new.ground;
 
 };
