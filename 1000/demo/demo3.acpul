@@ -17,7 +17,7 @@ sn0 0;
 
 
 if (r0) {
- vstack0:=new.vstack(0,0,1, 400,300, 1);
+ vstack0:=new.vstack(0,0,1, 40,300, 1);
 
  new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,29190); # math.graph90
  xstack.add(vstack0, sn0);
