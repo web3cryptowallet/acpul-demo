@@ -7,8 +7,8 @@ _ @help.inc1;
 #new.paint.view
 # new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.paint.view), _6,_7,_8, 0);
 
-w:=300;
-h:=300;
+w:=1300;
+h:=1300;
 
 sn0 0;
 
