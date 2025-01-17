@@ -38,7 +38,7 @@ if (r0) {
  node.anchor.point.s1(u0, bn0, 0,0);
  xstack.add(hstack0, bn0);
 };
-lt:=1;
+lt:=0.1;
 
 bn0.push {
  lt:=0.1;	
