@@ -42,7 +42,6 @@ if (r0) {
 bn0.push {
  lt:=0.1;	
 };
- lt:=0.1;	
 
 _ @process.events.button.push;
 process.events.button.push(bn0, bn0.push); # BUTTON 
