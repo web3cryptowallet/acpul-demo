@@ -2,6 +2,7 @@
 
 _ @help.inc1;
 _ @ui0.xstack.inc;
+_ @paint.inc;
 
 vstack0 0;
 hstack0 0;
@@ -30,6 +31,6 @@ if (r0) {
 
  hstack0:=new.hstack(100,100,1, 100,100, 1);
  xstack.add(vstack0, hstack0);
- 
+
 };
 
