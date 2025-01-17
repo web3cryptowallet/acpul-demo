@@ -16,7 +16,7 @@ w:=300;
 h:=300;
 
 sn0 0;
-
+bn0 0;
 
 if (r0) {
  vstack0:=new.vstack(0,0,1, 400,300, 1);
@@ -32,5 +32,8 @@ if (r0) {
  hstack0:=new.hstack(100,100,1, 100,100, 1);
  xstack.add(vstack0, hstack0);
 
+ bw 100;
+ bh 100;
+ new.panel.button(bn0, 0,0,1, bw,bh, 0, RANDOM);
 };
 
