@@ -58,7 +58,7 @@ check.visible {
 visible 0;
 
 visible:=check.visible(vr);
-
+visible:=0;
 node.set.visible(u0, nid, visible);
 parent0=node.parent(u0, nid);
 node.set.visible(u0, parent0, visible);
