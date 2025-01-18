@@ -154,6 +154,11 @@ cpu.get.battery.info
 
 cpu.get.formula.info.source
  # u0, fid, buffer, mode -> buffer
+ # mode
+ #  0 - fid
+ #  16 - fid ###
+ #  1 - sid
+ #  1+16 - sid ###
  io(_0, 500434, _1, _2, _3,   0);
 
 cpu.set.code
