@@ -153,7 +153,7 @@ cpu.get.battery.info
  io(_0, 500433, 0,0,0,0);
 
 cpu.get.formula.info.source
- # u0, fid, buffer, fid -> buffer
+ # u0, fid, buffer, mode -> buffer
  io(_0, 500434, _1, _2, _3,   0);
 
 cpu.set.code
