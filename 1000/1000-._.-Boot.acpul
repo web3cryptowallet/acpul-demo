@@ -267,10 +267,14 @@ new.background45 {
  node.value.s(u0, sn0,1, 1); # draw.off
 };
 
-if (r0) {
-# new.background45;
+new.background93 {
  new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29193); # 
  node.value.s(u0, sn0,1, 1); # draw.off
+};
+
+if (r0) {
+# new.background45;
+# new.background93;
 };
 
 # ACPU BACKGROUND 45 ]
