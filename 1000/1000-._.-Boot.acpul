@@ -268,8 +268,8 @@ new.background45 {
 };
 
 if (r0) {
- new.background45;
-# new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29193); # 
+# new.background45;
+ new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29193); # 
 # node.value.s(u0, sn0,1, 1); # draw.off
 };
 
