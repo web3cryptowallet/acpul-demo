@@ -93,7 +93,7 @@ if (r0) {
  node.value.s(u0, nid,0, minimap0);
 
  new.ui.shader.node3(sn0, 0,00,1, w,h, 70014,29123); # dota.
- node.z.to.back(u0, sn0, 0);
+ node.z.to.back(u0, sn0, -100);
 };
 
 
