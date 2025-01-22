@@ -63,6 +63,7 @@ s:=1;
 w:=200;
 h:=200;
 
+sn0 0;
 
 parent0=node.get.parent(u0, nid);
 
