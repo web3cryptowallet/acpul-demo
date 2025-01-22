@@ -93,6 +93,7 @@ if (r0) {
  node.value.s(u0, nid,0, minimap0);
 
  new.ui.shader.node3(sn0, 0,00,1, w,h, 70014,29123); # dota.
+ node.value.s(u0, sn0,1, 1); # draw.off
 # node.z.to.back(u0, sn0, -100);
  node.set.z.order(u0, sn0, 0-100);
  #node.set.z(u0, sn0, -100);
