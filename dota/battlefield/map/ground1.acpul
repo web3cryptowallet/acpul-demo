@@ -142,6 +142,13 @@ new.dota.sphere.drop79
  # 
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.sphere.drop79), 0,0,0,0);
 
+new.dota.buff.effect1(sn0, 0,0,1/3, 100,100);
+ # 
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.buff.effect1), 0,0,0,0);
+# w0 100;
+# h0 100;
+# new.ui.shader.node3(sn0, 0,0,1/3, w0,h0, 70014,28590); # eff.effect1
+
 _ @dota.map.primitives;
 
 
@@ -348,9 +355,6 @@ a {
 
  new.dota.buff.effect1(sn0, 0,0,1/3, 100,100);
 
- w0 100;
- h0 100;
- new.ui.shader.node3(sn0, 0,0,1/3, w0,h0, 70014,28590); # eff.effect1
 
  # JAN 2025 ]
 };
