@@ -346,6 +346,8 @@ a {
 
  new.dota.sphere.drop79(sn0, 40,260,1/3, 100/2,100/2);
 
+ new.dota.buff.effect1(sn0, 0,0,1/3, 100,100);
+
  w0 100;
  h0 100;
  new.ui.shader.node3(sn0, 0,0,1/3, w0,h0, 70014,28590); # eff.effect1
