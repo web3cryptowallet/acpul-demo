@@ -274,10 +274,12 @@ new.background93 {
 };
 
 if (r0) {
+ w0 1024;
+ h0 768;
 # new.background45;
  new.background93;
 
- new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,28558); # bg.os
+ new.ui.shader.node3(sn0, 0,0,1, w0,h0, 70014,28558); # bg.os
 };
 
 # ACPU BACKGROUND 45 ]
