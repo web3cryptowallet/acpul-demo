@@ -127,6 +127,11 @@ buffer.set8 buffer_set8(__);
 
 buffer.append buffer.set(_0, _1,_2,buffer.size(_0, _1,_2), _3);
 
+buffer.clone
+ # u0, buffer,i
+ buffer_clone(_0, _1,_2, -1,-1);
+
+
 # buffer ]
 # str [
 
