@@ -131,6 +131,10 @@ buffer.clone
  # u0, buffer,i
  buffer_clone(_0, _1,_2, -1,-1);
 
+buffer.clone1
+ # u0, buffer,i, max,overhead
+ buffer_clone(_0, _1,_2, _3,_4);
+
 
 # buffer ]
 # str [
