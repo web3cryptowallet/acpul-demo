@@ -26,7 +26,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, A.H, h);
 
 ### dota.unit.view.draw
 
-rect(u0, 6, 0,0,w,h);
+rect(u0, 2, 0,0,w,h);
+#rect(u0, 6, 0,0,w,h);
 
 _ @4;
 _ @900776;
