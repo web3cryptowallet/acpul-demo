@@ -73,5 +73,5 @@ gl.draw.texture.rect0 {
 
 # gl.blend(u0, 2, 2);
 # gl.blend(u0, 3, 5);
-#gl.draw.texture.rect0(tex0, 0,0, w,h);
+gl.draw.texture.rect0(tex0, 0,0, w,h);
 # gl.blend(u0, 5, 8);
