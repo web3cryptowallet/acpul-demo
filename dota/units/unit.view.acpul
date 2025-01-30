@@ -2,6 +2,8 @@
 
 _ @help.inc1;
 
+tex0 r1;
+
 if ((tex0==0)*w*h) {
  create.texture {
 #  tex0:=node.ex.texture.create(u0, w,h);
