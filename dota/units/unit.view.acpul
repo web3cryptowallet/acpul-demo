@@ -16,9 +16,13 @@ if ((tex0==0)*w*h) {
  create.texture;
 };
 
-#_ @4;
-#lbl0 0; val0 0; ui.value4(lbl0,val0,0,25,1, A.W, w);
-#lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, A.H, h);
+_ @4;
+
+info {
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,25,1, A.W, w);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, A.H, h);
+};
+#info;
 
 ### dota.unit.view.draw
 
