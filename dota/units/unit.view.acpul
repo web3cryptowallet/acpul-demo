@@ -29,6 +29,7 @@ if ((tex0==0)*w*h) {
 
 ### dota.unit.view.draw
 
+rect(u0, 6, 0,0,w,h);
 
 _ @4;
 _ @900776;
