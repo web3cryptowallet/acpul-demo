@@ -42,7 +42,7 @@ tex0 r1;
 
 to.texture {
  gl.fbo(tex0);
- gl.clear(0,0,0,0);
+ gl.clear(1,0,0,0);
 # gl.clear(1,1,1,1);
 
  node.ex.gl.child.draw(u0);
