@@ -7,8 +7,8 @@ draw.fid(dota.unit.view.draw);
 
 tex0 r1;
 
-#h:=100;
-#w:=100;
+h:=100;
+w:=100;
 
 if ((tex0==0)*w*h) {
  create.texture {
