@@ -1,7 +1,6 @@
 ### 19330 hero.leprechaun
 
 
-
 draw(r0, 19331);
 
 #s:=0.5;
