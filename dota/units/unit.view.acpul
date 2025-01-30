@@ -2,6 +2,8 @@
 
 _ @help.inc1;
 
+draw.nnn(dota.unit.view.draw);
+
 tex0 r1;
 
 if ((tex0==0)*w*h) {
