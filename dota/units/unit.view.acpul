@@ -1,9 +1,9 @@
 ### dota.unit.view
 
 _ @help.inc1;
-_ @easy.start.new1;
+#_ @easy.start.new1;
 
-draw.nnn(dota.unit.view.draw);
+draw.fid(dota.unit.view.draw);
 
 tex0 r1;
 
