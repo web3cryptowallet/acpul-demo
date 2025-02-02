@@ -219,7 +219,7 @@ video0 0;
 
 run.video {
  music.stop(u0);
- music.set.track(u0, 55, 1, 1); #
+ music.set.track(u0, 55, 1, 1); # Matrix2.track
 # music.play(u0, 1, 0, 0);
  new.video(video0, 0,0,1,vw,vh, 5500,2,2);
 };
@@ -275,6 +275,15 @@ lt:=24-1;
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
+
+if (p==1) {
+ music.stop(u0);
+ music.set.track(u0, 1, 11, 11); #
+
+ add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
+
+ music.play(u0, 1, ms/1000-0/24, 0);
+};
 
 t+=dt;
 
