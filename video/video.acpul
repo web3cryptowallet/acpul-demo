@@ -234,7 +234,7 @@ gl.rect(u0, bw,bh, -bw,-bh);
 main.video 1620;
 
 new.video
- # point0, x:y:s:w:h, mode, radius, id
+ # video0, x:y:s:w:h, mode, radius, id
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(main.video), _6, _7, _8, 0);
 
 ### 1690 test.main.video
