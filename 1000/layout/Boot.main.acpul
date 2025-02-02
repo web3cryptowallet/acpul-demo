@@ -164,7 +164,7 @@ _ @sys.obj.volatile;
 
 num0 0;
 INTRO 0;
-INTRO:=0;
+#INTRO:=0;
 INTRO:=volatile.num(u0, INTRO, num0, BOOTUP.INTRO);
 #INTRO:=0;
 if (INTRO==0) {
