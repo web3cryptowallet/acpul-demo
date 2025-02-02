@@ -158,8 +158,8 @@ cpu.set.frame.time.mode(u0, 1);
 _ @help.inc1;
 _ @video.inc;
 
-vh h/2;
-vw w/2;
+vh h;
+vw w;
 
 video0 0;
 
