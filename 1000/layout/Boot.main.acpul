@@ -155,6 +155,8 @@ cpu.set.frame.time.mode(u0, 1);
 
 # VIDEO BOOT [ 
 
+_ @help.inc1;
+
 video0 0;
 
 run.video {
