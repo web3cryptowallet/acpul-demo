@@ -991,7 +991,7 @@ if (r0) {
 };
 
 run.video {
- video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 15, 0); # koop
+# video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 15, 0); # koop
  video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 2, 0); # matrix
 };
 
