@@ -235,7 +235,7 @@ if (r0) {
  shader.set.texture(sn0, A.iChannel1, tex0boot0);
 };
 
-    lt:=1;
+lt:=20;
 
 
 
