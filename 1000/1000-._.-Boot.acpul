@@ -1006,7 +1006,7 @@ if (video0) {
  ms=node.value.g(u0, video0,0); # pts
  pts=node.value.g(u0, video0,1); # pts
  frame=node.value.g(u0, video0,2); # frame
- if (frame>1) {
+ if (frame>0) {
   ff 0;
   ff+=1;
   if (ff==1) {
