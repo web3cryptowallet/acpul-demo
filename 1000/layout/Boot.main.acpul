@@ -172,6 +172,10 @@ if (INTRO==0) {
  node.new.this.ex(u0, NNN(bootloader.video.mix), 0);
 };
 
+if (r0) {
+ val0 0;ui.value1(val0,110,0,1,INTRO);
+};
+
 
 # VIDEO BOOT ]
 
