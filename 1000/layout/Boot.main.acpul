@@ -205,7 +205,7 @@ if ((INTRO==1)*(countdown==0)) {
 };
 
 
-t+=dt;
+#t+=dt;
 
 
 # VIDEO BOOT ]
