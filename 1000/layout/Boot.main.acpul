@@ -196,7 +196,7 @@ rect(u0, 6, 0,0, w,h);
 
 
 ### bootloader.video.mix
-
+s:=0.2;
 
 # VIDEO BOOT [ 
 
