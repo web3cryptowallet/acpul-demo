@@ -235,8 +235,8 @@ if (r0) {
  shader.set.texture(sn0, A.iChannel1, tex0boot0);
 };
 
-#lt:=24-0.5;
-lt:=24-1;
+lt:=24-0.5;
+#lt:=24-1;
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.98);
