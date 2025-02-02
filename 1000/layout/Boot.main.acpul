@@ -183,7 +183,7 @@ if(INTRO==0){
   if(t>24) {
    INTRO:=1;
 #   countdown:=15;
-   countdown:=5;
+   countdown:=1;
  };
 };
 #if (r0) {
