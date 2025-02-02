@@ -275,7 +275,10 @@ new.background93 {
 };
 
 new.background201 {
- ss 4;
+ ss 0.5;
+# ss 1;
+# ss 4;
+# ss 8;
  new.ui.shader.node3(sn0, 0,0,1*ss, 1024/ss,768/ss, 70014,29202);
 # new.ui.shader.node3(sn0, 0,0,1*8, 1024/8,768/8, 70014,29202);
  tex0=node.value.g(u0, sn0,0);
