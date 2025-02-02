@@ -158,7 +158,7 @@ if (nframe==5) {
 cpu.set.frame.time.mode(u0, 1);
 #cpu.set.frame.time.mode(u0, 0);
 
-node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
+node.new.this.ex(u0, NNN(bootloader.video.mix), 0);
 
 
 
