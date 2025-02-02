@@ -1004,7 +1004,7 @@ run.video {
 
 ff 0;
 ff+=1;
-if (ff==0) {
+if (ff==1) {
  vsec0=node.value.g(u0, video0,0); # sec
  if (vsec0) {
 #  music.play(u0, 1, 0, 0);
