@@ -1014,8 +1014,8 @@ if (video0) {
 #   music.play(u0, 1, 3, 0);
 #   music.play(u0, 1, ms/1000, 0);
 #  music.play(u0, 1, pts0/1000000, 0);
-  val0 0;ui.value1(val0,0,0,1,pts0);
-#  val0 0;ui.value1(val0,0,0,1,ms);
+#  val0 0;ui.value1(val0,0,0,1,pts0);
+  val0 0;ui.value1(val0,0,0,1,ms);
   };
  };
 };
