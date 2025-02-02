@@ -257,10 +257,10 @@ lt:=24-1;
 
 num0 0;
 INTRO 1;
-if (p>0.1) {
- volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
-};
+if (p>0.5) {
+# volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
  volatile.num.set(u0, BOOTUP.INTRO, num0, INTRO);
+};
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
