@@ -231,8 +231,6 @@ gl.rect(u0, bw,bh, -bw,-bh);
 
 ### video.inc
 
-#main.video 1620;
-
 new.video
  # video0, x:y:s:w:h, pool:id:i
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(main.video), _6,_7,_8, 0);
