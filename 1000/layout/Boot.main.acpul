@@ -131,7 +131,6 @@ s:=1;
 
 # EMULATION ON ]
 # EMULATE DEVICE ]
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
 
 Boot.texture 1600;
 
@@ -186,7 +185,8 @@ if (INTRO==0) {
 #if (r0) {
  val0 0;ui.value1(val0,110,210,1,INTRO);
 #};
-
+_ @4;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
 
 # VIDEO BOOT ]
 
