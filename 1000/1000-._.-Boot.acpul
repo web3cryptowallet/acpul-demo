@@ -1007,7 +1007,10 @@ if (vide0) {
  if (vsec0) {
 #  music.play(u0, 1, 0, 0);
  };
+ val0 0;ui.value1(val0,0,0,1,vsec0);
 };
+
+
 
 # TEST VIDEO ]
 
