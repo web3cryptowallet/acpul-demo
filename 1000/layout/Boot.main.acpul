@@ -278,7 +278,6 @@ volatile.num.get {
 
  volatile.buffer(u0, key, bid, 1,1);
  buffer.get(u0, bid,0,0);
- 1;
 };
 
  INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
