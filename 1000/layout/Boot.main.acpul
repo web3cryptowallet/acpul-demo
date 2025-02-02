@@ -261,6 +261,7 @@ if (p>0.5) {
 # volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
  volatile.num.set(u0, BOOTUP.INTRO, num0, INTRO);
 };
+ volatile.num.set(u0, BOOTUP.INTRO, num0, 0);
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
@@ -272,13 +273,6 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,20,1, TIME, t);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, PROGRESS, p);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,1, P, p>0.2);
 
-volatile.num.get {
- # u0, key, bid
- u0 _0; key _1; bid _2; 
-
- volatile.buffer(u0, key, bid, 1,1);
- buffer.get(u0, bid,0,0);
-};
 
  INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1, INTRO,  INTRO);
