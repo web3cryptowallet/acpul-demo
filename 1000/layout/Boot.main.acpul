@@ -280,7 +280,7 @@ if (p==1) {
  music.stop(u0);
  music.set.track(u0, 1, 11, 11); #
 
- add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
+# add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
 
  music.play(u0, 1, ms/1000-0/24, 0);
 };
