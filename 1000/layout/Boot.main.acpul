@@ -187,6 +187,17 @@ if(INTRO==0){
 #_ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
 
+if ((INTRO==1)*t>30) {
+ music.stop(u0);
+ music.set.track(u0, 1, 11, 11); #
+# music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
+
+# add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
+
+ music.play(u0, 1, 100, 1);
+};
+
+
 t+=dt;
 
 
@@ -276,15 +287,15 @@ lt:=24-1;
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
 
-if (p==1) {
- music.stop(u0);
- music.set.track(u0, 1, 11, 11); #
+#if (p==1) {
+# music.stop(u0);
+# music.set.track(u0, 1, 11, 11); #
 # music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
 
 # add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
 
- music.play(u0, 1, 100, 1);
-};
+# music.play(u0, 1, 100, 1);
+#};
 
 t+=dt;
 
