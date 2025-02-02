@@ -179,6 +179,7 @@ INTRO 0;
 if (INTRO==0) {
  if (t>3) {
   INTRO:=1;
+  lt:=0.11;
  };	
 };
 
