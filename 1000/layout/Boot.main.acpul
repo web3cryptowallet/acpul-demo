@@ -224,7 +224,7 @@ sn0 0;
 if (r0) {
  tex0=node.value.g(u0, video0,3); # tex
 # new.ui.shader.node3(sn0, 0,00,1, 100,100, 70014,29157); # dota.gold.nut
-# new.ui.shader.node3(sn0, 0,00,1, vw,vh, 70014,29200); # 
+ new.ui.shader.node3(sn0, 0,00,1, vw,vh, 70014,29200); # 
 # 
  shader.set.texture(sn0, A.iChannel0, tex0);
 };
