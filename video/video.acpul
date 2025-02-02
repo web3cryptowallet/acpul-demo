@@ -96,7 +96,7 @@ time0+=dt;
 
 media.video.set.time.next.frame(u0, video0, 0, time0*1000/2);
 
-node.value.s(u0, nid,2, time0);
+node.value.s(u0, nid,2, dt);
 
 #media.video.get.size(u0, video0);
 #video.width=o0;
