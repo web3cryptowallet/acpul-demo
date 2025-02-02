@@ -162,6 +162,7 @@ cpu.set.frame.time.mode(u0, 1);
 
 _ @help.inc1;
 _ @video.inc;
+_ @sys.media;
 
 #vh h;
 #vw w;
