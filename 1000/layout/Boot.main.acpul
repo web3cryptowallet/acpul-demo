@@ -186,6 +186,7 @@ if(INTRO==0){
 #};
 #_ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
+ music.stop(u0);
 
 countdown 0;
 
@@ -194,7 +195,7 @@ if (r0) {
 };
 countdown-=1;
 
-#if ((INTRO==1)*(countdown==0)) {
+if ((INTRO==1)*(countdown==0)) {
  music.stop(u0);
  music.set.track(u0, 1, 11, 11); #
 # music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
@@ -202,7 +203,7 @@ countdown-=1;
 # add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
 
  music.play(u0, 1, 100, 1);
-#};
+};
 
 
 t+=dt;
