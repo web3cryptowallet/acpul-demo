@@ -1,5 +1,6 @@
 ### 1620 main.video
 # pool,id,i
+# 0: sec - play seconds
 
 pool p0;
 id p1;
@@ -75,6 +76,8 @@ pts=media.video.get.time(u0, video0, 1);
 
 duration.sec=media.video.get.duration(u0, video0, 0);
 duration.pts=media.video.get.duration(u0, video0, 1);
+
+node.value.s(u0, nid,0, sec);
 
 time0 0;
 
