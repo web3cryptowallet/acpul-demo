@@ -175,6 +175,7 @@ INTRO 0;
   node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
  };
 #};
+ music.play(u0, 1, 0, 1);
 
 if(INTRO==0){
   if(t>24) {
