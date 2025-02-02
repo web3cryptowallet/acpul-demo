@@ -9,6 +9,7 @@ new.video
 # 0: sec - in seconds
 # 1: pts - in pts
 # 2: frame
+# 3: tex
 
 pool p0;
 id p1;
@@ -91,6 +92,7 @@ duration.pts=media.video.get.duration(u0, video0, 1);
 node.value.s(u0, nid,0, sec);
 node.value.s(u0, nid,1, pts);
 node.value.s(u0, nid,2, frame);
+node.value.s(u0, nid,3, tex0);
 
 
 

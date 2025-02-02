@@ -993,13 +993,17 @@ if (r0) {
 _ @video.inc;
 
 run.video {
+ video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 15, 0); # koop
+# video0:=node.new.this.ex4(u0, test.main.video, 5500, 2, 2, 0); # matrix
+# video0:=node.new.this.ex4(u0, NNN(main.video), 5500, 2, 2, 0); # matrix
+};
+
+run.video {
  music.stop(u0);
  music.set.track(u0, 55, 1, 1); #
 # music.play(u0, 1, 0, 0);
-# video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 15, 0); # koop
-# video0:=node.new.this.ex4(u0, test.main.video, 5500, 2, 2, 0); # matrix
-# video0:=node.new.this.ex4(u0, NNN(main.video), 5500, 2, 2, 0); # matrix
  new.video(video0, 0,0,1,vw,vh, 5500,2,2);
+ tex0=node.value.g(u0, video0,0); # pts
 };
 
 if (video0) {
