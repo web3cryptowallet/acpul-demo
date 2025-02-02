@@ -260,7 +260,7 @@ INTRO 1;
 if (p>0.2) {
  volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
 };
- volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
+ volatile.num.set(u0, BOOTUP.INTRO, num0, INTRO);
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
