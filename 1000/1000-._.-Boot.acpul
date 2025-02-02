@@ -1010,7 +1010,7 @@ if (video0) {
   ff 0;
   ff+=1;
   if (ff==1) {
-   music.play(u0, 1, ms/1000, 0);
+   music.play(u0, 1, ms/1000+1000, 0);
 #   music.play(u0, 1, ms/1000, 0);
 #  music.play(u0, 1, pts0/1000000, 0);
 #  val0 0;ui.value1(val0,0,0,1,pts0);
