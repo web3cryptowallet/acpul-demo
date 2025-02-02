@@ -161,6 +161,7 @@ cpu.set.frame.time.mode(u0, 1);
 _ @help.inc1;
 
 _ @sys.obj.volatile;
+ val0 0;ui.value1(val0,110,110,1,INTRO);
 
 num0 0;
 INTRO 0;
