@@ -1010,7 +1010,7 @@ ff+=1;
  if (vsec0) {
 #  music.seek.time.ms(u0, vsec0);
   music.seek.time.ms(u0, 4);
-  music.play(u0, 1, 0, 0);
+#  music.play(u0, 1, 0, 0);
  };
  val0 0;ui.value1(val0,0,0,1,vsec0);
  };
