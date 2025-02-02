@@ -203,7 +203,7 @@ if ((INTRO==1)*(countdown==0)) {
 
  music.play(u0, 1, 1, 1);
 };
-lt:=0.1;
+
 
 t+=dt;
 
