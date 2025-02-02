@@ -1011,7 +1011,6 @@ ff+=1;
   music.play(u0, 1, vsec0/1000000, 0);
 #  music.play(u0, 1, vsec0/10000, 0);
 #  music.play(u0, 1, vsec0, 0);
-
  };
  val0 0;ui.value1(val0,0,0,1,vsec0);
  };
