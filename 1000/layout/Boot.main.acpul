@@ -163,7 +163,7 @@ _ @sys.obj.volatile;
 
 num0 0;
 INTRO 0;
-INTRO:=0;
+#INTRO:=0;
 #if (r0) {
 # volatile.num.set(u0, BOOTUP.INTRO, num0, 0);
 #  lt:=0.11;
