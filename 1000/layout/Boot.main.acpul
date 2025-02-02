@@ -215,6 +215,8 @@ tex0boot0 u13;
 tex0boot1 u14;
 
 
+node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
+
 
 
 # VIDEO BOOT ]
@@ -223,6 +225,11 @@ tex0boot1 u14;
 
 color(u0, 1,1,1,1);
 rect(u0, 6, 0,0, w,h);
+
+
+### bootloader.video.mix
+
+
 
 
 
