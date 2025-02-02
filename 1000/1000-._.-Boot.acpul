@@ -1009,7 +1009,8 @@ if (video0) {
 # pts0=node.value.g(u0, video0,1); # pts
  pts0=node.value.g(u0, video0,2); # time0
  if (pts0) {
-  music.play(u0, 1, pts0/1000000, 0);
+  music.play(u0, 1, pts0, 0);
+#  music.play(u0, 1, pts0/1000000, 0);
  };
  val0 0;ui.value1(val0,0,0,1,pts0);
  };
