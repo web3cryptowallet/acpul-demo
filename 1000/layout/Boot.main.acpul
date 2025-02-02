@@ -7,6 +7,12 @@ _ @sys.node;
 _ @sys.cpu;
 _ @sys.display;
 
+_ @sys.display;
+
+vw 768; vh 1024;
+display.scalled.size(vw,vh);
+
+
 # EMULATE DEVICE [
 
 device.screen {
@@ -85,11 +91,6 @@ iphone iphone13;
 emulate.dispaly(iphone.w, iphone.h, iphone.scale, display.orientation.portrait);
 #emulate.dispaly(iphone.h, iphone.w, iphone.scale, display.orientation.landscape);
 
-_ @sys.display;
-
-vw 768; vh 1024;
-display.scalled.size(vw,vh);
-
 #display.scaled.size();
 #display.size();
 h1=768*display.scale;
@@ -162,8 +163,8 @@ cpu.set.frame.time.mode(u0, 1);
 _ @help.inc1;
 _ @video.inc;
 
-vh h;
-vw w;
+#vh h;
+#vw w;
 
 video0 0;
 
