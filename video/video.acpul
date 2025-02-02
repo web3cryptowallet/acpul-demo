@@ -99,7 +99,8 @@ time0 0;
 time0+=dt;
 
 #media.video.set.time.next.frame(u0, video0, 0, time0*24);
-media.video.set.time.next.frame(u0, video0, 0, time0*1000/2*0);
+#media.video.set.time.next.frame(u0, video0, 0, time0*1000/2*0);
+media.video.set.time.next.frame(u0, video0, 1, time0);
 
 
 #media.video.get.size(u0, video0);
