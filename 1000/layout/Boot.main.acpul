@@ -159,10 +159,6 @@ _ @help.inc1;
 
 video0 0;
 
-if (r0) {
- run.video;	
-};
-
 run.video {
  music.stop(u0);
  music.set.track(u0, 55, 1, 1); #
@@ -191,6 +187,11 @@ if (video0) {
   };
  };
 };
+
+if (r0) {
+ run.video;	
+};
+
 
 # VIDEO BOOT ]
 
