@@ -262,6 +262,12 @@ void main()
 
 
 ### 1690 test.main.video
+# pool,id,i
+
+pool0 p0;
+id0 p1;
+i0 p2;
+
 
 _ @4;
 
