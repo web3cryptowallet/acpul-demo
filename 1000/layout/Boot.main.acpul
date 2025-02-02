@@ -173,7 +173,6 @@ run.video {
  music.set.track(u0, 55, 1, 1); #
 # music.play(u0, 1, 0, 0);
  new.video(video0, 0,0,1,vw,vh, 5500,2,2);
- tex0=node.value.g(u0, video0,0); # pts
 };
 
 if (video0) {
@@ -198,8 +197,17 @@ if (video0) {
 };
 
 if (r0) {
- run.video;	
+ run.video;
+
+ tex0=node.value.g(u0, video0,3); # tex
+new.ui.shader.node3(sn0, 300,00,1, 300,300, 70014,29178); # dota.reflect.sphere
+ shader.set.texture(sn0, A.iChannel0, tex0);
 };
+
+tex0boot0 u13;
+tex0boot1 u14;
+
+29200
 
 
 # VIDEO BOOT ]
