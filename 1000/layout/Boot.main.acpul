@@ -272,7 +272,7 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,20,1, TIME, t);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, PROGRESS, p);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,1, P, p>0.2);
 
- INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0)+5;
+ INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1, INTRO,  INTRO);
 
 
