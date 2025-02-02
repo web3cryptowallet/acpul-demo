@@ -193,7 +193,8 @@ if(INTRO==0){
 
 if (r0) {
  music.stop(u0);
- countdown:=30;
+# countdown:=30;
+ countdown:=15;
 };
 countdown-=1;
 
