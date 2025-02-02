@@ -195,6 +195,7 @@ rect(u0, 6, 0,0, w,h);
 _ @help.inc1;
 _ @video.inc;
 _ @sys.dsp;
+_ @sys.obj.volatile;
 
 vw 768; vh 1024;
 display.scalled.size(vw,vh);
