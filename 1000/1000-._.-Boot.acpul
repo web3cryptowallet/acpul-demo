@@ -991,7 +991,7 @@ if (r0) {
 };
 
 run.video {
- video0:=node.new.this.ex(u0, test.main.video, 0);
+ video0:=node.new.this.ex4(u0, test.main.video, 0);
 };
 
 # TEST VIDEO ]
