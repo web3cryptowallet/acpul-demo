@@ -256,12 +256,12 @@ if (r0) {
 #lt:=24-0.5;
 lt:=24-1;
 
-num0 0;
-INTRO 1;
-if (p>0.2) {
-# volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
- volatile.num.set(u0, BOOTUP.INTRO, num0, INTRO);
-};
+#num0 0;
+#INTRO 1;
+#if (p>0.2) {
+## volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
+# volatile.num.set(u0, BOOTUP.INTRO, num0, INTRO);
+#};
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.99);
@@ -274,8 +274,8 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, PROGRESS, p);
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,40,1, P, p>0.2);
 
 
- INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
-lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1, INTRO,  INTRO);
+# INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
+#lbl0 0; val0 0; ui.value4(lbl0,val0,0,60,1, INTRO,  INTRO);
 
 
 ### boot.removed.x1
