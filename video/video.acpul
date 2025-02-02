@@ -90,7 +90,7 @@ node.value.s(u0, nid,0, sec);
 node.value.s(u0, nid,1, pts);
 
 
-time0 10;
+time0 0;
 
 time0+=dt;
 
