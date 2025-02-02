@@ -179,6 +179,9 @@ _ @help.inc1;
 _ @video.inc;
 _ @sys.media;
 
+vw 768; vh 1024;
+display.scalled.size(vw,vh);
+
 #vh h;
 #vw w;
 
