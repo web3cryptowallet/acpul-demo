@@ -167,7 +167,7 @@ INTRO 0;
 #INTRO:=0;
 INTRO:=volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
 if (INTRO==0) {
- INTRO:=1;
+# INTRO:=1;
  node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
 };
 
@@ -249,6 +249,12 @@ if (r0) {
 
 #lt:=24-0.5;
 lt:=24-1;
+
+num0 0;
+INTRO 1;
+if (lt==0) {
+ volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
+};
 
 shader.set.uniform.v(sn0, A.progress, p);
 #shader.set.uniform.v(sn0, A.progress, 0.999);
