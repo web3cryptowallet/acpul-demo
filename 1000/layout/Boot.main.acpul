@@ -157,6 +157,9 @@ cpu.set.frame.time.mode(u0, 1);
 
 _ @help.inc1;
 
+vh h;
+vw w;
+
 video0 0;
 
 run.video {
