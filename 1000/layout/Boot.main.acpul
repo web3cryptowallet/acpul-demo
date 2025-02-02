@@ -182,7 +182,8 @@ countdown 0;
 if(INTRO==0){
   if(t>24) {
    INTRO:=1;
-   countdown:=15;
+#   countdown:=15;
+   countdown:=10;
  };
 };
 #if (r0) {
@@ -193,8 +194,8 @@ if(INTRO==0){
 
 if (r0) {
  music.stop(u0);
-# countdown:=30;
- countdown:=15;
+ countdown:=30;
+# countdown:=15;
 };
 countdown-=1;
 
