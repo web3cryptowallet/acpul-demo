@@ -278,8 +278,8 @@ shader.set.uniform.v(sn0, A.progress, p);
 
 if (p==1) {
  music.stop(u0);
-# music.set.track(u0, 1, 11, 11); #
- music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
+ music.set.track(u0, 1, 11, 11); #
+# music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
 
 # add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
 
