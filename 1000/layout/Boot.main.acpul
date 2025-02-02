@@ -177,9 +177,12 @@ INTRO 0;
  };
 #};
 
+countdown 0;
+
 if(INTRO==0){
   if(t>24) {
    INTRO:=1;
+   countdown:=15;
  };
 };
 #if (r0) {
@@ -187,8 +190,6 @@ if(INTRO==0){
 #};
 #_ @4;
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
-
-countdown 0;
 
 if (r0) {
  countdown:=30;
