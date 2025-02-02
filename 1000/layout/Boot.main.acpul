@@ -258,7 +258,7 @@ if (p==1) {
 };
 
 shader.set.uniform.v(sn0, A.progress, p);
-shader.set.uniform.v(sn0, A.progress, 0.99);
+shader.set.uniform.v(sn0, A.progress, 0.98);
 
 t+=dt;
 
