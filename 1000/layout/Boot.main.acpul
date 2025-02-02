@@ -190,7 +190,7 @@ if(INTRO==0){
 countdown 0;
 
 if (r0) {
- countdown;  
+ countdown:=0;  
 };
 
 if ((INTRO==1)*(countdown==0)) {
