@@ -167,7 +167,7 @@ INTRO 0;
 #INTRO:=0;
 #if (r0) {
 # INTRO:=volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
- INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0, INTRO);
+ INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
  #INTRO:=0;
  if (INTRO==0) {
  # INTRO:=1;
