@@ -1,3 +1,9 @@
+### video.inc
+
+new.video
+ # video0, x:y:s:w:h, pool:id:i
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(main.video), _6,_7,_8, 0);
+
 ### 1620 main.video
 # pool,id,i
 # 0: sec - play seconds
@@ -228,12 +234,6 @@ gl.rect(u0, bw,bh, -bw,-bh);
 
 #rect(u0, 6, 0,0, 1024,768);
 
-
-### video.inc
-
-new.video
- # video0, x:y:s:w:h, pool:id:i
- new.node.common4(_0, _1,_2,_3, _4,_5, NNN(main.video), _6,_7,_8, 0);
 
 ### 1690 test.main.video
 # pool,id,i
