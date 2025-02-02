@@ -1005,8 +1005,8 @@ run.video {
 if (video0) {
  ms=node.value.g(u0, video0,0); # pts
  pts=node.value.g(u0, video0,1); # pts
-# pts0=node.value.g(u0, video0,2); # time0
- if (ms>1000) {
+ frame=node.value.g(u0, video0,2); # frame
+ if (frame>1000) {
   ff 0;
   ff+=1;
   if (ff==1) {
