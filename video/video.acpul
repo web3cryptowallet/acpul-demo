@@ -82,12 +82,15 @@ media.video.render.texture(u0a, vid, tex0);
 
 sec=media.video.get.time(u0, video0, 0);
 pts=media.video.get.time(u0, video0, 1);
+frame=media.video.get.time(u0, video0, 2);
 
 duration.sec=media.video.get.duration(u0, video0, 0);
 duration.pts=media.video.get.duration(u0, video0, 1);
 
 node.value.s(u0, nid,0, sec);
 node.value.s(u0, nid,1, pts);
+node.value.s(u0, nid,3, frame);
+
 
 
 time0 0;
