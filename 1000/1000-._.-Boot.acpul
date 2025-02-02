@@ -275,8 +275,8 @@ new.background93 {
 };
 
 new.background201 {
-# new.ui.shader.node3(sn0, 0,0,1*4, 1024/4,768/4, 70014,29202); # 
- new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29202); # 
+ new.ui.shader.node3(sn0, 0,0,1*4, 1024/4,768/4, 70014,29202); # 
+# new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29202); # 
 # node.value.s(u0, sn0,1, 1); # draw.off
 };
 
