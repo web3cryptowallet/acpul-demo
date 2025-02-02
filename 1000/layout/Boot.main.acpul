@@ -253,7 +253,7 @@ lt:=24-1;
 
 num0 0;
 INTRO 1;
-if (p==0) {
+if (p==1) {
  volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
 };
 
