@@ -276,6 +276,15 @@ w:=node.prop.w.g(u0, vid0)+2;
 h:=node.prop.h.g(u0, vid0)+2;
 
 
+_ @touch.tool.default.scale0.store;
+touch.tool.default.scale0.store;
+
+if (r0) {
+  s:=1/4;
+};
+
+#_ @4;
+#ui.value1(l12,110,110,0.5,s);
 
 
 
