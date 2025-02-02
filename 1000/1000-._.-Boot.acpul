@@ -991,6 +991,7 @@ if (r0) {
 };
 
 run.video {
+ music.stop(u0);
  music.set.track(u0, 55, 1, 1); #
  music.play(u0, 1, 0, 0);
 # video0:=node.new.this.ex4(u0, test.main.video, 5500, 1, 15, 0); # koop
