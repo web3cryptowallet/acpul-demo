@@ -239,7 +239,7 @@ lt:=24-0.5;
 #lt:=24-1;
 
 shader.set.uniform.v(sn0, A.progress, p);
-shader.set.uniform.v(sn0, A.progress, 0.992);
+shader.set.uniform.v(sn0, A.progress, 0.991);
 
 t+=dt;
 
