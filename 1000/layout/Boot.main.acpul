@@ -161,13 +161,13 @@ cpu.set.frame.time.mode(u0, 1);
 _ @help.inc1;
 
 _ @sys.obj.volatile;
-  lt:=0.11;
 
 num0 0;
 INTRO 0;
 #INTRO:=0;
 #if (r0) {
 # volatile.num.set(u0, BOOTUP.INTRO, num0, 0);
+  lt:=0.11;
  INTRO:=volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
 # INTRO:=volatile.num.get(u0, BOOTUP.INTRO, num0);
 # INTRO:=0;
