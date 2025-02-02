@@ -1003,17 +1003,15 @@ run.video {
 };
 
 if (video0) {
-ff 0;
-ff+=1;
- if (ff==1) {
- vsec0=node.value.g(u0, video0,0); # sec
- if (vsec0) {
-  music.play(u0, 1, vsec0/1000000, 0);
-#  music.play(u0, 1, vsec0/10000, 0);
-#  music.play(u0, 1, vsec0, 0);
+#ff 0;
+#ff+=1;
+# if (ff==1) {
+ pts0=node.value.g(u0, video0,0); # pts
+ if (pts0) {
+  music.play(u0, 1, pts0/1000000, 0);
  };
- val0 0;ui.value1(val0,0,0,1,vsec0);
- };
+# val0 0;ui.value1(val0,0,0,1,pts0);
+# };
 };
 
 
