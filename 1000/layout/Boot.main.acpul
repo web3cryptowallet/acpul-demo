@@ -167,7 +167,7 @@ INTRO 0;
 #INTRO:=0;
 if (r0) {
  INTRO:=volatile.num(u0, BOOTUP.INTRO, num0, INTRO);
- INTRO:=0;
+ #INTRO:=0;
  if (INTRO==0) {
  # INTRO:=1;
   node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
@@ -252,7 +252,7 @@ if (r0) {
 };
 
 #lt:=24-0.5;
-#lt:=24-1;
+lt:=24-1;
 
 num0 0;
 INTRO 1;
