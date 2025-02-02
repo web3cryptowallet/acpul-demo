@@ -177,7 +177,7 @@ INTRO 0;
 #};
 
 if(INTRO==0){
-  if(t>32) {
+  if(t>24) {
    INTRO:=1;
  };
 };
