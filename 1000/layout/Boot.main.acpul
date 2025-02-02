@@ -201,7 +201,7 @@ if ((INTRO==1)*(countdown==0)) {
 
 # add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
 
- music.play(u0, 1, 100, 1);
+ music.play(u0, 1, 1, 1);
 };
 
 
