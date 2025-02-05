@@ -365,4 +365,8 @@ node.set.v
  obj.key.set(u0, 1, _0,_1,0, _2);
 # obj.key.set4(u0, 2, _0,_1,0, 1,0, _2, 0);
 
+node.get.v
+ # nid, name -> v
+ obj.key.get(u0, 1, _0,_1,0);
+
 
