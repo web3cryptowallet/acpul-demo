@@ -300,6 +300,10 @@ cpu.get.node
  #   [1] textures
  io(_0, 500445, _1, _2, _3, 0);
 
+cpu.get.textures
+ # u0, buf, mode
+ io(_0, 502140, _1, 0, 0,0);
+ 
 # nodes ]
 # formulas [
 
