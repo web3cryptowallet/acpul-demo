@@ -355,3 +355,5 @@ node {_;
   # r0, nid, process.children, dt
   io(_0, 7235, _1, _2, _3, 0); 
 };
+
+### sys.node.v
