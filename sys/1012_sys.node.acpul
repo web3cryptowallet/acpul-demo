@@ -356,7 +356,7 @@ node {_;
   io(_0, 7235, _1, _2, _3, 0); 
 };
 
-#_ @sys.node.value;
+_ @sys.node.value;
 
 
 ### sys.node.value
