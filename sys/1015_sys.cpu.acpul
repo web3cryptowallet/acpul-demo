@@ -302,11 +302,11 @@ cpu.get.node
 
 cpu.get.textures
  # u0, buf, mode -> buf:textures
- io(_0, 502140, _1, 0, 0,0);
+ io(_0, 502140, _1, _2, 0,0);
 
 cpu.set.texture.event.enable
  # u0, en
- io(_0, 502141, 0, 0, 0,0);
+ io(_0, 502141, _1, 0, 0,0);
 
 # nodes ]
 # formulas [
