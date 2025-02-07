@@ -205,7 +205,7 @@ node.set.visible.stop {
  node.set.running(_0, _1, _2);
 };
 
-node.node.set.running(u0, boottex0, 0);
+node.set.running(u0, boottex0, 0);
 
 
 if (r0) {
