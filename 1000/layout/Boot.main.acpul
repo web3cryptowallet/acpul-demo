@@ -135,7 +135,7 @@ Boot.texture 1600;
 
 boottex0 0;
 if (boottex0==0) {
- node.new.this.ex(r0, Boot.texture, 0);
+ boottex0:=node.new.this.ex(r0, Boot.texture, 0);
 };
 
 # MAGIC NUMBERS - 5 frame reset due black screen [
