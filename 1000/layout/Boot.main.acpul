@@ -208,7 +208,7 @@ node.set.visible.stop {
 
 if (t>1) {
  node.set.visible.stop(u0, boottex0, 0);
- node.prop.lt.s(u0, boottex0, 0.5);
+ node.prop.s.s(u0, boottex0, 0.5);
 };
 t+=0.9;
 
