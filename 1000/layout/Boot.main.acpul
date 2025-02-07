@@ -207,7 +207,7 @@ node.set.visible.stop {
  node.set.enable.draw(_0, _1, _2);
 };
 
-vis0=INTRO+(t>21-15);
+vis0=1;INTRO+(t>21-15);
 node.set.visible.stop(u0, boottex0, vis0);
 
 #if (t>3) {
