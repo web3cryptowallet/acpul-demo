@@ -303,7 +303,7 @@ if (video0) {
 };
 
 if (r0) {
-# run.video;
+ run.video;
 };
 
 tex0boot0 u13;
