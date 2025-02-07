@@ -208,7 +208,10 @@ node.set.visible.stop {
 };
 
 
-if (t>3) {
+node.set.visible.stop(u0, boottex0, 0);
+
+
+#if (t>3) {
 # node.set.visible(u0, nid, 1);
 
 # node.set.visible(u0, boottex0, 0);
@@ -217,7 +220,7 @@ if (t>3) {
 # node.set.visible.stop(u0, boottex0, 0);
 # node.prop.s.s(u0, boottex0, 0.5);
 # node.prop.x.s(u0, boottex0, -1000);
-};
+#};
 #t+=0.9;
 
 if (r0) {
