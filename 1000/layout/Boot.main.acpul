@@ -207,7 +207,7 @@ node.set.visible.stop {
 
 
 if (t>1) {
- node.set.visible(u0, boottex0, 0);
+ node.set.visible(u0, nid, 0);
 # node.set.visible.stop(u0, boottex0, 0);
 # node.set.running(u0, boottex0, 2);
  node.prop.s.s(u0, boottex0, 0.5);
