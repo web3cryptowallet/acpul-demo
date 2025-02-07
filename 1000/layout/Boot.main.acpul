@@ -180,6 +180,10 @@ INTRO 0;
  };
 #};
 
+if (INTRO) {
+ boottex0:=1;
+};
+
 countdown 0;
 
 if(INTRO==0){
