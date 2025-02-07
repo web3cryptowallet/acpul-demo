@@ -200,11 +200,11 @@ if(INTRO==0){
 # t:=if(t<21,21,t);
 #};
 
-node.set.visible.stop {
- node.set.visible(_0, _1, _2);
- node.set.running(_0, _1, _2);
- node.set.process.children(_0, _1, _2);
-};
+#node.set.visible.stop {
+# node.set.visible(_0, _1, _2);
+# node.set.running(_0, _1, _2);
+# node.set.process.children(_0, _1, _2);
+#};
 
 
 if (t>3) {
