@@ -203,7 +203,7 @@ if(INTRO==0){
 node.set.visible.stop {
  node.set.visible(_0, _1, _2);
  node.set.running(_0, _1, _2);
- node.set.process.children(u0, boottex0, 0);
+ node.set.process.children(_0, _1, _2);
 };
 
 
