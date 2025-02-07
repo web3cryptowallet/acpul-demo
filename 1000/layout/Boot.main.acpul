@@ -213,7 +213,7 @@ if (t>3) {
 # node.set.visible.stop(u0, boottex0, 0);
 # node.set.running(u0, boottex0, 2);
  node.prop.s.s(u0, boottex0, 0.5);
- node.prop.x.s(u0, boottex0, -100);
+ node.prop.x.s(u0, boottex0, -1000);
 };
 t+=0.9;
 
