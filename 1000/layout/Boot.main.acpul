@@ -303,6 +303,8 @@ if (video0) {
 };
 
 if (r0) {
+ new.ui.shader.node3(sn0, 0,00,1, 100,100, 70014,29157); # dota.gold.nut
+
  run.video;
 };
 
