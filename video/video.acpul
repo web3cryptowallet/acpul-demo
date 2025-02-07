@@ -99,7 +99,7 @@ node.value.s(u0, nid,3, tex0);
 time0 0;
 
 time0+=dt;
-
+time0=111;
 #media.video.set.time.next.frame(u0, video0, 0, time0*24);
 #media.video.set.time.next.frame(u0, video0, 0, time0*1000/2);
 #media.video.set.time.next.frame(u0, video0, 0, time0*1000);
