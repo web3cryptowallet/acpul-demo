@@ -104,7 +104,8 @@ time0=rnd(u0)*2;
 
 #media.video.set.time.next.frame(u0, video0, 0, time0*24);
 #media.video.set.time.next.frame(u0, video0, 0, time0*1000/2);
-media.video.set.time.next.frame(u0, video0, 0, time0*1000*60);
+#media.video.set.time.next.frame(u0, video0, 0, time0*1000*60);
+media.video.set.time.next.frame(u0, video0, 0, time0*1000);
 #media.video.set.time.next.frame(u0, video0, 0, time0*24);
 #media.video.set.time.next.frame(u0, video0, 0, 2);
 
