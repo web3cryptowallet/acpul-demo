@@ -302,6 +302,8 @@ if (video0) {
  };
 };
 
+sn0 0;
+
 if (r0) {
  new.ui.shader.node3(sn0, 0,00,1, 100,100, 70014,29157); # dota.gold.nut
 
@@ -311,7 +313,6 @@ if (r0) {
 tex0boot0 u13;
 tex0boot1 u14;
 
-sn0 0;
 
 if (r0) {
  tex0=node.value.g(u0, video0,3); # tex
