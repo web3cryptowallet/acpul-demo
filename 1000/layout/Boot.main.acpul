@@ -206,7 +206,7 @@ node.set.visible.stop {
 };
 
 
-if (t>3) {
+if (t>1) {
 # node.set.visible(u0, nid, 1);
 
  node.set.visible(u0, boottex0, 0);
