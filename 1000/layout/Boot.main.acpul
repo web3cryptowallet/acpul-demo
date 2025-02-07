@@ -200,6 +200,14 @@ if(INTRO==0){
 # t:=if(t<21,21,t);
 #};
 
+node.set.visible.stop {
+ node.set.visible(_0, _1, _2);
+ node.set.running(_0, _1, _2);
+};
+
+node.node.set.running(u0, boottex0, 0);
+
+
 if (r0) {
  music.stop(u0);
  countdown:=30;
