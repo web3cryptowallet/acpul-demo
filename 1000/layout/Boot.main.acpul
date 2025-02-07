@@ -209,7 +209,7 @@ node.set.visible.stop {
 if (t>1) {
  node.set.running(u0, boottex0, 0);
 };
-t:=0;
+t:=0.1;
 if (r0) {
  music.stop(u0);
  countdown:=30;
