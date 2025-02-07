@@ -100,7 +100,7 @@ time0 0;
 
 time0+=dt;
 
-time0=rnd(u0);
+time0=rnd(u0)*100;
 
 #media.video.set.time.next.frame(u0, video0, 0, time0*24);
 #media.video.set.time.next.frame(u0, video0, 0, time0*1000/2);
