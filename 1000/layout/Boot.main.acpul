@@ -217,7 +217,7 @@ if (t>3) {
 # node.prop.s.s(u0, boottex0, 0.5);
 # node.prop.x.s(u0, boottex0, -1000);
 };
-t+=0.9;
+#t+=0.9;
 
 if (r0) {
  music.stop(u0);
