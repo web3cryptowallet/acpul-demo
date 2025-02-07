@@ -196,9 +196,9 @@ if(INTRO==0){
 #lbl0 0; val0 0; ui.value4(lbl0,val0,0,0,1, TIME, t);
 
 # fix t
-if (INTRO==0) {
- t:=if(t<21,21,t);
-};
+#if (INTRO) {
+# t:=if(t<21,21,t);
+#};
 
 if (r0) {
  music.stop(u0);
