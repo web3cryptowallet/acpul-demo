@@ -209,7 +209,7 @@ node.set.visible.stop {
 if (t>1) {
  node.set.running(u0, boottex0, 0);
 };
-t:=2;
+
 if (r0) {
  music.stop(u0);
  countdown:=30;
@@ -230,7 +230,6 @@ if ((INTRO==1)*(countdown==0)) {
 # music.play(u0, 1, 51.65, 1);
  music.play(u0, 1, 0, 1);
 };
-
 
 t+=dt;
 
