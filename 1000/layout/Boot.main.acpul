@@ -207,9 +207,8 @@ node.set.visible.stop {
  node.set.enable.draw(_0, _1, _2);
 };
 
-
-node.set.visible.stop(u0, boottex0, 0);
-
+vis0=t>3;
+node.set.visible.stop(u0, boottex0, vis0);
 
 #if (t>3) {
 # node.set.visible(u0, nid, 1);
