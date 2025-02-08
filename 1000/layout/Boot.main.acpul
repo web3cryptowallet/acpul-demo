@@ -209,6 +209,7 @@ node.set.visible.stop {
 vis0=INTRO+(t>(23-1.5)+(t<1));
 node.set.visible.stop(u0, boottex0, vis0);
 
+node.set.visible.stop(u0, boottex0, 0);
 
 #if (t>3) {
 # node.set.visible(u0, nid, 1);
