@@ -207,7 +207,7 @@ node.set.visible.stop {
  node.set.enable.draw(_0, _1, _2);
 };
 
-vis0=INTRO+(t>(23-1.5));
+vis0=INTRO+(t>(23-1.5)+(t<1));
 node.set.visible.stop(u0, boottex0, vis0);
 
 
@@ -233,9 +233,9 @@ countdown-=1;
 if ((INTRO==1)*(countdown==0)) {
  music.stop(u0);
 # music.set.track(u0, 1, 11, 11); #
-# music.set.track(u0, 2, 1, 1); # rap
+ music.set.track(u0, 2, 1, 1); # rap
 # music.set.track(u0, 2, 8, 4); #
- music.set.track(u0, 1, 7, 5); # Cages
+# music.set.track(u0, 1, 7, 5); # Cages
 # music.set.track(u0, 1, 21, 5); # Linked.Park.Connection
 
 # add.track(Q21.F12, 1, 11, 11, Rihanna.We.Found.Love.ft.Calvin.Harris);
