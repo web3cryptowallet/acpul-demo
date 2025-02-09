@@ -68,9 +68,11 @@ if (r0) {
   media.twitch.start(u0 * STREAM.TWITCH);
 };
 
+node.value.s(u0, nid,1, t); # OUT.time
+
 STREAM.TWITCH.TIME 10000 *300;
 
-stopped=node.value.g(u0, nid,0); # stop
+stopped=node.value.g(u0, nid,0); # IN.stop
 
 is.end if(STREAM.TWITCH, STREAM.TWITCH.TIME, nseconds) < t;
 
