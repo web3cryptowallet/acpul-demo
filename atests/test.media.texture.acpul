@@ -69,7 +69,7 @@ if (r0) {
 
 STREAM.TWITCH.TIME 10000 *300;
 
-stopped=node.value.g(u0, recorder,0); # stop
+stopped=node.value.g(u0, nid,0); # stop
 
 is.end if(STREAM.TWITCH, STREAM.TWITCH.TIME, nseconds) < t;
 
