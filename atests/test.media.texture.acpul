@@ -68,7 +68,10 @@ if (r0) {
   media.twitch.start(u0 * STREAM.TWITCH);
 };
 
-node.value.s(u0, nid,1, t); # OUT.time
+#node.value.s(u0, nid,1, t); # OUT.time
+
+events.push(u0, ui.pool,0, ev.video.rec.time, t, 0,0,0);
+
 
 STREAM.TWITCH.TIME 10000 *300;
 
