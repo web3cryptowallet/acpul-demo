@@ -1,4 +1,5 @@
 ### 5400 test.media.texture
+# tex0
 
 _ @0;
 _ @BOOT.OPTIONS;
@@ -20,7 +21,8 @@ recording r5;
 tex0boot0 u13;
 tex0boot1 u14;
 
-tex0src tex0boot1;
+tex0src p0;
+#tex0src tex0boot1;
 
 tw node.texture.width(tex0src)*rec.scale;
 th node.texture.height(tex0src)*rec.scale;
