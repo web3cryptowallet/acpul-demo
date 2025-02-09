@@ -11,6 +11,7 @@ _ @sys.media;
 _ @sys.node;
 _ @sys.display;
 _ @sys.cpu;
+_ @sys.events;
 
 tex r8;
 texflip r9;
