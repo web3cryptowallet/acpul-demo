@@ -165,6 +165,8 @@ _ @help.inc1;
 _ @sys.obj.volatile;
 _ @sys.dsp;
 
+videomix0 0;
+
 num0 0;
 INTRO 0;
 #INTRO:=0;
@@ -176,7 +178,7 @@ INTRO 0;
 #INTRO:=0;
  if (INTRO==0) {
 #  INTRO:=1;
-  node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
+  videomix0:=node.new.this.ex(r0, NNN(bootloader.video.mix), 0);
  };
 #};
 
@@ -233,7 +235,7 @@ if (r0) {
 };
 countdown-=1;
 
-if ((INTRO==1)*(countdown==0)) {
+if ((INTRO==1)*(countdown==0)*videomix0) {
  music.stop(u0);
 # music.set.track(u0, 1, 11, 11); #
  music.set.track(u0, 2, 1, 1); # rap
