@@ -511,6 +511,7 @@ if (r0) {
 };
 
 if (BOOT.IDE) {
+# node.z.to.front(u0, tex8videorec,0); # TODO
  node.z.to.front(u0, ide0,0);
 };
 
