@@ -291,7 +291,7 @@ new.background201 {
 if (r0) {
  w0 1024;
  h0 768;
- new.background45;
+# new.background45;
 # new.background93;
 # new.background201; matrix3d
 
