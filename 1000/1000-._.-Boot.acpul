@@ -290,7 +290,10 @@ new.background201 {
 };
 
 new.valentine2025 {
- new.ui.shader.node3(sn0, 0,0,1, w,h, 70014,29181); # new.year2025.bg.heart
+ w0 1024;
+ h0 768;
+
+ new.ui.shader.node3(sn0, 0,0,1, w0,h0, 70014,29181); # new.year2025.bg.heart
 };
 
 if (r0) {
