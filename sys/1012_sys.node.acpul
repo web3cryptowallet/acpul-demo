@@ -376,4 +376,14 @@ node.get.v
  # nid, name -> v
  obj.key.get(u0, 1, _0,_1,0);
 
+node.get.v0 {
+ # nid, name, default
+ nid _0;
+ name _1;
+ DEFAULT _2;
+ v = node.get.v(nid, name);
+ v := if(v<0,DEFAULT,v);
+ v;
+};
+
 
