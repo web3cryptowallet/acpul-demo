@@ -386,4 +386,17 @@ node.get.v0 {
  v;
 };
 
+### sys.node.tag
+
+node.get.tag
+ # u0, nid -> tag
+ io(_0, 7214, _1, 9, 0,0);
+
+node.set.tag
+ # u0, nid, tag
+ io(_0, 7214, _1, 9, 1, _2);
+
+node.no.bbox
+ node.set.tag(_0, _1, -77700000);
+
 
