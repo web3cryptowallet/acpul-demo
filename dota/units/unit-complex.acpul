@@ -17,6 +17,7 @@ bt obj.bots.types;
 _ @1010;
 _ @sys.node;
 _ @dota.heroes;
+_ @os.util2;
 
 # HEALTH CRYSTALS [
 
@@ -24,8 +25,8 @@ if (utype==bt.homehealth) {
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
   node.new.this.ex(u0, Crystal.Pulses, 0);
-#  node.set.s(u0, nid, 1/4);
-  node.set.s(u0, nid, 0.2);
+  node.set.s(u0, nid, 1/4);
+#  node.set.s(u0, nid, 0.2);
  };
 };
 
