@@ -697,7 +697,7 @@ test.media.texture 5400;
 fly.box {
  _ @1100010;
  _ @ml.box2d;
- l0:=node.new.this.ex(u0, ml.fly.text, 0);
+ l0:=node.new.this.ex(u0, ml.fly.text, rnd(u0)*100);
 #    node.prop.x.s(u0, l0, node.prop.x.g(u0,bn1));
 #    node.prop.y.s(u0, l0, node.prop.y.g(u0,bn1)/2);
  node.prop.x.s(u0, l0, 100);
