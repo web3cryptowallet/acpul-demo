@@ -145,10 +145,12 @@ while(tb0) {
   by0=o1;
 
 #  fly.box1(bx0+10*rnd(u0),by0);
-  if (nid1==nid) {
-  fly.value rnd(u0)*100;
+  fly.value=rnd(u0)*100;
+  fly.value=nid1;
   fly.box1(0,0,0.2, fly.value);
-  };
+
+#  if (nid1==nid) {
+#  };
 
 #  score=o0;
 #  qq=qq+1;
