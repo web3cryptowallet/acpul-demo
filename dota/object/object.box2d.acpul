@@ -144,7 +144,8 @@ while(tb0) {
   by0=o1;
 
 #  fly.box1(bx0+10*rnd(u0),by0);
-  fly.box1(0,0);
+  fly.value 0;
+  fly.box1(0,0,1, fly.value);
 
 #  score=o0;
 #  qq=qq+1;
