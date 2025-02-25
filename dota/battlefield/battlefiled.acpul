@@ -40,7 +40,7 @@ map0 0;
 
 MAP 3224;
 if (r0) {
- map0:=node.new.this.ex(r0, MAP, 0);
+# map0:=node.new.this.ex(r0, MAP, 0);
 };
 
 sn0 0;
