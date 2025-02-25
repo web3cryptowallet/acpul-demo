@@ -19,10 +19,7 @@ create.body.unit {
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
  body0:=bb.create(u0, b2d.world);
-# body.def.type.position.angle;
-# body.def.velocity.linear.angular;
-# body.def.damping.linear.angular.allowSleep.awake;
-# body.def.fixed.rotation.bullet.active.gravity.scale;
+ box2d.body.data.set4(u0, body0, 0, nid, 0,0,0);
 
  shape0:=box2d.shape.create.circle(u0);
  box2d.shape.set.radius(u0, shape0, 5);
@@ -32,8 +29,6 @@ create.body.unit {
  fixture0:=box2d.fixture.create(u0, body0, shape0);
  box2d.fixture.filter.collision(u0, fixture0, 1,1+2, 0);
 # box2d.fixture.filter.collision(u0, b1f1, 1,1+2, 0);
-
- box2d.body.data.set4(u0, body0, 0, nid, 0,0,0);
 
 # box2d.body.set.position(u0, body0, x,y);
 };
