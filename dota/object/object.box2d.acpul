@@ -153,18 +153,6 @@ while(tb0) {
    fly.box1(0,0,0.2, fly.value);
   };
 
-#  score=o0;
-#  qq=qq+1;
-#  score+=qq;
-
-#  type=999; # gold
-
-#  events.push(u0, pool.nebula,0, ev.add.score, score, type, bx0,by0);
-
-#  node.set.visible(u0, nid1, 0);
-
-#  fly0=fly.box1(0-10*rnd(u0)/2,0);
-#  node.move.to.parent(u0, nid1, fly0);
  };
 };
 
