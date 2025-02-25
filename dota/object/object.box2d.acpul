@@ -80,7 +80,7 @@ create.body.tower {
 };
 
 # CREATE BODY BUILDING ]
-# CREATE BODY [
+# NEW BODY [
 
 if (r0) {
  if (type==types.unit) {
@@ -115,7 +115,7 @@ sync.pos.to.body {
  y:=o1;
 };
 
-# CREATE BODY ]
+# NEW BODY ]
 # BOX2D PROCESS EVENTS [
 
 _ @sys.events;
