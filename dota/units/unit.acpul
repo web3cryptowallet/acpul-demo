@@ -80,7 +80,7 @@ if (r0) {
   #  minion.mage
   ss 2;
 #  new.node.common4(bot0, 0,0,1/ss, 100,100, UNIT.COMPLEX, ctype, 0,0,0);
-  new.node.common4(bot0, 0,0,1/2, w,h, UNIT.COMPLEX, ctype, 0,0,0);
+  new.node.common4(bot0, 0,0,1/4, w,h, UNIT.COMPLEX, ctype, 0,0,0);
  };
 
  # BOT ]
