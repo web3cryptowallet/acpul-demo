@@ -17,6 +17,7 @@ bt obj.bots.types;
 _ @1010;
 _ @sys.node;
 _ @dota.heroes;
+_ @os.util1;
 _ @os.util2;
 
 # HEALTH CRYSTALS [
