@@ -133,6 +133,7 @@ while(tb0) {
   fixture1=o3;
 
   nid1=box2d.body.data.get(u0, body0, 0);
+  nid2=box2d.body.data.get(u0, body1, 0);
 
 
   box2d.body.get.position(u0, body0);
@@ -144,9 +145,13 @@ while(tb0) {
 #  fly.box1(0,0,0.2, fly.value);
 
   if (nid1==nid) {
-   fly.box1(0,0,0.2, fly.value);
    fly.value=nid1;
+   fly.box1(0,0,0.2, fly.value);
   };
+#  if (nid2==nid) {
+#   fly.value=nid1;
+#   fly.box1(0,0,0.2, fly.value);
+#  };
 
 #  score=o0;
 #  qq=qq+1;
