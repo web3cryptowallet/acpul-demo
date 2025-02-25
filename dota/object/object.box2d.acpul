@@ -149,7 +149,7 @@ while(tb0) {
    fly.box1(0,0,0.2, fly.value);
   };
   if (nid2==nid) {
-   fly.value=nid1;
+   fly.value=nid2;
    fly.box1(0,0,0.2, fly.value);
   };
 
