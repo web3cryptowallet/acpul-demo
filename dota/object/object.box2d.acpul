@@ -115,9 +115,10 @@ sync.pos.to.body {
  y:=o1;
 };
 
-_ @sys.events;
-
+# CREATE BODY ]
 # BOX2D PROCESS EVENTS [
+
+_ @sys.events;
 
 _ @dota.fly.box1;
 _ @os.util2;
@@ -157,5 +158,4 @@ while(tb0) {
 
 # BOX2D PROCESS EVENTS ]
 # box2d event ]
-# CREATE BODY ]
 # BOX2D ]
