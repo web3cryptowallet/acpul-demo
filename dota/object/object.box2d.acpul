@@ -152,7 +152,6 @@ while(tb0) {
    fly.value=nid2;
    fly.box1(0,0,0.2, fly.value);
   };
-
  };
 };
 
