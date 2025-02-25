@@ -259,19 +259,6 @@ a {
 
 
  # BASE ]
-
-
-
-
- # XCOIN TEST [
-
-#};
-#if(0){
-# xcoin;
-
-# xcoin.starship;
-
- # XCOIN TEST ]
  # DIALOG TEST [
 
  _ @dota.dialog.inc;
