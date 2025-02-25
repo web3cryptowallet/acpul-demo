@@ -300,7 +300,7 @@ if (r0) {
  w0 1024;
  h0 768;
  
- new.valentine2025;
+# new.valentine2025;
 
 # new.background45;
 # new.background93;
