@@ -21,6 +21,7 @@ _ @dota.heroes;
 _ @sys.os;
 _ @os.basic;
 _ @os.util1;
+_ @os.util2;
 
 # HEALTH CRYSTALS [
 
