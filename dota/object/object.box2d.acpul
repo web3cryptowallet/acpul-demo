@@ -139,7 +139,7 @@ while(tb0) {
   body1=o2;
   fixture1=o3;
 
-  nid1=box2d.body.data.get(u0, o0, 0);
+  nid1=box2d.body.data.get(u0, body0, 0);
 
 
   box2d.body.get.position(u0, body0);
