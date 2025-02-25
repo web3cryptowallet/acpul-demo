@@ -31,9 +31,10 @@ if (utype==bt.homehealth) {
   crystals0=node.new.this.ex(u0, Crystal.Pulses, 0);
   node.set.s(u0, crystals0, 1/8);
 #  node.set.x(u0, crystals0, 1/8);
+  w:=10;
+
  };
 };
-w:=10;
 
 # HEALTH CRYSTALS ]
 # MINION GUARD [
