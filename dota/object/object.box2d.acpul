@@ -148,10 +148,10 @@ while(tb0) {
    fly.value=nid1;
    fly.box1(0,0,0.2, fly.value);
   };
-#  if (nid2==nid) {
-#   fly.value=nid1;
-#   fly.box1(0,0,0.2, fly.value);
-#  };
+  if (nid2==nid) {
+   fly.value=nid1;
+   fly.box1(0,0,0.2, fly.value);
+  };
 
 #  score=o0;
 #  qq=qq+1;
