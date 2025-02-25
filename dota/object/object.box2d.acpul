@@ -19,7 +19,7 @@ create.body.unit {
  bb.def1(u0, 0,0, 0,0);
  bb.def3(u0, 0, 0,1,5);
  body0:=bb.create(u0, b2d.world);
- box2d.body.data.set4(u0, body0, 0, nid, 0,0,0);
+# box2d.body.data.set4(u0, body0, 0, nid, 0,0,0);
 
  shape0:=box2d.shape.create.circle(u0);
  box2d.shape.set.radius(u0, shape0, 5);
