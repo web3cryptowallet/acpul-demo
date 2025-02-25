@@ -139,13 +139,16 @@ while(tb0) {
 
   nid1=box2d.body.data.get(u0, o0, 0);
 
+
   box2d.body.get.position(u0, body0);
   bx0=o0*3;
   by0=o1;
 
 #  fly.box1(bx0+10*rnd(u0),by0);
+  if (nid1==nid) {
   fly.value rnd(u0)*100;
   fly.box1(0,0,0.2, fly.value);
+  };
 
 #  score=o0;
 #  qq=qq+1;
