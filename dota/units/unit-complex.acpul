@@ -46,7 +46,10 @@ if (utype==bt.minion.guard) {
 # MINION MAGE [
 
 if (utype==bt.minion.mage) {
-  node.new.this.ex(r0, hero.minion.mage, 0);
+  mage0=node.new.this.ex(r0, hero.minion.mage, 0);
+  node.set.s(u0, mage0, 1/8);
+#  w1 10; # width
+#  node.set.x(u0, mage0, w/2-w1/2);
 };
 
 # MINION MAGE ]
