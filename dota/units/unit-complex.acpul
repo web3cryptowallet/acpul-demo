@@ -26,6 +26,10 @@ _ @os.util2;
 unit0 0;
 
 if (utype==bt.homehealth) {
+  s:=1/8;
+  x:=w/2-10/2;
+  y:=-10;
+
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
   crystals0=node.new.this.ex(u0, Crystal.Pulses, 0);
