@@ -62,7 +62,7 @@ _ @dota.unit.tower;
 
 b rect(u0, 6, _0*32-42,_1*32+70, _2*32,_3*32);
 
-color(u0, 0,0,1,1);
+color(u0, 1,0,1,1);
 rect(u0, 2, 0,0,w,h);
 
 OBJECT 3220;
