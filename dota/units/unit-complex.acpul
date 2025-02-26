@@ -25,7 +25,8 @@ _ @os.util2;
 
 unit0 0;
 
-if ((unit0==0)*w*h) {
+init.unit {
+
 # HEALTH CRYSTALS [
 
 if (utype==bt.homehealth) {
@@ -60,7 +61,10 @@ if (utype==bt.minion.mage) {
 };
 
 # MINION MAGE ]
+};
 
+if ((unit0==0)*w*h) {
+ init.unit;
 };
 
 _ @dota.map.primitives;
