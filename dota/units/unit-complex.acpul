@@ -43,7 +43,7 @@ if (utype==bt.homehealth) {
 # MINION GUARD [
 
 if (utype==bt.minion.guard) {
-  unit0:=node.new.this.ex(r0, hero.minion.guard, 0);
+  unit0:=node.new.this.ex(u0, hero.minion.guard, 0);
   node.set.s(u0, unit0, 1/3);
   w1 10; # width
   node.set.x(u0, unit0, w/2-w1/2);
