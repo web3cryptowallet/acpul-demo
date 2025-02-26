@@ -68,6 +68,7 @@ if (utype==bt.homebase) {
 #  w1 10; # width
 #  node.set.x(u0, unit0, w/2-w1/2);
   s:=1/4;
+  x:=w+=1;
 };
 
 };
