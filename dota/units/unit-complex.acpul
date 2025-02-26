@@ -25,10 +25,6 @@ _ @os.util2;
 
 unit0 0;
 
-init.unit {
-
-# HEALTH CRYSTALS [
-
 if (utype==bt.homehealth) {
  if (rnd(u0) > 0.5) {
   Crystal.Pulses 3236;
@@ -39,6 +35,11 @@ if (utype==bt.homehealth) {
   unit0:=crystals0;
  };
 };
+
+init.unit {
+
+# HEALTH CRYSTALS [
+
 
 # HEALTH CRYSTALS ]
 # MINION GUARD [
