@@ -67,7 +67,7 @@ if (utype==bt.homebase) {
 #  node.set.s(u0, unit0, 1/3);
 #  w1 10; # width
 #  node.set.x(u0, unit0, w/2-w1/2);
-  s:=1/4.4;
+  s:=1/4;
   x:=w/2-15/2;
   y:=-10;
 };
