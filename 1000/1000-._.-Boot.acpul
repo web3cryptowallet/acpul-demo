@@ -61,7 +61,7 @@ TRACK.SET music.set.track(r0, 1, 20, 3); # AINOT
 TRACK.PLAY music.play(r0, 1, 0, 1);
 
 TRACK.SET music.set.track(u0, 1, 777, 1); # Dj Falcon Unplugged
-TRACK.PLAY music.play(r0, 1, 0, 1);
+TRACK.PLAY music.play(u0, 1, 0, 1);
 
 VIDEO.REC.SECONDS 15;
 #VIDEO.REC.SECONDS 30;
