@@ -47,7 +47,7 @@ SHOW.AVATARS1 1; # 1 - demo, 2 - boot
 SHOW.UFO 1;
 SHOW.WALLEE 1;
 
-TRACK.STOP music.stop(r0);
+#TRACK.STOP music.stop(r0);
 
 #TRACK.SET music.set.track(r0, 1, 2, 17); # EE189
 #TRACK.PLAY music.play(r0, 1, 26.8*60, 1); # EE
@@ -61,7 +61,7 @@ TRACK.SET music.set.track(r0, 1, 20, 3); # AINOT
 TRACK.PLAY music.play(r0, 1, 0, 1);
 
 TRACK.SET music.set.track(u0, 1, 777, 1); # Dj Falcon Unplugged
-TRACK.PLAY music.play(u0, 1, 0, 1);
+TRACK.PLAY music.play(r0, 1, 0, 1);
 
 VIDEO.REC.SECONDS 15;
 #VIDEO.REC.SECONDS 30;
