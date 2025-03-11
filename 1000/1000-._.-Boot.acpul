@@ -139,7 +139,7 @@ if (r0) {
  net.host(192,168,0,176, 8077);
 };
 
-net.editor.update(1);
+net.editor.update(0);
 net.reset.after.update(1, 1000);
 
 # NETWORKING ]
