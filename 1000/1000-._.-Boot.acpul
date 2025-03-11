@@ -140,7 +140,7 @@ if (r0) {
 };
 
 net.editor.update(0);
-net.reset.after.update(1, 1000);
+net.reset.after.update(2, 1000);
 
 # NETWORKING ]
 
