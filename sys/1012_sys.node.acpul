@@ -72,6 +72,9 @@ node {_;
  anchor.point.s1
   # u0, nid, x,y 
   io(_0, 3, _1, _2,_3, 1);
+ anchor.point.g
+  # u0, nid, x,y 
+  io(_0, 3, _1, _2,_3, 2);
  z.order.s
   # u0, index
   io(_0, 4, _1, 0,0,0);
