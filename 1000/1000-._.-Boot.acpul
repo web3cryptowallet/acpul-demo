@@ -1116,5 +1116,6 @@ _ @ui.value5.inc;
 val0 0;ui.value5.start(val0, 0,0,1, 500,500, nid);
 
 # TEST VALUE5
-node.new.this.ex(r0, NNN(A.ui.value5.test), 0);
+#node.new.this.ex(r0, NNN(A.ui.value5.test), 0);
+node.new.this.ex(r0, NNN(A.ui.value5.inc1), 0);
 
