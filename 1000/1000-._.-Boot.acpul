@@ -1120,6 +1120,6 @@ node.new.this.ex(r0, NNN(A.ui.value5.test), 0);
 
 _ @ui.value5.up;
 val0 0;ui.value5.start(val0, 0,0,1, 250,100, nid);
-ui.value5.node.xywh(nid);
 ui.value5.v(NID, nid);
+ui.value5.node.xywh(nid);
 
