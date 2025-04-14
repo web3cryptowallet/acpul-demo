@@ -1115,6 +1115,9 @@ l7;
 #_ @ui.value5.inc;
 #val0 0;ui.value5.start(val0, 0,0,1, 500,500, nid);
 
+# DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
 # TEST VALUE5
 node.new.this.ex(r0, NNN(A.ui.value5.test), 0);
 #node.new.this.ex(r0, NNN(A.ui.value5.inc3), 0);
