@@ -1119,7 +1119,7 @@ node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
 node.new.this.ex(r0, NNN(A.ui.value5.test), 0);
 
 _ @ui.value5.up;
-val0 0;ui.value5.start(val0, 0,0,1, 500,500, nid);
+val0 0;ui.value5.start(val0, 0,0,1, 200,200, nid);
 #ui.value5.v(W, w);
 ui.value5.node.xywh(nid);
 
