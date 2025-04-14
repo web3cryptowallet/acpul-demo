@@ -1112,8 +1112,9 @@ info.vwvh {
 #info.vwvh;
 l7;
 
-#_ @ui.value5.inc;
-#val0 0;ui.value5.start(val0, 0,0,1, 500,500, nid);
+_ @ui.value5.inc;
+val0 0;ui.value5.start(val0, 0,0,1, 500,500, nid);
+ui.value5.v(TEST1, 123);
 
 # DBG LAYER
 node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
