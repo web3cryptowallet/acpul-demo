@@ -334,6 +334,8 @@ if (r0*BOOT.DEMO3) {
 
 # DEMO3 ]
 # HELP [
+
+_ @help.inc;
 # UI DBG [
 
 _ @ui.value5.up;
@@ -342,8 +344,6 @@ _ @ui.value5.up;
 node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
 
 # UI DBG ]
-_ @help.inc;
-
 help0 0;
 
 open.help {
