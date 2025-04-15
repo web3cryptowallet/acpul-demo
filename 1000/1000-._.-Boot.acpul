@@ -296,14 +296,7 @@ new.background201 {
 # new.ui.shader.node3(sn0, 0,0,1, 1024,768, 70014,29202); # 
 # node.value.s(u0, sn0,1, 1); # draw.off
 };
-# UI DBG [
 
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 new.valentine2025 {
  w0 1024;
  h0 768;
@@ -341,7 +334,14 @@ if (r0*BOOT.DEMO3) {
 
 # DEMO3 ]
 # HELP [
+# UI DBG [
 
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 _ @help.inc;
 
 help0 0;
