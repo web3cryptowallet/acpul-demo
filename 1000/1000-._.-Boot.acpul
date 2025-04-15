@@ -1130,3 +1130,5 @@ ui.test.values {
  val0 0;ui.value5.start(val0, 0,0,1, 300,100, panel0);
  ui.value5.node0(panel0);
 };
+
+ui.test.values;
