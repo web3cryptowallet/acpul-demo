@@ -452,7 +452,7 @@ if (BOOT.PAINT*r0) {
 
 # UI DBG [
 
-_ @ui.value5.up;
+#_ @ui.value5.up;
 
 # UI DBG LAYER
 node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
