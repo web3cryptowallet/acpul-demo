@@ -449,14 +449,6 @@ if (BOOT.PAINT*r0) {
 
 NNN node.fid.by.name(u0, _0);
 
-# UI DBG [
-
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 
 if (BOOT.PLAYER*r0) {
  new.player;
@@ -514,6 +506,14 @@ if (r0) {
 };
 
 # APPS ]
+# UI DBG [
+
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 
 
 #VG;
