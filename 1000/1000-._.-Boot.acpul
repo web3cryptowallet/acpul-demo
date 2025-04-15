@@ -456,7 +456,7 @@ _ @ui.value5.up;
 
 # UI DBG LAYER
 #node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
+u12:=0;
 # UI DBG ]
 
 if (BOOT.PLAYER*r0) {
