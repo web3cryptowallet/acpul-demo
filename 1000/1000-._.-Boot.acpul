@@ -954,6 +954,14 @@ new.text.label1b
  new.text.label1b(d0, 50,510,1, S.ua30b, 70);
  new.text.label1b(d0, 290,340,1, S.ua30c, 160);
 };
+# UI DBG [
+
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 
 # demo ua30 ]
 
@@ -1125,13 +1133,5 @@ ui.test.values {
  val0 0;ui.value5.start(val0, 0,0,1, 300,100, panel0);
  ui.value5.node0(panel0);
 };
-# UI DBG [
-
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 
 #ui.test.values;
