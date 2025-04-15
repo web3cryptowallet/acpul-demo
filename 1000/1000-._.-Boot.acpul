@@ -441,6 +441,13 @@ GAME.NEBULA 11800;
 if (r0*BOOT.GAME.NEBULA) {
  run.nebula;
 };
+
+if (BOOT.PAINT*r0) {
+# VG;
+ run.paint;
+};
+
+NNN node.fid.by.name(u0, _0);
 # UI DBG [
 
 _ @ui.value5.up;
@@ -449,13 +456,6 @@ _ @ui.value5.up;
 node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
 
 # UI DBG ]
-if (BOOT.PAINT*r0) {
-# VG;
- run.paint;
-};
-
-NNN node.fid.by.name(u0, _0);
-
 
 if (BOOT.PLAYER*r0) {
  new.player;
