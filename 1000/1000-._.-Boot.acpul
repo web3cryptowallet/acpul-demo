@@ -437,7 +437,14 @@ GAME.NEBULA 11800;
 #node.new.this.ex(r0*BOOT.GAME.NEBULA, GAME.NEBULA, 0);
 #node.new.this.ex(r0, GAME.NEBULA, 0);
 #new.wallet;
+# UI DBG [
 
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 if (r0*BOOT.GAME.NEBULA) {
  run.nebula;
 };
@@ -461,14 +468,7 @@ if (BOOT.FILES*r0) {
 if (BOOT.WINAMP*r0) {
  new.winamp;
 };
-# UI DBG [
 
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 
 _ @boot.menu;
 
