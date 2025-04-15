@@ -491,6 +491,14 @@ merge.life 1100000;
 #VG;
 
 # GAME MERGE.LIFE ]
+# UI DBG [
+
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 # APPS [
 
 _ @sys.os;
@@ -669,14 +677,6 @@ run.neo {
  node.new.this.ex(u0, neo.v2.tests, 0);
 };
 
-# UI DBG [
-
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 
 
 
