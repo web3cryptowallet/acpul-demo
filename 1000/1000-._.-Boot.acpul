@@ -132,7 +132,6 @@ if (r0) {
 };
 
 # i18n ]
-
 # NETWORKING [
 
 #url0 l12;
@@ -147,6 +146,14 @@ net.editor.update(0);
 net.reset.after.update(2, 1000);
 
 # NETWORKING ]
+# UI DBG [
+
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 
 
 _ @sys.llog;
@@ -1112,10 +1119,6 @@ info.vwvh {
 #info.vwvh;
 
 
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-_ @ui.value5.up;
 
 ui.test.values {
  # TEST VALUE5
