@@ -146,14 +146,6 @@ net.editor.update(0);
 net.reset.after.update(2, 1000);
 
 # NETWORKING ]
-# UI DBG [
-
-_ @ui.value5.up;
-
-# UI DBG LAYER
-node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
-
-# UI DBG ]
 
 
 _ @sys.llog;
@@ -209,6 +201,14 @@ syntax.highlight.init
 
 # old: ide/syntax ]
 
+# UI DBG [
+
+_ @ui.value5.up;
+
+# UI DBG LAYER
+node.new.this.ex(r0, NNN(A.ui.value5.layer), 0);
+
+# UI DBG ]
 # SOUND [
 
 _ @sys.dsp;
