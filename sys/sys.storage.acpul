@@ -39,6 +39,9 @@ storage.get.load.file
 
 storage.image.save.texture1 {
  # pool,uid, texture, rect(x,y,w,h), orientation
+ # orientation: 
+ #  0-up, 1-down, 2-left, 3-right
+ #  4-up-flip, 5-down-flip, 6-left-flip, 7-right-flip
  io(u0, 500514, _3,_4, _5,_6);
  io(u0, 500510, _0,_1, _2, _7);
 };
