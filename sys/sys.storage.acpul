@@ -37,6 +37,12 @@ storage.get.load.file
  io(u0, 500502, _0,0,0,0);
 
 
+storage.image.save.texture1 {
+ # pool,uid, texture, rect(x,y,w,h), orientation
+ io(u0, 500514, _3,_4, _5,_6);
+ io(u0, 500510, _0,_1, _2, _7);
+};
+
 storage.image.save.texture {
  # pool,uid, texture, rect(x,y,w,h)
  io(u0, 500514, _3,_4, _5,_6);
