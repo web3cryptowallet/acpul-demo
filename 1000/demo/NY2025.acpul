@@ -21,7 +21,7 @@ if (r0) {
 new.paint.view
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.paint.view), _6,_7,_8, 0);
 
-#paint0 0;
+paint0 0;
 
 if (r0) {
 # new.paint.view(paint0, 0,0,1, 1000,1000, 20000,0,400); # fish
