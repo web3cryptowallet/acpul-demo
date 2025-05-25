@@ -852,9 +852,6 @@ process.node.events {
   _ @boot.menu.events.exec;
 
 
-  if (_0==boot.run.dota) {
-   toggle.dota.test;
-  };
   if (_0==boot.run.hero) {
    run.nebula;
   };
