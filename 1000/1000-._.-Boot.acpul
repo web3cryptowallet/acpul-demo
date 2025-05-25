@@ -862,7 +862,7 @@ process.node.events {
    run.paint;
   };
   if (_0==boot.run.wallet) {
-   run.wallet;
+   toggle.wallet;
   };
   if (_0==boot.run.neo) {
    run.neo;
