@@ -853,15 +853,11 @@ process.node.events {
 
 
   if (_0==boot.run.dota) {
-#   run.dota;
    toggle.dota.test;
   };
   if (_0==boot.run.hero) {
    run.nebula;
   };
-#  if (_0==boot.run.paint) {
-#   toggle.paint;
-#  };
   if (_0==boot.run.wallet) {
    toggle.wallet;
   };
