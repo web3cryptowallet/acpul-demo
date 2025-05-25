@@ -859,7 +859,7 @@ process.node.events {
    run.nebula;
   };
   if (_0==boot.run.paint) {
-#   toggle.paint;
+   toggle.paint;
   };
   if (_0==boot.run.wallet) {
    toggle.wallet;
