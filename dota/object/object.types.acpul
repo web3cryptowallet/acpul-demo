@@ -34,6 +34,10 @@ bots {
   minion.mage 6;
   minion.guard 7;
   minion.captain 8;
+
+#  space.container 100;
+#  space.base 101;
+#  space.starship 102;
  };
 };
 players {
