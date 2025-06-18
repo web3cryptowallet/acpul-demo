@@ -1,2 +1,12 @@
 ### dota.map.place
 
+_ @help.inc1;
+
+node.prop.z.order.s(u0, nid, 100000-y);
+
+draw.fid(dota.map.place.draw);
+
+### dota.map.place.draw
+
+color(u0, 0,0,0.1,0.5);
+rect(u0, 6, 0,0, w,h);
