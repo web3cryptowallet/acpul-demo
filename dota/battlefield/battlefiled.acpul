@@ -81,7 +81,7 @@ if (r0) {
  h0 100;
  h1 h0*1.4;
  new.place.crunch1(sn0, 0,0,1,w0,h0, tex1);
- new.map.place(place0, 130,100,1/3, w0,h1, sn0);
+ new.map.place(place0, 140,100,1/3, w0,h1, sn0);
 
 # new.place.crunch2(sn0, 110,140,1,100,100, tex1);
 # new.map.place(place0, 0,0,1/3, w0,h1, sn0);
