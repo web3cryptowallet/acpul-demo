@@ -80,7 +80,7 @@ if (r0) {
  new.place.crunch1(sn0, 0,0,1,100,100, tex1);
  new.map.place(place0, 0,0,1/3, w0,h1, sn0);
 
- new.place.crunch2(sn0, 110,140,1,100,100, tex1);
+# new.place.crunch2(sn0, 110,140,1,100,100, tex1);
 # new.map.place(place0, 0,0,1/3, w0,h1, sn0);
 
 };
