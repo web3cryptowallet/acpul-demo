@@ -224,12 +224,6 @@ a {
  new.fire1(sn0, 200-3,140,1/3*hq, 25/2*3/hq,50/2*3/hq);
  new.fire1(sn0, 240,140,1/3*hq, 25/2*3/hq,50/2*3/hq);
 
- # BASE [
-
- new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28557); # starship7
-# new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28419); # starship1
-
- # BASE ]
  # DIALOG TEST [
 
  _ @dota.dialog.inc;
