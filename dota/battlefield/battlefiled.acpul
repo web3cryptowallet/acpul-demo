@@ -138,6 +138,7 @@ add.coin {
  coins=_2;
 # box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
  box0=fly.box1(x0,y0,1/3, coins);
+ node.set.lt(u0, box0, 10);
 };
 
 add.coin(0,0, 42);
