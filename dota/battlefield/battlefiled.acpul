@@ -141,7 +141,7 @@ add.coin {
 };
 
 add.coin(0,0, 42);
-add.coin(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2+100, 15);
+add.coin(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2+10, 15);
 
 
 dota.evs {
