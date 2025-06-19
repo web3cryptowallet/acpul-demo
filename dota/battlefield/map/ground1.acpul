@@ -124,9 +124,12 @@ new.dota.paint.view
 new.dota.sphere.drop79
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.sphere.drop79), 0,0,0,0);
 
+# EFFECT [
+
 new.dota.buff.effect1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.buff.effect1), 0,0,0,0);
 
+# EFFECT ]
 
 _ @dota.map.primitives;
 
