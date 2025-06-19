@@ -105,6 +105,7 @@ if (r0) {
 
 
  starship.new;
+ 
  w0 300;
  h0 300;
  h1 h0;
