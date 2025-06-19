@@ -113,6 +113,7 @@ if (r0) {
  h1 h0;
  new.place.space.launch.base(launch.base0, 0,0-h0/10,1, w0,h0);
  new.map.place(place0, 110,10,1/3, w0,h1, launch.base0);
+ launch.base0:=place0; # hack
 
 
 };
