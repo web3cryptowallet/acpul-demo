@@ -69,9 +69,9 @@ place0 0;
 
 tex1 0;
 
-_ @load.texture;
 _ @basic.ui.shader.node3.inc;
 _ @sys.shader.ex;
+_ @load.texture;
 
 if (r0) {
 
