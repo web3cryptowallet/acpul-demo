@@ -226,8 +226,8 @@ a {
 
  # BASE [
 
- new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28557); # starship7
- new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28419); # starship1
+# new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28557); # starship7
+# new.ui.shader.node3(sn0, 100,100,1/4, 1300/3,1300/3, 70014,28419); # starship1
 
  # BASE ]
  # DIALOG TEST [
