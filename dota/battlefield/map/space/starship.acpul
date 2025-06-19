@@ -86,8 +86,7 @@ if (starship.direction==down) {
   velocity0:=0;
 
   # add.coin; # event
-#  coins0=
-rnd(u0)*100000;
+  coins0=rnd(u0)*100000;
   events.push(u0, dota.pool,0, ev.dota.add.coin1, 0,0, coins0, 0);
  };
 };
