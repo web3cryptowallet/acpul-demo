@@ -154,6 +154,13 @@ dota.evs {
 
 ui.event.process4(dota.pool,0, dota.evs);
 
+# XCOIN [
+
+ _ @dota.xcoin.inc;
+ coin0 0;
+ new.coin(coin0, 0,0,1, 100,100, 2);
+
+# XCOIN ]
 
 
 # EVENTS ]
