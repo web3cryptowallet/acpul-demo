@@ -90,7 +90,6 @@ if (starship.direction==down) {
   x0=dock0.x-1*rnd(u0)/2+20;
   y0=dock0.y+dock0.h/s0/2;
   events.push(u0, dota.pool,0, ev.dota.add.coin1, x0,y0, coins0, 0);
-
  };
 };
 
