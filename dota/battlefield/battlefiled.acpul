@@ -69,6 +69,8 @@ place0 0;
 
 tex1 0;
 
+_ @load.texture;
+
 if (r0) {
 
  load.texture(tex1, 11001,2,5); # ground.gold
