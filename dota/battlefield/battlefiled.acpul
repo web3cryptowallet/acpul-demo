@@ -70,7 +70,6 @@ place0 0;
 tex1 0;
 
 _ @load.texture;
-_ @photoneo.common.gl.extra;
 
 if (r0) {
 
