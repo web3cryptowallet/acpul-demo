@@ -70,6 +70,7 @@ place0 0;
 tex1 0;
 _ @4;
 
+
 _ @sys.storage;
 _ @load.texture;
 
