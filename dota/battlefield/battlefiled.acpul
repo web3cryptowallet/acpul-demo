@@ -133,7 +133,7 @@ add.coin {
  # x,y, coins
  _ @dota.fly.box2;
  s0 3;
- coins _2;
+ coins=_2;
  box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
 };
 
@@ -142,7 +142,8 @@ add.coin(0,0, 42);
 dota.evs {
  # ev, o0... - event
  if (_0==ev.dota.add.coin1) {
-  add.coin(0,0, 42);
+  # x,y, coins
+  add.coin(o0,o1, o2);
  };
 };
 
