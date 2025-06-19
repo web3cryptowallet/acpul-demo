@@ -126,6 +126,9 @@ if (r0) {
  new.node.common0(omphalos0, 0,240,1/3, 300*3,100*3, dota.forest.of.omphalos, 0);
 };
 
+# PLACES ]
+# EVENTS [
+
 add.coin {
  # x,y, coins
  _ @dota.fly.box2;
@@ -147,7 +150,7 @@ ui.event.process4(dota.pool,0, dota.evs);
 
 
 
-# PLACES ]
+# EVENTS ]
 # CAMERA TO PLAYER [
 
 _ @sys.net;
