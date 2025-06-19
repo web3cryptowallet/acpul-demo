@@ -133,7 +133,7 @@ add.coin {
  box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
 };
 
-add.coin(0,0, 42);
+#add.coin(0,0, 42);
 
 
 
