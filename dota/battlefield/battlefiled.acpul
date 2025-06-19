@@ -106,7 +106,7 @@ if (r0) {
  w0 300;
  h0 300;
  h1 h0;
- new.place.space.launch.base(launch.base0, 0,0,1, w0,h0);
+ new.place.space.launch.base(launch.base0, 0,0-h0/10,1, w0,h0);
  new.map.place(place0, 110,0,1/3, w0,h1, launch.base0);
 
 };
