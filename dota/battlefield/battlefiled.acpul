@@ -72,8 +72,6 @@ tex1 0;
 _ @sys.storage;
 _ @load.texture;
 
- load.texture(tex1, 11001,2,5); # ground.gold
-
 if (r0) {
 
  load.texture(tex1, 11001,2,5); # ground.gold
