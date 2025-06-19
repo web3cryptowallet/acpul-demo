@@ -26,3 +26,12 @@ new.unit.alien1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.unit.alien1), 0,0,0,0);
 
 # PLACES SPACE ]
+# BUILDINGS [
+
+new.place.crunch1
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(dota.building.crunch1), _6);
+
+new.place.crunch2
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(dota.building.crunch2), _6);
+
+ # BUILDINGS ]
