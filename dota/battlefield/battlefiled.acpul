@@ -67,7 +67,12 @@ new.map.place {
 
 place0 0;
 
+tex1 0;
+
 if (r0) {
+
+ load.texture(tex1, 11001,2,5); # ground.gold
+
  y0 0-25;
  w0 200;
  h0 200;
