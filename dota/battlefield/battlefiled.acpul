@@ -76,7 +76,7 @@ _ @sys.storage;
 #_ @basic.ui.shader.node3.inc;
 #_ @sys.shader.ex;
 
-_ @load.texture;
+#_ @load.texture;
 #_ @photoneo.common.gl.extra;
 
 
