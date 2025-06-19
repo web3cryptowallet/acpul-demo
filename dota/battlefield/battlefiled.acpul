@@ -125,6 +125,17 @@ if (r0) {
  new.node.common0(omphalos0, 0,240,1/3, 300*3,100*3, dota.forest.of.omphalos, 0);
 };
 
+add.coin {
+ _ @dota.fly.box2;
+ s0 3;
+ box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2);
+};
+
+add.coin;
+
+
+
+
 
 # PLACES ]
 # CAMERA TO PLAYER [
