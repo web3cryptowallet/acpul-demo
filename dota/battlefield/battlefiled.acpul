@@ -126,9 +126,11 @@ if (r0) {
 };
 
 add.coin {
+ # x,y, coins
  _ @dota.fly.box2;
  s0 3;
- box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2, 1, 1);
+ coins _0;
+ box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
 };
 
 add.coin;
