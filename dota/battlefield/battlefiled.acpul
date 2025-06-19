@@ -133,10 +133,11 @@ add.coin {
  # x,y, coins
  _ @dota.fly.box2;
  s0 3;
- x=_0;
- y=_1;
+ x0=_0;
+ y0=_1;
  coins=_2;
- box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
+# box0=fly.box1(dock0.x-1*rnd(u0)/2+20,dock0.y+dock0.h/s0/2,1, coins);
+ box0=fly.box1(x0,y0,1, coins);
 };
 
 add.coin(0,0, 42);
