@@ -19,6 +19,7 @@ _ @basic.ui;
 _ @os.util2;
 _ @basic.ui.shader.node3.inc;
 _ @dota.map.primitives;
+_ @sys.events;
 
 if (r0) {
  w:=500;
