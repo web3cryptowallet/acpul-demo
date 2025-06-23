@@ -40,4 +40,7 @@ new.place.crunch2
 new.dota.buff.effect1
  new.node.common4(_0, _1,_2,_3, _4,_5, NNN(A.dota.buff.effect1), 0,0,0,0);
 
+new.fire1
+ new.node.common4(_0, _1,_2,_3, _4,_5, NNN(dota.fire1), 0,0,0,0);
+
 # EFFECT ]

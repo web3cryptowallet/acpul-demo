@@ -96,15 +96,25 @@ if (r0) {
 
  w0 100;
  h0 100;
- h1 h0*1.4;
- new.place.crunch1(sn0, 0,0,1,w0,h0, tex1);
- new.map.place(place0, 140,100,1/3, w0,h1, sn0);
-
- w0 100;
- h0 100;
  h1 h0;
  new.place.crunch2(sn0, 0,0,1,w0,h0, tex1);
  new.map.place(place0, 110,140,1/2, w0,h1, sn0);
+
+ w0 100;
+ h0 100;
+ h1 h0*1.4;
+ new.place.crunch1(sn0, 0,0,1,w0,h0, tex1);
+ new.map.place(place0, 210,140,1/3, w0,h1, sn0);
+
+ hq 1;
+# hq 12;
+ w0 25/2*3/hq;
+ h0 70/2*3/hq;
+ h1 h0;
+ new.fire1(sn0, 0,0,1, w0,h0);
+ new.map.place(place0, 200,142,1/3*hq, w0,h1, sn0);
+ new.fire1(sn0, 0,0,1, w0,h0);
+ new.map.place(place0, 240,142,1/3*hq, w0,h1, sn0);
 
 
  starship.new;

@@ -209,7 +209,8 @@ create.unit {
 
  };
  if (r0*e) {
-  e 3;
+#  e 1;
+  e 5;
   ss 2;
   w0 w*e;
   h0 w*e;
