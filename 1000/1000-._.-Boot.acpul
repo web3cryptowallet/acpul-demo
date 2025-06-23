@@ -454,6 +454,10 @@ if (BOOT.PAINT*r0) {
  run.paint;
 };
 
+if (BOOT.POMODORO*r0) {
+ events.push(u0, boot.pool,0, boot.event.run.app, NNN(acpu.pomodoro), 0,0,0);
+};
+
 
 
 if (BOOT.PLAYER*r0) {
