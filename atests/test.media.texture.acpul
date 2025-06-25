@@ -1,6 +1,8 @@
 ### 5400 test.media.texture
 # tex0, timer0
 
+timer0 p1;
+
 _ @0;
 _ @BOOT.OPTIONS;
 
