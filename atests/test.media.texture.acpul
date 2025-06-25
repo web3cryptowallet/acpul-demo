@@ -72,7 +72,7 @@ if (r0) {
 
 #node.value.s(u0, nid,1, t); # OUT.time
 
-events.push(u0, ui.pool,0, ev.video.rec.time, t, 0,0,0);
+events.push(u0, ui.pool,timer0, ev.video.rec.time, t, 0,0,0);
 
 
 
