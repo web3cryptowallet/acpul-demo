@@ -16,6 +16,10 @@ music.play.time # old?
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
 
+music.play.effect
+ # r0, pool:id:i
+ io(_0, 500092, _1,_2,_3,0);
+
 # MUSIC STATS AND SEEK [
 
 music.get.stats.play.x
