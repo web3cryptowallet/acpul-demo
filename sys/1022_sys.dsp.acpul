@@ -1,5 +1,13 @@
 ### 1022 sys.dsp
 
+# AUDIO SAMPLE [
+
+audio.sample.play
+ # r0, pool:id:i
+ io(_0, 500092, _1,_2,_3,0);
+
+# AUDIO SAMPLE ]
+
 music.set.track
  # r0, pool,uid,i
  io(_0, 500093, _1,_2,_3,0);
@@ -16,13 +24,6 @@ music.play.time # old?
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
 
-# AUDIO SAMPLE [
-
-audio.sample.play
- # r0, pool:id:i
- io(_0, 500092, _1,_2,_3,0);
-
-# AUDIO SAMPLE ]
 # MUSIC STATS AND SEEK [
 
 music.get.stats.play.x
