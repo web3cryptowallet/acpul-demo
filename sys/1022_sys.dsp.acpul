@@ -17,7 +17,7 @@ music.play.time # old?
  io(_0, 500094, _1, 0,0,0);
 
 # 
-music.sound.play
+audio.sound.play
  # r0, pool:id:i
  io(_0, 500092, _1,_2,_3,0);
 
