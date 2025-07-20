@@ -16,8 +16,9 @@ music.play.time # old?
  # r0, track.id -> time
  io(_0, 500094, _1, 0,0,0);
 
-# 
-audio.sound.play
+# sample
+
+audio.sample.play
  # r0, pool:id:i
  io(_0, 500092, _1,_2,_3,0);
 
