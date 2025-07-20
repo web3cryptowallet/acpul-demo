@@ -125,6 +125,11 @@ media.input.get.display.keyboard.rect
 # INPUT ]
 # AUDIO [
 
+media.audio.play.file
+ io(_0, 500961, 0, 0,0,0);
+
+# NOT WORKS media.audio [
+
 media.audio.setup
  # u0
  io(_0, 500960, 0, 0,0,0);
@@ -164,6 +169,8 @@ media.audio.sample.write
 media.audio.sample.read
  # u0
  io(_0, 500960, 0, 0,0,0);
+
+# NOT WORKS media.audio ]
 
 # AUDIO ]
 # VIDEO [
