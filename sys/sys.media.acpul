@@ -127,7 +127,7 @@ media.input.get.display.keyboard.rect
 
 # NOT WORKS media.audio [
 
-#media.audio.play.file
+#media.audio.play.file see sys.dsp mu
 # # 
 # io(_0, 500961, 0, ,0,0);
 
