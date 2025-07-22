@@ -40,6 +40,16 @@ apply.effect {
   new.ui.shader.node(sn0, 0-28,-3,0.7, 100,100, 1, 70014,28747); # dota.eff.rocks1
  };
 
+ effect7 { # stones
+  sn0 0;
+  e 1/2;
+  f 10;
+  w0 100;
+  h0 100;
+  f1 0+(w0+f*2/e)/w0;
+  new.ui.shader.node3(sn0, 0-f,0-f,1/2*e*f1, w0/e,h0/e, 70014,29292); # dota.skill92
+};
+
  if (id==0) {effect0;};
  if (id==1) {effect1;};
  if (id==2) {effect2;};
@@ -47,5 +57,6 @@ apply.effect {
  if (id==4) {effect4;};
  if (id==5) {effect5;};
  if (id==6) {effect6;};
+ if (id==7) {effect7;};
 };
 

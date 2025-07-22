@@ -2,6 +2,17 @@
 _ @3200;
 _ @1010;
 _ @sys.node;
+_ @help.inc1;
+
+# LIB [
+
+new.dota.skill.button
+ # ..skill
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(A.dota.skill.button), _6);
+
+# LIB ]
+
+bn0 0;
 
 create.asset {
  _ @93000; # nodes
@@ -52,6 +63,18 @@ if (r0) {
 
  create.asset;
 };
+
+# BUTTONS [
+
+if (w*h*(bn0==0)) {
+ w1 200;
+ h1 200;
+ x1 w-w1;
+ y1 0;
+ new.dota.skill.button(bn0, x1,y1,1, w1,h1, 0); # BN.FIRE
+};
+
+# BUTTONS ]
 
 draw(r0, 3283);
 

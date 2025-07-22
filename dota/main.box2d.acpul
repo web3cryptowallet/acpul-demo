@@ -18,13 +18,15 @@ if (r0) {
  box2d.set.draw.color(u0, physics.world, 3, 0,1,1,0); # circle
  box2d.set.draw.color(u0, physics.world, 4, 0,0,1,0);
 };
-# CREATE WORLD ]
 
+# CREATE WORLD ]
 # STEP [
+
 velocity.iteractions 8;
 position.iteractions 3;
 
-box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
-# STEP ]
+#box2d.step(u0, b2d.world, 1/60, velocity.iteractions, position.iteractions);
+box2d.step(u0, b2d.world, dt, velocity.iteractions, position.iteractions);
 
+# STEP ]
 # BOX2D PHYSICS ]

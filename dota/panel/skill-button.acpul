@@ -1,4 +1,54 @@
-# 3260 dota.skill.button
+### dota.skill.button
+
+_ @help.inc1;
+_ @sys.dsp;
+
+# LIB [
+
+new.panel.button {
+ # bn0, x,y,s, w,h, type
+ new.button.custom(_0, _1,_2,_3, _4,_5, NNN(panel.button0), _6, _7);
+# node.anchor.point.s1(u0, _0, 0,0);
+};
+
+# LIB ]
+
+bn0 0;
+bn1 0;
+
+if (w*h*(bn0==0)) {
+ x0 0;
+ y0 0;
+ bw w;
+ bh h;
+ new.panel.button(bn0, x0,y0,1, bw,bh, 0, DOTA.BN.FIRE);
+};
+
+fire {
+# lt:=0.1;
+# audio.sample.play(u0, 1,1,1); # phone call
+# audio.sample.play(u0, 1,1,67); # game fire
+# audio.sample.play(u0, 1,1,3); # game door
+# audio.sample.play(u0, 1,1,4); # game fire
+# audio.sample.play(u0, 1,1,7); # game fire
+# audio.sample.play(u0, 1,1,8); # game fire
+ audio.sample.play(u0, 1,1,9); # game fire
+# audio.sample.play(u0, 1,1,21); # game fire
+# audio.sample.play(u0, 1,1,59); # game fire
+# audio.sample.play(u0, 1,1,60); # game teleport
+# audio.sample.play(u0, 1,1,74); # game fire
+# audio.sample.play(u0, 1,1,76); # game monster
+# audio.sample.play(u0, 1,1,79); # game gun
+# audio.sample.play(u0, 1,1,98); # game monster
+# audio.sample.play(u0, 1,1,99); # game kick
+
+ # create bullet
+ # send event ?
+
+};
+
+_ @process.events.button.push;
+process.events.button.push(bn0, fire); # BUTTON DOTA.BN.FIRE
 
 
-# 3261 dota.skill.button.draw
+### dota.skill.button.draw

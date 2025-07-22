@@ -94,6 +94,7 @@ if (r0) {
   create.unit(q);
 
 #  apply.effect(eff0, 0);
+  apply.effect(eff0, 7);
 
   # WEAPON SWORD [
 
@@ -151,12 +152,13 @@ uh 0;
 
 create.unit {
  q _0;
- q 4;
+ q 5;
  a = q==0;
  b = q==1;
  c = q==2;
  d = q==3;
  e = q==4;
+ f = q==5;
 
  sword0.on := 1;
  sword0.x := 23;
@@ -226,6 +228,21 @@ create.unit {
   sword0.on:=0;
   boxers0.on:=0;
  };
+ if (r0*f) {
+#  e 1;
+  e 2;
+  ss 2;
+  w0 w*e;
+  h0 w*e;
+  new.node.common0(hero0, 0,0, 1/e, w0,h0, NNN(hero.rabbit), player.id);
+  ustats0.x := w0/e/2-ustats0.w/e/4;
+  ustats0.y := h0/e/2+10;
+
+  sword0.on:=0;
+  boxers0.on:=0;
+ };
+
+ 
 };
 
 # CREATE UNIT ]
