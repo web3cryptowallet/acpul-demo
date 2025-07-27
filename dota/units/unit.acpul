@@ -259,7 +259,7 @@ create.stats.header {
 # UNIT ]
 # EFFECT [
 
-_ @dota.unit.apply.effect;
+#_ @dota.unit.apply.effect;
 
 # EFFECT ]
 # WEAPON [
