@@ -312,7 +312,11 @@ node {_;
 
  change.parent
   # u0, target.nid, nid
-  io(_0, 7226, _1, _2, 0,0);
+  io(_0, 7226, _1, _2, 0, 0);
+
+ change.parent.now
+  # u0, target.nid, nid
+  io(_0, 7226, _1, _2, 1, 0);
 
  get.child.dma
   # u0, nid, dma -> -1 - bad dma size
