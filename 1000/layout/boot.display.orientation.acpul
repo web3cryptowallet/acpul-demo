@@ -1,0 +1,28 @@
+### boot.display.orientation
+
+# DISPLAY ORIENTATION [
+
+_ @1010;
+_ @sys.display;
+
+vw 768; vh 1024;
+
+
+#display.size;
+#vw:=o0;
+#vh:=o1;
+display.scalled.size(vw,vh);
+
+l0:=display.orientation.get() - display.orientation.landscape;         
+if (l0>0) {
+ w:=vh;
+ h:=vw;
+# s:=1;
+};
+if (l0<=0) {
+ w:=vw;
+ h:=vh;
+# s:=0.65;
+};
+
+# DISPLAY ORIENTATION ]
