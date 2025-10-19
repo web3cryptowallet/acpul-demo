@@ -24,10 +24,11 @@ BOOT.POMODORO 0;
 BOOT.RESUME 0;
 
 BOOT.WALLET 0;
-BOOT.MAGAZINE 1;
+BOOT.MAGAZINE 0;
 BOOT.ALBUM 0;
-BOOT.BITCHAT 1;
+BOOT.BITCHAT 0;
 BOOT.GOURCE 0;
+BOOT.ADA 1;
 
 BOOT.DOTA 0;
 BOOT.DOTA.TEST 0;
@@ -40,7 +41,7 @@ BOOT.DEMO3 0;
 
 BOOT.INTRO 0;
 
-BOOT.PAINT 0;
+BOOT.PAINT 1;
 BOOT.PLAYER 0;
 BOOT.FILES 0;
 BOOT.WINAMP 0;
@@ -669,6 +670,11 @@ run.neo {
 };
 
 
+
+if (BOOT.ADA*r0) {
+# node.new.this.ex(u0, NNN(ada.test), 0);
+ events.push(u0, boot.pool,0, boot.event.run.app, NNN(ada.test), 0,0,0);
+};
 
 
 # Hacktoberfest
