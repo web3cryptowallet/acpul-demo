@@ -160,7 +160,8 @@ NNN node.fid.by.name(u0, _0);
 
 
 _ @sys.llog;
-llog.host(u0, 192,168,1,176, 8995); 
+llog.host(u0, 192,168,1,154, 8995); 
+#llog.host(u0, 192,168,1,176, 8995); 
 #llog.host(u0, 192,168,0,176, 8995); 
 #llog.host(u0, 192,168,1,54, 8995); 
 llog.enable(u0, 1);
