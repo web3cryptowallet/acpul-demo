@@ -439,7 +439,8 @@ if (BOOT.ALBUM*r0) {
 };
 
 if (BOOT.GOURCE*r0) {
- node.new.this.ex(u0, NNN(A.acpu.gource), 0);
+# node.new.this.ex(u0, NNN(A.acpu.gource), 0);
+ events.push(u0, boot.pool,0, boot.event.run.app, NNN(A.acpu.gource), 0,0,0);
 };
 
 if (BOOT.PAINT*r0) {
