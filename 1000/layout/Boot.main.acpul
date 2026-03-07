@@ -381,4 +381,3 @@ _ @4;
 #!node.new.this.ex(r0, 20000, 0);
 #!node.new.this.ex(r0, 11000, 0);
 
-s:=1;
