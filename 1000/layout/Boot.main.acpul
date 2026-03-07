@@ -259,7 +259,7 @@ t+=dt;
 # VIDEO BOOT ]
 
 
-s:=1;
+s:=0.5;
 
 ### 900 Boot.debug.draw
 
