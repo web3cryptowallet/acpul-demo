@@ -72,8 +72,8 @@ media.video.recorder.stop
  io(_0, 500833, _1, 0,0,0);
 
 media.video.recorder.set.duration
- # u0, tex, duration
- io(_0, 500834, _1, _2, 0,0);
+ # u0, tex, duration, writing.duration
+ io(_0, 500834, _1, _2, _3, 0);
 
 # VIDEO RECORD ]
 # TWITCH [
