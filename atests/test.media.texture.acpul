@@ -60,7 +60,7 @@ if (r0) {
 
 # cpu.frame.dt(u0, 1/60);
 
- media.video.recorder.set.duration(u0, tex, nseconds, if(STREAM.TWITCH, STREAM.TWITCH.WRITING.DURATION, 0)); 
+ media.video.recorder.set.duration(u0, tex, nseconds, if(STREAM.TWITCH, STREAM.TWITCH.REC.SECONDS, 0)); 
 # media.video.recorder.set.duration(u0, tex, 120); 
 
  media.twitch.attach.texture(u0, tex);
