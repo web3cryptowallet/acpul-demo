@@ -74,7 +74,8 @@ TRACK.PLAY music.play(r0, 1, 0, 1);
 #TRACK.SET music.set.track(u0, 1, 777, 1); # Dj Falcon Unplugged
 #TRACK.PLAY music.play(r0, 1, 0, 1);
 
-VIDEO.REC.SECONDS 10;
+#VIDEO.REC.SECONDS 10;
+VIDEO.REC.SECONDS 260;
 
 #STREAM.TWITCH 1;
 #STREAM.TWITCH.REC.SECONDS 100; # sec
