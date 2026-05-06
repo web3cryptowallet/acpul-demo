@@ -283,11 +283,20 @@ device.is.slow0 {
 
 cpu.get.nodes
  # u0, tid, mode, nid -> tree, count
+ # mode
+ #  0 - get nodes tree
+ #  1 - get count
+ # mode 0: -> count
+ # mode 1:
  #  nid -1 - start root
  #  nid >0 - select node
  #  tree.item
  #   type, nid, 8,8,8,8, child[] #
  io(_0, 500444, _1, _2, _3, 0);
+
+cpu.get.nodes.count
+ # u0 -> count
+ io(_0, 500444, 0, 1, 0,0);
 
 cpu.get.nodes.main
  # nodes
