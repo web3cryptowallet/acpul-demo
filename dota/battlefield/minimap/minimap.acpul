@@ -95,6 +95,10 @@ sy 0;
 dx 0;
 dy 0;
 
+minimap.set.xy {
+ node.set.xy(u0, minimap0, _0,_1);
+};
+
 pressed r3;
 touch.ev {
  began {
@@ -102,6 +106,7 @@ touch.ev {
   sx:=o2;
   sy:=o3;
   pressed:=1;
+  minimap.set.xy(sx,sy);
   events.push(u0, ui.pool,owner, ui.event.touch.began, o0,o1,o2,o3);
  };
  moved {
@@ -110,6 +115,7 @@ touch.ev {
   dy:=o3-sy;
   sx:=o2;
   sy:=o3;
+  minimap.set.xy(sx,sy);
   events.push(u0, ui.pool,owner, ui.event.touch.move, o0,o1,dx,dy);
  };
  ended {
