@@ -11,7 +11,7 @@ new.minimap
 # map
 # 0: minimap
 
-_ @4;
+_ @help.inc1;
 _ @basic.ui.shader.node3.inc;
 
 
