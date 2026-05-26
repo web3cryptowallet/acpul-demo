@@ -135,6 +135,12 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-50,1/2, O14, minimap.at(14));
 
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-60,1/2, miniview.x, node.get.x(u0, miniview0));
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-70,1/2, miniview.y, node.get.y(u0, miniview0));
+
+ x0 node.get.x(u0, nid)-x;
+ y0 node.get.y(u0, nid)-y;
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-80,1/2, X0, x0);
+lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-90,1/2, Y0, y0);
+
 };
 info;
 
