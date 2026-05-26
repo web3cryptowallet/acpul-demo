@@ -12,5 +12,5 @@ draw.fid(minimap.viewport.draw);
 
 color(u0, 1,1,1,1);
 rect(u0, 2, 0,0, w,h);
-color(u0, 0,0.1,0,0.5);
-rect(u0, 6, 0,0, w,h);
+color(u0, 0.5,0.5,0,0.5);
+rect(u0, 2, 0,0, w,h);
