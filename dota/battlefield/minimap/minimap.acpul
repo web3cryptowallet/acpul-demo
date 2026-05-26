@@ -95,6 +95,10 @@ sy 0;
 dx 0;
 dy 0;
 
+minimap.set.xy {
+  l11;
+ node.set.xy(u0, miniview0, _0,_1);
+};
 
 pressed r3;
 touch.ev {
