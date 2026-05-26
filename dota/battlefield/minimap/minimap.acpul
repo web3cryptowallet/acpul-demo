@@ -79,8 +79,13 @@ dx 0;
 dy 0;
 
 minimap.set.xy {
-  l12;
- node.set.xy(u0, miniview0, _0,_1);
+ # x:y
+ x _0;
+ y _1;
+ x0 node.get.x(u0, nid)+x;
+ y0 node.get.y(u0, nid)+y;
+
+ node.set.xy(u0, miniview0, x0,y0);
 };
 
 
