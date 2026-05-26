@@ -7,6 +7,9 @@ _ @help.inc1;
 
 draw.fid(minimap.viewport.draw);
 
+if (r0) {
+ x:=rnd(u0);
+};
 
 ### minimap.viewport.draw
 
