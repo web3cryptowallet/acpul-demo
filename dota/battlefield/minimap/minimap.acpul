@@ -6,7 +6,6 @@ new.miniview
 
 
 
-
 ### 19200 DOTA::minimap
 # map
 # 0: minimap
@@ -16,7 +15,6 @@ _ @basic.ui.shader.node3.inc;
 
 
 draw(r0, 19201);
-
 
 _ @dota.minimap.inc;
 l11;
