@@ -1,7 +1,7 @@
 ### dota.minimap.inc
 
-new.minimap
- # mini0, x:y:s:w:h, opt
+new.miniview
+ # view0, x:y:s:w:h, opt
  new.node.common0(_0, _1,_2,_3, _4,_5, NNN(A.minimap.viewport), _6);
 
 
@@ -22,10 +22,10 @@ _ @dota.minimap.inc;
 l11;
 #new.minimap 0;
 
-minimap0 0;
+miniview0 0;
 
 if (r0) {
- new.minimap(minimap0, 0,0,1,100,100, 0);
+ new.minimap(miniview0, 0,0,1,100,100, 0);
 };
 
 
@@ -97,7 +97,7 @@ dy 0;
 
 minimap.set.xy {
   l11;
- node.set.xy(u0, minimap0, _0,_1);
+ node.set.xy(u0, miniview0, _0,_1);
 };
 
 pressed r3;
