@@ -17,13 +17,11 @@ _ @basic.ui.shader.node3.inc;
 draw(r0, 19201);
 
 _ @dota.minimap.inc;
-l11;
-#new.minimap 0;
 
 miniview0 0;
 
 if (r0) {
- new.minimap(miniview0, 0,0,1,100,100, 0);
+ new.miniview(miniview0, 0,0,1,100,100, 0);
 };
 
 
