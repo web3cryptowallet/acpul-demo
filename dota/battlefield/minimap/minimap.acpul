@@ -2,7 +2,7 @@
 
 new.minimap
  # u0, x:y:s:w:h, opt
- new.node.common0(_0, _1,_2,_3, _4,_5, NNN(A.album), _6);
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(A.minimap.viewport), _6);
 
 
 
