@@ -1,49 +1,8 @@
-### dota.minimap.def
+### dota.minimap.inc
 
-# MINIMAP [
-
-_ @struct.def;
-_ @sys.obj;
-
-minimap {
- _ struct;
-
- width 256;
- height 256;
-
- scale 0.2;
- 
-# map0 0;
- objects0 0;
-
- new {
-  # create 2d map
-#  map0:=buffer.new(u0, w*h,w*h);
-
-  # create objects
-  objects0:=buffer.new(u0, 10000,10000);
- };
-
- add {
-  # game.object
-  buffer.append(u0, objects0,0, _0);
- };
-
- count {
-  buffer.size(u0, objects0,0);
- };
-
- at {
-  # i
-  buffer.get(u0, objects0,0,_0);
- };
-
- pack pack4(objects0, width, height, 0);
- unpack unpack4(_0, objects0, width, height, 0);
-};
-
-# MINIMAP ]
-
+new.minimap
+ # u0, x:y:s:w:h, opt
+ new.node.common0(_0, _1,_2,_3, _4,_5, NNN(A.album), _6);
 
 
 
@@ -55,6 +14,10 @@ _ @basic.ui.shader.node3.inc;
 
 draw(r0, 19201);
 
+
+_ @dota.minimap.inc;
+l11;
+new.minimap(r0, 0,0,1,100,100, 0);
 
 
 #y:=100;
@@ -101,7 +64,7 @@ if (r0) {
 
 
 # MINIMAP0 ]
-
+# INFO [
 _ @4;
 
 info {
@@ -113,7 +76,7 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-40,1/2, O1, minimap.at(1));
 lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-50,1/2, O14, minimap.at(14));
 };
 info;
-
+# INFO ]
 # TOUCH [
 
 _ @sys.touch;
@@ -243,16 +206,5 @@ i:=0;while(i<count) {
 
 
 
-### minimap.viewport
-
-w:=100;
-h:=100;
-
-
-
-### minimap.viewport.draw
-
-color(u0, 1,1,1,1);
-rect(u0, 6, 0,0, w,h);
 
 
