@@ -96,6 +96,7 @@ dx 0;
 dy 0;
 
 minimap.set.xy {
+  l11;
  node.set.xy(u0, minimap0, _0,_1);
 };
 
