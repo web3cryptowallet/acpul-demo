@@ -96,7 +96,6 @@ touch.ev {
   sx:=o2;
   sy:=o3;
   pressed:=1;
-  l11;
   minimap.set.xy(sx,sy);
   events.push(u0, ui.pool,owner, ui.event.touch.began, o0,o1,o2,o3);
  };
@@ -106,7 +105,7 @@ touch.ev {
   dy:=o3-sy;
   sx:=o2;
   sy:=o3;
-#  minimap.set.xy(sx,sy);
+  minimap.set.xy(sx,sy);
   events.push(u0, ui.pool,owner, ui.event.touch.move, o0,o1,dx,dy);
  };
  ended {
