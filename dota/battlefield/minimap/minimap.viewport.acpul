@@ -10,7 +10,7 @@ draw.fid(minimap.viewport.draw);
 if (r0) {
  x:=rnd(u0)*10;
 };
-x:=rnd(u0)*10;
+#x:=rnd(u0)*10;
 
 
 ### minimap.viewport.draw
