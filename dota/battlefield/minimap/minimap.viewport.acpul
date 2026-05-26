@@ -3,6 +3,9 @@
 w:=100;
 h:=100;
 
+_ @help.inc1;
+
+draw.fid(minimap.viewport.draw);
 
 
 ### minimap.viewport.draw
