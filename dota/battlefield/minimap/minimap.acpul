@@ -81,7 +81,7 @@ dy 0;
 minimap.set.xy {
  # x:y
  x0 _0-x;
- y0 _1-y
+ y0 _1-y;
 # x1 node.get.x(u0, nid)-x;
 # y1 node.get.y(u0, nid)-y;
 # y0 0+mod();
