@@ -84,7 +84,7 @@ minimap.set.xy {
  y _1;
  x0 node.get.x(u0, nid)+x;
  y0 node.get.y(u0, nid)+y;
- y0 0;
+# y0 0+mod();
  node.set.xy(u0, miniview0, x0,y0);
 };
 
