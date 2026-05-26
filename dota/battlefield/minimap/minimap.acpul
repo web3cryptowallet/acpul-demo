@@ -116,6 +116,8 @@ info;
 
 # TOUCH [
 
+_ @sys.touch;
+
 sx 0;
 sy 0;
 dx 0;
