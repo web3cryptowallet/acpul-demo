@@ -114,6 +114,42 @@ lbl0 0; val0 0; ui.value4(lbl0,val0,0,h-50,1/2, O14, minimap.at(14));
 };
 info;
 
+# TOUCH [
+
+sx 0;
+sy 0;
+dx 0;
+dy 0;
+
+pressed r3;
+touch.ev {
+ began {
+  # x,y 
+  sx:=o2;
+  sy:=o3;
+  pressed:=1;
+  events.push(u0, ui.pool,owner, ui.event.touch.began, o0,o1,o2,o3);
+ };
+ moved {
+  # x,y
+  dx:=o2-sx;
+  dy:=o3-sy;
+  sx:=o2;
+  sy:=o3;
+  events.push(u0, ui.pool,owner, ui.event.touch.move, o0,o1,dx,dy);
+ };
+ ended {
+  # x,y
+  pressed:=0;
+  events.push(u0, ui.pool,owner, ui.event.touch.end, o0,o1,o2,o3);
+ };
+};
+
+touch.rect2.lock(touch.id, 0,0,w,h);
+
+_ @sys.touch.ev.process.run;
+
+# TOUCH ]
 
 
 ### 19201 DOTA::minimap.draw
