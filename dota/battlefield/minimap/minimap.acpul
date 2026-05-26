@@ -20,6 +20,8 @@ draw(r0, 19201);
 
 _ @dota.minimap.inc;
 l11;
+new.minimap 0;
+
 new.minimap(r0, 0,0,1,100,100, 0);
 
 
