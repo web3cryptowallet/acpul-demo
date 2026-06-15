@@ -473,6 +473,9 @@ if (BOOT.WINAMP*r0) {
  new.winamp;
 };
 
+if (r0) {
+ node.new.this.ex(r0, NNN(acpu.debugger.test), 0);
+};
 
 _ @boot.menu;
 
