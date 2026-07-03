@@ -91,7 +91,7 @@ VIDEO.REC.SECONDS 500;
 KEYBOARD.BUTTON.FONT {pool 2026; id 7; i 5;};
 TEXTEDIT.FONT {pool 2026; id 7; i 5;};
 IDE.TEXTEDIT.FONT {pool 2026; id 7; i 5;};
-
+PLAYER.FONT {pool 2026; id 7; i 5;};
 
 ### 998 private.strings.ENCRYPTED
 
