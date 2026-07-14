@@ -168,7 +168,7 @@ net.reset.after.update(2, 1000);
 
 NNN node.fid.by.name(u0, _0);
 
-
+# LLOG [
 
 _ @sys.llog;
 #llog.host(u0, 192,168,1,154, 8995); 
@@ -179,6 +179,12 @@ llog.host(u0, 192,168,0,117, 8995);
 llog.enable(u0, 1);
 
 #draw(r0, 1001);
+
+# LLOG ]
+
+if (r0) {
+ cpu.frame.dt(u0, -1);
+};
 
 
 #_ @boot.sharedobj;
