@@ -182,9 +182,13 @@ llog.enable(u0, 1);
 
 # LLOG ]
 
+# !COMMON [
+
 if (r0) {
  cpu.frame.dt(u0, -1);
 };
+
+# !COMMON ]
 
 
 #_ @boot.sharedobj;
