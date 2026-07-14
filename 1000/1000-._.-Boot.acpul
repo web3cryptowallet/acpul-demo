@@ -499,7 +499,7 @@ if (r0) {
 #new.ui.shader.node3(sn0, 0,0,1*1.5, 500,500, 70014,29356); # driving56
 # new.ui.shader.node3(sn0, 0,0,1*1.5*2, 500/2,500/2, 70014,29356); # driving56
 # new.ui.shader.node3(sn0, 0,0,1*1.5*4, 500/4,500/4, 70014,29356); # driving56
- q 0.1;
+ q 0.5;
  new.ui.shader.node3(sn0, 0,0,1*1.5*q, 500/q,500/q, 70014,29356); # driving56
 };
 
