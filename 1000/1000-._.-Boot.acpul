@@ -483,7 +483,8 @@ if (BOOT.WINAMP*r0) {
 if (r0) {
 # node.new.this.ex(r0, NNN(acpu.debugger.test), 0);
 # new.ui.shader.node3(sn0, 0,0,1*2, 300/2,300/2, 70014,29356); # driving56
- new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,29356); # driving56
+# new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,29356); # driving56
+ new.ui.shader.node3(sn0, 0,0,1*2, 500,500, 70014,29356); # driving56
 };
 
 _ @boot.menu;
