@@ -492,8 +492,18 @@ if (BOOT.WINAMP*r0) {
  new.winamp;
 };
 
+# DEBUGGER TEST
+
 if (r0) {
 # node.new.this.ex(r0, NNN(acpu.debugger.test), 0);
+};
+
+# GTA7 [
+
+if (r0) {
+   _ @util.i18n;
+ i18n.load(NNN(album.i18n));
+
 # new.ui.shader.node3(sn0, 0,0,1*2, 300/2,300/2, 70014,29356); # driving56
 # new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,29356); # driving56
 #new.ui.shader.node3(sn0, 0,0,1*1.5, 500,500, 70014,29356); # driving56
@@ -511,12 +521,14 @@ if (r0) {
  new.ui.shader.node3(sn0, 0,0,1*1.5*q, 500/q,500/q, 70014,29356); # driving56 shader.car
  shader.set.uniform.v(sn0, A.time0, 100);
 
+
  tl0 0;
 
  new.text.label(tl0, 230,620,1, GTA7.the.car, 70, 1001,7,4, 29000,29015, 0);
 
-
 };
+
+# GTA7 ]
 
 _ @boot.menu;
 
