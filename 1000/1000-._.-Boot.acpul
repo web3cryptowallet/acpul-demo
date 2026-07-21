@@ -525,7 +525,7 @@ if (r0) {
 
  tl0 0;
 
- new.text.label(tl0, 20,570,1, GTA7.the.car, 70, 1001,7,4, 29000,29013, 0);
+ new.text.label(tl0, 20,570,1, GTA7.the.car, 70, 1001,7,4, 29000,29015, 0);
 
 };
 
