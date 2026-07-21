@@ -503,7 +503,7 @@ if (r0) {
 if (r0) {
  _ @util.i18n;
  i18n.load(NNN(gta7.i18n));
- 
+
 
 # new.ui.shader.node3(sn0, 0,0,1*2, 300/2,300/2, 70014,29356); # driving56
 # new.ui.shader.node3(sn0, 0,0,1, 500,500, 70014,29356); # driving56
@@ -517,7 +517,7 @@ if (r0) {
 # q 20;
 # q 8;
 # q 3;
- q 1;
+ q 0.5;
 # q 2;
  new.ui.shader.node3(sn0, 0,0,1*1.5*q, 500/q,500/q, 70014,29356); # driving56 shader.car
  shader.set.uniform.v(sn0, A.time0, 100);
