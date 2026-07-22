@@ -509,7 +509,7 @@ rrr+=1;
 #
 #};
 if (rrr==5)
- node.new.this.ex(r0, NNN(gta7), 0);
+ node.new.this.ex(u0, NNN(gta7), 0);
 };
 
 if (0) {
