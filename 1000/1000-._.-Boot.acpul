@@ -501,6 +501,10 @@ if (r0) {
 # GTA7 [
 
 if (r0) {
+ node.new.this.ex(r0, NNN(S.gta7), 0);
+};
+
+if (r0) {
  _ @util.i18n;
  i18n.load(NNN(gta7.i18n));
 
