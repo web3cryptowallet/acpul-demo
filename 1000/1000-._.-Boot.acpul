@@ -506,7 +506,7 @@ rrr+=1;
 #if (r0) {
 # node.new.this.ex(r0, NNN(gta7), 0);
 #};
-if (rrr==2) {
+if (rrr==3) {
  node.new.this.ex(u0, NNN(gta7), 0);
 };
 
